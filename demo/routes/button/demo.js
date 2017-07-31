@@ -228,18 +228,20 @@ export const ButtonDemoRoute = () => (
   
     <DemoSnippet title="Button can be an Anchor">
       <DemoPreview>
-        <Button
-          text="Link Button (inspect me)"
-          colorScheme="primary"
-          href="#/button/demo"
-          icon={{ name: 'link' }}
-        />
-        
-        <Button
-          text="Normal Button (inspect me)"
-          colorScheme="secondary"
-          icon={{ name: 'hand-pointer-o' }}
-        />
+        <TestBox contentSpaced>
+          <Button
+            text="Link Button (inspect me)"
+            colorScheme="primary"
+            href="#/button/demo"
+            icon={{ name: 'link' }}
+          />
+
+          <Button
+            text="Normal Button (inspect me)"
+            colorScheme="secondary"
+            icon={{ name: 'hand-pointer-o' }}
+          />
+        </TestBox>
       </DemoPreview>
       <DemoCode
         code={Snippet7}

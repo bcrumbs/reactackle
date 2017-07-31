@@ -4,6 +4,7 @@ import {
 } from '../../../theme/styleHelpers';
 
 export const demoSnippetConstants = {
-  similarItemsSpacing: baseModule(6),
+  similarItemsSpacing: baseModule(3),
   backgroundColor: colorWhite,
+  contentWidth: 640,
 };

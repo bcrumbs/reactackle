@@ -118,6 +118,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="crossAxisAlign: stretch"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -151,6 +152,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="crossAxisAlign: center"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -184,6 +186,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="crossAxisAlign: start"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -217,6 +220,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="crossAxisAlign: end"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -251,13 +255,13 @@ export const GridColumnDemoRoute = () => (
     
     <DemoSnippet title="Column: mainAxisAlign">
       <DemoPreview>
-        
         <TestBox
           bgColor="#f4f5fa"
           flex
           spaced
           minHeight="200px"
           title="mainAxisAlign: start"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -293,6 +297,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="mainAxisAlign: end"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -329,6 +334,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="mainAxisAlign: center"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -363,6 +369,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="mainAxisAlign: evenSpaceBetween"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}
@@ -397,6 +404,7 @@ export const GridColumnDemoRoute = () => (
           spaced
           minHeight="200px"
           title="mainAxisAlign: evenSpaceAround"
+          alignItems="stretch"
         >
           <Column
             size={{ xsmall: 6 }}

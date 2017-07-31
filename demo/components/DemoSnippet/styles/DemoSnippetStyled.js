@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { demoSnippetConstants } from './constants';
+import { colorBorder, baseModule } from '../../../theme/styleHelpers';
 
 /** STYLES */
 export const DemoSnippetStyled = styled.div`
@@ -11,6 +12,8 @@ export const DemoSnippetStyled = styled.div`
   
   & + & {
     margin-top: ${demoSnippetConstants.similarItemsSpacing}px;
+    padding-top: ${demoSnippetConstants.similarItemsSpacing}px;
+    border-top: 1px dotted ${colorBorder};
   }
 `;
 

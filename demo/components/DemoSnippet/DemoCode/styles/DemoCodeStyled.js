@@ -3,8 +3,9 @@
 import styled from 'styled-components';
 
 import {
+  contentWidth,
+  radiusDefault,
   paletteBlueGrey25,
-  colorBorder,
   fontSizeBody,
   bodyFontColor,
   fontFamilyMonospace,
@@ -13,10 +14,12 @@ import {
 /** STYLES */
 export const DemoCodeStyled = styled.div`
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: ${contentWidth}px;
   overflow-x: auto;
   padding: 0;
   background-color: ${paletteBlueGrey25};
-  border-top: 1px solid ${colorBorder};
   font-size: ${fontSizeBody}px;
   color: ${bodyFontColor};
   font-family: ${fontFamilyMonospace};
@@ -35,6 +38,10 @@ export const DemoCodeStyled = styled.div`
   .language-css .token.string,
   .style .token.string {
     background: transparent;
+  }
+  
+  @media only screen and (min-width: ${contentWidth}px) {
+    border-radius: ${radiusDefault}px;  
   }
 `;
 

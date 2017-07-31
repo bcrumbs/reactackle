@@ -14,6 +14,7 @@ const sidebarConstants = {
 };
 
 export default {
+  contentWidth: 960,
   colorBorder: paletteBlueGrey[100],
   
   color: {
