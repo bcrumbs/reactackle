@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip/> handles window resize and unmount 1`] = `
+<div
+  className="TooltipWrapperStyled__TooltipWrapperStyled-biwJij hjWdXa"
+  style={
+    Object {
+      "left": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="TooltipStyled__TooltipStyled-tDpAS koKzAH"
+  >
+    <div
+      className="TooltipContentStyled__TooltipContentStyled-cIzRdj bnimGM"
+    >
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip/> handles window resize and unmount 2`] = `
+<div
+  className="TooltipWrapperStyled__TooltipWrapperStyled-biwJij hjWdXa"
+  style={
+    Object {
+      "left": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="TooltipStyled__TooltipStyled-tDpAS koKzAH"
+  >
+    <div
+      className="TooltipContentStyled__TooltipContentStyled-cIzRdj bnimGM"
+    >
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip/> renders correctly if prop isVisible set true 1`] = `
+<div
+  className="TooltipWrapperStyled__TooltipWrapperStyled-biwJij hjWdXa"
+  style={
+    Object {
+      "left": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="TooltipStyled__TooltipStyled-tDpAS koKzAH"
+  >
+    <div
+      className="TooltipContentStyled__TooltipContentStyled-cIzRdj bnimGM"
+    >
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip/> renders correctly with default props 1`] = `null`;
+
+exports[`withTooltip renders correctly and calls instance methods 1`] = `null`;

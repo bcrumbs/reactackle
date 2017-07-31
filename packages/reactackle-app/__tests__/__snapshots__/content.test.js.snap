@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content/> renders correctly if contains children 1`] = `
+<div
+  className="ContentStyled__ContentStyled-qQZGb dqeojI"
+>
+  <div>
+    TEST
+  </div>
+</div>
+`;
+
+exports[`<Content/> renders correctly with default props 1`] = `
+<div
+  className="ContentStyled__ContentStyled-qQZGb dqeojI"
+/>
+`;

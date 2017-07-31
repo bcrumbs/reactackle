@@ -1,0 +1,31 @@
+<SelectBox
+  value={this.state.value}
+  options={sampleData}
+  placeholder={'Choose option...'}
+  onChange={this._handleChange}
+  label="Customized select box"
+/>
+
+<SelectBox
+  value={this.state.value}
+  options={data}
+  placeholder={'Choose option...'}
+  onChange={this._handleChange}
+  label="Native select box"
+  type="native"
+/>
+
+<SelectBox
+  value={this.state.value}
+  options={data}
+  placeholder={'Choose option...'}
+  onChange={this._handleChange}
+  label="Customized select box"
+  bordered
+/>
+
+const sampleData={[
+  { text: 'Option 1' },
+  { text: 'Option 2' },
+  { text: 'Option 3 - disabled', disabled: true },
+]}

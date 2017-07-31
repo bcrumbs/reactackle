@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> renders correctly if prop colorScheme="alert" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW iYlmKi"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="flatLight" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW dMGNte"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="info" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW gFExqB"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="link" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW koguhq"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="secondary" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW ffqgdu"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="success" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW LZrCr"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="warning" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW fSpHUo"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop colorScheme="white" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW knDuQM"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop disabled set true 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW bDSfgh"
+  disabled={true}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop icon="github" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW hBEqaq"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+>
+  <div
+    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ cDAfvs"
+    size="normal"
+  >
+    <span
+      className="fa fa-github IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq fYZtO"
+      color=""
+      onClick={[Function]}
+      rotate={0}
+      size="normal"
+    />
+  </div>
+</button>
+`;
+
+exports[`<Button/> renders correctly if prop kind="primary" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW eoRWbq"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop narrow set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW gloTkH"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop radius="default" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW hBEqaq"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop radius="none" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW goovwF"
+  disabled={false}
+  onClick={[Function]}
+  radius="none"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop radius="rounded" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW bxMMZa"
+  disabled={false}
+  onClick={[Function]}
+  radius="rounded"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop raised set to true 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW ehdwlW"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop size set inline 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW iCtnSn"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="inline"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop size set large 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW bbcCBM"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="large"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop size set small 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW jyHSoi"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="small"
+  title=""
+/>
+`;
+
+exports[`<Button/> renders correctly if prop text set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW dpftzj"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+>
+  <div
+    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    size="normal"
+  >
+    <div
+      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      size="normal"
+    >
+      test
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button/> renders correctly if prop text="foo" set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW dpftzj"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+>
+  <div
+    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    size="normal"
+  >
+    <div
+      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      size="normal"
+    >
+      foo
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button/> renders correctly if props narrow false and radius rounded 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW hXVAem"
+  disabled={false}
+  onClick={[Function]}
+  radius="rounded"
+  size="normal"
+  title=""
+>
+  <div
+    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    size="normal"
+  >
+    <div
+      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      size="normal"
+    >
+      test
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button/> renders correctly if props text and subtitle are set 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW khQtYH"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+>
+  <div
+    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    size="normal"
+  >
+    <div
+      className="ButtonSubtitleStyled__ButtonSubtitleStyled-gjOmZI jttTQz"
+      size="normal"
+    >
+      sup
+    </div>
+    <div
+      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      size="normal"
+    >
+      test
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button/> renders correctly with default props 1`] = `
+<button
+  className="ButtonStyled__Button-FHerW hBEqaq"
+  disabled={false}
+  onClick={[Function]}
+  radius="default"
+  size="normal"
+  title=""
+/>
+`;

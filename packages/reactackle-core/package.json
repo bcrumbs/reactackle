@@ -1,0 +1,37 @@
+{
+  "name": "reactackle-core",
+  "version": "0.0.1",
+  "description": "Core utils of the Reactackle ui library",
+  "scripts": {
+    "prepublishOnly": "npx babel ./src --out-dir ./dist"
+  },
+  "author": "braincrumbs",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "components",
+    "reactackle"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "color": "^2.0.0",
+    "hoist-non-react-methods": "^1.0.2",
+    "lodash.map": "^4.6.0",
+    "lodash.mapvalues": "^4.6.0",
+    "lodash.merge": "^4.6.0",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "prop-types": "^15.5.10",
+    "react-test-renderer": "^15.6.1"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}

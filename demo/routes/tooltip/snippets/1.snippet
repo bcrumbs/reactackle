@@ -1,0 +1,28 @@
+/../
+
+class SomeComponentTemplate extends Component {
+  render() {
+    const { text } = this.props;
+    return (
+      <div
+        onClick={this.props.toggleTooltip}
+        onFocus={this.props.showTooltip}
+        onBlur={this.props.hideTooltip}
+        onMouseEnter={this.props.showTooltip}
+        onMouseLeave={this.props.hideTooltip}
+        className="some-component has-tooltip"
+        tabIndex="1"
+      >
+        <strong>Hover me</strong>
+        <this.props.Tooltip text={text} />
+      </div>
+    );
+  }
+}
+
+SomeComponentTemplate.displayName = 'SomeComponent';
+export const SomeComponent = withTooltip(SomeComponentTemplate, true);
+
+/../
+
+<SomeComponent text="Tooltip" />

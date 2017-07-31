@@ -1,0 +1,33 @@
+{
+  "name": "reactackle-form",
+  "version": "0.0.1",
+  "description": "Form component of the Reactackle ui library",
+  "scripts": {
+    "prepublishOnly": "npx babel ./src --out-dir ./dist"
+  },
+  "author": "braincrumbs",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "components",
+    "reactackle"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "color": "^2.0.0",
+    "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "reactackle-core": "^0.0.1",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "react-test-renderer": "^15.6.1",
+    "reactackle-core": "^0.0.1"
+  }
+}

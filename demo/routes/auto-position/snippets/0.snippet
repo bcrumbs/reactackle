@@ -1,0 +1,28 @@
+/../
+
+_saveRef(ref) {
+  this.domNode = ref;
+}
+
+/../
+
+render() {
+  return (
+    <div>
+      <div ref={this._saveRef} />
+      <AutoPosition
+        parent={this.domNode}
+        positionX={this.state.positionX}
+        positionY={this.state.positionY}
+        type={this.state.type}
+        direction={this.state.direction}
+        allowedShowByCenter={this.state.allowedShowByCenter}
+        allowedSlideOnCurrentEdge={this.state.allowedSlideOnCurrentEdge}
+        allowedSlideOnOppositeEdge={this.state.allowedSlideOnOppositeEdge}
+        isOpened={this.state.visible}
+      >
+        {content}
+      </AutoPosition>
+    </div>
+  );
+}

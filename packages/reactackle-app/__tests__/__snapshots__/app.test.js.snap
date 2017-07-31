@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> renders correctly if contains children 1`] = `
+<div
+  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+>
+  <div
+    className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+  >
+    <div
+      className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+    />
+  </div>
+  <div
+    className="MainRegionStyled__MainRegionStyled-iLcjTc cWfuqc"
+  >
+    <div
+      className="ContentStyled__ContentStyled-qQZGb dqeojI"
+    >
+      <div>
+        TEST
+      </div>
+    </div>
+  </div>
+  <div
+    className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+  >
+    <div
+      className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+    />
+  </div>
+</div>
+`;
+
+exports[`<App/> renders correctly if prop fixed changing 1`] = `
+<div
+  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+>
+  <div
+    className="MainRegionStyled__MainRegionStyled-iLcjTc cWfuqc"
+  >
+    <div
+      className="ContentStyled__ContentStyled-qQZGb dqeojI"
+    >
+      <div>
+        TEST
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App/> renders correctly if prop fixed changing 2`] = `
+<div
+  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+>
+  <div
+    className="MainRegionStyled__MainRegionStyled-iLcjTc hPvWgA"
+  >
+    <div
+      className="ContentStyled__ContentStyled-qQZGb fuWFnf"
+    >
+      <div>
+        TEST
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App/> renders correctly if prop fixed set false 1`] = `
+<div
+  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+/>
+`;
+
+exports[`<App/> renders correctly if prop fixed set true 1`] = `
+<div
+  className="AppStyled__AppStyled-cpyMGw gTMLqj"
+/>
+`;
+
+exports[`<App/> renders correctly with default props 1`] = `
+<div
+  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+/>
+`;

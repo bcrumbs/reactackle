@@ -1,0 +1,12 @@
+import { Theme } from 'reactackle';
+import reactackleThemeMixin from './theme/reactackleThemeMixin';
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <Theme mixin={reactackleThemeMixin}>
+      ...your app content
+    </Theme>,
+
+    document.getElementById('container'),
+  );
+});

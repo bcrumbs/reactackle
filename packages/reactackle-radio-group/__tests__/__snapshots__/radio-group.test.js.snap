@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup/> handles onChange 1`] = `
+<div
+  className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
+>
+  <div
+    className="RadioStyled__RadioStyled-jaalqI bXNCba"
+  >
+    <input
+      checked={false}
+      disabled={false}
+      id="radio-0"
+      onChange={[Function]}
+      tabIndex="0"
+      type="radio"
+    />
+    <label
+      checked={false}
+      className="RadioLabelStyled__RadioLabelStyled-dllnoj cYjtBt"
+      disabled={false}
+      htmlFor="radio-0"
+    >
+      value1
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup/> handles onChange 2`] = `
+<div
+  className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
+>
+  <div
+    className="RadioStyled__RadioStyled-jaalqI bXNCba"
+  >
+    <input
+      checked={true}
+      disabled={false}
+      id="radio-0"
+      onChange={[Function]}
+      tabIndex="0"
+      type="radio"
+    />
+    <label
+      checked={true}
+      className="RadioLabelStyled__RadioLabelStyled-dllnoj kzRwPf"
+      disabled={false}
+      htmlFor="radio-0"
+    >
+      value1
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<RadioGroup/> handles props change 1`] = `
+<div
+  className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
+/>
+`;
+
+exports[`<RadioGroup/> handles props change 2`] = `
+<div
+  className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
+/>
+`;
+
+exports[`<RadioGroup/> renders correctly with default props 1`] = `
+<div
+  className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
+/>
+`;

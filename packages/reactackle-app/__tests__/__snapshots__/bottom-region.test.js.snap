@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BottomRegion/> renders correctly if prop fixed set false 1`] = `
+<div
+  className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+>
+  <div
+    className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+  />
+</div>
+`;
+
+exports[`<BottomRegion/> renders correctly if prop fixed set true 1`] = `
+<div
+  className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+>
+  <div
+    className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+  />
+</div>
+`;
+
+exports[`<BottomRegion/> renders correctly with default props 1`] = `
+<div
+  className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+>
+  <div
+    className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+  />
+</div>
+`;

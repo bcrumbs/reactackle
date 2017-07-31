@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container/> renders correctly with default props 1`] = `
+<div
+  className="ContainerStyled__ContainerStyled-dIlaGK WEtBj"
+/>
+`;

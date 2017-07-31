@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopRegion/> renders correctly if contains children 1`] = `
+<div
+  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+>
+  <div
+    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+  >
+    <div>
+      TEST
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TopRegion/> renders correctly if prop fixed set false 1`] = `
+<div
+  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+>
+  <div
+    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+  />
+</div>
+`;
+
+exports[`<TopRegion/> renders correctly if prop fixed set true 1`] = `
+<div
+  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+>
+  <div
+    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+  />
+</div>
+`;
+
+exports[`<TopRegion/> renders correctly with default props 1`] = `
+<div
+  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+>
+  <div
+    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+  />
+</div>
+`;

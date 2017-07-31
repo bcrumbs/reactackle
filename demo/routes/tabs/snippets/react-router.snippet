@@ -1,0 +1,12 @@
+const LinkWrapper = props => (
+  <Link to={props.href}>
+    {props.children}
+  </Link>
+);
+<Tabs
+  tabs={tabsData}
+  selected={this.state.selectedTab}
+  linkComponent={LinkWrapper}
+  onChange={this._handleTabSelection}
+  colorScheme="light"
+/>

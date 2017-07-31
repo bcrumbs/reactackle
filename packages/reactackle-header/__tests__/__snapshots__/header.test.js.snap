@@ -1,0 +1,939 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> renders correctly if backgroundColor set 1`] = `
+<Header
+  backgroundColor="red"
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor="red"
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc fkkfXt"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor="red"
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS fEvvEd"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if backgroundImage set 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage="example.png"
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderBackgroundContainerStyled
+            style={
+              Object {
+                "backgroundImage": "url(example.png)",
+              }
+            }
+          >
+            <div
+              className="HeaderBackgroundContainerStyled__HeaderBackgroundContainerStyled-fNtJOf iuncDK"
+              style={
+                Object {
+                  "backgroundImage": "url(example.png)",
+                }
+              }
+            />
+          </HeaderBackgroundContainerStyled>
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if behavior set type-2 and page scroll 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="fixed"
+  condensedHeaderHeight={50}
+  condenses={true}
+  keepCondensedHeader={true}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="fixed"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS WUUaI"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            >
+              <HeaderRegion
+                horizontalAlign="start"
+                size="default"
+                spread={true}
+                verticalAlign="stretch"
+              >
+                <HeaderRegionStyled
+                  horizontalAlign="start"
+                  size="default"
+                  spread={true}
+                  verticalAlign="stretch"
+                >
+                  <div
+                    className="HeaderRegionStyled__HeaderRegionStyled-inhHbA cRPYZE"
+                    size="default"
+                  >
+                    <HeaderTitle
+                      colorScheme="light"
+                      size="default"
+                    >
+                      <HeaderTitleStyled
+                        colorScheme="light"
+                        size="default"
+                      >
+                        <div
+                          className="HeaderTitleStyled__HeaderTitleStyled-ckLTnq imGdvH"
+                          size="default"
+                        >
+                          <div
+                            style={
+                              Object {
+                                "minHeight": "100px",
+                              }
+                            }
+                          >
+                            Header behavior set type-2
+                          </div>
+                        </div>
+                      </HeaderTitleStyled>
+                    </HeaderTitle>
+                  </div>
+                </HeaderRegionStyled>
+              </HeaderRegion>
+            </div>
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if behavior set type-2 and page scroll 2`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="fixed"
+  condensedHeaderHeight={50}
+  condenses={true}
+  keepCondensedHeader={true}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="fixed"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS WUUaI"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            >
+              <HeaderRegion
+                horizontalAlign="start"
+                size="default"
+                spread={true}
+                verticalAlign="stretch"
+              >
+                <HeaderRegionStyled
+                  horizontalAlign="start"
+                  size="default"
+                  spread={true}
+                  verticalAlign="stretch"
+                >
+                  <div
+                    className="HeaderRegionStyled__HeaderRegionStyled-inhHbA cRPYZE"
+                    size="default"
+                  >
+                    <HeaderTitle
+                      colorScheme="light"
+                      size="default"
+                    >
+                      <HeaderTitleStyled
+                        colorScheme="light"
+                        size="default"
+                      >
+                        <div
+                          className="HeaderTitleStyled__HeaderTitleStyled-ckLTnq imGdvH"
+                          size="default"
+                        >
+                          <div
+                            style={
+                              Object {
+                                "minHeight": "100px",
+                              }
+                            }
+                          >
+                            Header behavior set type-2
+                          </div>
+                        </div>
+                      </HeaderTitleStyled>
+                    </HeaderTitle>
+                  </div>
+                </HeaderRegionStyled>
+              </HeaderRegion>
+            </div>
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if change prop behavior set fixed 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if change prop behavior set fixed 2`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if change prop behavior set static 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="fixed"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="fixed"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS WUUaI"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if change prop behavior set static 2`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="fixed"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="fixed"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS WUUaI"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if change prop condenses 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={true}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if change prop condenses 2`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={true}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if have children label with id test 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            >
+              <label
+                id="test"
+              />
+            </div>
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if prop behavior set fixed 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="fixed"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="fixed"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS WUUaI"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if prop behavior set static 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if prop size set blank 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="blank"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="blank"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc jMDZsJ"
+      size="blank"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="blank"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS hnIGsf"
+          size="blank"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if prop size set default 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly if prop size set dense 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="dense"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="dense"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc hZxIRV"
+      size="dense"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="dense"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS loGLbB"
+          size="dense"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<Header/> renders correctly with default props 1`] = `
+<Header
+  backgroundColor=""
+  backgroundImage=""
+  behavior="static"
+  condensedHeaderHeight={0}
+  condenses={false}
+  keepCondensedHeader={false}
+  onChangeOffset={[Function]}
+  size="default"
+>
+  <HeaderStyled
+    customBackgroundColor=""
+    innerRef={[Function]}
+    size="default"
+  >
+    <header
+      className="HeaderStyled__HeaderStyled-flHfpc InTsh"
+      size="default"
+    >
+      <HeaderWrapperStyled
+        behavior="static"
+        customBackgroundColor=""
+        innerRef={[Function]}
+        size="default"
+      >
+        <div
+          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS ebpWqh"
+          size="default"
+        >
+          <HeaderContentWrapperStyled>
+            <div
+              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+            />
+          </HeaderContentWrapperStyled>
+        </div>
+      </HeaderWrapperStyled>
+      <mockConstructor
+        handleWidth={true}
+        onResize={[Function]}
+      >
+        <div />
+      </mockConstructor>
+    </header>
+  </HeaderStyled>
+</Header>
+`;
+
+exports[`<HeaderRegion/> renders correctly with default props 1`] = `
+<div
+  className="HeaderRegionStyled__HeaderRegionStyled-inhHbA hIWcKH"
+  size="default"
+/>
+`;
+
+exports[`<HeaderTitle/> renders correctly with default props 1`] = `
+<div
+  className="HeaderTitleStyled__HeaderTitleStyled-ckLTnq imGdvH"
+  size="default"
+/>
+`;

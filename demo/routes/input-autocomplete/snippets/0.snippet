@@ -1,0 +1,33 @@
+const data = [
+  { value: 'Option 1'},
+  { value: 'Option 1.1'},
+  { value: 'Option 2'},
+  { value: 'Option 2.1'},
+];
+/../
+
+this.state = {
+  options: [],
+};
+
+/../
+
+_filterOptions(value) {
+  return data.filter(option => option.value.includes(value));
+}
+
+_handleChange({ value, option, complete }) {
+  if (option || complete) return;
+    this.setState({
+      options: this._filterOptions(value),
+    });
+  }
+}
+
+/../
+
+<InputAutocomplete
+  onChange={this._handleChangeSnippet}
+  options={this.state.options}
+  placeholder="Default InputAutocomplete"
+/>

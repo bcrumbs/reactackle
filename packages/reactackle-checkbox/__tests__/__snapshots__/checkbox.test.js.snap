@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox/> could one call onChange event before call change event on <input/> 1`] = `
+<div
+  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+>
+  <div
+    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+  >
+    <input
+      checked={false}
+      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      disabled={false}
+      id="checkbox-5"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      checked={false}
+      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd fNKgYD"
+      disabled={false}
+      htmlFor="checkbox-5"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cAoYPJ"
+        disabled={false}
+      >
+        <span
+          className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          color=""
+          onClick={[Function]}
+          rotate={0}
+          size="normal"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
+<div
+  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+>
+  <div
+    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+  >
+    <input
+      checked={true}
+      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      disabled={false}
+      id="checkbox-1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      checked={true}
+      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd eOqbqR"
+      disabled={false}
+      htmlFor="checkbox-1"
+    >
+      <div
+        checked={true}
+        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf bfdZzE"
+        disabled={false}
+      >
+        <span
+          className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          color=""
+          onClick={[Function]}
+          rotate={0}
+          size="normal"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
+<div
+  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+>
+  <div
+    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+  >
+    <input
+      checked={true}
+      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      disabled={false}
+      id="checkbox-2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      checked={true}
+      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd eOqbqR"
+      disabled={false}
+      htmlFor="checkbox-2"
+    >
+      <div
+        checked={true}
+        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf bfdZzE"
+        disabled={false}
+      >
+        <span
+          className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          color=""
+          onClick={[Function]}
+          rotate={0}
+          size="normal"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
+<div
+  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+>
+  <div
+    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+  >
+    <input
+      checked={false}
+      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      disabled={true}
+      id="checkbox-3"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      checked={false}
+      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd kGhxfp"
+      disabled={true}
+      htmlFor="checkbox-3"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf jqZyCc"
+        disabled={true}
+      >
+        <span
+          className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          color=""
+          onClick={[Function]}
+          rotate={0}
+          size="normal"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
+<div
+  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+>
+  <div
+    className="CheckboxElementStyled__CheckboxElementStyled-eusquv hGRJyk"
+  >
+    <input
+      checked={false}
+      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      disabled={false}
+      id="checkbox-4"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      checked={false}
+      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd cIBKjD"
+      disabled={false}
+      htmlFor="checkbox-4"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cAoYPJ"
+        disabled={false}
+      >
+        <span
+          className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          color=""
+          onClick={[Function]}
+          rotate={0}
+          size="normal"
+        />
+      </div>
+      <span>
+        <span
+          className="LabelTextStyled__LabelTextStyled-cwgMXD deadId"
+        >
+          test
+        </span>
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`<Checkbox/> renders correctly with default props 1`] = `
+<div
+  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+>
+  <div
+    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+  >
+    <input
+      checked={false}
+      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      disabled={false}
+      id="checkbox-0"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      checked={false}
+      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd fNKgYD"
+      disabled={false}
+      htmlFor="checkbox-0"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cAoYPJ"
+        disabled={false}
+      >
+        <span
+          className="fa fa-check IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          color=""
+          onClick={[Function]}
+          rotate={0}
+          size="normal"
+        />
+      </div>
+    </label>
+  </div>
+</div>
+`;

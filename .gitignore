@@ -1,0 +1,14 @@
+# User-specific stuff:
+.idea/
+.vscode/
+wallaby.conf.js
+
+# Build files
+dist/
+
+#node modules
+node_modules
+
+.DS_Store
+demo/.DS_Store
+lerna-debug.log

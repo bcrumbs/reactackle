@@ -1,0 +1,48 @@
+const mixin1 = {
+  color: {
+    main: 'palevioletred',
+  },
+};
+
+const mixin2 = {
+  color: {
+    mainFgTextColor: 'gold',
+  },
+  components: {
+    button: {
+      colorScheme: {
+        primary: {
+          backgroundColor: 'black',
+        },
+      },
+    },
+  },
+};
+
+const userTheme1 = {
+  myTheme: {
+    customStyle: '10px',
+  },
+};
+
+const userTheme2 = {
+  myTheme: {
+    customStyle: '20px',
+  },
+};
+
+/../
+
+<Button colorScheme="primary" text="primary button" />
+
+<ThemeProvider theme={userTheme1}>
+  <Theme mixin={mixin1}>
+    <Button colorScheme="primary" text="primary button styled" />
+  </Theme>
+</ThemeProvider>
+
+<Theme mixin={mixin2}>
+  <ThemeProvider theme={userTheme2}>
+    <Button colorScheme="primary" text="primary button styled" />
+  </ThemeProvider>
+</Theme>

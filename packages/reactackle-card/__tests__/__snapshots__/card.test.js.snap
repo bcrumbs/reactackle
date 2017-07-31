@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card/> renders correctly if contains CardAreaSide 1`] = `
+<div
+  className="CardStyled__CardStyled-eJSFSH fyQMjO"
+  elevation={1}
+>
+  <div
+    className="CardAreaSideStyled__CardAreaSideStyled-klcSJB bPtjYI"
+  />
+</div>
+`;
+
+exports[`<Card/> renders correctly if prop size changing 1`] = `
+<div
+  className="CardStyled__CardStyled-eJSFSH fyQMjO"
+  elevation={1}
+>
+  <div
+    className="CardContentStyled__CardContentStyled-hMBOcO fXopJn"
+    size="large"
+  />
+</div>
+`;
+
+exports[`<Card/> renders correctly if prop size changing 2`] = `
+<div
+  className="CardStyled__CardStyled-eJSFSH fyQMjO"
+  elevation={1}
+>
+  <div
+    className="CardContentStyled__CardContentStyled-hMBOcO cDOIHQ"
+    size="xlarge"
+  />
+</div>
+`;
+
+exports[`<Card/> renders correctly with default props 1`] = `
+<div
+  className="CardStyled__CardStyled-eJSFSH fyQMjO"
+  elevation={1}
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardActions/> renders correctly with default props 1`] = `
+<div
+  className="CardActionsStyled__CardActionsStyled-krJqfT dsKsjO"
+  size="default"
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardActionsMain/> renders correctly with default props 1`] = `
+<div
+  className="CardActionsMainStyled__CardActionsMainStyled-iCdkJj diWoSU"
+  size="default"
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardActionsSupplemental/> renders correctly with default props 1`] = `
+<div
+  className="CardActionsSupplementalStyled__CardActionsSupplementalStyled-hKYSZd iAxNUx"
+  size="default"
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardAreaMain/> renders correctly with default props 1`] = `
+<div
+  className="CardAreaMainStyled__CardAreaMainStyled-gEZBHh kLZvgh"
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardAreaSide/> renders correctly with default props 1`] = `
+<div
+  className="CardAreaSideStyled__CardAreaSideStyled-klcSJB bPtjYI"
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardContent/> renders correctly if prop last set false 1`] = `
+<div
+  className="CardContentStyled__CardContentStyled-hMBOcO hhxBCm"
+  size="default"
+/>
+`;
+
+exports[`<CardContent/> renders correctly if prop last set true 1`] = `
+<div
+  className="CardContentStyled__CardContentStyled-hMBOcO eVnjPz"
+  size="default"
+/>
+`;
+
+exports[`<CardContent/> renders correctly with default props 1`] = `
+<div
+  className="CardContentStyled__CardContentStyled-hMBOcO hhxBCm"
+  size="default"
+>
+  <div>
+     test 
+  </div>
+</div>
+`;
+
+exports[`<CardContentText/> renders correctly with default props 1`] = `
+<p
+  className="CardContentTextStyled__CardContentTextStyled-gPTLPg cjSSBN"
+  size="default"
+>
+  <div>
+     test 
+  </div>
+</p>
+`;
+
+exports[`<CardHeaderPrimary/> renders correctly if prop subtitle set test 1`] = `
+<div
+  className="CardHeaderPrimaryStyled__CardHeaderPrimaryStyled-blLQvc koePMq"
+  size="default"
+>
+  <div
+    className="CardHeaderBoxStyled__CardHeaderBoxStyled-jCIYQY kqqbld"
+  >
+    <h2
+      className="CardHeaderTextStyled__CardHeaderTextStyled-chNYyv jYrvzb"
+      size="default"
+    >
+      
+    </h2>
+    <div
+      className="CardSubheaderStyled__CardSubheaderStyled-iuRzov ehjPbc"
+      size="default"
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardHeaderPrimary/> renders correctly if prop title set test 1`] = `
+<div
+  className="CardHeaderPrimaryStyled__CardHeaderPrimaryStyled-blLQvc koePMq"
+  size="default"
+>
+  <div
+    className="CardHeaderBoxStyled__CardHeaderBoxStyled-jCIYQY kqqbld"
+  >
+    <h2
+      className="CardHeaderTextStyled__CardHeaderTextStyled-chNYyv jYrvzb"
+      size="default"
+    >
+      test
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`<CardHeaderPrimary/> renders correctly with default props 1`] = `
+<div
+  className="CardHeaderPrimaryStyled__CardHeaderPrimaryStyled-blLQvc koePMq"
+  size="default"
+>
+  <div
+    className="CardHeaderBoxStyled__CardHeaderBoxStyled-jCIYQY kqqbld"
+  >
+    <h2
+      className="CardHeaderTextStyled__CardHeaderTextStyled-chNYyv jYrvzb"
+      size="default"
+    >
+      
+    </h2>
+  </div>
+  <div
+    className="CardHeaderMediaStyled__CardHeaderMediaStyled-csPshN jnnETs"
+    size="default"
+  >
+    <div>
+       test 
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardHeaderSecondary/> renders correctly if prop image set image.png 1`] = `
+<div
+  className="CardHeaderSecondaryStyled__CardHeaderSecondaryStyled-kgMVIc kQHLXM"
+  size="default"
+>
+  <div
+    className="CardHeaderSecondaryImageStyled__CardHeaderSecondaryImageStyled-hAjYFh jNrIUE"
+    size="default"
+    style={
+      Object {
+        "backgroundImage": "url('./image.png')",
+      }
+    }
+  />
+  <div
+    className="CardHeaderSecondaryTextBoxStyled__CardHeaderSecondaryTextBoxStyled-bHIeLW itQPOq"
+  >
+    <div
+      className="CardHeaderSecondaryTextStyled__CardHeaderSecondaryTextStyled-gVDAjo eBByok"
+      size="default"
+    >
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardHeaderSecondary/> renders correctly if prop subtitle set test 1`] = `
+<div
+  className="CardHeaderSecondaryStyled__CardHeaderSecondaryStyled-kgMVIc kQHLXM"
+  size="default"
+>
+  <div
+    className="CardHeaderSecondaryTextBoxStyled__CardHeaderSecondaryTextBoxStyled-bHIeLW itQPOq"
+  >
+    <div
+      className="CardHeaderSecondaryTextStyled__CardHeaderSecondaryTextStyled-gVDAjo eBByok"
+      size="default"
+    >
+      
+    </div>
+    <div
+      className="CardSubheaderSecondaryStyled__CardSubheaderSecondaryStyled-gWKQpk bBlQoZ"
+      size="default"
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardHeaderSecondary/> renders correctly if prop title set test 1`] = `
+<div
+  className="CardHeaderSecondaryStyled__CardHeaderSecondaryStyled-kgMVIc kQHLXM"
+  size="default"
+>
+  <div
+    className="CardHeaderSecondaryTextBoxStyled__CardHeaderSecondaryTextBoxStyled-bHIeLW itQPOq"
+  >
+    <div
+      className="CardHeaderSecondaryTextStyled__CardHeaderSecondaryTextStyled-gVDAjo eBByok"
+      size="default"
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardHeaderSecondary/> renders correctly with default props 1`] = `
+<div
+  className="CardHeaderSecondaryStyled__CardHeaderSecondaryStyled-kgMVIc kQHLXM"
+  size="default"
+>
+  <div
+    className="CardHeaderSecondaryTextBoxStyled__CardHeaderSecondaryTextBoxStyled-bHIeLW itQPOq"
+  >
+    <div
+      className="CardHeaderSecondaryTextStyled__CardHeaderSecondaryTextStyled-gVDAjo eBByok"
+      size="default"
+    >
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardMedia/> renders correctly with default props 1`] = `
+<div
+  className="CardMediaStyled__CardMediaStyled-fKywaR jsYxxA"
+>
+  <div
+    className="CardMediaContentStyled__CardMediaContentStyled-beSjpe fftELU"
+  >
+    <div>
+       test 
+    </div>
+  </div>
+</div>
+`;

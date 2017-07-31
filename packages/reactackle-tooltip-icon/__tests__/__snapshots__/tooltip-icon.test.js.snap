@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TooltipIcon/> renders correctly with default props 1`] = `
+<div
+  className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  tabIndex={1}
+>
+  <span>
+    ?
+  </span>
+</div>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlexRegion/> renders correctly with default props 1`] = `
+<div
+  className="FlexRegionStyled__FlexRegionStyled-gNDLzg dxlZxZ"
+/>
+`;

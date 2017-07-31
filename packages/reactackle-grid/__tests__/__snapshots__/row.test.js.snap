@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row/> renders correctly if behavior set collapse 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup gPpOhh"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly if behavior set nest 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup gPpOhh"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly if collapse set 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup gPpOhh"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly if expandRatio set 0.5 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup bCVeML"
+  style={
+    Object {
+      "flexGrow": 0.5,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly if layoutDirection set horizontal 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup gPpOhh"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly if layoutDirection set vertical 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup coNMAF"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly if spacing set true 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup gPpOhh"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Row/> renders correctly with default props 1`] = `
+<div
+  className="RowStyled__RowStyled-bKBgup gPpOhh"
+  style={
+    Object {
+      "flexGrow": 0,
+    }
+  }
+/>
+`;

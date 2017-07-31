@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form/> handles submit event 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+  >
+    test
+  </div>
+</form>
+`;
+
+exports[`<Form/> renders correctly if prop errorMessage set 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+  >
+    test
+  </div>
+</form>
+`;
+
+exports[`<Form/> renders correctly with default props 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input />
+</form>
+`;
+
+exports[`<Form/> renders correctly, handles update and scrolls to field 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+  >
+    test
+  </div>
+</form>
+`;
+
+exports[`<Form/> renders correctly, handles update and scrolls to field 2`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+  >
+    test
+  </div>
+</form>
+`;
+
+exports[`<FormItem> renders correctly with default props 1`] = `
+<div
+  className="FormItemStyled__FormItemStyled-hkjwur jryRdW"
+/>
+`;

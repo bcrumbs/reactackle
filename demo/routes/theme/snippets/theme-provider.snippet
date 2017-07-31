@@ -1,0 +1,17 @@
+import { ThemeProvider } from 'styled-components';
+import { Theme } from 'reactackle';
+
+import reactackleThemeMixin from './theme/reactackleThemeMixin';
+import customTheme from './theme/theme';
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <Theme mixin={reactackleThemeMixin}>
+      <ThemeProvider theme={customTheme}>
+        ...your app content
+      </Theme>,
+    </Theme>,
+
+    document.getElementById('container'),
+  );
+});
