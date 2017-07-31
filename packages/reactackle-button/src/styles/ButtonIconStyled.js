@@ -37,8 +37,14 @@ const iconSizeProps = ({ size }) => css`
     ? `
       width: 1em;
       height: 1em;
-      line-height: 1em;
+      line-height: inherit;
       font-size: 1em;
+      display: inline-flex;
+      align-self: center;
+      
+      & > *::before {
+        line-height: 1;
+      }
     `
     : null}
 `;

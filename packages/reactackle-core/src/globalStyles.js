@@ -16,7 +16,7 @@ export const injectGlobalStyle = () => {
       cursor: default;
       background-color: ${base.body.backgroundColor};
       color: ${base.body.fontColor};
-      font-family: ${base.body.fontFamily};
+      font-family: ${base.fontFamily[base.body.fontFamily]};
       font-weight: ${base.body.fontWeight};
       line-height: ${base.body.lineHeight};
       position: relative;
