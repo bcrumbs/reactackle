@@ -1,5 +1,8 @@
 
 # Reactackle
+[![Build Status](https://travis-ci.org/bcrumbs/reactackle.svg?branch=master)](https://travis-ci.org/bcrumbs/reactackle)
+[![Coverage Status](https://coveralls.io/repos/github/bcrumbs/reactackle/badge.svg?branch=master)](https://coveralls.io/github/bcrumbs/reactackle?branch=master)
+
 **A new open-source components library based on [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
 
 Reactackle is a family of components that make it easy to design beautiful websites and apps. It's still young but we are going to constantly add new components.
