@@ -25,35 +25,37 @@ npm install reactackle-button --save
 ```
 
 ## Docs
-* [Getting Started](http://reactackle.braincrumbs.io/docs)
+* [Getting Started](http://reactackle-docs.braincrumbs.io)
 
 #### Component Demos
-* [App](http://reactackle.braincrumbs.io/docs/app/demo)
-* [Auto Position](http://reactackle.braincrumbs.io/docs/auto-position/demo)
-* [Button](http://reactackle.braincrumbs.io/docs/button/demo)
-* [Card](http://reactackle.braincrumbs.io/docs/card/demo)
-* [Checkbox](http://reactackle.braincrumbs.io/docs/checkbox/demo)
-* [Dialog](http://reactackle.braincrumbs.io/docs/dialog/demo)
-* [Form](http://reactackle.braincrumbs.io/docs/form/demo)
-* [Grid / Column](http://reactackle.braincrumbs.io/docs/grid-column/demo)
-* [Grid / Row](http://reactackle.braincrumbs.io/docs/grid-row/demo)
-* [Header](http://reactackle.braincrumbs.io/docs/header/demo)
-* [Icon](http://reactackle.braincrumbs.io/docs/icon/demo)
-* [Input Autocomplete](http://reactackle.braincrumbs.io/docs/input-autocomplete/demo)
-* [Radio Group](http://reactackle.braincrumbs.io/docs/radio/demo)
-* [Select Box](http://reactackle.braincrumbs.io/docs/select-box/demo)
-* [Sidebar](http://reactackle.braincrumbs.io/docs/sidebar/demo)
-* [Tabs](http://reactackle.braincrumbs.io/docs/tabs/demo)
-* [Text Field](http://reactackle.braincrumbs.io/docs/text-field/demo)
-* [Toggle Button](http://reactackle.braincrumbs.io/docs/toggle-button/demo)
-* [Tooltip](http://reactackle.braincrumbs.io/docs/tooltip/demo)
-* [Tooltip Icon](http://reactackle.braincrumbs.io/docs/tooltip-icon/demo)
+* [App](http://reactackle-docs.braincrumbs.io/#/app/demo)
+* [Auto Position](http://reactackle-docs.braincrumbs.io/#/auto-position/demo)
+* [Button](http://reactackle-docs.braincrumbs.io/#/button/demo)
+* [Card](http://reactackle-docs.braincrumbs.io/#/card/demo)
+* [Checkbox](http://reactackle-docs.braincrumbs.io/#/checkbox/demo)
+* [Dialog](http://reactackle-docs.braincrumbs.io/#/dialog/demo)
+* [Form](http://reactackle-docs.braincrumbs.io/#/form/demo)
+* [Grid / Column](http://reactackle-docs.braincrumbs.io/#/grid-column/demo)
+* [Grid / Row](http://reactackle-docs.braincrumbs.io/#/grid-row/demo)
+* [Header](http://reactackle-docs.braincrumbs.io/#/header/demo)
+* [Icon](http://reactackle-docs.braincrumbs.io/#/icon/demo)
+* [Input Autocomplete](http://reactackle-docs.braincrumbs.io/#/input-autocomplete/demo)
+* [Radio Group](http://reactackle-docs.braincrumbs.io/#/radio/demo)
+* [Select Box](http://reactackle-docs.braincrumbs.io/#/select-box/demo)
+* [Sidebar](http://reactackle-docs.braincrumbs.io/#/sidebar/demo)
+* [Tabs](http://reactackle-docs.braincrumbs.io/#/tabs/demo)
+* [Text Field](http://reactackle-docs.braincrumbs.io/#/text-field/demo)
+* [Toggle Button](http://reactackle-docs.braincrumbs.io/#/toggle-button/demo)
+* [Tooltip](http://reactackle-docs.braincrumbs.io/#/tooltip/demo)
+* [Tooltip Icon](http://reactackle-docs.braincrumbs.io/#/tooltip-icon/demo)
 
 ## Browser Support
 At present we aim to support the last two versions of the following browsers: Chrome, Edge, Firefox, Safari, Opera.
 
 ## Contributing
-Contributions are welcome! Feel free to submit an issue.
+Contributions are welcome!
+
+Also we're opened to any proposals. Feel free to submit an issue.
 
 ## Stay in touch
 * [Twitter](https://twitter.com/@reactackle)
