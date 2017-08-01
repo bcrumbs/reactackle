@@ -32,17 +32,17 @@ export class SelectBoxDemoRoute extends Component {
   constructor(props) {
     super(props);
     
-    this.state = {
-      value: 1,
-    };
+    this.state = {};
     
     this._handleChange = this._handleChange.bind(this);
   }
   
-  _handleChange({ value }) {
-    this.setState({
-      value,
-    });
+  _handleChange(key) {
+    return ({ value }) => this.setState({ [key]: value });
+  }
+
+  _getValue(key) {
+    return this.state[key] ? this.state[key] : 1;
   }
   
   render() {
@@ -53,19 +53,19 @@ export class SelectBoxDemoRoute extends Component {
             <TestBox title="Default">
               <TestBox>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(0)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(0)}
                   label="Customized select box"
                 />
               </TestBox>
               <TestBox spaced>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(1)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(1)}
                   label="Native select box"
                   type="native"
                 />
@@ -75,20 +75,20 @@ export class SelectBoxDemoRoute extends Component {
             <TestBox title="Bordered">
               <TestBox>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(2)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(2)}
                   label="Customized select box"
                   bordered
                 />
               </TestBox>
               <TestBox spaced>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(3)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(3)}
                   label="Native select box"
                   type="native"
                   bordered
@@ -105,19 +105,19 @@ export class SelectBoxDemoRoute extends Component {
           <DemoPreview>
             <TestBox>
               <SelectBox
-                value={this.state.value}
+                value={this._getValue(4)}
                 options={data}
                 placeholder={'Choose option...'}
-                onChange={this._handleChange}
+                onChange={this._handleChange(4)}
                 label="label position: top"
               />
             </TestBox>
             <TestBox spaced>
               <SelectBox
-                value={this.state.value}
+                value={this._getValue(5)}
                 options={data}
                 placeholder={'Choose option...'}
-                onChange={this._handleChange}
+                onChange={this._handleChange(5)}
                 label="label position: side"
                 labelPosition="side"
               />
@@ -132,30 +132,30 @@ export class SelectBoxDemoRoute extends Component {
           <DemoPreview>
             <TestBox>
               <SelectBox
-                value={this.state.value}
+                value={this._getValue(6)}
                 options={data}
                 placeholder={'Choose option...'}
-                onChange={this._handleChange}
+                onChange={this._handleChange(6)}
                 label="Densed SelectBox"
                 dense
               />
             </TestBox>
             <TestBox spaced>
               <SelectBox
-                value={this.state.value}
+                value={this._getValue(7)}
                 options={data}
                 placeholder={'Choose option...'}
-                onChange={this._handleChange}
+                onChange={this._handleChange(7)}
                 label="FullWidth SelectBox"
                 fullWidth
               />
             </TestBox>
             <TestBox spaced>
               <SelectBox
-                value={this.state.value}
+                value={this._getValue(8)}
                 options={data}
                 placeholder={'Choose option...'}
-                onChange={this._handleChange}
+                onChange={this._handleChange(8)}
                 label="FullWidth & Dense SelectBox"
                 fullWidth
                 dense
@@ -172,19 +172,19 @@ export class SelectBoxDemoRoute extends Component {
             <TestBox title="Default">
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(9)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(9)}
                   label="SelectBox label"
                 />
               </FormItem>
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(10)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(10)}
                   label="SelectBox bordered"
                   bordered
                 />
@@ -193,20 +193,20 @@ export class SelectBoxDemoRoute extends Component {
             <TestBox spaced title="Disabled">
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(11)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(11)}
                   label="SelectBox label"
                   disabled
                 />
               </FormItem>
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(12)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(12)}
                   label="SelectBox label"
                   disabled
                   bordered
@@ -216,20 +216,20 @@ export class SelectBoxDemoRoute extends Component {
             <TestBox spaced title="Error">
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(13)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(13)}
                   label="SelectBox label"
                   colorScheme="error"
                 />
               </FormItem>
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(14)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(14)}
                   label="SelectBox label"
                   colorScheme="error"
                   bordered
@@ -239,20 +239,20 @@ export class SelectBoxDemoRoute extends Component {
             <TestBox spaced title="Success">
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(15)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(15)}
                   label="SelectBox label"
                   colorScheme="success"
                 />
               </FormItem>
               <FormItem>
                 <SelectBox
-                  value={this.state.value}
+                  value={this._getValue(16)}
                   options={data}
                   placeholder={'Choose option...'}
-                  onChange={this._handleChange}
+                  onChange={this._handleChange(16)}
                   label="SelectBox label"
                   colorScheme="success"
                   bordered
