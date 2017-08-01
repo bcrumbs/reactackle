@@ -18,6 +18,6 @@ deploy:
   skip_cleanup: true
   local_dir: dist
   github_token: $GITHUB_TOKEN
-  fqdn: reactackle.braincrumbs.io
+  fqdn: reactackle-docs.braincrumbs.io
   on:
     branch: master
