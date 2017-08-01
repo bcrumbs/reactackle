@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "lint:css": "stylelint './packages/**/src/styles/*.js'",
     "export_demo": "cd demo && node ./getAllRoutes ./routes && cd ..",
-    "bootstrap": "lerna bootstrap && lerna run prepublishOnly",
+    "bootstrap": "lerna bootstrap --hoist && lerna run prepublishOnly",
     "clean": "lerna exec -- rm -rf node_modules package-lock.json && rm -rf node_modules package-lock.json",
     "restart": "npm run clean && npm i && npm run bootstrap",
     "build": "webpack -d",
@@ -35,7 +35,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "color": "^1.0.3",
+    "color": "^2.0.0",
     "doctrine": "^2.0.0",
     "eslint": "^3.19.0",
     "lodash.kebabcase": "^4.1.1",
@@ -50,7 +50,7 @@
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.23.0",
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^6.3.0",

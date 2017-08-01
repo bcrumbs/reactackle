@@ -12,7 +12,7 @@ script:
   - npm run build
 cache:
   directories:
-    - node_modules
+    - node_modules/
 deploy:
   provider: pages
   skip_cleanup: true
