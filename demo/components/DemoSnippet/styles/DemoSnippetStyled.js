@@ -2,7 +2,7 @@
 
 import styled from 'styled-components';
 import { demoSnippetConstants } from './constants';
-import { colorBorder, baseModule } from '../../../theme/styleHelpers';
+import { colorBorder } from '../../../theme/styleHelpers';
 
 /** STYLES */
 export const DemoSnippetStyled = styled.div`
