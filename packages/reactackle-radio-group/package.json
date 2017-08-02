@@ -3,7 +3,7 @@
   "version": "0.0.2-beta.1",
   "description": "RadioGroup component of the Reactackle ui library",
   "scripts": {
-    "prepublishOnly": "npx babel ./src --out-dir ./dist"
+    "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
   },
   "author": "braincrumbs",
   "license": "MIT",
@@ -27,7 +27,8 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "react-test-renderer": "^15.6.1",
-    "reactackle-core": "^0.0.2-beta.1"
+    "reactackle-core": "^0.0.2-beta.1",
+    "rimraf": "^2.6.1"
   },
   "repository": {
     "type": "git",

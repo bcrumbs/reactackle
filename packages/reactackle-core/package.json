@@ -3,7 +3,7 @@
   "version": "0.0.2-beta.1",
   "description": "Core utils of the Reactackle ui library",
   "scripts": {
-    "prepublishOnly": "npx babel ./src --out-dir ./dist"
+    "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
   },
   "author": "braincrumbs",
   "license": "MIT",
@@ -32,7 +32,8 @@
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.24.1",
+    "rimraf": "^2.6.1"
   },
   "repository": {
     "type": "git",
