@@ -1,5 +1,6 @@
 
 # Reactackle
+[![npm version](https://badge.fury.io/js/reactackle.svg)](https://www.npmjs.org/package/reactackle)
 [![Build Status](https://travis-ci.org/bcrumbs/reactackle.svg?branch=master)](https://travis-ci.org/bcrumbs/reactackle)
 [![Coverage Status](https://coveralls.io/repos/github/bcrumbs/reactackle/badge.svg?branch=master)](https://coveralls.io/github/bcrumbs/reactackle?branch=master)
 
