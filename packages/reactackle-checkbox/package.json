@@ -1,6 +1,6 @@
 {
   "name": "reactackle-checkbox",
-  "version": "0.0.2-beta.1",
+  "version": "0.0.3-beta.1",
   "description": "Checkbox component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -18,19 +18,19 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10",
-    "reactackle-icon": "^0.0.2-beta.1",
-    "reactackle-tooltip": "^0.0.2-beta.1",
-    "reactackle-tooltip-icon": "^0.0.2-beta.1"
+    "reactackle-icon": "^0.0.3-beta.1",
+    "reactackle-tooltip": "^0.0.3-beta.1",
+    "reactackle-tooltip-icon": "^0.0.3-beta.1"
   },
   "peerDependencies": {
     "react": "^15.6.1",
-    "reactackle-core": "^0.0.2-beta.1",
+    "reactackle-core": "^0.0.3-beta.1",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "react-test-renderer": "^15.6.1",
-    "reactackle-core": "^0.0.2-beta.1",
+    "reactackle-core": "^0.0.3-beta.1",
     "rimraf": "^2.6.1"
   },
   "repository": {
