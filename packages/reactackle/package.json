@@ -1,6 +1,6 @@
 {
   "name": "reactackle",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.2-beta.1",
   "description": "React components library",
   "scripts": {
     "prepublishOnly": "npx babel ./src --out-dir ./dist"
@@ -17,26 +17,26 @@
     "dist"
   ],
   "dependencies": {
-    "reactackle-app": "^0.0.1-beta.1",
-    "reactackle-autoposition": "^0.0.1-beta.1",
-    "reactackle-button": "^0.0.1-beta.1",
-    "reactackle-card": "^0.0.1-beta.1",
-    "reactackle-checkbox": "^0.0.1-beta.1",
-    "reactackle-core": "^0.0.1-beta.1",
-    "reactackle-dialog": "^0.0.1-beta.1",
-    "reactackle-form": "^0.0.1-beta.1",
-    "reactackle-grid": "^0.0.1-beta.1",
-    "reactackle-header": "^0.0.1-beta.1",
-    "reactackle-icon": "^0.0.1-beta.1",
-    "reactackle-input-autocomplete": "^0.0.1-beta.1",
-    "reactackle-radio-group": "^0.0.1-beta.1",
-    "reactackle-selectbox": "^0.0.1-beta.1",
-    "reactackle-sidebar": "^0.0.1-beta.1",
-    "reactackle-tabs": "^0.0.1-beta.1",
-    "reactackle-text-field": "^0.0.1-beta.1",
-    "reactackle-toggle-button": "^0.0.1-beta.1",
-    "reactackle-tooltip": "^0.0.1-beta.1",
-    "reactackle-tooltip-icon": "^0.0.1-beta.1"
+    "reactackle-app": "^0.0.2-beta.1",
+    "reactackle-autoposition": "^0.0.2-beta.1",
+    "reactackle-button": "^0.0.2-beta.1",
+    "reactackle-card": "^0.0.2-beta.1",
+    "reactackle-checkbox": "^0.0.2-beta.1",
+    "reactackle-core": "^0.0.2-beta.1",
+    "reactackle-dialog": "^0.0.2-beta.1",
+    "reactackle-form": "^0.0.2-beta.1",
+    "reactackle-grid": "^0.0.2-beta.1",
+    "reactackle-header": "^0.0.2-beta.1",
+    "reactackle-icon": "^0.0.2-beta.1",
+    "reactackle-input-autocomplete": "^0.0.2-beta.1",
+    "reactackle-radio-group": "^0.0.2-beta.1",
+    "reactackle-selectbox": "^0.0.2-beta.1",
+    "reactackle-sidebar": "^0.0.2-beta.1",
+    "reactackle-tabs": "^0.0.2-beta.1",
+    "reactackle-text-field": "^0.0.2-beta.1",
+    "reactackle-toggle-button": "^0.0.2-beta.1",
+    "reactackle-tooltip": "^0.0.2-beta.1",
+    "reactackle-tooltip-icon": "^0.0.2-beta.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1"
