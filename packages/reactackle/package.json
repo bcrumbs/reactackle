@@ -40,5 +40,11 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcrumbs/reactackle.git"
+  },
+  "bugs": "https://github.com/bcrumbs/reactackle/issues",
+  "homepage": "https://reactackle.braincrumbs.io/"
 }
