@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/bcrumbs/reactackle.svg?branch=master)](https://travis-ci.org/bcrumbs/reactackle)
 [![Coverage Status](https://coveralls.io/repos/github/bcrumbs/reactackle/badge.svg?branch=master)](https://coveralls.io/github/bcrumbs/reactackle?branch=master)
 
-**A new open-source components library based on [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
+**An open-source components library built with [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
 
 Reactackle is a family of components that make it easy to design beautiful websites and apps. It's still young but we are going to constantly add new components.
 
@@ -56,7 +56,7 @@ At present we aim to support the last two versions of the following browsers: Ch
 ## Contributing
 Contributions are welcome!
 
-Also we're opened to any proposals. Feel free to submit an issue.
+Also we're opened to any proposals. Feel free to submit an issue or just [write us a few words](mailto:hello@braincrumbs.io).
 
 ## Stay in touch
 * [Twitter](https://twitter.com/@reactackle)

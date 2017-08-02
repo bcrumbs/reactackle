@@ -1,7 +1,7 @@
 # Reactackle-grid
 
 
-**Part of [Reactackle](https://www.npmjs.com/package/reactackle) - a new open-source components library based on [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
+**Part of [Reactackle](https://www.npmjs.com/package/reactackle) - an open-source components library built with [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
 
 ## Installation
 
