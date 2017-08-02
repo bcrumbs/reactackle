@@ -1,6 +1,6 @@
 {
   "name": "reactackle-radio-group",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "RadioGroup component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "npx babel ./src --out-dir ./dist"
@@ -18,7 +18,7 @@
   ],
   "peerDependencies": {
     "react": "^15.6.1",
-    "reactackle-core": "^0.0.1",
+    "reactackle-core": "^0.0.1-beta.1",
     "styled-components": "^2.1.1"
   },
   "dependencies": {
@@ -27,6 +27,6 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "react-test-renderer": "^15.6.1",
-    "reactackle-core": "^0.0.1"
+    "reactackle-core": "^0.0.1-beta.1"
   }
 }

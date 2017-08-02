@@ -1,6 +1,6 @@
 {
   "name": "reactackle-dialog",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "Dialog component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "npx babel ./src --out-dir ./dist"
@@ -19,16 +19,16 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-portal": "^3.1.0",
-    "reactackle-button": "^0.0.1",
-    "reactackle-icon": "^0.0.1"
+    "reactackle-button": "^0.0.1-beta.1",
+    "reactackle-icon": "^0.0.1-beta.1"
   },
   "peerDependencies": {
     "react": "^15.6.1",
-    "reactackle-core": "^0.0.1",
+    "reactackle-core": "^0.0.1-beta.1",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "reactackle-core": "^0.0.1"
+    "reactackle-core": "^0.0.1-beta.1"
   }
 }

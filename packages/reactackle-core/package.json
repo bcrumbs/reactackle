@@ -1,6 +1,6 @@
 {
   "name": "reactackle-core",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "Core utils of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "npx babel ./src --out-dir ./dist"
