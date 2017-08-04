@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/reactackle.svg)](https://www.npmjs.com/package/reactackle)
 [![Build Status](https://travis-ci.org/bcrumbs/reactackle.svg?branch=master)](https://travis-ci.org/bcrumbs/reactackle)
 [![Coverage Status](https://coveralls.io/repos/github/bcrumbs/reactackle/badge.svg?branch=master)](https://coveralls.io/github/bcrumbs/reactackle?branch=master)
+[![Braincrumbs Slack](https://slackin.braincrumbs.io/badge.svg)](https://slackin.braincrumbs.io)
 
 **Open-source components library built with [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
 
