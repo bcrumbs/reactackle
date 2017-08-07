@@ -30,13 +30,11 @@ npm install reactackle-button --save
 * [Getting Started](http://reactackle-docs.braincrumbs.io)
 
 #### Component Demos
-* [App](http://reactackle-docs.braincrumbs.io/#/app/demo)
 * [Auto Position](http://reactackle-docs.braincrumbs.io/#/auto-position/demo)
 * [Button](http://reactackle-docs.braincrumbs.io/#/button/demo)
 * [Card](http://reactackle-docs.braincrumbs.io/#/card/demo)
 * [Checkbox](http://reactackle-docs.braincrumbs.io/#/checkbox/demo)
 * [Dialog](http://reactackle-docs.braincrumbs.io/#/dialog/demo)
-* [Form](http://reactackle-docs.braincrumbs.io/#/form/demo)
 * [Grid / Column](http://reactackle-docs.braincrumbs.io/#/grid-column/demo)
 * [Grid / Row](http://reactackle-docs.braincrumbs.io/#/grid-row/demo)
 * [Header](http://reactackle-docs.braincrumbs.io/#/header/demo)
@@ -49,7 +47,12 @@ npm install reactackle-button --save
 * [Text Field](http://reactackle-docs.braincrumbs.io/#/text-field/demo)
 * [Toggle Button](http://reactackle-docs.braincrumbs.io/#/toggle-button/demo)
 * [Tooltip](http://reactackle-docs.braincrumbs.io/#/tooltip/demo)
-* [Tooltip Icon](http://reactackle-docs.braincrumbs.io/#/tooltip-icon/demo)
+
+#### Coming soon components
+* Progress, Preloader
+* Menu
+* Alert Area
+* Accordion
 
 ## Browser Support
 At present we aim to support the last two versions of the following browsers: Chrome, Edge, Firefox, Safari, Opera.
