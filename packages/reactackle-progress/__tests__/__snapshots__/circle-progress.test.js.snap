@@ -1,0 +1,2225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleProgress/> renders correctly if call componentWillUnmount 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(0deg)",
+          "transitionDuration": "0ms",
+          "transitionTimingFunction": "",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "5.654866776461628 282.7433388230814",
+            "strokeDashoffset": -0,
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+            "transitionDuration": "2ms",
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if call initAnimate 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(0deg)",
+          "transitionDuration": "0ms",
+          "transitionTimingFunction": "",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "5.654866776461628 282.7433388230814",
+            "strokeDashoffset": -0,
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+            "transitionDuration": "2ms",
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if call stopAnimate 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(0deg)",
+          "transitionDuration": "0ms",
+          "transitionTimingFunction": "",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "5.654866776461628 282.7433388230814",
+            "strokeDashoffset": -0,
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+            "transitionDuration": "2ms",
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if determinate mode change to false 1`] = `
+<WithTheme(CircleProgress)
+  arcGrowTimeout={650}
+  arcGrowTransitionTimeout={750}
+  arcOffsetTransitionTimeout={850}
+  arcShrinkTimeout={150}
+  arcShrinkTransitionTimeout={2}
+  ariaValueText=""
+  circleAnimationDuration={1}
+  circleRotationPauseTimeout={50}
+  circleRotationTimeout={1000}
+  circleSize={100}
+  color=""
+  determinate={false}
+  dynamicColor={false}
+  endColor={
+    Object {
+      "H": 121,
+      "S": 56,
+      "V": 69,
+    }
+  }
+  labelAlign="center"
+  labelPositionY="top"
+  max={100}
+  maxArcSize={0.75}
+  min={0}
+  minArcSize={0.02}
+  progressLabel={false}
+  progressSupplementText=""
+  progressType="circle"
+  secondaryProgress={-1}
+  secondaryProgressColor=""
+  startColor={
+    Object {
+      "H": 45,
+      "S": 94,
+      "V": 100,
+    }
+  }
+  strokeSize={10}
+  value={-1}
+>
+  <CircleProgress
+    arcGrowTimeout={650}
+    arcGrowTransitionTimeout={750}
+    arcOffsetTransitionTimeout={850}
+    arcShrinkTimeout={150}
+    arcShrinkTransitionTimeout={2}
+    ariaValueText=""
+    circleAnimationDuration={1}
+    circleRotationPauseTimeout={50}
+    circleRotationTimeout={1000}
+    circleSize={100}
+    color=""
+    determinate={false}
+    dynamicColor={false}
+    endColor={
+      Object {
+        "H": 121,
+        "S": 56,
+        "V": 69,
+      }
+    }
+    labelAlign="center"
+    labelPositionY="top"
+    max={100}
+    maxArcSize={0.75}
+    min={0}
+    minArcSize={0.02}
+    progressLabel={false}
+    progressSupplementText=""
+    progressType="circle"
+    secondaryProgress={-1}
+    secondaryProgressColor=""
+    startColor={
+      Object {
+        "H": 45,
+        "S": 94,
+        "V": 100,
+      }
+    }
+    strokeSize={10}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "progress": Object {
+              "circle": Object {
+                "animation": [Function],
+                "bgLine": Object {
+                  "colourDefault": "#eeeeee",
+                  "thickness": 4,
+                },
+                "diameter": 88,
+                "labelCenteredPadding": 8,
+                "labelSpacing": Object {
+                  "bottom": 8,
+                  "top": 8,
+                },
+                "mainLine": Object {
+                  "colourDefault": "#2196F3",
+                  "thickness": 4,
+                },
+                "secondaryLine": Object {
+                  "colourDefault": "#2196F3",
+                  "opacity": 0.15,
+                  "thickness": 4,
+                },
+                "supplementText": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1.25,
+                },
+                "valueLabel": Object {
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "lineHeight": 1.5,
+                },
+              },
+              "linear": Object {
+                "background": Object {
+                  "colourDefault": "#eeeeee",
+                  "thickness": 4,
+                },
+                "labelSpacing": Object {
+                  "bottom": 8,
+                  "top": 8,
+                },
+                "mainLine": Object {
+                  "colourDefault": "#2196F3",
+                  "thickness": 4,
+                },
+                "secondaryLine": Object {
+                  "colourDefault": "#2196F3",
+                  "opacity": 0.15,
+                  "thickness": 4,
+                },
+                "supplementText": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1.25,
+                },
+                "valueLabel": Object {
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "lineHeight": 1.5,
+                },
+              },
+              "preloader": Object {
+                "backgroundColor": "rgba(245, 245, 245, 0.6)",
+                "height": 100,
+                "loaderMaxWidth": 300,
+                "width": "100%",
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    value={-1}
+  >
+    <ProgressBoxStyled
+      aria-valuemax={100}
+      aria-valuemin={0}
+      aria-valuenow=""
+      aria-valuetext="-1 "
+      role="progressbar"
+    >
+      <div
+        aria-valuemax={100}
+        aria-valuemin={0}
+        aria-valuenow=""
+        aria-valuetext="-1 "
+        className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+        role="progressbar"
+      >
+        <ContentWrapperStyled
+          customDiameter={50}
+        >
+          <div
+            className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+          >
+            <CircleBoxStyled
+              customDiameter={50}
+              style={
+                Object {
+                  "shapeRendering": "geometricPrecision",
+                  "transform": "rotate(0deg)",
+                  "transitionDuration": "0ms",
+                  "transitionTimingFunction": "",
+                }
+              }
+              viewBox="0 0 100 100"
+            >
+              <svg
+                className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+                style={
+                  Object {
+                    "shapeRendering": "geometricPrecision",
+                    "transform": "rotate(0deg)",
+                    "transitionDuration": "0ms",
+                    "transitionTimingFunction": "",
+                  }
+                }
+                viewBox="0 0 100 100"
+              >
+                <BgLineStyled
+                  customThickness={10}
+                  cx={50}
+                  cy={50}
+                  r={45}
+                  style={
+                    Object {
+                      "strokeDasharray": "282.7433388230814 282.7433388230814",
+                      "strokeWidth": 10,
+                    }
+                  }
+                >
+                  <circle
+                    className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+                    cx={50}
+                    cy={50}
+                    r={45}
+                    style={
+                      Object {
+                        "strokeDasharray": "282.7433388230814 282.7433388230814",
+                        "strokeWidth": 10,
+                      }
+                    }
+                  />
+                </BgLineStyled>
+                <PrimaryLineStyled
+                  customThickness={10}
+                  cx={50}
+                  cy={50}
+                  r={45}
+                  style={
+                    Object {
+                      "stroke": "",
+                      "strokeDasharray": "5.654866776461628 282.7433388230814",
+                      "strokeDashoffset": -0,
+                      "strokeLinecap": "round",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": 10,
+                      "transitionDuration": "2ms",
+                    }
+                  }
+                >
+                  <circle
+                    className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+                    cx={50}
+                    cy={50}
+                    r={45}
+                    style={
+                      Object {
+                        "stroke": "",
+                        "strokeDasharray": "5.654866776461628 282.7433388230814",
+                        "strokeDashoffset": -0,
+                        "strokeLinecap": "round",
+                        "strokeLinejoin": "round",
+                        "strokeWidth": 10,
+                        "transitionDuration": "2ms",
+                      }
+                    }
+                  />
+                </PrimaryLineStyled>
+              </svg>
+            </CircleBoxStyled>
+          </div>
+        </ContentWrapperStyled>
+      </div>
+    </ProgressBoxStyled>
+  </CircleProgress>
+</WithTheme(CircleProgress)>
+`;
+
+exports[`<CircleProgress/> renders correctly if determinate mode change to true 1`] = `
+<WithTheme(CircleProgress)
+  arcGrowTimeout={650}
+  arcGrowTransitionTimeout={750}
+  arcOffsetTransitionTimeout={850}
+  arcShrinkTimeout={150}
+  arcShrinkTransitionTimeout={2}
+  ariaValueText=""
+  circleAnimationDuration={1}
+  circleRotationPauseTimeout={50}
+  circleRotationTimeout={1000}
+  circleSize={100}
+  color=""
+  determinate={true}
+  dynamicColor={false}
+  endColor={
+    Object {
+      "H": 121,
+      "S": 56,
+      "V": 69,
+    }
+  }
+  labelAlign="center"
+  labelPositionY="top"
+  max={100}
+  maxArcSize={0.75}
+  min={0}
+  minArcSize={0.02}
+  progressLabel={false}
+  progressSupplementText=""
+  progressType="circle"
+  secondaryProgress={-1}
+  secondaryProgressColor=""
+  startColor={
+    Object {
+      "H": 45,
+      "S": 94,
+      "V": 100,
+    }
+  }
+  strokeSize={10}
+  value={-1}
+>
+  <CircleProgress
+    arcGrowTimeout={650}
+    arcGrowTransitionTimeout={750}
+    arcOffsetTransitionTimeout={850}
+    arcShrinkTimeout={150}
+    arcShrinkTransitionTimeout={2}
+    ariaValueText=""
+    circleAnimationDuration={1}
+    circleRotationPauseTimeout={50}
+    circleRotationTimeout={1000}
+    circleSize={100}
+    color=""
+    determinate={true}
+    dynamicColor={false}
+    endColor={
+      Object {
+        "H": 121,
+        "S": 56,
+        "V": 69,
+      }
+    }
+    labelAlign="center"
+    labelPositionY="top"
+    max={100}
+    maxArcSize={0.75}
+    min={0}
+    minArcSize={0.02}
+    progressLabel={false}
+    progressSupplementText=""
+    progressType="circle"
+    secondaryProgress={-1}
+    secondaryProgressColor=""
+    startColor={
+      Object {
+        "H": 45,
+        "S": 94,
+        "V": 100,
+      }
+    }
+    strokeSize={10}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "progress": Object {
+              "circle": Object {
+                "animation": [Function],
+                "bgLine": Object {
+                  "colourDefault": "#eeeeee",
+                  "thickness": 4,
+                },
+                "diameter": 88,
+                "labelCenteredPadding": 8,
+                "labelSpacing": Object {
+                  "bottom": 8,
+                  "top": 8,
+                },
+                "mainLine": Object {
+                  "colourDefault": "#2196F3",
+                  "thickness": 4,
+                },
+                "secondaryLine": Object {
+                  "colourDefault": "#2196F3",
+                  "opacity": 0.15,
+                  "thickness": 4,
+                },
+                "supplementText": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1.25,
+                },
+                "valueLabel": Object {
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "lineHeight": 1.5,
+                },
+              },
+              "linear": Object {
+                "background": Object {
+                  "colourDefault": "#eeeeee",
+                  "thickness": 4,
+                },
+                "labelSpacing": Object {
+                  "bottom": 8,
+                  "top": 8,
+                },
+                "mainLine": Object {
+                  "colourDefault": "#2196F3",
+                  "thickness": 4,
+                },
+                "secondaryLine": Object {
+                  "colourDefault": "#2196F3",
+                  "opacity": 0.15,
+                  "thickness": 4,
+                },
+                "supplementText": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1.25,
+                },
+                "valueLabel": Object {
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "lineHeight": 1.5,
+                },
+              },
+              "preloader": Object {
+                "backgroundColor": "rgba(245, 245, 245, 0.6)",
+                "height": 100,
+                "loaderMaxWidth": 300,
+                "width": "100%",
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    value={-1}
+  >
+    <ProgressBoxStyled
+      aria-valuemax={100}
+      aria-valuemin={0}
+      aria-valuenow=""
+      aria-valuetext="-1 "
+      role="progressbar"
+    >
+      <div
+        aria-valuemax={100}
+        aria-valuemin={0}
+        aria-valuenow=""
+        aria-valuetext="-1 "
+        className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+        role="progressbar"
+      >
+        <ContentWrapperStyled
+          customDiameter={50}
+        >
+          <div
+            className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+          >
+            <CircleBoxStyled
+              customDiameter={50}
+              style={
+                Object {
+                  "shapeRendering": "geometricPrecision",
+                  "transform": "rotate(0deg)",
+                  "transitionDuration": "0ms",
+                  "transitionTimingFunction": "",
+                }
+              }
+              viewBox="0 0 100 100"
+            >
+              <svg
+                className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+                style={
+                  Object {
+                    "shapeRendering": "geometricPrecision",
+                    "transform": "rotate(0deg)",
+                    "transitionDuration": "0ms",
+                    "transitionTimingFunction": "",
+                  }
+                }
+                viewBox="0 0 100 100"
+              >
+                <BgLineStyled
+                  customThickness={10}
+                  cx={50}
+                  cy={50}
+                  r={45}
+                  style={
+                    Object {
+                      "strokeDasharray": "282.7433388230814 282.7433388230814",
+                      "strokeWidth": 10,
+                    }
+                  }
+                >
+                  <circle
+                    className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+                    cx={50}
+                    cy={50}
+                    r={45}
+                    style={
+                      Object {
+                        "strokeDasharray": "282.7433388230814 282.7433388230814",
+                        "strokeWidth": 10,
+                      }
+                    }
+                  />
+                </BgLineStyled>
+                <PrimaryLineStyled
+                  customThickness={10}
+                  cx={50}
+                  cy={50}
+                  r={45}
+                  style={
+                    Object {
+                      "stroke": "",
+                      "strokeDasharray": "5.654866776461628 282.7433388230814",
+                      "strokeDashoffset": -0,
+                      "strokeLinecap": "round",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": 10,
+                      "transitionDuration": "2ms",
+                    }
+                  }
+                >
+                  <circle
+                    className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+                    cx={50}
+                    cy={50}
+                    r={45}
+                    style={
+                      Object {
+                        "stroke": "",
+                        "strokeDasharray": "5.654866776461628 282.7433388230814",
+                        "strokeDashoffset": -0,
+                        "strokeLinecap": "round",
+                        "strokeLinejoin": "round",
+                        "strokeWidth": 10,
+                        "transitionDuration": "2ms",
+                      }
+                    }
+                  />
+                </PrimaryLineStyled>
+              </svg>
+            </CircleBoxStyled>
+          </div>
+        </ContentWrapperStyled>
+      </div>
+    </ProgressBoxStyled>
+  </CircleProgress>
+</WithTheme(CircleProgress)>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop circleSize, strokeSize and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV faCNkW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo gASRAY"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 50 50"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cqRUOU"
+        cx={25}
+        cy={25}
+        r={22.5}
+        style={
+          Object {
+            "strokeDasharray": "141.3716694115407 141.3716694115407",
+            "strokeWidth": 5,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq bcHRuc"
+        cx={25}
+        cy={25}
+        r={22.5}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "70.68583470577035 141.3716694115407",
+            "strokeWidth": 5,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop color and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext="80 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "#d77d31",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop color hex length < 6 and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext="80 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "#d77d",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop determinate and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop determinate set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop determinate set false 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(0deg)",
+          "transitionDuration": "0ms",
+          "transitionTimingFunction": "",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "5.654866776461628 282.7433388230814",
+            "strokeDashoffset": -0,
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+            "transitionDuration": "2ms",
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop dynamicColor and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext="80 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "#b4e038",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop max and value set (value < max) 1`] = `
+<div
+  aria-valuemax={70}
+  aria-valuemin={0}
+  aria-valuenow={60}
+  aria-valuetext="60 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "242.3514332769269 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop max and value set (value < min) 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={60}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "169.64600329384882 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop max and value set (value > max) 1`] = `
+<div
+  aria-valuemax={60}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext="80 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop max and value set (value > min) 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={60}
+  aria-valuenow={80}
+  aria-valuetext="80 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop progressLabel and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX cxRHcE"
+  >
+    <label
+      className="ValueLabelStyled__ValueLabelStyled-klOceM gBxLce"
+    >
+      50%
+    </label>
+    <div
+      className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop progressSupplementText and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 test"
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX cxRHcE"
+  >
+    <label
+      className="ValueLabelStyled__ValueLabelStyled-klOceM gBxLce"
+    >
+      50%
+    </label>
+    <div
+      className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+    >
+      test
+    </div>
+  </div>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop progressSupplementText set array 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 [object Object],[object Object],[object Object],[object Object],[object Object]"
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX cxRHcE"
+  >
+    <label
+      className="ValueLabelStyled__ValueLabelStyled-klOceM gBxLce"
+    >
+      50%
+    </label>
+    <div
+      className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+    >
+       POINT 4
+    </div>
+  </div>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop progressSupplementText set array and progressLabel = false 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 [object Object],[object Object],[object Object],[object Object],[object Object]"
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX cxRHcE"
+  >
+    <div
+      className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+    >
+       POINT 4
+    </div>
+  </div>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop progressSupplementText set string and progressLabel set false 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 test"
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX cxRHcE"
+  >
+    <div
+      className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+    >
+      test
+    </div>
+  </div>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop secondaryProgress and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext="80 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="SecondaryLineStyled__SecondaryLineStyled-haSHhd eVBppg"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "254.46900494077326 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop secondaryProgress and value set 2`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="SecondaryLineStyled__SecondaryLineStyled-haSHhd eVBppg"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop secondaryProgress set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(0deg)",
+          "transitionDuration": "0ms",
+          "transitionTimingFunction": "",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="SecondaryLineStyled__SecondaryLineStyled-haSHhd eVBppg"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "254.46900494077326 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "5.654866776461628 282.7433388230814",
+            "strokeDashoffset": -0,
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+            "transitionDuration": "2ms",
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop secondaryProgress, color and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="SecondaryLineStyled__SecondaryLineStyled-haSHhd eVBppg"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "#ffaf45",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "#d77d31",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly if prop secondaryProgressColor and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext="50 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(-90deg)",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="SecondaryLineStyled__SecondaryLineStyled-haSHhd eVBppg"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "#d77d31",
+            "strokeDasharray": "226.19467105846513 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "141.3716694115407 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress/> renders correctly with default props 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext="-1 "
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+  >
+    <svg
+      className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+      style={
+        Object {
+          "shapeRendering": "geometricPrecision",
+          "transform": "rotate(0deg)",
+          "transitionDuration": "0ms",
+          "transitionTimingFunction": "",
+        }
+      }
+      viewBox="0 0 100 100"
+    >
+      <circle
+        className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "strokeDasharray": "282.7433388230814 282.7433388230814",
+            "strokeWidth": 10,
+          }
+        }
+      />
+      <circle
+        className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+        cx={50}
+        cy={50}
+        r={45}
+        style={
+          Object {
+            "stroke": "",
+            "strokeDasharray": "5.654866776461628 282.7433388230814",
+            "strokeDashoffset": -0,
+            "strokeLinecap": "round",
+            "strokeLinejoin": "round",
+            "strokeWidth": 10,
+            "transitionDuration": "2ms",
+          }
+        }
+      />
+    </svg>
+  </div>
+</div>
+`;

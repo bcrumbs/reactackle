@@ -1,0 +1,1015 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinearProgress/> renders correctly if prop alignX center and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop alignX left and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop alignX right and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop alignY bottom and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop alignY center and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop alignY top and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop color and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV bFTRQG"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw fiYsHo"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV SZBLj"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop color hex length < 6 and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV jLzNcU"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw iIMwqx"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV jUUTHi"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop dynamicColor and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw kJTJPm"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV kEkxXj"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop max and value set (value < max) 1`] = `
+<div
+  aria-valuemax={70}
+  aria-valuemin={0}
+  aria-valuenow={60}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8571428571428572)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop max and value set (value < min) 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={60}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.6)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop max and value set (value > max) 1`] = `
+<div
+  aria-valuemax={60}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(1)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop max and value set (value > min) 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={60}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop preloaderPositionX=left and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop preloaderPositionX=right and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop preloaderPositionY=center and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop preloaderPositionY=left and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop preloaderPositionY=right and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop progressLabel and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX fLrBdI"
+    >
+      <label
+        className="ValueLabelStyled__ValueLabelStyled-klOceM gBxLce"
+      >
+        50%
+      </label>
+      <div
+        className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.5)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop progressSupplementText and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX fLrBdI"
+    >
+      <label
+        className="ValueLabelStyled__ValueLabelStyled-klOceM gBxLce"
+      >
+        50%
+      </label>
+      <div
+        className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+      >
+        test
+      </div>
+    </div>
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.5)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop progressSupplementText set array 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="LabelWrapperStyled__LabelWrapperStyled-gWgRGX fLrBdI"
+    >
+      <label
+        className="ValueLabelStyled__ValueLabelStyled-klOceM gBxLce"
+      >
+        50%
+      </label>
+      <div
+        className="SupplementTextStyled__SupplementTextStyled-dbhvwL fNmtdP"
+      >
+         POINT 4
+      </div>
+    </div>
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.5)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop secondaryProgress and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={80}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.9)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop secondaryProgress and value set 2`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop secondaryProgress set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0.9)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop secondaryProgress, color and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV bFTRQG"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw fiYsHo"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV SZBLj"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly if prop secondaryProgressColor and value set 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV ihXxaD"
+        style={
+          Object {
+            "transform": "scaleX(0.8)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LinearProgress/> renders correctly with default props 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow=""
+  aria-valuetext=""
+  className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+  role="progressbar"
+>
+  <div
+    className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+    >
+      <div
+        className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+        style={
+          Object {
+            "transform": "scaleX(0)",
+          }
+        }
+      />
+      <div
+        className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+        style={null}
+      >
+        <div
+          className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -28,6 +28,12 @@ export { CheckboxRoute }
  from './routes/checkbox/checkbox';
 export { CheckboxDemoRoute }
  from './routes/checkbox/demo';
+export { CircleProgressIndexRoute }
+ from './routes/circle-progress';
+export { CircleProgressRoute }
+ from './routes/circle-progress/circle-progress';
+export { CircleProgressDemoRoute }
+ from './routes/circle-progress/demo';
 export { DialogIndexRoute }
  from './routes/dialog';
 export { DialogRoute }
@@ -88,6 +94,18 @@ export { InputAutocompleteRoute }
  from './routes/input-autocomplete/input-autocomplete';
 export { InputAutocompleteDemoRoute }
  from './routes/input-autocomplete/demo';
+export { LinearProgressIndexRoute }
+ from './routes/linear-progress';
+export { LinearProgressRoute }
+ from './routes/linear-progress/linear-progress';
+export { LinearProgressDemoRoute }
+ from './routes/linear-progress/demo';
+export { PreloaderIndexRoute }
+ from './routes/preloader';
+export { PreloaderRoute }
+ from './routes/preloader/preloader';
+export { PreloaderDemoRoute }
+ from './routes/preloader/demo';
 export { RadioIndexRoute }
  from './routes/radio';
 export { RadioRoute }

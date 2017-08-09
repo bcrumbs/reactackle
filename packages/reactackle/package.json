@@ -36,7 +36,8 @@
     "reactackle-text-field": "^0.0.3-beta.1",
     "reactackle-toggle-button": "^0.0.3-beta.1",
     "reactackle-tooltip": "^0.0.3-beta.1",
-    "reactackle-tooltip-icon": "^0.0.3-beta.1"
+    "reactackle-tooltip-icon": "^0.0.3-beta.1",
+    "reactackle-progress": "^0.0.3-beta.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
