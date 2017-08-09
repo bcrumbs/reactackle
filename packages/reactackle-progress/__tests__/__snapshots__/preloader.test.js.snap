@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Preloader/> renders correctly if prop height set 100px 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem bPqGIR"
+  kind="circle"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext="-1 "
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+    >
+      <svg
+        className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+        style={
+          Object {
+            "shapeRendering": "geometricPrecision",
+            "transform": "rotate(0deg)",
+            "transitionDuration": "0ms",
+            "transitionTimingFunction": "",
+          }
+        }
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+              "strokeWidth": 10,
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+              "strokeDashoffset": -0,
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+              "strokeWidth": 10,
+              "transitionDuration": "2ms",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader/> renders correctly if prop height set 1100px 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem Gizsf"
+  kind="circle"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext="-1 "
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+    >
+      <svg
+        className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+        style={
+          Object {
+            "shapeRendering": "geometricPrecision",
+            "transform": "rotate(0deg)",
+            "transitionDuration": "0ms",
+            "transitionTimingFunction": "",
+          }
+        }
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+              "strokeWidth": 10,
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+              "strokeDashoffset": -0,
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+              "strokeWidth": 10,
+              "transitionDuration": "2ms",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader/> renders correctly if prop kind set circle 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem bPqGIR"
+  kind="circle"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext="-1 "
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+    >
+      <svg
+        className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+        style={
+          Object {
+            "shapeRendering": "geometricPrecision",
+            "transform": "rotate(0deg)",
+            "transitionDuration": "0ms",
+            "transitionTimingFunction": "",
+          }
+        }
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+              "strokeWidth": 10,
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+              "strokeDashoffset": -0,
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+              "strokeWidth": 10,
+              "transitionDuration": "2ms",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader/> renders correctly if prop kind set linear 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem bPqGIR"
+  kind="linear"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext=""
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled__LinearProgressStyled-fCuQLb gwHMTO"
+    >
+      <div
+        className="ContentWrapperStyled__ContentWrapperStyled-jHDOeI AqhZr"
+      >
+        <div
+          className="SecondaryLineStyled__SecondaryLineStyled-fUDAuV fWCtEk"
+          style={
+            Object {
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+        <div
+          className="PrimaryLineStyled__PrimaryLineStyled-cXzYPw erUPSB"
+          style={null}
+        >
+          <div
+            className="SplitterStyled__SplitterStyled-cVZFGV lpfaqM"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader/> renders correctly if prop width set 50% 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem jKoNFc"
+  kind="circle"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext="-1 "
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+    >
+      <svg
+        className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+        style={
+          Object {
+            "shapeRendering": "geometricPrecision",
+            "transform": "rotate(0deg)",
+            "transitionDuration": "0ms",
+            "transitionTimingFunction": "",
+          }
+        }
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+              "strokeWidth": 10,
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+              "strokeDashoffset": -0,
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+              "strokeWidth": 10,
+              "transitionDuration": "2ms",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader/> renders correctly if prop width set 150% 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem kXmaTH"
+  kind="circle"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext="-1 "
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+    >
+      <svg
+        className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+        style={
+          Object {
+            "shapeRendering": "geometricPrecision",
+            "transform": "rotate(0deg)",
+            "transitionDuration": "0ms",
+            "transitionTimingFunction": "",
+          }
+        }
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+              "strokeWidth": 10,
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+              "strokeDashoffset": -0,
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+              "strokeWidth": 10,
+              "transitionDuration": "2ms",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader/> renders correctly with default props 1`] = `
+<div
+  className="ProgressHolderStyled__ProgressHolderStyled-hJGVem bPqGIR"
+  kind="circle"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow=""
+    aria-valuetext="-1 "
+    className="ProgressBoxStyled__ProgressBoxStyled-chSPAy kSupcT"
+    role="progressbar"
+  >
+    <div
+      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV hXYxXW"
+    >
+      <svg
+        className="CircleBoxStyled__CircleBoxStyled-dpTauo bcysDH"
+        style={
+          Object {
+            "shapeRendering": "geometricPrecision",
+            "transform": "rotate(0deg)",
+            "transitionDuration": "0ms",
+            "transitionTimingFunction": "",
+          }
+        }
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled__BgLineStyled-fQjGEO cxoUCx"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+              "strokeWidth": 10,
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled__PrimaryLineStyled-dGELiq kxKRLT"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+              "strokeDashoffset": -0,
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+              "strokeWidth": 10,
+              "transitionDuration": "2ms",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

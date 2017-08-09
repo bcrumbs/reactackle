@@ -18,3 +18,4 @@ export * from 'reactackle-text-field';
 export * from 'reactackle-toggle-button';
 export * from 'reactackle-tooltip';
 export * from 'reactackle-tooltip-icon';
+export * from 'reactackle-progress';
