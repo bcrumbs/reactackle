@@ -30,7 +30,8 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "reactackle-core": "^0.0.3-beta.1",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "reactackle-test-utils": "^0.0.3-beta.1"
   },
   "repository": {
     "type": "git",

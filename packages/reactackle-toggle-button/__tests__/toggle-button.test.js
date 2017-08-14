@@ -2,7 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { findByType } from 'reactackle-core';
+import { findByType } from 'reactackle-test-utils';
 import { ToggleButton } from '../src';
 import { ToggleStyled } from '../src/styles/ToggleStyled';
 

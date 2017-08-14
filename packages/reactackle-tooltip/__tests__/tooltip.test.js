@@ -5,7 +5,7 @@ import renderer from 'react-test-renderer';
 import Portal from 'react-portal';
 import {
   rendererWithPortal as rendererWithPortalMain,
-} from 'reactackle-core';
+} from 'reactackle-test-utils';
 import { Tooltip, withTooltip } from '../src';
 
 jest.mock('react-dom');

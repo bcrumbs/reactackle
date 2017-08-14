@@ -4,7 +4,7 @@ import React from 'react';
 import {
   findByType,
   rendererWithPortal as rendererWithPortalMain,
-} from 'reactackle-core';
+ } from 'reactackle-test-utils';
 import Portal from 'react-portal';
 
 import {

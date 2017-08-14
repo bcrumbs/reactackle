@@ -1,6 +1,5 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import renderer from 'react-test-renderer';
-import React from 'react';
+import React, { Component } from 'react';
 
 const isTestInstance = item => !!item._component;
 
@@ -251,3 +250,29 @@ export const mockPortal = (component, options, componentType) => {
 
 export const rendererWithPortal = (component, options, componentType) =>
   mockPortal(renderer.create(component, options), options, componentType);
+
+export const withTestWrapper = WrappedComponent => {
+  class TestWrapper extends Component {
+    constructor(props) {
+      super(props);
+
+      this.state = {
+        newProps: {},
+      };
+    }
+
+    setProps(newProps) {
+      this.setState(newProps);
+    }
+
+    render() {
+      return <WrappedComponent {...this.props} {...this.state.newProps} />;
+    }
+  }
+
+  TestWrapper.propTypes = WrappedComponent.propTypes;
+  TestWrapper.defaultProps = WrappedComponent.defaultProps;
+  TestWrapper.displayName = `withTestWrapper(${WrappedComponent.displayName})`;
+
+  return TestWrapper;
+};

@@ -40,7 +40,6 @@ export * from './styleFunctions';
 export * from './styleHelpers';
 export * from './utils';
 export * from './constants/constants';
-export * from './hoc/withTestWrapper';
 export * from './hoc/withExternalProps';
 export * from './globalStyles';
 export * from './resetStyles';
