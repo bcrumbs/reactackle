@@ -272,7 +272,32 @@ exports[`<Tabs/> renders correctly if prop linkComponent passed 1`] = `
   >
     <div
       className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
-    />
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+          onClick={[Function]}
+          selected={true}
+        >
+          <div
+            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          >
+            <div
+              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            >
+              <div
+                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              >
+                Test
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 `;

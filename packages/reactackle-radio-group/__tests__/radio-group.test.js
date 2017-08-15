@@ -2,7 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { setProps, findByType } from 'reactackle-core';
+import { findByType, setProps } from 'reactackle-test-utils';
 import { RadioGroup } from '../src';
 
 jest.mock('react-dom');

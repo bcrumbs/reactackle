@@ -2,7 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { findBySelector, withTestWrapper } from 'reactackle-core';
+import { findBySelector, withTestWrapper } from 'reactackle-test-utils';
 import {
   Checkbox,
 } from '../src';

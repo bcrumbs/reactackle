@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { findByType } from 'reactackle-core';
+import { findByType } from 'reactackle-test-utils';
 import renderer from 'react-test-renderer';
 import { Form, FormItem } from '../src';
 

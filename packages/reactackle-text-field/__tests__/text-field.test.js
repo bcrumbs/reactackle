@@ -5,9 +5,8 @@ import renderer from 'react-test-renderer';
 import { Icon } from 'reactackle-icon';
 import {
   defaultTheme,
-  findBySelector,
-  findByType,
 } from 'reactackle-core';
+import { findByType, findBySelector } from 'reactackle-test-utils';
 import { mount, render, shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { TextField } from '../src';

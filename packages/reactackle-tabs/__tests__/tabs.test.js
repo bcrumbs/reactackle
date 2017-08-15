@@ -1,8 +1,7 @@
-'use strict';
-
+/* eslint-disable react/prop-types */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { setProps, findAllByType, returnNull } from 'reactackle-core';
+import { findAllByType, setProps } from 'reactackle-test-utils';
 import { Tabs } from '../src';
 import { TabStyled } from '../src/Tab/styles/TabStyled';
 
@@ -31,9 +30,18 @@ describe('<Tabs/>', () => {
   });
 
   it('renders correctly if prop linkComponent passed', () => {
+    const LinkComponent = props => {
+      const content = props.children || props.title;
+    
+      return (
+        <a href={props.href} onClick={props.onClick}>
+          {content}
+        </a>
+      );
+    };
     const tree = renderer.create(
       <Tabs
-        linkComponent={returnNull}
+        linkComponent={LinkComponent}
         tabs={[
         { text: 'Test', linkHref: '/' },
         ]}

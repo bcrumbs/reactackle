@@ -5,10 +5,9 @@ import renderer from 'react-test-renderer';
 import { AutoPosition } from 'reactackle-autoposition';
 import {
   composeReactackleTheme,
-  findByType,
-  findPortal,
   keyboardCodes,
 } from 'reactackle-core';
+import { findByType, findPortal } from 'reactackle-test-utils';
 
 import InputAutocompleteWithHOC from '../src/InputAutocomplete';
 
