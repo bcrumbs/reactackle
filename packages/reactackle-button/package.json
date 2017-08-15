@@ -1,6 +1,6 @@
 {
   "name": "reactackle-button",
-  "version": "0.0.3-beta.1",
+  "version": "0.0.3-beta.2",
   "description": "Button component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -19,17 +19,17 @@
   "dependencies": {
     "color": "^2.0.0",
     "prop-types": "^15.5.10",
-    "reactackle-icon": "^0.0.3-beta.1"
+    "reactackle-icon": "^0.0.3-beta.2"
   },
   "peerDependencies": {
     "react": "^15.6.1",
-    "reactackle-core": "^0.0.3-beta.1",
+    "reactackle-core": "^0.0.3-beta.2",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "react-test-renderer": "^15.6.1",
-    "reactackle-core": "^0.0.3-beta.1",
+    "reactackle-core": "^0.0.3-beta.2",
     "rimraf": "^2.6.1"
   },
   "repository": {
