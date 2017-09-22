@@ -60,27 +60,24 @@ const IconSvg = ({
   width,
   rotate,
   ...props
-}) => {
-  
-  return (
-    <IconSvgStyled
-      theme={theme}
-      fill='currentColor'
-      preserveAspectRatio='xMidYMid meet'
-      backgroundColor={backgroundColor}
-      color={color}
-      flip={flip}
-      rotate={rotate}
-      border={border}
-      rounded={rounded}
-      height={height}
-      width={width}
-      {...props}
-    >
-      {children}
-    </IconSvgStyled>
-  );
-};
+}) => (
+  <IconSvgStyled
+    preserveAspectRatio='xMidYMid meet'
+    backgroundColor={backgroundColor}
+    color={color}
+    colorScheme={colorScheme}
+    flip={flip}
+    size={size}
+    rotate={rotate}
+    border={border}
+    rounded={rounded}
+    height={height}
+    width={width}
+    {...props}
+  >
+    {children}
+  </IconSvgStyled>
+);
 
 IconSvg.propTypes = propTypes;
 IconSvg.defaultProps = defaultProps;

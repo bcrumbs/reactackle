@@ -82,6 +82,12 @@ export { IconRoute }
  from './routes/icon/icon';
 export { IconDemoRoute }
  from './routes/icon/demo';
+export { IconSvgIndexRoute }
+  from './routes/icon-svg';
+export { IconSvgRoute }
+  from './routes/icon-svg/icon-svg';
+export { IconSvgDemoRoute }
+  from './routes/icon-svg/demo';
 export { InputAutocompleteIndexRoute }
  from './routes/input-autocomplete';
 export { InputAutocompleteRoute }
