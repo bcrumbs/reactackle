@@ -17,6 +17,17 @@ export const sevenAndHalfBaseModule = ({ baseModule }) => baseModule * 7.5;
 export const eightBaseModule = ({ baseModule }) => baseModule * 8;
 export const tenBaseModule = ({ baseModule }) => baseModule * 10;
 
+const multiplierFunctions = Object.create(null);
+
+export const bmodule = multiplier => {
+  if (!multiplierFunctions[multiplier]) {
+    multiplierFunctions[multiplier] =
+      ({ baseModule }) => baseModule * multiplier;
+  }
+
+  return multiplierFunctions[multiplier];
+};
+
 /** Size parameters */
 export const contentWidth = ({ contentWidth }) => contentWidth;
 export const totalColumns = ({ totalColumns }) => totalColumns;

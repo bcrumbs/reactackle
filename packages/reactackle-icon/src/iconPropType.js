@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
+import { IconSvg } from 'reactackle-icon-svg';
+import { IconCustom } from 'reactackle-icon-custom';
 
 export const iconPropType = PropTypes.shape({
-  /** Set icon's name (required for font-awesome icons */
-  name: PropTypes.string,
-  /** Set icon's source (required for library icons */
-  src: PropTypes.string,
+  ...IconSvg.propTypes,
+  ...IconCustom.propTypes,
   /** Set icon type */
-  type: PropTypes.oneOf(['font-awesome', 'library']),
+  type: PropTypes.oneOf(['custom', 'svg']),
 });

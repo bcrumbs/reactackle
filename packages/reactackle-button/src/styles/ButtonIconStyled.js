@@ -1,53 +1,56 @@
-'use strict';
-
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import { extractThemeOrDefault } from 'reactackle-core';
+import { extractThemeOrDefault, getValueString } from 'reactackle-core';
+import { iconSvgSizeMixin } from 'reactackle-icon-svg';
+import { iconCustomSizeMixin } from 'reactackle-icon-custom';
 
 const propTypes = {
   /** Define button's size */
   size: PropTypes.oneOf(['inline', 'small', 'normal', 'large']),
-
   /** Swap icon and text position */
   iconPositionRight: PropTypes.bool,
-
-  /** Define button theme
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
 };
+
 const defaultProps = {
   size: 'normal',
   iconPositionRight: false,
 };
 
 // PROP RECEIVERS
-const iconStyleProps = ({ theme: themeFromProvider }) => {
+const iconStyleProps = ({
+  theme: themeFromProvider,
+}) => {
   const theme = extractThemeOrDefault(themeFromProvider);
-  const opacityAmount = theme.reactackle.components.button.iconOpacity;
+  const path = theme.reactackle.components.button;
+  const opacityAmount = path.iconOpacity;
 
-  return `
-    opacity: ${opacityAmount};
+  return css`
+    opacity: ${opacityAmount};   
+    
+    svg {
+      fill: currentColor;
+    }
   `;
 };
 
-const iconSizeProps = ({ size }) => css`
-  ${size === 'inline'
-    ? `
-      width: 1em;
-      height: 1em;
-      line-height: inherit;
-      font-size: 1em;
+const iconSizeProps = ({ size, type, theme: themeFromProvider }) => {
+  const theme = extractThemeOrDefault(themeFromProvider);
+  const path = theme.reactackle.components.button.size[size].icon;
+  const sizeMixin = type === 'svg' ? iconSvgSizeMixin : iconCustomSizeMixin;
+
+  return css`
+    ${sizeMixin(
+      getValueString(path.width),
+      getValueString(path.imgSize || path.width),
+      getValueString(path.height || path.width),
+    )}
+    
+    ${size === 'inline' && `
       display: inline-flex;
       align-self: center;
-      
-      & > *::before {
-        line-height: 1;
-      }
-    `
-    : null}
-`;
+    `}
+  `;
+};
 
 export const ButtonIconBoxStyled = styled.div`
   order: ${props => (props.iconPositionRight ? '2' : '1')};

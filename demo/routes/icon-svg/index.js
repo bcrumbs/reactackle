@@ -1,12 +1,12 @@
 import React from 'react';
 import { RouteInfo, RouteProps } from '../../components/Route/RouteStructure';
 //eslint-disable-next-line
-import IconCode from '!raw-loader!../../../packages/reactackle-icons/src/IconSvg';
+import IconCode from '!raw-loader!../../../packages/reactackle-icon-svg/src/IconSVG';
 
 const propTypes = RouteInfo.propTypes;
 const defaultProps = {
   ...RouteInfo.defaultProps,
-  componentTitle: 'Icon SVG',
+  componentTitle: 'IconSVG',
   routeTitle: 'Icon SVG',
 };
 

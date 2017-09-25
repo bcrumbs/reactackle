@@ -1,28 +1,17 @@
-'use strict';
-
 import React from 'react';
-import PropTypes from 'prop-types';
-import { registerDefaultComponentTheme } from 'reactackle-core';
-import { IconFontAwesome } from './IconFontAwesome/IconFontAwesome';
-import { IconLibrary } from './IconLibrary/IconLibrary';
-import componentTheme from './styles/theme';
-
-registerDefaultComponentTheme('icon', componentTheme);
+import { IconSvg } from 'reactackle-icon-svg';
+import { IconCustom } from 'reactackle-icon-custom';
+import { iconPropType } from './iconPropType';
 
 const propTypes = {
-  ...IconFontAwesome.propTypes,
-  ...IconLibrary.propTypes,
-  /** Set icon type */
-  type: PropTypes.oneOf(['font-awesome', 'library']),
+  ...iconPropType,
 };
 const defaultProps = {
-  type: 'font-awesome',
+  type: 'svg',
 };
 
 export default function Icon(props) {
-  if (!props.name && !props.src) return null;
-
-  const Icon = props.type === 'font-awesome' ? IconFontAwesome : IconLibrary;
+  const Icon = props.type === 'custom' ? IconCustom : IconSvg;
 
   return <Icon {...props} />;
 }
