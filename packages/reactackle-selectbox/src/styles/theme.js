@@ -1,8 +1,5 @@
 import {
-  baseModule,
-  halfBaseModule,
-  oneAndHalfBaseModule,
-  doubleBaseModule,
+  bmodule,
   radiusDefault,
   breakpointMedium,
   colorWhite,
@@ -29,35 +26,35 @@ const constants = {
   borderStyle: 'solid',
 
   size: {
-    paddingY: baseModule,
-    paddingX: baseModule,
+    paddingY: bmodule(1),
+    paddingX: bmodule(1),
     fontSize: fontSizeBody,
     lineHeight: 1.5, // Only number accepted
 
     dense: {
-      paddingY: halfBaseModule,
-      paddingX: halfBaseModule,
+      paddingY: bmodule(0.5),
+      paddingX: bmodule(0.5),
       fontSize: fontSizeBody,
       lineHeight: 1.5, // Only number accepted
     },
 
     fullWidth: {
-      paddingY: oneAndHalfBaseModule,
-      paddingX: oneAndHalfBaseModule,
+      paddingY: bmodule(1.5),
+      paddingX: bmodule(1.5),
       fontSize: fontSizeBody,
       lineHeight: 1.5, // Only number accepted
     },
 
     denseFullWidth: {
-      paddingY: baseModule,
-      paddingX: baseModule,
+      paddingY: bmodule(1),
+      paddingX: bmodule(1),
       fontSize: fontSizeBody,
       lineHeight: 1.5, // Only number accepted
     },
   },
 
   underlined: {
-    paddingY: baseModule,
+    paddingY: bmodule(1),
   },
 
   iconOuter: {
@@ -241,34 +238,34 @@ export default {
 
       size: {
         bordered: {
-          labelSelectSpacing: baseModule,
+          labelSelectSpacing: bmodule(1),
 
           dense: {
-            labelSelectSpacing: halfBaseModule,
+            labelSelectSpacing: bmodule(0.5),
           },
 
           fullWidth: {
-            labelSelectSpacing: halfBaseModule,
+            labelSelectSpacing: bmodule(0.5),
           },
 
           denseFullWidth: {
-            labelSelectSpacing: halfBaseModule,
+            labelSelectSpacing: bmodule(0.5),
           },
         },
 
         underlined: {
-          labelSelectSpacing: halfBaseModule,
+          labelSelectSpacing: bmodule(0.5),
 
           dense: {
-            labelSelectSpacing: halfBaseModule,
+            labelSelectSpacing: bmodule(0.5),
           },
 
           fullWidth: {
-            labelSelectSpacing: halfBaseModule,
+            labelSelectSpacing: bmodule(0.5),
           },
 
           denseFullWidth: {
-            labelSelectSpacing: halfBaseModule,
+            labelSelectSpacing: bmodule(0.5),
           },
         },
       },
@@ -303,33 +300,33 @@ export default {
 
       size: {
         bordered: {
-          labelSelectSpacing: baseModule,
+          labelSelectSpacing: bmodule(1),
 
           dense: {
-            labelSelectSpacing: baseModule,
+            labelSelectSpacing: bmodule(1),
           },
 
           fullWidth: {
-            labelSelectSpacing: baseModule,
+            labelSelectSpacing: bmodule(1),
           },
 
           denseFullWidth: {
-            labelSelectSpacing: baseModule,
+            labelSelectSpacing: bmodule(1),
           },
         },
         underlined: {
-          labelSelectSpacing: baseModule,
+          labelSelectSpacing: bmodule(1),
 
           dense: {
-            labelSelectSpacing: baseModule,
+            labelSelectSpacing: bmodule(1),
           },
 
           fullWidth: {
-            labelSelectSpacing: baseModule,
+            labelSelectSpacing: bmodule(1),
           },
 
           denseFullWidth: {
-            labelSelectSpacing: baseModule,
+            labelSelectSpacing: bmodule(1),
           },
         },
       },
@@ -342,11 +339,11 @@ export default {
       ],
     },
 
-    labelTooltipSpacing: baseModule,
+    labelTooltipSpacing: bmodule(1),
   },
 
   icon: {
-    iconTextSpacing: halfBaseModule,
+    iconTextSpacing: bmodule(0.5),
 
     source: {
       src: IconArrowDropDown,
@@ -411,7 +408,7 @@ export default {
   },
 
   message: {
-    messageSelectSpacing: baseModule,
+    messageSelectSpacing: bmodule(1),
     fontSize: fontSizeSmall,
     lineHeight: 1,
 
@@ -443,21 +440,21 @@ export default {
     maxWidth: '14em',
 
     size: {
-      paddingY: baseModule,
+      paddingY: bmodule(1),
       paddingX: 0,
 
       dense: {
-        paddingY: baseModule,
+        paddingY: bmodule(1),
         paddingX: 0,
       },
 
       fullWidth: {
-        paddingY: baseModule,
+        paddingY: bmodule(1),
         paddingX: 0,
       },
 
       denseFullWidth: {
-        paddingY: baseModule,
+        paddingY: bmodule(1),
         paddingX: 0,
       },
     },
@@ -465,28 +462,28 @@ export default {
 
   option: {
     size: {
-      paddingY: baseModule,
-      paddingX: doubleBaseModule,
+      paddingY: bmodule(1),
+      paddingX: bmodule(2),
       lineHeight: constants.size.lineHeight,
       fontSize: constants.size.fontSize,
 
       dense: {
-        paddingY: baseModule,
-        paddingX: doubleBaseModule,
+        paddingY: bmodule(1),
+        paddingX: bmodule(2),
         lineHeight: constants.size.lineHeight,
         fontSize: constants.size.dense.fontSize,
       },
 
       fullWidth: {
-        paddingY: baseModule,
-        paddingX: doubleBaseModule,
+        paddingY: bmodule(1),
+        paddingX: bmodule(2),
         lineHeight: constants.size.lineHeight,
         fontSize: constants.size.fullWidth.fontSize,
       },
 
       denseFullWidth: {
-        paddingY: baseModule,
-        paddingX: doubleBaseModule,
+        paddingY: bmodule(1),
+        paddingX: bmodule(2),
         lineHeight: constants.size.lineHeight,
         fontSize: constants.size.denseFullWidth.fontSize,
       },

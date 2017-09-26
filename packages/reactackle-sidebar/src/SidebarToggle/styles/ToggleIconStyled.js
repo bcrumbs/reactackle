@@ -47,9 +47,9 @@ const state = ({ theme: themeFromProvider, expanded, autoCollapsing }) => {
   const collapsedStyles = `
     width: ${getValueString(iconPath.collapsed.width)};
     margin-left: ${getValueString(iconPath.collapsed.marginLeft)};
-    color: ${iconPath.collapsed.color};
     opacity: ${iconPath.collapsed.opacity};
     transform: rotate(180deg);
+    ${iconStyleMixin(iconPath.collapsed.color)}
     
     &:hover {
       color: ${iconPath.collapsed.hover.color};
@@ -65,8 +65,8 @@ const state = ({ theme: themeFromProvider, expanded, autoCollapsing }) => {
   const expandedStyles = `
     width: ${getValueString(iconPath.expanded.width)};
     margin-left: ${getValueString(iconPath.expanded.marginLeft)};
-    color: ${iconPath.expanded.color};
     opacity: ${iconPath.expanded.opacity};
+    ${iconStyleMixin(iconPath.expanded.color)}
     
     &:hover {
       color: ${iconPath.expanded.hover.color};

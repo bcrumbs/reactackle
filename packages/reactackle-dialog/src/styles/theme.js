@@ -1,8 +1,5 @@
 import {
-  oneAndHalfBaseModule,
-  doubleBaseModule,
-  baseModule,
-  halfBaseModule,
+  bmodule,
   radiusDefault,
   colorWhite,
   colorPaletteGrey200,
@@ -19,9 +16,9 @@ import {
 import { IconCross } from 'reactackle-icon-svg';
 
 export const dialogConstants = {
-  paddingX: doubleBaseModule,
-  paddingY: doubleBaseModule,
-  paddingYSmall: oneAndHalfBaseModule,
+  paddingX: bmodule(2),
+  paddingY: bmodule(2),
+  paddingYSmall: bmodule(1.5),
 };
 
 export default {
@@ -31,7 +28,7 @@ export default {
     backgroundColor: colorWhite,
     borderRadius: radiusDefault,
     zIndex: zIndexModal,
-    margin: baseModule,
+    margin: bmodule(1),
   },
 
   sideRegion: {
@@ -90,7 +87,7 @@ export default {
   },
 
   subtitle: {
-    subtitleTitleSpacing: baseModule,
+    subtitleTitleSpacing: bmodule(1),
     fontSize: fontSizeBody,
     lineHeight: 1.3,
     color: fontColorMedium,
@@ -104,7 +101,7 @@ export default {
     lineHeight: 1.5,
     color: bodyFontColor,
     fontWeight: fontWeightNormal,
-    similarTextBlockSpacing: baseModule,
+    similarTextBlockSpacing: bmodule(1),
 
     borderWidth: 1,
     borderColor: colorBorder,
@@ -127,7 +124,7 @@ export default {
 
   actionItem: {
     marginX: '0.5em',
-    marginY: halfBaseModule,
+    marginY: bmodule(0.5),
   },
 
   backdrop: {

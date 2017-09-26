@@ -77,30 +77,41 @@ export const borderRadius = ({ rounded, theme: themeFromProvider }) => {
   `;
 };
 
-const iconSize = ({ theme: themeFromProvider, sizeKey }) => {
+const iconSize = ({ theme: themeFromProvider, sizeKey, border, rounded }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const path = theme.reactackle.components.iconSvg;
 
   const width = sizeKey !== 'custom'
-    ? getValueString(path.size[sizeKey].width)
+    ? path.size[sizeKey].width || path.size[sizeKey].height
     : 'inherit';
 
   const height = sizeKey !== 'custom'
-    ? getValueString(path.size[sizeKey].height)
+    ? path.size[sizeKey].height || path.size[sizeKey].width
     : 'inherit';
 
   let imgSize = null;
   if (sizeKey !== 'custom') {
-    imgSize = path.size[sizeKey].imgSize
-      ? getValueString(path.size[sizeKey].imgSize)
-      : getValueString(path.size[sizeKey].width);
+    if (border)
+      if (rounded)
+        imgSize =
+          path.size[sizeKey].roundedImgSize
+          || path.size[sizeKey].borderedImgSize
+          || path.size[sizeKey].imgSize
+          || height;
+      else
+        imgSize =
+          path.size[sizeKey].borderedImgSize
+          || path.size[sizeKey].imgSize
+          || height;
+    else
+      imgSize = path.size[sizeKey].imgSize || height;
   }
 
   return css`
     ${iconSvgSizeMixin(
-      height,
-      imgSize,
-      width,
+      getValueString(height),
+      getValueString(imgSize),
+      getValueString(width),
     )}
   `;
 };

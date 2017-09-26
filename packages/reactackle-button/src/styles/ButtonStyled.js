@@ -137,12 +137,11 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
   const borderWidth = theme.reactackle.components.button.borderWidth;
   const borderStyle = theme.reactackle.components.button.borderStyle;
 
-  return css`
-    border-width: ${getValueString(borderWidth)};
-    border-style: ${borderStyle};
-        
+  return css`        
     ${outlined
       ? `
+        border-width: ${getValueString(borderWidth)};
+        border-style: ${borderStyle};
         border-color: ${bgTransparency ? backgroundColor : fontColor};
         background-color: ${Color(backgroundColor).fade(1)};
         color: ${bgTransparency ? backgroundColor : fontColor};
@@ -161,19 +160,17 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
       `
       : `          
         background-color: ${backgroundColor};
-        border-color: ${backgroundColor};
         color: ${fontColor};
+        border-width: 0;
   
         &:hover {
           background-color: ${hoverBackgroundColor};
-          border-color: ${hoverBackgroundColor};
           color: ${hoverFontColor};
         }
         
         &:focus,
         &:active {      
-          background-color: ${focusBackgroundColor};   
-          border-color: ${focusBackgroundColor};   
+          background-color: ${focusBackgroundColor};
           color: ${focusFontColor};
         }
       `}

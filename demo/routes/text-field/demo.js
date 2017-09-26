@@ -137,37 +137,6 @@ export const TextFieldDemoRoute = () => (
           </FormItem>
           <FormItem>
             <TextField
-              fullWidth
-              placeholder="Enter you value..."
-              label="Full-width TextField width side label"
-              labelPosition="side"
-            />
-          </FormItem>
-          <FormItem>
-            <TextField
-              fullWidth
-              placeholder="Enter you value..."
-              label="Full-width TextField width side label"
-              labelPosition="side"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
-            />
-          </FormItem>
-          <FormItem>
-            <TextField
-              fullWidth
-              placeholder="Enter you value..."
-              label="Full-width TextField with icon"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
-            />
-          </FormItem>
-          <FormItem>
-            <TextField
               bordered
               fullWidth
               placeholder="Enter you value..."

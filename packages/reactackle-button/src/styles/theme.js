@@ -3,11 +3,6 @@ import {
   fontWeightSemibold,
   bodyFontColor,
   bmodule,
-  baseModule,
-  halfBaseModule,
-  oneAndHalfBaseModule,
-  doubleBaseModule,
-  tripleBaseModule,
   colorPaletteGrey100,
   colorTransparent,
   colorMain,
@@ -55,7 +50,7 @@ export default {
     fontWeight: ({ fontWeight }) => fontWeight.normal,
     textTransform: 'none',
 
-    subtitleTitleSpacing: halfBaseModule,
+    subtitleTitleSpacing: bmodule(0.5),
   },
 
   size: {
@@ -64,9 +59,9 @@ export default {
       lineHeight: buttonSizeConstants.small.lineHeight,
 
       paddingY: buttonSizeConstants.small.paddingY,
-      paddingX: baseModule,
+      paddingX: bmodule(1),
       narrowPaddingX: 0,
-      roundedPaddingX: doubleBaseModule,
+      roundedPaddingX: bmodule(2),
 
       textPaddingY: buttonSizeConstants.small.textPaddingY,
       textPaddingX: bmodule(0.75),
@@ -85,9 +80,9 @@ export default {
     normal: {
       fontSize: buttonSizeConstants.normal.fontSize + 1,
       lineHeight: buttonSizeConstants.normal.lineHeight,
-      paddingX: baseModule,
+      paddingX: bmodule(1),
       narrowPaddingX: 0,
-      roundedPaddingX: doubleBaseModule,
+      roundedPaddingX: bmodule(2),
       paddingY: buttonSizeConstants.normal.paddingY,
       textPaddingY: buttonSizeConstants.normal.textPaddingY,
       textPaddingX: bmodule(0.75),
@@ -150,7 +145,7 @@ export default {
       paddingX: 0,
       narrowPaddingX: 0,
       paddingY: 0,
-      smallPaddingY: halfBaseModule,
+      smallPaddingY: bmodule(0.5),
       textPaddingY: 0,
       textPaddingX: 0,
       minHeight: 0,

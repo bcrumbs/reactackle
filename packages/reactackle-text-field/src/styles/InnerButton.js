@@ -100,7 +100,7 @@ const iconSize = ({ dense, fullWidth, theme: themeFromProvider, type }) => {
   return css`    
     ${sizeMixin(
       getValueString(boxSize),
-      getValueString(imgSize || outboxSizeerSize),
+      getValueString(imgSize || boxSize),
       getValueString(boxSize),
     )}
   `;

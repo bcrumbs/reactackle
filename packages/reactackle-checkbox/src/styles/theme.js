@@ -1,12 +1,9 @@
 import {
   bmodule,
-  baseModule,
-  halfBaseModule,
   colorTransparent,
   colorWhite,
   colorError,
   colorSecondary,
-  twoAndQuarterBaseModule,
   colorPaletteGrey100,
   colorPaletteGrey200,
   colorPaletteGrey300,
@@ -20,12 +17,12 @@ import {
 import { IconCheck } from 'reactackle-icon-svg';
 
 export default {
-  checkboxesSpacing: baseModule,
+  checkboxesSpacing: bmodule(1),
 
   input: {
-    size: twoAndQuarterBaseModule,
+    size: bmodule(2.25),
     cursor: 'pointer',
-    borderWidth: 1, // Only number's accepted
+    borderWidth: 1, // Only numbers accepted
     borderRadius: radiusDefault,
     backgroundColor: colorTransparent,
     borderColor: colorPaletteGrey300,
@@ -117,8 +114,8 @@ export default {
   },
 
   label: {
-    checkboxTextSpacing: baseModule,
-    labelTooltipSpacing: baseModule,
+    checkboxTextSpacing: bmodule(1),
+    labelTooltipSpacing: bmodule(1),
     fontSize: fontSizeBody,
     fontColor: colorPaletteGrey900,
     lineHeight: 1.5,
@@ -129,7 +126,7 @@ export default {
   },
 
   errorMessage: {
-    messageCheckboxSpacing: halfBaseModule,
+    messageCheckboxSpacing: bmodule(0.5),
     fontSize: fontSizeSmall,
     fontColor: colorError,
     lineHeight: 1.25,

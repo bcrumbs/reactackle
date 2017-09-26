@@ -12,30 +12,38 @@ export default {
   size: {
     small: {
       borderWidth: 1,
-      width: 18,
       height: 18,
+      width: null,
       imgSize: null,
+      borderedImgSize: null,
+      roundedImgSize: null,
     },
 
     normal: {
       borderWidth: 1,
-      width: 24,
       height: 24,
+      width: null,
       imgSize: null,
+      borderedImgSize: null,
+      roundedImgSize: null,
     },
 
     large: {
       borderWidth: 2,
-      width: 36,
       height: 36,
+      width: null,
       imgSize: null,
+      borderedImgSize: null,
+      roundedImgSize: null,
     },
 
     xlarge: {
       borderWidth: 2,
-      width: 48,
       height: 48,
+      width: null,
       imgSize: null,
+      borderedImgSize: null,
+      roundedImgSize: null,
     },
   },
 };

@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { Tabs } from 'reactackle';
 import { RouteDemo } from '../../components/Route/RouteStructure';
@@ -15,22 +13,22 @@ const tabs = [
   {
     isSelected: true,
     icon: {
-      name: 'amazon',
+      src: (
+        <svg viewBox="0 0 24 24">
+          <path d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z" />
+        </svg>
+      ),
     },
     text: 'Tab 1',
   },
   {
     isSelected: false,
-    icon: {
-      name: 'android',
-    },
+    icon: {},
     text: 'Tab 2',
   },
   {
     isSelected: false,
-    icon: {
-      name: 'adn',
-    },
+    icon: {},
     text: 'Tab 3',
   },
   {
@@ -40,9 +38,7 @@ const tabs = [
   {
     linkhref: '',
     isSelected: false,
-    icon: {
-      name: 'chrome',
-    },
+    icon: {},
   },
 ];
 

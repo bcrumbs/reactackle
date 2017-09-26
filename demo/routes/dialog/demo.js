@@ -102,7 +102,7 @@ export class DialogDemoRoute extends Component {
               minWidth={240}
               dialogContentFlex
               regionAsideShow
-              regionAside={<Icon name="map" />}
+              regionAside={<Icon />}
             >
               <div>
                 <p>
