@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Icon, iconPropType  } from 'reactackle-icon';
+import { Icon, iconPropType } from 'reactackle-icon';
 import { noop, registerDefaultComponentTheme } from 'reactackle-core';
 
 import { ButtonStyled } from './styles/ButtonStyled';
@@ -51,7 +51,7 @@ const propTypes = {
   /** Swap icon and text position */
   iconPositionRight: PropTypes.bool,
   /**
-   * Define Button's icon (see IconSvg or IconCustom props)
+   * Define icon (see IconSvg or IconCustom props)
    */
   icon: iconPropType,
   /**
@@ -80,8 +80,8 @@ const defaultProps = {
   raised: false,
   disabled: false,
   iconPositionRight: false,
-  stopPressPropagation: false,
   icon: {},
+  stopPressPropagation: false,
   onPress: noop,
   href: '',
 };

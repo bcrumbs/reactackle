@@ -22,6 +22,11 @@ import {
   bodyFontFamily,
 } from 'reactackle-core';
 
+import {
+  IconEye,
+  IconCross,
+} from 'reactackle-icon-svg';
+
 const constants = {
   themeColor: colorSecondary,
   fontColor: bodyFontColor,
@@ -85,6 +90,7 @@ export default {
   textfield: {
     themeColor: constants.themeColor,
     fontFamily: bodyFontFamily,
+    transitionSpeed: 150,
 
     state: {
       fontColor: constants.fontColor,
@@ -361,14 +367,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 20,
+      imgSize: null,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 20,
+        imgSize: null,
       },
 
       fullWidth: {
@@ -376,7 +382,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 20,
+        imgSize: null,
       },
 
       denseFullWidth: {
@@ -384,7 +390,7 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 20,
+        imgSize: null,
       },
     },
   },
@@ -426,14 +432,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 16,
+      imgSize: null,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: null,
       },
 
       fullWidth: {
@@ -441,7 +447,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: null,
       },
 
       denseFullWidth: {
@@ -449,7 +455,7 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: null,
       },
     },
   },
@@ -491,14 +497,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 16,
+      imgSize: 24,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 24,
       },
 
       fullWidth: {
@@ -506,7 +512,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 24,
       },
 
       denseFullWidth: {
@@ -514,21 +520,19 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 24,
       },
     },
   },
 
   clearingIcon: {
-    name: 'times',
-    src: '',
-    type: 'font-awesome',
+    src: IconCross,
+    type: 'svg',
   },
 
   passwordIcon: {
-    name: 'eye',
-    src: '',
-    type: 'font-awesome',
+    src: IconEye,
+    type: 'svg',
   },
 
   message: {

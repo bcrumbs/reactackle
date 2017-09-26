@@ -26,11 +26,11 @@ const _DialogCloseButton = props => {
     <DialogCloseButtonStyled
       transparentBg={props.transparentBg}
       onClick={props.onClick}
+      type={iconSettingsPath.type}
     >
       <Icon
-        size="inherit"
-        color="inherit"
-        name={iconSettingsPath.name}
+        size="custom"
+        color="currentColor"
         src={iconSettingsPath.src}
         type={iconSettingsPath.type}
       />

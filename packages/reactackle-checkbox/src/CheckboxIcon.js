@@ -46,14 +46,14 @@ const CheckboxIconComponent = props => {
     <CheckboxIconStyled
       checked={props.checked}
       disabled={props.disabled}
+      type={iconSettingsPath.type}
       {...tooltipManagementProps}
     >
       <Icon
-        size="inherit"
-        color="inherit"
-        name={iconSettingsPath.name}
+        size="custom"
         src={iconSettingsPath.src}
         type={iconSettingsPath.type}
+        color="currentColor"
       />
       {tooltip}
     </CheckboxIconStyled>

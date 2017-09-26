@@ -69,7 +69,7 @@ export const IconSvg = ({
     rounded={rounded}
     {...props}
   >
-    {src || children || <IconDefault />}
+    {src || children || IconDefault}
   </IconSvgStyled>
 );
 

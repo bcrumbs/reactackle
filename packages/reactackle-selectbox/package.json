@@ -25,7 +25,9 @@
     "prop-types": "^15.5.10",
     "reactackle-autoposition": "^0.0.3-beta.2",
     "reactackle-icon": "^0.0.3-beta.2",
-    "reactackle-tooltip-icon": "^0.0.3-beta.2"
+    "reactackle-tooltip-icon": "^0.0.3-beta.2",
+    "reactackle-icon-custom": "^0.0.3-beta.2",
+    "reactackle-icon-svg": "^0.0.3-beta.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

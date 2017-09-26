@@ -1,7 +1,8 @@
-'use strict';
-
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icon';
+import { iconSvgSizeMixin } from 'reactackle-icon-svg';
+import { iconCustomSizeMixin } from 'reactackle-icon-custom';
 import {
   extractThemeOrDefault,
   getValueString,
@@ -14,12 +15,6 @@ const propTypes = {
   disabled: PropTypes.bool,
   focused: PropTypes.bool,
   colorScheme: PropTypes.oneOf(['neutral', 'error', 'success']),
-  /**
-   * Define theme
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -31,9 +26,10 @@ const defaultProps = {
 };
 
 /** Prop Receivers */
-const sizeProps = ({ dense, fullWidth, theme: themeFromProvider }) => {
+const sizeProps = ({ dense, fullWidth, theme: themeFromProvider, type }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const path = theme.reactackle.components.selectBox.icon.size;
+  const sizeMixin = type === 'svg' ? iconSvgSizeMixin : iconCustomSizeMixin;
   let source = path;
 
   if (dense && !fullWidth) source = path.dense;
@@ -42,13 +38,12 @@ const sizeProps = ({ dense, fullWidth, theme: themeFromProvider }) => {
 
   const { boxSize, imgSize } = source;
 
-  const outer = getValueString(boxSize);
-
-  return `
-    width: ${outer};
-    height: ${outer};
-    line-height: ${outer};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${sizeMixin(
+      getValueString(boxSize),
+      getValueString(imgSize || boxSize),
+      getValueString(boxSize),
+    )}
   `;
 };
 
@@ -73,8 +68,8 @@ const styleProps = ({
     &,
     &:hover,
     &:focus {
-      color: ${color};
       opacity: ${opacity};
+      ${iconStyleMixin(color)};
     }
   `;
 };
@@ -83,7 +78,9 @@ const styleProps = ({
 export const ArrowIconStyled = styled.span`
   pointer-events: none;
   display: flex;
-  ${sizeProps} ${styleProps} ${transition('color, opacity')};
+  ${sizeProps}
+  ${styleProps}
+  ${transition('color, opacity')};
 `;
 
 ArrowIconStyled.propTypes = propTypes;

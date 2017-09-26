@@ -96,9 +96,9 @@ export default {
   },
 
   icon: {
-    width: 24,
-    height: 24,
-    imgSize: 24,
+    height: 40,
+    width: null,
+    imgSize: null,
     iconTextSpacing: baseModule,
 
     style: {

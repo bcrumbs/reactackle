@@ -93,7 +93,8 @@ export default {
 
     icon: {
       height: 40,
-      imgSize: 24,
+      width: null,
+      imgSize: null,
 
       style: {
         collapsed: {

@@ -1,8 +1,8 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TextareaAutosize from 'react-textarea-autosize';
+import { Icon, iconPropType } from 'reactackle-icon';
+import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
   withTheme,
@@ -11,8 +11,7 @@ import {
   isUndef,
   registerDefaultComponentTheme,
 } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
-import { TooltipIcon } from 'reactackle-tooltip-icon';
+
 import { InfoBoxStyled } from './styles/InfoBoxStyled';
 import { IconOuterStyled } from './styles/IconOuterStyled';
 import { IconInnerStyled } from './styles/IconInnerStyled';
@@ -92,13 +91,13 @@ const propTypes = {
    */
   clearingIcon: PropTypes.bool,
   /**
-   * Add icon behind TextField
+   * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: PropTypes.shape(Icon.propTypes),
+  iconOuter: iconPropType,
   /**
-   * Show icon inside TextField's boundaries
+   * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: PropTypes.shape(Icon.propTypes),
+  iconInner: iconPropType,
   /**
    * Define label position
    */
@@ -409,10 +408,7 @@ class _TextField extends Component {
         labelPosition={this.props.labelPosition}
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
-        iconOuter={
-          this.props.iconOuter &&
-          (this.props.iconOuter.name || this.props.iconOuter.src)
-        }
+        iconOuter={this.props.iconOuter}
       >
         {message}
         {counter}
@@ -421,10 +417,9 @@ class _TextField extends Component {
   }
 
   _renderInnerButton() {
-    const clearingIconPath = this.props.theme.reactackle.components.textfield
-      .clearingIcon;
-    const passwordIconPath = this.props.theme.reactackle.components.textfield
-      .passwordIcon;
+    const componentPath = this.props.theme.reactackle.components.textfield;
+    const clearingIconPath = componentPath.clearingIcon;
+    const passwordIconPath = componentPath.passwordIcon;
 
     if (typeof this.state.hidden === 'boolean') {
       return (
@@ -434,13 +429,13 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
+          type={passwordIconPath.type}
         >
           <Icon
-            name={passwordIconPath.name}
             src={passwordIconPath.src}
             type={passwordIconPath.type}
-            size="inherit"
-            color="inherit"
+            size="custom"
+            color="currentColor"
             onClick={this._handleHideValue}
           />
         </InnerButton>
@@ -453,13 +448,13 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
+          type={passwordIconPath.type}
         >
           <Icon
-            name={clearingIconPath.name}
             src={clearingIconPath.src}
             type={clearingIconPath.type}
-            size="inherit"
-            color="inherit"
+            size="custom"
+            color="currentColor"
             onClick={this._handleClearValue}
           />
         </InnerButton>
@@ -479,8 +474,9 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
+        type={this.props.iconOuter.type}
       >
-        <Icon {...this.props.iconOuter} size="inherit" color="inherit" />
+        <Icon {...this.props.iconOuter} size="custom" color="currentColor" />
       </IconOuterStyled>
     );
   }
@@ -494,8 +490,9 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
+        type={this.props.iconInner.type}
       >
-        <Icon {...this.props.iconInner} size="inherit" color="inherit" />
+        <Icon {...this.props.iconInner} size="custom" color="currentColor" />
       </IconInnerStyled>
     );
   }
@@ -536,10 +533,7 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        iconOuter={
-          this.props.iconOuter &&
-          (this.props.iconOuter.name || this.props.iconOuter.src)
-        }
+        iconOuter={this.props.iconOuter}
         bordered={this.props.bordered}
       >
         <LabelTextStyled>

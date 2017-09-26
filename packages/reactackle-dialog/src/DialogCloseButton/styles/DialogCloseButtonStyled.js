@@ -1,7 +1,8 @@
-'use strict';
-
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { iconSvgSizeMixin } from 'reactackle-icon-svg';
+import { iconCustomSizeMixin } from 'reactackle-icon-custom';
+
 import {
   extractThemeOrDefault,
   getValueString,
@@ -10,12 +11,6 @@ import {
 
 const propTypes = {
   transparentBg: PropTypes.bool,
-  /**
-   * Define theme
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -23,19 +18,21 @@ const defaultProps = {
 };
 
 /** Prop Receivers */
-const sizeProps = ({ theme: themeFromProvider }) => {
+const sizeProps = ({ theme: themeFromProvider, type }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
+  const sizeMixin = type === 'svg' ? iconSvgSizeMixin : iconCustomSizeMixin;
   const {
     width,
     height,
     imgSize,
   } = theme.reactackle.components.dialog.closeButton;
 
-  return `
-    width: ${getValueString(width)};
-    height: ${getValueString(height)};
-    line-height: ${getValueString(height)};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${sizeMixin(
+      getValueString(width),
+      getValueString(imgSize || width),
+      getValueString(height || width),
+    )}
   `;
 };
 

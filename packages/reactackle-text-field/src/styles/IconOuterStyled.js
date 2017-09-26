@@ -1,5 +1,8 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icon';
+import { iconSvgSizeMixin } from 'reactackle-icon-svg';
+import { iconCustomSizeMixin } from 'reactackle-icon-custom';
 import {
   extractThemeOrDefault,
   getValueString,
@@ -17,12 +20,6 @@ const propTypes = {
    */
   dense: PropTypes.bool,
   colorScheme: PropTypes.oneOf(['neutral', 'error', 'success']),
-  /**
-   * Define component theme config
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -62,15 +59,16 @@ const iconStyle = ({
 
   const { color, opacity } = source;
 
-  return `
-    color: ${color};
+  return css`
     opacity: ${opacity};
+    ${iconStyleMixin(color)}
   `;
 };
 
-const iconSize = ({ dense, fullWidth, theme: themeFromProvider }) => {
+const iconSize = ({ dense, fullWidth, theme: themeFromProvider, type }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const path = theme.reactackle.components.textfield.iconOuter;
+  const sizeMixin = type === 'svg' ? iconSvgSizeMixin : iconCustomSizeMixin;
 
   let source = null;
   if (dense && !fullWidth) source = path.size.dense;
@@ -80,13 +78,12 @@ const iconSize = ({ dense, fullWidth, theme: themeFromProvider }) => {
 
   const { boxSize, imgSize } = source;
 
-  const outer = getValueString(boxSize);
-
-  return `
-    width: ${outer};
-    height: ${outer};
-    line-height: ${outer};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${sizeMixin(
+      getValueString(boxSize),
+      getValueString(imgSize || boxSize),
+      getValueString(boxSize),
+    )}
   `;
 };
 

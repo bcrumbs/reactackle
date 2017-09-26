@@ -1,5 +1,3 @@
-'use strict';
-
 import {
   baseModule,
   halfBaseModule,
@@ -21,6 +19,8 @@ import {
   bodyFontColor,
   bodyLineHeight,
 } from 'reactackle-core';
+
+import { IconArrowDropDown } from 'reactackle-icon-svg';
 
 const constants = {
   themeColor: colorSecondary,
@@ -349,9 +349,8 @@ export default {
     iconTextSpacing: halfBaseModule,
 
     source: {
-      name: 'caret-down',
-      src: '',
-      type: 'font-awesome',
+      src: IconArrowDropDown,
+      type: 'svg',
     },
 
     state: {
@@ -383,14 +382,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 16,
+      imgSize: 30,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 26,
       },
 
       fullWidth: {
@@ -398,7 +397,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 30,
       },
 
       denseFullWidth: {
@@ -406,7 +405,7 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 30,
       },
     },
   },

@@ -1,5 +1,3 @@
-'use strict';
-
 import {
   oneAndHalfBaseModule,
   doubleBaseModule,
@@ -17,6 +15,8 @@ import {
   bodyFontColor,
   fontColorMedium,
 } from 'reactackle-core';
+
+import { IconCross } from 'reactackle-icon-svg';
 
 export const dialogConstants = {
   paddingX: doubleBaseModule,
@@ -41,13 +41,12 @@ export default {
 
   closeButton: {
     width: 40,
-    height: 40,
-    imgSize: 16,
+    height: null,
+    imgSize: 24,
 
     source: {
-      name: 'times',
-      src: '',
-      type: 'font-awesome',
+      src: IconCross,
+      type: 'svg',
     },
 
     style: {

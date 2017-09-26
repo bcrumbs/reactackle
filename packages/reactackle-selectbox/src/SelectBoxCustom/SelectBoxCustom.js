@@ -336,13 +336,13 @@ class _SelectBoxCustom extends Component {
                   disabled={this.props.disabled}
                   focused={this.state.open}
                   colorScheme={this.props.colorScheme}
+                  type={iconSettingsPath.type}
                 >
                   <Icon
-                    name={iconSettingsPath.name}
                     src={iconSettingsPath.src}
                     type={iconSettingsPath.type}
-                    size="inherit"
-                    color="inherit"
+                    size="custom"
+                    color="currentColor"
                   />
                 </ArrowIconStyled>
               </ButtonStyled>

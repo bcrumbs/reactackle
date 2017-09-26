@@ -1,13 +1,11 @@
-'use strict';
-
 import {
+  bmodule,
   baseModule,
   halfBaseModule,
   colorTransparent,
   colorWhite,
   colorError,
   colorSecondary,
-  oneAndHalfBaseModule,
   twoAndQuarterBaseModule,
   colorPaletteGrey100,
   colorPaletteGrey200,
@@ -18,6 +16,8 @@ import {
   fontSizeBody,
   fontSizeSmall,
 } from 'reactackle-core';
+
+import { IconCheck } from 'reactackle-icon-svg';
 
 export default {
   checkboxesSpacing: baseModule,
@@ -67,12 +67,12 @@ export default {
   },
 
   icon: {
-    size: oneAndHalfBaseModule,
+    size: bmodule(2),
+    imgSize: null,
 
     source: {
-      name: 'check',
-      src: '',
-      type: 'font-awesome',
+      src: IconCheck,
+      type: 'svg',
     },
 
     style: {
@@ -110,7 +110,7 @@ export default {
 
         disabled: {
           color: colorWhite,
-          opacity: 0.5,
+          opacity: 0.75,
         },
       },
     },

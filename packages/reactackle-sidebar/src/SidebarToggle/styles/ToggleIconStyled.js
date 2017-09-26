@@ -1,7 +1,8 @@
-'use strict';
-
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icon';
+import { iconSvgSizeMixin } from 'reactackle-icon-svg';
+import { iconCustomSizeMixin } from 'reactackle-icon-custom';
 import {
   extractThemeOrDefault,
   getValueString,
@@ -12,7 +13,6 @@ import {
 const propTypes = {
   expanded: PropTypes.bool,
   autoCollapsing: PropTypes.bool,
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -21,18 +21,21 @@ const defaultProps = {
 };
 
 /** Prop Receivers */
-const base = ({ theme: themeFromProvider }) => {
+const iconSize = ({ theme: themeFromProvider, type }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
+  const sizeMixin = type === 'svg' ? iconSvgSizeMixin : iconCustomSizeMixin;
   const {
+    width,
     height,
     imgSize,
   } = theme.reactackle.components.sidebar.toggleButton.icon;
 
-  return `
-    height: ${getValueString(height)};
-    max-height: ${getValueString(height)};
-    line-height: ${getValueString(height)};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${sizeMixin(
+      getValueString(height),
+      getValueString(imgSize || height),
+      getValueString(width || height),
+    )}
   `;
 };
 
@@ -97,7 +100,9 @@ export const ToggleIconStyled = styled.div`
   position: relative;
   flex-shrink: 0;
   justify-content: center;
-  ${base} ${state} ${transition('transform, width, margin')};
+  ${iconSize}
+  ${state}
+  ${transition('transform, width, margin')};
 `;
 
 ToggleIconStyled.propTypes = propTypes;
