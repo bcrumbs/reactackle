@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {
   IconCustom,
   iconCustomSizeMixin,
-} from '../../../packages/reactackle-icon-custom';
+} from 'reactackle';
 
 import {
   RouteDemo,

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {
   IconSvg,
   iconSvgSizeMixin,
-} from '../../../packages/reactackle-icon-svg';
+} from 'reactackle';
 
 import {
   RouteDemo,
