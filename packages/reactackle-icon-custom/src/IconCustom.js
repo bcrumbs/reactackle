@@ -16,7 +16,7 @@ const propTypes = {
   /** Turns on/off icon's border */
   border: PropTypes.bool,
   /** Set icon's border width */
-  borderWidth: PropTypes.bool,
+  borderWidth: PropTypes.number,
   /** Make icon rounded */
   rounded: PropTypes.bool,
   /** Set icon size */

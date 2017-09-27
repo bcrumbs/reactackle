@@ -49,7 +49,7 @@ const defaultProps = {
   toggleButtonIcon: {
     name: 'angle-left',
     src: '',
-    type: 'font-awesome',
+    type: 'svg',
   },
   expanded: void 0,
   attachToRight: false,
