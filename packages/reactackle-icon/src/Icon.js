@@ -7,6 +7,7 @@ const propTypes = {
   ...iconPropType,
 };
 const defaultProps = {
+  isRequired: {},
   type: 'svg',
 };
 

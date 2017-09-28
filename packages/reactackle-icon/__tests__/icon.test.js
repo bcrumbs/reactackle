@@ -7,167 +7,304 @@ import { Icon } from '../src';
 jest.mock('react-dom');
 
 describe('<Icon/>', () => {
-  it('renders correctly with default props', () => {
+  test('renders correctly with default props', () => {
     const tree = renderer.create(
-      <Icon name="github" />,
+      <Icon />,
     ).toJSON();
 
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders correctly if prop name set', () => {
+  test('renders correctly with prop type=svg', () => {
     const tree = renderer.create(
-      <Icon name="github" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and size set inherit', () => {
-    const tree = renderer.create(
-      <Icon name="github" size="inherit" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and size set small', () => {
-    const tree = renderer.create(
-      <Icon name="github" size="small" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and size set normal', () => {
-    const tree = renderer.create(
-      <Icon name="github" size="normal" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and size set large', () => {
-    const tree = renderer.create(
-      <Icon name="github" size="large" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and spin set', () => {
-    const tree = renderer.create(
-      <Icon name="github" spin />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and pulse set', () => {
-    const tree = renderer.create(
-      <Icon name="github" pulse />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and border set', () => {
-    const tree = renderer.create(
-      <Icon name="github" border />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-  
-  it('renders correctly if prop name and flip set horizontal', () => {
-    const tree = renderer.create(
-      <Icon name="github" flip="horizontal" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and flip set vertical', () => {
-    const tree = renderer.create(
-      <Icon name="github" flip="vertical" />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and rotate set 180', () => {
-    const tree = renderer.create(
-      <Icon name="github" rotate={180} />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and rotate set 0', () => {
-    const tree = renderer.create(
-      <Icon name="github" rotate={0} />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and rotate set 90', () => {
-    const tree = renderer.create(
-      <Icon name="github" rotate={90} />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and rotate set 270', () => {
-    const tree = renderer.create(
-      <Icon name="github" rotate={270} />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and tabIndex set 1', () => {
-    const tree = renderer.create(
-      // eslint-disable-next-line jsx-a11y/tabindex-no-positive
-      <Icon name="github" tabIndex={1} />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders correctly if prop name and tabIndex set 100', () => {
-    const tree = renderer.create(
-      // eslint-disable-next-line jsx-a11y/tabindex-no-positive
-      <Icon name="github" tabIndex={100} />,
-    );
-
-    expect(tree.toJSON()).toMatchSnapshot();
-  });
-
-  it('one call "onClick" event after "click"', () => {
-    const mockFn = jest.fn(),
-      tree = renderer.create(
-        <Icon name="github" onClick={mockFn} />,
-            ).toJSON();
-
-    tree.props.onClick();
-
-    expect(mockFn).toHaveBeenCalledTimes(1);
-  });
-
-  it('renders with "library" as type', () => {
-    const tree = renderer.create(
-      <Icon type="library" src="foo://bar" name="github" />,
-            ).toJSON();
+      <Icon type="svg" />,
+    ).toJSON();
 
     expect(tree).toMatchSnapshot();
   });
-  
-  it('renders correctly if prop type set library and tabIndex set 1', () => {
+
+  test('renders correctly with prop type=custom', () => {
     const tree = renderer.create(
-      // eslint-disable-next-line jsx-a11y/tabindex-no-positive
-      <Icon type="library" tabIndex={1} />,
+      <Icon type="custom" />,
+    ).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+
+
+  test('renders correctly with props type=svg and children', () => {
+    const tree = renderer.create(
+      <Icon type="svg">
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+          <path d="M7,10l5,5l5-5H7z" />
+        </svg>
+      </Icon>,
+    ).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg and src', () => {
+    const tree = renderer.create(
+      <Icon
+        src={
+          <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+            <path d="M7,10l5,5l5-5H7z" />
+          </svg>
+        }
+      />,
+  );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg and border', () => {
+    const tree = renderer.create(
+      <Icon type="svg" border />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, border and borderWidth', () => {
+    const tree = renderer.create(
+      <Icon type="svg" border borderWidth={2} />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, border and rounded', () => {
+    const tree = renderer.create(
+      <Icon type="svg" border rounded />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, border, rounded and borderWidth', () => {
+    const tree = renderer.create(
+      <Icon type="svg" border borderWidth={2} rounded />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, size=small', () => {
+    const tree = renderer.create(
+      <Icon type="svg" size="small" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, size=large', () => {
+    const tree = renderer.create(
+      <Icon type="svg" size="large" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, size=xlarge', () => {
+    const tree = renderer.create(
+      <Icon type="svg" size="xlarge" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, colorScheme=light', () => {
+    const tree = renderer.create(
+      <Icon type="svg" colorScheme="light" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, color', () => {
+    const tree = renderer.create(
+      <Icon type="svg" color="#02b4d4" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, backgroundColor', () => {
+    const tree = renderer.create(
+      <Icon type="svg" backgroundColor="#e81f82" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, backgroundColor, color', () => {
+    const tree = renderer.create(
+      <Icon
+        type="svg"
+        backgroundColor="#e81f82"
+        color="#02b4d4"
+      />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, flip=horizontal', () => {
+    const tree = renderer.create(
+      <Icon type="svg" flip="horizontal" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg flip=vertical', () => {
+    const tree = renderer.create(
+      <Icon type="svg" flip="vertical" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=svg, rotate', () => {
+    const tree = renderer.create(
+      <Icon type="svg" rotate={45} />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, src', () => {
+    const tree = renderer.create(
+      <Icon
+        type="custom"
+        src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
+      />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, border', () => {
+    const tree = renderer.create(
+      <Icon type="custom" border />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, border, borderWidth', () => {
+    const tree = renderer.create(
+      <Icon
+        type="custom"
+        border
+        borderWidth={2}
+      />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, border, rounded', () => {
+    const tree = renderer.create(
+      <Icon
+        type="custom"
+        border
+        rounded
+      />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, border, borderWidth, rounded', () => {
+    const tree = renderer.create(
+      <Icon
+        type="custom"
+        border
+        rounded
+        borderWidth={2}
+      />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, size=small', () => {
+    const tree = renderer.create(
+      <Icon type="custom" size="small" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, size=large', () => {
+    const tree = renderer.create(
+      <Icon type="custom" size="large" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, size=xlarge', () => {
+    const tree = renderer.create(
+      <Icon type="custom" size="xlarge" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, colorScheme=light', () => {
+    const tree = renderer.create(
+      <Icon type="custom" colorScheme="light" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, color', () => {
+    const tree = renderer.create(
+      <Icon type="custom" color="#02b4d4" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, backgroundColor', () => {
+    const tree = renderer.create(
+      <Icon type="custom" backgroundColor="#e81f82" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, backgroundColor, color', () => {
+    const tree = renderer.create(
+      <Icon type="custom" backgroundColor="#e81f82" color="#02b4d4" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, flip=horizontal', () => {
+    const tree = renderer.create(
+      <Icon type="custom" flip="horizontal" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, flip=vertical', () => {
+    const tree = renderer.create(
+      <Icon type="custom" flip="vertical" />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with props type=custom, rotate', () => {
+    const tree = renderer.create(
+      <Icon type="custom" rotate={45} />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
