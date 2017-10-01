@@ -122,7 +122,7 @@ export default class Button extends Component {
         </ButtonTextStyled>
       : null;
 
-    const buttonIcon = this.props.icon.src
+    const buttonIcon = this.props.icon.type
         ? <ButtonIconBoxStyled
             iconPositionRight={this.props.iconPositionRight}
             size={this.props.size}

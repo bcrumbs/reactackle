@@ -18,7 +18,7 @@ const propTypes = {
   /**
    * Add icon behind textfield
    */
-  iconOuter: PropTypes.string,
+  iconOuter: PropTypes.object,
   /**
    * Define component theme config
    * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
@@ -32,7 +32,7 @@ const defaultProps = {
   fullWidth: false,
   dense: false,
   labelPosition: 'top',
-  iconOuter: '',
+  iconOuter: null,
 };
 
 /** PROP RECEIVERS */

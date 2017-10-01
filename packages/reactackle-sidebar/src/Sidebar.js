@@ -48,7 +48,7 @@ const defaultProps = {
   toggleButtonText: 'Collapse',
   toggleButtonIcon: {
     name: 'angle-left',
-    src: '',
+    src: null,
     type: 'svg',
   },
   expanded: void 0,
