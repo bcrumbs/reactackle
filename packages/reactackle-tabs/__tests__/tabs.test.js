@@ -55,7 +55,7 @@ describe('<Tabs/>', () => {
     const tree = renderer.create(
       <Tabs
         tabs={[
-          { text: 'Test', icon: { name: 'anchor' } },
+          { text: 'Test', icon: { type: 'svg' } },
         ]}
       />,
     ).toJSON();
@@ -94,8 +94,8 @@ describe('<Tabs/>', () => {
         <Tabs
           onChange={mockFn}
           tabs={[
-            { text: 'Test 1', icon: { name: 'anchor' } },
-            { text: 'Test 2', icon: { name: 'anchor' } },
+            { text: 'Test 1', icon: { type: 'svg' } },
+            { text: 'Test 2', icon: { type: 'svg' } },
           ]}
         />,
       );

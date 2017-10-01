@@ -5,7 +5,7 @@ exports[`<RadioGroup/> handles onChange 1`] = `
   className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
 >
   <div
-    className="RadioStyled__RadioStyled-jaalqI bXNCba"
+    className="RadioStyled__RadioStyled-jaalqI gtjoZf"
   >
     <input
       checked={false}
@@ -17,7 +17,7 @@ exports[`<RadioGroup/> handles onChange 1`] = `
     />
     <label
       checked={false}
-      className="RadioLabelStyled__RadioLabelStyled-dllnoj cYjtBt"
+      className="RadioLabelStyled__RadioLabelStyled-dllnoj CWJiP"
       disabled={false}
       htmlFor="radio-0"
     >
@@ -32,7 +32,7 @@ exports[`<RadioGroup/> handles onChange 2`] = `
   className="RadioGroupStyled__RadioGroupStyled-ihhnPC eZpICI"
 >
   <div
-    className="RadioStyled__RadioStyled-jaalqI bXNCba"
+    className="RadioStyled__RadioStyled-jaalqI gtjoZf"
   >
     <input
       checked={true}
@@ -44,7 +44,7 @@ exports[`<RadioGroup/> handles onChange 2`] = `
     />
     <label
       checked={true}
-      className="RadioLabelStyled__RadioLabelStyled-dllnoj kzRwPf"
+      className="RadioLabelStyled__RadioLabelStyled-dllnoj hmzvXm"
       disabled={false}
       htmlFor="radio-0"
     >

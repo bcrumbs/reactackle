@@ -531,17 +531,17 @@ exports[`<TextField/> handless focus 1`] = `
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
-                  "imgSize": 16,
+                  "imgSize": 24,
                 },
                 "state": Object {
                   "color": "#212121",
@@ -569,9 +569,14 @@ exports[`<TextField/> handless focus 1`] = `
                 },
               },
               "clearingIcon": Object {
-                "name": "times",
-                "src": "",
-                "type": "font-awesome",
+                "src": <svg
+                  viewBox="0 0 24 24"
+      >
+                  <polygon
+                              points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+                  />
+      </svg>,
+                "type": "svg",
               },
               "iconInner": Object {
                 "iconSpacing": 4,
@@ -579,17 +584,17 @@ exports[`<TextField/> handless focus 1`] = `
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
-                  "imgSize": 16,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -622,17 +627,17 @@ exports[`<TextField/> handless focus 1`] = `
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
-                  "imgSize": 20,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -804,9 +809,14 @@ exports[`<TextField/> handless focus 1`] = `
                 },
               },
               "passwordIcon": Object {
-                "name": "eye",
-                "src": "",
-                "type": "font-awesome",
+                "src": <svg
+                  viewBox="0 0 24 24"
+      >
+                  <path
+                              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+                  />
+      </svg>,
+                "type": "svg",
               },
               "placeholder": Object {
                 "fontColor": "#bdbdbd",
@@ -1696,16 +1706,26 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -1742,16 +1762,26 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
           value="test"
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -1788,16 +1818,26 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -2212,14 +2252,14 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_60"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -2270,14 +2310,14 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_61"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -2328,14 +2368,14 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled__IconOuterStyled-fijAWU dCVBoc"
         disabled={false}
         htmlFor="TextField_62"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -2386,14 +2426,14 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_64"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -2444,14 +2484,14 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_63"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -3034,14 +3074,14 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_83"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -3182,16 +3222,26 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo jaUMkt"
+          className="InnerButton__InnerButton-iGrReo iwGexp"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3228,16 +3278,26 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo joxNco"
+          className="InnerButton__InnerButton-iGrReo jnqNPZ"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3274,16 +3334,26 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo joxNco"
+          className="InnerButton__InnerButton-iGrReo jnqNPZ"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3320,16 +3390,26 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3366,16 +3446,26 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           value="test"
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3412,16 +3502,26 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           value="test"
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3458,16 +3558,26 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo ilBesb"
+          className="InnerButton__InnerButton-iGrReo gImsmM"
           disabled={true}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3504,16 +3614,26 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -3873,14 +3993,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_28"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4022,14 +4142,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_29"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4069,14 +4189,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled__IconOuterStyled-fijAWU dCVBoc"
         disabled={false}
         htmlFor="TextField_30"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4116,14 +4236,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_33"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4163,14 +4283,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_31"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4210,14 +4330,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_32"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4628,14 +4748,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_44"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4731,14 +4851,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_45"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4789,14 +4909,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled__IconOuterStyled-fijAWU dCVBoc"
         disabled={false}
         htmlFor="TextField_46"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4847,14 +4967,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_49"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -4950,14 +5070,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_47"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -5008,14 +5128,14 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_48"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -5453,14 +5573,14 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_65"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -5551,16 +5671,26 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton__InnerButton-iGrReo heYLNC"
           disabled={false}
+          type="svg"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          <div
+            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
             color=""
             onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+            type="svg"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -5623,13 +5753,13 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
           htmlFor="TextField_114"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bDJxIX"
+            className="IconInnerStyled__IconInnerStyled-pTXLj gKLCyj"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5675,13 +5805,13 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
           htmlFor="TextField_118"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj deElkl"
+            className="IconInnerStyled__IconInnerStyled-pTXLj cJlQGh"
             disabled={true}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5727,13 +5857,13 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
           htmlFor="TextField_120"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj dnRJNw"
+            className="IconInnerStyled__IconInnerStyled-pTXLj bSxFpp"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5779,13 +5909,13 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
           htmlFor="TextField_119"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bDJxIX"
+            className="IconInnerStyled__IconInnerStyled-pTXLj gKLCyj"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5831,13 +5961,13 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
           htmlFor="TextField_116"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bstpEK"
+            className="IconInnerStyled__IconInnerStyled-pTXLj fCQLMQ"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5883,13 +6013,13 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
           htmlFor="TextField_115"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled__IconInnerStyled-pTXLj cEFtQv"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5935,13 +6065,13 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
           htmlFor="TextField_117"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled__IconInnerStyled-pTXLj cEFtQv"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -5978,14 +6108,14 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_107"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6025,14 +6155,14 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
       disabled={true}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jTkWbd"
+        className="IconOuterStyled__IconOuterStyled-fijAWU csPEVE"
         disabled={true}
         htmlFor="TextField_111"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6072,14 +6202,14 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU cZTUxQ"
+        className="IconOuterStyled__IconOuterStyled-fijAWU fMjsHh"
         disabled={false}
         htmlFor="TextField_113"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6119,14 +6249,14 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled__IconOuterStyled-fijAWU hhzWnp"
         disabled={false}
         htmlFor="TextField_112"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6166,14 +6296,14 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled__IconOuterStyled-fijAWU dCVBoc"
         disabled={false}
         htmlFor="TextField_109"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6213,14 +6343,14 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_108"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6260,14 +6390,14 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled__IconOuterStyled-fijAWU gudQpB"
         disabled={false}
         htmlFor="TextField_110"
+        type="custom"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+        <div
+          className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
         />
@@ -6844,13 +6974,13 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
           htmlFor="TextField_103"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bDJxIX"
+            className="IconInnerStyled__IconInnerStyled-pTXLj gKLCyj"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -6904,13 +7034,13 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
           htmlFor="TextField_105"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bstpEK"
+            className="IconInnerStyled__IconInnerStyled-pTXLj fCQLMQ"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -6964,13 +7094,13 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
           htmlFor="TextField_104"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled__IconInnerStyled-pTXLj cEFtQv"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />
@@ -7024,13 +7154,13 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
           htmlFor="TextField_106"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled__IconInnerStyled-pTXLj cEFtQv"
             disabled={false}
+            type="custom"
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
             />

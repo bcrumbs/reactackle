@@ -15,9 +15,9 @@ describe('<IconCustom/>', () => {
     expect(tree.toJSON()).toMatchSnapshot();
   });
 
-  test('renders correctly with src prop', () => {
+  test('renders correctly with iconSrc prop', () => {
     const tree = renderer.create(
-      <IconCustom src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png" />,
+      <IconCustom iconSrc="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -25,9 +25,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with border prop', () => {
     const tree = renderer.create(
-      <IconCustom
-        border
-      />,
+      <IconCustom border />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -35,10 +33,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with props border and borderWidth', () => {
     const tree = renderer.create(
-      <IconCustom
-        border
-        borderWidth={2}
-      />,
+      <IconCustom border borderWidth={2} />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -46,10 +41,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with props border and rounded', () => {
     const tree = renderer.create(
-      <IconCustom
-        border
-        rounded
-      />,
+      <IconCustom border rounded />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -57,11 +49,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with props border, borderWidth, rounded', () => {
     const tree = renderer.create(
-      <IconCustom
-        border
-        rounded
-        borderWidth={2}
-      />,
+      <IconCustom border rounded borderWidth={2} />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -69,9 +57,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop size=small', () => {
     const tree = renderer.create(
-      <IconCustom
-        size="small"
-      />,
+      <IconCustom size="small" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -79,9 +65,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop size=large', () => {
     const tree = renderer.create(
-      <IconCustom
-        size="large"
-      />,
+      <IconCustom size="large" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -89,9 +73,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop size=xlarge', () => {
     const tree = renderer.create(
-      <IconCustom
-        size="xlarge"
-      />,
+      <IconCustom size="xlarge" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -99,9 +81,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop colorScheme=light', () => {
     const tree = renderer.create(
-      <IconCustom
-        colorScheme="light"
-      />,
+      <IconCustom colorScheme="light" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -109,9 +89,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop color', () => {
     const tree = renderer.create(
-      <IconCustom
-        color="#02b4d4"
-      />,
+      <IconCustom color="#02b4d4" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -119,9 +97,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop backgroundColor', () => {
     const tree = renderer.create(
-      <IconCustom
-        backgroundColor="#e81f82"
-      />,
+      <IconCustom backgroundColor="#e81f82" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -129,10 +105,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with props backgroundColor and color', () => {
     const tree = renderer.create(
-      <IconCustom
-        backgroundColor="#e81f82"
-        color="#02b4d4"
-      />,
+      <IconCustom backgroundColor="#e81f82" color="#02b4d4" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -140,9 +113,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop flip=horizontal', () => {
     const tree = renderer.create(
-      <IconCustom
-        flip="horizontal"
-      />,
+      <IconCustom flip="horizontal" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -150,9 +121,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop flip=vertical', () => {
     const tree = renderer.create(
-      <IconCustom
-        flip="vertical"
-      />,
+      <IconCustom flip="vertical" />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();
@@ -160,9 +129,7 @@ describe('<IconCustom/>', () => {
 
   test('renders correctly with prop rotate', () => {
     const tree = renderer.create(
-      <IconCustom
-        rotate={45}
-      />,
+      <IconCustom rotate={45} />,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();

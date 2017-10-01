@@ -174,11 +174,11 @@ describe('<Icon/>', () => {
     expect(tree.toJSON()).toMatchSnapshot();
   });
 
-  test('renders correctly with props type=custom, src', () => {
+  test('renders correctly with props type=custom, iconSrc', () => {
     const tree = renderer.create(
       <Icon
         type="custom"
-        src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
+        iconSrc="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
       />,
     );
 

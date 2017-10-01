@@ -266,16 +266,25 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL gysiOt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL gAvDYH"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -322,16 +331,25 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL dKZOul"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL fKkGgp"
             disabled={true}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -378,16 +396,25 @@ exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL bboYJT"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL dCNqsm"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -434,16 +461,25 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -490,16 +526,25 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -546,16 +591,25 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -602,16 +656,25 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -669,16 +732,25 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1086,16 +1158,25 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1142,16 +1223,25 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL gysiOt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL gAvDYH"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1209,16 +1299,25 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL dKZOul"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL fKkGgp"
             disabled={true}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1276,16 +1375,25 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL bboYJT"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL dCNqsm"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1343,16 +1451,25 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL kvynYJ"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL gpPqdy"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1410,16 +1527,25 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
             
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1490,16 +1616,25 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
             text
           </span>
           <span
-            className="ArrowIconStyled__ArrowIconStyled-cHNwVL jFJkXt"
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL eVpDYY"
             disabled={false}
+            type="svg"
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>

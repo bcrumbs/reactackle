@@ -14,8 +14,8 @@ import { TextField } from '../src';
 jest.mock('react-dom');
 
 const customIcon = {
-  name: 'customIcon',
-  src: 'http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png',
+  type: 'custom',
+  iconSrc: 'http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png',
 };
 
 describe('<TextField/>', () => {

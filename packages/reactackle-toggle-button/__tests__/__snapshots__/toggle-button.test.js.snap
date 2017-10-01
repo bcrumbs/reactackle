@@ -8,18 +8,18 @@ exports[`<ToggleButton/> renders correctly if checked 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-2"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cmOgPy"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kURNqQ"
         disabled={false}
         htmlFor="toggle-2"
       />
@@ -45,18 +45,18 @@ exports[`<ToggleButton/> renders correctly if checked and disabled 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL eYVCY"
     disabled={true}
     htmlFor="toggle-3"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF hgFPiB"
       disabled={true}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kpZVtN"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx fCqzXA"
         disabled={true}
         htmlFor="toggle-3"
       />
@@ -82,18 +82,18 @@ exports[`<ToggleButton/> renders correctly if disabled 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL eYVCY"
     disabled={true}
     htmlFor="toggle-1"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF hgFPiB"
       disabled={true}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx jcyDKI"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cLBTJf"
         disabled={true}
         htmlFor="toggle-1"
       />
@@ -119,18 +119,18 @@ exports[`<ToggleButton/> renders correctly if handles input change and call onCh
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-11"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cmOgPy"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kURNqQ"
         disabled={false}
         htmlFor="toggle-11"
       />
@@ -156,18 +156,18 @@ exports[`<ToggleButton/> renders correctly if hovered 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-10"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx ggubsT"
         disabled={false}
         htmlFor="toggle-10"
       />
@@ -193,18 +193,18 @@ exports[`<ToggleButton/> renders correctly if hovered 2`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-10"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx fdoqbn"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gGxZTx"
         disabled={false}
         htmlFor="toggle-10"
       />
@@ -230,18 +230,18 @@ exports[`<ToggleButton/> renders correctly if hovered 3`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-10"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx ggubsT"
         disabled={false}
         htmlFor="toggle-10"
       />
@@ -267,18 +267,18 @@ exports[`<ToggleButton/> renders correctly with default props 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-0"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx ggubsT"
         disabled={false}
         htmlFor="toggle-0"
       />
@@ -304,18 +304,18 @@ exports[`<ToggleButton/> renders correctly with label 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-5"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx ggubsT"
         disabled={false}
         htmlFor="toggle-5"
       />
@@ -331,7 +331,7 @@ exports[`<ToggleButton/> renders correctly with label 1`] = `
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kpnkdU"
+      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kPHSxY"
       disabled={false}
     >
       <span
@@ -352,18 +352,18 @@ exports[`<ToggleButton/> renders correctly with tooltip and label 1`] = `
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-4"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx ggubsT"
         disabled={false}
         htmlFor="toggle-4"
       />
@@ -379,7 +379,7 @@ exports[`<ToggleButton/> renders correctly with tooltip and label 1`] = `
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kpnkdU"
+      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kPHSxY"
       disabled={false}
     >
       <span
@@ -417,18 +417,18 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and checked 1`] =
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-7"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF fxnfgL"
       disabled={false}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cmOgPy"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kURNqQ"
         disabled={false}
         htmlFor="toggle-7"
       />
@@ -444,7 +444,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and checked 1`] =
     </div>
     <span
       checked={true}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kpnkdU"
+      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kPHSxY"
       disabled={false}
     >
       <span
@@ -482,18 +482,18 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and disabled 1`] 
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL eYVCY"
     disabled={true}
     htmlFor="toggle-8"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF hgFPiB"
       disabled={true}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx jcyDKI"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cLBTJf"
         disabled={true}
         htmlFor="toggle-8"
       />
@@ -509,7 +509,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and disabled 1`] 
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF fKBRaD"
+      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF lhdhuw"
       disabled={true}
     >
       <span
@@ -547,18 +547,18 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, disabled and che
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL eYVCY"
     disabled={true}
     htmlFor="toggle-9"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF hgFPiB"
       disabled={true}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kpZVtN"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx fCqzXA"
         disabled={true}
         htmlFor="toggle-9"
       />
@@ -574,7 +574,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, disabled and che
     </div>
     <span
       checked={true}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF fKBRaD"
+      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF lhdhuw"
       disabled={true}
     >
       <span
@@ -612,18 +612,18 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, labelPosition=ri
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL bzCBUV"
     disabled={false}
     htmlFor="toggle-6"
     tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF cypGrw"
+      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF dZScRy"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled__ToggleBarStyled-hZjxLx ggubsT"
         disabled={false}
         htmlFor="toggle-6"
       />
@@ -639,7 +639,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, labelPosition=ri
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF cdvCDZ"
+      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF dQepcE"
       disabled={false}
     >
       <span
