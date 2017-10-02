@@ -35,7 +35,7 @@ export const IconCustomDemoRoute = () => (
         <TestBox flex contentSpaced>
           <IconCustom />
           <IconCustom
-            iconSrc="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
+            src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
           />
         </TestBox>
       </DemoPreview>
