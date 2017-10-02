@@ -178,7 +178,7 @@ describe('<Icon/>', () => {
     const tree = renderer.create(
       <Icon
         type="custom"
-        iconSrc="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
+        src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
       />,
     );
 

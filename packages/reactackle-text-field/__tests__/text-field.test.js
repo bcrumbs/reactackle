@@ -15,7 +15,7 @@ jest.mock('react-dom');
 
 const customIcon = {
   type: 'custom',
-  iconSrc: 'http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png',
+  src: 'http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png',
 };
 
 describe('<TextField/>', () => {
@@ -720,17 +720,9 @@ describe('<TextField/>', () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 
-  it('renders correctly if prop inputIcon set star', () => {
-    const component = renderer.create(
-      <TextField inputIcon={{ name: 'star' }} />,
-    );
-
-    expect(component.toJSON()).toMatchSnapshot();
-  });
-
   it('renders correctly if prop iconInner set star', () => {
     const component = renderer.create(
-      <TextField inputIcon={{ name: 'star' }} />,
+      <TextField iconInner={{ type: 'svg' }} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();

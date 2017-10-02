@@ -118,6 +118,7 @@ exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
       color=""
       rotate={0}
       size="normal"
+      src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
     />
   </div>
 </button>
