@@ -242,7 +242,7 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-10"
+        htmlFor="select-box-11"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -307,7 +307,7 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={true}
-        htmlFor="select-box-9"
+        htmlFor="select-box-10"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -372,7 +372,7 @@ exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-11"
+        htmlFor="select-box-12"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -437,7 +437,7 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-12"
+        htmlFor="select-box-13"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -502,7 +502,7 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ kYAqhm"
         disabled={false}
-        htmlFor="select-box-13"
+        htmlFor="select-box-14"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -567,7 +567,7 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-14"
+        htmlFor="select-box-15"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -632,7 +632,7 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-7"
+        htmlFor="select-box-8"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -708,7 +708,7 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-8"
+        htmlFor="select-box-9"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -810,7 +810,7 @@ exports[`<SelectBox/> renders correctly if prop type=native and bordered 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ laNavY"
         disabled={false}
-        htmlFor="select-box-3"
+        htmlFor="select-box-4"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -824,6 +824,44 @@ exports[`<SelectBox/> renders correctly if prop type=native and bordered 1`] = `
         <div>
           <select
             className="SelectElementStyled__SelectElementStyled-gyKurT hxnlJj"
+            disabled={false}
+            onChange={[Function]}
+            value={-1}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SelectBox/> renders correctly if prop type=native and colorScheme error 1`] = `
+<div
+  className="SelectBoxStyled__SelectBoxStyled-lmQypR kvFTAB"
+>
+  <div
+    className="SelectBoxNativeStyled__SelectBoxNativeStyled-elfVQZ gBvHoz"
+  >
+    <div
+      className="ContentBoxStyled__ContentBoxStyled-gwWGnn jSawJX"
+    >
+      <label
+        className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ kuxrno"
+        disabled={false}
+        htmlFor="select-box-3"
+      >
+        <span
+          className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
+        >
+          
+        </span>
+      </label>
+      <div
+        className="WrapperStyled__WrapperStyled-zpsYs bKEILx"
+      >
+        <div>
+          <select
+            className="SelectElementStyled__SelectElementStyled-gyKurT dRNMVC"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -886,7 +924,7 @@ exports[`<SelectBox/> renders correctly if prop type=native and dense 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-6"
+        htmlFor="select-box-7"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -962,7 +1000,7 @@ exports[`<SelectBox/> renders correctly if prop type=native and fullWidth 1`] = 
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-4"
+        htmlFor="select-box-5"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1000,7 +1038,7 @@ exports[`<SelectBox/> renders correctly if prop type=native, bordered and fullWi
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-7"
+        htmlFor="select-box-8"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1038,7 +1076,7 @@ exports[`<SelectBox/> renders correctly if prop type=native, fullWidth and dense
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-5"
+        htmlFor="select-box-6"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1076,7 +1114,7 @@ exports[`<SelectBox/> renders correctly option list in native mode 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-8"
+        htmlFor="select-box-9"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1134,7 +1172,7 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-6"
+        htmlFor="select-box-7"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1199,7 +1237,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-2"
+        htmlFor="select-box-3"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1275,7 +1313,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={true}
-        htmlFor="select-box-4"
+        htmlFor="select-box-5"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1351,7 +1389,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-3"
+        htmlFor="select-box-4"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1404,6 +1442,82 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
     >
       <div
         className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+        disabled={false}
+      >
+        text
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolorScheme set error 1`] = `
+<div
+  className="SelectBoxStyled__SelectBoxStyled-lmQypR kvFTAB"
+>
+  <div
+    className="SelectBoxCustomStyled__SelectBoxCustomStyled-bsICtT gFyqDd"
+    onClick={[Function]}
+  >
+    <div
+      className="ContentBoxStyled__ContentBoxStyled-gwWGnn jSawJX"
+    >
+      <label
+        className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ kuxrno"
+        disabled={false}
+        htmlFor="select-box-1"
+      >
+        <span
+          className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
+        >
+          
+        </span>
+      </label>
+      <div
+        className="WrapperStyled__WrapperStyled-zpsYs bKEILx"
+      >
+        <button
+          className="ButtonStyled__ButtonStyled-cTEFFy edwOZZ"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={0}
+        >
+          <span
+            className="ButtonTextStyled__ButtonTextStyled-dokorR hYyKZe"
+          >
+            
+          </span>
+          <span
+            className="ArrowIconStyled__ArrowIconStyled-cHNwVL gpPqdy"
+            disabled={false}
+            type="svg"
+          >
+            <div
+              className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+              color=""
+              rotate={0}
+              size="normal"
+              type="svg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="SelectBoxInfoBoxStyled__SelectBoxInfoBoxStyled-duLecP bwVhCy"
+      disabled={false}
+    >
+      <div
+        className="MessageStyled__MessageStyled-fOQJha eNPtQX"
         disabled={false}
       >
         text
@@ -1503,7 +1617,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-1"
+        htmlFor="select-box-2"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1579,7 +1693,7 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-5"
+        htmlFor="select-box-6"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1667,7 +1781,7 @@ exports[`<SelectBoxNative /> handles change 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-12"
+        htmlFor="select-box-13"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1718,7 +1832,7 @@ exports[`<SelectBoxNative /> renders correctly if set options and defaultValue 1
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-9"
+        htmlFor="select-box-10"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1769,7 +1883,7 @@ exports[`<SelectBoxNative /> renders correctly if set options and value 1`] = `
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-10"
+        htmlFor="select-box-11"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
@@ -1820,7 +1934,7 @@ exports[`<SelectBoxNative /> renders correctly with label, tooltip and message 1
       <label
         className="SelectBoxLabelStyled__SelectBoxLabelStyled-kbKFLJ fLigXd"
         disabled={false}
-        htmlFor="select-box-11"
+        htmlFor="select-box-12"
       >
         <span
           className="SelectBoxLabelTextStyled__SelectBoxLabelTextStyled-gsXlPy dqsrkA"
