@@ -2,9 +2,14 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { IconCustom } from '../src';
+import styled from 'styled-components';
+import { IconCustom, iconCustomSizeMixin } from '../src';
 
 jest.mock('react-dom');
+
+const TestWrapper = styled.div`
+  ${iconCustomSizeMixin('70px', '42px', '50px')}
+`;
 
 describe('<IconCustom/>', () => {
   test('renders correctly with default props', () => {
@@ -50,6 +55,16 @@ describe('<IconCustom/>', () => {
   test('renders correctly with props border, borderWidth, rounded', () => {
     const tree = renderer.create(
       <IconCustom border rounded borderWidth={2} />,
+    );
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  test('renders correctly with prop size=custom', () => {
+    const tree = renderer.create(
+      <TestWrapper>
+        <IconCustom size="custom" />,
+      </TestWrapper>,
     );
 
     expect(tree.toJSON()).toMatchSnapshot();

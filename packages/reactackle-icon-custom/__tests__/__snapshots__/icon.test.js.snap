@@ -81,6 +81,20 @@ exports[`<IconCustom/> renders correctly with prop rotate 1`] = `
 />
 `;
 
+exports[`<IconCustom/> renders correctly with prop size=custom 1`] = `
+<div
+  className="icon-test__TestWrapper-dzMMzb ggkDKV"
+>
+  <div
+    className="IconCustomStyled__IconCustomStyled-glxlue dkYpaH"
+    color=""
+    rotate={0}
+    size="normal"
+  />
+  ,
+</div>
+`;
+
 exports[`<IconCustom/> renders correctly with prop size=large 1`] = `
 <div
   className="IconCustomStyled__IconCustomStyled-glxlue dfVbFt"
