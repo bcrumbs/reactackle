@@ -11,7 +11,7 @@ import { iconCustomSizeMixin } from '../iconCustomSizeMixin';
 
 const propTypes = {
   /** Set icon's source */
-  iconSrc: PropTypes.string,
+  src: PropTypes.string,
   /** Turns on/off icon's border */
   border: PropTypes.bool,
   /** Make icon rounded */
@@ -31,7 +31,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  iconSrc: '',
+  src: '',
   border: false,
   rounded: false,
   size: 'normal',
@@ -132,8 +132,8 @@ const iconSize = ({ theme: themeFromProvider, sizeKey, border, rounded }) => {
 
 const iconBg = ({ bgColor }) => bgColor && `background-color: ${bgColor}`;
 
-const IconImg = ({ iconSrc }) => `        
-  background-image: url('${iconSrc}');
+const IconImg = ({ src }) => `        
+  background-image: url('${src}');
 `;
 
 // STYLES

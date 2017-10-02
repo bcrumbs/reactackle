@@ -12,7 +12,7 @@ const DEFAULT_ICON_LIGHT = 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIi
 
 const propTypes = {
   /** Set icon's source */
-  iconSrc: PropTypes.string,
+  src: PropTypes.string,
   /** Turns on/off icon's border */
   border: PropTypes.bool,
   /** Set icon's border width */
@@ -34,7 +34,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  iconSrc: '',
+  src: '',
   border: false,
   borderWidth: 0,
   rounded: false,
@@ -62,7 +62,7 @@ export const IconCustom = props => {
       bgColor={props.backgroundColor}
       flip={props.flip}
       rotate={props.rotate}
-      iconSrc={props.iconSrc || iconDefault}
+      src={props.src || iconDefault}
     />
   );
 };
