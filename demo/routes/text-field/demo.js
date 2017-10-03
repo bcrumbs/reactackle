@@ -202,7 +202,7 @@ export const TextFieldDemoRoute = () => (
           <FormItem>
             <TextField
               defaultValue="bada boom!"
-              password
+              type="password"
               message="At least 5 symbols length"
               label="Password TextField"
             />
