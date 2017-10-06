@@ -217,10 +217,7 @@ export const TextFieldDemoRoute = () => (
             <TextField
               placeholder="Enter you value..."
               label="TextField with iconOuter"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
           <FormItem>
@@ -228,10 +225,7 @@ export const TextFieldDemoRoute = () => (
               bordered
               placeholder="Enter you value..."
               label="TextField with iconOuter"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
         </TestBox>
@@ -240,10 +234,7 @@ export const TextFieldDemoRoute = () => (
             <TextField
               placeholder="Enter you value..."
               label="TextField with iconInner"
-              iconInner={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconInner={IconDefault}
             />
           </FormItem>
           <FormItem>
@@ -251,10 +242,7 @@ export const TextFieldDemoRoute = () => (
               bordered
               placeholder="Enter you value..."
               label="TextField with iconInner"
-              iconInner={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconInner={IconDefault}
             />
           </FormItem>
         </TestBox>
@@ -298,10 +286,7 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="Disabled TextField"
               clearingIcon
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
           <FormItem>
@@ -311,10 +296,7 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="Disabled TextField"
               clearingIcon
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
         </TestBox>
@@ -327,10 +309,7 @@ export const TextFieldDemoRoute = () => (
               label="TextField with error"
               clearingIcon
               message="Some error happened"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
           <FormItem>
@@ -341,10 +320,7 @@ export const TextFieldDemoRoute = () => (
               label="TextField with error"
               clearingIcon
               message="Some error happened"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
         </TestBox>
@@ -357,10 +333,7 @@ export const TextFieldDemoRoute = () => (
               label="TextField with success"
               clearingIcon
               message="Successfully saved"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
           <FormItem>
@@ -371,10 +344,7 @@ export const TextFieldDemoRoute = () => (
               label="TextField with success"
               clearingIcon
               message="Successfully saved"
-              iconOuter={{
-                src: IconDefault,
-                type: 'svg',
-              }}
+              iconOuter={IconDefault}
             />
           </FormItem>
         </TestBox>
