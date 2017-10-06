@@ -114,7 +114,7 @@ exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
     size="normal"
   >
     <div
-      className="IconCustomStyled__IconCustomStyled-glxlue kxRrFA"
+      className="IconCustomStyled-ehOkKD enfZmF"
       color=""
       rotate={0}
       size="normal"
@@ -139,11 +139,10 @@ exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
     size="normal"
   >
     <div
-      className="IconSvgStyled__IconSvgStyled-iCtyLo kORQIv"
+      className="IconSvgStyled-kZHpyB fMoAXZ"
       color=""
       rotate={0}
       size="normal"
-      type="svg"
     >
       <svg
         viewBox="0 0 24 24"
@@ -266,11 +265,11 @@ exports[`<Button/> renders correctly if prop text set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR hQOORT"
+    className="ButtonTextStyled-kqmWUR foLdiD"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       test
@@ -289,11 +288,11 @@ exports[`<Button/> renders correctly if prop text="foo" set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR hQOORT"
+    className="ButtonTextStyled-kqmWUR foLdiD"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       foo
@@ -312,11 +311,11 @@ exports[`<Button/> renders correctly if props narrow false and radius rounded 1`
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR hQOORT"
+    className="ButtonTextStyled-kqmWUR foLdiD"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       test
@@ -335,17 +334,17 @@ exports[`<Button/> renders correctly if props text and subtitle are set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR hQOORT"
+    className="ButtonTextStyled-kqmWUR foLdiD"
     size="normal"
   >
     <div
-      className="ButtonSubtitleStyled__ButtonSubtitleStyled-gjOmZI jttTQz"
+      className="ButtonSubtitleStyled-bFHACI laqQqJ"
       size="normal"
     >
       sup
     </div>
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       test

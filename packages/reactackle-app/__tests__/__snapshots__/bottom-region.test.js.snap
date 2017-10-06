@@ -2,30 +2,30 @@
 
 exports[`<BottomRegion/> renders correctly if prop fixed set false 1`] = `
 <div
-  className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+  className="BottomRegionStyled-iiXgeL jrFnOw"
 >
   <div
-    className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+    className="BottomRegionContentStyled-ioIXcD ftRIhW"
   />
 </div>
 `;
 
 exports[`<BottomRegion/> renders correctly if prop fixed set true 1`] = `
 <div
-  className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+  className="BottomRegionStyled-iiXgeL jrFnOw"
 >
   <div
-    className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+    className="BottomRegionContentStyled-ioIXcD ftRIhW"
   />
 </div>
 `;
 
 exports[`<BottomRegion/> renders correctly with default props 1`] = `
 <div
-  className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+  className="BottomRegionStyled-iiXgeL jrFnOw"
 >
   <div
-    className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+    className="BottomRegionContentStyled-ioIXcD ftRIhW"
   />
 </div>
 `;

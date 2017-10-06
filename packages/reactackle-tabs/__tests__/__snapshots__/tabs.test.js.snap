@@ -2,49 +2,42 @@
 
 exports[`<Tabs/> renders correctly if change tab 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ fUMIYU"
+              className="TabIconStyled-bYWiJR lmagNX"
               selected={true}
               type="svg"
             >
-              <div
-                className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
-                color=""
-                rotate={0}
-                size="normal"
-                type="svg"
+              <svg
+                color="currentColor"
+                size="custom"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
-                  />
-                </svg>
-              </div>
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 1
             </div>
@@ -52,40 +45,33 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ kYPJWE"
+              className="TabIconStyled-bYWiJR frUOkx"
               selected={false}
               type="svg"
             >
-              <div
-                className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
-                color=""
-                rotate={0}
-                size="normal"
-                type="svg"
+              <svg
+                color="currentColor"
+                size="custom"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
-                  />
-                </svg>
-              </div>
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 2
             </div>
@@ -99,49 +85,42 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
 
 exports[`<Tabs/> renders correctly if change tab 2`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ kYPJWE"
+              className="TabIconStyled-bYWiJR frUOkx"
               selected={false}
               type="svg"
             >
-              <div
-                className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
-                color=""
-                rotate={0}
-                size="normal"
-                type="svg"
+              <svg
+                color="currentColor"
+                size="custom"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
-                  />
-                </svg>
-              </div>
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 1
             </div>
@@ -149,40 +128,33 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ fUMIYU"
+              className="TabIconStyled-bYWiJR lmagNX"
               selected={true}
               type="svg"
             >
-              <div
-                className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
-                color=""
-                rotate={0}
-                size="normal"
-                type="svg"
+              <svg
+                color="currentColor"
+                size="custom"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
-                  />
-                </svg>
-              </div>
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 2
             </div>
@@ -196,31 +168,31 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
 
 exports[`<Tabs/> renders correctly if prop  1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <a
         href="test1"
         onClick={[Function]}
       >
         <div
-          className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+          className="TabStyled-csMJzZ gsAzPq"
           onClick={[Function]}
           selected={true}
         >
           <div
-            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+            className="TabContentWrapperStyled-enEVMS jZgudN"
           >
             <div
-              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+              className="TabContentStyled-cGqNqA khIZPl"
             >
               <div
-                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+                className="TabTextStyled-kyChmy jvIQbK"
               >
                 Test1
               </div>
@@ -233,18 +205,18 @@ exports[`<Tabs/> renders correctly if prop  1`] = `
         onClick={[Function]}
       >
         <div
-          className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+          className="TabStyled-csMJzZ fFefNP"
           onClick={[Function]}
           selected={false}
         >
           <div
-            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+            className="TabContentWrapperStyled-enEVMS jZgudN"
           >
             <div
-              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+              className="TabContentStyled-cGqNqA khIZPl"
             >
               <div
-                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+                className="TabTextStyled-kyChmy jvIQbK"
               >
                 Test2
               </div>
@@ -259,49 +231,42 @@ exports[`<Tabs/> renders correctly if prop  1`] = `
 
 exports[`<Tabs/> renders correctly if prop icon 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ fUMIYU"
+              className="TabIconStyled-bYWiJR lmagNX"
               selected={true}
               type="svg"
             >
-              <div
-                className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
-                color=""
-                rotate={0}
-                size="normal"
-                type="svg"
+              <svg
+                color="currentColor"
+                size="custom"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
-                  />
-                </svg>
-              </div>
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test
             </div>
@@ -315,31 +280,31 @@ exports[`<Tabs/> renders correctly if prop icon 1`] = `
 
 exports[`<Tabs/> renders correctly if prop linkComponent passed 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <a
         href="/"
         onClick={[Function]}
       >
         <div
-          className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+          className="TabStyled-csMJzZ gsAzPq"
           onClick={[Function]}
           selected={true}
         >
           <div
-            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+            className="TabContentWrapperStyled-enEVMS jZgudN"
           >
             <div
-              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+              className="TabContentStyled-cGqNqA khIZPl"
             >
               <div
-                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+                className="TabTextStyled-kyChmy jvIQbK"
               >
                 Test
               </div>
@@ -354,27 +319,27 @@ exports[`<Tabs/> renders correctly if prop linkComponent passed 1`] = `
 
 exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -382,18 +347,18 @@ exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -401,18 +366,18 @@ exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -426,27 +391,27 @@ exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
 
 exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -454,18 +419,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -473,18 +438,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -498,27 +463,27 @@ exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
 
 exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -526,18 +491,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -545,18 +510,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -570,24 +535,24 @@ exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
 
 exports[`<Tabs/> renders correctly if prop text is empty 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           />
         </div>
       </div>
@@ -598,13 +563,13 @@ exports[`<Tabs/> renders correctly if prop text is empty 1`] = `
 
 exports[`<Tabs/> renders correctly with default props 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     />
   </div>
 </div>

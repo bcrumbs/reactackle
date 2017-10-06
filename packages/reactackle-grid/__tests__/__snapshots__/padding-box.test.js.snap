@@ -2,6 +2,6 @@
 
 exports[`<PaddingBox/> renders correctly with default props 1`] = `
 <div
-  className="PaddingBoxStyled__PaddingBoxStyled-lXGph gMWach"
+  className="PaddingBoxStyled-iihoJa XBFUB"
 />
 `;

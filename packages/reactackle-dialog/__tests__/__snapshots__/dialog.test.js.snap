@@ -2,23 +2,23 @@
 
 exports[`<Dialog/> handles keyup and props change correctly if open 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="BackdropStyled__BackdropStyled-htftey dVajva"
+    className="BackdropStyled-haniwh fQtLeN"
     onClick={[Function]}
   />
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -28,32 +28,32 @@ exports[`<Dialog/> handles keyup and props change correctly if open 1`] = `
 
 exports[`<Dialog/> renders correctly call button onPress if contains buttons 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         >
           <div>
              test 
           </div>
         </div>
         <div
-          className="DialogActionsStyled__DialogActionsStyled-kfIYNh enfxMJ"
+          className="DialogActionsStyled-bxvRWy cDlFXu"
         >
           <div
-            className="DialogActionsRegionStyled__DialogActionsRegionStyled-fBBQFS ceLbqn"
+            className="DialogActionsRegionStyled-gbmRfm iFQuMh"
           >
             <div
-              className="DialogButtonStyled__DialogButtonStyled-GXazH gcUwPO"
+              className="DialogButtonStyled-eVQtUE bvtQpF"
             >
               <button
                 className="ButtonStyled__Button-FHerW KXGKt"
@@ -64,11 +64,11 @@ exports[`<Dialog/> renders correctly call button onPress if contains buttons 1`]
                 title=""
               >
                 <div
-                  className="ButtonTextStyled__ButtonTextStyled-dokorR hQOORT"
+                  className="ButtonTextStyled-kqmWUR foLdiD"
                   size="normal"
                 >
                   <div
-                    className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+                    className="ButtonTitleStyled-EwESb hkRlbG"
                     size="normal"
                   >
                     Button 1
@@ -86,19 +86,19 @@ exports[`<Dialog/> renders correctly call button onPress if contains buttons 1`]
 
 exports[`<Dialog/> renders correctly if contains children 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         >
           <div>
              test 
@@ -112,23 +112,23 @@ exports[`<Dialog/> renders correctly if contains children 1`] = `
 
 exports[`<Dialog/> renders correctly if has prop regionAside 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
       <div
-        className="RegionSideStyled__RegionSideStyled-edRfvg erohFc"
+        className="RegionSideStyled-bgGKMU VymvJ"
       >
         <div>
           RegionAside
@@ -141,23 +141,23 @@ exports[`<Dialog/> renders correctly if has prop regionAside 1`] = `
 
 exports[`<Dialog/> renders correctly if prop backdrop set and click on backdrop 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="BackdropStyled__BackdropStyled-htftey dVajva"
+    className="BackdropStyled-haniwh fQtLeN"
     onClick={[Function]}
   />
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -167,23 +167,23 @@ exports[`<Dialog/> renders correctly if prop backdrop set and click on backdrop 
 
 exports[`<Dialog/> renders correctly if prop backdrop set and click on backdrop 2`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="BackdropStyled__BackdropStyled-htftey dVajva"
+    className="BackdropStyled-haniwh fQtLeN"
     onClick={[Function]}
   />
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -193,23 +193,23 @@ exports[`<Dialog/> renders correctly if prop backdrop set and click on backdrop 
 
 exports[`<Dialog/> renders correctly if prop backdrop set true 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="BackdropStyled__BackdropStyled-htftey dVajva"
+    className="BackdropStyled-haniwh fQtLeN"
     onClick={[Function]}
   />
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -219,19 +219,19 @@ exports[`<Dialog/> renders correctly if prop backdrop set true 1`] = `
 
 exports[`<Dialog/> renders correctly if prop closeOnBackdropClick set true 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -241,19 +241,19 @@ exports[`<Dialog/> renders correctly if prop closeOnBackdropClick set true 1`] =
 
 exports[`<Dialog/> renders correctly if prop closeOnEscape set true 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -263,28 +263,27 @@ exports[`<Dialog/> renders correctly if prop closeOnEscape set true 1`] = `
 
 exports[`<Dialog/> renders correctly if prop haveCloseButton set true 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogCloseButtonStyled__DialogCloseButtonStyled-hWZfNE bSXQBX"
+          className="DialogCloseButtonStyled-hVCEfW kirGOh"
           onClick={[Function]}
           type="svg"
         >
           <div
-            className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+            className="IconSvgStyled-kZHpyB imDkgw"
             color=""
             rotate={0}
             size="normal"
-            type="svg"
           >
             <svg
               viewBox="0 0 24 24"
@@ -296,7 +295,7 @@ exports[`<Dialog/> renders correctly if prop haveCloseButton set true 1`] = `
           </div>
         </div>
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -306,19 +305,19 @@ exports[`<Dialog/> renders correctly if prop haveCloseButton set true 1`] = `
 
 exports[`<Dialog/> renders correctly if prop minWidth > 0 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB kfdCjZ"
+    className="OverflowWrapperStyled-fMElgD ibOrEE"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -328,19 +327,19 @@ exports[`<Dialog/> renders correctly if prop minWidth > 0 1`] = `
 
 exports[`<Dialog/> renders correctly if prop open set true 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>
@@ -350,19 +349,19 @@ exports[`<Dialog/> renders correctly if prop open set true 1`] = `
 
 exports[`<Dialog/> renders correctly if prop scrollable set true 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd eDDkUq"
+          className="DialogContentStyled-cqiTXT kKIryw"
         />
       </div>
     </div>
@@ -372,37 +371,37 @@ exports[`<Dialog/> renders correctly if prop scrollable set true 1`] = `
 
 exports[`<Dialog/> renders correctly if prop subtitle set subtitle 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogHeadingStyled__DialogHeadingStyled-iSBdOK dFdOom"
+          className="DialogHeadingStyled-bqpjlr kuIaax"
         >
           <div
-            className="DialogTitleStyled__DialogTitleStyled-gGKTRE eKXiYf"
+            className="DialogTitleStyled-dSHLVh bfcXQq"
           >
             <div
-              className="DialogTitleTextStyled__DialogTitleTextStyled-bLMOnG kvtbwo"
+              className="DialogTitleTextStyled-bSznZq ksYDGK"
             >
               
             </div>
             <div
-              className="DialogSubtitleTextStyled__DialogSubtitleTextStyled-iBJFax hBUibh"
+              className="DialogSubtitleTextStyled-jnminq bRaqHB"
             >
               subtitle
             </div>
           </div>
         </div>
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iuWqkD"
+          className="DialogContentStyled-cqiTXT lnOkDs"
         />
       </div>
     </div>
@@ -412,32 +411,32 @@ exports[`<Dialog/> renders correctly if prop subtitle set subtitle 1`] = `
 
 exports[`<Dialog/> renders correctly if prop title set title 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogHeadingStyled__DialogHeadingStyled-iSBdOK dFdOom"
+          className="DialogHeadingStyled-bqpjlr kuIaax"
         >
           <div
-            className="DialogTitleStyled__DialogTitleStyled-gGKTRE eKXiYf"
+            className="DialogTitleStyled-dSHLVh bfcXQq"
           >
             <div
-              className="DialogTitleTextStyled__DialogTitleTextStyled-bLMOnG kvtbwo"
+              className="DialogTitleTextStyled-bSznZq ksYDGK"
             >
               title
             </div>
           </div>
         </div>
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iuWqkD"
+          className="DialogContentStyled-cqiTXT lnOkDs"
         />
       </div>
     </div>
@@ -447,32 +446,32 @@ exports[`<Dialog/> renders correctly if prop title set title 1`] = `
 
 exports[`<Dialog/> renders correctly left buttons 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         >
           <div>
              test 
           </div>
         </div>
         <div
-          className="DialogActionsStyled__DialogActionsStyled-kfIYNh enfxMJ"
+          className="DialogActionsStyled-bxvRWy cDlFXu"
         >
           <div
-            className="DialogActionsRegionStyled__DialogActionsRegionStyled-fBBQFS MOSGq"
+            className="DialogActionsRegionStyled-gbmRfm lyHYn"
           >
             <div
-              className="DialogButtonStyled__DialogButtonStyled-GXazH gcUwPO"
+              className="DialogButtonStyled-eVQtUE bvtQpF"
             >
               <button
                 className="ButtonStyled__Button-FHerW KXGKt"
@@ -483,11 +482,11 @@ exports[`<Dialog/> renders correctly left buttons 1`] = `
                 title=""
               >
                 <div
-                  className="ButtonTextStyled__ButtonTextStyled-dokorR hQOORT"
+                  className="ButtonTextStyled-kqmWUR foLdiD"
                   size="normal"
                 >
                   <div
-                    className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+                    className="ButtonTitleStyled-EwESb hkRlbG"
                     size="normal"
                   >
                     Button
@@ -507,22 +506,22 @@ exports[`<Dialog/> renders correctly with default props 1`] = `null`;
 
 exports[`<Dialog/> renders with DialogContentText 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         >
           <div
-            className="DialogContentTextStyled__DialogContentTextStyled-izazft hfAHog"
+            className="DialogContentTextStyled-kiYVUt hEuaRE"
           >
             Texty text
           </div>
@@ -535,19 +534,19 @@ exports[`<Dialog/> renders with DialogContentText 1`] = `
 
 exports[`<Dialog/> renders with windowTitle 1`] = `
 <div
-  className="ModalStyled__ModalStyled-blxqLg hyyLBo"
+  className="ModalStyled-bgFgAB stAJv"
 >
   <div
-    className="OverflowWrapperStyled__OverflowWrapperStyled-jecKbB bjjqzT"
+    className="OverflowWrapperStyled-fMElgD keDhds"
   >
     <div
-      className="ContentWrapperStyled__ContentWrapperStyled-idYDJV icblmW"
+      className="ContentWrapperStyled-eeQVis ghuYyQ"
     >
       <div
-        className="RegionMainStyled__RegionMainStyled-dpVyvY cgaytx"
+        className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogContentStyled__DialogContentStyled-iDwqMd iLDSDl"
+          className="DialogContentStyled-cqiTXT heztIq"
         />
       </div>
     </div>

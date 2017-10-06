@@ -2,6 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { IconSvg, IconCustom } from 'reactackle-icons';
 import { Button } from '../src';
 
 jest.mock('react-dom');
@@ -184,7 +185,7 @@ describe('<Button/>', () => {
   
   it('renders correctly if prop icon="svg" set', () => {
     const tree = renderer.create(
-      <Button icon={{ type: 'svg', src: demoIcon }} />,
+      <Button icon={<IconSvg>{demoIcon}</IconSvg>} />,
     );
     
     expect(tree.toJSON()).toMatchSnapshot();
@@ -193,10 +194,9 @@ describe('<Button/>', () => {
   it('renders correctly if prop icon="custom" set', () => {
     const tree = renderer.create(
       <Button
-        icon={{
-          type: 'custom',
-          src: "http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png",
-        }}
+        icon={
+          <IconCustom src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png" />
+        }
       />,
     );
     

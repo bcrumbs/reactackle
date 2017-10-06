@@ -2,20 +2,20 @@
 
 exports[`<App/> renders correctly if contains children 1`] = `
 <div
-  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+  className="AppStyled-kbfYzO gLeacj"
 >
   <div
-    className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+    className="TopRegionStyled-eOdIJY ljMgnx"
   >
     <div
-      className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+      className="TopRegionContentStyled-hekJiL ljGiLz"
     />
   </div>
   <div
-    className="MainRegionStyled__MainRegionStyled-iLcjTc cWfuqc"
+    className="MainRegionStyled-dlkgES jVcdao"
   >
     <div
-      className="ContentStyled__ContentStyled-qQZGb dqeojI"
+      className="ContentStyled-aVpGE kseoPp"
     >
       <div>
         TEST
@@ -23,10 +23,10 @@ exports[`<App/> renders correctly if contains children 1`] = `
     </div>
   </div>
   <div
-    className="BottomRegionStyled__BottomRegionStyled-AmAru iHOgrq"
+    className="BottomRegionStyled-iiXgeL jrFnOw"
   >
     <div
-      className="BottomRegionContentStyled__BottomRegionContentStyled-YLgqa cKHBfW"
+      className="BottomRegionContentStyled-ioIXcD ftRIhW"
     />
   </div>
 </div>
@@ -34,13 +34,13 @@ exports[`<App/> renders correctly if contains children 1`] = `
 
 exports[`<App/> renders correctly if prop fixed changing 1`] = `
 <div
-  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+  className="AppStyled-kbfYzO gLeacj"
 >
   <div
-    className="MainRegionStyled__MainRegionStyled-iLcjTc cWfuqc"
+    className="MainRegionStyled-dlkgES jVcdao"
   >
     <div
-      className="ContentStyled__ContentStyled-qQZGb dqeojI"
+      className="ContentStyled-aVpGE kseoPp"
     >
       <div>
         TEST
@@ -52,13 +52,13 @@ exports[`<App/> renders correctly if prop fixed changing 1`] = `
 
 exports[`<App/> renders correctly if prop fixed changing 2`] = `
 <div
-  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+  className="AppStyled-kbfYzO gLeacj"
 >
   <div
-    className="MainRegionStyled__MainRegionStyled-iLcjTc hPvWgA"
+    className="MainRegionStyled-dlkgES dHgXvA"
   >
     <div
-      className="ContentStyled__ContentStyled-qQZGb fuWFnf"
+      className="ContentStyled-aVpGE hQhiRR"
     >
       <div>
         TEST
@@ -70,18 +70,18 @@ exports[`<App/> renders correctly if prop fixed changing 2`] = `
 
 exports[`<App/> renders correctly if prop fixed set false 1`] = `
 <div
-  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+  className="AppStyled-kbfYzO gLeacj"
 />
 `;
 
 exports[`<App/> renders correctly if prop fixed set true 1`] = `
 <div
-  className="AppStyled__AppStyled-cpyMGw gTMLqj"
+  className="AppStyled-kbfYzO dvovdH"
 />
 `;
 
 exports[`<App/> renders correctly with default props 1`] = `
 <div
-  className="AppStyled__AppStyled-cpyMGw jLwaoO"
+  className="AppStyled-kbfYzO gLeacj"
 />
 `;

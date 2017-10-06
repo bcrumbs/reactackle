@@ -2,14 +2,14 @@
 
 exports[`<Checkbox/> could one call onChange event before call change event on <input/> 1`] = `
 <div
-  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+  className="CheckboxStyled-kzsMOt jKytSS"
 >
   <div
-    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+    className="CheckboxElementStyled-dzeUmS kkKjA"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      className="CheckboxInputStyled-hCmkYE gPWRFM"
       disabled={false}
       id="checkbox-5"
       onChange={[Function]}
@@ -17,22 +17,21 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd fNKgYD"
+      className="CheckboxLabelStyled-jYtRsS hHhrsW"
       disabled={false}
       htmlFor="checkbox-5"
     >
       <div
         checked={false}
-        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf fIDomW"
+        className="CheckboxIconStyled-btfpTw emXegR"
         disabled={false}
         type="svg"
       >
         <div
-          className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+          className="IconSvgStyled-kZHpyB imDkgw"
           color=""
           rotate={0}
           size="normal"
-          type="svg"
         >
           <svg
             viewBox="0 0 24 24"
@@ -50,14 +49,14 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
 
 exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
 <div
-  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+  className="CheckboxStyled-kzsMOt jKytSS"
 >
   <div
-    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+    className="CheckboxElementStyled-dzeUmS kkKjA"
   >
     <input
       checked={true}
-      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      className="CheckboxInputStyled-hCmkYE gPWRFM"
       disabled={false}
       id="checkbox-1"
       onChange={[Function]}
@@ -65,22 +64,21 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
     />
     <label
       checked={true}
-      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd eOqbqR"
+      className="CheckboxLabelStyled-jYtRsS buFUCl"
       disabled={false}
       htmlFor="checkbox-1"
     >
       <div
         checked={true}
-        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf iCmQSK"
+        className="CheckboxIconStyled-btfpTw dCKRCB"
         disabled={false}
         type="svg"
       >
         <div
-          className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+          className="IconSvgStyled-kZHpyB imDkgw"
           color=""
           rotate={0}
           size="normal"
-          type="svg"
         >
           <svg
             viewBox="0 0 24 24"
@@ -98,14 +96,14 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
 
 exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
 <div
-  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+  className="CheckboxStyled-kzsMOt jKytSS"
 >
   <div
-    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+    className="CheckboxElementStyled-dzeUmS kkKjA"
   >
     <input
       checked={true}
-      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      className="CheckboxInputStyled-hCmkYE gPWRFM"
       disabled={false}
       id="checkbox-2"
       onChange={[Function]}
@@ -113,22 +111,21 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
     />
     <label
       checked={true}
-      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd eOqbqR"
+      className="CheckboxLabelStyled-jYtRsS buFUCl"
       disabled={false}
       htmlFor="checkbox-2"
     >
       <div
         checked={true}
-        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf iCmQSK"
+        className="CheckboxIconStyled-btfpTw dCKRCB"
         disabled={false}
         type="svg"
       >
         <div
-          className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+          className="IconSvgStyled-kZHpyB imDkgw"
           color=""
           rotate={0}
           size="normal"
-          type="svg"
         >
           <svg
             viewBox="0 0 24 24"
@@ -146,14 +143,14 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
 
 exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
 <div
-  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+  className="CheckboxStyled-kzsMOt jKytSS"
 >
   <div
-    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+    className="CheckboxElementStyled-dzeUmS kkKjA"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      className="CheckboxInputStyled-hCmkYE gPWRFM"
       disabled={true}
       id="checkbox-3"
       onChange={[Function]}
@@ -161,22 +158,21 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd kGhxfp"
+      className="CheckboxLabelStyled-jYtRsS cSxtin"
       disabled={true}
       htmlFor="checkbox-3"
     >
       <div
         checked={false}
-        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf cTwnul"
+        className="CheckboxIconStyled-btfpTw fKWktq"
         disabled={true}
         type="svg"
       >
         <div
-          className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+          className="IconSvgStyled-kZHpyB imDkgw"
           color=""
           rotate={0}
           size="normal"
-          type="svg"
         >
           <svg
             viewBox="0 0 24 24"
@@ -194,14 +190,14 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
 
 exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
 <div
-  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+  className="CheckboxStyled-kzsMOt jKytSS"
 >
   <div
-    className="CheckboxElementStyled__CheckboxElementStyled-eusquv hGRJyk"
+    className="CheckboxElementStyled-dzeUmS jzQtWm"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      className="CheckboxInputStyled-hCmkYE gPWRFM"
       disabled={false}
       id="checkbox-4"
       onChange={[Function]}
@@ -209,22 +205,21 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd cIBKjD"
+      className="CheckboxLabelStyled-jYtRsS kXerKQ"
       disabled={false}
       htmlFor="checkbox-4"
     >
       <div
         checked={false}
-        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf fIDomW"
+        className="CheckboxIconStyled-btfpTw emXegR"
         disabled={false}
         type="svg"
       >
         <div
-          className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+          className="IconSvgStyled-kZHpyB imDkgw"
           color=""
           rotate={0}
           size="normal"
-          type="svg"
         >
           <svg
             viewBox="0 0 24 24"
@@ -237,7 +232,7 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
       </div>
       <span>
         <span
-          className="LabelTextStyled__LabelTextStyled-cwgMXD deadId"
+          className="LabelTextStyled-bIbjxo gblZEn"
         >
           test
         </span>
@@ -249,14 +244,14 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
 
 exports[`<Checkbox/> renders correctly with default props 1`] = `
 <div
-  className="CheckboxStyled__CheckboxStyled-dnBNsT bjrZmI"
+  className="CheckboxStyled-kzsMOt jKytSS"
 >
   <div
-    className="CheckboxElementStyled__CheckboxElementStyled-eusquv jZSihe"
+    className="CheckboxElementStyled-dzeUmS kkKjA"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled__CheckboxInputStyled-bhHAeW kTMpPw"
+      className="CheckboxInputStyled-hCmkYE gPWRFM"
       disabled={false}
       id="checkbox-0"
       onChange={[Function]}
@@ -264,22 +259,21 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled__CheckboxLabelStyled-hsEWgd fNKgYD"
+      className="CheckboxLabelStyled-jYtRsS hHhrsW"
       disabled={false}
       htmlFor="checkbox-0"
     >
       <div
         checked={false}
-        className="CheckboxIconStyled__CheckboxIconStyled-bDwTEf fIDomW"
+        className="CheckboxIconStyled-btfpTw emXegR"
         disabled={false}
         type="svg"
       >
         <div
-          className="IconSvgStyled__IconSvgStyled-iCtyLo hlSHcB"
+          className="IconSvgStyled-kZHpyB imDkgw"
           color=""
           rotate={0}
           size="normal"
-          type="svg"
         >
           <svg
             viewBox="0 0 24 24"

@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconCustom/> renders correctly with border prop 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD bYNUfN"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with default props 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD iSqNNw"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with iconSrc prop 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD enfZmF"
+  color=""
+  rotate={0}
+  size="normal"
+  src="http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png"
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop backgroundColor 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD kUayAW"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop color 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD iSqNNw"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop colorScheme=light 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD gwfXna"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop flip=horizontal 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD cVlLnq"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop flip=vertical 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD lkyxJN"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop rotate 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD jpBtqT"
+  color=""
+  rotate={45}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop size=custom 1`] = `
+<div
+  className="icontest__TestWrapper-bhtImD iltdYw"
+>
+  <div
+    className="IconCustomStyled-ehOkKD cyZYKk"
+    color=""
+    rotate={0}
+    size="normal"
+    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+  />
+  ,
+</div>
+`;
+
+exports[`<IconCustom/> renders correctly with prop size=large 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD huPXhw"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop size=small 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD kPliyx"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with prop size=xlarge 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD jqRONq"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with props backgroundColor and color 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD kUayAW"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with props border and borderWidth 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD bDJagC"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with props border and rounded 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD jxcKlt"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconCustom/> renders correctly with props border, borderWidth, rounded 1`] = `
+<div
+  className="IconCustomStyled-ehOkKD hJrOKN"
+  color=""
+  rotate={0}
+  size="normal"
+  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7b3BhY2l0eTowLjU0O30KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxnIGNsYXNzPSJzdDAiPgoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIzNCwxNCAxOCwxNCAxOCwzMCAzNCwzMCAJIi8+Cgk8cmVjdCB4PSIxNCIgeT0iMTgiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIvPgoJPGc+CgkJPGxpbmUgY2xhc3M9InN0MSIgeDE9IjE0IiB5MT0iMTgiIHgyPSIxOCIgeTI9IjE0Ii8+Cgk8L2c+Cgk8bGluZSBjbGFzcz0ic3QxIiB4MT0iMzQiIHkxPSIzMCIgeDI9IjMwIiB5Mj0iMzQiLz4KCTxnPgoJCTxsaW5lIGNsYXNzPSJzdDEiIHgxPSIzMCIgeTE9IjE4IiB4Mj0iMzQiIHkyPSIxNCIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+/>
+`;
+
+exports[`<IconSvg/> renders correctly with border prop 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB kecpfl"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with children prop 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB fMoAXZ"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M7,10l5,5l5-5H7z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with default props 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB fMoAXZ"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop backgroundColor 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB kyFTSv"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop color 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB bfJBHH"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop colorScheme=light 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB eLThFd"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop flip=horizontal 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB jcfRVA"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop flip=vertical 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB gODmac"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop rotate 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB hpaFpD"
+  color=""
+  rotate={45}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop size=large 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB eLFKbv"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop size=small 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB ekfRBU"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with prop size=xlarge 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB eQjSdL"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with props backgroundColor and color 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB dFhWeM"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with props border and borderWidth 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB oOfgG"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with props border and rounded 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB isQttB"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with props border, borderWidth, rounded 1`] = `
+<div
+  className="IconSvgStyled-kZHpyB ccBNwx"
+  color=""
+  rotate={0}
+  size="normal"
+>
+  <svg
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<IconSvg/> renders correctly with props size=custom 1`] = `
+<div
+  className="icontest__TestWrapper-bhtImD iltdYw"
+>
+  <div
+    className="IconSvgStyled-kZHpyB fZTytP"
+    color=""
+    rotate={0}
+    size="normal"
+  >
+    <svg
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+      />
+    </svg>
+  </div>
+</div>
+`;

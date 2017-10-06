@@ -17,7 +17,7 @@ exports[`<Header/> renders correctly if backgroundColor set 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc ciptMC"
+      className="HeaderStyled-zfpDH kUFSNA"
       size="default"
     >
       <HeaderWrapperStyled
@@ -27,12 +27,12 @@ exports[`<Header/> renders correctly if backgroundColor set 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS kLmRmu"
+          className="HeaderWrapperStyled-tEPLj bXKAEs"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -65,7 +65,7 @@ exports[`<Header/> renders correctly if backgroundImage set 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -75,7 +75,7 @@ exports[`<Header/> renders correctly if backgroundImage set 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderBackgroundContainerStyled
@@ -86,7 +86,7 @@ exports[`<Header/> renders correctly if backgroundImage set 1`] = `
             }
           >
             <div
-              className="HeaderBackgroundContainerStyled__HeaderBackgroundContainerStyled-fNtJOf iuncDK"
+              className="HeaderBackgroundContainerStyled-exFaIZ iWZmtz"
               style={
                 Object {
                   "backgroundImage": "url(example.png)",
@@ -96,7 +96,7 @@ exports[`<Header/> renders correctly if backgroundImage set 1`] = `
           </HeaderBackgroundContainerStyled>
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -129,7 +129,7 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 1`] 
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -139,12 +139,12 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 1`] 
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS dYtfzz"
+          className="HeaderWrapperStyled-tEPLj kCiHLT"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             >
               <HeaderRegion
                 horizontalAlign="start"
@@ -159,7 +159,7 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 1`] 
                   verticalAlign="stretch"
                 >
                   <div
-                    className="HeaderRegionStyled__HeaderRegionStyled-inhHbA cRPYZE"
+                    className="HeaderRegionStyled-jZiUCX dofySk"
                     size="default"
                   >
                     <HeaderTitle
@@ -171,7 +171,7 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 1`] 
                         size="default"
                       >
                         <div
-                          className="HeaderTitleStyled__HeaderTitleStyled-ckLTnq imGdvH"
+                          className="HeaderTitleStyled-bhEbJh hqoWDI"
                           size="default"
                         >
                           <div
@@ -221,7 +221,7 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 2`] 
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -231,12 +231,12 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 2`] 
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS dYtfzz"
+          className="HeaderWrapperStyled-tEPLj kCiHLT"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             >
               <HeaderRegion
                 horizontalAlign="start"
@@ -251,7 +251,7 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 2`] 
                   verticalAlign="stretch"
                 >
                   <div
-                    className="HeaderRegionStyled__HeaderRegionStyled-inhHbA cRPYZE"
+                    className="HeaderRegionStyled-jZiUCX dofySk"
                     size="default"
                   >
                     <HeaderTitle
@@ -263,7 +263,7 @@ exports[`<Header/> renders correctly if behavior set type-2 and page scroll 2`] 
                         size="default"
                       >
                         <div
-                          className="HeaderTitleStyled__HeaderTitleStyled-ckLTnq imGdvH"
+                          className="HeaderTitleStyled-bhEbJh hqoWDI"
                           size="default"
                         >
                           <div
@@ -313,7 +313,7 @@ exports[`<Header/> renders correctly if change prop behavior set fixed 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -323,12 +323,12 @@ exports[`<Header/> renders correctly if change prop behavior set fixed 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -361,7 +361,7 @@ exports[`<Header/> renders correctly if change prop behavior set fixed 2`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -371,12 +371,12 @@ exports[`<Header/> renders correctly if change prop behavior set fixed 2`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -409,7 +409,7 @@ exports[`<Header/> renders correctly if change prop behavior set static 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -419,12 +419,12 @@ exports[`<Header/> renders correctly if change prop behavior set static 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS dYtfzz"
+          className="HeaderWrapperStyled-tEPLj kCiHLT"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -457,7 +457,7 @@ exports[`<Header/> renders correctly if change prop behavior set static 2`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -467,12 +467,12 @@ exports[`<Header/> renders correctly if change prop behavior set static 2`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS dYtfzz"
+          className="HeaderWrapperStyled-tEPLj kCiHLT"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -505,7 +505,7 @@ exports[`<Header/> renders correctly if change prop condenses 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -515,12 +515,12 @@ exports[`<Header/> renders correctly if change prop condenses 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -553,7 +553,7 @@ exports[`<Header/> renders correctly if change prop condenses 2`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -563,12 +563,12 @@ exports[`<Header/> renders correctly if change prop condenses 2`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -601,7 +601,7 @@ exports[`<Header/> renders correctly if have children label with id test 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -611,12 +611,12 @@ exports[`<Header/> renders correctly if have children label with id test 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             >
               <label
                 id="test"
@@ -653,7 +653,7 @@ exports[`<Header/> renders correctly if prop behavior set fixed 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -663,12 +663,12 @@ exports[`<Header/> renders correctly if prop behavior set fixed 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS dYtfzz"
+          className="HeaderWrapperStyled-tEPLj kCiHLT"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -701,7 +701,7 @@ exports[`<Header/> renders correctly if prop behavior set static 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -711,12 +711,12 @@ exports[`<Header/> renders correctly if prop behavior set static 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -749,7 +749,7 @@ exports[`<Header/> renders correctly if prop size set blank 1`] = `
     size="blank"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc jMDZsJ"
+      className="HeaderStyled-zfpDH bfkghB"
       size="blank"
     >
       <HeaderWrapperStyled
@@ -759,12 +759,12 @@ exports[`<Header/> renders correctly if prop size set blank 1`] = `
         size="blank"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS hnIGsf"
+          className="HeaderWrapperStyled-tEPLj bAvmDc"
           size="blank"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -797,7 +797,7 @@ exports[`<Header/> renders correctly if prop size set default 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -807,12 +807,12 @@ exports[`<Header/> renders correctly if prop size set default 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -845,7 +845,7 @@ exports[`<Header/> renders correctly if prop size set dense 1`] = `
     size="dense"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="dense"
     >
       <HeaderWrapperStyled
@@ -855,12 +855,12 @@ exports[`<Header/> renders correctly if prop size set dense 1`] = `
         size="dense"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="dense"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -893,7 +893,7 @@ exports[`<Header/> renders correctly with default props 1`] = `
     size="default"
   >
     <header
-      className="HeaderStyled__HeaderStyled-flHfpc gdXnis"
+      className="HeaderStyled-zfpDH kniCLM"
       size="default"
     >
       <HeaderWrapperStyled
@@ -903,12 +903,12 @@ exports[`<Header/> renders correctly with default props 1`] = `
         size="default"
       >
         <div
-          className="HeaderWrapperStyled__HeaderWrapperStyled-gwtCLS iCszHO"
+          className="HeaderWrapperStyled-tEPLj buCiWL"
           size="default"
         >
           <HeaderContentWrapperStyled>
             <div
-              className="HeaderContentWrapperStyled__HeaderContentWrapperStyled-bFaJmK eBUPhc"
+              className="HeaderContentWrapperStyled-bJhnSB iPVTUy"
             />
           </HeaderContentWrapperStyled>
         </div>
@@ -926,14 +926,14 @@ exports[`<Header/> renders correctly with default props 1`] = `
 
 exports[`<HeaderRegion/> renders correctly with default props 1`] = `
 <div
-  className="HeaderRegionStyled__HeaderRegionStyled-inhHbA hIWcKH"
+  className="HeaderRegionStyled-jZiUCX iTRRes"
   size="default"
 />
 `;
 
 exports[`<HeaderTitle/> renders correctly with default props 1`] = `
 <div
-  className="HeaderTitleStyled__HeaderTitleStyled-ckLTnq imGdvH"
+  className="HeaderTitleStyled-bhEbJh hqoWDI"
   size="default"
 />
 `;
