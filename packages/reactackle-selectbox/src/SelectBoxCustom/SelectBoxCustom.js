@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 import { AutoPosition } from 'reactackle-autoposition';
-import { Icon } from 'reactackle-icon';
+import { IconSvg } from 'reactackle-icons';
 import { noop, isUndef, withTheme } from 'reactackle-core';
 import { OptionPropTypeCustom } from '../OptionPropType/OptionPropTypeCustom';
 import { OptionsListCustom } from '../OptionsListCustom/OptionsListCustom';
@@ -338,12 +338,9 @@ class _SelectBoxCustom extends Component {
                   colorScheme={this.props.colorScheme}
                   type={iconSettingsPath.type}
                 >
-                  <Icon
-                    src={iconSettingsPath.src}
-                    type={iconSettingsPath.type}
-                    size="custom"
-                    color="currentColor"
-                  />
+                  <IconSvg size="custom" color="currentColor">
+                    {iconSettingsPath.src}
+                  </IconSvg>
                 </ArrowIconStyled>
               </ButtonStyled>
               <AutoPosition

@@ -21,7 +21,7 @@ import {
 import {
   IconEye,
   IconCross,
-} from 'reactackle-icon-svg';
+} from 'reactackle-icons';
 
 const constants = {
   themeColor: colorSecondary,

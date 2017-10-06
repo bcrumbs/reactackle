@@ -13,7 +13,7 @@ import {
   fontColorMedium,
 } from 'reactackle-core';
 
-import { IconCross } from 'reactackle-icon-svg';
+import { IconCross } from 'reactackle-icons';
 
 export const dialogConstants = {
   paddingX: bmodule(2),

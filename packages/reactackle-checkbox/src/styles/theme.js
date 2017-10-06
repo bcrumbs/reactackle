@@ -14,7 +14,7 @@ import {
   fontSizeSmall,
 } from 'reactackle-core';
 
-import { IconCheck } from 'reactackle-icon-svg';
+import { IconCheck } from 'reactackle-icons';
 
 export default {
   checkboxesSpacing: bmodule(1),

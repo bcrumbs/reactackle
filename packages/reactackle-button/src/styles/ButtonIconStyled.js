@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { extractThemeOrDefault, getValueString } from 'reactackle-core';
-import { iconSvgSizeMixin } from 'reactackle-icon-svg';
-import { iconCustomSizeMixin } from 'reactackle-icon-custom';
+import { iconSvgSizeMixin, iconCustomSizeMixin } from 'reactackle-icons';
 
 const propTypes = {
   /** Define button's size */

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withTooltip } from 'reactackle-tooltip';
 import { withTheme } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
+import { IconSvg } from 'reactackle-icons';
 import { CheckboxIconStyled } from './styles/CheckboxIconStyled';
 
 const propTypes = {
@@ -49,12 +49,9 @@ const CheckboxIconComponent = props => {
       type={iconSettingsPath.type}
       {...tooltipManagementProps}
     >
-      <Icon
-        size="custom"
-        src={iconSettingsPath.src}
-        type={iconSettingsPath.type}
-        color="currentColor"
-      />
+      <IconSvg size="custom" color="currentColor">
+        {iconSettingsPath.src}
+      </IconSvg>
       {tooltip}
     </CheckboxIconStyled>
   );

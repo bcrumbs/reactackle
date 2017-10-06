@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import { iconStyleMixin } from 'reactackle-icon';
-import { iconSvgSizeMixin } from 'reactackle-icon-svg';
-import { iconCustomSizeMixin } from 'reactackle-icon-custom';
+import { iconStyleMixin, iconSvgSizeMixin, iconCustomSizeMixin } from 'reactackle-icons';
 import {
   extractThemeOrDefault,
   getValueString,

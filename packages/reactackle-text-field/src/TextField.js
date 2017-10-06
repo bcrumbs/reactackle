@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TextareaAutosize from 'react-textarea-autosize';
-import { Icon, iconPropType } from 'reactackle-icon';
+import { IconSvg } from 'reactackle-icons';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
@@ -93,11 +93,11 @@ const propTypes = {
   /**
    * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: iconPropType,
+  iconOuter: PropTypes.object,
   /**
    * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: iconPropType,
+  iconInner: PropTypes.object,
   /**
    * Define label position
    */
@@ -431,13 +431,13 @@ class _TextField extends Component {
           colorScheme={this.props.colorScheme}
           type={passwordIconPath.type}
         >
-          <Icon
-            src={passwordIconPath.src}
-            type={passwordIconPath.type}
+          <IconSvg
             size="custom"
             color="currentColor"
             onClick={this._handleHideValue}
-          />
+          >
+            {passwordIconPath.src}
+          </IconSvg>
         </InnerButton>
       );
     } else if (this.props.clearingIcon) {
@@ -450,13 +450,13 @@ class _TextField extends Component {
           colorScheme={this.props.colorScheme}
           type={passwordIconPath.type}
         >
-          <Icon
-            src={clearingIconPath.src}
-            type={clearingIconPath.type}
+          <IconSvg
             size="custom"
             color="currentColor"
             onClick={this._handleClearValue}
-          />
+          >
+            {clearingIconPath.src}
+          </IconSvg>
         </InnerButton>
       );
     }
@@ -474,9 +474,11 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
-        type={this.props.iconOuter.type}
+        type="svg"
       >
-        <Icon {...this.props.iconOuter} size="custom" color="currentColor" />
+        <IconSvg size="custom" color="currentColor" >
+          {this.props.iconOuter}
+        </IconSvg>
       </IconOuterStyled>
     );
   }
@@ -490,9 +492,11 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        type={this.props.iconInner.type}
+        type="svg"
       >
-        <Icon {...this.props.iconInner} size="custom" color="currentColor" />
+        <IconSvg size="custom" color="currentColor">
+          {this.props.iconInner}
+        </IconSvg>
       </IconInnerStyled>
     );
   }

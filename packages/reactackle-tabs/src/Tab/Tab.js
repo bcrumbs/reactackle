@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Icon, iconPropType } from 'reactackle-icon';
+import { IconSvg } from 'reactackle-icons';
 import { noop } from 'reactackle-core';
 import { LinkWrapper } from '../Link/LinkWrapper';
 import { DefaultLinkComponent } from '../Link/DefaultLinkComponent';
@@ -42,7 +42,7 @@ const propTypes = {
   /**
    * Icon that will be rendered on Tab (see IconSvg or IconCustom props)
    */
-  icon: iconPropType,
+  icon: PropTypes.object,
   /**
    * Specify function that will be called on Tab selection
    */
@@ -85,7 +85,9 @@ export default class Tab extends Component {
         selected={this.props.isSelected}
         type={this.props.icon.type}
       >
-        <Icon {...this.props.icon} size="custom" color="currentColor" />
+        <IconSvg size="custom" color="currentColor">
+          {this.props.icon}
+        </IconSvg>
       </TabIconStyled>
     );
   }

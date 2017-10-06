@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withTheme, noop } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
+import { IconSvg } from 'reactackle-icons';
 import { DialogCloseButtonStyled } from './styles/DialogCloseButtonStyled';
 
 const propTypes = {
@@ -28,12 +28,9 @@ const _DialogCloseButton = props => {
       onClick={props.onClick}
       type={iconSettingsPath.type}
     >
-      <Icon
-        size="custom"
-        color="currentColor"
-        src={iconSettingsPath.src}
-        type={iconSettingsPath.type}
-      />
+      <IconSvg size="custom" color="currentColor">
+        {iconSettingsPath.src}
+      </IconSvg>
     </DialogCloseButtonStyled>
   );
 };

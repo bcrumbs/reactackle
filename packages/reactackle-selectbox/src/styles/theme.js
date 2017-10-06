@@ -17,7 +17,7 @@ import {
   bodyLineHeight,
 } from 'reactackle-core';
 
-import { IconArrowDropDown } from 'reactackle-icon-svg';
+import { IconArrowDropDown } from 'reactackle-icons';
 
 const constants = {
   themeColor: colorSecondary,

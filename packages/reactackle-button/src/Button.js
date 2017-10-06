@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Icon, iconPropType } from 'reactackle-icon';
 import { noop, registerDefaultComponentTheme } from 'reactackle-core';
 
 import { ButtonStyled } from './styles/ButtonStyled';
@@ -53,7 +52,7 @@ const propTypes = {
   /**
    * Define icon (see IconSvg or IconCustom props)
    */
-  icon: iconPropType,
+  icon: PropTypes.object,
   /**
    * Stop onClick event's propagation and only call onPress
    */
@@ -80,7 +79,7 @@ const defaultProps = {
   raised: false,
   disabled: false,
   iconPositionRight: false,
-  icon: {},
+  icon: null,
   stopPressPropagation: false,
   onPress: noop,
   href: '',
@@ -122,17 +121,13 @@ export default class Button extends Component {
         </ButtonTextStyled>
       : null;
 
-    const buttonIcon = this.props.icon.type
+    const buttonIcon = this.props.icon
         ? <ButtonIconBoxStyled
             iconPositionRight={this.props.iconPositionRight}
             size={this.props.size}
             disabled={this.props.disabled}
           >
-            <Icon
-              {...this.props.icon}
-              size="custom"
-              type={this.props.icon.type}
-            />
+            {this.props.icon}
           </ButtonIconBoxStyled>
         : null;
 
