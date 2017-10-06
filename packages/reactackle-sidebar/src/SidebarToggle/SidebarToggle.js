@@ -33,7 +33,7 @@ export default function SidebarToggle(props) {
       <ToggleIconStyled
         expanded={props.expanded}
         autoCollapsing={props.autoCollapsing}
-        type={props.icon.type}
+        type="svg"
       >
         <IconSvg color="currentColor" size="custom">
           {props.icon}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { IconSvg } from 'reactackle-icons';
 import { noop } from 'reactackle-core';
 import { LinkWrapper } from '../Link/LinkWrapper';
 import { DefaultLinkComponent } from '../Link/DefaultLinkComponent';
@@ -77,17 +76,19 @@ export default class Tab extends Component {
   }
 
   _renderTabIcon() {
-    if (!this.props.icon) return null;
+    const { icon } = this.props;
+    if (!icon) return null;
+
+    const iconType = icon.type.displayName === 'IconCustom' ? 'custom' : 'svg';
+    const clonedIcon = React.cloneElement(icon, { size: 'custom', color: 'currentColor' });
 
     return (
       <TabIconStyled
         colorScheme={this.props.colorScheme}
         selected={this.props.isSelected}
-        type={this.props.icon.type}
+        type={iconType}
       >
-        <IconSvg size="custom" color="currentColor">
-          {this.props.icon}
-        </IconSvg>
+        {clonedIcon}
       </TabIconStyled>
     );
   }

@@ -465,8 +465,13 @@ class _TextField extends Component {
   }
 
   _renderIconOuter() {
+    const { iconOuter } = this.props;
+    if (!iconOuter) return null;
+
+    const iconType = iconOuter.type.displayName === 'IconCustom' ? 'custom' : 'svg';
+    const icon = React.cloneElement(iconOuter, { size: 'custom' });
+
     return (
-      this.props.iconOuter &&
       <IconOuterStyled
         disabled={this.props.disabled}
         focus={this.state.focus}
@@ -474,16 +479,20 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
-        type="svg"
+        type={iconType}
       >
-        <IconSvg size="custom" color="currentColor" >
-          {this.props.iconOuter}
-        </IconSvg>
+        {icon}
       </IconOuterStyled>
     );
   }
 
   _renderIconInner() {
+    const { iconInner } = this.props;
+    if (!iconInner) return null;
+
+    const iconType = iconInner.type.displayName === 'IconCustom' ? 'custom' : 'svg';
+    const icon = React.cloneElement(iconInner, { size: 'custom' });
+
     return (
       this.props.iconInner &&
       <IconInnerStyled
@@ -492,11 +501,9 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        type="svg"
+        type={iconType}
       >
-        <IconSvg size="custom" color="currentColor">
-          {this.props.iconInner}
-        </IconSvg>
+        {icon}
       </IconInnerStyled>
     );
   }
