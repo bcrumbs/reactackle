@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const propTypes = {
+export const iconsPropType = {
   /** Turns on/off icon's border */
   border: PropTypes.bool,
   /** Set icon's border width */

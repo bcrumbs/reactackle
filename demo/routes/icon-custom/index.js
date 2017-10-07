@@ -1,7 +1,7 @@
 import React from 'react';
 import { RouteInfo, RouteProps } from '../../components/Route/RouteStructure';
 //eslint-disable-next-line
-import IconCode from '!raw-loader!../../../packages/reactackle-icon-custom/src/IconCustom';
+import IconCode from '!raw-loader!../../../packages/reactackle-icons/src/IconCustom/IconCustom';
 
 const propTypes = RouteInfo.propTypes;
 const defaultProps = {
