@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { noop } from 'reactackle-core';
-import { IconSvg, IconChevronLeft } from 'reactackle-icons';
+import { IconArrowChevronLeft } from 'reactackle-icons';
 import { SidebarToggleStyled } from './styles/SidebarToggleStyled';
 import { ToggleIconStyled } from './styles/ToggleIconStyled';
 import { ToggleTextStyled } from './styles/ToggleTextStyled';
@@ -11,7 +11,7 @@ const propTypes = {
   toggleButtonText: PropTypes.string,
   expanded: PropTypes.bool,
   autoCollapsing: PropTypes.bool,
-  icon: PropTypes.object,
+  icon: PropTypes.node,
   onClick: PropTypes.func,
 };
 
@@ -19,11 +19,16 @@ const defaultProps = {
   toggleButtonText: 'Collapse',
   expanded: false,
   autoCollapsing: false,
-  icon: IconChevronLeft,
+  icon: IconArrowChevronLeft,
   onClick: noop,
 };
 
 export default function SidebarToggle(props) {
+  const icon = React.cloneElement(
+    props.icon,
+    { size: 'custom', color: 'currentColor' }// eslint-disable-line comma-dangle
+  );
+
   return (
     <SidebarToggleStyled
       expanded={props.expanded}
@@ -35,9 +40,7 @@ export default function SidebarToggle(props) {
         autoCollapsing={props.autoCollapsing}
         type="svg"
       >
-        <IconSvg color="currentColor" size="custom">
-          {props.icon}
-        </IconSvg>
+        {icon}
       </ToggleIconStyled>
 
       <ToggleContentStyled>

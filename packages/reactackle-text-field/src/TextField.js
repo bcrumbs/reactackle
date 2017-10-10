@@ -93,11 +93,11 @@ const propTypes = {
   /**
    * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: PropTypes.object,
+  iconOuter: PropTypes.node,
   /**
    * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: PropTypes.object,
+  iconInner: PropTypes.node,
   /**
    * Define label position
    */
@@ -421,6 +421,24 @@ class _TextField extends Component {
     const clearingIconPath = componentPath.clearingIcon;
     const passwordIconPath = componentPath.passwordIcon;
 
+    const passwordIcon = React.cloneElement(
+      passwordIconPath.src,
+      {
+        size: 'custom',
+        color: 'currentColor',
+        onClick: this._handleHideValue,
+      }// eslint-disable-line comma-dangle
+    );
+    const clearingIcon = React.cloneElement(
+      clearingIconPath.src,
+      {
+        size: 'custom',
+        color: 'currentColor',
+        onClick: this._handleClearValue,
+      }// eslint-disable-line comma-dangle
+    );
+    
+
     if (typeof this.state.hidden === 'boolean') {
       return (
         <InnerButton
@@ -431,13 +449,7 @@ class _TextField extends Component {
           colorScheme={this.props.colorScheme}
           type={passwordIconPath.type}
         >
-          <IconSvg
-            size="custom"
-            color="currentColor"
-            onClick={this._handleHideValue}
-          >
-            {passwordIconPath.src}
-          </IconSvg>
+          {passwordIcon}
         </InnerButton>
       );
     } else if (this.props.clearingIcon) {
@@ -448,15 +460,9 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
-          type={passwordIconPath.type}
+          type={clearingIconPath.type}
         >
-          <IconSvg
-            size="custom"
-            color="currentColor"
-            onClick={this._handleClearValue}
-          >
-            {clearingIconPath.src}
-          </IconSvg>
+          {clearingIcon}
         </InnerButton>
       );
     }
@@ -468,8 +474,10 @@ class _TextField extends Component {
     const { iconOuter } = this.props;
     if (!iconOuter) return null;
 
-    const iconType = iconOuter.type.displayName === 'IconCustom' ? 'custom' : 'svg';
-    const icon = React.cloneElement(iconOuter, { size: 'custom' });
+    const icon = React.cloneElement(
+      iconOuter,
+      { size: 'custom', color: 'currentColor' }// eslint-disable-line comma-dangle
+    );
 
     return (
       <IconOuterStyled
@@ -479,7 +487,7 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
-        type={iconType}
+        type="svg"
       >
         {icon}
       </IconOuterStyled>
@@ -490,8 +498,10 @@ class _TextField extends Component {
     const { iconInner } = this.props;
     if (!iconInner) return null;
 
-    const iconType = iconInner.type.displayName === 'IconCustom' ? 'custom' : 'svg';
-    const icon = React.cloneElement(iconInner, { size: 'custom' });
+    const icon = React.cloneElement(
+      iconInner,
+      { size: 'custom', color: 'currentColor' }// eslint-disable-line comma-dangle
+    );
 
     return (
       this.props.iconInner &&
@@ -501,7 +511,7 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        type={iconType}
+        type="svg"
       >
         {icon}
       </IconInnerStyled>

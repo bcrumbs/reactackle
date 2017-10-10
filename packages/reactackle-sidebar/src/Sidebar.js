@@ -22,7 +22,7 @@ const propTypes = {
   /**
    * Determines icon of toggle button
    */
-  toggleButtonIcon: PropTypes.object,
+  toggleButtonIcon: PropTypes.node,
   /**
    * Determines whether sidebar is expanded
    */
@@ -100,7 +100,7 @@ export default class Sidebar extends Component {
     return (
       <SidebarToggle
         toggleButtonText={this.props.toggleButtonText}
-        icon={this.props.toggleButtonIcon}
+        icon={this.props.toggleButtonIcon || undefined}
         expanded={expanded}
         autoCollapsing={this.props.autoCollapsing}
         onClick={this._handleToggle}

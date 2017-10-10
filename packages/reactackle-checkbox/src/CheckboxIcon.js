@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withTooltip } from 'reactackle-tooltip';
 import { withTheme } from 'reactackle-core';
-import { IconSvg } from 'reactackle-icons';
 import { CheckboxIconStyled } from './styles/CheckboxIconStyled';
 
 const propTypes = {
@@ -27,6 +26,11 @@ const CheckboxIconComponent = props => {
     props.theme.reactackle.components.checkbox.icon.source;
   const Tooltip = props.Tooltip;
 
+  const icon = React.cloneElement(
+    iconSettingsPath.src,
+    { size: 'custom', color: 'currentColor' }// eslint-disable-line comma-dangle
+  );
+
   const tooltip = props.tooltipText
     ? <Tooltip text={props.tooltipText} />
     : null;
@@ -49,9 +53,7 @@ const CheckboxIconComponent = props => {
       type={iconSettingsPath.type}
       {...tooltipManagementProps}
     >
-      <IconSvg size="custom" color="currentColor">
-        {iconSettingsPath.src}
-      </IconSvg>
+      {icon}
       {tooltip}
     </CheckboxIconStyled>
   );

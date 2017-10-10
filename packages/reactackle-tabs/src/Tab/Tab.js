@@ -41,7 +41,7 @@ const propTypes = {
   /**
    * Icon that will be rendered on Tab (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.object,
+  icon: PropTypes.node,
   /**
    * Specify function that will be called on Tab selection
    */
@@ -79,14 +79,16 @@ export default class Tab extends Component {
     const { icon } = this.props;
     if (!icon) return null;
 
-    const iconType = icon.type.displayName === 'IconCustom' ? 'custom' : 'svg';
-    const clonedIcon = React.cloneElement(icon, { size: 'custom', color: 'currentColor' });
+    const clonedIcon = React.cloneElement(
+      icon,
+      { size: 'custom', color: 'currentColor' }// eslint-disable-line comma-dangle
+    );
 
     return (
       <TabIconStyled
         colorScheme={this.props.colorScheme}
         selected={this.props.isSelected}
-        type={iconType}
+        type="svg"
       >
         {clonedIcon}
       </TabIconStyled>

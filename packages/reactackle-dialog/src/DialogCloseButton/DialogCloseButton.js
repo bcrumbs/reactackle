@@ -3,7 +3,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withTheme, noop } from 'reactackle-core';
-import { IconSvg } from 'reactackle-icons';
 import { DialogCloseButtonStyled } from './styles/DialogCloseButtonStyled';
 
 const propTypes = {
@@ -22,15 +21,18 @@ const _DialogCloseButton = props => {
   const iconSettingsPath =
     props.theme.reactackle.components.dialog.closeButton.source;
 
+  const icon = React.cloneElement(
+    iconSettingsPath.src,
+    { size: 'custom', color: 'currentColor' }// eslint-disable-line comma-dangle
+  );
+  
   return (
     <DialogCloseButtonStyled
       transparentBg={props.transparentBg}
       onClick={props.onClick}
       type={iconSettingsPath.type}
     >
-      <IconSvg size="custom" color="currentColor">
-        {iconSettingsPath.src}
-      </IconSvg>
+      {icon}
     </DialogCloseButtonStyled>
   );
 };
