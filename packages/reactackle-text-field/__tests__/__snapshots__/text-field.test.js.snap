@@ -1710,21 +1710,16 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <polygon
-                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
-              />
-            </svg>
-          </div>
+            <polygon
+              points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -1765,21 +1760,16 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <polygon
-                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
-              />
-            </svg>
-          </div>
+            <polygon
+              points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -2015,6 +2005,7 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -2242,6 +2233,7 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -2303,6 +2295,7 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -2364,6 +2357,7 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -2425,6 +2419,7 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -2486,6 +2481,7 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -3079,6 +3075,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -3228,21 +3225,16 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3283,21 +3275,16 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3338,21 +3325,16 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3393,21 +3375,16 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3448,21 +3425,16 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3558,21 +3530,16 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           disabled={true}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3613,21 +3580,16 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3993,6 +3955,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4145,6 +4108,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4195,6 +4159,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4245,6 +4210,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4295,6 +4261,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4345,6 +4312,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4766,6 +4734,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4872,6 +4841,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4933,6 +4903,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -4994,6 +4965,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -5100,6 +5072,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -5161,6 +5134,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -5609,6 +5583,7 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -5708,21 +5683,16 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -5790,6 +5760,7 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -5845,6 +5816,7 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -5900,6 +5872,7 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -5955,6 +5928,7 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -6010,6 +5984,7 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -6065,6 +6040,7 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -6120,6 +6096,7 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -6167,6 +6144,7 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -6217,6 +6195,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -6267,6 +6246,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -6317,6 +6297,7 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -6367,6 +6348,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -6417,6 +6399,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -6467,6 +6450,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
         type="svg"
       >
         <svg
+          color="currentColor"
           preserveAspectRatio="xMidYMid meet"
           size="custom"
           viewBox="0 0 24 24"
@@ -7053,6 +7037,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -7116,6 +7101,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -7179,6 +7165,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"
@@ -7242,6 +7229,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
             type="svg"
           >
             <svg
+              color="currentColor"
               preserveAspectRatio="xMidYMid meet"
               size="custom"
               viewBox="0 0 24 24"

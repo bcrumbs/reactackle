@@ -114,7 +114,7 @@ exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
     size="normal"
   >
     <div
-      className="IconCustomStyled-ehOkKD enfZmF"
+      className="IconCustomStyled-ehOkKD diQUT"
       color=""
       rotate={0}
       size="normal"
@@ -139,7 +139,7 @@ exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
     size="normal"
   >
     <div
-      className="IconSvgStyled-kZHpyB fMoAXZ"
+      className="IconSvgStyled-kZHpyB fZTytP"
       color=""
       rotate={0}
       size="normal"

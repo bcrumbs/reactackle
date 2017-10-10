@@ -270,20 +270,15 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -334,20 +329,15 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
             disabled={true}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -398,20 +388,15 @@ exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -462,20 +447,15 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -526,20 +506,15 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -590,20 +565,15 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -654,20 +624,15 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -729,20 +694,15 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1192,20 +1152,15 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1256,20 +1211,15 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1331,20 +1281,15 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
             disabled={true}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1406,20 +1351,15 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1481,20 +1421,15 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1556,20 +1491,15 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1631,20 +1561,15 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>
@@ -1719,20 +1644,15 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
             disabled={false}
             type="svg"
           >
-            <div
-              className="IconSvgStyled-kZHpyB imDkgw"
-              color=""
-              rotate={0}
-              size="normal"
+            <svg
+              color="currentColor"
+              size="custom"
+              viewBox="0 0 24 24"
             >
-              <svg
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7,10l5,5l5-5H7z"
-                />
-              </svg>
-            </div>
+              <path
+                d="M7,10l5,5l5-5H7z"
+              />
+            </svg>
           </span>
         </button>
       </div>

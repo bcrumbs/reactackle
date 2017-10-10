@@ -27,20 +27,15 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
         disabled={false}
         type="svg"
       >
-        <div
-          className="IconSvgStyled-kZHpyB imDkgw"
-          color=""
-          rotate={0}
-          size="normal"
+        <svg
+          color="currentColor"
+          size="custom"
+          viewBox="0 0 24 24"
         >
-          <svg
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
-            />
-          </svg>
-        </div>
+          <polygon
+            points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
+          />
+        </svg>
       </div>
     </label>
   </div>
@@ -74,20 +69,15 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
         disabled={false}
         type="svg"
       >
-        <div
-          className="IconSvgStyled-kZHpyB imDkgw"
-          color=""
-          rotate={0}
-          size="normal"
+        <svg
+          color="currentColor"
+          size="custom"
+          viewBox="0 0 24 24"
         >
-          <svg
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
-            />
-          </svg>
-        </div>
+          <polygon
+            points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
+          />
+        </svg>
       </div>
     </label>
   </div>
@@ -121,20 +111,15 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
         disabled={false}
         type="svg"
       >
-        <div
-          className="IconSvgStyled-kZHpyB imDkgw"
-          color=""
-          rotate={0}
-          size="normal"
+        <svg
+          color="currentColor"
+          size="custom"
+          viewBox="0 0 24 24"
         >
-          <svg
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
-            />
-          </svg>
-        </div>
+          <polygon
+            points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
+          />
+        </svg>
       </div>
     </label>
   </div>
@@ -168,20 +153,15 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
         disabled={true}
         type="svg"
       >
-        <div
-          className="IconSvgStyled-kZHpyB imDkgw"
-          color=""
-          rotate={0}
-          size="normal"
+        <svg
+          color="currentColor"
+          size="custom"
+          viewBox="0 0 24 24"
         >
-          <svg
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
-            />
-          </svg>
-        </div>
+          <polygon
+            points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
+          />
+        </svg>
       </div>
     </label>
   </div>
@@ -215,20 +195,15 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
         disabled={false}
         type="svg"
       >
-        <div
-          className="IconSvgStyled-kZHpyB imDkgw"
-          color=""
-          rotate={0}
-          size="normal"
+        <svg
+          color="currentColor"
+          size="custom"
+          viewBox="0 0 24 24"
         >
-          <svg
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
-            />
-          </svg>
-        </div>
+          <polygon
+            points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
+          />
+        </svg>
       </div>
       <span>
         <span
@@ -269,20 +244,15 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
         disabled={false}
         type="svg"
       >
-        <div
-          className="IconSvgStyled-kZHpyB imDkgw"
-          color=""
-          rotate={0}
-          size="normal"
+        <svg
+          color="currentColor"
+          size="custom"
+          viewBox="0 0 24 24"
         >
-          <svg
-            viewBox="0 0 24 24"
-          >
-            <polygon
-              points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
-            />
-          </svg>
-        </div>
+          <polygon
+            points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2"
+          />
+        </svg>
       </div>
     </label>
   </div>
