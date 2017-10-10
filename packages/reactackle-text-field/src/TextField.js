@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TextareaAutosize from 'react-textarea-autosize';
-import { IconSvg } from 'reactackle-icons';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
