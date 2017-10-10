@@ -2,7 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { IconSvg, IconDefault } from 'reactackle-icons';
+import { IconDefault } from 'reactackle-icons';
 import {
   defaultTheme,
 } from 'reactackle-core';
@@ -652,10 +652,13 @@ describe('<TextField/>', () => {
       <TextField defaultValue="test" type="password" />,
     );
 
-    expect(component.toJSON()).toMatchSnapshot();
-    findByType(component, IconSvg).props.onClick();
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
 
-    expect(component.toJSON()).toMatchSnapshot();
+    findByType(tree, 'svg').props.onClick();
+
+    tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
   });
 
   it('renders correctly if prop password set true,' +
@@ -864,11 +867,13 @@ describe('<TextField/>', () => {
       <TextField defaultValue="test" clearingIcon />,
     );
 
-    expect(component.toJSON()).toMatchSnapshot();
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
 
-    findByType(component, IconSvg).props.onClick();
+    findByType(tree, 'svg').props.onClick();
 
-    expect(component.toJSON()).toMatchSnapshot();
+    tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
   });
 
   it('renders correctly if prop id set test', () => {

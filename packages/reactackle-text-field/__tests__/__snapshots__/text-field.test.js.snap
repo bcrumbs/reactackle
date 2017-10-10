@@ -1810,21 +1810,16 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <polygon
-                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
-              />
-            </svg>
-          </div>
+            <polygon
+              points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -3467,7 +3462,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           onClick={[Function]}
           onFocus={[Function]}
           placeholder=""
-          type="password"
+          type="text"
           value="test"
         />
         <div
@@ -3475,21 +3470,16 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           disabled={false}
           type="svg"
         >
-          <div
-            className="IconSvgStyled-kZHpyB imDkgw"
-            color=""
+          <svg
+            color="currentColor"
             onClick={[Function]}
-            rotate={0}
-            size="normal"
+            size="custom"
+            viewBox="0 0 24 24"
           >
-            <svg
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
-              />
-            </svg>
-          </div>
+            <path
+              d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+            />
+          </svg>
         </div>
       </div>
     </div>
