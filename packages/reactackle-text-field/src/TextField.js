@@ -611,8 +611,8 @@ class _TextField extends Component {
    */
   _renderTextField(textFieldProps) {
     const TextFieldElement = this.state.textFieldElement;
-    const isPassword = textFieldProps.type === 'password' && this.state.hidden;
-    const inputType = isPassword ? 'password' : textFieldProps.type;
+    const isPassword = textFieldProps.type === 'password';
+    const inputType = isPassword && !this.state.hidden ? 'text' : textFieldProps.type;
 
     return <TextFieldElement {...textFieldProps} type={inputType} />;
   }
