@@ -79,7 +79,13 @@ const thumbBase = ({ theme: themeFromProvider }) => {
   `;
 };
 
-const thumbStyle = ({ theme: themeFromProvider, checked, disabled, hover }) => {
+const thumbStyle = ({
+  theme: themeFromProvider,
+  checked,
+  disabled,
+  hover,
+  focus,
+}) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const componentPath =
     theme.reactackle.components.toggleButton.toggleThumb.state;
@@ -94,7 +100,7 @@ const thumbStyle = ({ theme: themeFromProvider, checked, disabled, hover }) => {
   return css`
     background-color: ${backgroundColor};
     ${!disabled && boxShadow()};
-    ${!disabled && hover && boxShadow(2)};
+    ${!disabled && (hover || focus) && boxShadow(2)};
   `;
 };
 
@@ -102,6 +108,7 @@ const thumbPosition = ({
   checked,
   disabled,
   hover,
+  focus,
   theme: themeFromProvider,
 }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
@@ -109,7 +116,8 @@ const thumbPosition = ({
   const hoverOffset =
     theme.reactackle.components.toggleButton.toggleThumb.hoverOffset;
 
-  const offset = hover && !disabled ? getValueString(hoverOffset) : 0,
+  const offset = (hover || focus) && !disabled
+                 ? getValueString(hoverOffset) : 0,
     left = checked ? 'auto' : offset,
     right = checked ? offset : 'auto';
 

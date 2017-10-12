@@ -68,11 +68,14 @@ export default class ToggleButton extends Component {
     this.state = {
       checked: isUndef(props.checked) ? props.defaultChecked : props.checked,
       hovered: false,
+      focused: false,
     };
 
     this._handleChange = this._handleChange.bind(this);
     this._handleMouseEnter = this._handleMouseEnter.bind(this);
     this._handleMouseLeave = this._handleMouseLeave.bind(this);
+    this._handleFocus = this._handleFocus.bind(this);
+    this._handleBlur = this._handleBlur.bind(this);
   }
 
   _handleChange(event) {
@@ -94,6 +97,14 @@ export default class ToggleButton extends Component {
     this.setState({
       hovered: false,
     });
+  }
+
+  _handleFocus() {
+    this.setState({ focused: true });
+  }
+
+  _handleBlur() {
+    this.setState({ focused: false });
   }
 
   _renderTooltip() {
@@ -140,6 +151,8 @@ export default class ToggleButton extends Component {
       <ToggleStyled
         onMouseEnter={this._handleMouseEnter}
         onMouseLeave={this._handleMouseLeave}
+        onFocus={this._handleFocus}
+        onBlur={this._handleBlur}
         disabled={this.props.disabled}
       >
         <ToggleLabelStyled
@@ -156,6 +169,7 @@ export default class ToggleButton extends Component {
               checked={checked}
               disabled={this.props.disabled}
               hover={this.state.hovered}
+              focus={this.state.focused}
             />
             <ToggleInputStyled
               id={this._inputId}
