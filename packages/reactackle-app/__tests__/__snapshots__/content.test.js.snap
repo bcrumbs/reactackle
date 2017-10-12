@@ -2,7 +2,7 @@
 
 exports[`<Content/> renders correctly if contains children 1`] = `
 <div
-  className="ContentStyled__ContentStyled-qQZGb dqeojI"
+  className="ContentStyled-aVpGE kseoPp"
 >
   <div>
     TEST
@@ -12,6 +12,6 @@ exports[`<Content/> renders correctly if contains children 1`] = `
 
 exports[`<Content/> renders correctly with default props 1`] = `
 <div
-  className="ContentStyled__ContentStyled-qQZGb dqeojI"
+  className="ContentStyled-aVpGE kseoPp"
 />
 `;

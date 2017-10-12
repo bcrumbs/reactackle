@@ -2,7 +2,7 @@
 
 exports[`<Column/> renders correctly if prop centered set 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT ecmgrB"
+  className="ColumnStyled-jMHtFW cceWhM"
   size={
     Object {
       "xsmall": 12,
@@ -13,7 +13,7 @@ exports[`<Column/> renders correctly if prop centered set 1`] = `
 
 exports[`<Column/> renders correctly if prop collapsed set false 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -24,7 +24,7 @@ exports[`<Column/> renders correctly if prop collapsed set false 1`] = `
 
 exports[`<Column/> renders correctly if prop collapsed set true 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT bbajaz"
+  className="ColumnStyled-jMHtFW oYhbJ"
   size={
     Object {
       "xsmall": 12,
@@ -35,7 +35,7 @@ exports[`<Column/> renders correctly if prop collapsed set true 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutDirection set horizontal 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT cGmyZR"
+  className="ColumnStyled-jMHtFW jPhgev"
   size={
     Object {
       "xsmall": 12,
@@ -46,7 +46,7 @@ exports[`<Column/> renders correctly if prop layoutDirection set horizontal 1`] 
 
 exports[`<Column/> renders correctly if prop layoutDirection set vertical 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -57,7 +57,7 @@ exports[`<Column/> renders correctly if prop layoutDirection set vertical 1`] = 
 
 exports[`<Column/> renders correctly if prop layoutX set center 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -68,7 +68,7 @@ exports[`<Column/> renders correctly if prop layoutX set center 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutX set end 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -79,7 +79,7 @@ exports[`<Column/> renders correctly if prop layoutX set end 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutX set space-around 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -90,7 +90,7 @@ exports[`<Column/> renders correctly if prop layoutX set space-around 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutX set space-between 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -101,7 +101,7 @@ exports[`<Column/> renders correctly if prop layoutX set space-between 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutX set start 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -112,7 +112,7 @@ exports[`<Column/> renders correctly if prop layoutX set start 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutY set baseline 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -123,7 +123,7 @@ exports[`<Column/> renders correctly if prop layoutY set baseline 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutY set center 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -134,7 +134,7 @@ exports[`<Column/> renders correctly if prop layoutY set center 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutY set end 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -145,7 +145,7 @@ exports[`<Column/> renders correctly if prop layoutY set end 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutY set start 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -156,7 +156,7 @@ exports[`<Column/> renders correctly if prop layoutY set start 1`] = `
 
 exports[`<Column/> renders correctly if prop layoutY set stretch 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,
@@ -167,7 +167,7 @@ exports[`<Column/> renders correctly if prop layoutY set stretch 1`] = `
 
 exports[`<Column/> renders correctly if prop size set 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT jjVzUG"
+  className="ColumnStyled-jMHtFW fVBHSF"
   size={
     Object {
       "medium": 6,
@@ -179,7 +179,7 @@ exports[`<Column/> renders correctly if prop size set 1`] = `
 
 exports[`<Column/> renders correctly with default props 1`] = `
 <div
-  className="ColumnStyled__ColumnStyled-cwlJNT czoguW"
+  className="ColumnStyled-jMHtFW jnJuqa"
   size={
     Object {
       "xsmall": 12,

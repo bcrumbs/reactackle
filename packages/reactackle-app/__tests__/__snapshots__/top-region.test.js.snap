@@ -2,10 +2,10 @@
 
 exports[`<TopRegion/> renders correctly if contains children 1`] = `
 <div
-  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+  className="TopRegionStyled-eOdIJY ljMgnx"
 >
   <div
-    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+    className="TopRegionContentStyled-hekJiL ljGiLz"
   >
     <div>
       TEST
@@ -16,30 +16,30 @@ exports[`<TopRegion/> renders correctly if contains children 1`] = `
 
 exports[`<TopRegion/> renders correctly if prop fixed set false 1`] = `
 <div
-  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+  className="TopRegionStyled-eOdIJY ljMgnx"
 >
   <div
-    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+    className="TopRegionContentStyled-hekJiL ljGiLz"
   />
 </div>
 `;
 
 exports[`<TopRegion/> renders correctly if prop fixed set true 1`] = `
 <div
-  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+  className="TopRegionStyled-eOdIJY ljMgnx"
 >
   <div
-    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+    className="TopRegionContentStyled-hekJiL ljGiLz"
   />
 </div>
 `;
 
 exports[`<TopRegion/> renders correctly with default props 1`] = `
 <div
-  className="TopRegionStyled__TopRegionStyled-jeFLsz iKhGJC"
+  className="TopRegionStyled-eOdIJY ljMgnx"
 >
   <div
-    className="TopRegionContentStyled__TopRegionContentStyled-frWrxY dcSLQT"
+    className="TopRegionContentStyled-hekJiL ljGiLz"
   />
 </div>
 `;
