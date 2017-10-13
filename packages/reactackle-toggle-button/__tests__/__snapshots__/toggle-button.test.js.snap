@@ -117,7 +117,7 @@ exports[`<ToggleButton/> renders correctly if disabled 1`] = `
 </div>
 `;
 
-exports[`<ToggleButton/> renders correctly if handles input change and call onChange 1`] = `
+exports[`<ToggleButton/> renders correctly if focused 1`] = `
 <div
   className="ToggleStyled-hpSctc cNwmaA"
   disabled={false}
@@ -137,16 +137,133 @@ exports[`<ToggleButton/> renders correctly if handles input change and call onCh
       disabled={false}
     >
       <label
+        checked={false}
+        className="ToggleBarStyled-kcTwBB aFLLg"
+        disabled={false}
+        htmlFor="toggle-11"
+      />
+      <input
+        checked={false}
+        className="ToggleInputStyled-cniALy dfMZHO"
+        disabled={false}
+        id="toggle-11"
+        onChange={[Function]}
+        tabIndex={0}
+        type="checkbox"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`<ToggleButton/> renders correctly if focused 2`] = `
+<div
+  className="ToggleStyled-hpSctc cNwmaA"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <label
+    className="ToggleLabelStyled-iqJNYz cCwlqu"
+    disabled={false}
+    htmlFor="toggle-11"
+    tabIndex="0"
+  >
+    <div
+      className="ToggleBarBoxStyled-cBeZVR heeuOl"
+      disabled={false}
+    >
+      <label
+        checked={false}
+        className="ToggleBarStyled-kcTwBB gTkPlS"
+        disabled={false}
+        htmlFor="toggle-11"
+      />
+      <input
+        checked={false}
+        className="ToggleInputStyled-cniALy dfMZHO"
+        disabled={false}
+        id="toggle-11"
+        onChange={[Function]}
+        tabIndex={0}
+        type="checkbox"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`<ToggleButton/> renders correctly if focused 3`] = `
+<div
+  className="ToggleStyled-hpSctc cNwmaA"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <label
+    className="ToggleLabelStyled-iqJNYz cCwlqu"
+    disabled={false}
+    htmlFor="toggle-11"
+    tabIndex="0"
+  >
+    <div
+      className="ToggleBarBoxStyled-cBeZVR heeuOl"
+      disabled={false}
+    >
+      <label
+        checked={false}
+        className="ToggleBarStyled-kcTwBB aFLLg"
+        disabled={false}
+        htmlFor="toggle-11"
+      />
+      <input
+        checked={false}
+        className="ToggleInputStyled-cniALy dfMZHO"
+        disabled={false}
+        id="toggle-11"
+        onChange={[Function]}
+        tabIndex={0}
+        type="checkbox"
+      />
+    </div>
+  </label>
+</div>
+`;
+
+exports[`<ToggleButton/> renders correctly if handles input change and call onChange 1`] = `
+<div
+  className="ToggleStyled-hpSctc cNwmaA"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <label
+    className="ToggleLabelStyled-iqJNYz cCwlqu"
+    disabled={false}
+    htmlFor="toggle-12"
+    tabIndex="0"
+  >
+    <div
+      className="ToggleBarBoxStyled-cBeZVR heeuOl"
+      disabled={false}
+    >
+      <label
         checked={true}
         className="ToggleBarStyled-kcTwBB jXzuUU"
         disabled={false}
-        htmlFor="toggle-11"
+        htmlFor="toggle-12"
       />
       <input
         checked={true}
         className="ToggleInputStyled-cniALy dfMZHO"
         disabled={false}
-        id="toggle-11"
+        id="toggle-12"
         onChange={[Function]}
         tabIndex={0}
         type="checkbox"
