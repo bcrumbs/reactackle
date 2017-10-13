@@ -2,6 +2,6 @@
 
 exports[`<MainRegion/> renders correctly with default props 1`] = `
 <div
-  className="MainRegionStyled__MainRegionStyled-iLcjTc cWfuqc"
+  className="MainRegionStyled-dlkgES jVcdao"
 />
 `;

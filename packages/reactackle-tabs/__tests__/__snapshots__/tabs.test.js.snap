@@ -2,31 +2,31 @@
 
 exports[`<Tabs/> renders correctly if change tab 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ jfWBlV"
+              className="TabIconStyled-bYWiJR eQkcDH"
               selected={true}
             >
               <span
-                className="fa fa-anchor IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
                 color=""
                 onClick={[Function]}
                 rotate={0}
@@ -34,7 +34,7 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
               />
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 1
             </div>
@@ -42,22 +42,22 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ hXoNdk"
+              className="TabIconStyled-bYWiJR eMTSwD"
               selected={false}
             >
               <span
-                className="fa fa-anchor IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
                 color=""
                 onClick={[Function]}
                 rotate={0}
@@ -65,7 +65,7 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
               />
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 2
             </div>
@@ -79,31 +79,31 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
 
 exports[`<Tabs/> renders correctly if change tab 2`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ hXoNdk"
+              className="TabIconStyled-bYWiJR eMTSwD"
               selected={false}
             >
               <span
-                className="fa fa-anchor IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
                 color=""
                 onClick={[Function]}
                 rotate={0}
@@ -111,7 +111,7 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
               />
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 1
             </div>
@@ -119,22 +119,22 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ jfWBlV"
+              className="TabIconStyled-bYWiJR eQkcDH"
               selected={true}
             >
               <span
-                className="fa fa-anchor IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
                 color=""
                 onClick={[Function]}
                 rotate={0}
@@ -142,7 +142,7 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
               />
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test 2
             </div>
@@ -156,31 +156,31 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
 
 exports[`<Tabs/> renders correctly if prop  1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <a
         href="test1"
         onClick={[Function]}
       >
         <div
-          className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+          className="TabStyled-csMJzZ gsAzPq"
           onClick={[Function]}
           selected={true}
         >
           <div
-            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+            className="TabContentWrapperStyled-enEVMS jZgudN"
           >
             <div
-              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+              className="TabContentStyled-cGqNqA khIZPl"
             >
               <div
-                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+                className="TabTextStyled-kyChmy jvIQbK"
               >
                 Test1
               </div>
@@ -193,18 +193,18 @@ exports[`<Tabs/> renders correctly if prop  1`] = `
         onClick={[Function]}
       >
         <div
-          className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+          className="TabStyled-csMJzZ fFefNP"
           onClick={[Function]}
           selected={false}
         >
           <div
-            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+            className="TabContentWrapperStyled-enEVMS jZgudN"
           >
             <div
-              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+              className="TabContentStyled-cGqNqA khIZPl"
             >
               <div
-                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+                className="TabTextStyled-kyChmy jvIQbK"
               >
                 Test2
               </div>
@@ -219,31 +219,31 @@ exports[`<Tabs/> renders correctly if prop  1`] = `
 
 exports[`<Tabs/> renders correctly if prop icon 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled__TabIconStyled-hvQHiJ jfWBlV"
+              className="TabIconStyled-bYWiJR eQkcDH"
               selected={true}
             >
               <span
-                className="fa fa-anchor IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
                 color=""
                 onClick={[Function]}
                 rotate={0}
@@ -251,7 +251,7 @@ exports[`<Tabs/> renders correctly if prop icon 1`] = `
               />
             </div>
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge hCrmvf"
+              className="TabTextStyled-kyChmy HdHAs"
             >
               Test
             </div>
@@ -265,31 +265,31 @@ exports[`<Tabs/> renders correctly if prop icon 1`] = `
 
 exports[`<Tabs/> renders correctly if prop linkComponent passed 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <a
         href="/"
         onClick={[Function]}
       >
         <div
-          className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+          className="TabStyled-csMJzZ gsAzPq"
           onClick={[Function]}
           selected={true}
         >
           <div
-            className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+            className="TabContentWrapperStyled-enEVMS jZgudN"
           >
             <div
-              className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+              className="TabContentStyled-cGqNqA khIZPl"
             >
               <div
-                className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+                className="TabTextStyled-kyChmy jvIQbK"
               >
                 Test
               </div>
@@ -304,27 +304,27 @@ exports[`<Tabs/> renders correctly if prop linkComponent passed 1`] = `
 
 exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -332,18 +332,18 @@ exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -351,18 +351,18 @@ exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -376,27 +376,27 @@ exports[`<Tabs/> renders correctly if prop selected set 1 1`] = `
 
 exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -404,18 +404,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -423,18 +423,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -448,27 +448,27 @@ exports[`<Tabs/> renders correctly if prop selected set after render 1`] = `
 
 exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -476,18 +476,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -495,18 +495,18 @@ exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
         </div>
       </div>
       <div
-        className="TabStyled__TabStyled-kKgjJZ jFBgwR"
+        className="TabStyled-csMJzZ fFefNP"
         onClick={[Function]}
         selected={false}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabTextStyled__TabTextStyled-jbYAge cybLXN"
+              className="TabTextStyled-kyChmy jvIQbK"
             >
               Test
             </div>
@@ -520,24 +520,24 @@ exports[`<Tabs/> renders correctly if prop selected set after render 2`] = `
 
 exports[`<Tabs/> renders correctly if prop text is empty 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     >
       <div
-        className="TabStyled__TabStyled-kKgjJZ jfjewJ"
+        className="TabStyled-csMJzZ gsAzPq"
         onClick={[Function]}
         selected={true}
       >
         <div
-          className="TabContentWrapperStyled__TabContentWrapperStyled-drsnLo bNHOuk"
+          className="TabContentWrapperStyled-enEVMS jZgudN"
         >
           <div
-            className="TabContentStyled__TabContentStyled-eLzkAQ bCjtic"
+            className="TabContentStyled-cGqNqA khIZPl"
           />
         </div>
       </div>
@@ -548,13 +548,13 @@ exports[`<Tabs/> renders correctly if prop text is empty 1`] = `
 
 exports[`<Tabs/> renders correctly with default props 1`] = `
 <div
-  className="TabsWrapperStyled__TabsWrapperStyled-kxWKwf kQdeyK"
+  className="TabsWrapperStyled-gHoWnV dZhZpG"
 >
   <div
-    className="TabsContentWrapperStyled__TabsContentWrapperStyled-fmMkZg HDXly"
+    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
   >
     <div
-      className="TabsListStyled__TabsListStyled-jltvsP iRzhNT"
+      className="TabsListStyled-dpAKRd fQTQyC"
     />
   </div>
 </div>

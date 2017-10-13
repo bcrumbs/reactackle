@@ -2,50 +2,50 @@
 
 exports[`<Sidebar/> renders correctly if prop expanded set false 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql hpZSwh"
+  className="SidebarStyled-cNuLyA dmLRca"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf jhmGKh"
+    className="SidebarBoxStyled-cPLKHs jnvUud"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop expanded set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-cNuLyA hGRCgd"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-cPLKHs cxkcZm"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop haveToggleButton set false 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-cNuLyA hGRCgd"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-cPLKHs cxkcZm"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql depIyH"
+  className="SidebarStyled-cNuLyA rhHDn"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf loJghn"
+    className="SidebarBoxStyled-cPLKHs gxWuIC"
   >
     <button
-      className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+      className="SidebarToggleStyled-iZPRsl hVORhQ"
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled__ToggleIconStyled-fKRibG bVlGZF"
+        className="ToggleIconStyled-fcajSq gTeJMp"
       >
         <span
-          className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -53,10 +53,10 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
         />
       </div>
       <div
-        className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+        className="ToggleContentStyled-hUPJhx coxtcr"
       >
         <div
-          className="ToggleTextStyled__ToggleTextStyled-gUfxuQ hxVmIj"
+          className="ToggleTextStyled-iaoXGE ktjbMy"
         >
           Collapse
         </div>
@@ -68,20 +68,20 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
 
 exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and toggleButtonText set 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql depIyH"
+  className="SidebarStyled-cNuLyA rhHDn"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf loJghn"
+    className="SidebarBoxStyled-cPLKHs gxWuIC"
   >
     <button
-      className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+      className="SidebarToggleStyled-iZPRsl hVORhQ"
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled__ToggleIconStyled-fKRibG bVlGZF"
+        className="ToggleIconStyled-fcajSq gTeJMp"
       >
         <span
-          className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -89,10 +89,10 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and togg
         />
       </div>
       <div
-        className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+        className="ToggleContentStyled-hUPJhx coxtcr"
       >
         <div
-          className="ToggleTextStyled__ToggleTextStyled-gUfxuQ hxVmIj"
+          className="ToggleTextStyled-iaoXGE ktjbMy"
         >
           test
         </div>
@@ -104,84 +104,84 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and togg
 
 exports[`<Sidebar/> renders correctly if prop right set false 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-cNuLyA hGRCgd"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-cPLKHs cxkcZm"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop right set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-cNuLyA hGRCgd"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-cPLKHs cxkcZm"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop spread set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-cNuLyA hGRCgd"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-cPLKHs cxkcZm"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly with default props 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-cNuLyA hGRCgd"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-cPLKHs cxkcZm"
   />
 </aside>
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop bordered 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi eZEPaB"
+  className="SidebarRegionStyled-cRwIVy jCwGgr"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop scrollable 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi eFCXri"
+  className="SidebarRegionStyled-cRwIVy dqAWnm"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop scrollableMinHeight set 0 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi cWiuQb"
+  className="SidebarRegionStyled-cRwIVy fyvkV"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop spread 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi hDDyJh"
+  className="SidebarRegionStyled-cRwIVy laneCa"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly with default props 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi cWiuQb"
+  className="SidebarRegionStyled-cRwIVy fyvkV"
 />
 `;
 
 exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
 <button
-  className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+  className="SidebarToggleStyled-iZPRsl hVORhQ"
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled__ToggleIconStyled-fKRibG fClZwD"
+    className="ToggleIconStyled-fcajSq dLbraV"
   >
     <span
-      className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+      className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
       color=""
       onClick={[Function]}
       rotate={0}
@@ -189,10 +189,10 @@ exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
     />
   </div>
   <div
-    className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+    className="ToggleContentStyled-hUPJhx coxtcr"
   >
     <div
-      className="ToggleTextStyled__ToggleTextStyled-gUfxuQ CRanA"
+      className="ToggleTextStyled-iaoXGE dCzhpM"
     >
       test
     </div>
@@ -202,14 +202,14 @@ exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
 
 exports[`<SidebarToggle/> renders correctly with default props 1`] = `
 <button
-  className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+  className="SidebarToggleStyled-iZPRsl hVORhQ"
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled__ToggleIconStyled-fKRibG fClZwD"
+    className="ToggleIconStyled-fcajSq dLbraV"
   >
     <span
-      className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+      className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
       color=""
       onClick={[Function]}
       rotate={0}
@@ -217,10 +217,10 @@ exports[`<SidebarToggle/> renders correctly with default props 1`] = `
     />
   </div>
   <div
-    className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+    className="ToggleContentStyled-hUPJhx coxtcr"
   >
     <div
-      className="ToggleTextStyled__ToggleTextStyled-gUfxuQ CRanA"
+      className="ToggleTextStyled-iaoXGE dCzhpM"
     >
       Collapse
     </div>
