@@ -613,7 +613,6 @@ class _TextField extends Component {
    */
   _renderTextField(textFieldProps) {
     const TextFieldElement = this.state.textFieldElement;
-    // if (textFieldProps.type === 'password') debugger;
     const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
     const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
 
