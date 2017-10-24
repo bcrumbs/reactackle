@@ -423,8 +423,8 @@ class _TextField extends Component {
   _renderInnerButton() {
     const clearingIconPath = this.props.theme.reactackle.components.textfield
       .clearingIcon;
-      
-    const passwordIconPath = this.state.hidden 
+
+    const passwordIconPath = this.state.hidden
       ? this.props.theme.reactackle.components.textfield.passwordIconHidden
       : this.props.theme.reactackle.components.textfield.passwordIconUnhidden;
 
