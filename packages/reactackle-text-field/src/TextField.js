@@ -423,8 +423,10 @@ class _TextField extends Component {
   _renderInnerButton() {
     const clearingIconPath = this.props.theme.reactackle.components.textfield
       .clearingIcon;
-    const passwordIconPath = this.props.theme.reactackle.components.textfield
-      .passwordIcon;
+      
+    const passwordIconPath = this.state.hidden 
+      ? this.props.theme.reactackle.components.textfield.passwordIconHidden
+      : this.props.theme.reactackle.components.textfield.passwordIconUnhidden;
 
     if (typeof this.state.hidden === 'boolean') {
       return (
@@ -611,8 +613,9 @@ class _TextField extends Component {
    */
   _renderTextField(textFieldProps) {
     const TextFieldElement = this.state.textFieldElement;
-    const isPassword = textFieldProps.type === 'password' && this.state.hidden;
-    const inputType = isPassword ? 'password' : textFieldProps.type;
+    // if (textFieldProps.type === 'password') debugger;
+    const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
+    const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
 
     return <TextFieldElement {...textFieldProps} type={inputType} />;
   }
