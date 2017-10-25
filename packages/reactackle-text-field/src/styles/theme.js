@@ -525,7 +525,13 @@ export default {
     type: 'font-awesome',
   },
 
-  passwordIcon: {
+  passwordIconHidden: {
+    name: 'eye-slash',
+    src: '',
+    type: 'font-awesome',
+  },
+
+  passwordIconUnhidden: {
     name: 'eye',
     src: '',
     type: 'font-awesome',

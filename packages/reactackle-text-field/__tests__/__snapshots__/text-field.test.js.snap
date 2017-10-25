@@ -803,7 +803,12 @@ exports[`<TextField/> handless focus 1`] = `
                   },
                 },
               },
-              "passwordIcon": Object {
+              "passwordIconHidden": Object {
+                "name": "eye-slash",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "passwordIconUnhidden": Object {
                 "name": "eye",
                 "src": "",
                 "type": "font-awesome",
@@ -3186,7 +3191,7 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3232,7 +3237,7 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3278,7 +3283,7 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3324,7 +3329,7 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3370,7 +3375,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3408,7 +3413,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           onClick={[Function]}
           onFocus={[Function]}
           placeholder=""
-          type="password"
+          type="text"
           value="test"
         />
         <div
@@ -3462,7 +3467,7 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           disabled={true}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3508,7 +3513,7 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -5555,7 +5560,7 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
             color=""
             onClick={[Function]}
             rotate={0}
