@@ -44,17 +44,27 @@ export const TextFieldDemoRoute = () => (
         <FormItem>
           <TextField
             bordered
-            placeholder="Default TextField"
+            placeholder="Auto resized TextField"
             multiline
-            multilineRows={{ min: 1 }}
+            multilineRows={{ min: 3 }}
           />
         </FormItem>
         <FormItem>
           <TextField
             bordered
-            placeholder="Bordered TextField"
+            placeholder="Manual resized TextField"
             multiline
-            multilineRows={{ max: 3 }}
+            multilineRows={{ min: 4 }}
+            resize="manual"
+          />
+        </FormItem>
+        <FormItem>
+          <TextField
+            bordered
+            placeholder="Multiline TextField with blocked resize"
+            multiline
+            multilineRows={{ min: 6 }}
+            resize="none"
           />
         </FormItem>
       </DemoPreview>
