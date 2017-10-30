@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Portal from 'react-portal';
+import { Portal } from 'react-portal';
 import { registerDefaultComponentTheme } from 'reactackle-core';
 import { TooltipStyled } from './styles/TooltipStyled';
 import { TooltipWrapperStyled } from './styles/TooltipWrapperStyled';
@@ -92,8 +92,8 @@ export default class Tooltip extends Component {
   render() {
     const { state: { left, top } } = this;
 
-    return (
-      <Portal isOpened={this.props.isVisible}>
+    return !this.props.isVisible ? null : (
+      <Portal>
         <TooltipWrapperStyled style={{ left, top }}>
           <TooltipStyled
             innerRef={this._createElementRef}
