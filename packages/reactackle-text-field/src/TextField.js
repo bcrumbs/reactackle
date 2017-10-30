@@ -143,6 +143,7 @@ const propTypes = {
     min: PropTypes.number,
     max: PropTypes.number,
   }),
+  resize: PropTypes.oneOf(['none', 'manual', 'auto']),
   /**
    * @ignore
    */
@@ -190,6 +191,7 @@ const defaultProps = {
   fullWidth: false,
   multiline: false,
   multilineRows: { min: 2, max: 4 },
+  resize: 'auto',
   dense: false,
   symbolLimit: 0,
   disabled: false,
@@ -282,8 +284,16 @@ class _TextField extends Component {
   }
 
   _getTextFieldElementStyled() {
-    return this.props.multiline
+
+    const TextAreaComponent = this.props.resize === 'auto'
       ? getTextFieldElementStyled(TextareaAutosize, 'TextArea')
+      : getTextFieldElementStyled('textarea', 'TextArea', {
+        rows: this.props.multilineRows.min,
+        resize: this.props.resize,
+      });
+
+    return this.props.multiline
+      ? TextAreaComponent
       : getTextFieldElementStyled('input');
   }
 

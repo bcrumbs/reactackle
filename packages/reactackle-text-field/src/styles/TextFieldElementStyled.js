@@ -142,9 +142,13 @@ const placeholderStyles = ({ theme: themeFromProvider }) => {
 };
 
 /** STYLES */
-export const getTextFieldElementStyled = (Component, name) => {
+export const getTextFieldElementStyled = (
+  Component,
+  name,
+  { resize, rows } = { resize: 'auto' },
+) => {
   const customComponent = typeof Component !== 'string';
-
+  const additionalProps = resize !== 'auto' ? { rows } : {};
   // eslint-disable-next-line no-unexpected-multiline
   const TextFieldElementStyled = (!customComponent
     ? styled[Component]
@@ -159,11 +163,12 @@ export const getTextFieldElementStyled = (Component, name) => {
           theme,
           ...props
         }) => <Component {...props} />,
-      ))`
+      )).attrs(additionalProps)`
     border-width: 0;
     text-overflow: ellipsis;
     flex-grow: 1;
     width: 100%;
+    resize: ${resize === 'none' ? 'none' : 'both'};
     max-width: 100%;
     font-size: inherit;
     line-height: inherit;
