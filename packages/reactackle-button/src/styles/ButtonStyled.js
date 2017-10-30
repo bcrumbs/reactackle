@@ -1,5 +1,3 @@
-'use strict';
-
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import React from 'react';
@@ -139,14 +137,14 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
   const borderWidth = theme.reactackle.components.button.borderWidth;
   const borderStyle = theme.reactackle.components.button.borderStyle;
 
-  return css`
+  return css`        
     ${outlined
       ? `
+        border-width: ${getValueString(borderWidth)};
+        border-style: ${borderStyle};
         border-color: ${bgTransparency ? backgroundColor : fontColor};
         background-color: ${Color(backgroundColor).fade(1)};
         color: ${bgTransparency ? backgroundColor : fontColor};
-        border-width: ${getValueString(borderWidth)};
-        border-style: ${borderStyle};
         
         &:hover,
         &:focus,
@@ -164,7 +162,6 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
         background-color: ${backgroundColor};
         color: ${fontColor};
         border-width: 0;
-        border-color: transparent;
   
         &:hover {
           background-color: ${hoverBackgroundColor};
@@ -173,7 +170,7 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
         
         &:focus,
         &:active {      
-          background-color: ${focusBackgroundColor};   
+          background-color: ${focusBackgroundColor};
           color: ${focusFontColor};
         }
       `}
@@ -199,7 +196,7 @@ const elevation = ({ raised }) => `
     `}
 `;
 
-const disabled = ({ outlined, disabled, theme: themeFromProvider }) => {
+const disabled = ({ disabled, theme: themeFromProvider }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const backgroundColor =
     theme.reactackle.components.button.disabled.backgroundColor;
@@ -216,9 +213,9 @@ const disabled = ({ outlined, disabled, theme: themeFromProvider }) => {
           &:active {
             cursor: default;
             background-color: ${backgroundColor};
+            border-color: ${backgroundColor};
             color: ${fontColor};
             box-shadow: none;
-            ${outlined && `border-color: ${backgroundColor};`}
           };
         `
       : null}

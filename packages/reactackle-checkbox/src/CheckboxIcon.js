@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withTooltip } from 'reactackle-tooltip';
 import { withTheme } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
 import { CheckboxIconStyled } from './styles/CheckboxIconStyled';
 
 const propTypes = {
@@ -23,8 +22,6 @@ const defaultProps = {
 };
 
 const CheckboxIconComponent = props => {
-  const iconSettingsPath =
-    props.theme.reactackle.components.checkbox.icon.source;
   const Tooltip = props.Tooltip;
 
   const tooltip = props.tooltipText
@@ -48,13 +45,7 @@ const CheckboxIconComponent = props => {
       disabled={props.disabled}
       {...tooltipManagementProps}
     >
-      <Icon
-        size="inherit"
-        color="inherit"
-        name={iconSettingsPath.name}
-        src={iconSettingsPath.src}
-        type={iconSettingsPath.type}
-      />
+      {props.theme.reactackle.components.checkbox.icon.src}
       {tooltip}
     </CheckboxIconStyled>
   );

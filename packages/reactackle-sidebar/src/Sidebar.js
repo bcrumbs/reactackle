@@ -2,7 +2,6 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { iconPropType } from 'reactackle-icon';
 import { noop, isUndef, registerDefaultComponentTheme } from 'reactackle-core';
 import { SidebarToggle } from './SidebarToggle';
 import { SidebarStyled } from './styles/SidebarStyled';
@@ -23,7 +22,7 @@ const propTypes = {
   /**
    * Determines icon of toggle button
    */
-  toggleButtonIcon: iconPropType,
+  toggleButtonIcon: PropTypes.node,
   /**
    * Determines whether sidebar is expanded
    */
@@ -46,11 +45,7 @@ const propTypes = {
 const defaultProps = {
   haveToggleButton: false,
   toggleButtonText: 'Collapse',
-  toggleButtonIcon: {
-    name: 'angle-left',
-    src: '',
-    type: 'font-awesome',
-  },
+  toggleButtonIcon: null,
   expanded: void 0,
   attachToRight: false,
   autoCollapsing: false,
@@ -105,7 +100,7 @@ export default class Sidebar extends Component {
     return (
       <SidebarToggle
         toggleButtonText={this.props.toggleButtonText}
-        icon={this.props.toggleButtonIcon}
+        icon={this.props.toggleButtonIcon || undefined}
         expanded={expanded}
         autoCollapsing={this.props.autoCollapsing}
         onClick={this._handleToggle}

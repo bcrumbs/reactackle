@@ -1,9 +1,6 @@
-'use strict';
-
 import Color from 'color';
 import {
-  baseModule,
-  oneAndHalfBaseModule,
+  bmodule,
   breakpointLarge,
   colorPaletteGrey700,
   colorPaletteGrey800,
@@ -93,7 +90,8 @@ export default {
 
     icon: {
       height: 40,
-      imgSize: 24,
+      width: null,
+      imgSize: null,
 
       style: {
         collapsed: {
@@ -115,7 +113,7 @@ export default {
 
         expanded: {
           width: 40,
-          marginLeft: oneAndHalfBaseModule,
+          marginLeft: bmodule(1.5),
           color: 'inherit',
           opacity: 0.9,
 
@@ -133,8 +131,8 @@ export default {
     },
 
     content: {
-      paddingY: baseModule,
-      paddingX: oneAndHalfBaseModule,
+      paddingY: bmodule(1),
+      paddingX: bmodule(1.5),
     },
   },
 };

@@ -34,7 +34,7 @@ const propTypes = {
   /**
    * Add icon behind textfield
    */
-  iconOuter: PropTypes.string,
+  iconOuter: PropTypes.object,
   /**
    * Define component theme config
    * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
@@ -51,7 +51,7 @@ const defaultProps = {
   colorScheme: 'neutral',
   labelPosition: 'top',
   slidingLabel: false,
-  iconOuter: '',
+  iconOuter: null,
 };
 
 /** PROP RECEIVERS */

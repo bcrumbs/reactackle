@@ -1,9 +1,12 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icons';
+
 import {
   extractThemeOrDefault,
   getValueString,
   transition,
+  iconSizeMixin,
 } from 'reactackle-core';
 
 const propTypes = {
@@ -17,12 +20,6 @@ const propTypes = {
    */
   dense: PropTypes.bool,
   colorScheme: PropTypes.oneOf(['neutral', 'error', 'success']),
-  /**
-   * Define component theme config
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -52,21 +49,21 @@ const iconStyle = ({ theme: themeFromProvider, disabled, colorScheme }) => {
 
   const { color, opacity } = source;
 
-  const disabledStyles = `
+  const disabledStyles = css`
     &,
     &:hover,
     &:focus {
-      color: ${color};
       opacity: ${opacity};
       cursor: default;
       box-shadow: none;
+      ${iconStyleMixin(color)}
     }
   `;
 
-  const defaultStyles = `
-    color: ${color};
+  const defaultStyles = css`
     opacity: ${opacity};
     cursor: pointer;
+    ${iconStyleMixin(color)}
     
     &:hover {
       outline: none;
@@ -98,13 +95,12 @@ const iconSize = ({ dense, fullWidth, theme: themeFromProvider }) => {
 
   const { boxSize, imgSize } = source;
 
-  const outer = getValueString(boxSize);
-
-  return `
-    width: ${outer};
-    height: ${outer};
-    line-height: ${outer};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${iconSizeMixin(
+      getValueString(boxSize),
+      getValueString(imgSize || boxSize),
+      getValueString(boxSize),
+    )}
   `;
 };
 

@@ -19,8 +19,8 @@
   "dependencies": {
     "color": "^2.0.0",
     "prop-types": "^15.5.10",
-    "reactackle-icon": "^0.0.3-beta.2"
-  },
+    "reactackle-icons": "^0.0.3-beta.2"
+ },
   "peerDependencies": {
     "react": "^15.6.1",
     "reactackle-core": "^0.0.3-beta.2",

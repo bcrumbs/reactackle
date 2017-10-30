@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
-import { Button, Dialog, Icon } from 'reactackle';
+import { Button, Dialog, IconSvg } from 'reactackle';
 import { RouteDemo } from '../../components/Route/RouteStructure';
 import {
   DemoSnippet,
@@ -102,7 +102,7 @@ export class DialogDemoRoute extends Component {
               minWidth={240}
               dialogContentFlex
               regionAsideShow
-              regionAside={<Icon name="map" />}
+              regionAside={<IconSvg />}
             >
               <div>
                 <p>

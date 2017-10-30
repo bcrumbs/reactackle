@@ -2,11 +2,7 @@ import Color from 'color';
 import {
   fontWeightSemibold,
   bodyFontColor,
-  baseModule,
-  halfBaseModule,
-  oneAndHalfBaseModule,
-  doubleBaseModule,
-  tripleBaseModule,
+  bmodule,
   colorPaletteGrey100,
   colorTransparent,
   colorMain,
@@ -24,7 +20,7 @@ import {
 
 export default {
   functionFactor: buttonConstants.functionFactor,
-  iconOpacity: 0.54,
+  iconOpacity: 1,
 
   borderRadiusDefault: radiusDefault,
   borderStyle: 'solid',
@@ -54,7 +50,7 @@ export default {
     fontWeight: ({ fontWeight }) => fontWeight.normal,
     textTransform: 'none',
 
-    subtitleTitleSpacing: halfBaseModule,
+    subtitleTitleSpacing: bmodule(0.5),
   },
 
   size: {
@@ -63,46 +59,64 @@ export default {
       lineHeight: buttonSizeConstants.small.lineHeight,
 
       paddingY: buttonSizeConstants.small.paddingY,
-      paddingX: baseModule,
+      paddingX: bmodule(1),
       narrowPaddingX: 0,
-      roundedPaddingX: doubleBaseModule,
+      roundedPaddingX: bmodule(2),
 
       textPaddingY: buttonSizeConstants.small.textPaddingY,
-      textPaddingX: baseModule,
+      textPaddingX: bmodule(0.75),
       minHeight: buttonHeightConstants.buttonSmallMinHeight,
 
       subtitleFontSize: buttonSizeConstants.small.subtitleFontSize,
       subtitleLineHeight: buttonSizeConstants.small.subtitleLineHeight,
+
+      icon: {
+        width: 24,
+        height: null,
+        imgSize: null,
+      },
     },
 
     normal: {
       fontSize: buttonSizeConstants.normal.fontSize + 1,
       lineHeight: buttonSizeConstants.normal.lineHeight,
-      paddingX: baseModule,
+      paddingX: bmodule(1),
       narrowPaddingX: 0,
-      roundedPaddingX: doubleBaseModule,
+      roundedPaddingX: bmodule(2),
       paddingY: buttonSizeConstants.normal.paddingY,
       textPaddingY: buttonSizeConstants.normal.textPaddingY,
-      textPaddingX: baseModule,
+      textPaddingX: bmodule(0.75),
       minHeight: buttonHeightConstants.buttonNormalMinHeight,
 
       subtitleFontSize: buttonSizeConstants.normal.subtitleFontSize,
       subtitleLineHeight: buttonSizeConstants.normal.subtitleLineHeight,
+
+      icon: {
+        width: 30,
+        height: null,
+        imgSize: null,
+      },
     },
 
     large: {
       fontSize: buttonSizeConstants.large.fontSize,
       lineHeight: buttonSizeConstants.large.lineHeight,
-      paddingX: oneAndHalfBaseModule,
-      narrowPaddingX: baseModule,
-      roundedPaddingX: tripleBaseModule,
+      paddingX: bmodule(2.5),
+      narrowPaddingX: bmodule(1.5),
+      roundedPaddingX: bmodule(3),
       paddingY: buttonSizeConstants.large.paddingY,
       textPaddingY: buttonSizeConstants.large.textPaddingY,
-      textPaddingX: baseModule,
+      textPaddingX: bmodule(0.75),
       minHeight: buttonHeightConstants.buttonLargeMinHeight,
 
       subtitleFontSize: buttonSizeConstants.large.subtitleFontSize,
       subtitleLineHeight: buttonSizeConstants.large.lineHeight,
+
+      icon: {
+        width: 36,
+        height: null,
+        imgSize: null,
+      },
     },
 
     inline: {
@@ -112,11 +126,17 @@ export default {
       narrowPaddingX: '0.5em',
       paddingY: 0,
       textPaddingY: '0.3em',
-      textPaddingX: '0.5em',
+      textPaddingX: '0.35em',
       minHeight: 0,
 
       subtitleFontSize: 'inherit',
       subtitleLineHeight: 'inherit',
+
+      icon: {
+        width: '1.5em',
+        height: null,
+        imgSize: null,
+      },
     },
 
     link: {
@@ -125,7 +145,7 @@ export default {
       paddingX: 0,
       narrowPaddingX: 0,
       paddingY: 0,
-      smallPaddingY: halfBaseModule,
+      smallPaddingY: bmodule(0.5),
       textPaddingY: 0,
       textPaddingX: 0,
       minHeight: 0,
