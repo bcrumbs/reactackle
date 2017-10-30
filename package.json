@@ -54,10 +54,11 @@
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^6.3.0",
-    "babel-plugin-styled-components": "^1.1.4",
+    "babel-plugin-styled-components": "^1.3.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "coveralls": "^2.13.0",
     "css-loader": "^0.28.4",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-config-prettier": "^2.3.0",
@@ -80,8 +81,7 @@
     "stylelint-processor-styled-components": "^0.2.1",
     "url-loader": "^0.5.7",
     "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.5.1",
-    "coveralls": "^2.13.0"
+    "webpack-dev-server": "^2.5.1"
   },
   "peerDependencies": {
     "styled-components": "^2.1.1"
