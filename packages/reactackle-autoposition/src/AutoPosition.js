@@ -125,6 +125,15 @@ export default class AutoPosition extends Component {
   constructor(props) {
     super(props);
 
+    if (
+      !this._isElementAllowedInEnv(props.parent) ||
+      !this._isElementAllowedInEnv(props.parent)
+    ) {
+      // eslint-disable-next-line no-console
+      console.warn('Window is not defined in your current environment' +
+      ', but you passed it as "parent" or "wrapper" prop to AutoPosition component');
+    }
+
     this._domNode = null;
 
     this.state = {
@@ -204,6 +213,11 @@ export default class AutoPosition extends Component {
 
     const forceRecalculate = this.props.positionStyle === 'fixed';
     this._recalculatePosition(this.props, forceRecalculate);
+  }
+
+  _isElementAllowedInEnv(element) {
+    const isBrowser = typeof window !== 'undefined';
+    return isBrowser || element instanceof HTMLElement;
   }
 
   _recalculatePosition(props) {
@@ -384,12 +398,13 @@ export default class AutoPosition extends Component {
   }
 
   _overflowCheck({ top, left }) {
+    const { wrapper } = this.props;
     const overflow = [];
 
-    if (!this._domNode) return overflow;
+    if (!this._domNode || !this._isElementAllowedInEnv(wrapper))
+      return overflow;
 
-    const { wrapper } = this.props,
-      contentSize = this._domNode.getBoundingClientRect();
+    const contentSize = this._domNode.getBoundingClientRect();
 
     let wrapperTop = 0,
       wrapperLeft = 0,
@@ -424,7 +439,10 @@ export default class AutoPosition extends Component {
   }
 
   _getCenterPosition() {
-    const viewportWidth = window.innerWidth,
+    if (!this._isElementAllowedInEnv(window))
+      return { left: 0, right: 0};
+
+      const viewportWidth = window.innerWidth,
       viewportHeight = window.innerHeight,
       contentSize = this._domNode.getBoundingClientRect();
 
