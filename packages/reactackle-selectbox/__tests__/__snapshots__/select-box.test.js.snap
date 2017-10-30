@@ -242,7 +242,7 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-10"
+        htmlFor="select-box-11"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -266,16 +266,23 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX iOdkJu"
+            className="ArrowIconStyled-jkFScX cOyrCN"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -298,7 +305,7 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={true}
-        htmlFor="select-box-9"
+        htmlFor="select-box-10"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -322,16 +329,23 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX kFmJLw"
+            className="ArrowIconStyled-jkFScX iMVnXK"
             disabled={true}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -341,62 +355,6 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
 `;
 
 exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
-<div
-  className="SelectBoxStyled-ldPAdN fPuUed"
->
-  <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
-    onClick={[Function]}
-  >
-    <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
-    >
-      <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
-        disabled={false}
-        htmlFor="select-box-11"
-      >
-        <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
-        >
-          
-        </span>
-      </label>
-      <div
-        className="WrapperStyled-hVySJD iDsAQn"
-      >
-        <button
-          className="ButtonStyled-fxLcQY jaTCPo"
-          disabled={false}
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          tabIndex={0}
-        >
-          <span
-            className="ButtonTextStyled-kqmWUR gCWwOM"
-          >
-            
-          </span>
-          <span
-            className="ArrowIconStyled-jkFScX bJYtQP"
-            disabled={false}
-          >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
-              color=""
-              onClick={[Function]}
-              rotate={0}
-              size="normal"
-            />
-          </span>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
 <div
   className="SelectBoxStyled-ldPAdN fPuUed"
 >
@@ -422,28 +380,35 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
         className="WrapperStyled-hVySJD iDsAQn"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fxLcQY jaTCPo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-kqmWUR gCWwOM"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX giKDTi"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -452,7 +417,7 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
 </div>
 `;
 
-exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
+exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
 <div
   className="SelectBoxStyled-ldPAdN fPuUed"
 >
@@ -461,10 +426,10 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk ozuiK"
+      className="ContentBoxStyled-kOsMwk cmDiNF"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV bmtdCc"
+        className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
         htmlFor="select-box-13"
       >
@@ -490,16 +455,23 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -508,7 +480,7 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
 </div>
 `;
 
-exports[`<SelectBox/> renders correctly if prop light set 1`] = `
+exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
 <div
   className="SelectBoxStyled-ldPAdN fPuUed"
 >
@@ -517,10 +489,10 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-kOsMwk ozuiK"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-hpnTMV bmtdCc"
         disabled={false}
         htmlFor="select-box-14"
       >
@@ -546,16 +518,23 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -564,7 +543,7 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
 </div>
 `;
 
-exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
+exports[`<SelectBox/> renders correctly if prop light set 1`] = `
 <div
   className="SelectBoxStyled-ldPAdN fPuUed"
 >
@@ -578,7 +557,7 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-7"
+        htmlFor="select-box-15"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -602,36 +581,32 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
-      </div>
-    </div>
-    <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
-      disabled={false}
-    >
-      <div
-        className="MessageStyled-jQXKEs lfTAoq"
-        disabled={false}
-      >
-        text
       </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
+exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
 <div
   className="SelectBoxStyled-ldPAdN fPuUed"
 >
@@ -669,16 +644,97 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      disabled={false}
+    >
+      <div
+        className="MessageStyled-jQXKEs lfTAoq"
+        disabled={false}
+      >
+        text
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
+<div
+  className="SelectBoxStyled-ldPAdN fPuUed"
+>
+  <div
+    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    onClick={[Function]}
+  >
+    <div
+      className="ContentBoxStyled-kOsMwk cmDiNF"
+    >
+      <label
+        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        disabled={false}
+        htmlFor="select-box-9"
+      >
+        <span
+          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+        >
+          
+        </span>
+      </label>
+      <div
+        className="WrapperStyled-hVySJD iDsAQn"
+      >
+        <button
+          className="ButtonStyled-fxLcQY iImjnM"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={0}
+        >
+          <span
+            className="ButtonTextStyled-kqmWUR ddDOaK"
+          >
+            
+          </span>
+          <span
+            className="ArrowIconStyled-jkFScX fHTcFA"
+            disabled={false}
+          >
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
+              color=""
+              rotate={0}
+              size="normal"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -738,7 +794,7 @@ exports[`<SelectBox/> renders correctly if prop type=native and bordered 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV dPyjOG"
         disabled={false}
-        htmlFor="select-box-3"
+        htmlFor="select-box-4"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -752,6 +808,44 @@ exports[`<SelectBox/> renders correctly if prop type=native and bordered 1`] = `
         <div>
           <select
             className="SelectElementStyled-jfxqxD gGBGZF"
+            disabled={false}
+            onChange={[Function]}
+            value={-1}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SelectBox/> renders correctly if prop type=native and colorScheme error 1`] = `
+<div
+  className="SelectBoxStyled-ldPAdN fPuUed"
+>
+  <div
+    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+  >
+    <div
+      className="ContentBoxStyled-kOsMwk cmDiNF"
+    >
+      <label
+        className="SelectBoxLabelStyled-hpnTMV jdrNMp"
+        disabled={false}
+        htmlFor="select-box-3"
+      >
+        <span
+          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+        >
+          
+        </span>
+      </label>
+      <div
+        className="WrapperStyled-hVySJD iDsAQn"
+      >
+        <div>
+          <select
+            className="SelectElementStyled-jfxqxD htAWXz"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -814,7 +908,7 @@ exports[`<SelectBox/> renders correctly if prop type=native and dense 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-6"
+        htmlFor="select-box-7"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -890,7 +984,7 @@ exports[`<SelectBox/> renders correctly if prop type=native and fullWidth 1`] = 
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-4"
+        htmlFor="select-box-5"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -928,7 +1022,7 @@ exports[`<SelectBox/> renders correctly if prop type=native, bordered and fullWi
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-7"
+        htmlFor="select-box-8"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -966,7 +1060,7 @@ exports[`<SelectBox/> renders correctly if prop type=native, fullWidth and dense
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-5"
+        htmlFor="select-box-6"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1004,7 +1098,7 @@ exports[`<SelectBox/> renders correctly option list in native mode 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-8"
+        htmlFor="select-box-9"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1062,7 +1156,7 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-6"
+        htmlFor="select-box-7"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1086,16 +1180,23 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1118,7 +1219,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-2"
+        htmlFor="select-box-3"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1142,16 +1243,23 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX iOdkJu"
+            className="ArrowIconStyled-jkFScX cOyrCN"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1185,7 +1293,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={true}
-        htmlFor="select-box-4"
+        htmlFor="select-box-5"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1209,16 +1317,23 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX kFmJLw"
+            className="ArrowIconStyled-jkFScX iMVnXK"
             disabled={true}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1252,7 +1367,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-3"
+        htmlFor="select-box-4"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1276,16 +1391,23 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX bJYtQP"
+            className="ArrowIconStyled-jkFScX giKDTi"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1296,6 +1418,80 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
     >
       <div
         className="MessageStyled-jQXKEs lfTAoq"
+        disabled={false}
+      >
+        text
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolorScheme set error 1`] = `
+<div
+  className="SelectBoxStyled-ldPAdN fPuUed"
+>
+  <div
+    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    onClick={[Function]}
+  >
+    <div
+      className="ContentBoxStyled-kOsMwk cmDiNF"
+    >
+      <label
+        className="SelectBoxLabelStyled-hpnTMV jdrNMp"
+        disabled={false}
+        htmlFor="select-box-1"
+      >
+        <span
+          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+        >
+          
+        </span>
+      </label>
+      <div
+        className="WrapperStyled-hVySJD iDsAQn"
+      >
+        <button
+          className="ButtonStyled-fxLcQY hLDDEY"
+          disabled={false}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={0}
+        >
+          <span
+            className="ButtonTextStyled-kqmWUR ddDOaK"
+          >
+            
+          </span>
+          <span
+            className="ArrowIconStyled-jkFScX eBwARW"
+            disabled={false}
+          >
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
+              color=""
+              rotate={0}
+              size="normal"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      disabled={false}
+    >
+      <div
+        className="MessageStyled-jQXKEs hplMGe"
         disabled={false}
       >
         text
@@ -1343,16 +1539,23 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX hANbGf"
+            className="ArrowIconStyled-jkFScX eBwARW"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1386,7 +1589,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-1"
+        htmlFor="select-box-2"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1410,16 +1613,23 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1453,7 +1663,7 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-5"
+        htmlFor="select-box-6"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1490,16 +1700,23 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
             text
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gJkrxL"
+            className="ArrowIconStyled-jkFScX fHTcFA"
             disabled={false}
           >
-            <span
-              className="fa fa-caret-down IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB kakXQl"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7,10l5,5l5-5H7z"
+                />
+              </svg>
+            </div>
           </span>
         </button>
       </div>
@@ -1532,7 +1749,7 @@ exports[`<SelectBoxNative /> handles change 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-12"
+        htmlFor="select-box-13"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1583,7 +1800,7 @@ exports[`<SelectBoxNative /> renders correctly if set options and defaultValue 1
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-9"
+        htmlFor="select-box-10"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1634,7 +1851,7 @@ exports[`<SelectBoxNative /> renders correctly if set options and value 1`] = `
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-10"
+        htmlFor="select-box-11"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
@@ -1685,7 +1902,7 @@ exports[`<SelectBoxNative /> renders correctly with label, tooltip and message 1
       <label
         className="SelectBoxLabelStyled-hpnTMV iBDluV"
         disabled={false}
-        htmlFor="select-box-11"
+        htmlFor="select-box-12"
       >
         <span
           className="SelectBoxLabelTextStyled-crvvnG ivXRob"
