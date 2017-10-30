@@ -17,13 +17,16 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS hHhrsW"
+      className="CheckboxLabelStyled-jYtRsS dpJShd"
       disabled={false}
       htmlFor="checkbox-5"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw iELZEY"
+        className="CheckboxIconStyled-btfpTw egjakT"
         disabled={false}
       >
         <span
@@ -56,13 +59,16 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
     />
     <label
       checked={true}
-      className="CheckboxLabelStyled-jYtRsS buFUCl"
+      className="CheckboxLabelStyled-jYtRsS bJsHFo"
       disabled={false}
       htmlFor="checkbox-1"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
     >
       <div
         checked={true}
-        className="CheckboxIconStyled-btfpTw fIQuAR"
+        className="CheckboxIconStyled-btfpTw rKTDN"
         disabled={false}
       >
         <span
@@ -95,13 +101,16 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
     />
     <label
       checked={true}
-      className="CheckboxLabelStyled-jYtRsS buFUCl"
+      className="CheckboxLabelStyled-jYtRsS bJsHFo"
       disabled={false}
       htmlFor="checkbox-2"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
     >
       <div
         checked={true}
-        className="CheckboxIconStyled-btfpTw fIQuAR"
+        className="CheckboxIconStyled-btfpTw rKTDN"
         disabled={false}
       >
         <span
@@ -134,13 +143,16 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS cSxtin"
+      className="CheckboxLabelStyled-jYtRsS dBpade"
       disabled={true}
       htmlFor="checkbox-3"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={-1}
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw loMAgb"
+        className="CheckboxIconStyled-btfpTw kyEEZQ"
         disabled={true}
       >
         <span
@@ -173,13 +185,16 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS kXerKQ"
+      className="CheckboxLabelStyled-jYtRsS jTHZha"
       disabled={false}
       htmlFor="checkbox-4"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw iELZEY"
+        className="CheckboxIconStyled-btfpTw egjakT"
         disabled={false}
       >
         <span
@@ -219,13 +234,16 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS hHhrsW"
+      className="CheckboxLabelStyled-jYtRsS dpJShd"
       disabled={false}
       htmlFor="checkbox-0"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw iELZEY"
+        className="CheckboxIconStyled-btfpTw egjakT"
         disabled={false}
       >
         <span
