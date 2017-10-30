@@ -5,6 +5,7 @@ import renderer from 'react-test-renderer';
 import { findByType } from 'reactackle-test-utils';
 import { ToggleButton } from '../src';
 import { ToggleStyled } from '../src/styles/ToggleStyled';
+import { ToggleInputStyled } from '../src/styles/ToggleInputStyled';
 
 jest.mock('react-dom');
 
@@ -100,6 +101,21 @@ describe('<ToggleButton/>', () => {
     toggle.props.onMouseEnter();
     expect(component.toJSON()).toMatchSnapshot();
     toggle.props.onMouseLeave();
+    expect(component.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders correctly if focused', () => {
+    const component = renderer.create(
+      <ToggleButton />,
+    );
+    const toggle = findByType(component, ToggleInputStyled);
+
+    expect(component.toJSON()).toMatchSnapshot();
+    
+    toggle.props.onFocus();
+    expect(component.toJSON()).toMatchSnapshot();
+    
+    toggle.props.onBlur();
     expect(component.toJSON()).toMatchSnapshot();
   });
 
