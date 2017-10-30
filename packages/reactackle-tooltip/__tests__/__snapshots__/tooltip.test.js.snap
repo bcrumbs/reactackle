@@ -2,7 +2,7 @@
 
 exports[`<Tooltip/> handles window resize and unmount 1`] = `
 <div
-  className="TooltipWrapperStyled__TooltipWrapperStyled-biwJij hjWdXa"
+  className="TooltipWrapperStyled-bbojNX dYBBeP"
   style={
     Object {
       "left": 0,
@@ -11,10 +11,10 @@ exports[`<Tooltip/> handles window resize and unmount 1`] = `
   }
 >
   <div
-    className="TooltipStyled__TooltipStyled-tDpAS koKzAH"
+    className="TooltipStyled-fwSOCa jWYZLO"
   >
     <div
-      className="TooltipContentStyled__TooltipContentStyled-cIzRdj bnimGM"
+      className="TooltipContentStyled-gSiEuD cVNrIB"
     >
       
     </div>
@@ -24,7 +24,7 @@ exports[`<Tooltip/> handles window resize and unmount 1`] = `
 
 exports[`<Tooltip/> handles window resize and unmount 2`] = `
 <div
-  className="TooltipWrapperStyled__TooltipWrapperStyled-biwJij hjWdXa"
+  className="TooltipWrapperStyled-bbojNX dYBBeP"
   style={
     Object {
       "left": 0,
@@ -33,10 +33,10 @@ exports[`<Tooltip/> handles window resize and unmount 2`] = `
   }
 >
   <div
-    className="TooltipStyled__TooltipStyled-tDpAS koKzAH"
+    className="TooltipStyled-fwSOCa jWYZLO"
   >
     <div
-      className="TooltipContentStyled__TooltipContentStyled-cIzRdj bnimGM"
+      className="TooltipContentStyled-gSiEuD cVNrIB"
     >
       
     </div>
@@ -46,7 +46,7 @@ exports[`<Tooltip/> handles window resize and unmount 2`] = `
 
 exports[`<Tooltip/> renders correctly if prop isVisible set true 1`] = `
 <div
-  className="TooltipWrapperStyled__TooltipWrapperStyled-biwJij hjWdXa"
+  className="TooltipWrapperStyled-bbojNX dYBBeP"
   style={
     Object {
       "left": 0,
@@ -55,10 +55,10 @@ exports[`<Tooltip/> renders correctly if prop isVisible set true 1`] = `
   }
 >
   <div
-    className="TooltipStyled__TooltipStyled-tDpAS koKzAH"
+    className="TooltipStyled-fwSOCa jWYZLO"
   >
     <div
-      className="TooltipContentStyled__TooltipContentStyled-cIzRdj bnimGM"
+      className="TooltipContentStyled-gSiEuD cVNrIB"
     >
       
     </div>

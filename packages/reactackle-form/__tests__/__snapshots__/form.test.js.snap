@@ -5,7 +5,7 @@ exports[`<Form/> handles submit event 1`] = `
   onSubmit={[Function]}
 >
   <div
-    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+    className="FormMessageStyled-dIaiHy ljyCPL"
   >
     test
   </div>
@@ -17,7 +17,7 @@ exports[`<Form/> renders correctly if prop errorMessage set 1`] = `
   onSubmit={[Function]}
 >
   <div
-    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+    className="FormMessageStyled-dIaiHy ljyCPL"
   >
     test
   </div>
@@ -37,7 +37,7 @@ exports[`<Form/> renders correctly, handles update and scrolls to field 1`] = `
   onSubmit={[Function]}
 >
   <div
-    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+    className="FormMessageStyled-dIaiHy ljyCPL"
   >
     test
   </div>
@@ -49,7 +49,7 @@ exports[`<Form/> renders correctly, handles update and scrolls to field 2`] = `
   onSubmit={[Function]}
 >
   <div
-    className="FormMessageStyled__FormMessageStyled-ilYVwv klGJPZ"
+    className="FormMessageStyled-dIaiHy ljyCPL"
   >
     test
   </div>
@@ -58,6 +58,6 @@ exports[`<Form/> renders correctly, handles update and scrolls to field 2`] = `
 
 exports[`<FormItem> renders correctly with default props 1`] = `
 <div
-  className="FormItemStyled__FormItemStyled-hkjwur jryRdW"
+  className="FormItemStyled-dRxLkf hLjsXY"
 />
 `;

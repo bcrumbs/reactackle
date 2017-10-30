@@ -2,17 +2,17 @@
 
 exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
 <div
-  class="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  class="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    class="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      class="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      class="TextFieldRowStyled-VkWtx iKvbzP"
       disabled=""
     >
       <div
-        class="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        class="TextFieldGroupStyled-cLQues oUvjQ"
         disabled=""
       >
         <textarea
@@ -31,16 +31,16 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
 
 exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
 <div
-  class="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  class="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    class="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      class="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      class="TextFieldRowStyled-VkWtx iKvbzP"
     >
       <div
-        class="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        class="TextFieldGroupStyled-cLQues dwexzW"
       >
         <textarea
           autocomplete="off"
@@ -58,16 +58,16 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
 
 exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
 <div
-  class="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  class="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    class="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      class="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      class="TextFieldRowStyled-VkWtx iKvbzP"
     >
       <div
-        class="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        class="TextFieldGroupStyled-cLQues dwexzW"
       >
         <textarea
           autocomplete="off"
@@ -85,16 +85,16 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
 
 exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] = `
 <div
-  class="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  class="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    class="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      class="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      class="TextFieldRowStyled-VkWtx iKvbzP"
     >
       <div
-        class="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        class="TextFieldGroupStyled-cLQues dwexzW"
       >
         <textarea
           autocomplete="off"
@@ -112,17 +112,17 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
 
 exports[`<TextField/> calls onChange event and calls onPatternError after had called change event with target.value=8 and pattern set /^[0-9]*$/g 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -146,17 +146,17 @@ exports[`<TextField/> calls onChange event and calls onPatternError after had ca
 
 exports[`<TextField/> calls onChange event with value test after had called change event with target.value=test and symbolLimit set 2 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -176,11 +176,11 @@ exports[`<TextField/> calls onChange event with value test after had called chan
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -199,17 +199,17 @@ exports[`<TextField/> calls onChange event with value test after had called chan
 
 exports[`<TextField/> calls onChange with value test after had called change event with target.value=test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -233,17 +233,17 @@ exports[`<TextField/> calls onChange with value test after had called change eve
 
 exports[`<TextField/> calls onChange with value test after had called change event with target.value=test and patternFn false 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -267,17 +267,17 @@ exports[`<TextField/> calls onChange with value test after had called change eve
 
 exports[`<TextField/> calls onChange with value test after had called change event with target.value=test and patternFn true 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -301,17 +301,17 @@ exports[`<TextField/> calls onChange with value test after had called change eve
 
 exports[`<TextField/> doesn't call onChange and calls onPatternError after had called change event with target.value=test and pattern set /^[0-9]*$/g 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -335,16 +335,16 @@ exports[`<TextField/> doesn't call onChange and calls onPatternError after had c
 
 exports[`<TextField/> handle click event 1`] = `
 <div
-  class="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  class="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    class="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      class="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      class="TextFieldRowStyled-VkWtx iKvbzP"
     >
       <div
-        class="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        class="TextFieldGroupStyled-cLQues dwexzW"
       >
         <input
           autocomplete="off"
@@ -362,16 +362,16 @@ exports[`<TextField/> handle click event 1`] = `
 
 exports[`<TextField/> handle focus event 1`] = `
 <div
-  class="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  class="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    class="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      class="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      class="TextFieldRowStyled-VkWtx iKvbzP"
     >
       <div
-        class="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        class="TextFieldGroupStyled-cLQues dwexzW"
       >
         <input
           autocomplete="off"
@@ -1142,13 +1142,13 @@ exports[`<TextField/> handless focus 1`] = `
       innerRef={[Function]}
     >
       <div
-        className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+        className="TextFieldStyled-bdmlkn QIbv"
       >
         <TextFieldContentBoxStyled
           labelPosition="top"
         >
           <div
-            className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
           >
             <TextFieldRowStyled
               bordered={false}
@@ -1160,7 +1160,7 @@ exports[`<TextField/> handless focus 1`] = `
               slidingLabel={false}
             >
               <div
-                className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+                className="TextFieldRowStyled-VkWtx iKvbzP"
                 disabled={false}
               >
                 <TextFieldGroupStyled
@@ -1172,7 +1172,7 @@ exports[`<TextField/> handless focus 1`] = `
                   fullWidth={false}
                 >
                   <div
-                    className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+                    className="TextFieldGroupStyled-cLQues dhNDnl"
                     disabled={false}
                   >
                     <TextFieldElementStyled(input)
@@ -1223,17 +1223,17 @@ exports[`<TextField/> handless focus 1`] = `
 
 exports[`<TextField/> renders correctly after fire event blur 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -1257,17 +1257,17 @@ exports[`<TextField/> renders correctly after fire event blur 1`] = `
 
 exports[`<TextField/> renders correctly after fire event blur 2`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1291,17 +1291,17 @@ exports[`<TextField/> renders correctly after fire event blur 2`] = `
 
 exports[`<TextField/> renders correctly after fire event focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -1325,28 +1325,28 @@ exports[`<TextField/> renders correctly after fire event focus 1`] = `
 
 exports[`<TextField/> renders correctly if label set password 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj koqRH"
+      className="LabelStyled-NSAIX blSgDV"
       disabled={false}
       htmlFor="TextField_74"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         password
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1370,28 +1370,28 @@ exports[`<TextField/> renders correctly if label set password 1`] = `
 
 exports[`<TextField/> renders correctly if label set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj koqRH"
+      className="LabelStyled-NSAIX blSgDV"
       disabled={false}
       htmlFor="TextField_54"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1415,28 +1415,28 @@ exports[`<TextField/> renders correctly if label set test 1`] = `
 
 exports[`<TextField/> renders correctly if label set test and call focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj cBzfxw"
+      className="LabelStyled-NSAIX cBUvHj"
       disabled={false}
       htmlFor="TextField_53"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -1460,28 +1460,28 @@ exports[`<TextField/> renders correctly if label set test and call focus 1`] = `
 
 exports[`<TextField/> renders correctly if label set test and colorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj kbuvHk"
+      className="LabelStyled-NSAIX jsXWHz"
       disabled={false}
       htmlFor="TextField_51"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -1505,28 +1505,28 @@ exports[`<TextField/> renders correctly if label set test and colorScheme set su
 
 exports[`<TextField/> renders correctly if label set test and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj bEyDoj"
+      className="LabelStyled-NSAIX gXuMhM"
       disabled={false}
       htmlFor="TextField_56"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1550,28 +1550,28 @@ exports[`<TextField/> renders correctly if label set test and dense 1`] = `
 
 exports[`<TextField/> renders correctly if label set test and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj spIsC"
+      className="LabelStyled-NSAIX iqrsJt"
       disabled={false}
       htmlFor="TextField_57"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -1595,28 +1595,28 @@ exports[`<TextField/> renders correctly if label set test and fullWidth 1`] = `
 
 exports[`<TextField/> renders correctly if label set test and labelPosition set side 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ gGGXPc"
+    className="TextFieldContentBoxStyled-jDMXvi iZhjWV"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj dAchcw"
+      className="LabelStyled-NSAIX fRTcLs"
       disabled={false}
       htmlFor="TextField_52"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1640,17 +1640,17 @@ exports[`<TextField/> renders correctly if label set test and labelPosition set 
 
 exports[`<TextField/> renders correctly if prop autoComplete set on 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1674,17 +1674,17 @@ exports[`<TextField/> renders correctly if prop autoComplete set on 1`] = `
 
 exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1701,11 +1701,11 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-times IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -1720,17 +1720,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
 
 exports[`<TextField/> renders correctly if prop clearingIcon set true and call clear 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1747,11 +1747,11 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
           value="test"
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-times IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -1766,17 +1766,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
 
 exports[`<TextField/> renders correctly if prop clearingIcon set true and call clear 2`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1793,11 +1793,11 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-times IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -1812,17 +1812,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
 
 exports[`<TextField/> renders correctly if prop dense set 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1846,17 +1846,17 @@ exports[`<TextField/> renders correctly if prop dense set 1`] = `
 
 exports[`<TextField/> renders correctly if prop disabled set 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -1880,28 +1880,28 @@ exports[`<TextField/> renders correctly if prop disabled set 1`] = `
 
 exports[`<TextField/> renders correctly if prop fullWidth and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj spIsC"
+      className="LabelStyled-NSAIX iqrsJt"
       disabled={false}
       htmlFor="TextField_58"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -1925,17 +1925,17 @@ exports[`<TextField/> renders correctly if prop fullWidth and dense 1`] = `
 
 exports[`<TextField/> renders correctly if prop fullWidth set 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -1959,17 +1959,17 @@ exports[`<TextField/> renders correctly if prop fullWidth set 1`] = `
 
 exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -1993,17 +1993,17 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
 
 exports[`<TextField/> renders correctly if prop id set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2027,17 +2027,17 @@ exports[`<TextField/> renders correctly if prop id set test 1`] = `
 
 exports[`<TextField/> renders correctly if prop inputIcon set star 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2061,28 +2061,28 @@ exports[`<TextField/> renders correctly if prop inputIcon set star 1`] = `
 
 exports[`<TextField/> renders correctly if prop label set test and bordered 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj hSorWu"
+      className="LabelStyled-NSAIX jvcyAe"
       disabled={false}
       htmlFor="TextField_55"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jDYZEY"
+        className="TextFieldGroupStyled-cLQues byEPdS"
         disabled={false}
       >
         <input
@@ -2106,28 +2106,28 @@ exports[`<TextField/> renders correctly if prop label set test and bordered 1`] 
 
 exports[`<TextField/> renders correctly if prop label set test and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj koqRH"
+      className="LabelStyled-NSAIX blSgDV"
       disabled={true}
       htmlFor="TextField_50"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -2151,28 +2151,28 @@ exports[`<TextField/> renders correctly if prop label set test and disabled 1`] 
 
 exports[`<TextField/> renders correctly if prop label set test and filled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj koqRH"
+      className="LabelStyled-NSAIX blSgDV"
       disabled={false}
       htmlFor="TextField_59"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2196,33 +2196,33 @@ exports[`<TextField/> renders correctly if prop label set test and filled 1`] = 
 
 exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj gKsfeD"
+      className="LabelStyled-NSAIX ghunRF"
       disabled={false}
       htmlFor="TextField_60"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_60"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -2230,7 +2230,7 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2254,33 +2254,33 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
 
 exports[`<TextField/> renders correctly if prop label set test, bordered and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj gKsfeD"
+      className="LabelStyled-NSAIX ghunRF"
       disabled={false}
       htmlFor="TextField_61"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_61"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -2288,7 +2288,7 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2312,33 +2312,33 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
 
 exports[`<TextField/> renders correctly if prop label set test, dense and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj bloTQT"
+      className="LabelStyled-NSAIX eczqMx"
       disabled={false}
       htmlFor="TextField_62"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled-JjRcK eRmGCW"
         disabled={false}
         htmlFor="TextField_62"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -2346,7 +2346,7 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2370,33 +2370,33 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
 
 exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj iGTUdF"
+      className="LabelStyled-NSAIX dLWBOp"
       disabled={false}
       htmlFor="TextField_64"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_64"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -2404,7 +2404,7 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -2428,33 +2428,33 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
 
 exports[`<TextField/> renders correctly if prop label set test,fullWidth and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj iGTUdF"
+      className="LabelStyled-NSAIX dLWBOp"
       disabled={false}
       htmlFor="TextField_63"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_63"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -2462,7 +2462,7 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -2486,17 +2486,17 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
 
 exports[`<TextField/> renders correctly if prop labelPosition set side 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ gGGXPc"
+    className="TextFieldContentBoxStyled-jDMXvi iZhjWV"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2520,17 +2520,17 @@ exports[`<TextField/> renders correctly if prop labelPosition set side 1`] = `
 
 exports[`<TextField/> renders correctly if prop labelPosition set top 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2554,17 +2554,17 @@ exports[`<TextField/> renders correctly if prop labelPosition set top 1`] = `
 
 exports[`<TextField/> renders correctly if prop message set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2584,11 +2584,11 @@ exports[`<TextField/> renders correctly if prop message set test 1`] = `
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
@@ -2599,17 +2599,17 @@ exports[`<TextField/> renders correctly if prop message set test 1`] = `
 
 exports[`<TextField/> renders correctly if prop message set test 2`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -2629,11 +2629,11 @@ exports[`<TextField/> renders correctly if prop message set test 2`] = `
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
@@ -2644,17 +2644,17 @@ exports[`<TextField/> renders correctly if prop message set test 2`] = `
 
 exports[`<TextField/> renders correctly if prop message set test and colorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -2674,11 +2674,11 @@ exports[`<TextField/> renders correctly if prop message set test and colorScheme
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha yWpmN"
+      className="MessageStyled-jQXKEs kOwsrk"
       disabled={false}
     >
       test
@@ -2689,17 +2689,17 @@ exports[`<TextField/> renders correctly if prop message set test and colorScheme
 
 exports[`<TextField/> renders correctly if prop message set test and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -2719,11 +2719,11 @@ exports[`<TextField/> renders correctly if prop message set test and disabled 1`
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={true}
     >
       test
@@ -2734,17 +2734,17 @@ exports[`<TextField/> renders correctly if prop message set test and disabled 1`
 
 exports[`<TextField/> renders correctly if prop message set test and symbolLimit set 1 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2764,17 +2764,17 @@ exports[`<TextField/> renders correctly if prop message set test and symbolLimit
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -2793,17 +2793,17 @@ exports[`<TextField/> renders correctly if prop message set test and symbolLimit
 
 exports[`<TextField/> renders correctly if prop message set test, symbolLimit set 1and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -2823,17 +2823,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -2852,17 +2852,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
 
 exports[`<TextField/> renders correctly if prop message set test, symbolLimit set 1and dense, fullWidth  1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -2882,17 +2882,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -2911,17 +2911,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
 
 exports[`<TextField/> renders correctly if prop message set test, symbolLimit set 1and dense, fullWidth, bordered  1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA kSTUGP"
+        className="TextFieldGroupStyled-cLQues iyrEIO"
         disabled={false}
       >
         <input
@@ -2941,17 +2941,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -2970,17 +2970,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
 
 exports[`<TextField/> renders correctly if prop message set test, symbolLimit set 1and fullWidth  1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -3000,17 +3000,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -3029,22 +3029,22 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
 
 exports[`<TextField/> renders correctly if prop message set test, symbolLimit set 1and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_83"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -3052,7 +3052,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3072,17 +3072,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG ccpTxz"
+    className="InfoBoxStyled-jxTNER kMhMGZ"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -3101,17 +3101,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
 
 exports[`<TextField/> renders correctly if prop message set test, symbolLimit set 1and labelPosition set side 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ gGGXPc"
+    className="TextFieldContentBoxStyled-jDMXvi iZhjWV"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3131,17 +3131,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG jmLoVY"
+    className="InfoBoxStyled-jxTNER gMKovI"
     disabled={false}
   >
     <div
-      className="MessageStyled__MessageStyled-fOQJha lbPxgm"
+      className="MessageStyled-jQXKEs lfTAoq"
       disabled={false}
     >
       test
     </div>
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -3160,17 +3160,17 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
 
 exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3187,11 +3187,11 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo jaUMkt"
+          className="InnerButton-imycSA dVJomd"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3206,17 +3206,17 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
 
 exports[`<TextField/> renders correctly if prop password set and dense, fullWidth  1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -3233,11 +3233,11 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo joxNco"
+          className="InnerButton-imycSA fRvQit"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3252,17 +3252,17 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
 
 exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -3279,11 +3279,11 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo joxNco"
+          className="InnerButton-imycSA fRvQit"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3298,17 +3298,17 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
 
 exports[`<TextField/> renders correctly if prop password set true 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3325,11 +3325,11 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3344,17 +3344,17 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
 
 exports[`<TextField/> renders correctly if prop password set true and call show password 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3371,11 +3371,11 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           value="test"
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3390,17 +3390,17 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
 
 exports[`<TextField/> renders correctly if prop password set true and call show password 2`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3417,11 +3417,11 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
           value="test"
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-eye IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3436,17 +3436,17 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
 
 exports[`<TextField/> renders correctly if prop password set true and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -3463,11 +3463,11 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo ilBesb"
+          className="InnerButton-imycSA jYLFDJ"
           disabled={true}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3482,17 +3482,17 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
 
 exports[`<TextField/> renders correctly if prop password set true,colorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -3509,11 +3509,11 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -3528,17 +3528,17 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
 
 exports[`<TextField/> renders correctly if prop placeholder set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3562,17 +3562,17 @@ exports[`<TextField/> renders correctly if prop placeholder set test 1`] = `
 
 exports[`<TextField/> renders correctly if prop slidingLabel set false 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3596,17 +3596,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set false 1`] = `
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3630,17 +3630,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true 1`] = `
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true 2`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3664,17 +3664,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true 2`] = `
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and bordered 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw fEvrTq"
+      className="TextFieldRowStyled-VkWtx gzogUg"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jDYZEY"
+        className="TextFieldGroupStyled-cLQues byEPdS"
         disabled={false}
       >
         <input
@@ -3698,17 +3698,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and border
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and colorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -3732,17 +3732,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and colorS
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jdsWzd"
+      className="TextFieldRowStyled-VkWtx jCOgxp"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3766,17 +3766,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and dense 
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -3800,17 +3800,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and disabl
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and filled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3834,17 +3834,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and filled
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -3868,22 +3868,22 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and fullWi
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_28"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -3891,7 +3891,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3915,17 +3915,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true and labelPosition set side 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ gGGXPc"
+    className="TextFieldContentBoxStyled-jDMXvi iZhjWV"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -3949,17 +3949,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and labelP
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true fullWidth and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -3983,17 +3983,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true fullWidth 
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, and call focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -4017,22 +4017,22 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, and call 
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_29"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4040,7 +4040,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4064,22 +4064,22 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jdsWzd"
+      className="TextFieldRowStyled-VkWtx jCOgxp"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled-JjRcK eRmGCW"
         disabled={false}
         htmlFor="TextField_30"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4087,7 +4087,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4111,22 +4111,22 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, filled and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_33"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4134,7 +4134,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4158,22 +4158,22 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_31"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4181,7 +4181,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -4205,22 +4205,22 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth, dense and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_32"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4228,7 +4228,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -4252,28 +4252,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt hPxqJF"
+      className="LabelSlidingStyled-cxObyD fZZJqW"
       disabled={false}
       htmlFor="TextField_38"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4297,28 +4297,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and bordered 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt hUgjHi"
+      className="LabelSlidingStyled-cxObyD bPocDn"
       disabled={false}
       htmlFor="TextField_39"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw fEvrTq"
+      className="TextFieldRowStyled-VkWtx gzogUg"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jDYZEY"
+        className="TextFieldGroupStyled-cLQues byEPdS"
         disabled={false}
       >
         <input
@@ -4342,28 +4342,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and call focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt doUyEZ"
+      className="LabelSlidingStyled-cxObyD gMnwOi"
       disabled={false}
       htmlFor="TextField_37"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -4387,28 +4387,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and colorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt hPxqJF"
+      className="LabelSlidingStyled-cxObyD fZZJqW"
       disabled={false}
       htmlFor="TextField_35"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -4432,28 +4432,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt fbvMyR"
+      className="LabelSlidingStyled-cxObyD gTiJkS"
       disabled={false}
       htmlFor="TextField_40"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jdsWzd"
+      className="TextFieldRowStyled-VkWtx jCOgxp"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4477,28 +4477,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt hPxqJF"
+      className="LabelSlidingStyled-cxObyD fZZJqW"
       disabled={true}
       htmlFor="TextField_34"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -4522,28 +4522,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and filled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt hPxqJF"
+      className="LabelSlidingStyled-cxObyD fZZJqW"
       disabled={false}
       htmlFor="TextField_43"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4567,28 +4567,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt bMyPlA"
+      className="LabelSlidingStyled-cxObyD cZasMs"
       disabled={false}
       htmlFor="TextField_41"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -4612,33 +4612,33 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt LsEVD"
+      className="LabelSlidingStyled-cxObyD eEkqHp"
       disabled={false}
       htmlFor="TextField_44"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_44"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4646,7 +4646,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4670,28 +4670,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test and labelPosition set side 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ gGGXPc"
+    className="TextFieldContentBoxStyled-jDMXvi iZhjWV"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt hhxsiL"
+      className="LabelSlidingStyled-cxObyD dNrQX"
       disabled={false}
       htmlFor="TextField_36"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4715,33 +4715,33 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test, bordered and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt LsEVD"
+      className="LabelSlidingStyled-cxObyD eEkqHp"
       disabled={false}
       htmlFor="TextField_45"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_45"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4749,7 +4749,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4773,33 +4773,33 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test, dense and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt ghbMlD"
+      className="LabelSlidingStyled-cxObyD ifizPI"
       disabled={false}
       htmlFor="TextField_46"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jdsWzd"
+      className="TextFieldRowStyled-VkWtx jCOgxp"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled-JjRcK eRmGCW"
         disabled={false}
         htmlFor="TextField_46"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4807,7 +4807,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4831,33 +4831,33 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test, filled and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt LsEVD"
+      className="LabelSlidingStyled-cxObyD eEkqHp"
       disabled={false}
       htmlFor="TextField_49"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jotuG"
+      className="TextFieldRowStyled-VkWtx fQGFYt"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_49"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4865,7 +4865,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -4889,28 +4889,28 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test, fullWidth and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt bMyPlA"
+      className="LabelSlidingStyled-cxObyD cZasMs"
       disabled={false}
       htmlFor="TextField_42"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -4934,33 +4934,33 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test, fullWidth and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt floVAA"
+      className="LabelSlidingStyled-cxObyD gvIWaD"
       disabled={false}
       htmlFor="TextField_47"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_47"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -4968,7 +4968,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -4992,33 +4992,33 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop slidingLabel set true, label set test, fullWidth, dense and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelSlidingStyled__LabelSlidingStyled-iNRlTt floVAA"
+      className="LabelSlidingStyled-cxObyD gvIWaD"
       disabled={false}
       htmlFor="TextField_48"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw jnrtds"
+      className="TextFieldRowStyled-VkWtx gJSVOw"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_48"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -5026,7 +5026,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -5050,17 +5050,17 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
 
 exports[`<TextField/> renders correctly if prop styleMode set error 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5084,17 +5084,17 @@ exports[`<TextField/> renders correctly if prop styleMode set error 1`] = `
 
 exports[`<TextField/> renders correctly if prop styleMode set neutral 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5118,17 +5118,17 @@ exports[`<TextField/> renders correctly if prop styleMode set neutral 1`] = `
 
 exports[`<TextField/> renders correctly if prop styleMode set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5152,17 +5152,17 @@ exports[`<TextField/> renders correctly if prop styleMode set success 1`] = `
 
 exports[`<TextField/> renders correctly if prop symbolLimit set 1 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5182,11 +5182,11 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 1`] = `
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -5205,17 +5205,17 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 1`] = `
 
 exports[`<TextField/> renders correctly if prop symbolLimit set 1 and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -5235,11 +5235,11 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and disabled 1
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={true}
     >
       <span>
@@ -5258,17 +5258,17 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and disabled 1
 
 exports[`<TextField/> renders correctly if prop symbolLimit set 1 and focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -5288,11 +5288,11 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and focus 1`] 
     </div>
   </div>
   <div
-    className="InfoBoxStyled__InfoBoxStyled-jAgynG fxFvRH"
+    className="InfoBoxStyled-jxTNER kNKdfK"
     disabled={false}
   >
     <div
-      className="CounterStyled__CounterStyled-fCXNZY hxBpDz"
+      className="CounterStyled-duBazJ kYnKCq"
       disabled={false}
     >
       <span>
@@ -5311,23 +5311,23 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and focus 1`] 
 
 exports[`<TextField/> renders correctly if prop tooltip set test and label set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj koqRH"
+      className="LabelStyled-NSAIX blSgDV"
       disabled={false}
       htmlFor="TextField_15"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
       <div
-        className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+        className="TooltipIconStyled-egvEre kUiAus"
         onBlur={[Function]}
         onClick={[Function]}
         onFocus={[Function]}
@@ -5341,11 +5341,11 @@ exports[`<TextField/> renders correctly if prop tooltip set test and label set t
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5369,17 +5369,17 @@ exports[`<TextField/> renders correctly if prop tooltip set test and label set t
 
 exports[`<TextField/> renders correctly if prop tooltip set test without label 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5403,17 +5403,17 @@ exports[`<TextField/> renders correctly if prop tooltip set test without label 1
 
 exports[`<TextField/> renders correctly if prop value set test 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5437,33 +5437,33 @@ exports[`<TextField/> renders correctly if prop value set test 1`] = `
 
 exports[`<TextField/> renders correctly if proplabel set test, filled and iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <label
-      className="LabelStyled__LabelStyled-chJxlj gKsfeD"
+      className="LabelStyled-NSAIX ghunRF"
       disabled={false}
       htmlFor="TextField_65"
     >
       <div
-        className="LabelTextStyled__LabelTextStyled-cwgMXD hfeooX"
+        className="LabelTextStyled-bIbjxo eYfwzX"
       >
         test
       </div>
     </label>
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_65"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -5471,7 +5471,7 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5495,17 +5495,17 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
 
 exports[`<TextField/> renders correctly if state showLengthError set true 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5529,17 +5529,17 @@ exports[`<TextField/> renders correctly if state showLengthError set true 1`] = 
 
 exports[`<TextField/> renders correctly if type set password 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5556,11 +5556,11 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           value=""
         />
         <div
-          className="InnerButton__InnerButton-iGrReo gRonim"
+          className="InnerButton-imycSA dvlZRg"
           disabled={false}
         >
           <span
-            className="fa fa-eye-slash IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
             color=""
             onClick={[Function]}
             rotate={0}
@@ -5575,17 +5575,17 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
 
 exports[`<TextField/> renders correctly with default props 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -5609,30 +5609,30 @@ exports[`<TextField/> renders correctly with default props 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconInner 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis eyEwOB"
+          className="PrefixStyled-cSDiGO hUeRMD"
           disabled={false}
           htmlFor="TextField_114"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bDJxIX"
+            className="IconInnerStyled-iRsRrl bNjxSu"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5661,30 +5661,30 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis jbemzu"
+          className="PrefixStyled-cSDiGO jXqXXZ"
           disabled={true}
           htmlFor="TextField_118"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj deElkl"
+            className="IconInnerStyled-iRsRrl hIYzef"
             disabled={true}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5713,30 +5713,30 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis TYoPb"
+          className="PrefixStyled-cSDiGO IUkrz"
           disabled={false}
           htmlFor="TextField_120"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj dnRJNw"
+            className="IconInnerStyled-iRsRrl wITal"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5765,30 +5765,30 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis bDVqrZ"
+          className="PrefixStyled-cSDiGO jgkzFq"
           disabled={false}
           htmlFor="TextField_119"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bDJxIX"
+            className="IconInnerStyled-iRsRrl bNjxSu"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5817,30 +5817,30 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
 
 exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis eIUZoZ"
+          className="PrefixStyled-cSDiGO jwLogJ"
           disabled={false}
           htmlFor="TextField_116"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bstpEK"
+            className="IconInnerStyled-iRsRrl jCHHha"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5869,30 +5869,30 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis jYfvIW"
+          className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
           htmlFor="TextField_115"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled-iRsRrl bAzBcR"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5921,30 +5921,30 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
 
 exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis jYfvIW"
+          className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
           htmlFor="TextField_117"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled-iRsRrl bAzBcR"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -5973,22 +5973,22 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_107"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -5996,7 +5996,7 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -6020,22 +6020,22 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jTkWbd"
+        className="IconOuterStyled-JjRcK fxeeCW"
         disabled={true}
         htmlFor="TextField_111"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -6043,7 +6043,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -6067,22 +6067,22 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU cZTUxQ"
+        className="IconOuterStyled-JjRcK fZlUkz"
         disabled={false}
         htmlFor="TextField_113"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -6090,7 +6090,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -6114,22 +6114,22 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU gkoVuE"
+        className="IconOuterStyled-JjRcK bIsEgV"
         disabled={false}
         htmlFor="TextField_112"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -6137,7 +6137,7 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -6161,22 +6161,22 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
 
 exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU deGtEg"
+        className="IconOuterStyled-JjRcK eRmGCW"
         disabled={false}
         htmlFor="TextField_109"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -6184,7 +6184,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -6208,22 +6208,22 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
 
 exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_108"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -6231,7 +6231,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -6255,22 +6255,22 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
 
 exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <label
-        className="IconOuterStyled__IconOuterStyled-fijAWU jYehZj"
+        className="IconOuterStyled-JjRcK dxJQob"
         disabled={false}
         htmlFor="TextField_110"
       >
         <span
-          className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
           color=""
           onClick={[Function]}
           rotate={0}
@@ -6278,7 +6278,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
         />
       </label>
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -6302,17 +6302,17 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -6329,12 +6329,12 @@ exports[`<TextField/> renders correctly with prop postfix 1`] = `
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt kmWflL"
+          className="PostfixStyled-gidrzB cGwIep"
           disabled={false}
           htmlFor="TextField_121"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6350,17 +6350,17 @@ exports[`<TextField/> renders correctly with prop postfix 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jDYZEY"
+        className="TextFieldGroupStyled-cLQues byEPdS"
         disabled={false}
       >
         <input
@@ -6377,12 +6377,12 @@ exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt kMPJQk"
+          className="PostfixStyled-gidrzB btrTsX"
           disabled={false}
           htmlFor="TextField_126"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6398,17 +6398,17 @@ exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA dfUXvC"
+        className="TextFieldGroupStyled-cLQues dhNDnl"
         disabled={false}
       >
         <input
@@ -6425,12 +6425,12 @@ exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt dOlObk"
+          className="PostfixStyled-gidrzB gfUyhT"
           disabled={false}
           htmlFor="TextField_125"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6446,17 +6446,17 @@ exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix and colorScheme set success 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA edrYkE"
+        className="TextFieldGroupStyled-cLQues bCeKSN"
         disabled={false}
       >
         <input
@@ -6473,12 +6473,12 @@ exports[`<TextField/> renders correctly with prop postfix and colorScheme set su
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt bNheMT"
+          className="PostfixStyled-gidrzB iHHtVs"
           disabled={false}
           htmlFor="TextField_128"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6494,17 +6494,17 @@ exports[`<TextField/> renders correctly with prop postfix and colorScheme set su
 
 exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -6521,12 +6521,12 @@ exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt jHIwpF"
+          className="PostfixStyled-gidrzB kuYlQq"
           disabled={false}
           htmlFor="TextField_122"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6542,17 +6542,17 @@ exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={true}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA eyzusd"
+        className="TextFieldGroupStyled-cLQues oUvjQ"
         disabled={true}
       >
         <input
@@ -6569,12 +6569,12 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt ixvZJO"
+          className="PostfixStyled-gidrzB dLUyDJ"
           disabled={true}
           htmlFor="TextField_127"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={true}
           >
             <span>
@@ -6590,17 +6590,17 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -6617,12 +6617,12 @@ exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt kgbztx"
+          className="PostfixStyled-gidrzB hHRslm"
           disabled={false}
           htmlFor="TextField_123"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6638,17 +6638,17 @@ exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
 
 exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <input
@@ -6665,12 +6665,12 @@ exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] =
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt kmWflL"
+          className="PostfixStyled-gidrzB cGwIep"
           disabled={false}
           htmlFor="TextField_129"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6686,17 +6686,17 @@ exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] =
 
 exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <input
@@ -6713,12 +6713,12 @@ exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1
           value=""
         />
         <label
-          className="PostfixStyled__PostfixStyled-jqkelt kgbztx"
+          className="PostfixStyled-gidrzB hHRslm"
           disabled={false}
           htmlFor="TextField_124"
         >
           <span
-            className="PostfixTextStyled__PostfixTextStyled-kluqqX kjUKFn"
+            className="PostfixTextStyled-eRrWif kSIqH"
             disabled={false}
           >
             <span>
@@ -6734,26 +6734,26 @@ exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1
 
 exports[`<TextField/> renders correctly with prop prefix 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis eyEwOB"
+          className="PrefixStyled-cSDiGO hUeRMD"
           disabled={false}
           htmlFor="TextField_101"
         >
           <span
-            className="PrefixTextStyled__PrefixTextStyled-gTCCIm ggyiWT"
+            className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
           >
             <span>
@@ -6782,26 +6782,26 @@ exports[`<TextField/> renders correctly with prop prefix 1`] = `
 
 exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis eyEwOB"
+          className="PrefixStyled-cSDiGO hUeRMD"
           disabled={false}
           htmlFor="TextField_102"
         >
           <span
-            className="PrefixTextStyled__PrefixTextStyled-gTCCIm ggyiWT"
+            className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
           >
             <span>
@@ -6830,30 +6830,30 @@ exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
 
 exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis eyEwOB"
+          className="PrefixStyled-cSDiGO hUeRMD"
           disabled={false}
           htmlFor="TextField_103"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bDJxIX"
+            className="IconInnerStyled-iRsRrl bNjxSu"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -6861,7 +6861,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
             />
           </div>
           <span
-            className="PrefixTextStyled__PrefixTextStyled-gTCCIm ggyiWT"
+            className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
           >
             <span>
@@ -6890,30 +6890,30 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
 
 exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw hjaZvM"
+      className="TextFieldRowStyled-VkWtx iKvbzP"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA hHuqwi"
+        className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis eIUZoZ"
+          className="PrefixStyled-cSDiGO jwLogJ"
           disabled={false}
           htmlFor="TextField_105"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj bstpEK"
+            className="IconInnerStyled-iRsRrl jCHHha"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -6921,7 +6921,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
             />
           </div>
           <span
-            className="PrefixTextStyled__PrefixTextStyled-gTCCIm ggyiWT"
+            className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
           >
             <span>
@@ -6950,30 +6950,30 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
 
 exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidth 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis jYfvIW"
+          className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
           htmlFor="TextField_104"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled-iRsRrl bAzBcR"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -6981,7 +6981,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
             />
           </div>
           <span
-            className="PrefixTextStyled__PrefixTextStyled-gTCCIm ggyiWT"
+            className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
           >
             <span>
@@ -7010,30 +7010,30 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
 
 exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth and dense 1`] = `
 <div
-  className="TextFieldStyled__TextFieldStyled-LQiMh bRFqzw"
+  className="TextFieldStyled-bdmlkn QIbv"
 >
   <div
-    className="TextFieldContentBoxStyled__TextFieldContentBoxStyled-eUFbzZ iDAUec"
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
   >
     <div
-      className="TextFieldRowStyled__TextFieldRowStyled-iKawDw cWJZUQ"
+      className="TextFieldRowStyled-VkWtx dfPpjs"
       disabled={false}
     >
       <div
-        className="TextFieldGroupStyled__TextFieldGroupStyled-cIZJDA jhaIQX"
+        className="TextFieldGroupStyled-cLQues ebvLSB"
         disabled={false}
       >
         <label
-          className="PrefixStyled__PrefixStyled-fueJis jYfvIW"
+          className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
           htmlFor="TextField_106"
         >
           <div
-            className="IconInnerStyled__IconInnerStyled-pTXLj gnawFy"
+            className="IconInnerStyled-iRsRrl bAzBcR"
             disabled={false}
           >
             <span
-              className="fa fa-customIcon IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
+              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
               color=""
               onClick={[Function]}
               rotate={0}
@@ -7041,7 +7041,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
             />
           </div>
           <span
-            className="PrefixTextStyled__PrefixTextStyled-gTCCIm ggyiWT"
+            className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
           >
             <span>

@@ -2,7 +2,7 @@
 
 exports[`<TooltipIcon/> renders correctly with default props 1`] = `
 <div
-  className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+  className="TooltipIconStyled-egvEre kUiAus"
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}

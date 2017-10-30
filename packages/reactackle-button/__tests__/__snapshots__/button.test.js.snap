@@ -113,7 +113,7 @@ exports[`<Button/> renders correctly if prop icon="github" set 1`] = `
     size="normal"
   >
     <span
-      className="fa fa-github IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq fYZtO"
+      className="fa fa-github IconFontAwesomeStyled-dGckvS kaLUBc"
       color=""
       onClick={[Function]}
       rotate={0}
@@ -232,11 +232,11 @@ exports[`<Button/> renders correctly if prop text set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    className="ButtonTextStyled-kqmWUR bLlJca"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       test
@@ -255,11 +255,11 @@ exports[`<Button/> renders correctly if prop text="foo" set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    className="ButtonTextStyled-kqmWUR bLlJca"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       foo
@@ -278,11 +278,11 @@ exports[`<Button/> renders correctly if props narrow false and radius rounded 1`
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    className="ButtonTextStyled-kqmWUR bLlJca"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       test
@@ -301,17 +301,17 @@ exports[`<Button/> renders correctly if props text and subtitle are set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled__ButtonTextStyled-dokorR eDbaCA"
+    className="ButtonTextStyled-kqmWUR bLlJca"
     size="normal"
   >
     <div
-      className="ButtonSubtitleStyled__ButtonSubtitleStyled-gjOmZI jttTQz"
+      className="ButtonSubtitleStyled-bFHACI laqQqJ"
       size="normal"
     >
       sup
     </div>
     <div
-      className="ButtonTitleStyled__ButtonTitleStyled-kwhLfn koUihP"
+      className="ButtonTitleStyled-EwESb hkRlbG"
       size="normal"
     >
       test
