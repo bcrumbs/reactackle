@@ -20,9 +20,11 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
           class="sc-eilVRo jJCRub"
           id="TextField_136"
           placeholder=""
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -47,9 +49,11 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
           class="sc-gHboQg iVFGSg"
           id="TextField_135"
           placeholder=""
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -74,9 +78,11 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
           class="sc-dUjcNx iaxjPc"
           id="TextField_134"
           placeholder=""
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -101,9 +107,11 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
           class="sc-eerKOB iiTSam"
           id="TextField_137"
           placeholder="test"
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -353,7 +361,9 @@ exports[`<TextField/> handle click event 1`] = `
           placeholder=""
           type="text"
           value=""
-        />
+        >
+          
+        </input>
       </div>
     </div>
   </div>
@@ -380,7 +390,9 @@ exports[`<TextField/> handle focus event 1`] = `
           placeholder=""
           type="text"
           value=""
-        />
+        >
+          
+        </input>
       </div>
     </div>
   </div>
@@ -1155,7 +1167,7 @@ exports[`<TextField/> handless focus 1`] = `
               colorScheme="neutral"
               dense={false}
               disabled={false}
-              focus={true}
+              focus={false}
               fullWidth={false}
               slidingLabel={false}
             >
@@ -1168,11 +1180,11 @@ exports[`<TextField/> handless focus 1`] = `
                   colorScheme="neutral"
                   dense={false}
                   disabled={false}
-                  focus={true}
+                  focus={false}
                   fullWidth={false}
                 >
                   <div
-                    className="TextFieldGroupStyled-cLQues dhNDnl"
+                    className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
                     <TextFieldElementStyled(input)
@@ -1181,7 +1193,7 @@ exports[`<TextField/> handless focus 1`] = `
                       colorScheme="neutral"
                       dense={false}
                       disabled={false}
-                      focus={true}
+                      focus={false}
                       fullWidth={false}
                       id="TextField_132"
                       innerRef={[Function]}
@@ -1719,95 +1731,1805 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
 `;
 
 exports[`<TextField/> renders correctly if prop clearingIcon set true and call clear 1`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
+<WithTheme(TextField)
+  autoComplete="off"
+  bordered={false}
+  clearingIcon={true}
+  colorScheme="neutral"
+  defaultValue="test"
+  dense={false}
+  disabled={false}
+  fullWidth={false}
+  iconInner={null}
+  iconOuter={null}
+  label=""
+  labelPosition="top"
+  message=""
+  multiline={false}
+  multilineRows={
+    Object {
+      "max": 4,
+      "min": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onLengthError={[Function]}
+  onPatternError={[Function]}
+  pattern={/\\.\\*/}
+  patternFn={[Function]}
+  placeholder=""
+  postfix=""
+  prefix=""
+  scrollOnFocus={false}
+  slidingLabel={false}
+  symbolLimit={0}
+  theme={Object {}}
+  tooltip={null}
+  type="text"
+  value={undefined}
 >
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  <TextField
+    autoComplete="off"
+    bordered={false}
+    clearingIcon={true}
+    colorScheme="neutral"
+    defaultValue="test"
+    dense={false}
+    disabled={false}
+    fullWidth={false}
+    iconInner={null}
+    iconOuter={null}
+    label=""
+    labelPosition="top"
+    message=""
+    multiline={false}
+    multilineRows={
+      Object {
+        "max": 4,
+        "min": 2,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onLengthError={[Function]}
+    onPatternError={[Function]}
+    pattern={/\\.\\*/}
+    patternFn={[Function]}
+    placeholder=""
+    postfix=""
+    prefix=""
+    scrollOnFocus={false}
+    slidingLabel={false}
+    symbolLimit={0}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "textfield": Object {
+              "buttonInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "#212121",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#212121",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "#212121",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "clearingIcon": Object {
+                "name": "times",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "iconInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "inherit",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "inherit",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "iconOuter": Object {
+                "iconSpacing": 8,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 20,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "imgSize": 20,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.25,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#673AB7",
+                    "opacity": 0.54,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "label": Object {
+                "labelTooltipSpacing": 8,
+                "positionSide": Object {
+                  "breakpoints": Array [
+                    Object {
+                      "breakpoint": "60em",
+                      "width": 150,
+                    },
+                  ],
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#212121",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                  "width": "30%",
+                },
+                "positionTop": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                },
+              },
+              "message": Object {
+                "fontSize": 12,
+                "lineHeight": 1,
+                "messageSpacing": 8,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                  "success": Object {
+                    "fontColor": "#43AC6A",
+                  },
+                },
+              },
+              "passwordIconHidden": Object {
+                "name": "eye-slash",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "passwordIconUnhidden": Object {
+                "name": "eye",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "placeholder": Object {
+                "fontColor": "#bdbdbd",
+              },
+              "postfix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "postfixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "postfixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "prefix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "prefixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "prefixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "symbolCounter": Object {
+                "counterMessageSpacing": 32,
+                "counterSpacing": 8,
+                "fontSize": 12,
+                "lineHeight": 1,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                },
+              },
+              "textfield": Object {
+                "bordered": Object {
+                  "borderRadius": 2,
+                  "borderWidth": 1,
+                },
+                "fontFamily": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 4,
+                      "underlined": 0,
+                    },
+                    "paddingY": 4,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "fontSize": 13,
+                  "fullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "lineHeight": 1.5,
+                  "paddingX": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "paddingY": 8,
+                },
+                "state": Object {
+                  "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                  "borderColor": "#e0e0e0",
+                  "borderStyle": "solid",
+                  "disabled": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#e0e0e0",
+                    "borderStyle": "dotted",
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#f04124",
+                    "borderStyle": "solid",
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "fontColor": "#212121",
+                  "hover": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "success": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#43AC6A",
+                    "borderStyle": "solid",
+                    "fontColor": "#43AC6A",
+                  },
+                },
+                "themeColor": "#673AB7",
+                "underlined": Object {
+                  "borderRadius": 0,
+                  "borderWidth": 2,
+                },
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    tooltip={null}
+    type="text"
+    value={undefined}
   >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
+    <TextFieldStyled
+      dense={false}
+      fullWidth={false}
+      innerRef={[Function]}
     >
       <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
+        className="TextFieldStyled-bdmlkn QIbv"
       >
-        <input
-          autoComplete="off"
-          className="sc-iyvyFf EQJEE"
-          disabled={false}
-          id="TextField_92"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value="test"
-        />
-        <div
-          className="InnerButton-imycSA dvlZRg"
-          disabled={false}
+        <TextFieldContentBoxStyled
+          labelPosition="top"
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
-            color=""
-            onClick={[Function]}
-            rotate={0}
-            size="normal"
-          />
-        </div>
+          <div
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+          >
+            <TextFieldRowStyled
+              bordered={false}
+              colorScheme="neutral"
+              dense={false}
+              disabled={false}
+              focus={false}
+              fullWidth={false}
+              slidingLabel={false}
+            >
+              <div
+                className="TextFieldRowStyled-VkWtx iKvbzP"
+                disabled={false}
+              >
+                <TextFieldGroupStyled
+                  bordered={false}
+                  colorScheme="neutral"
+                  dense={false}
+                  disabled={false}
+                  focus={false}
+                  fullWidth={false}
+                >
+                  <div
+                    className="TextFieldGroupStyled-cLQues dwexzW"
+                    disabled={false}
+                  >
+                    <TextFieldElementStyled(input)
+                      autoComplete="off"
+                      bordered={false}
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                      id="TextField_92"
+                      innerRef={[Function]}
+                      maxRows={4}
+                      minRows={2}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      type="text"
+                      value="test"
+                    >
+                      <input
+                        autoComplete="off"
+                        className="sc-iyvyFf EQJEE"
+                        disabled={false}
+                        id="TextField_92"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        type="text"
+                        value="test"
+                      />
+                    </TextFieldElementStyled(input)>
+                    <InnerButton
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                    >
+                      <div
+                        className="InnerButton-imycSA dvlZRg"
+                        disabled={false}
+                      >
+                        <Icon
+                          color="inherit"
+                          name="times"
+                          onClick={[Function]}
+                          size="inherit"
+                          src=""
+                          type="font-awesome"
+                        >
+                          <IconFontAwesome
+                            backgroundColor=""
+                            border={false}
+                            color="inherit"
+                            colorScheme="dark"
+                            flip="none"
+                            name="times"
+                            onClick={[Function]}
+                            pulse={false}
+                            rotate={0}
+                            rounded={false}
+                            size="inherit"
+                            sizeMultiplier={1}
+                            spin={false}
+                            src=""
+                            tabIndex={-1}
+                            type="font-awesome"
+                          >
+                            <IconFontAwesomeStyled
+                              backgroundColor=""
+                              bgColor=""
+                              border={false}
+                              className="fa fa-times"
+                              color=""
+                              colorScheme="dark"
+                              flip="none"
+                              onClick={[Function]}
+                              pulse={false}
+                              rotate={0}
+                              rounded={false}
+                              size="normal"
+                              sizeKey="inherit"
+                              sizeMultiplier={1}
+                              spin={false}
+                              userColor="inherit"
+                            >
+                              <span
+                                className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
+                                color=""
+                                onClick={[Function]}
+                                rotate={0}
+                                size="normal"
+                              />
+                            </IconFontAwesomeStyled>
+                          </IconFontAwesome>
+                        </Icon>
+                      </div>
+                    </InnerButton>
+                  </div>
+                </TextFieldGroupStyled>
+              </div>
+            </TextFieldRowStyled>
+          </div>
+        </TextFieldContentBoxStyled>
       </div>
-    </div>
-  </div>
-</div>
+    </TextFieldStyled>
+  </TextField>
+</WithTheme(TextField)>
 `;
 
 exports[`<TextField/> renders correctly if prop clearingIcon set true and call clear 2`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
+<WithTheme(TextField)
+  autoComplete="off"
+  bordered={false}
+  clearingIcon={true}
+  colorScheme="neutral"
+  defaultValue="test"
+  dense={false}
+  disabled={false}
+  fullWidth={false}
+  iconInner={null}
+  iconOuter={null}
+  label=""
+  labelPosition="top"
+  message=""
+  multiline={false}
+  multilineRows={
+    Object {
+      "max": 4,
+      "min": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onLengthError={[Function]}
+  onPatternError={[Function]}
+  pattern={/\\.\\*/}
+  patternFn={[Function]}
+  placeholder=""
+  postfix=""
+  prefix=""
+  scrollOnFocus={false}
+  slidingLabel={false}
+  symbolLimit={0}
+  theme={Object {}}
+  tooltip={null}
+  type="text"
+  value={undefined}
 >
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  <TextField
+    autoComplete="off"
+    bordered={false}
+    clearingIcon={true}
+    colorScheme="neutral"
+    defaultValue="test"
+    dense={false}
+    disabled={false}
+    fullWidth={false}
+    iconInner={null}
+    iconOuter={null}
+    label=""
+    labelPosition="top"
+    message=""
+    multiline={false}
+    multilineRows={
+      Object {
+        "max": 4,
+        "min": 2,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onLengthError={[Function]}
+    onPatternError={[Function]}
+    pattern={/\\.\\*/}
+    patternFn={[Function]}
+    placeholder=""
+    postfix=""
+    prefix=""
+    scrollOnFocus={false}
+    slidingLabel={false}
+    symbolLimit={0}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "textfield": Object {
+              "buttonInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "#212121",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#212121",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "#212121",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "clearingIcon": Object {
+                "name": "times",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "iconInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "inherit",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "inherit",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "iconOuter": Object {
+                "iconSpacing": 8,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 20,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "imgSize": 20,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.25,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#673AB7",
+                    "opacity": 0.54,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "label": Object {
+                "labelTooltipSpacing": 8,
+                "positionSide": Object {
+                  "breakpoints": Array [
+                    Object {
+                      "breakpoint": "60em",
+                      "width": 150,
+                    },
+                  ],
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#212121",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                  "width": "30%",
+                },
+                "positionTop": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                },
+              },
+              "message": Object {
+                "fontSize": 12,
+                "lineHeight": 1,
+                "messageSpacing": 8,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                  "success": Object {
+                    "fontColor": "#43AC6A",
+                  },
+                },
+              },
+              "passwordIconHidden": Object {
+                "name": "eye-slash",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "passwordIconUnhidden": Object {
+                "name": "eye",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "placeholder": Object {
+                "fontColor": "#bdbdbd",
+              },
+              "postfix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "postfixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "postfixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "prefix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "prefixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "prefixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "symbolCounter": Object {
+                "counterMessageSpacing": 32,
+                "counterSpacing": 8,
+                "fontSize": 12,
+                "lineHeight": 1,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                },
+              },
+              "textfield": Object {
+                "bordered": Object {
+                  "borderRadius": 2,
+                  "borderWidth": 1,
+                },
+                "fontFamily": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 4,
+                      "underlined": 0,
+                    },
+                    "paddingY": 4,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "fontSize": 13,
+                  "fullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "lineHeight": 1.5,
+                  "paddingX": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "paddingY": 8,
+                },
+                "state": Object {
+                  "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                  "borderColor": "#e0e0e0",
+                  "borderStyle": "solid",
+                  "disabled": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#e0e0e0",
+                    "borderStyle": "dotted",
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#f04124",
+                    "borderStyle": "solid",
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "fontColor": "#212121",
+                  "hover": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "success": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#43AC6A",
+                    "borderStyle": "solid",
+                    "fontColor": "#43AC6A",
+                  },
+                },
+                "themeColor": "#673AB7",
+                "underlined": Object {
+                  "borderRadius": 0,
+                  "borderWidth": 2,
+                },
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    tooltip={null}
+    type="text"
+    value={undefined}
   >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
+    <TextFieldStyled
+      dense={false}
+      fullWidth={false}
+      innerRef={[Function]}
     >
       <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
+        className="TextFieldStyled-bdmlkn QIbv"
       >
-        <input
-          autoComplete="off"
-          className="sc-iyvyFf EQJEE"
-          disabled={false}
-          id="TextField_92"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value=""
-        />
-        <div
-          className="InnerButton-imycSA dvlZRg"
-          disabled={false}
+        <TextFieldContentBoxStyled
+          labelPosition="top"
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
-            color=""
-            onClick={[Function]}
-            rotate={0}
-            size="normal"
-          />
-        </div>
+          <div
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+          >
+            <TextFieldRowStyled
+              bordered={false}
+              colorScheme="neutral"
+              dense={false}
+              disabled={false}
+              focus={false}
+              fullWidth={false}
+              slidingLabel={false}
+            >
+              <div
+                className="TextFieldRowStyled-VkWtx iKvbzP"
+                disabled={false}
+              >
+                <TextFieldGroupStyled
+                  bordered={false}
+                  colorScheme="neutral"
+                  dense={false}
+                  disabled={false}
+                  focus={false}
+                  fullWidth={false}
+                >
+                  <div
+                    className="TextFieldGroupStyled-cLQues dwexzW"
+                    disabled={false}
+                  >
+                    <TextFieldElementStyled(input)
+                      autoComplete="off"
+                      bordered={false}
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                      id="TextField_92"
+                      innerRef={[Function]}
+                      maxRows={4}
+                      minRows={2}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      type="text"
+                      value=""
+                    >
+                      <input
+                        autoComplete="off"
+                        className="sc-iyvyFf EQJEE"
+                        disabled={false}
+                        id="TextField_92"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        type="text"
+                        value=""
+                      />
+                    </TextFieldElementStyled(input)>
+                    <InnerButton
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                    >
+                      <div
+                        className="InnerButton-imycSA dvlZRg"
+                        disabled={false}
+                      >
+                        <Icon
+                          color="inherit"
+                          name="times"
+                          onClick={[Function]}
+                          size="inherit"
+                          src=""
+                          type="font-awesome"
+                        >
+                          <IconFontAwesome
+                            backgroundColor=""
+                            border={false}
+                            color="inherit"
+                            colorScheme="dark"
+                            flip="none"
+                            name="times"
+                            onClick={[Function]}
+                            pulse={false}
+                            rotate={0}
+                            rounded={false}
+                            size="inherit"
+                            sizeMultiplier={1}
+                            spin={false}
+                            src=""
+                            tabIndex={-1}
+                            type="font-awesome"
+                          >
+                            <IconFontAwesomeStyled
+                              backgroundColor=""
+                              bgColor=""
+                              border={false}
+                              className="fa fa-times"
+                              color=""
+                              colorScheme="dark"
+                              flip="none"
+                              onClick={[Function]}
+                              pulse={false}
+                              rotate={0}
+                              rounded={false}
+                              size="normal"
+                              sizeKey="inherit"
+                              sizeMultiplier={1}
+                              spin={false}
+                              userColor="inherit"
+                            >
+                              <span
+                                className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
+                                color=""
+                                onClick={[Function]}
+                                rotate={0}
+                                size="normal"
+                              />
+                            </IconFontAwesomeStyled>
+                          </IconFontAwesome>
+                        </Icon>
+                      </div>
+                    </InnerButton>
+                  </div>
+                </TextFieldGroupStyled>
+              </div>
+            </TextFieldRowStyled>
+          </div>
+        </TextFieldContentBoxStyled>
       </div>
-    </div>
-  </div>
-</div>
+    </TextFieldStyled>
+  </TextField>
+</WithTheme(TextField)>
 `;
 
 exports[`<TextField/> renders correctly if prop dense set 1`] = `
@@ -3343,95 +5065,1805 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
 `;
 
 exports[`<TextField/> renders correctly if prop password set true and call show password 1`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
+<WithTheme(TextField)
+  autoComplete="off"
+  bordered={false}
+  clearingIcon={false}
+  colorScheme="neutral"
+  defaultValue="test"
+  dense={false}
+  disabled={false}
+  fullWidth={false}
+  iconInner={null}
+  iconOuter={null}
+  label=""
+  labelPosition="top"
+  message=""
+  multiline={false}
+  multilineRows={
+    Object {
+      "max": 4,
+      "min": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onLengthError={[Function]}
+  onPatternError={[Function]}
+  pattern={/\\.\\*/}
+  patternFn={[Function]}
+  placeholder=""
+  postfix=""
+  prefix=""
+  scrollOnFocus={false}
+  slidingLabel={false}
+  symbolLimit={0}
+  theme={Object {}}
+  tooltip={null}
+  type="password"
+  value={undefined}
 >
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  <TextField
+    autoComplete="off"
+    bordered={false}
+    clearingIcon={false}
+    colorScheme="neutral"
+    defaultValue="test"
+    dense={false}
+    disabled={false}
+    fullWidth={false}
+    iconInner={null}
+    iconOuter={null}
+    label=""
+    labelPosition="top"
+    message=""
+    multiline={false}
+    multilineRows={
+      Object {
+        "max": 4,
+        "min": 2,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onLengthError={[Function]}
+    onPatternError={[Function]}
+    pattern={/\\.\\*/}
+    patternFn={[Function]}
+    placeholder=""
+    postfix=""
+    prefix=""
+    scrollOnFocus={false}
+    slidingLabel={false}
+    symbolLimit={0}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "textfield": Object {
+              "buttonInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "#212121",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#212121",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "#212121",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "clearingIcon": Object {
+                "name": "times",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "iconInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "inherit",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "inherit",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "iconOuter": Object {
+                "iconSpacing": 8,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 20,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "imgSize": 20,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.25,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#673AB7",
+                    "opacity": 0.54,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "label": Object {
+                "labelTooltipSpacing": 8,
+                "positionSide": Object {
+                  "breakpoints": Array [
+                    Object {
+                      "breakpoint": "60em",
+                      "width": 150,
+                    },
+                  ],
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#212121",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                  "width": "30%",
+                },
+                "positionTop": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                },
+              },
+              "message": Object {
+                "fontSize": 12,
+                "lineHeight": 1,
+                "messageSpacing": 8,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                  "success": Object {
+                    "fontColor": "#43AC6A",
+                  },
+                },
+              },
+              "passwordIconHidden": Object {
+                "name": "eye-slash",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "passwordIconUnhidden": Object {
+                "name": "eye",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "placeholder": Object {
+                "fontColor": "#bdbdbd",
+              },
+              "postfix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "postfixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "postfixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "prefix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "prefixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "prefixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "symbolCounter": Object {
+                "counterMessageSpacing": 32,
+                "counterSpacing": 8,
+                "fontSize": 12,
+                "lineHeight": 1,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                },
+              },
+              "textfield": Object {
+                "bordered": Object {
+                  "borderRadius": 2,
+                  "borderWidth": 1,
+                },
+                "fontFamily": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 4,
+                      "underlined": 0,
+                    },
+                    "paddingY": 4,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "fontSize": 13,
+                  "fullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "lineHeight": 1.5,
+                  "paddingX": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "paddingY": 8,
+                },
+                "state": Object {
+                  "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                  "borderColor": "#e0e0e0",
+                  "borderStyle": "solid",
+                  "disabled": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#e0e0e0",
+                    "borderStyle": "dotted",
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#f04124",
+                    "borderStyle": "solid",
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "fontColor": "#212121",
+                  "hover": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "success": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#43AC6A",
+                    "borderStyle": "solid",
+                    "fontColor": "#43AC6A",
+                  },
+                },
+                "themeColor": "#673AB7",
+                "underlined": Object {
+                  "borderRadius": 0,
+                  "borderWidth": 2,
+                },
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    tooltip={null}
+    type="password"
+    value={undefined}
   >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
+    <TextFieldStyled
+      dense={false}
+      fullWidth={false}
+      innerRef={[Function]}
     >
       <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
+        className="TextFieldStyled-bdmlkn QIbv"
       >
-        <input
-          autoComplete="off"
-          className="sc-jqCOkK bWQrgz"
-          disabled={false}
-          id="TextField_67"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="password"
-          value="test"
-        />
-        <div
-          className="InnerButton-imycSA dvlZRg"
-          disabled={false}
+        <TextFieldContentBoxStyled
+          labelPosition="top"
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
-            color=""
-            onClick={[Function]}
-            rotate={0}
-            size="normal"
-          />
-        </div>
+          <div
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+          >
+            <TextFieldRowStyled
+              bordered={false}
+              colorScheme="neutral"
+              dense={false}
+              disabled={false}
+              focus={false}
+              fullWidth={false}
+              slidingLabel={false}
+            >
+              <div
+                className="TextFieldRowStyled-VkWtx iKvbzP"
+                disabled={false}
+              >
+                <TextFieldGroupStyled
+                  bordered={false}
+                  colorScheme="neutral"
+                  dense={false}
+                  disabled={false}
+                  focus={false}
+                  fullWidth={false}
+                >
+                  <div
+                    className="TextFieldGroupStyled-cLQues dwexzW"
+                    disabled={false}
+                  >
+                    <TextFieldElementStyled(input)
+                      autoComplete="off"
+                      bordered={false}
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                      id="TextField_67"
+                      innerRef={[Function]}
+                      maxRows={4}
+                      minRows={2}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      type="password"
+                      value="test"
+                    >
+                      <input
+                        autoComplete="off"
+                        className="sc-jqCOkK bWQrgz"
+                        disabled={false}
+                        id="TextField_67"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        type="password"
+                        value="test"
+                      />
+                    </TextFieldElementStyled(input)>
+                    <InnerButton
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                    >
+                      <div
+                        className="InnerButton-imycSA dvlZRg"
+                        disabled={false}
+                      >
+                        <Icon
+                          color="inherit"
+                          name="eye-slash"
+                          onClick={[Function]}
+                          size="inherit"
+                          src=""
+                          type="font-awesome"
+                        >
+                          <IconFontAwesome
+                            backgroundColor=""
+                            border={false}
+                            color="inherit"
+                            colorScheme="dark"
+                            flip="none"
+                            name="eye-slash"
+                            onClick={[Function]}
+                            pulse={false}
+                            rotate={0}
+                            rounded={false}
+                            size="inherit"
+                            sizeMultiplier={1}
+                            spin={false}
+                            src=""
+                            tabIndex={-1}
+                            type="font-awesome"
+                          >
+                            <IconFontAwesomeStyled
+                              backgroundColor=""
+                              bgColor=""
+                              border={false}
+                              className="fa fa-eye-slash"
+                              color=""
+                              colorScheme="dark"
+                              flip="none"
+                              onClick={[Function]}
+                              pulse={false}
+                              rotate={0}
+                              rounded={false}
+                              size="normal"
+                              sizeKey="inherit"
+                              sizeMultiplier={1}
+                              spin={false}
+                              userColor="inherit"
+                            >
+                              <span
+                                className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+                                color=""
+                                onClick={[Function]}
+                                rotate={0}
+                                size="normal"
+                              />
+                            </IconFontAwesomeStyled>
+                          </IconFontAwesome>
+                        </Icon>
+                      </div>
+                    </InnerButton>
+                  </div>
+                </TextFieldGroupStyled>
+              </div>
+            </TextFieldRowStyled>
+          </div>
+        </TextFieldContentBoxStyled>
       </div>
-    </div>
-  </div>
-</div>
+    </TextFieldStyled>
+  </TextField>
+</WithTheme(TextField)>
 `;
 
 exports[`<TextField/> renders correctly if prop password set true and call show password 2`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
+<WithTheme(TextField)
+  autoComplete="off"
+  bordered={false}
+  clearingIcon={false}
+  colorScheme="neutral"
+  defaultValue="test"
+  dense={false}
+  disabled={false}
+  fullWidth={false}
+  iconInner={null}
+  iconOuter={null}
+  label=""
+  labelPosition="top"
+  message=""
+  multiline={false}
+  multilineRows={
+    Object {
+      "max": 4,
+      "min": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onLengthError={[Function]}
+  onPatternError={[Function]}
+  pattern={/\\.\\*/}
+  patternFn={[Function]}
+  placeholder=""
+  postfix=""
+  prefix=""
+  scrollOnFocus={false}
+  slidingLabel={false}
+  symbolLimit={0}
+  theme={Object {}}
+  tooltip={null}
+  type="password"
+  value={undefined}
 >
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  <TextField
+    autoComplete="off"
+    bordered={false}
+    clearingIcon={false}
+    colorScheme="neutral"
+    defaultValue="test"
+    dense={false}
+    disabled={false}
+    fullWidth={false}
+    iconInner={null}
+    iconOuter={null}
+    label=""
+    labelPosition="top"
+    message=""
+    multiline={false}
+    multilineRows={
+      Object {
+        "max": 4,
+        "min": 2,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onLengthError={[Function]}
+    onPatternError={[Function]}
+    pattern={/\\.\\*/}
+    patternFn={[Function]}
+    placeholder=""
+    postfix=""
+    prefix=""
+    scrollOnFocus={false}
+    slidingLabel={false}
+    symbolLimit={0}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "textfield": Object {
+              "buttonInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "#212121",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#212121",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "#212121",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "clearingIcon": Object {
+                "name": "times",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "iconInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 16,
+                  },
+                  "imgSize": 16,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "inherit",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "inherit",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "iconOuter": Object {
+                "iconSpacing": 8,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 20,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 20,
+                  },
+                  "imgSize": 20,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.25,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#673AB7",
+                    "opacity": 0.54,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "label": Object {
+                "labelTooltipSpacing": 8,
+                "positionSide": Object {
+                  "breakpoints": Array [
+                    Object {
+                      "breakpoint": "60em",
+                      "width": 150,
+                    },
+                  ],
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#212121",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                  "width": "30%",
+                },
+                "positionTop": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                },
+              },
+              "message": Object {
+                "fontSize": 12,
+                "lineHeight": 1,
+                "messageSpacing": 8,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                  "success": Object {
+                    "fontColor": "#43AC6A",
+                  },
+                },
+              },
+              "passwordIconHidden": Object {
+                "name": "eye-slash",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "passwordIconUnhidden": Object {
+                "name": "eye",
+                "src": "",
+                "type": "font-awesome",
+              },
+              "placeholder": Object {
+                "fontColor": "#bdbdbd",
+              },
+              "postfix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "postfixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "postfixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "prefix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "prefixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "prefixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "symbolCounter": Object {
+                "counterMessageSpacing": 32,
+                "counterSpacing": 8,
+                "fontSize": 12,
+                "lineHeight": 1,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                },
+              },
+              "textfield": Object {
+                "bordered": Object {
+                  "borderRadius": 2,
+                  "borderWidth": 1,
+                },
+                "fontFamily": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 4,
+                      "underlined": 0,
+                    },
+                    "paddingY": 4,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "fontSize": 13,
+                  "fullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "lineHeight": 1.5,
+                  "paddingX": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "paddingY": 8,
+                },
+                "state": Object {
+                  "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                  "borderColor": "#e0e0e0",
+                  "borderStyle": "solid",
+                  "disabled": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#e0e0e0",
+                    "borderStyle": "dotted",
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#f04124",
+                    "borderStyle": "solid",
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "fontColor": "#212121",
+                  "hover": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "success": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#43AC6A",
+                    "borderStyle": "solid",
+                    "fontColor": "#43AC6A",
+                  },
+                },
+                "themeColor": "#673AB7",
+                "underlined": Object {
+                  "borderRadius": 0,
+                  "borderWidth": 2,
+                },
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    tooltip={null}
+    type="password"
+    value={undefined}
   >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
+    <TextFieldStyled
+      dense={false}
+      fullWidth={false}
+      innerRef={[Function]}
     >
       <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
+        className="TextFieldStyled-bdmlkn QIbv"
       >
-        <input
-          autoComplete="off"
-          className="sc-jqCOkK bWQrgz"
-          disabled={false}
-          id="TextField_67"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value="test"
-        />
-        <div
-          className="InnerButton-imycSA dvlZRg"
-          disabled={false}
+        <TextFieldContentBoxStyled
+          labelPosition="top"
         >
-          <span
-            className="fa fa-eye IconFontAwesomeStyled-dGckvS ccJleE"
-            color=""
-            onClick={[Function]}
-            rotate={0}
-            size="normal"
-          />
-        </div>
+          <div
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+          >
+            <TextFieldRowStyled
+              bordered={false}
+              colorScheme="neutral"
+              dense={false}
+              disabled={false}
+              focus={false}
+              fullWidth={false}
+              slidingLabel={false}
+            >
+              <div
+                className="TextFieldRowStyled-VkWtx iKvbzP"
+                disabled={false}
+              >
+                <TextFieldGroupStyled
+                  bordered={false}
+                  colorScheme="neutral"
+                  dense={false}
+                  disabled={false}
+                  focus={false}
+                  fullWidth={false}
+                >
+                  <div
+                    className="TextFieldGroupStyled-cLQues dwexzW"
+                    disabled={false}
+                  >
+                    <TextFieldElementStyled(input)
+                      autoComplete="off"
+                      bordered={false}
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                      id="TextField_67"
+                      innerRef={[Function]}
+                      maxRows={4}
+                      minRows={2}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      type="text"
+                      value="test"
+                    >
+                      <input
+                        autoComplete="off"
+                        className="sc-jqCOkK bWQrgz"
+                        disabled={false}
+                        id="TextField_67"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        type="text"
+                        value="test"
+                      />
+                    </TextFieldElementStyled(input)>
+                    <InnerButton
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                    >
+                      <div
+                        className="InnerButton-imycSA dvlZRg"
+                        disabled={false}
+                      >
+                        <Icon
+                          color="inherit"
+                          name="eye"
+                          onClick={[Function]}
+                          size="inherit"
+                          src=""
+                          type="font-awesome"
+                        >
+                          <IconFontAwesome
+                            backgroundColor=""
+                            border={false}
+                            color="inherit"
+                            colorScheme="dark"
+                            flip="none"
+                            name="eye"
+                            onClick={[Function]}
+                            pulse={false}
+                            rotate={0}
+                            rounded={false}
+                            size="inherit"
+                            sizeMultiplier={1}
+                            spin={false}
+                            src=""
+                            tabIndex={-1}
+                            type="font-awesome"
+                          >
+                            <IconFontAwesomeStyled
+                              backgroundColor=""
+                              bgColor=""
+                              border={false}
+                              className="fa fa-eye"
+                              color=""
+                              colorScheme="dark"
+                              flip="none"
+                              onClick={[Function]}
+                              pulse={false}
+                              rotate={0}
+                              rounded={false}
+                              size="normal"
+                              sizeKey="inherit"
+                              sizeMultiplier={1}
+                              spin={false}
+                              userColor="inherit"
+                            >
+                              <span
+                                className="fa fa-eye IconFontAwesomeStyled-dGckvS ccJleE"
+                                color=""
+                                onClick={[Function]}
+                                rotate={0}
+                                size="normal"
+                              />
+                            </IconFontAwesomeStyled>
+                          </IconFontAwesome>
+                        </Icon>
+                      </div>
+                    </InnerButton>
+                  </div>
+                </TextFieldGroupStyled>
+              </div>
+            </TextFieldRowStyled>
+          </div>
+        </TextFieldContentBoxStyled>
       </div>
-    </div>
-  </div>
-</div>
+    </TextFieldStyled>
+  </TextField>
+</WithTheme(TextField)>
 `;
 
 exports[`<TextField/> renders correctly if prop password set true and disabled 1`] = `

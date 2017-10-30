@@ -81,7 +81,7 @@ exports[`<App/> renders correctly if prop fixed set true 1`] = `
 `;
 
 exports[`<App/> renders correctly with default props 1`] = `
-<div
-  className="AppStyled-kbfYzO gLeacj"
+<AppStyled
+  fixed={false}
 />
 `;
