@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { findAllByType, setProps } from 'reactackle-test-utils';
+import { mount } from 'enzyme';
+import toJson from 'enzyme-to-json';
+import { setProps } from 'reactackle-test-utils';
 import { Tabs } from '../src';
 import { TabStyled } from '../src/Tab/styles/TabStyled';
 
@@ -90,7 +92,7 @@ describe('<Tabs/>', () => {
 
   it('renders correctly if change tab', () => {
     const mockFn = jest.fn(),
-      component = renderer.create(
+      component = mount(
         <Tabs
           onChange={mockFn}
           tabs={[
@@ -100,13 +102,13 @@ describe('<Tabs/>', () => {
         />,
       );
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
 
-    const tabs = findAllByType(component, TabStyled);
-    tabs[1].props.onClick();
-
+    const tabs = component.find(TabStyled);
+    tabs.at(1).simulate('click');
     expect(mockFn).toHaveBeenCalledWith({ value: 1 });
-    expect(component.toJSON()).toMatchSnapshot();
+    
+    expect(toJson(component)).toMatchSnapshot();
   });
 
 

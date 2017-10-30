@@ -2,6 +2,8 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import {
     App,
     BottomRegion,
@@ -10,15 +12,13 @@ import {
     Content,
 } from '../src';
 
-jest.mock('react-dom');
-
 describe('<App/>', () => {
   it('renders correctly with default props', () => {
-    const tree = renderer.create(
+    const tree = shallow(
       <App />,
-    ).toJSON();
+    );
 
-    expect(tree).toMatchSnapshot();
+    expect(toJson(tree)).toMatchSnapshot();
   });
 
   it('renders correctly if prop fixed set true', () => {

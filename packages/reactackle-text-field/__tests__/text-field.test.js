@@ -653,14 +653,14 @@ describe('<TextField/>', () => {
   it(
     'renders correctly if prop password set true' +
     ' and call show password', () => {
-    const component = renderer.create(
+    const component = mount(
       <TextField defaultValue="test" type="password" />,
     );
 
-    expect(component.toJSON()).toMatchSnapshot();
-    findByType(component, Icon).props.onClick();
+    expect(toJson(component)).toMatchSnapshot();
+    component.find(Icon).simulate('click');
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders correctly if prop password set true,' +
@@ -873,15 +873,15 @@ describe('<TextField/>', () => {
   });
 
   it('renders correctly if prop clearingIcon set true and call clear', () => {
-    const component = renderer.create(
+    const component = mount(
       <TextField defaultValue="test" clearingIcon />,
     );
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
 
-    findByType(component, Icon).props.onClick();
+    component.find(Icon).simulate('click');
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders correctly if prop id set test', () => {
@@ -1349,13 +1349,12 @@ describe('<TextField /> multiline', () => {
           multiline multilineRows={{ min: 5 }}
         />,
       );
-
-    wrapper.find('textarea').props().onChange({
+    
+    wrapper.find('textarea').simulate('change', {
       target: { value: 'newValue' },
     });
-    wrapper.find('textarea').props().onFocus();
-    wrapper.find('textarea').props().onBlur();
-
+    wrapper.find('textarea').simulate('focus');
+    wrapper.find('textarea').simulate('blur');
     expect(mockFn).toHaveBeenCalledTimes(3);
   });
 });
