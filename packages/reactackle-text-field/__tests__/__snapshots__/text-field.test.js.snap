@@ -98,10 +98,64 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
       >
         <textarea
           autocomplete="off"
-          class="sc-hgRTRy cYQFfH"
-          id="TextField_137"
+          class="sc-gldTML cwYJsT"
+          id="TextField_139"
           placeholder="test"
           style="height:0;"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField /> multiline renders correctly if prop resize set manual 1`] = `
+<div
+  class="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      class="TextFieldRowStyled-VkWtx iKvbzP"
+    >
+      <div
+        class="TextFieldGroupStyled-cLQues dwexzW"
+      >
+        <textarea
+          autocomplete="off"
+          class="sc-hgRTRy cYQFfH"
+          id="TextField_137"
+          placeholder=""
+          rows="5"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField /> multiline renders correctly if prop resize set none 1`] = `
+<div
+  class="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      class="TextFieldRowStyled-VkWtx iKvbzP"
+    >
+      <div
+        class="TextFieldGroupStyled-cLQues dwexzW"
+      >
+        <textarea
+          autocomplete="off"
+          class="sc-iIHSe kmBXPm"
+          id="TextField_138"
+          placeholder=""
+          rows="5"
           type="text"
         />
       </div>

@@ -1329,6 +1329,23 @@ describe('<TextField /> multiline', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
+  it('renders correctly if prop resize set manual', () => {
+    const wrapper = render(
+      <TextField multiline multilineRows={{ min: 5 }} resize="manual" />,
+    );
+
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
+  it('renders correctly if prop resize set none', () => {
+    const wrapper = render(
+      <TextField multiline multilineRows={{ min: 5 }} resize="none" />,
+    );
+
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
+
   it('renders correctly if prop placeholder set', () => {
     const wrapper = render(
       <TextField multiline multilineRows={{ min: 5 }} placeholder="test" />,
