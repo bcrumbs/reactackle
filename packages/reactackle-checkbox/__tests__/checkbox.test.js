@@ -9,11 +9,8 @@ import {
   Checkbox,
 } from '../src';
 import {
-  CheckboxLabelStyled
+  CheckboxLabelStyled,
 } from '../src/styles/CheckboxLabelStyled';
-import {
-  CheckboxInputStyled
-} from '../src/styles/CheckboxInputStyled';
 
 describe('<Checkbox/>', () => {
   it('renders correctly with default props', () => {
