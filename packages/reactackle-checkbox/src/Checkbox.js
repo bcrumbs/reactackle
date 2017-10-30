@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { noop, isUndef, registerDefaultComponentTheme } from 'reactackle-core';
+import { noop, isUndef, registerDefaultComponentTheme, keyboardCodes } from 'reactackle-core';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 import { CheckboxStyled } from './styles/CheckboxStyled';
 import { CheckboxElementStyled } from './styles/CheckboxElementStyled';
@@ -72,9 +72,14 @@ export default class Checkbox extends Component {
 
     this.state = {
       checked: isUndef(props.checked) ? props.defaultChecked : props.checked,
+      focused: false,
     };
 
     this._handleChange = this._handleChange.bind(this);
+    this._handleFocus = this._handleFocus.bind(this);
+    this._handleBlur = this._handleBlur.bind(this);
+    this._manualChange = this._manualChange.bind(this);
+    this._keyboardListener = this._keyboardListener.bind(this);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -86,6 +91,10 @@ export default class Checkbox extends Component {
         checked: this.props.checked,
       });
     }
+  }
+
+  get disabled () {
+    return this.props.disabled || !!this.props.errorMessage;
   }
 
   _handleChange(event) {
@@ -100,6 +109,34 @@ export default class Checkbox extends Component {
     this.props.onChange({
       value: checked,
     });
+  }
+
+  _manualChange() {
+    this.setState(prevState => ({ checked: !prevState.checked }));
+  }
+
+  _handleFocus() {
+    this._toggleKeyboardListener(true);
+    this.setState({ focused: true });
+  }
+
+  _handleBlur() {
+    this._toggleKeyboardListener(false);
+    this.setState({ focused: false });
+  }
+
+  _keyboardListener(e) {
+    const key = e.keyCode || e.which;
+    if (key === keyboardCodes.SPACE) {
+      this._manualChange();
+    }
+  }
+  _toggleKeyboardListener(condition) {
+    if (condition) {
+      document.addEventListener('keypress', this._keyboardListener);
+    } else {
+      document.removeEventListener('keypress', this._keyboardListener);
+    }
   }
 
   render() {
@@ -134,11 +171,11 @@ export default class Checkbox extends Component {
     const checkboxIcon =
       !this.props.label && !this.props.labelElement
         ? <CheckboxIcon
-            disabled={this.props.disabled}
+            disabled={this.disabled}
             checked={checked}
             tooltipText={this.props.tooltip}
           />
-        : <CheckboxIcon disabled={this.props.disabled} checked={checked} />;
+        : <CheckboxIcon disabled={this.disabled} checked={checked} />;
 
     const message = this.props.errorMessage
       ? <MessageStyled>
@@ -155,14 +192,17 @@ export default class Checkbox extends Component {
             id={this._inputId}
             type="checkbox"
             checked={checked}
-            disabled={this.props.disabled}
+            disabled={this.disabled}
             onChange={this._handleChange}
           />
           <CheckboxLabelStyled
             textFree={!this.props.label && !this.props.labelElement}
-            disabled={this.props.disabled}
+            disabled={this.disabled}
             checked={checked}
             htmlFor={this._inputId}
+            tabIndex={this.disabled ? -1 : 0}
+            onFocus={this._handleFocus}
+            onBlur={this._handleBlur}
           >
             {checkboxIcon}
             {label}
