@@ -144,7 +144,7 @@ const propTypes = {
     max: PropTypes.number,
   }),
   /**
-   * Specify type of resizing, only applied in multiline TextField 
+   * Specify type of resizing, only applied in multiline TextField
    */
   resize: PropTypes.oneOf(['none', 'manual', 'auto']),
   /**
