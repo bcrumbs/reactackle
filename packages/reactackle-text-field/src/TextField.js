@@ -467,7 +467,6 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
-        type="svg"
       >
         {iconOuter}
       </IconOuterStyled>
@@ -486,7 +485,6 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        type="svg"
       >
         {iconInner}
       </IconInnerStyled>
