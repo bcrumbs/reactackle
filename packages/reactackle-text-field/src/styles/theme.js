@@ -523,9 +523,9 @@ export default {
     },
   },
   /* eslint-disable react/display-name */
-  clearingIconElement: () => <IconCross size="custom" color="inherit" />,
-  passwordIconShowElement: () => <IconEye size="custom" color="inherit" />,
-  passwordIconHideElement: () => <IconEyeClosed size="custom" color="inherit" />,
+  clearingIconElement: <IconCross size="custom" color="inherit" />,
+  passwordIconShowElement: <IconEye size="custom" color="inherit" />,
+  passwordIconHideElement: <IconEyeClosed size="custom" color="inherit" />,
   
   message: {
     messageSpacing: bmodule(1),
