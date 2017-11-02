@@ -1,3 +1,4 @@
+import React from 'react';
 import Color from 'color';
 import {
   bmodule,
@@ -10,6 +11,7 @@ import {
   zIndexNav,
   bodyFontColorAlt,
 } from 'reactackle-core';
+import { IconArrowChevronLeft } from 'reactackle-icons';
 
 /** '+1' is needed to be sure that sidebar is placed over header */
 const sidebarZIndex = base => zIndexNav(base) + 1,
@@ -55,6 +57,8 @@ export default {
     textTransform: 'none',
     zIndex: sidebarZIndex,
     paddingRight: 0,
+    // eslint-disable-next-line react/display-name
+    iconElement: () => <IconArrowChevronLeft size="custom" color="inherit" />,
 
     style: {
       collapsed: {

@@ -20,10 +20,6 @@ const propTypes = {
    */
   toggleButtonText: PropTypes.string,
   /**
-   * Determines icon of toggle button
-   */
-  toggleButtonIcon: PropTypes.element,
-  /**
    * Determines whether sidebar is expanded
    */
   expanded: PropTypes.bool,
@@ -100,7 +96,6 @@ export default class Sidebar extends Component {
     return (
       <SidebarToggle
         toggleButtonText={this.props.toggleButtonText}
-        icon={this.props.toggleButtonIcon || undefined}
         expanded={expanded}
         autoCollapsing={this.props.autoCollapsing}
         onClick={this._handleToggle}
