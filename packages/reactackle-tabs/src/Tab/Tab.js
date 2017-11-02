@@ -93,7 +93,7 @@ export default class Tab extends Component {
     if (!this.props.text) return null;
 
     return (
-      <TabTextStyled hasIcon={this.props.icon}>
+      <TabTextStyled hasIcon={this.props.icon !== null}>
         {this.props.text}
       </TabTextStyled>
     );
