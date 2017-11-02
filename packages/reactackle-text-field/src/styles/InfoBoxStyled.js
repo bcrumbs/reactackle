@@ -18,7 +18,7 @@ const propTypes = {
   /**
    * Add icon behind textfield
    */
-  iconOuter: PropTypes.object,
+  iconOuter: PropTypes.element,
   /**
    * Define component theme config
    * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md

@@ -15,7 +15,7 @@ const propTypes = {
   colorScheme: PropTypes.oneOf(['neutral', 'error', 'success']),
   labelPosition: PropTypes.oneOf(['top', 'side']),
   slidingLabel: PropTypes.bool,
-  iconOuter: PropTypes.object,
+  iconOuter: PropTypes.element,
   theme: PropTypes.object,
 };
 
