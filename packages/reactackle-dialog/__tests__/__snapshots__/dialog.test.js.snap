@@ -56,7 +56,7 @@ exports[`<Dialog/> renders correctly call button onPress if contains buttons 1`]
               className="DialogButtonStyled-eVQtUE bvtQpF"
             >
               <button
-                className="ButtonStyled__Button-FHerW KXGKt"
+                className="ButtonStyled__Button-FHerW hPyebZ"
                 disabled={false}
                 onClick={[Function]}
                 radius="default"
@@ -473,7 +473,7 @@ exports[`<Dialog/> renders correctly left buttons 1`] = `
               className="DialogButtonStyled-eVQtUE bvtQpF"
             >
               <button
-                className="ButtonStyled__Button-FHerW KXGKt"
+                className="ButtonStyled__Button-FHerW hPyebZ"
                 disabled={false}
                 onClick={[Function]}
                 radius="default"

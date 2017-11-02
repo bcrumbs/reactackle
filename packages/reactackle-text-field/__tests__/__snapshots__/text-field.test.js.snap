@@ -3671,7 +3671,6 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
           <div
             className="IconInnerStyled-iRsRrl jLryTk"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -3904,7 +3903,6 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_60"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -3971,7 +3969,6 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_61"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -4038,7 +4035,6 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
         className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_62"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -4105,7 +4101,6 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_64"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -4172,7 +4167,6 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_63"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -4771,7 +4765,6 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_82"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -7361,7 +7354,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_28"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -7519,7 +7511,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_29"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -7575,7 +7566,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
         className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_30"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -7631,7 +7621,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_33"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -7687,7 +7676,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_31"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -7743,7 +7731,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_32"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -8170,7 +8157,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_44"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -8282,7 +8268,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_45"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -8349,7 +8334,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_46"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -8416,7 +8400,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_49"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -8528,7 +8511,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_47"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -8595,7 +8577,6 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_48"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9049,7 +9030,6 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_65"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9235,7 +9215,6 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
           <div
             className="IconInnerStyled-iRsRrl jLryTk"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9296,7 +9275,6 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
           <div
             className="IconInnerStyled-iRsRrl efwVKF"
             disabled={true}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9357,7 +9335,6 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
           <div
             className="IconInnerStyled-iRsRrl jtaNj"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9418,7 +9395,6 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
           <div
             className="IconInnerStyled-iRsRrl jLryTk"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9479,7 +9455,6 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
           <div
             className="IconInnerStyled-iRsRrl emEHvi"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9540,7 +9515,6 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
           <div
             className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9601,7 +9575,6 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
           <div
             className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9654,7 +9627,6 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_106"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9710,7 +9682,6 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
         className="IconOuterStyled-JjRcK jlFyHm"
         disabled={true}
         htmlFor="TextField_110"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9766,7 +9737,6 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
         className="IconOuterStyled-JjRcK jqCljH"
         disabled={false}
         htmlFor="TextField_112"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9822,7 +9792,6 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
         className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_111"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9878,7 +9847,6 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
         className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_108"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9934,7 +9902,6 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_107"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -9990,7 +9957,6 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
         className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_109"
-        type="svg"
       >
         <div
           className="IconSvgStyled-kZHpyB dYiAvB"
@@ -10582,7 +10548,6 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
           <div
             className="IconInnerStyled-iRsRrl jLryTk"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -10651,7 +10616,6 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
           <div
             className="IconInnerStyled-iRsRrl emEHvi"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -10720,7 +10684,6 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
           <div
             className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
@@ -10789,7 +10752,6 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
           <div
             className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
-            type="svg"
           >
             <div
               className="IconSvgStyled-kZHpyB dYiAvB"
