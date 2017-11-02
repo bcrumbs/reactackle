@@ -137,7 +137,7 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
   const borderWidth = theme.reactackle.components.button.borderWidth;
   const borderStyle = theme.reactackle.components.button.borderStyle;
 
-  return css`        
+  return css`
     ${outlined
       ? `
         border-width: ${getValueString(borderWidth)};
