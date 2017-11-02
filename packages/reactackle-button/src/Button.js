@@ -52,7 +52,7 @@ const propTypes = {
   /**
    * Define icon (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.node,
+  icon: PropTypes.element,
   /**
    * Stop onClick event's propagation and only call onPress
    */

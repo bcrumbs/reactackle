@@ -11,7 +11,7 @@ const propTypes = {
   toggleButtonText: PropTypes.string,
   expanded: PropTypes.bool,
   autoCollapsing: PropTypes.bool,
-  icon: PropTypes.node,
+  icon: PropTypes.element,
   onClick: PropTypes.func,
 };
 

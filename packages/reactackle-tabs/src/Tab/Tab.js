@@ -41,7 +41,7 @@ const propTypes = {
   /**
    * Icon that will be rendered on Tab (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.node,
+  icon: PropTypes.element,
   /**
    * Specify function that will be called on Tab selection
    */

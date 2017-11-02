@@ -22,7 +22,7 @@ const propTypes = {
   /**
    * Determines icon of toggle button
    */
-  toggleButtonIcon: PropTypes.node,
+  toggleButtonIcon: PropTypes.element,
   /**
    * Determines whether sidebar is expanded
    */

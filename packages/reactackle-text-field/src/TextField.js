@@ -92,11 +92,11 @@ const propTypes = {
   /**
    * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: PropTypes.node,
+  iconOuter: PropTypes.element,
   /**
    * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: PropTypes.node,
+  iconInner: PropTypes.element,
   /**
    * Define label position
    */
