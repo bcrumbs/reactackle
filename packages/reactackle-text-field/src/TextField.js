@@ -418,11 +418,11 @@ class _TextField extends Component {
   _renderInnerButton() {
     const componentPath = this.props.theme.reactackle.components.textfield;
 
-    const clearingIconPath = componentPath.clearingIcon;
+    const clearingIconElement = componentPath.clearingIconElement;
 
-    const passwordIconPath = this.state.hidden
-      ? componentPath.passwordIconShow
-      : componentPath.passwordIconHide;
+    const passwordIconElement = this.state.hidden
+      ? componentPath.passwordIconShowElement
+      : componentPath.passwordIconHideElement;
 
     if (typeof this.state.hidden === 'boolean') {
       return (
@@ -434,7 +434,7 @@ class _TextField extends Component {
           colorScheme={this.props.colorScheme}
           onClick={this._handleHideValue}
         >
-          {passwordIconPath}
+          {passwordIconElement}
         </InnerButton>
       );
     } else if (this.props.clearingIcon) {
@@ -447,7 +447,7 @@ class _TextField extends Component {
           colorScheme={this.props.colorScheme}
           onClick={this._handleClearValue}
         >
-          {clearingIconPath}
+          {clearingIconElement}
         </InnerButton>
       );
     }

@@ -20,7 +20,7 @@ const _DialogCloseButton = props => (
     transparentBg={props.transparentBg}
     onClick={props.onClick}
   >
-    {props.theme.reactackle.components.dialog.closeButton.iconSrc}
+    {props.theme.reactackle.components.dialog.closeButton.iconElement}
   </DialogCloseButtonStyled>
 );
 

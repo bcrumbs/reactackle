@@ -568,7 +568,7 @@ exports[`<TextField/> handless focus 1`] = `
                   },
                 },
               },
-              "clearingIcon": <IconCross
+              "clearingIconElement": <IconCross
                 color="inherit"
                 size="custom"
       />,
@@ -802,11 +802,11 @@ exports[`<TextField/> handless focus 1`] = `
                   },
                 },
               },
-              "passwordIconHide": <IconEyeClosed
+              "passwordIconHideElement": <IconEyeClosed
                 color="inherit"
                 size="custom"
       />,
-              "passwordIconShow": <IconEye
+              "passwordIconShowElement": <IconEye
                 color="inherit"
                 size="custom"
       />,
@@ -1903,7 +1903,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "clearingIcon": <IconCross
+              "clearingIconElement": <IconCross
                 color="inherit"
                 size="custom"
       />,
@@ -2137,11 +2137,11 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "passwordIconHide": <IconEyeClosed
+              "passwordIconHideElement": <IconEyeClosed
                 color="inherit"
                 size="custom"
       />,
-              "passwordIconShow": <IconEye
+              "passwordIconShowElement": <IconEye
                 color="inherit"
                 size="custom"
       />,
@@ -2792,7 +2792,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "clearingIcon": <IconCross
+              "clearingIconElement": <IconCross
                 color="inherit"
                 size="custom"
       />,
@@ -3026,11 +3026,11 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "passwordIconHide": <IconEyeClosed
+              "passwordIconHideElement": <IconEyeClosed
                 color="inherit"
                 size="custom"
       />,
-              "passwordIconShow": <IconEye
+              "passwordIconShowElement": <IconEye
                 color="inherit"
                 size="custom"
       />,
@@ -5292,7 +5292,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "clearingIcon": <IconCross
+              "clearingIconElement": <IconCross
                 color="inherit"
                 size="custom"
       />,
@@ -5526,11 +5526,11 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "passwordIconHide": <IconEyeClosed
+              "passwordIconHideElement": <IconEyeClosed
                 color="inherit"
                 size="custom"
       />,
-              "passwordIconShow": <IconEye
+              "passwordIconShowElement": <IconEye
                 color="inherit"
                 size="custom"
       />,
@@ -6181,7 +6181,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "clearingIcon": <IconCross
+              "clearingIconElement": <IconCross
                 color="inherit"
                 size="custom"
       />,
@@ -6415,11 +6415,11 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "passwordIconHide": <IconEyeClosed
+              "passwordIconHideElement": <IconEyeClosed
                 color="inherit"
                 size="custom"
       />,
-              "passwordIconShow": <IconEye
+              "passwordIconShowElement": <IconEye
                 color="inherit"
                 size="custom"
       />,

@@ -45,7 +45,7 @@ const CheckboxIconComponent = props => {
       disabled={props.disabled}
       {...tooltipManagementProps}
     >
-      {props.theme.reactackle.components.checkbox.icon.src}
+      {props.theme.reactackle.components.checkbox.icon.element}
       {tooltip}
     </CheckboxIconStyled>
   );

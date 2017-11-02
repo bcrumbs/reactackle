@@ -334,7 +334,7 @@ class _SelectBoxCustom extends Component {
                   colorScheme={this.props.colorScheme}
                 >
                   {this.props.theme.reactackle.components.selectBox
-                    .icon.src}
+                    .icon.element}
                 </ArrowIconStyled>
               </ButtonStyled>
               <AutoPosition
