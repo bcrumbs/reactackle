@@ -1,9 +1,8 @@
-'use strict';
-
 import React from 'react';
 import {
   TextField,
   FormItem,
+  IconDefault,
 } from 'reactackle';
 import {
   RouteDemo,
@@ -62,7 +61,7 @@ export const TextFieldDemoRoute = () => (
         code={SnippetMultiline}
       />
     </DemoSnippet>
-  
+
     <DemoSnippet title="TextField label">
       <DemoPreview>
         <FormItem>
@@ -134,31 +133,6 @@ export const TextFieldDemoRoute = () => (
               fullWidth
               placeholder="Enter you value..."
               label="Full-width TextField"
-            />
-          </FormItem>
-          <FormItem>
-            <TextField
-              fullWidth
-              placeholder="Enter you value..."
-              label="Full-width TextField width side label"
-              labelPosition="side"
-            />
-          </FormItem>
-          <FormItem>
-            <TextField
-              fullWidth
-              placeholder="Enter you value..."
-              label="Full-width TextField width side label"
-              labelPosition="side"
-              iconOuter={{ name: 'android' }}
-            />
-          </FormItem>
-          <FormItem>
-            <TextField
-              fullWidth
-              placeholder="Enter you value..."
-              label="Full-width TextField width icon"
-              iconOuter={{ name: 'android' }}
             />
           </FormItem>
           <FormItem>
@@ -242,16 +216,16 @@ export const TextFieldDemoRoute = () => (
           <FormItem>
             <TextField
               placeholder="Enter you value..."
-              iconOuter={{ name: 'android' }}
               label="TextField with iconOuter"
+              iconOuter={<IconDefault />}
             />
           </FormItem>
           <FormItem>
             <TextField
               bordered
               placeholder="Enter you value..."
-              iconOuter={{ name: 'android' }}
               label="TextField with iconOuter"
+              iconOuter={<IconDefault />}
             />
           </FormItem>
         </TestBox>
@@ -259,16 +233,16 @@ export const TextFieldDemoRoute = () => (
           <FormItem>
             <TextField
               placeholder="Enter you value..."
-              iconInner={{ name: 'cc-visa' }}
               label="TextField with iconInner"
+              iconInner={<IconDefault />}
             />
           </FormItem>
           <FormItem>
             <TextField
               bordered
               placeholder="Enter you value..."
-              iconInner={{ name: 'cc-visa' }}
               label="TextField with iconInner"
+              iconInner={<IconDefault />}
             />
           </FormItem>
         </TestBox>
@@ -312,7 +286,7 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="Disabled TextField"
               clearingIcon
-              iconOuter={{ name: 'android' }}
+              iconOuter={<IconDefault />}
             />
           </FormItem>
           <FormItem>
@@ -322,7 +296,7 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="Disabled TextField"
               clearingIcon
-              iconOuter={{ name: 'android' }}
+              iconOuter={<IconDefault />}
             />
           </FormItem>
         </TestBox>
@@ -334,8 +308,8 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="TextField with error"
               clearingIcon
-              iconOuter={{ name: 'android' }}
               message="Some error happened"
+              iconOuter={<IconDefault />}
             />
           </FormItem>
           <FormItem>
@@ -345,8 +319,8 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="TextField with error"
               clearingIcon
-              iconOuter={{ name: 'android' }}
               message="Some error happened"
+              iconOuter={<IconDefault />}
             />
           </FormItem>
         </TestBox>
@@ -358,8 +332,8 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="TextField with success"
               clearingIcon
-              iconOuter={{ name: 'android' }}
               message="Successfully saved"
+              iconOuter={<IconDefault />}
             />
           </FormItem>
           <FormItem>
@@ -369,8 +343,8 @@ export const TextFieldDemoRoute = () => (
               placeholder="Enter you value..."
               label="TextField with success"
               clearingIcon
-              iconOuter={{ name: 'android' }}
               message="Successfully saved"
+              iconOuter={<IconDefault />}
             />
           </FormItem>
         </TestBox>

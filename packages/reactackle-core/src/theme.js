@@ -1,5 +1,6 @@
 'use strict';
 
+import { isValidElement } from 'react';
 import mapValues from 'lodash.mapvalues';
 import pick from 'lodash.pick';
 import merge from 'lodash.merge';
@@ -11,6 +12,8 @@ const baseKeys = Object.keys(defaultBase);
 
 const buildByBlueprint = (blueprint, base, mixin = {}) =>
   mapValues(blueprint, (value, key) => {
+    if (isValidElement(value)) return value;
+
     if (isObject(value)) return buildByBlueprint(value, base, mixin[key]);
 
     const current = isUndef(mixin[key]) ? value : mixin[key];

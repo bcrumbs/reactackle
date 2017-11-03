@@ -15,7 +15,7 @@ const propTypes = {
   colorScheme: PropTypes.oneOf(['neutral', 'error', 'success']),
   labelPosition: PropTypes.oneOf(['top', 'side']),
   slidingLabel: PropTypes.bool,
-  iconOuter: PropTypes.string,
+  iconOuter: PropTypes.element,
   theme: PropTypes.object,
 };
 
@@ -27,7 +27,7 @@ const defaultProps = {
   colorScheme: 'neutral',
   labelPosition: 'top',
   slidingLabel: false,
-  iconOuter: '',
+  iconOuter: null,
 };
 
 /** PROP RECEIVERS */
