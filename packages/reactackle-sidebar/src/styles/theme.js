@@ -57,7 +57,6 @@ export default {
     textTransform: 'none',
     zIndex: sidebarZIndex,
     paddingRight: 0,
-    // eslint-disable-next-line react/display-name
     iconElement: <IconArrowChevronLeft size="custom" color="inherit" />,
 
     style: {
