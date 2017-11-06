@@ -90,7 +90,7 @@ exports[`<Button/> renders correctly if prop colorScheme="white" set 1`] = `
 
 exports[`<Button/> renders correctly if prop disabled set true 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW hNyDco"
+  className="ButtonStyled__Button-FHerW jttVrz"
   disabled={true}
   onClick={[Function]}
   radius="default"
