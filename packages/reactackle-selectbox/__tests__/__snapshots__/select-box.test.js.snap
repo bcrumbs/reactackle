@@ -77,7 +77,7 @@ exports[`<OptionCustom /> render correctly if selected 1`] = `
 
 exports[`<OptionsListCustom /> handles option click 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -94,7 +94,7 @@ exports[`<OptionsListCustom /> handles option click 1`] = `
 
 exports[`<OptionsListCustom /> handles option click 2`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -111,7 +111,7 @@ exports[`<OptionsListCustom /> handles option click 2`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -128,7 +128,7 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 1`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 2`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -145,7 +145,7 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 2`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 3`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -162,7 +162,7 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 3`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 4`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -179,7 +179,7 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 4`] = `
 
 exports[`<OptionsListCustom /> renders correctly if prop dense 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -196,7 +196,7 @@ exports[`<OptionsListCustom /> renders correctly if prop dense 1`] = `
 
 exports[`<OptionsListCustom /> renders correctly if prop fullWidth 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -213,7 +213,7 @@ exports[`<OptionsListCustom /> renders correctly if prop fullWidth 1`] = `
 
 exports[`<OptionsListCustom /> renders correctly if prop fullWidth and dense 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
@@ -230,7 +230,7 @@ exports[`<OptionsListCustom /> renders correctly if prop fullWidth and dense 1`]
 
 exports[`<OptionsListCustom /> renders correctly if prop maxOptionsVisible 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX cyYkGp"
+  className="OptionsListStyled-cqpdKX eTXfqy"
 >
   <li
     className="OptionCustomStyled-dGYyuP geFRTu"
