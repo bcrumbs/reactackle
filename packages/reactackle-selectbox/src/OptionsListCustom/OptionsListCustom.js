@@ -22,7 +22,7 @@ const defaultProps = {
   selectedItem: {},
   onChange: noop,
   createListRef: noop,
-  maxLines: 5,
+  maxLines: 5.5,
 };
 
 export class OptionsListCustom extends Component {

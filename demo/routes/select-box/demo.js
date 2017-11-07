@@ -165,7 +165,7 @@ export class SelectBoxDemoRoute extends Component {
               <SelectBox
                 value={this._getValue(17)}
                 options={data}
-                maxOptionsVisible={2}
+                maxOptionsVisible={2.25}
                 placeholder={'Choose option...'}
                 onChange={this._handleChange(17)}
                 label="With restricted visible options"

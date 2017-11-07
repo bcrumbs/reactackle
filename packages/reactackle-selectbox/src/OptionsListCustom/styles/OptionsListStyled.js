@@ -39,6 +39,7 @@ const baseProps = ({ theme: themeFromProvider, maxLines }) => {
   } = theme.reactackle.components.selectBox.optionsList;
   
   const {
+    fontSize,
     paddingY: itemPaddingY,
     lineHeight,
   } = theme.reactackle.components.selectBox.option.size;
@@ -48,12 +49,13 @@ const baseProps = ({ theme: themeFromProvider, maxLines }) => {
 
   const py = getValueString(paddingY),
     itemPy = getValueString(itemPaddingY),
-    textHeight = lineHeight * maxLines - 1;
+    textHeight = lineHeight * maxLines;
 
   const maxHeight = `calc(${py} * 2 + ${textHeight}em + ${itemPy} * ${2 *
     maxLines})`;
 
   return `
+    font-size: ${getValueString(fontSize)};
     min-width: ${getValueString(minWidth)};
     max-width: ${getValueString(maxWidth)};
     max-height: ${maxHeight};
