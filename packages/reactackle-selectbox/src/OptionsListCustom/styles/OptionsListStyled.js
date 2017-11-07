@@ -25,7 +25,7 @@ const defaultProps = {
 };
 
 /** Prop Receivers */
-const baseProps = ({ theme: themeFromProvider }) => {
+const baseProps = ({ theme: themeFromProvider, maxLines }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
 
   const {
@@ -33,14 +33,30 @@ const baseProps = ({ theme: themeFromProvider }) => {
     backgroundColor,
     minWidth,
     maxWidth,
+    size: {
+      paddingY,
+    },
   } = theme.reactackle.components.selectBox.optionsList;
+  
+  const {
+    paddingY: itemPaddingY,
+    lineHeight,
+  } = theme.reactackle.components.selectBox.option.size;
 
   const fontFamily =
     theme.reactackle.fontFamily[theme.reactackle.body.fontFamily];
 
+  const py = getValueString(paddingY),
+    itemPy = getValueString(itemPaddingY),
+    textHeight = lineHeight * maxLines - 1;
+
+  const maxHeight = `calc(${py} * 2 + ${textHeight}em + ${itemPy} * ${2 *
+    maxLines})`;
+
   return `
     min-width: ${getValueString(minWidth)};
     max-width: ${getValueString(maxWidth)};
+    max-height: ${maxHeight};
     background-color:  ${backgroundColor};
     border-radius: ${getValueString(borderRadius)};
     
