@@ -161,6 +161,16 @@ export class SelectBoxDemoRoute extends Component {
                 dense
               />
             </TestBox>
+            <TestBox>
+              <SelectBox
+                value={this._getValue(17)}
+                options={data}
+                maxOptionsVisible={2}
+                placeholder={'Choose option...'}
+                onChange={this._handleChange(17)}
+                label="With restricted visible options"
+              />
+            </TestBox>
           </DemoPreview>
           <DemoCode
             code={Snippet3}
