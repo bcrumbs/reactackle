@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {
   withTooltip,
+  withContentTooltip,
   noop,
 } from 'reactackle';
 import {
@@ -48,6 +49,16 @@ SomeComponentTemplate.defaultProps = {
 };
 SomeComponentTemplate.displayName = 'SomeComponent';
 
+const TooltipTarget = props =>
+  <div onClick={props.toggleTooltip}>{props.text}</div>;
+
+const TooltipContent = props =>
+  <div
+    style={{ background: 'red', width: '100px', height: '100px'}}
+  >{props.tooltipText}</div>;
+
+const C = withContentTooltip(TooltipTarget, TooltipContent);
+
 export const SomeComponent = withTooltip(SomeComponentTemplate, true);
 
 export const TooltipDemoRoute = () => (
@@ -56,6 +67,12 @@ export const TooltipDemoRoute = () => (
       <DemoPreview>
         <TestBox>
           <SomeComponent text="Tooltip" />
+        </TestBox>
+        <TestBox>
+          <C
+            text="New tooltip"
+            tooltipText="im tooltip text"
+          />
         </TestBox>
       </DemoPreview>
       <DemoCode

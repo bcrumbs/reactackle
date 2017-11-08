@@ -18,7 +18,8 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react-portal": "^3.1.0"
+    "react-portal": "^3.1.0",
+    "reactackle-autoposition": "^0.0.3-beta.2"
   },
   "peerDependencies": {
     "react": "^15.6.1",
