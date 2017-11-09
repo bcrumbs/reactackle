@@ -1,28 +1,27 @@
 /../
 
-class SomeComponentTemplate extends Component {
-  render() {
-    const { text } = this.props;
-    return (
-      <div
-        onClick={this.props.toggleTooltip}
-        onFocus={this.props.showTooltip}
-        onBlur={this.props.hideTooltip}
-        onMouseEnter={this.props.showTooltip}
-        onMouseLeave={this.props.hideTooltip}
-        className="some-component has-tooltip"
-        tabIndex="1"
-      >
-        <strong>Hover me</strong>
-        <this.props.Tooltip text={text} />
-      </div>
-    );
-  }
-}
+const ComponentWithDefaultDynamicTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    onFocus: props.showTooltip,
+    onBlur: props.hideTooltip,
+    onMouseEnter: props.showTooltip,
+    onMouseLeave: props.hideTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Hover me</strong>
+      <props.Tooltip>
+        {props.text}
+      </props.Tooltip>
+    </div>
+  );
+};
 
-SomeComponentTemplate.displayName = 'SomeComponent';
-export const SomeComponent = withTooltip(SomeComponentTemplate, true);
+const WithDefaultDynamicTooltip =
+  withTooltip(ComponentWithDefaultDynamicTooltip);
 
 /../
 
-<SomeComponent text="Tooltip" />
+<WithDefaultDynamicTooltip text="Just usual text" mode="dynamic" />

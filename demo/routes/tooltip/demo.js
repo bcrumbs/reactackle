@@ -1,11 +1,9 @@
 'use strict';
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
   withTooltip,
-  withContentTooltip,
-  noop,
+  Button,
 } from 'reactackle';
 import {
   RouteDemo,
@@ -16,67 +14,159 @@ import {
   DemoPreview,
   DemoCode,
 } from '../../components/DemoSnippet/DemoSnippet';
-import SnippetDefault from './snippets/1.snippet';
+import SnippetDefaultDynamic from './snippets/1.snippet';
+import SnippetCustomDynamic from './snippets/2.snippet';
+import SnippetDefaultStatic from './snippets/3.snippet';
+import SnippetCustomStatic from './snippets/4.snippet';
 
-const SomeComponentTemplate = props => {
+/* eslint-disable react/prop-types */
+
+const ComponentWithDefaultDynamicTooltip = props => {
   const wrapperProps = {
     onClick: props.toggleTooltip,
     onFocus: props.showTooltip,
     onBlur: props.hideTooltip,
     onMouseEnter: props.showTooltip,
     onMouseLeave: props.hideTooltip,
-    className: 'some-component has-tooltip',
     tabIndex: '1',
   };
   return (
     <div {...wrapperProps}>
       <strong>Hover me</strong>
-      <props.Tooltip text={props.text} />
+      <props.Tooltip>
+        {props.text}
+      </props.Tooltip>
     </div>
   );
 };
-SomeComponentTemplate.propTypes = {
-  toggleTooltip: PropTypes.func,
-  showTooltip: PropTypes.func,
-  hideTooltip: PropTypes.func,
-  text: PropTypes.string,
+const ComponentWithCustomDynamicTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    onFocus: props.showTooltip,
+    onBlur: props.hideTooltip,
+    onMouseEnter: props.showTooltip,
+    onMouseLeave: props.hideTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Hover me</strong>
+      <props.TooltipSlot>
+        {({ tooltipRef }) =>
+          <div ref={tooltipRef}>
+            {props.content}
+          </div>
+        }
+      </props.TooltipSlot>
+    </div>
+  );
 };
-SomeComponentTemplate.defaultProps = {
-  toggleTooltip: noop,
-  showTooltip: noop,
-  hideTooltip: noop,
-  text: '',
+
+const ComponentWithDefaultStaticTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Click me</strong>
+      <props.Tooltip>
+        {props.content}
+      </props.Tooltip>
+    </div>
+  );
 };
-SomeComponentTemplate.displayName = 'SomeComponent';
+const ComponentWithCustomStaticTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Click me</strong>
+      <props.TooltipSlot>
+        {({ tooltipRef }) =>
+          <div ref={tooltipRef}>
+            <props.tooltipRenderer hideTooltip={props.hideTooltip}/>
+          </div>
+        }
+      </props.TooltipSlot>
+    </div>
+  );
+};
 
-const TooltipTarget = props =>
-  <div onClick={props.toggleTooltip}>{props.text}</div>;
+const WithDefaultDynamicTooltip =
+  withTooltip(ComponentWithDefaultDynamicTooltip);
 
-const TooltipContent = props =>
-  <div
-    style={{ background: 'red', width: '100px', height: '100px'}}
-  >{props.tooltipText}</div>;
-
-const C = withContentTooltip(TooltipTarget, TooltipContent);
-
-export const SomeComponent = withTooltip(SomeComponentTemplate, true);
+const WithCustomDynamicTooltip = withTooltip(ComponentWithCustomDynamicTooltip);
+const WithDefaultStaticTooltip = withTooltip(ComponentWithDefaultStaticTooltip);
+const WithCustomStaticTooltip = withTooltip(ComponentWithCustomStaticTooltip);
 
 export const TooltipDemoRoute = () => (
   <RouteDemo>
-    <DemoSnippet title="Some demo">
+    <DemoSnippet title="Dynamic tooltip with default wrapper">
       <DemoPreview>
         <TestBox>
-          <SomeComponent text="Tooltip" />
+          <WithDefaultDynamicTooltip text="Just usual text" mode="dynamic" />
         </TestBox>
+      </DemoPreview>
+
+      <DemoCode
+        code={SnippetDefaultDynamic}
+      />
+    </DemoSnippet>
+
+    <DemoSnippet title="Dynamic tooltip with custom wrapper">
+      <DemoPreview>
         <TestBox>
-          <C
-            text="New tooltip"
-            tooltipText="im tooltip text"
+          <WithCustomDynamicTooltip
+            content={<div style={{ background: 'red' }}>custom content</div>}
+            mode="dynamic"
           />
         </TestBox>
       </DemoPreview>
+
       <DemoCode
-        code={SnippetDefault}
+        code={SnippetCustomDynamic}
+      />
+    </DemoSnippet>
+
+    <DemoSnippet title="Static tooltip with default wrapper">
+      <DemoPreview>
+        <TestBox>
+          <WithDefaultStaticTooltip
+            closeOnOutsideClick
+            content={<div style={{ background: 'grey' }}>content in static tooltip</div>}
+            mode="static"
+          />
+        </TestBox>
+      </DemoPreview>
+
+      <DemoCode
+        code={SnippetDefaultStatic}
+      />
+    </DemoSnippet>
+
+    <DemoSnippet title="Static tooltip with custom wrapper">
+      <DemoPreview>
+        <TestBox>
+          <WithCustomStaticTooltip
+            tooltipRenderer={({ hideTooltip }) =>
+              <div style={{ background: 'grey', width: '100px', height: '100px' }}>
+                <Button
+                  colorScheme="primary"
+                  text="Close me"
+                  onPress={hideTooltip}
+                />
+              </div>
+            }
+            mode="static"
+          />
+        </TestBox>
+      </DemoPreview>
+
+      <DemoCode
+        code={SnippetCustomStatic}
       />
     </DemoSnippet>
   </RouteDemo>

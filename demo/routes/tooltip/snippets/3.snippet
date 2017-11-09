@@ -1,0 +1,27 @@
+/../
+
+const ComponentWithDefaultStaticTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Click me</strong>
+      <props.Tooltip>
+        {props.content}
+      </props.Tooltip>
+    </div>
+  );
+};
+
+
+const WithDefaultStaticTooltip = withTooltip(ComponentWithDefaultStaticTooltip);
+
+/../
+
+<WithDefaultStaticTooltip
+  closeOnOutsideClick
+  content={<div style={{ background: 'grey' }}>content in static tooltip</div>}
+  mode="static"
+/>

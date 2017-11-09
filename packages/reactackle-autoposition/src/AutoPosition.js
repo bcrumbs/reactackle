@@ -92,6 +92,10 @@ const propTypes = {
    */
   onOverflow: PropTypes.func,
   ...Portal.propTypes,
+  children: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.element,
+  ]).isRequired,
 };
 
 const defaultProps = {
@@ -525,6 +529,7 @@ export default class AutoPosition extends Component {
   }
 
   render() {
+    const { children } = this.props;
     const style = {
       position: 'fixed',
       zIndex: 9000,
@@ -532,7 +537,6 @@ export default class AutoPosition extends Component {
     };
 
     const pickProps = pick(this.props, keysPortalPropTypes);
-
     return (
       <Portal
         {...pickProps}
@@ -540,7 +544,13 @@ export default class AutoPosition extends Component {
         onOpen={this._handleOpen}
       >
         <div style={style} ref={this._saveRef}>
-          {this.props.children}
+          {typeof children !== 'function'
+            ? children
+            : children({
+              positionX: this.state.currentPositionX,
+              positionY: this.state.currentPositionY,
+            })
+          }
         </div>
       </Portal>
     );

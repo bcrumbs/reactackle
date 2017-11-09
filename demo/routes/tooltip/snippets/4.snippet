@@ -1,0 +1,37 @@
+/../
+
+const ComponentWithCustomStaticTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Click me</strong>
+      <props.TooltipSlot>
+        {({ tooltipRef }) =>
+          <div ref={tooltipRef}>
+            <props.tooltipRenderer hideTooltip={props.hideTooltip}/>
+          </div>
+        }
+      </props.TooltipSlot>
+    </div>
+  );
+};
+
+const WithCustomStaticTooltip = withTooltip(ComponentWithCustomStaticTooltip);
+
+/../
+
+<WithCustomStaticTooltip
+  tooltipRenderer={({ hideTooltip }) =>
+    <div style={{ background: 'grey', width: '100px', height: '100px' }}>
+      <Button
+        colorScheme="primary"
+        text="Close me"
+        onPress={hideTooltip}
+      />
+    </div>
+  }
+  mode="static"
+/>
