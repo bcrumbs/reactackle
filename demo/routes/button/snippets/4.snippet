@@ -1,8 +1,51 @@
-<Button icon={{ name: 'apple' }} text="Flat Button" colorScheme="flat" />
-<Button icon={{ name: 'apple' }} text="Flat Outlined Button" outlined colorScheme="flat" />
-<Button icon={{ name: 'apple' }} text="Flat light Button" colorScheme="flatLight" />
-<Button icon={{ name: 'apple' }} text="Flat light Outlined Button" outlined colorScheme="flatLight" />
-<Button icon={{ name: 'apple' }} text="primary Button" colorScheme="primary" />
-<Button icon={{ name: 'apple' }} text="primary Outlined Button" outlined colorScheme="primary" />
-<Button icon={{ name: 'apple' }} text="white Button" colorScheme="white" />
-<Button icon={{ name: 'apple' }} text="white Outlined Button" outlined colorScheme="white" />
+import { IconSvg } from 'reactackle-icons';
+
+<Button
+  colorScheme="flat"
+  icon={<DemoIcon />}
+  text="Flat Button"
+/>
+<Button
+  colorScheme="flat"
+  outlined
+  icon={<DemoIcon />}
+  text="Flat Outlined Button"
+/>
+<Button
+  colorScheme="flatLight"
+  icon={<DemoIcon />}
+  text="Flat light Button"
+/>
+<Button
+  colorScheme="flatLight"
+  outlined icon={<DemoIcon />}
+  text="Flat light Outlined Button"
+/>
+<Button
+  colorScheme="primary"
+  icon={<DemoIcon />}
+  text="primary Button"
+/>
+<Button
+  colorScheme="primary"
+  outlined icon={<DemoIcon />}
+  text="primary Outlined Button"
+  />
+<Button
+  colorScheme="white"
+  icon={<DemoIcon />}
+  text="white Button"
+/>
+<Button
+  colorScheme="white"
+  outlined icon={<DemoIcon />}
+  text="white Outlined Button"
+/>
+
+const DemoIcon = props => (
+  <IconSvg size="custom" {...props}>
+    <svg viewBox="0 0 24 24">
+      <polygon points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2" />
+    </svg>
+  </IconSvg>
+);

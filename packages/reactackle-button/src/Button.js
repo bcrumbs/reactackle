@@ -1,8 +1,5 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Icon } from 'reactackle-icon';
 import { noop, registerDefaultComponentTheme } from 'reactackle-core';
 
 import { ButtonStyled } from './styles/ButtonStyled';
@@ -25,7 +22,6 @@ const propTypes = {
   alternateTitle: PropTypes.string,
   /** Define button's subtitle */
   subtitle: PropTypes.string,
-
   /** Define button's size */
   size: PropTypes.oneOf(['inline', 'small', 'normal', 'large']),
   /** Narrow button has smaller horizontal paddings */
@@ -45,7 +41,6 @@ const propTypes = {
   ]),
   /** Outlined button has border and transparent background */
   outlined: PropTypes.bool,
-
   /** Define button's radius */
   radius: PropTypes.oneOf(['none', 'default', 'rounded']),
   /** Raised button has shadow */
@@ -55,17 +50,9 @@ const propTypes = {
   /** Swap icon and text position */
   iconPositionRight: PropTypes.bool,
   /**
-   * Define Button's icon
-   * @separate Icon
+   * Define icon (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.shape({
-    /** Set icon's name (required for font-awesome icons */
-    name: PropTypes.string,
-    /** Set icon's source (required for library icons */
-    src: PropTypes.string,
-    /** Set icon type */
-    type: PropTypes.oneOf(['font-awesome', 'library']),
-  }),
+  icon: PropTypes.element,
   /**
    * Stop onClick event's propagation and only call onPress
    */
@@ -92,12 +79,8 @@ const defaultProps = {
   raised: false,
   disabled: false,
   iconPositionRight: false,
+  icon: null,
   stopPressPropagation: false,
-  icon: {
-    name: '',
-    src: '',
-    type: 'font-awesome',
-  },
   onPress: noop,
   href: '',
 };
@@ -138,17 +121,13 @@ export default class Button extends Component {
         </ButtonTextStyled>
       : null;
 
-    const buttonIcon =
-      this.props.icon.name || this.props.icon.src
+    const buttonIcon = this.props.icon
         ? <ButtonIconBoxStyled
             iconPositionRight={this.props.iconPositionRight}
             size={this.props.size}
+            disabled={this.props.disabled}
           >
-            <Icon
-              {...this.props.icon}
-              size={this.props.size === 'inline' ? 'inherit' : this.props.size}
-              color="inherit"
-            />
+            {this.props.icon}
           </ButtonIconBoxStyled>
         : null;
 

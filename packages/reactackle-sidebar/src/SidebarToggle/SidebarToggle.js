@@ -1,9 +1,6 @@
-'use strict';
-
 import React from 'react';
 import PropTypes from 'prop-types';
-import { noop } from 'reactackle-core';
-import { Icon, iconPropType } from 'reactackle-icon';
+import { withTheme, noop } from 'reactackle-core';
 import { SidebarToggleStyled } from './styles/SidebarToggleStyled';
 import { ToggleIconStyled } from './styles/ToggleIconStyled';
 import { ToggleTextStyled } from './styles/ToggleTextStyled';
@@ -13,23 +10,20 @@ const propTypes = {
   toggleButtonText: PropTypes.string,
   expanded: PropTypes.bool,
   autoCollapsing: PropTypes.bool,
-  icon: iconPropType,
   onClick: PropTypes.func,
+  // eslint-disable-next-line react/require-default-props
+  theme: PropTypes.object,
 };
 
 const defaultProps = {
   toggleButtonText: 'Collapse',
   expanded: false,
   autoCollapsing: false,
-  icon: {
-    name: 'angle-left',
-    src: '',
-    type: 'font-awesome',
-  },
   onClick: noop,
 };
 
-export default function SidebarToggle(props) {
+function _SidebarToggle(props) {
+
   return (
     <SidebarToggleStyled
       expanded={props.expanded}
@@ -40,7 +34,7 @@ export default function SidebarToggle(props) {
         expanded={props.expanded}
         autoCollapsing={props.autoCollapsing}
       >
-        <Icon {...props.icon} color="inherit" size="inherit" />
+        {props.theme.reactackle.components.sidebar.toggleButton.iconElement}
       </ToggleIconStyled>
 
       <ToggleContentStyled>
@@ -55,6 +49,8 @@ export default function SidebarToggle(props) {
   );
 }
 
-SidebarToggle.propTypes = propTypes;
-SidebarToggle.defaultProps = defaultProps;
-SidebarToggle.displayName = 'SidebarToggle';
+_SidebarToggle.propTypes = propTypes;
+_SidebarToggle.defaultProps = defaultProps;
+_SidebarToggle.displayName = 'SidebarToggle';
+
+export default withTheme(_SidebarToggle);

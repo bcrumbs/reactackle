@@ -1,9 +1,7 @@
-'use strict';
-
+import React from 'react';
 import Color from 'color';
 import {
-  baseModule,
-  oneAndHalfBaseModule,
+  bmodule,
   breakpointLarge,
   colorPaletteGrey700,
   colorPaletteGrey800,
@@ -13,6 +11,7 @@ import {
   zIndexNav,
   bodyFontColorAlt,
 } from 'reactackle-core';
+import { IconArrowChevronLeft } from 'reactackle-icons';
 
 /** '+1' is needed to be sure that sidebar is placed over header */
 const sidebarZIndex = base => zIndexNav(base) + 1,
@@ -58,6 +57,7 @@ export default {
     textTransform: 'none',
     zIndex: sidebarZIndex,
     paddingRight: 0,
+    iconElement: <IconArrowChevronLeft size="custom" color="inherit" />,
 
     style: {
       collapsed: {
@@ -93,7 +93,8 @@ export default {
 
     icon: {
       height: 40,
-      imgSize: 24,
+      width: null,
+      imgSize: null,
 
       style: {
         collapsed: {
@@ -115,7 +116,7 @@ export default {
 
         expanded: {
           width: 40,
-          marginLeft: oneAndHalfBaseModule,
+          marginLeft: bmodule(1.5),
           color: 'inherit',
           opacity: 0.9,
 
@@ -133,8 +134,8 @@ export default {
     },
 
     content: {
-      paddingY: baseModule,
-      paddingX: oneAndHalfBaseModule,
+      paddingY: bmodule(1),
+      paddingX: bmodule(1.5),
     },
   },
 };

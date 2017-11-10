@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { noop, isUndef, registerDefaultComponentTheme, keyboardCodes } from 'reactackle-core';
@@ -173,7 +171,10 @@ export default class Checkbox extends Component {
             checked={checked}
             tooltipText={this.props.tooltip}
           />
-        : <CheckboxIcon disabled={this.disabled} checked={checked} />;
+        : <CheckboxIcon
+            disabled={this.props.disabled}
+            checked={checked}
+          />;
 
     const message = this.props.errorMessage
       ? <MessageStyled>

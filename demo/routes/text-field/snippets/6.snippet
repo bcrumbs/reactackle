@@ -1,9 +1,20 @@
+import { IconDefault } from 'reactackle-icons';
+
 <TextField
   disabled
   placeholder="Enter you value..."
   label="Disabled TextField"
   clearingIcon
-  iconOuter={{ name: 'android' }}
+  iconOuter={IconDefault}
+/>
+
+<TextField
+  bordered
+  disabled
+  placeholder="Enter you value..."
+  label="Disabled TextField"
+  clearingIcon
+  iconOuter={IconDefault}
 />
 
 <TextField
@@ -11,8 +22,18 @@
   placeholder="Enter you value..."
   label="TextField with error"
   clearingIcon
-  iconOuter={{ name: 'android' }}
   message="Some error happened"
+  iconOuter={IconDefault}
+/>
+
+<TextField
+  bordered
+  colorScheme="error"
+  placeholder="Enter you value..."
+  label="TextField with error"
+  clearingIcon
+  message="Some error happened"
+  iconOuter={IconDefault}
 />
 
 <TextField
@@ -20,6 +41,16 @@
   placeholder="Enter you value..."
   label="TextField with success"
   clearingIcon
-  iconOuter={{ name: 'android' }}
   message="Successfully saved"
+  iconOuter={IconDefault}
+/>
+
+<TextField
+  bordered
+  colorScheme="success"
+  placeholder="Enter you value..."
+  label="TextField with success"
+  clearingIcon
+  message="Successfully saved"
+  iconOuter={IconDefault}
 />

@@ -56,7 +56,7 @@ exports[`<Dialog/> renders correctly call button onPress if contains buttons 1`]
               className="DialogButtonStyled-eVQtUE bvtQpF"
             >
               <button
-                className="ButtonStyled__Button-FHerW fLKthV"
+                className="ButtonStyled__Button-FHerW hPyebZ"
                 disabled={false}
                 onClick={[Function]}
                 radius="default"
@@ -64,7 +64,7 @@ exports[`<Dialog/> renders correctly call button onPress if contains buttons 1`]
                 title=""
               >
                 <div
-                  className="ButtonTextStyled-kqmWUR bLlJca"
+                  className="ButtonTextStyled-kqmWUR foLdiD"
                   size="normal"
                 >
                   <div
@@ -275,16 +275,23 @@ exports[`<Dialog/> renders correctly if prop haveCloseButton set true 1`] = `
         className="RegionMainStyled-eEBrJL jgEVet"
       >
         <div
-          className="DialogCloseButtonStyled-hVCEfW cEoOMk"
+          className="DialogCloseButtonStyled-hVCEfW unido"
           onClick={[Function]}
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+              />
+            </svg>
+          </div>
         </div>
         <div
           className="DialogContentStyled-cqiTXT heztIq"
@@ -466,7 +473,7 @@ exports[`<Dialog/> renders correctly left buttons 1`] = `
               className="DialogButtonStyled-eVQtUE bvtQpF"
             >
               <button
-                className="ButtonStyled__Button-FHerW fLKthV"
+                className="ButtonStyled__Button-FHerW hPyebZ"
                 disabled={false}
                 onClick={[Function]}
                 radius="default"
@@ -474,7 +481,7 @@ exports[`<Dialog/> renders correctly left buttons 1`] = `
                 title=""
               >
                 <div
-                  className="ButtonTextStyled-kqmWUR bLlJca"
+                  className="ButtonTextStyled-kqmWUR foLdiD"
                   size="normal"
                 >
                   <div

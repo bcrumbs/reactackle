@@ -1,9 +1,3 @@
-/**
- * @author Dmitriy Malakhov
- */
-
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import pick from 'lodash.pick';

@@ -1,21 +1,15 @@
-'use strict';
-
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
 import {
   extractThemeOrDefault,
   getValueString,
   transition,
+  iconSizeMixin,
 } from 'reactackle-core';
 
 const propTypes = {
   transparentBg: PropTypes.bool,
-  /**
-   * Define theme
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -31,11 +25,12 @@ const sizeProps = ({ theme: themeFromProvider }) => {
     imgSize,
   } = theme.reactackle.components.dialog.closeButton;
 
-  return `
-    width: ${getValueString(width)};
-    height: ${getValueString(height)};
-    line-height: ${getValueString(height)};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${iconSizeMixin(
+      getValueString(width),
+      getValueString(imgSize || width),
+      getValueString(height || width),
+    )}
   `;
 };
 

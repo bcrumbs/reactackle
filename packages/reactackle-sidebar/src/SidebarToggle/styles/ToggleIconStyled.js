@@ -1,18 +1,17 @@
-'use strict';
-
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icons';
 import {
   extractThemeOrDefault,
   getValueString,
   transition,
   media,
+  iconSizeMixin,
 } from 'reactackle-core';
 
 const propTypes = {
   expanded: PropTypes.bool,
   autoCollapsing: PropTypes.bool,
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -21,18 +20,20 @@ const defaultProps = {
 };
 
 /** Prop Receivers */
-const base = ({ theme: themeFromProvider }) => {
+const iconSize = ({ theme: themeFromProvider }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const {
+    width,
     height,
     imgSize,
   } = theme.reactackle.components.sidebar.toggleButton.icon;
 
-  return `
-    height: ${getValueString(height)};
-    max-height: ${getValueString(height)};
-    line-height: ${getValueString(height)};
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${iconSizeMixin(
+      getValueString(height),
+      getValueString(imgSize || height),
+      getValueString(width || height),
+    )}
   `;
 };
 
@@ -44,9 +45,9 @@ const state = ({ theme: themeFromProvider, expanded, autoCollapsing }) => {
   const collapsedStyles = `
     width: ${getValueString(iconPath.collapsed.width)};
     margin-left: ${getValueString(iconPath.collapsed.marginLeft)};
-    color: ${iconPath.collapsed.color};
     opacity: ${iconPath.collapsed.opacity};
     transform: rotate(180deg);
+    ${iconStyleMixin(iconPath.collapsed.color)}
     
     &:hover {
       color: ${iconPath.collapsed.hover.color};
@@ -62,8 +63,8 @@ const state = ({ theme: themeFromProvider, expanded, autoCollapsing }) => {
   const expandedStyles = `
     width: ${getValueString(iconPath.expanded.width)};
     margin-left: ${getValueString(iconPath.expanded.marginLeft)};
-    color: ${iconPath.expanded.color};
     opacity: ${iconPath.expanded.opacity};
+    ${iconStyleMixin(iconPath.expanded.color)}
     
     &:hover {
       color: ${iconPath.expanded.hover.color};
@@ -97,7 +98,9 @@ export const ToggleIconStyled = styled.div`
   position: relative;
   flex-shrink: 0;
   justify-content: center;
-  ${base} ${state} ${transition('transform, width, margin')};
+  ${iconSize}
+  ${state}
+  ${transition('transform, width, margin')};
 `;
 
 ToggleIconStyled.propTypes = propTypes;
