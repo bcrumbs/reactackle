@@ -78,7 +78,7 @@ export default class Checkbox extends Component {
     this._handleChange = this._handleChange.bind(this);
     this._handleFocus = this._handleFocus.bind(this);
     this._handleBlur = this._handleBlur.bind(this);
-    this._manualChange = this._manualChange.bind(this);
+    this._changeCheckedState = this._changeCheckedState.bind(this);
     this._keyboardListener = this._keyboardListener.bind(this);
   }
 
@@ -93,13 +93,15 @@ export default class Checkbox extends Component {
     }
   }
 
-  get disabled () {
+  get disabled() {
     return this.props.disabled || !!this.props.errorMessage;
   }
 
   _handleChange(event) {
-    const checked = event.target.checked;
+    this._changeCheckedState(event.target.checked);
+  }
 
+  _changeCheckedState(checked) {
     if (isUndef(this.props.checked)) {
       this.setState({
         checked,
@@ -109,10 +111,6 @@ export default class Checkbox extends Component {
     this.props.onChange({
       value: checked,
     });
-  }
-
-  _manualChange() {
-    this.setState(prevState => ({ checked: !prevState.checked }));
   }
 
   _handleFocus() {
@@ -128,7 +126,7 @@ export default class Checkbox extends Component {
   _keyboardListener(e) {
     const key = e.keyCode || e.which;
     if (key === keyboardCodes.SPACE) {
-      this._manualChange();
+      this._changeCheckedState(!this.state.checked);
     }
   }
   _toggleKeyboardListener(condition) {
