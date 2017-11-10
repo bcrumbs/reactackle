@@ -203,10 +203,12 @@ const disabled = ({ disabled, theme: themeFromProvider }) => {
 
   const fontColor = theme.reactackle.components.button.disabled.fontColor;
 
+  // remove pointerEvents when https://github.com/facebook/react/issues/4251 is resolved
   return css`
     ${disabled
       ? `
           box-shadow: none;
+          pointer-events: none;
           &,
           &:hover,
           &:focus,
