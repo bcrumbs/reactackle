@@ -1677,7 +1677,7 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -1916,7 +1916,7 @@ exports[`<SelectBoxNative /> renders correctly with label, tooltip and message 1
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?

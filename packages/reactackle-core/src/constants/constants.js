@@ -103,4 +103,5 @@ export const keyboardCodes = {
   ESC: 27,
   DOWN: 40,
   UP: 38,
+  SPACE: 32,
 };

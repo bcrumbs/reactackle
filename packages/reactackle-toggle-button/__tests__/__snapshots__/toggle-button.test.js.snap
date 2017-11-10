@@ -397,7 +397,7 @@ exports[`<ToggleButton/> renders correctly with tooltip and label 1`] = `
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -462,7 +462,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and checked 1`] =
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -527,7 +527,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and disabled 1`] 
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -592,7 +592,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, disabled and che
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -657,7 +657,7 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, labelPosition=ri
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?

@@ -94,6 +94,11 @@ export const CheckboxIconStyled = styled.div`
   ${iconPosition};
   ${iconStyle};
   ${transition('color, opacity')};
+  
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
 `;
 
 CheckboxIconStyled.propTypes = propTypes;

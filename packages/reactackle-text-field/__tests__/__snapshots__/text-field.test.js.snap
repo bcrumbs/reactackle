@@ -8902,7 +8902,7 @@ exports[`<TextField/> renders correctly if prop tooltip set test and label set t
         onFocus={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
-        tabIndex={1}
+        tabIndex={0}
       >
         <span>
           ?
