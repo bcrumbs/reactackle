@@ -17,7 +17,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "react": "^15.6.1",
+    "react": "^16.0.0",
     "reactackle-core": "^0.0.3-beta.2",
     "styled-components": "^2.1.1"
   },
@@ -30,9 +30,9 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "enzyme": "^2.9.1",
-    "enzyme-to-json": "^1.5.1",
-    "react-test-renderer": "^15.6.1",
+    "enzyme": "^3.1.0",
+    "enzyme-to-json": "^3.1.4",
+    "react-test-renderer": "^16.0.0",
     "reactackle-core": "^0.0.3-beta.2",
     "reactackle-test-utils": "^0.0.3-beta.2",
     "rimraf": "^2.6.1"

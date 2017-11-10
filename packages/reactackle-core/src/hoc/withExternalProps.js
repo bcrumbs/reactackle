@@ -13,10 +13,6 @@ export const withExternalProps = channel => WrappedComponent => {
     [channel]: PropTypes.func,
   };
 
-  const childContextTypes = {
-    [channel]: PropTypes.func.isRequired,
-  };
-
   class WithExternalProps extends Component {
     constructor(props) {
       super(props);
@@ -64,7 +60,6 @@ export const withExternalProps = channel => WrappedComponent => {
   ]);
 
   WithExternalProps.contextTypes = contextTypes;
-  WithExternalProps.childContextTypes = childContextTypes;
   WithExternalProps.displayName = `WithExternalProps(${WrappedComponent.displayName})`;
 
   return WithExternalProps;

@@ -1188,14 +1188,14 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
           className="CheckboxElementStyled-dzeUmS kkKjA"
         >
           <CheckboxInputStyled
-            checked={true}
+            checked={false}
             disabled={false}
             id="checkbox-7"
             onChange={[Function]}
             type="checkbox"
           >
             <input
-              checked={true}
+              checked={false}
               className="CheckboxInputStyled-hCmkYE gPWRFM"
               disabled={false}
               id="checkbox-7"
@@ -1204,7 +1204,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
             />
           </CheckboxInputStyled>
           <CheckboxLabelStyled
-            checked={true}
+            checked={false}
             disabled={false}
             htmlFor="checkbox-7"
             onBlur={[Function]}
@@ -1213,8 +1213,8 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
             textFree={true}
           >
             <label
-              checked={true}
-              className="CheckboxLabelStyled-jYtRsS bJsHFo"
+              checked={false}
+              className="CheckboxLabelStyled-jYtRsS dpJShd"
               disabled={false}
               htmlFor="checkbox-7"
               onBlur={[Function]}
@@ -1222,12 +1222,12 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
               tabIndex={0}
             >
               <WithTheme(WithTooltip(CheckboxIcon))
-                checked={true}
+                checked={false}
                 disabled={false}
                 tooltipText=""
               >
                 <WithTooltip(CheckboxIcon)
-                  checked={true}
+                  checked={false}
                   disabled={false}
                   theme={
                     Object {
@@ -1440,7 +1440,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                 >
                   <CheckboxIcon
                     Tooltip={[Function]}
-                    checked={true}
+                    checked={false}
                     disabled={false}
                     hideTooltip={[Function]}
                     isTooltipActive={false}
@@ -1656,12 +1656,12 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                     tooltipText=""
                   >
                     <CheckboxIconStyled
-                      checked={true}
+                      checked={false}
                       disabled={false}
                     >
                       <div
-                        checked={true}
-                        className="CheckboxIconStyled-btfpTw cFNkEv"
+                        checked={false}
+                        className="CheckboxIconStyled-btfpTw fibVKD"
                         disabled={false}
                       >
                         <IconCheck

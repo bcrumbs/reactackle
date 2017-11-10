@@ -20,9 +20,11 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
           class="sc-gHboQg eNGyZb"
           id="TextField_135"
           placeholder=""
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -47,9 +49,11 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
           class="sc-dUjcNx iaxjPc"
           id="TextField_134"
           placeholder=""
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -74,9 +78,11 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
           class="sc-fOKMvo drHpXI"
           id="TextField_133"
           placeholder=""
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -101,9 +107,11 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
           class="sc-eilVRo lfYaJK"
           id="TextField_136"
           placeholder="test"
-          style="height:0;"
+          style="height:0"
           type="text"
-        />
+        >
+          
+        </textarea>
       </div>
     </div>
   </div>
@@ -353,7 +361,9 @@ exports[`<TextField/> handle click event 1`] = `
           placeholder=""
           type="text"
           value=""
-        />
+        >
+          
+        </input>
       </div>
     </div>
   </div>
@@ -380,7 +390,9 @@ exports[`<TextField/> handle focus event 1`] = `
           placeholder=""
           type="text"
           value=""
-        />
+        >
+          
+        </input>
       </div>
     </div>
   </div>
@@ -1152,7 +1164,7 @@ exports[`<TextField/> handless focus 1`] = `
               colorScheme="neutral"
               dense={false}
               disabled={false}
-              focus={true}
+              focus={false}
               fullWidth={false}
               slidingLabel={false}
             >
@@ -1165,11 +1177,11 @@ exports[`<TextField/> handless focus 1`] = `
                   colorScheme="neutral"
                   dense={false}
                   disabled={false}
-                  focus={true}
+                  focus={false}
                   fullWidth={false}
                 >
                   <div
-                    className="TextFieldGroupStyled-cLQues dhNDnl"
+                    className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
                     <TextFieldElementStyled(input)
@@ -1178,7 +1190,7 @@ exports[`<TextField/> handless focus 1`] = `
                       colorScheme="neutral"
                       dense={false}
                       disabled={false}
-                      focus={true}
+                      focus={false}
                       fullWidth={false}
                       id="TextField_131"
                       innerRef={[Function]}
