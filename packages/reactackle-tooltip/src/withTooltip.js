@@ -37,7 +37,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
     // tooltip container in another component
     constructor(props) {
       super(props);
-      this.state = { showTooltip: false, ref: null };
+      this.state = { visible: false, ref: null };
       this._toggleTooltip = this.toggleTooltip.bind(this);
       this._showTooltip = this.showTooltip.bind(this);
       this._hideTooltip = this.hideTooltip.bind(this);
@@ -51,15 +51,15 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
 
         return mode === 'dynamic'
           ? <DynamicTooltipSlot
-              isVisible={this.state.showTooltip}
+              visible={this.state.visible}
               children={props.children}
             />
           : <StaticTooltipSlot
-              isVisible={this.state.showTooltip}
-              visibleCallback={this._handleVisibleCallback}
-              targetRef={this.state.ref}
-              hideTooltip={this._hideTooltip}
+              visible={this.state.visible}
               closeOnOutsideClick={this.props.closeOnOutsideClick}
+              handleVisibleCallback={this._handleVisibleCallback}
+              parent={this.state.ref}
+              hideTooltip={this._hideTooltip}
               children={props.children}
             />;
       };
@@ -94,19 +94,19 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
     }
 
     toggleTooltip(show) {
-      const showTooltip =
-        typeof show === 'boolean' ? show : !this.state.showTooltip;
+      const visible =
+        typeof show === 'boolean' ? show : !this.state.visible;
 
       const { hideTooltipAfter } = this.props;
       const { visibleCallback } = this.state;
 
       const cb = !visibleCallback
         ? () => {}
-        : () => visibleCallback(this.state.showTooltip);
-      this.setState({ showTooltip }, cb);
+        : () => visibleCallback(this.state.visible);
+      this.setState({ visible }, cb);
 
       if (!isUndef(hideTooltipAfter)) {
-        if (showTooltip) this.setHideTimeout(hideTooltipAfter);
+        if (visible) this.setHideTimeout(hideTooltipAfter);
         else this.clearHideTimeout();
       }
     }
@@ -134,7 +134,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
           hideTooltip={this._hideTooltip}
           Tooltip={this.Tooltip}
           TooltipSlot={this.TooltipSlot}
-          isTooltipActive={this.state.showTooltip}
+          isTooltipActive={this.state.visible}
         />
       );
     }
@@ -154,7 +154,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
 
   [
     'toggleTooltip',
-    'showTooltip',
+    'visible',
     'hideTooltip',
     'isTooltipActive',
     'Tooltip',

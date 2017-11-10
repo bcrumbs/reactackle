@@ -33,8 +33,10 @@ export const withEventListeners = WrappedComponent => {
         } = newListener;
         target.addEventListener(event, cb);
         this.setState(({ eventListeners }) => ({
-          ...eventListeners,
-          [event]: newListener,
+          eventListeners: {
+            ...eventListeners,
+            [event]: newListener,
+          },
         }));
       }
     }

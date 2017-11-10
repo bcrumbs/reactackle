@@ -40,7 +40,7 @@ class DynamicTooltipSlot extends Component {
   }
 
   _setPosition({ clientX: left = 0, clientY: top = 0 }) {
-    if (!this._element || !this.props.isVisible) return;
+    if (!this._element || !this.props.visible) return;
 
     const { width, height } = this._element.getBoundingClientRect();
 
@@ -73,7 +73,7 @@ class DynamicTooltipSlot extends Component {
 
     return (
       <Portal
-        isOpened={this.props.isVisible}
+        isOpened={this.props.visible}
       >
         <TooltipWrapperStyled style={{ left, top }}>
           {typeof children !== 'function'

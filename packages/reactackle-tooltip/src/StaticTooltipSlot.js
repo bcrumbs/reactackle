@@ -1,11 +1,33 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import pick from 'lodash.pick';
 import { AutoPosition } from 'reactackle-autoposition';
 
 import { withEventListeners } from './common';
 
+const AutoPositionPropsKeys = Object.keys(AutoPosition.propTypes);
 
+const propTypes = {
+  ...AutoPosition.propTypes,
+  closeOnOutsideClick: PropTypes.bool,
+  hideTooltip: PropTypes.func.isRequired,
+  handleVisibleCallback: PropTypes.func.isRequired,
+  cleanEventListeners: PropTypes.func.isRequired,
+  toggleEventListener: PropTypes.func.isRequired,
+};
 
-class StaticTooltipSlot extends React.Component {
+const defaultProps = {
+  closeOnOutsideClick: true,
+  type: 'outer',
+  positionX: 'left',
+  positionY: 'bottom',
+  direction: 'vertical',
+  allowedSlideOnCurrentEdge: false,
+  allowedSlideOnOppositeEdge: false,
+  allowedSlideOnAdjacentEdge: false,
+};
+
+class StaticTooltipSlot extends Component {
   constructor(props) {
     super(props);
 
@@ -17,7 +39,7 @@ class StaticTooltipSlot extends React.Component {
     this._handleOutsideClick = this._handleOutsideClick.bind(this);
     this._applyOutsideListener = this._applyOutsideListener.bind(this);
 
-    this.props.visibleCallback(this._applyOutsideListener);
+    this.props.handleVisibleCallback(this._applyOutsideListener);
   }
 
   componentWillUnmount() {
@@ -28,35 +50,37 @@ class StaticTooltipSlot extends React.Component {
     this.setState({ tooltipRef: ref });
   }
   
-  _applyOutsideListener(isVisible) {
-    debugger;
-    if (!this.props.closeOnOutsideClick) return;
+  _applyOutsideListener() {
+    const {
+      toggleEventListener,
+      closeOnOutsideClick,
+    } = this.props;
 
-    if (isVisible) {
-      document.addEventListener('click', this._handleOutsideClick);
-    } else {
-      document.removeEventListener('click', this._handleOutsideClick);
-    }
+    if (!closeOnOutsideClick) return;
+    const listener = {
+      target: document,
+      event: 'click',
+      cb: this._handleOutsideClick,
+    };
+    toggleEventListener(listener);
   }
   
   _handleOutsideClick(e) {
-    debugger;
     if (!this.state.tooltipRef.contains(e.target)) {
       this.props.hideTooltip();
     }
   }
 
   render() {
-    const { children } = this.props;
-    return !this.props.targetRef && !this.props.isVisible
+    const {
+      children,
+    } = this.props;
+    const autoPositionProps = pick(this.props, AutoPositionPropsKeys);
+
+    return !autoPositionProps.parent && !autoPositionProps.visible
       ? null
       : <AutoPosition
-          parent={this.props.targetRef}
-          type="outer"
-          positionX="left"
-          positionY="bottom"
-          direction="vertical"
-          visible={this.props.isVisible}
+          {...autoPositionProps}
         >
           {({ positionX, positionY }) =>
             typeof children !== 'function'
@@ -71,5 +95,7 @@ class StaticTooltipSlot extends React.Component {
   }
 }
 
+StaticTooltipSlot.propTypes = propTypes;
+StaticTooltipSlot.defaultProps = defaultProps;
 
 export default withEventListeners(StaticTooltipSlot);
