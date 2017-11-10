@@ -8,7 +8,8 @@
     "lint:css": "stylelint './packages/**/src/styles/*.js'",
     "export_demo": "cd demo && node ./getAllRoutes ./routes && cd ..",
     "bootstrap": "lerna bootstrap --hoist && lerna run prepublishOnly",
-    "clean": "lerna exec -- rm -rf node_modules package-lock.json && rm -rf node_modules package-lock.json",
+    "clean": "lerna exec -- rm -rf node_modules && rm -rf node_modules",
+    "clean:unlock": "lerna exec -- rm -rf node_modules package-lock.json && rm -rf node_modules package-lock.json",
     "restart": "npm run clean && npm i && npm run bootstrap",
     "build": "webpack -d",
     "build:watch": "webpack -d --watch",
@@ -84,7 +85,6 @@
     "url-loader": "^0.5.7",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1",
-    "coveralls": "^2.13.0",
     "raf": "^3.4.0"
   },
   "peerDependencies": {

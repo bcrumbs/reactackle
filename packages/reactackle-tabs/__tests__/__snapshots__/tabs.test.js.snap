@@ -9,15 +9,23 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
   tabs={
     Array [
       Object {
-        "icon": Object {
-          "name": "anchor",
-        },
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
         "text": "Test 1",
       },
       Object {
-        "icon": Object {
-          "name": "anchor",
-        },
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
         "text": "Test 2",
       },
     ]
@@ -41,9 +49,13 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
                 colorScheme="dark"
                 disabled={false}
                 icon={
-                  Object {
-                    "name": "anchor",
-                  }
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
                 }
                 index={0}
                 isSelected={true}
@@ -76,64 +88,20 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
                               selected={true}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR eQkcDH"
+                                className="TabIconStyled-bYWiJR ctwdqB"
                                 selected={true}
                               >
-                                <Icon
-                                  color="inherit"
-                                  name="anchor"
-                                  size="inherit"
-                                  type="font-awesome"
+                                <svg
+                                  viewBox="0 0 24 24"
                                 >
-                                  <IconFontAwesome
-                                    backgroundColor=""
-                                    border={false}
-                                    color="inherit"
-                                    colorScheme="dark"
-                                    flip="none"
-                                    name="anchor"
-                                    onClick={[Function]}
-                                    pulse={false}
-                                    rotate={0}
-                                    rounded={false}
-                                    size="inherit"
-                                    sizeMultiplier={1}
-                                    spin={false}
-                                    tabIndex={-1}
-                                    type="font-awesome"
-                                  >
-                                    <IconFontAwesomeStyled
-                                      backgroundColor=""
-                                      bgColor=""
-                                      border={false}
-                                      className="fa fa-anchor"
-                                      color=""
-                                      colorScheme="dark"
-                                      flip="none"
-                                      onClick={[Function]}
-                                      pulse={false}
-                                      rotate={0}
-                                      rounded={false}
-                                      size="normal"
-                                      sizeKey="inherit"
-                                      sizeMultiplier={1}
-                                      spin={false}
-                                      userColor="inherit"
-                                    >
-                                      <span
-                                        className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                                        color=""
-                                        onClick={[Function]}
-                                        rotate={0}
-                                        size="normal"
-                                      />
-                                    </IconFontAwesomeStyled>
-                                  </IconFontAwesome>
-                                </Icon>
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
                               </div>
                             </TabIconStyled>
                             <TabTextStyled
-                              hasIcon="anchor"
+                              hasIcon={true}
                             >
                               <div
                                 className="TabTextStyled-kyChmy HdHAs"
@@ -152,9 +120,13 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
                 colorScheme="dark"
                 disabled={false}
                 icon={
-                  Object {
-                    "name": "anchor",
-                  }
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
                 }
                 index={1}
                 isSelected={false}
@@ -187,64 +159,20 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
                               selected={false}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR eMTSwD"
+                                className="TabIconStyled-bYWiJR jRWoJT"
                                 selected={false}
                               >
-                                <Icon
-                                  color="inherit"
-                                  name="anchor"
-                                  size="inherit"
-                                  type="font-awesome"
+                                <svg
+                                  viewBox="0 0 24 24"
                                 >
-                                  <IconFontAwesome
-                                    backgroundColor=""
-                                    border={false}
-                                    color="inherit"
-                                    colorScheme="dark"
-                                    flip="none"
-                                    name="anchor"
-                                    onClick={[Function]}
-                                    pulse={false}
-                                    rotate={0}
-                                    rounded={false}
-                                    size="inherit"
-                                    sizeMultiplier={1}
-                                    spin={false}
-                                    tabIndex={-1}
-                                    type="font-awesome"
-                                  >
-                                    <IconFontAwesomeStyled
-                                      backgroundColor=""
-                                      bgColor=""
-                                      border={false}
-                                      className="fa fa-anchor"
-                                      color=""
-                                      colorScheme="dark"
-                                      flip="none"
-                                      onClick={[Function]}
-                                      pulse={false}
-                                      rotate={0}
-                                      rounded={false}
-                                      size="normal"
-                                      sizeKey="inherit"
-                                      sizeMultiplier={1}
-                                      spin={false}
-                                      userColor="inherit"
-                                    >
-                                      <span
-                                        className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                                        color=""
-                                        onClick={[Function]}
-                                        rotate={0}
-                                        size="normal"
-                                      />
-                                    </IconFontAwesomeStyled>
-                                  </IconFontAwesome>
-                                </Icon>
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
                               </div>
                             </TabIconStyled>
                             <TabTextStyled
-                              hasIcon="anchor"
+                              hasIcon={true}
                             >
                               <div
                                 className="TabTextStyled-kyChmy HdHAs"
@@ -277,15 +205,23 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
   tabs={
     Array [
       Object {
-        "icon": Object {
-          "name": "anchor",
-        },
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
         "text": "Test 1",
       },
       Object {
-        "icon": Object {
-          "name": "anchor",
-        },
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
         "text": "Test 2",
       },
     ]
@@ -309,9 +245,13 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
                 colorScheme="dark"
                 disabled={false}
                 icon={
-                  Object {
-                    "name": "anchor",
-                  }
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
                 }
                 index={0}
                 isSelected={false}
@@ -344,64 +284,20 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
                               selected={false}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR eMTSwD"
+                                className="TabIconStyled-bYWiJR jRWoJT"
                                 selected={false}
                               >
-                                <Icon
-                                  color="inherit"
-                                  name="anchor"
-                                  size="inherit"
-                                  type="font-awesome"
+                                <svg
+                                  viewBox="0 0 24 24"
                                 >
-                                  <IconFontAwesome
-                                    backgroundColor=""
-                                    border={false}
-                                    color="inherit"
-                                    colorScheme="dark"
-                                    flip="none"
-                                    name="anchor"
-                                    onClick={[Function]}
-                                    pulse={false}
-                                    rotate={0}
-                                    rounded={false}
-                                    size="inherit"
-                                    sizeMultiplier={1}
-                                    spin={false}
-                                    tabIndex={-1}
-                                    type="font-awesome"
-                                  >
-                                    <IconFontAwesomeStyled
-                                      backgroundColor=""
-                                      bgColor=""
-                                      border={false}
-                                      className="fa fa-anchor"
-                                      color=""
-                                      colorScheme="dark"
-                                      flip="none"
-                                      onClick={[Function]}
-                                      pulse={false}
-                                      rotate={0}
-                                      rounded={false}
-                                      size="normal"
-                                      sizeKey="inherit"
-                                      sizeMultiplier={1}
-                                      spin={false}
-                                      userColor="inherit"
-                                    >
-                                      <span
-                                        className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                                        color=""
-                                        onClick={[Function]}
-                                        rotate={0}
-                                        size="normal"
-                                      />
-                                    </IconFontAwesomeStyled>
-                                  </IconFontAwesome>
-                                </Icon>
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
                               </div>
                             </TabIconStyled>
                             <TabTextStyled
-                              hasIcon="anchor"
+                              hasIcon={true}
                             >
                               <div
                                 className="TabTextStyled-kyChmy HdHAs"
@@ -420,9 +316,13 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
                 colorScheme="dark"
                 disabled={false}
                 icon={
-                  Object {
-                    "name": "anchor",
-                  }
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
                 }
                 index={1}
                 isSelected={true}
@@ -455,64 +355,20 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
                               selected={true}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR eQkcDH"
+                                className="TabIconStyled-bYWiJR ctwdqB"
                                 selected={true}
                               >
-                                <Icon
-                                  color="inherit"
-                                  name="anchor"
-                                  size="inherit"
-                                  type="font-awesome"
+                                <svg
+                                  viewBox="0 0 24 24"
                                 >
-                                  <IconFontAwesome
-                                    backgroundColor=""
-                                    border={false}
-                                    color="inherit"
-                                    colorScheme="dark"
-                                    flip="none"
-                                    name="anchor"
-                                    onClick={[Function]}
-                                    pulse={false}
-                                    rotate={0}
-                                    rounded={false}
-                                    size="inherit"
-                                    sizeMultiplier={1}
-                                    spin={false}
-                                    tabIndex={-1}
-                                    type="font-awesome"
-                                  >
-                                    <IconFontAwesomeStyled
-                                      backgroundColor=""
-                                      bgColor=""
-                                      border={false}
-                                      className="fa fa-anchor"
-                                      color=""
-                                      colorScheme="dark"
-                                      flip="none"
-                                      onClick={[Function]}
-                                      pulse={false}
-                                      rotate={0}
-                                      rounded={false}
-                                      size="normal"
-                                      sizeKey="inherit"
-                                      sizeMultiplier={1}
-                                      spin={false}
-                                      userColor="inherit"
-                                    >
-                                      <span
-                                        className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                                        color=""
-                                        onClick={[Function]}
-                                        rotate={0}
-                                        size="normal"
-                                      />
-                                    </IconFontAwesomeStyled>
-                                  </IconFontAwesome>
-                                </Icon>
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
                               </div>
                             </TabIconStyled>
                             <TabTextStyled
-                              hasIcon="anchor"
+                              hasIcon={true}
                             >
                               <div
                                 className="TabTextStyled-kyChmy HdHAs"
@@ -621,16 +477,16 @@ exports[`<Tabs/> renders correctly if prop icon 1`] = `
             className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled-bYWiJR eQkcDH"
+              className="TabIconStyled-bYWiJR ctwdqB"
               selected={true}
             >
-              <span
-                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                color=""
-                onClick={[Function]}
-                rotate={0}
-                size="normal"
-              />
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
               className="TabTextStyled-kyChmy HdHAs"

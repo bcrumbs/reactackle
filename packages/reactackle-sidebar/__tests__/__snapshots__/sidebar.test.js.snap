@@ -42,15 +42,22 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled-fcajSq gTeJMp"
+        className="ToggleIconStyled-fcajSq feKcwU"
       >
-        <span
-          className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB kakXQl"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+            />
+          </svg>
+        </div>
       </div>
       <div
         className="ToggleContentStyled-hUPJhx coxtcr"
@@ -78,15 +85,22 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and togg
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled-fcajSq gTeJMp"
+        className="ToggleIconStyled-fcajSq feKcwU"
       >
-        <span
-          className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB kakXQl"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+            />
+          </svg>
+        </div>
       </div>
       <div
         className="ToggleContentStyled-hUPJhx coxtcr"
@@ -178,15 +192,22 @@ exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled-fcajSq dLbraV"
+    className="ToggleIconStyled-fcajSq iuooUO"
   >
-    <span
-      className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
+    <div
+      className="IconSvgStyled-kZHpyB kakXQl"
       color=""
-      onClick={[Function]}
       rotate={0}
       size="normal"
-    />
+    >
+      <svg
+        viewBox="0 0 24 24"
+      >
+        <polygon
+          points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+        />
+      </svg>
+    </div>
   </div>
   <div
     className="ToggleContentStyled-hUPJhx coxtcr"
@@ -206,15 +227,22 @@ exports[`<SidebarToggle/> renders correctly with default props 1`] = `
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled-fcajSq dLbraV"
+    className="ToggleIconStyled-fcajSq iuooUO"
   >
-    <span
-      className="fa fa-angle-left IconFontAwesomeStyled-dGckvS ccJleE"
+    <div
+      className="IconSvgStyled-kZHpyB kakXQl"
       color=""
-      onClick={[Function]}
       rotate={0}
       size="normal"
-    />
+    >
+      <svg
+        viewBox="0 0 24 24"
+      >
+        <polygon
+          points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+        />
+      </svg>
+    </div>
   </div>
   <div
     className="ToggleContentStyled-hUPJhx coxtcr"

@@ -6,6 +6,7 @@ import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { ToggleButton } from '../src';
 import { ToggleStyled } from '../src/styles/ToggleStyled';
+import { ToggleInputStyled } from '../src/styles/ToggleInputStyled';
 
 jest.mock('react-dom');
 
@@ -100,6 +101,21 @@ describe('<ToggleButton/>', () => {
     toggle.simulate('mouseEnter');
     expect(toJson(component)).toMatchSnapshot();
     toggle.simulate('mouseLeave');
+    expect(toJson(component)).toMatchSnapshot();
+  });
+
+  it('renders correctly if focused', () => {
+    const component = mount(
+      <ToggleButton />,
+    );
+    const toggle = component.find(ToggleInputStyled);
+
+    expect(toJson(component)).toMatchSnapshot();
+    
+    toggle.simulate('focus');
+    expect(toJson(component)).toMatchSnapshot();
+    
+    toggle.simulate('blur');
     expect(toJson(component)).toMatchSnapshot();
   });
 

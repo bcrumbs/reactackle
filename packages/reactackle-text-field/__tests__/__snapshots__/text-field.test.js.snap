@@ -17,36 +17,7 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-eilVRo jJCRub"
-          id="TextField_136"
-          placeholder=""
-          style="height:0"
-          type="text"
-        >
-          
-        </textarea>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
-<div
-  class="TextFieldStyled-bdmlkn QIbv"
->
-  <div
-    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
-  >
-    <div
-      class="TextFieldRowStyled-VkWtx iKvbzP"
-    >
-      <div
-        class="TextFieldGroupStyled-cLQues dwexzW"
-      >
-        <textarea
-          autocomplete="off"
-          class="sc-gHboQg iVFGSg"
+          class="sc-gHboQg eNGyZb"
           id="TextField_135"
           placeholder=""
           style="height:0"
@@ -60,7 +31,7 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
 </div>
 `;
 
-exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
+exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
 <div
   class="TextFieldStyled-bdmlkn QIbv"
 >
@@ -89,6 +60,35 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
 </div>
 `;
 
+exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
+<div
+  class="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      class="TextFieldRowStyled-VkWtx iKvbzP"
+    >
+      <div
+        class="TextFieldGroupStyled-cLQues dwexzW"
+      >
+        <textarea
+          autocomplete="off"
+          class="sc-fOKMvo drHpXI"
+          id="TextField_133"
+          placeholder=""
+          style="height:0"
+          type="text"
+        >
+          
+        </textarea>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] = `
 <div
   class="TextFieldStyled-bdmlkn QIbv"
@@ -104,8 +104,8 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
       >
         <textarea
           autocomplete="off"
-          class="sc-eerKOB iiTSam"
-          id="TextField_137"
+          class="sc-eilVRo lfYaJK"
+          id="TextField_136"
           placeholder="test"
           style="height:0"
           type="text"
@@ -135,9 +135,9 @@ exports[`<TextField/> calls onChange event and calls onPatternError after had ca
       >
         <input
           autoComplete="off"
-          className="sc-kIPQKe kYAMMu"
+          className="sc-esjQYD hYQFPe"
           disabled={false}
-          id="TextField_97"
+          id="TextField_96"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -169,9 +169,9 @@ exports[`<TextField/> calls onChange event with value test after had called chan
       >
         <input
           autoComplete="off"
-          className="sc-RefOD gPnliQ"
+          className="sc-ibxdXY cmXDlH"
           disabled={false}
-          id="TextField_100"
+          id="TextField_99"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -222,9 +222,9 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-kfGgVZ iJdlyQ"
+          className="sc-kPVwWT hxwQws"
           disabled={false}
-          id="TextField_95"
+          id="TextField_94"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -240,40 +240,6 @@ exports[`<TextField/> calls onChange with value test after had called change eve
 `;
 
 exports[`<TextField/> calls onChange with value test after had called change event with target.value=test and patternFn false 1`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
->
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
-  >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
-    >
-      <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
-      >
-        <input
-          autoComplete="off"
-          className="sc-ibxdXY cmXDlH"
-          disabled={false}
-          id="TextField_99"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value=""
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TextField/> calls onChange with value test after had called change event with target.value=test and patternFn true 1`] = `
 <div
   className="TextFieldStyled-bdmlkn QIbv"
 >
@@ -307,6 +273,40 @@ exports[`<TextField/> calls onChange with value test after had called change eve
 </div>
 `;
 
+exports[`<TextField/> calls onChange with value test after had called change event with target.value=test and patternFn true 1`] = `
+<div
+  className="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      className="TextFieldRowStyled-VkWtx iKvbzP"
+      disabled={false}
+    >
+      <div
+        className="TextFieldGroupStyled-cLQues dwexzW"
+        disabled={false}
+      >
+        <input
+          autoComplete="off"
+          className="sc-kIPQKe kYAMMu"
+          disabled={false}
+          id="TextField_97"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`<TextField/> doesn't call onChange and calls onPatternError after had called change event with target.value=test and pattern set /^[0-9]*$/g 1`] = `
 <div
   className="TextFieldStyled-bdmlkn QIbv"
@@ -324,9 +324,9 @@ exports[`<TextField/> doesn't call onChange and calls onPatternError after had c
       >
         <input
           autoComplete="off"
-          className="sc-esjQYD hYQFPe"
+          className="sc-kfGgVZ iJdlyQ"
           disabled={false}
-          id="TextField_96"
+          id="TextField_95"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -356,8 +356,8 @@ exports[`<TextField/> handle click event 1`] = `
       >
         <input
           autocomplete="off"
-          class="sc-cbkKFq eHEmvk"
-          id="TextField_130"
+          class="sc-eLExRp ggYUMH"
+          id="TextField_129"
           placeholder=""
           type="text"
           value=""
@@ -385,8 +385,8 @@ exports[`<TextField/> handle focus event 1`] = `
       >
         <input
           autocomplete="off"
-          class="sc-krvtoX kmPdvG"
-          id="TextField_131"
+          class="sc-cbkKFq eHEmvk"
+          id="TextField_130"
           placeholder=""
           type="text"
           value=""
@@ -543,17 +543,17 @@ exports[`<TextField/> handless focus 1`] = `
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
-                  "imgSize": 16,
+                  "imgSize": 24,
                 },
                 "state": Object {
                   "color": "#212121",
@@ -580,28 +580,27 @@ exports[`<TextField/> handless focus 1`] = `
                   },
                 },
               },
-              "clearingIcon": Object {
-                "name": "times",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
               "iconInner": Object {
                 "iconSpacing": 4,
                 "size": Object {
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
-                  "imgSize": 16,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -634,17 +633,17 @@ exports[`<TextField/> handless focus 1`] = `
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
-                  "imgSize": 20,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -815,16 +814,14 @@ exports[`<TextField/> handless focus 1`] = `
                   },
                 },
               },
-              "passwordIconHidden": Object {
-                "name": "eye-slash",
-                "src": "",
-                "type": "font-awesome",
-              },
-              "passwordIconUnhidden": Object {
-                "name": "eye",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
               "placeholder": Object {
                 "fontColor": "#bdbdbd",
               },
@@ -1195,7 +1192,7 @@ exports[`<TextField/> handless focus 1`] = `
                       disabled={false}
                       focus={false}
                       fullWidth={false}
-                      id="TextField_132"
+                      id="TextField_131"
                       innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
@@ -1209,9 +1206,9 @@ exports[`<TextField/> handless focus 1`] = `
                     >
                       <input
                         autoComplete="off"
-                        className="sc-fYiAbW cPlFKF"
+                        className="sc-krvtoX kmPdvG"
                         disabled={false}
-                        id="TextField_132"
+                        id="TextField_131"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onClick={[Function]}
@@ -1250,9 +1247,9 @@ exports[`<TextField/> renders correctly after fire event blur 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kPVwWT hxwQws"
+          className="sc-hwwEjo cFyMSu"
           disabled={false}
-          id="TextField_94"
+          id="TextField_93"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -1284,9 +1281,9 @@ exports[`<TextField/> renders correctly after fire event blur 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kPVwWT hxwQws"
+          className="sc-hwwEjo cFyMSu"
           disabled={false}
-          id="TextField_94"
+          id="TextField_93"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -1701,9 +1698,9 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gzOgki gnkCzW"
+          className="sc-dfVpRl fEAqso"
           disabled={false}
-          id="TextField_91"
+          id="TextField_90"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -1713,16 +1710,24 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dvlZRg"
+          className="InnerButton-imycSA dHGDjc"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -1769,7 +1774,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
   theme={Object {}}
   tooltip={null}
   type="text"
-  value={undefined}
 >
   <TextField
     autoComplete="off"
@@ -1874,17 +1878,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
-                  "imgSize": 16,
+                  "imgSize": 24,
                 },
                 "state": Object {
                   "color": "#212121",
@@ -1911,28 +1915,27 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "clearingIcon": Object {
-                "name": "times",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
               "iconInner": Object {
                 "iconSpacing": 4,
                 "size": Object {
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
-                  "imgSize": 16,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -1965,17 +1968,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
-                  "imgSize": 20,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -2146,16 +2149,14 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "passwordIconHidden": Object {
-                "name": "eye-slash",
-                "src": "",
-                "type": "font-awesome",
-              },
-              "passwordIconUnhidden": Object {
-                "name": "eye",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
               "placeholder": Object {
                 "fontColor": "#bdbdbd",
               },
@@ -2477,7 +2478,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
     }
     tooltip={null}
     type="text"
-    value={undefined}
   >
     <TextFieldStyled
       dense={false}
@@ -2526,7 +2526,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       disabled={false}
                       focus={false}
                       fullWidth={false}
-                      id="TextField_92"
+                      id="TextField_91"
                       innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
@@ -2540,9 +2540,9 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                     >
                       <input
                         autoComplete="off"
-                        className="sc-iyvyFf EQJEE"
+                        className="sc-gzOgki gnkCzW"
                         disabled={false}
-                        id="TextField_92"
+                        id="TextField_91"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onClick={[Function]}
@@ -2558,65 +2558,58 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       disabled={false}
                       focus={false}
                       fullWidth={false}
+                      onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dvlZRg"
+                        className="InnerButton-imycSA dHGDjc"
                         disabled={false}
+                        onClick={[Function]}
                       >
-                        <Icon
+                        <IconCross
                           color="inherit"
-                          name="times"
-                          onClick={[Function]}
-                          size="inherit"
-                          src=""
-                          type="font-awesome"
+                          size="custom"
                         >
-                          <IconFontAwesome
+                          <IconSvg
                             backgroundColor=""
                             border={false}
+                            borderWidth={0}
                             color="inherit"
-                            colorScheme="dark"
+                            colorScheme="default"
                             flip="none"
-                            name="times"
-                            onClick={[Function]}
-                            pulse={false}
                             rotate={0}
                             rounded={false}
-                            size="inherit"
-                            sizeMultiplier={1}
-                            spin={false}
-                            src=""
-                            tabIndex={-1}
-                            type="font-awesome"
+                            size="custom"
                           >
-                            <IconFontAwesomeStyled
+                            <IconStyled
                               backgroundColor=""
-                              bgColor=""
                               border={false}
-                              className="fa fa-times"
+                              borderWidth={0}
                               color=""
-                              colorScheme="dark"
+                              colorScheme="default"
+                              customColor="inherit"
                               flip="none"
-                              onClick={[Function]}
-                              pulse={false}
                               rotate={0}
                               rounded={false}
                               size="normal"
-                              sizeKey="inherit"
-                              sizeMultiplier={1}
-                              spin={false}
-                              userColor="inherit"
+                              sizeKey="custom"
                             >
-                              <span
-                                className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
+                              <div
+                                className="IconSvgStyled-kZHpyB kakXQl"
                                 color=""
-                                onClick={[Function]}
                                 rotate={0}
                                 size="normal"
-                              />
-                            </IconFontAwesomeStyled>
-                          </IconFontAwesome>
-                        </Icon>
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <polygon
+                                    points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+                                  />
+                                </svg>
+                              </div>
+                            </IconStyled>
+                          </IconSvg>
+                        </IconCross>
                       </div>
                     </InnerButton>
                   </div>
@@ -2670,7 +2663,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
   theme={Object {}}
   tooltip={null}
   type="text"
-  value={undefined}
 >
   <TextField
     autoComplete="off"
@@ -2775,17 +2767,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
-                  "imgSize": 16,
+                  "imgSize": 24,
                 },
                 "state": Object {
                   "color": "#212121",
@@ -2812,28 +2804,27 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "clearingIcon": Object {
-                "name": "times",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
               "iconInner": Object {
                 "iconSpacing": 4,
                 "size": Object {
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
-                  "imgSize": 16,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -2866,17 +2857,17 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
-                  "imgSize": 20,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -3047,16 +3038,14 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                   },
                 },
               },
-              "passwordIconHidden": Object {
-                "name": "eye-slash",
-                "src": "",
-                "type": "font-awesome",
-              },
-              "passwordIconUnhidden": Object {
-                "name": "eye",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
               "placeholder": Object {
                 "fontColor": "#bdbdbd",
               },
@@ -3378,7 +3367,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
     }
     tooltip={null}
     type="text"
-    value={undefined}
   >
     <TextFieldStyled
       dense={false}
@@ -3427,7 +3415,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       disabled={false}
                       focus={false}
                       fullWidth={false}
-                      id="TextField_92"
+                      id="TextField_91"
                       innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
@@ -3441,9 +3429,9 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                     >
                       <input
                         autoComplete="off"
-                        className="sc-iyvyFf EQJEE"
+                        className="sc-gzOgki gnkCzW"
                         disabled={false}
-                        id="TextField_92"
+                        id="TextField_91"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onClick={[Function]}
@@ -3459,65 +3447,58 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       disabled={false}
                       focus={false}
                       fullWidth={false}
+                      onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dvlZRg"
+                        className="InnerButton-imycSA dHGDjc"
                         disabled={false}
+                        onClick={[Function]}
                       >
-                        <Icon
+                        <IconCross
                           color="inherit"
-                          name="times"
-                          onClick={[Function]}
-                          size="inherit"
-                          src=""
-                          type="font-awesome"
+                          size="custom"
                         >
-                          <IconFontAwesome
+                          <IconSvg
                             backgroundColor=""
                             border={false}
+                            borderWidth={0}
                             color="inherit"
-                            colorScheme="dark"
+                            colorScheme="default"
                             flip="none"
-                            name="times"
-                            onClick={[Function]}
-                            pulse={false}
                             rotate={0}
                             rounded={false}
-                            size="inherit"
-                            sizeMultiplier={1}
-                            spin={false}
-                            src=""
-                            tabIndex={-1}
-                            type="font-awesome"
+                            size="custom"
                           >
-                            <IconFontAwesomeStyled
+                            <IconStyled
                               backgroundColor=""
-                              bgColor=""
                               border={false}
-                              className="fa fa-times"
+                              borderWidth={0}
                               color=""
-                              colorScheme="dark"
+                              colorScheme="default"
+                              customColor="inherit"
                               flip="none"
-                              onClick={[Function]}
-                              pulse={false}
                               rotate={0}
                               rounded={false}
                               size="normal"
-                              sizeKey="inherit"
-                              sizeMultiplier={1}
-                              spin={false}
-                              userColor="inherit"
+                              sizeKey="custom"
                             >
-                              <span
-                                className="fa fa-times IconFontAwesomeStyled-dGckvS ccJleE"
+                              <div
+                                className="IconSvgStyled-kZHpyB kakXQl"
                                 color=""
-                                onClick={[Function]}
                                 rotate={0}
                                 size="normal"
-                              />
-                            </IconFontAwesomeStyled>
-                          </IconFontAwesome>
-                        </Icon>
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <polygon
+                                    points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+                                  />
+                                </svg>
+                              </div>
+                            </IconStyled>
+                          </IconSvg>
+                        </IconCross>
                       </div>
                     </InnerButton>
                   </div>
@@ -3694,11 +3675,37 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
         className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
+        <label
+          className="PrefixStyled-cSDiGO hUeRMD"
+          disabled={false}
+          htmlFor="TextField_75"
+        >
+          <div
+            className="IconInnerStyled-iRsRrl jLryTk"
+            disabled={false}
+          >
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
+              color=""
+              rotate={0}
+              size="normal"
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
         <input
           autoComplete="off"
-          className="sc-cIShpX iFUizu"
+          className="sc-ktHwxA egEpEn"
           disabled={false}
-          id="TextField_76"
+          id="TextField_75"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -3730,43 +3737,9 @@ exports[`<TextField/> renders correctly if prop id set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hwwEjo cFyMSu"
+          className="sc-iyvyFf EQJEE"
           disabled={false}
-          id="TextField_93"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value=""
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TextField/> renders correctly if prop inputIcon set star 1`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
->
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
-  >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
-    >
-      <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
-      >
-        <input
-          autoComplete="off"
-          className="sc-ktHwxA egEpEn"
-          disabled={false}
-          id="TextField_75"
+          id="TextField_92"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -3939,17 +3912,25 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_60"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -3997,17 +3978,25 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_61"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -4055,17 +4044,25 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK eRmGCW"
+        className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_62"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -4113,17 +4110,25 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_64"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -4171,17 +4176,25 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_63"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -4291,9 +4304,9 @@ exports[`<TextField/> renders correctly if prop message set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kafWEX cDHyUl"
+          className="sc-cIShpX iFUizu"
           disabled={false}
-          id="TextField_77"
+          id="TextField_76"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4336,9 +4349,9 @@ exports[`<TextField/> renders correctly if prop message set test 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iELTvK fsNVrX"
+          className="sc-feJyhm eyvPHR"
           disabled={false}
-          id="TextField_79"
+          id="TextField_78"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4381,9 +4394,9 @@ exports[`<TextField/> renders correctly if prop message set test and colorScheme
       >
         <input
           autoComplete="off"
-          className="sc-feJyhm dGuQdM"
+          className="sc-kafWEX jQfBwS"
           disabled={false}
-          id="TextField_78"
+          id="TextField_77"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4426,9 +4439,9 @@ exports[`<TextField/> renders correctly if prop message set test and disabled 1`
       >
         <input
           autoComplete="off"
-          className="sc-cmTdod kkjoKI"
+          className="sc-iELTvK hXdwYt"
           disabled={true}
-          id="TextField_80"
+          id="TextField_79"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4471,9 +4484,9 @@ exports[`<TextField/> renders correctly if prop message set test and symbolLimit
       >
         <input
           autoComplete="off"
-          className="sc-jwKygS cUcdqj"
+          className="sc-cmTdod hmekyA"
           disabled={false}
-          id="TextField_81"
+          id="TextField_80"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4530,9 +4543,9 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-kTUwUJ hGJAtR"
+          className="sc-jtRfpW keElXY"
           disabled={false}
-          id="TextField_87"
+          id="TextField_86"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4589,9 +4602,9 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-bYSBpT jdgSEy"
+          className="sc-lhVmIH ilgkpt"
           disabled={false}
-          id="TextField_84"
+          id="TextField_83"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4648,9 +4661,9 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-elJkPf bUcxXE"
+          className="sc-bYSBpT jdgSEy"
           disabled={false}
-          id="TextField_85"
+          id="TextField_84"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4707,9 +4720,9 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-jtRfpW cZwsKd"
+          className="sc-elJkPf bUcxXE"
           disabled={false}
-          id="TextField_86"
+          id="TextField_85"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4761,17 +4774,25 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
-        htmlFor="TextField_83"
+        htmlFor="TextField_82"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -4779,9 +4800,9 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-lhVmIH hqfOMQ"
+          className="sc-btzYZH cTGwXl"
           disabled={false}
-          id="TextField_83"
+          id="TextField_82"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4838,9 +4859,9 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-btzYZH cTGwXl"
+          className="sc-jwKygS cUcdqj"
           disabled={false}
-          id="TextField_82"
+          id="TextField_81"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -4909,16 +4930,24 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dVJomd"
+          className="InnerButton-imycSA eVboAu"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -4955,16 +4984,24 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           value=""
         />
         <div
-          className="InnerButton-imycSA fRvQit"
+          className="InnerButton-imycSA elZoyX"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -5001,16 +5038,24 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           value=""
         />
         <div
-          className="InnerButton-imycSA fRvQit"
+          className="InnerButton-imycSA elZoyX"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -5047,16 +5092,24 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dvlZRg"
+          className="InnerButton-imycSA dHGDjc"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -5103,7 +5156,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
   theme={Object {}}
   tooltip={null}
   type="password"
-  value={undefined}
 >
   <TextField
     autoComplete="off"
@@ -5208,17 +5260,17 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
-                  "imgSize": 16,
+                  "imgSize": 24,
                 },
                 "state": Object {
                   "color": "#212121",
@@ -5245,28 +5297,27 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "clearingIcon": Object {
-                "name": "times",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
               "iconInner": Object {
                 "iconSpacing": 4,
                 "size": Object {
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
-                  "imgSize": 16,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -5299,17 +5350,17 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
-                  "imgSize": 20,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -5480,16 +5531,14 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "passwordIconHidden": Object {
-                "name": "eye-slash",
-                "src": "",
-                "type": "font-awesome",
-              },
-              "passwordIconUnhidden": Object {
-                "name": "eye",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
               "placeholder": Object {
                 "fontColor": "#bdbdbd",
               },
@@ -5811,7 +5860,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
     }
     tooltip={null}
     type="password"
-    value={undefined}
   >
     <TextFieldStyled
       dense={false}
@@ -5892,65 +5940,58 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       disabled={false}
                       focus={false}
                       fullWidth={false}
+                      onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dvlZRg"
+                        className="InnerButton-imycSA dHGDjc"
                         disabled={false}
+                        onClick={[Function]}
                       >
-                        <Icon
+                        <IconEye
                           color="inherit"
-                          name="eye-slash"
-                          onClick={[Function]}
-                          size="inherit"
-                          src=""
-                          type="font-awesome"
+                          size="custom"
                         >
-                          <IconFontAwesome
+                          <IconSvg
                             backgroundColor=""
                             border={false}
+                            borderWidth={0}
                             color="inherit"
-                            colorScheme="dark"
+                            colorScheme="default"
                             flip="none"
-                            name="eye-slash"
-                            onClick={[Function]}
-                            pulse={false}
                             rotate={0}
                             rounded={false}
-                            size="inherit"
-                            sizeMultiplier={1}
-                            spin={false}
-                            src=""
-                            tabIndex={-1}
-                            type="font-awesome"
+                            size="custom"
                           >
-                            <IconFontAwesomeStyled
+                            <IconStyled
                               backgroundColor=""
-                              bgColor=""
                               border={false}
-                              className="fa fa-eye-slash"
+                              borderWidth={0}
                               color=""
-                              colorScheme="dark"
+                              colorScheme="default"
+                              customColor="inherit"
                               flip="none"
-                              onClick={[Function]}
-                              pulse={false}
                               rotate={0}
                               rounded={false}
                               size="normal"
-                              sizeKey="inherit"
-                              sizeMultiplier={1}
-                              spin={false}
-                              userColor="inherit"
+                              sizeKey="custom"
                             >
-                              <span
-                                className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+                              <div
+                                className="IconSvgStyled-kZHpyB kakXQl"
                                 color=""
-                                onClick={[Function]}
                                 rotate={0}
                                 size="normal"
-                              />
-                            </IconFontAwesomeStyled>
-                          </IconFontAwesome>
-                        </Icon>
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+                                  />
+                                </svg>
+                              </div>
+                            </IconStyled>
+                          </IconSvg>
+                        </IconEye>
                       </div>
                     </InnerButton>
                   </div>
@@ -6004,7 +6045,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
   theme={Object {}}
   tooltip={null}
   type="password"
-  value={undefined}
 >
   <TextField
     autoComplete="off"
@@ -6109,17 +6149,17 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": 24,
                   },
-                  "imgSize": 16,
+                  "imgSize": 24,
                 },
                 "state": Object {
                   "color": "#212121",
@@ -6146,28 +6186,27 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "clearingIcon": Object {
-                "name": "times",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
               "iconInner": Object {
                 "iconSpacing": 4,
                 "size": Object {
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 16,
+                    "imgSize": null,
                   },
-                  "imgSize": 16,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -6200,17 +6239,17 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   "boxSize": 35.5,
                   "dense": Object {
                     "boxSize": 27.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "denseFullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
                   "fullWidth": Object {
                     "boxSize": 43.5,
-                    "imgSize": 20,
+                    "imgSize": null,
                   },
-                  "imgSize": 20,
+                  "imgSize": null,
                 },
                 "state": Object {
                   "color": "inherit",
@@ -6381,16 +6420,14 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                   },
                 },
               },
-              "passwordIconHidden": Object {
-                "name": "eye-slash",
-                "src": "",
-                "type": "font-awesome",
-              },
-              "passwordIconUnhidden": Object {
-                "name": "eye",
-                "src": "",
-                "type": "font-awesome",
-              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
               "placeholder": Object {
                 "fontColor": "#bdbdbd",
               },
@@ -6712,7 +6749,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
     }
     tooltip={null}
     type="password"
-    value={undefined}
   >
     <TextFieldStyled
       dense={false}
@@ -6793,65 +6829,66 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       disabled={false}
                       focus={false}
                       fullWidth={false}
+                      onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dvlZRg"
+                        className="InnerButton-imycSA dHGDjc"
                         disabled={false}
+                        onClick={[Function]}
                       >
-                        <Icon
+                        <IconEyeClosed
                           color="inherit"
-                          name="eye"
-                          onClick={[Function]}
-                          size="inherit"
-                          src=""
-                          type="font-awesome"
+                          size="custom"
                         >
-                          <IconFontAwesome
+                          <IconSvg
                             backgroundColor=""
                             border={false}
+                            borderWidth={0}
                             color="inherit"
-                            colorScheme="dark"
+                            colorScheme="default"
                             flip="none"
-                            name="eye"
-                            onClick={[Function]}
-                            pulse={false}
                             rotate={0}
                             rounded={false}
-                            size="inherit"
-                            sizeMultiplier={1}
-                            spin={false}
-                            src=""
-                            tabIndex={-1}
-                            type="font-awesome"
+                            size="custom"
                           >
-                            <IconFontAwesomeStyled
+                            <IconStyled
                               backgroundColor=""
-                              bgColor=""
                               border={false}
-                              className="fa fa-eye"
+                              borderWidth={0}
                               color=""
-                              colorScheme="dark"
+                              colorScheme="default"
+                              customColor="inherit"
                               flip="none"
-                              onClick={[Function]}
-                              pulse={false}
                               rotate={0}
                               rounded={false}
                               size="normal"
-                              sizeKey="inherit"
-                              sizeMultiplier={1}
-                              spin={false}
-                              userColor="inherit"
+                              sizeKey="custom"
                             >
-                              <span
-                                className="fa fa-eye IconFontAwesomeStyled-dGckvS ccJleE"
+                              <div
+                                className="IconSvgStyled-kZHpyB kakXQl"
                                 color=""
-                                onClick={[Function]}
                                 rotate={0}
                                 size="normal"
-                              />
-                            </IconFontAwesomeStyled>
-                          </IconFontAwesome>
-                        </Icon>
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <g>
+                                    <path
+                                      d="M19.7,7.4L17.1,10c0.2,0.6,0.4,1.3,0.4,2c0,3-2.5,5.5-5.5,5.5c-0.7,0-1.4-0.1-2-0.4l-1.8,1.8c1.2,0.4,2.4,0.6,3.8,0.6 c5,0,9.3-3.1,11-7.5C22.3,10.2,21.2,8.6,19.7,7.4z"
+                                    />
+                                    <path
+                                      d="M15.5,12c0-0.1,0-0.2,0-0.3l-3.8,3.8c0.1,0,0.2,0,0.3,0C13.9,15.5,15.5,13.9,15.5,12z"
+                                    />
+                                    <path
+                                      d="M19.3,2.3l-3,3C15,4.8,13.6,4.5,12,4.5C7,4.5,2.7,7.6,1,12c0.8,1.9,2,3.6,3.7,4.9l-2.4,2.4l1.4,1.4l17-17L19.3,2.3z M6.5,12C6.5,9,9,6.5,12,6.5c0.9,0,1.7,0.2,2.5,0.6L13,8.6c-0.3-0.1-0.6-0.1-0.9-0.1c-1.9,0-3.5,1.6-3.5,3.5c0,0.3,0,0.7,0.1,1 l-1.5,1.5C6.7,13.7,6.5,12.9,6.5,12z"
+                                    />
+                                  </g>
+                                </svg>
+                              </div>
+                            </IconStyled>
+                          </IconSvg>
+                        </IconEyeClosed>
                       </div>
                     </InnerButton>
                   </div>
@@ -6895,16 +6932,24 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           value=""
         />
         <div
-          className="InnerButton-imycSA jYLFDJ"
+          className="InnerButton-imycSA eEtMlV"
           disabled={true}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -6941,16 +6986,24 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           value=""
         />
         <div
-          className="InnerButton-imycSA dvlZRg"
+          className="InnerButton-imycSA dHGDjc"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -7310,17 +7363,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_28"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -7459,17 +7520,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_29"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -7506,17 +7575,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK eRmGCW"
+        className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_30"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -7553,17 +7630,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_33"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -7600,17 +7685,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_31"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -7647,17 +7740,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_32"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -8065,17 +8166,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_44"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -8168,17 +8277,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_45"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -8226,17 +8343,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK eRmGCW"
+        className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
         htmlFor="TextField_46"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -8284,17 +8409,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_49"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -8387,17 +8520,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_47"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -8445,17 +8586,25 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
         htmlFor="TextField_48"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -8599,9 +8748,9 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dqBHgY eRZoJb"
+          className="sc-kTUwUJ kvDBBF"
           disabled={false}
-          id="TextField_88"
+          id="TextField_87"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -8652,9 +8801,9 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and disabled 1
       >
         <input
           autoComplete="off"
-          className="sc-dfVpRl dOllmN"
+          className="sc-gxMtzJ fqcePc"
           disabled={true}
-          id="TextField_90"
+          id="TextField_89"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -8705,9 +8854,9 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and focus 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-gxMtzJ gWDXGI"
+          className="sc-dqBHgY eRZoJb"
           disabled={false}
-          id="TextField_89"
+          id="TextField_88"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -8765,7 +8914,7 @@ exports[`<TextField/> renders correctly if prop tooltip set test and label set t
         onFocus={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
-        tabIndex={1}
+        tabIndex={0}
       >
         <span>
           ?
@@ -8890,17 +9039,25 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
         htmlFor="TextField_65"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -8988,16 +9145,24 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dvlZRg"
+          className="InnerButton-imycSA dHGDjc"
           disabled={false}
+          onClick={[Function]}
         >
-          <span
-            className="fa fa-eye-slash IconFontAwesomeStyled-dGckvS ccJleE"
+          <div
+            className="IconSvgStyled-kZHpyB kakXQl"
             color=""
-            onClick={[Function]}
             rotate={0}
             size="normal"
-          />
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4.5C7,4.5,2.7,7.6,1,12c1.7,4.4,6,7.5,11,7.5s9.3-3.1,11-7.5C21.3,7.6,17,4.5,12,4.5z M12,17c-2.8,0-5-2.2-5-5 s2.2-5,5-5s5,2.2,5,5S14.8,17,12,17z M12,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,9,12,9z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -9057,26 +9222,34 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
         <label
           className="PrefixStyled-cSDiGO hUeRMD"
           disabled={false}
-          htmlFor="TextField_114"
+          htmlFor="TextField_113"
         >
           <div
-            className="IconInnerStyled-iRsRrl bNjxSu"
+            className="IconInnerStyled-iRsRrl jLryTk"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-cmthru eRIjZD"
+          className="sc-esOvli igeYaM"
           disabled={false}
-          id="TextField_114"
+          id="TextField_113"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9109,26 +9282,34 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
         <label
           className="PrefixStyled-cSDiGO jXqXXZ"
           disabled={true}
-          htmlFor="TextField_118"
+          htmlFor="TextField_117"
         >
           <div
-            className="IconInnerStyled-iRsRrl hIYzef"
+            className="IconInnerStyled-iRsRrl efwVKF"
             disabled={true}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-hORach kqMnVD"
+          className="sc-gqPbQI hoLmfu"
           disabled={true}
-          id="TextField_118"
+          id="TextField_117"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9161,26 +9342,34 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
         <label
           className="PrefixStyled-cSDiGO IUkrz"
           disabled={false}
-          htmlFor="TextField_120"
+          htmlFor="TextField_119"
         >
           <div
-            className="IconInnerStyled-iRsRrl wITal"
+            className="IconInnerStyled-iRsRrl jtaNj"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-bAeIUo lgLszz"
+          className="sc-bMVAic jJblIf"
           disabled={false}
-          id="TextField_120"
+          id="TextField_119"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9213,26 +9402,34 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
         <label
           className="PrefixStyled-cSDiGO jgkzFq"
           disabled={false}
-          htmlFor="TextField_119"
+          htmlFor="TextField_118"
         >
           <div
-            className="IconInnerStyled-iRsRrl bNjxSu"
+            className="IconInnerStyled-iRsRrl jLryTk"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-bMVAic jUlBqw"
+          className="sc-hORach ddoOJS"
           disabled={false}
-          id="TextField_119"
+          id="TextField_118"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9265,26 +9462,34 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
         <label
           className="PrefixStyled-cSDiGO jwLogJ"
           disabled={false}
-          htmlFor="TextField_116"
+          htmlFor="TextField_115"
         >
           <div
-            className="IconInnerStyled-iRsRrl jCHHha"
+            className="IconInnerStyled-iRsRrl emEHvi"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-cLQEGU fWKXLx"
+          className="sc-hMFtBS blCNxK"
           disabled={false}
-          id="TextField_116"
+          id="TextField_115"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9317,26 +9522,34 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
         <label
           className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
-          htmlFor="TextField_115"
+          htmlFor="TextField_114"
         >
           <div
-            className="IconInnerStyled-iRsRrl bAzBcR"
+            className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-hMFtBS jVWbpa"
+          className="sc-cmthru fgGyle"
           disabled={false}
-          id="TextField_115"
+          id="TextField_114"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9369,26 +9582,34 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
         <label
           className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
-          htmlFor="TextField_117"
+          htmlFor="TextField_116"
         >
           <div
-            className="IconInnerStyled-iRsRrl bAzBcR"
+            className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
         </label>
         <input
           autoComplete="off"
-          className="sc-gqPbQI iZEVbV"
+          className="sc-cLQEGU ouebH"
           disabled={false}
-          id="TextField_117"
+          id="TextField_116"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9415,17 +9636,25 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
-        htmlFor="TextField_107"
+        htmlFor="TextField_106"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -9433,9 +9662,9 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-epnACN xcvgH"
+          className="sc-hXRMBi dbclBh"
           disabled={false}
-          id="TextField_107"
+          id="TextField_106"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9462,17 +9691,25 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
       disabled={true}
     >
       <label
-        className="IconOuterStyled-JjRcK fxeeCW"
+        className="IconOuterStyled-JjRcK jlFyHm"
         disabled={true}
-        htmlFor="TextField_111"
+        htmlFor="TextField_110"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues oUvjQ"
@@ -9480,9 +9717,9 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cMhqgX cBEPKi"
+          className="sc-hZSUBg dZVjHP"
           disabled={true}
-          id="TextField_111"
+          id="TextField_110"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9509,17 +9746,25 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK fZlUkz"
+        className="IconOuterStyled-JjRcK jqCljH"
         disabled={false}
-        htmlFor="TextField_113"
+        htmlFor="TextField_112"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dhNDnl"
@@ -9527,9 +9772,9 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-esOvli igeYaM"
+          className="sc-iuJeZd jmAoLD"
           disabled={false}
-          id="TextField_113"
+          id="TextField_112"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9556,17 +9801,25 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK bIsEgV"
+        className="IconOuterStyled-JjRcK cBDYtC"
         disabled={false}
-        htmlFor="TextField_112"
+        htmlFor="TextField_111"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues bCeKSN"
@@ -9574,9 +9827,9 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
       >
         <input
           autoComplete="off"
-          className="sc-iuJeZd lfKNcP"
+          className="sc-cMhqgX eHLGbP"
           disabled={false}
-          id="TextField_112"
+          id="TextField_111"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9603,17 +9856,25 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK eRmGCW"
+        className="IconOuterStyled-JjRcK ddumgi"
         disabled={false}
-        htmlFor="TextField_109"
+        htmlFor="TextField_108"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues dwexzW"
@@ -9621,9 +9882,9 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bsbRJL jDames"
+          className="sc-iQNlJl gMSrgU"
           disabled={false}
-          id="TextField_109"
+          id="TextField_108"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9650,17 +9911,25 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
-        htmlFor="TextField_108"
+        htmlFor="TextField_107"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -9668,9 +9937,9 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-iQNlJl bSgnBC"
+          className="sc-epnACN fwwoPx"
           disabled={false}
-          id="TextField_108"
+          id="TextField_107"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9697,17 +9966,25 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK dxJQob"
+        className="IconOuterStyled-JjRcK gkNvxN"
         disabled={false}
-        htmlFor="TextField_110"
+        htmlFor="TextField_109"
       >
-        <span
-          className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+        <div
+          className="IconSvgStyled-kZHpyB dYiAvB"
           color=""
-          onClick={[Function]}
           rotate={0}
           size="normal"
-        />
+        >
+          <svg
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+            />
+          </svg>
+        </div>
       </label>
       <div
         className="TextFieldGroupStyled-cLQues ebvLSB"
@@ -9715,9 +9992,9 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hZSUBg eMjFiG"
+          className="sc-bsbRJL zgIPG"
           disabled={false}
-          id="TextField_110"
+          id="TextField_109"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9749,9 +10026,9 @@ exports[`<TextField/> renders correctly with prop postfix 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iujRgT dAZIiY"
+          className="sc-bAeIUo lgLszz"
           disabled={false}
-          id="TextField_121"
+          id="TextField_120"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9763,7 +10040,7 @@ exports[`<TextField/> renders correctly with prop postfix 1`] = `
         <label
           className="PostfixStyled-gidrzB cGwIep"
           disabled={false}
-          htmlFor="TextField_121"
+          htmlFor="TextField_120"
         >
           <span
             className="PostfixTextStyled-eRrWif kSIqH"
@@ -9797,9 +10074,9 @@ exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-daURTG fXWkmQ"
+          className="sc-gojNiO hklsji"
           disabled={false}
-          id="TextField_126"
+          id="TextField_125"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9811,7 +10088,7 @@ exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
         <label
           className="PostfixStyled-gidrzB btrTsX"
           disabled={false}
-          htmlFor="TextField_126"
+          htmlFor="TextField_125"
         >
           <span
             className="PostfixTextStyled-eRrWif kSIqH"
@@ -9845,9 +10122,9 @@ exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gojNiO rjcoJ"
+          className="sc-cQFLBn jVzpko"
           disabled={false}
-          id="TextField_125"
+          id="TextField_124"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9859,7 +10136,7 @@ exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
         <label
           className="PostfixStyled-gidrzB gfUyhT"
           disabled={false}
-          htmlFor="TextField_125"
+          htmlFor="TextField_124"
         >
           <span
             className="PostfixTextStyled-eRrWif kSIqH"
@@ -9893,9 +10170,9 @@ exports[`<TextField/> renders correctly with prop postfix and colorScheme set su
       >
         <input
           autoComplete="off"
-          className="sc-lkqHmb ciDWyW"
+          className="sc-bXGyLb gLBMCV"
           disabled={false}
-          id="TextField_128"
+          id="TextField_127"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9907,7 +10184,7 @@ exports[`<TextField/> renders correctly with prop postfix and colorScheme set su
         <label
           className="PostfixStyled-gidrzB iHHtVs"
           disabled={false}
-          htmlFor="TextField_128"
+          htmlFor="TextField_127"
         >
           <span
             className="PostfixTextStyled-eRrWif kSIqH"
@@ -9941,9 +10218,9 @@ exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-GMQeP fftbZc"
+          className="sc-iujRgT bJCxWo"
           disabled={false}
-          id="TextField_122"
+          id="TextField_121"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -9955,7 +10232,7 @@ exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
         <label
           className="PostfixStyled-gidrzB kuYlQq"
           disabled={false}
-          htmlFor="TextField_122"
+          htmlFor="TextField_121"
         >
           <span
             className="PostfixTextStyled-eRrWif kSIqH"
@@ -9989,9 +10266,9 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bXGyLb ezfytd"
+          className="sc-daURTG eddZfD"
           disabled={true}
-          id="TextField_127"
+          id="TextField_126"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -10003,7 +10280,7 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
         <label
           className="PostfixStyled-gidrzB dLUyDJ"
           disabled={true}
-          htmlFor="TextField_127"
+          htmlFor="TextField_126"
         >
           <span
             className="PostfixTextStyled-eRrWif kSIqH"
@@ -10021,6 +10298,102 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
 `;
 
 exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
+<div
+  className="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      className="TextFieldRowStyled-VkWtx dfPpjs"
+      disabled={false}
+    >
+      <div
+        className="TextFieldGroupStyled-cLQues ebvLSB"
+        disabled={false}
+      >
+        <input
+          autoComplete="off"
+          className="sc-GMQeP jRySTn"
+          disabled={false}
+          id="TextField_122"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="text"
+          value=""
+        />
+        <label
+          className="PostfixStyled-gidrzB hHRslm"
+          disabled={false}
+          htmlFor="TextField_122"
+        >
+          <span
+            className="PostfixTextStyled-eRrWif kSIqH"
+            disabled={false}
+          >
+            <span>
+              Foo
+            </span>
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] = `
+<div
+  className="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      className="TextFieldRowStyled-VkWtx iKvbzP"
+      disabled={false}
+    >
+      <div
+        className="TextFieldGroupStyled-cLQues dwexzW"
+        disabled={false}
+      >
+        <input
+          autoComplete="off"
+          className="sc-lkqHmb olJKw"
+          disabled={false}
+          id="TextField_128"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="text"
+          value=""
+        />
+        <label
+          className="PostfixStyled-gidrzB cGwIep"
+          disabled={false}
+          htmlFor="TextField_128"
+        >
+          <span
+            className="PostfixTextStyled-eRrWif kSIqH"
+            disabled={false}
+          >
+            <span>
+              Foo
+            </span>
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1`] = `
 <div
   className="TextFieldStyled-bdmlkn QIbv"
 >
@@ -10068,7 +10441,7 @@ exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
 </div>
 `;
 
-exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] = `
+exports[`<TextField/> renders correctly with prop prefix 1`] = `
 <div
   className="TextFieldStyled-bdmlkn QIbv"
 >
@@ -10083,11 +10456,25 @@ exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] =
         className="TextFieldGroupStyled-cLQues dwexzW"
         disabled={false}
       >
+        <label
+          className="PrefixStyled-cSDiGO hUeRMD"
+          disabled={false}
+          htmlFor="TextField_100"
+        >
+          <span
+            className="PrefixTextStyled-hjSMuK loWstg"
+            disabled={false}
+          >
+            <span>
+              Foo
+            </span>
+          </span>
+        </label>
         <input
           autoComplete="off"
-          className="sc-eLExRp ggYUMH"
+          className="sc-RefOD gPnliQ"
           disabled={false}
-          id="TextField_129"
+          id="TextField_100"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -10096,75 +10483,13 @@ exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] =
           type="text"
           value=""
         />
-        <label
-          className="PostfixStyled-gidrzB cGwIep"
-          disabled={false}
-          htmlFor="TextField_129"
-        >
-          <span
-            className="PostfixTextStyled-eRrWif kSIqH"
-            disabled={false}
-          >
-            <span>
-              Foo
-            </span>
-          </span>
-        </label>
       </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
->
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
-  >
-    <div
-      className="TextFieldRowStyled-VkWtx dfPpjs"
-      disabled={false}
-    >
-      <div
-        className="TextFieldGroupStyled-cLQues ebvLSB"
-        disabled={false}
-      >
-        <input
-          autoComplete="off"
-          className="sc-cQFLBn feSdXf"
-          disabled={false}
-          id="TextField_124"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value=""
-        />
-        <label
-          className="PostfixStyled-gidrzB hHRslm"
-          disabled={false}
-          htmlFor="TextField_124"
-        >
-          <span
-            className="PostfixTextStyled-eRrWif kSIqH"
-            disabled={false}
-          >
-            <span>
-              Foo
-            </span>
-          </span>
-        </label>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TextField/> renders correctly with prop prefix 1`] = `
+exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
 <div
   className="TextFieldStyled-bdmlkn QIbv"
 >
@@ -10212,7 +10537,7 @@ exports[`<TextField/> renders correctly with prop prefix 1`] = `
 </div>
 `;
 
-exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
+exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
 <div
   className="TextFieldStyled-bdmlkn QIbv"
 >
@@ -10232,6 +10557,26 @@ exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
           disabled={false}
           htmlFor="TextField_102"
         >
+          <div
+            className="IconInnerStyled-iRsRrl jLryTk"
+            disabled={false}
+          >
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
+              color=""
+              rotate={0}
+              size="normal"
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
+          </div>
           <span
             className="PrefixTextStyled-hjSMuK loWstg"
             disabled={false}
@@ -10246,66 +10591,6 @@ exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
           className="sc-bwCtUz dUOPh"
           disabled={false}
           id="TextField_102"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          placeholder=""
-          type="text"
-          value=""
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
-<div
-  className="TextFieldStyled-bdmlkn QIbv"
->
-  <div
-    className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
-  >
-    <div
-      className="TextFieldRowStyled-VkWtx iKvbzP"
-      disabled={false}
-    >
-      <div
-        className="TextFieldGroupStyled-cLQues dwexzW"
-        disabled={false}
-      >
-        <label
-          className="PrefixStyled-cSDiGO hUeRMD"
-          disabled={false}
-          htmlFor="TextField_103"
-        >
-          <div
-            className="IconInnerStyled-iRsRrl bNjxSu"
-            disabled={false}
-          >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
-              color=""
-              onClick={[Function]}
-              rotate={0}
-              size="normal"
-            />
-          </div>
-          <span
-            className="PrefixTextStyled-hjSMuK loWstg"
-            disabled={false}
-          >
-            <span>
-              Foo
-            </span>
-          </span>
-        </label>
-        <input
-          autoComplete="off"
-          className="sc-hrWEMg hqsNOv"
-          disabled={false}
-          id="TextField_103"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -10338,19 +10623,27 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
         <label
           className="PrefixStyled-cSDiGO jwLogJ"
           disabled={false}
-          htmlFor="TextField_105"
+          htmlFor="TextField_104"
         >
           <div
-            className="IconInnerStyled-iRsRrl jCHHha"
+            className="IconInnerStyled-iRsRrl emEHvi"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
           <span
             className="PrefixTextStyled-hjSMuK loWstg"
@@ -10363,9 +10656,9 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
         </label>
         <input
           autoComplete="off"
-          className="sc-gwVKww gqJmeh"
+          className="sc-eTuwsz gGBaml"
           disabled={false}
-          id="TextField_105"
+          id="TextField_104"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -10398,19 +10691,27 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
         <label
           className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
-          htmlFor="TextField_104"
+          htmlFor="TextField_103"
         >
           <div
-            className="IconInnerStyled-iRsRrl bAzBcR"
+            className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
           <span
             className="PrefixTextStyled-hjSMuK loWstg"
@@ -10423,9 +10724,9 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
         </label>
         <input
           autoComplete="off"
-          className="sc-eTuwsz cerMcI"
+          className="sc-hrWEMg PdBxp"
           disabled={false}
-          id="TextField_104"
+          id="TextField_103"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}
@@ -10458,19 +10759,27 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
         <label
           className="PrefixStyled-cSDiGO hdGvmr"
           disabled={false}
-          htmlFor="TextField_106"
+          htmlFor="TextField_105"
         >
           <div
-            className="IconInnerStyled-iRsRrl bAzBcR"
+            className="IconInnerStyled-iRsRrl ehzhwV"
             disabled={false}
           >
-            <span
-              className="fa fa-customIcon IconFontAwesomeStyled-dGckvS ccJleE"
+            <div
+              className="IconSvgStyled-kZHpyB dYiAvB"
               color=""
-              onClick={[Function]}
               rotate={0}
               size="normal"
-            />
+            >
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+                />
+              </svg>
+            </div>
           </div>
           <span
             className="PrefixTextStyled-hjSMuK loWstg"
@@ -10483,9 +10792,9 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
         </label>
         <input
           autoComplete="off"
-          className="sc-hXRMBi eEnJAP"
+          className="sc-gwVKww gaWmOS"
           disabled={false}
-          id="TextField_106"
+          id="TextField_105"
           onBlur={[Function]}
           onChange={[Function]}
           onClick={[Function]}

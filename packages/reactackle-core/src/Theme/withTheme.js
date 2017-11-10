@@ -10,6 +10,8 @@ const contextTypes = {
 };
 
 export const withTheme = WrappedComponent => {
+  const isStateless = !WrappedComponent.prototype.render;
+
   class WithTheme extends Component {
     constructor(props) {
       super(props);
@@ -38,11 +40,16 @@ export const withTheme = WrappedComponent => {
     render() {
       const theme = extractThemeOrDefault(this.state.theme);
 
+      const props = {
+        ...this.props,
+        theme,
+      };
+
+      if (!isStateless) props.ref = ref => { this.wrappedComponent = ref; };
+
       return (
         <WrappedComponent
-          ref={ref => { this.wrappedComponent = ref; }}
-          {...this.props}
-          theme={theme}
+          {...props}
         />
       );
     }
@@ -60,9 +67,11 @@ export const withTheme = WrappedComponent => {
     ...WrappedComponent.defaultProps,
   };
 
-  return hoistNonReactMethods(
-    WithTheme,
-    WrappedComponent,
-    c => c.wrappedComponent,
-  );
+  return isStateless
+    ? WithTheme
+    : hoistNonReactMethods(
+      WithTheme,
+      WrappedComponent,
+      c => c.wrappedComponent,
+    );
 };

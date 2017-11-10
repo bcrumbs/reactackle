@@ -25,7 +25,7 @@
     "color": "^2.0.0",
     "prop-types": "^15.5.10",
     "react-textarea-autosize": "^5.0.7",
-    "reactackle-icon": "^0.0.3-beta.2",
+    "reactackle-icons": "^0.0.3-beta.2",
     "reactackle-tooltip-icon": "^0.0.3-beta.2"
   },
   "devDependencies": {

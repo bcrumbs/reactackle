@@ -219,13 +219,9 @@ class _Dialog extends Component {
   _renderCloseButton() {
     if (!this.props.haveCloseButton) return null;
 
-    const closeIcon = this.props.theme.reactackle.components.dialog.icon.close
-      .source;
-
     return (
       <DialogCloseButton
         onClick={this._handleDialogClose}
-        closeIcon={closeIcon}
         transparentBg={this.props.transparentBg}
       />
     );

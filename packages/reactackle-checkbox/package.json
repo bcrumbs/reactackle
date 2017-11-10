@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10",
-    "reactackle-icon": "^0.0.3-beta.2",
+    "reactackle-icons": "^0.0.3-beta.2",
     "reactackle-tooltip": "^0.0.3-beta.2",
     "reactackle-tooltip-icon": "^0.0.3-beta.2"
   },

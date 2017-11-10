@@ -1,10 +1,7 @@
 'use strict';
 
 import {
-  baseModule,
-  doubleBaseModule,
-  twoAndHalfBaseModule,
-  fourAndHalfBaseModule,
+  bmodule,
   colorSecondary,
   colorPaletteGrey100,
   colorPaletteGrey200,
@@ -19,8 +16,8 @@ import { toggleBarBackgroundColorChecked } from './constants';
 
 export default {
   toggleBar: {
-    width: fourAndHalfBaseModule,
-    height: doubleBaseModule,
+    width: bmodule(4.5),
+    height: bmodule(2),
 
     state: {
       checked: {
@@ -38,7 +35,7 @@ export default {
   },
 
   toggleThumb: {
-    size: twoAndHalfBaseModule,
+    size: bmodule(2.5),
     borderRadius: radiusRounded,
 
     state: {
@@ -59,8 +56,8 @@ export default {
   },
 
   label: {
-    toggleLabelSpacing: baseModule,
-    labelTooltipSpacing: baseModule,
+    toggleLabelSpacing: bmodule(1),
+    labelTooltipSpacing: bmodule(1),
     fontSize: fontSizeBody,
     lineHeight: 1.5, // Only number's accepted
 

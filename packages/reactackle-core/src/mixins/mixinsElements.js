@@ -3,20 +3,26 @@ import { oppositeDirection } from '../styleFunctions';
 /**
  * Icon size mixin
  */
-export function iconSizeMixin(outerSize, imgSize, outerWidth = outerSize) {
+export function iconSizeMixin(
+  height,
+  imgHeight = height,
+  width = height,
+  imgWidth = imgHeight,
+) {
   return `
-    &,
-    .icon {
-      width: ${outerWidth}px;
-      height: ${outerSize}px;
-      line-height: ${outerSize}px;
-    }
-  
-    .icon::before {
-      font-size: ${imgSize}px;
-    }
+    width: ${width};
+    height: ${height};
+    line-height: ${height} !important;
+    background-size: ${imgHeight};
+    align-items: center;
+    justify-content: center;
     
-    .icon-holder { background-size: ${imgSize}px; }
+    ${imgHeight && `
+      svg {
+        width: ${imgWidth};
+        height: ${imgHeight};
+      }
+    `}
   `;
 }
 

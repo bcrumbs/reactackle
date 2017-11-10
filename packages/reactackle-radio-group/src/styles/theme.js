@@ -1,8 +1,7 @@
 'use strict';
 
 import {
-  baseModule,
-  twoAndQuarterBaseModule,
+  bmodule,
   colorTransparent,
   colorSecondary,
   bodyFontColor,
@@ -25,8 +24,8 @@ const radioConstants = {
 
 export default {
   input: {
-    similarItemsSpacing: baseModule,
-    size: twoAndQuarterBaseModule,
+    similarItemsSpacing: bmodule(1),
+    size: bmodule(2.25),
     borderWidth: 1,
     borderRadius: radiusRounded,
     backgroundColor: radioConstants.backgroundColorDefault,
@@ -77,7 +76,7 @@ export default {
   },
 
   label: {
-    inputLabelSpacing: baseModule,
+    inputLabelSpacing: bmodule(1),
     fontSize: ({ fontSize }) => fontSize[0],
     lineHeight: 1.5,
     fontColor: radioConstants.labelColorDefault,

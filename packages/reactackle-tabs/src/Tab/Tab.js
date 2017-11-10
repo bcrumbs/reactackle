@@ -1,8 +1,5 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Icon } from 'reactackle-icon';
 import { noop } from 'reactackle-core';
 import { LinkWrapper } from '../Link/LinkWrapper';
 import { DefaultLinkComponent } from '../Link/DefaultLinkComponent';
@@ -42,21 +39,9 @@ const propTypes = {
     */
   linkComponent: PropTypes.func,
   /**
-   * Icon that will be rendered on Tab
-   * @customType {
-   * name: PropTypes.string,
-   * src: PropTypes.string,
-   * type: PropTypes.oneOf(['font-awesome', 'library',]),
-   * }
+   * Icon that will be rendered on Tab (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.shape({
-    /** Set icon's name (required for font-awesome icons) */
-    name: PropTypes.string,
-    /** Set icon's source (required for library icons) */
-    src: PropTypes.string,
-    /** Set icon type */
-    type: PropTypes.oneOf(['font-awesome', 'library']),
-  }),
+  icon: PropTypes.element,
   /**
    * Specify function that will be called on Tab selection
    */
@@ -71,11 +56,7 @@ const defaultProps = {
   index: 0,
   colorScheme: 'dark',
   linkComponent: DefaultLinkComponent,
-  icon: {
-    name: '',
-    src: '',
-    type: 'font-awesome',
-  },
+  icon: null,
   onSelect: noop,
 };
 
@@ -95,14 +76,15 @@ export default class Tab extends Component {
   }
 
   _renderTabIcon() {
-    if (!this.props.icon.name && !this.props.icon.src) return null;
-
+    const { icon } = this.props;
+    if (!icon) return null;
+    
     return (
       <TabIconStyled
         colorScheme={this.props.colorScheme}
         selected={this.props.isSelected}
       >
-        <Icon {...this.props.icon} size="inherit" color="inherit" />
+        {icon}
       </TabIconStyled>
     );
   }
@@ -111,7 +93,7 @@ export default class Tab extends Component {
     if (!this.props.text) return null;
 
     return (
-      <TabTextStyled hasIcon={this.props.icon.name || this.props.icon.src}>
+      <TabTextStyled hasIcon={this.props.icon !== null}>
         {this.props.text}
       </TabTextStyled>
     );
