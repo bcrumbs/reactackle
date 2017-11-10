@@ -91,6 +91,7 @@ const propTypes = {
    * Specify function to call on overflow
    */
   onOverflow: PropTypes.func,
+  onOpen: PropTypes.func,
 };
 
 const defaultProps = {
@@ -115,6 +116,7 @@ const defaultProps = {
   allowedSlideOnAdjacentEdge: false,
   allowedChangeType: false,
   onOverflow: noop,
+  onOpen: noop,
 };
 
 let autoPositionInstances = [];
@@ -371,9 +373,14 @@ export default class AutoPosition extends Component {
     });
   }
 
+  _handleContentMounted() {
+    this.recalculatePosition();
+    this.props.onOpen();
+  }
+
   _saveRef(ref) {
     this._domNode = ref;
-    this.recalculatePosition();
+    if (ref) this._handleContentMounted();
   }
 
   _overflowCheck({ top, left }) {
@@ -521,10 +528,9 @@ export default class AutoPosition extends Component {
     const style = {
       position: 'fixed',
       zIndex: 9000,
-      visibility: this._domNode ? 'visible' : 'hidden',
       ...this.state.currentPosition,
     };
-
+    
     return !this.props.visible ? null : (
       <Portal
         node={this.props.parent}
