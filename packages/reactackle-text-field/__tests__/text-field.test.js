@@ -1277,7 +1277,7 @@ describe('<TextField/>', () => {
     expect(mockFocus).toBeCalled();
 
     const textFieldNode = component.children().instance()._domNodeInput;
-    expect(textFieldNode.nodeName).toEqual('INPUT');
+    expect(textFieldNode instanceof window.HTMLElement).toEqual(true);
 
     expect(toJson(component)).toMatchSnapshot();
   });
@@ -1298,7 +1298,7 @@ describe('<TextField/>', () => {
     expect(mockFocus).toBeCalled();
 
     const textFieldNode = component.children().instance()._domNodeInput;
-    expect(textFieldNode.nodeName).toEqual('TEXTAREA');
+    expect(textFieldNode instanceof window.HTMLElement).toEqual(true);
 
     expect(toJson(component)).toMatchSnapshot();
   });
@@ -1320,7 +1320,7 @@ describe('<TextField/>', () => {
     expect(mockFocus).toBeCalled();
 
     const textFieldNode = component.children().instance()._domNodeInput;
-    expect(textFieldNode.nodeName).toEqual('TEXTAREA');
+    expect(textFieldNode instanceof window.HTMLElement).toEqual(true);
 
     expect(toJson(component)).toMatchSnapshot();
   });
