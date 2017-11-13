@@ -1,4 +1,6 @@
+import React from 'react';
 import PropTypes from 'prop-types';
+import TextareaAutosize from 'react-textarea-autosize';
 import styled, { css } from 'styled-components';
 import {
   extractThemeOrDefault,
@@ -37,6 +39,8 @@ const defaultProps = {
   disabled: false,
   colorScheme: 'neutral',
 };
+
+const displayName = name => `TextFieldStyled(${name})`;
 
 /** PROP RECEIVERS */
 const textfieldSize = ({
@@ -164,42 +168,43 @@ const styles = props => `
   ${transition('color, background-color, box-shadow')}
 `;
 
-export const getTextFieldElementStyledCustom = (
-  Component,
-  displayName,
-) => {
-  const ret = styled(Component)`
-    ${styles}
-  `;
-
-  ret.propTypes = {
-    ...Component.propTypes,
-    ...propTypes,
-  };
-  ret.defaultProps = {
-    ...Component.defaultProps,
-    ...defaultProps,
-  };
-  ret.displayName = `TextFieldElementStyled(${Component.displayName || displayName})`;
-
-  return ret;
+export const TextareaAutosizeStyled = styled(({
+  bordered,
+  fullWidth,
+  dense,
+  disabled,
+  colorScheme,
+  focus,
+  theme,
+  saveRef,
+  ...props
+}) => <TextareaAutosize {...props} inputRef={saveRef} />)`
+  ${styles}
+`;
+TextareaAutosizeStyled.propTypes = {
+  ...propTypes,
+  ...TextareaAutosize.propTypes,
 };
-
-export const getTextFieldElementStyled = (
-  elementName,
-  displayName,
-) => {
-  const additionalProps = {
-    ref: props => props.saveRef,
-  };
-
-  const ret = styled[elementName].attrs(additionalProps)`
-    ${styles}
-  `;
-
-  ret.propTypes = propTypes;
-  ret.defaultProps = defaultProps;
-  ret.displayName = `TextFieldElementStyled(${displayName || elementName})`;
-
-  return ret;
+TextareaAutosizeStyled.defaultProps = {
+  ...defaultProps,
+  ...TextareaAutosize.defaultProps,
 };
+TextareaAutosizeStyled.displayName = displayName(TextareaAutosize.displayName || 'TextareaAutosize');
+
+export const TextareaStyled = styled.textarea.attrs({
+  ref: props => props.saveRef,
+})`
+  ${styles}
+`;
+TextareaStyled.propTypes = propTypes;
+TextareaStyled.defaultProps = defaultProps;
+TextareaStyled.displayName = displayName('Textarea');
+
+export const InputStyled = styled.input.attrs({
+  ref: props => props.saveRef,
+})`
+  ${styles}
+`;
+TextareaStyled.propTypes = propTypes;
+TextareaStyled.defaultProps = defaultProps;
+TextareaStyled.displayName = displayName('Input');

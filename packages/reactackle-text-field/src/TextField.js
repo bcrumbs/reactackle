@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import AutosizeTextarea from 'react-textarea-autosize';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
@@ -27,31 +26,15 @@ import { PostfixTextStyled } from './styles/PostfixTextStyled';
 import { TextFieldStyled } from './styles/TextFieldStyled';
 import { TextFieldGroupStyled } from './styles/TextFieldGroupStyled';
 import {
-  getTextFieldElementStyled,
-  getTextFieldElementStyledCustom,
+  InputStyled,
+  TextareaAutosizeStyled,
+  TextareaStyled,
 } from './styles/TextFieldElementStyled';
 import { TextFieldContentBoxStyled } from './styles/TextFieldContentBoxStyled';
 import { TextFieldRowStyled } from './styles/TextFieldRowStyled';
 import componentTheme from './styles/theme';
 
 registerDefaultComponentTheme('textfield', componentTheme);
-
-const TextareaAutosize = ({
-  bordered,
-  fullWidth,
-  dense,
-  disabled,
-  colorScheme,
-  focus,
-  theme,
-  saveRef,
-  ...props
-}) => <AutosizeTextarea {...props} inputRef={saveRef} />;
-
-TextareaAutosize.propTypes = {
-  ...AutosizeTextarea.propTypes,
-  saveRef: PropTypes.func.isRequired,
-};
 
 const propTypes = {
   /**
@@ -251,7 +234,7 @@ class _TextField extends Component {
       focus: false,
       lengthError: false,
       patternError: false,
-      textFieldElement: this._getTextFieldElementStyled(),
+      textFieldComponent: this._getTextFieldComponentStyled(),
     };
     this._saveRef = this._saveRef.bind(this);
     this._saveRefWrap = this._saveRefWrap.bind(this);
@@ -261,12 +244,11 @@ class _TextField extends Component {
     this._handleChange = this._handleChange.bind(this);
     this._handleFocus = this._handleFocus.bind(this);
     this._handleClick = this._handleClick.bind(this);
-    this._getTextFieldElementStyled = this._getTextFieldElementStyled.bind(
-      this,
-    );
     this._handleChange = this._handleChange.bind(this);
     this.focus = this.focus.bind(this);
     this.getValue = this.getValue.bind(this);
+    this._getTextFieldComponentStyled =
+      this._getTextFieldComponentStyled.bind(this);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -284,7 +266,9 @@ class _TextField extends Component {
     if (isTypeChanged)
       this.setState({ hidden: nextProps.type === 'password' ? true : null });
     if (isTextFieldChanged)
-      this.setState({ textFieldElement: this._getTextFieldElementStyled() });
+      this.setState({
+        textFieldComponent: this._getTextFieldComponentStyled(),
+      });
   }
 
   getValue() {
@@ -304,12 +288,12 @@ class _TextField extends Component {
     return !isUndef(source.value);
   }
 
-  _getTextFieldElementStyled() {
-    if (!this.props.multiline) return getTextFieldElementStyled('input');
+  _getTextFieldComponentStyled() {
+    if (!this.props.multiline) return InputStyled;
 
     return this.props.resize === 'auto'
-      ? getTextFieldElementStyledCustom(TextareaAutosize, 'TextArea')
-      : getTextFieldElementStyled('textarea', 'TextArea');
+      ? TextareaAutosizeStyled
+      : TextareaStyled;
   }
 
   _parseValue(value) {
@@ -625,7 +609,7 @@ class _TextField extends Component {
    * @virtual
    */
   _renderTextField(textFieldProps) {
-    const TextFieldElement = this.state.textFieldElement;
+    const TextFieldComponent = this.state.textFieldComponent;
     const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
     const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
     
@@ -634,8 +618,8 @@ class _TextField extends Component {
     if (this.props.multiline && this.props.resize !== 'auto') {
       props.rows = this.props.multilineRows.min;
     }
-
-    return <TextFieldElement {...props} />;
+    
+    return <TextFieldComponent {...props} />;
   }
 
   render() {
