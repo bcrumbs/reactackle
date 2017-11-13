@@ -17,7 +17,7 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-ejGVNB dPUZUe"
+          class="sc-gHboQg ehxvcK"
           id="TextField_135"
           placeholder=""
           style="height:0"
@@ -46,7 +46,7 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-dHmInP jONyjS"
+          class="sc-dUjcNx jpgHAU"
           id="TextField_134"
           placeholder=""
           style="height:0"
@@ -75,7 +75,7 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-hcmgZB bzaLfo"
+          class="sc-fOKMvo fHOFco"
           id="TextField_133"
           placeholder=""
           style="height:0"
@@ -104,7 +104,7 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
       >
         <textarea
           autocomplete="off"
-          class="sc-hgRTRy cYQFfH"
+          class="sc-emmjRN lnHPuk"
           id="TextField_138"
           placeholder="test"
           style="height:0"
@@ -133,7 +133,7 @@ exports[`<TextField /> multiline renders correctly if prop resize set manual 1`]
       >
         <textarea
           autocomplete="off"
-          class="sc-eLdqWK dpsbpV"
+          class="sc-eilVRo ivmTFc"
           id="TextField_136"
           placeholder=""
           rows="5"
@@ -162,7 +162,7 @@ exports[`<TextField /> multiline renders correctly if prop resize set none 1`] =
       >
         <textarea
           autocomplete="off"
-          class="sc-iiUIRa loVAn"
+          class="sc-eerKOB bpTzbx"
           id="TextField_137"
           placeholder=""
           rows="5"
@@ -193,7 +193,7 @@ exports[`<TextField/> calls onChange event and calls onPatternError after had ca
       >
         <input
           autoComplete="off"
-          className="sc-clNaTc dkcjad"
+          className="sc-esjQYD fdaTBc"
           disabled={false}
           id="TextField_96"
           onBlur={[Function]}
@@ -227,7 +227,7 @@ exports[`<TextField/> calls onChange event with value test after had called chan
       >
         <input
           autoComplete="off"
-          className="sc-eInJlc eImDrX"
+          className="sc-ibxdXY fdqoQj"
           disabled={false}
           id="TextField_99"
           onBlur={[Function]}
@@ -280,7 +280,7 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-RcBXQ toYGk"
+          className="sc-kPVwWT gDiNIo"
           disabled={false}
           id="TextField_94"
           onBlur={[Function]}
@@ -314,7 +314,7 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-kasBVs dcXkJv"
+          className="sc-eXEjpC imiOoq"
           disabled={false}
           id="TextField_98"
           onBlur={[Function]}
@@ -348,7 +348,7 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-jXQZqI dporAk"
+          className="sc-kIPQKe jfnhXC"
           disabled={false}
           id="TextField_97"
           onBlur={[Function]}
@@ -382,7 +382,7 @@ exports[`<TextField/> doesn't call onChange and calls onPatternError after had c
       >
         <input
           autoComplete="off"
-          className="sc-fZwumE kLPsOo"
+          className="sc-kfGgVZ bQnpto"
           disabled={false}
           id="TextField_95"
           onBlur={[Function]}
@@ -414,7 +414,7 @@ exports[`<TextField/> handle click event 1`] = `
       >
         <input
           autocomplete="off"
-          class="sc-hUfwpO eIoOEY"
+          class="sc-eLExRp eeoNFs"
           id="TextField_129"
           placeholder=""
           type="text"
@@ -443,7 +443,7 @@ exports[`<TextField/> handle focus event 1`] = `
       >
         <input
           autocomplete="off"
-          class="sc-cjHlYL bHWNeH"
+          class="sc-cbkKFq dTlsJu"
           id="TextField_130"
           placeholder=""
           type="text"
@@ -1253,7 +1253,6 @@ exports[`<TextField/> handless focus 1`] = `
                       focus={false}
                       fullWidth={false}
                       id="TextField_131"
-                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -1261,12 +1260,13 @@ exports[`<TextField/> handless focus 1`] = `
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      saveRef={[Function]}
                       type="text"
                       value="value"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-fEUNkw cbXTvH"
+                        className="sc-krvtoX ksRhoX"
                         disabled={false}
                         id="TextField_131"
                         onBlur={[Function]}
@@ -1307,7 +1307,7 @@ exports[`<TextField/> renders correctly after fire event blur 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gmeYpB kHXlid"
+          className="sc-hwwEjo dNJZDN"
           disabled={false}
           id="TextField_93"
           onBlur={[Function]}
@@ -1341,7 +1341,7 @@ exports[`<TextField/> renders correctly after fire event blur 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gmeYpB kHXlid"
+          className="sc-hwwEjo dNJZDN"
           disabled={false}
           id="TextField_93"
           onBlur={[Function]}
@@ -1375,7 +1375,7 @@ exports[`<TextField/> renders correctly after fire event focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dxgOiQ hkndIU"
+          className="sc-gZMcBi jNcXF"
           disabled={false}
           id="TextField_11"
           onBlur={[Function]}
@@ -1420,7 +1420,7 @@ exports[`<TextField/> renders correctly if label set password 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-laTMn KcuOU"
+          className="sc-hEsumM cmsbCy"
           disabled={false}
           id="TextField_74"
           onBlur={[Function]}
@@ -1465,7 +1465,7 @@ exports[`<TextField/> renders correctly if label set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bsbRJL hgtHZE"
+          className="sc-gisBJw itwLIO"
           disabled={false}
           id="TextField_54"
           onBlur={[Function]}
@@ -1510,7 +1510,7 @@ exports[`<TextField/> renders correctly if label set test and call focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-epnACN fVthox"
+          className="sc-caSCKo fIjkTr"
           disabled={false}
           id="TextField_53"
           onBlur={[Function]}
@@ -1555,7 +1555,7 @@ exports[`<TextField/> renders correctly if label set test and colorScheme set su
       >
         <input
           autoComplete="off"
-          className="sc-hrWEMg VrIiw"
+          className="sc-eqIVtm dslrBE"
           disabled={false}
           id="TextField_51"
           onBlur={[Function]}
@@ -1600,7 +1600,7 @@ exports[`<TextField/> renders correctly if label set test and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-esOvli frMfLq"
+          className="sc-cHGsZl ekgVds"
           disabled={false}
           id="TextField_56"
           onBlur={[Function]}
@@ -1645,7 +1645,7 @@ exports[`<TextField/> renders correctly if label set test and fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hMFtBS gdCWvK"
+          className="sc-TOsTZ cIeysh"
           disabled={false}
           id="TextField_57"
           onBlur={[Function]}
@@ -1690,7 +1690,7 @@ exports[`<TextField/> renders correctly if label set test and labelPosition set 
       >
         <input
           autoComplete="off"
-          className="sc-gwVKww irEqol"
+          className="sc-fAjcbJ dbIjPr"
           disabled={false}
           id="TextField_52"
           onBlur={[Function]}
@@ -1724,7 +1724,7 @@ exports[`<TextField/> renders correctly if prop autoComplete set on 1`] = `
       >
         <input
           autoComplete="on"
-          className="sc-brqgnP zTEgG"
+          className="sc-cSHVUG ekluNB"
           disabled={false}
           id="TextField_17"
           onBlur={[Function]}
@@ -1758,7 +1758,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iBEsjs biDRmv"
+          className="sc-dfVpRl joDGjN"
           disabled={false}
           id="TextField_90"
           onBlur={[Function]}
@@ -2589,7 +2589,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       focus={false}
                       fullWidth={false}
                       id="TextField_91"
-                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -2597,12 +2596,13 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      saveRef={[Function]}
                       type="text"
                       value="test"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-chbbiW vZCzS"
+                        className="sc-gzOgki gAHqnf"
                         disabled={false}
                         id="TextField_91"
                         onBlur={[Function]}
@@ -3480,7 +3480,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       focus={false}
                       fullWidth={false}
                       id="TextField_91"
-                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -3488,12 +3487,13 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      saveRef={[Function]}
                       type="text"
                       value=""
                     >
                       <input
                         autoComplete="off"
-                        className="sc-chbbiW vZCzS"
+                        className="sc-gzOgki gAHqnf"
                         disabled={false}
                         id="TextField_91"
                         onBlur={[Function]}
@@ -3594,7 +3594,7 @@ exports[`<TextField/> renders correctly if prop dense set 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-EHOje hzEgfM"
+          className="sc-htpNat izeZTu"
           disabled={false}
           id="TextField_2"
           onBlur={[Function]}
@@ -3628,7 +3628,7 @@ exports[`<TextField/> renders correctly if prop disabled set 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bxivhb kneiRN"
+          className="sc-bwzfXH ixNFLc"
           disabled={true}
           id="TextField_1"
           onBlur={[Function]}
@@ -3673,7 +3673,7 @@ exports[`<TextField/> renders correctly if prop fullWidth and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gqPbQI civWOt"
+          className="sc-kgAjT hzFEag"
           disabled={false}
           id="TextField_58"
           onBlur={[Function]}
@@ -3707,7 +3707,7 @@ exports[`<TextField/> renders correctly if prop fullWidth set 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gzVnrw gyFMvr"
+          className="sc-bxivhb ivFzii"
           disabled={false}
           id="TextField_3"
           onBlur={[Function]}
@@ -3767,7 +3767,7 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-fjmCvl eCASYp"
+          className="sc-ktHwxA gLxULK"
           disabled={false}
           id="TextField_75"
           onBlur={[Function]}
@@ -3801,7 +3801,7 @@ exports[`<TextField/> renders correctly if prop id set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cooIXK dPBRTp"
+          className="sc-iyvyFf isKAlq"
           disabled={false}
           id="TextField_92"
           onBlur={[Function]}
@@ -3846,7 +3846,7 @@ exports[`<TextField/> renders correctly if prop label set test and bordered 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-cMhqgX ABOQx"
+          className="sc-kjoXOD fuHTke"
           disabled={false}
           id="TextField_55"
           onBlur={[Function]}
@@ -3891,7 +3891,7 @@ exports[`<TextField/> renders correctly if prop label set test and disabled 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-iQKALj gIecqE"
+          className="sc-dVhcbM TlUGE"
           disabled={true}
           id="TextField_50"
           onBlur={[Function]}
@@ -3936,7 +3936,7 @@ exports[`<TextField/> renders correctly if prop label set test and filled 1`] = 
       >
         <input
           autoComplete="off"
-          className="sc-bMVAic jaLLyT"
+          className="sc-cJSrbW fRoFHu"
           disabled={false}
           id="TextField_59"
           onBlur={[Function]}
@@ -4002,7 +4002,7 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
       >
         <input
           autoComplete="off"
-          className="sc-iujRgT jEcLAo"
+          className="sc-ksYbfQ gNBwVG"
           disabled={false}
           id="TextField_60"
           onBlur={[Function]}
@@ -4068,7 +4068,7 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
       >
         <input
           autoComplete="off"
-          className="sc-exAgwC fYXPff"
+          className="sc-hmzhuo fBHZUc"
           disabled={false}
           id="TextField_61"
           onBlur={[Function]}
@@ -4134,7 +4134,7 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
       >
         <input
           autoComplete="off"
-          className="sc-gojNiO fRowge"
+          className="sc-frDJqD glocac"
           disabled={false}
           id="TextField_62"
           onBlur={[Function]}
@@ -4200,7 +4200,7 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
       >
         <input
           autoComplete="off"
-          className="sc-eLExRp cShEZE"
+          className="sc-hqyNC glIVCi"
           disabled={false}
           id="TextField_64"
           onBlur={[Function]}
@@ -4266,7 +4266,7 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
       >
         <input
           autoComplete="off"
-          className="sc-bXGyLb hdBegu"
+          className="sc-kvZOFW efUEsh"
           disabled={false}
           id="TextField_63"
           onBlur={[Function]}
@@ -4300,7 +4300,7 @@ exports[`<TextField/> renders correctly if prop labelPosition set side 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gZMcBi jNcXF"
+          className="sc-EHOje bYulpI"
           disabled={false}
           id="TextField_5"
           onBlur={[Function]}
@@ -4334,7 +4334,7 @@ exports[`<TextField/> renders correctly if prop labelPosition set top 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dnqmqq cYVjJQ"
+          className="sc-ifAKCX glThrC"
           disabled={false}
           id="TextField_4"
           onBlur={[Function]}
@@ -4368,7 +4368,7 @@ exports[`<TextField/> renders correctly if prop message set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bHwgHz cUWtkW"
+          className="sc-cIShpX bovRyO"
           disabled={false}
           id="TextField_76"
           onBlur={[Function]}
@@ -4413,7 +4413,7 @@ exports[`<TextField/> renders correctly if prop message set test 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-eMigcr ibDwje"
+          className="sc-feJyhm dWmvhu"
           disabled={false}
           id="TextField_78"
           onBlur={[Function]}
@@ -4458,7 +4458,7 @@ exports[`<TextField/> renders correctly if prop message set test and colorScheme
       >
         <input
           autoComplete="off"
-          className="sc-dTdPqK gQcKfU"
+          className="sc-kafWEX kmmznW"
           disabled={false}
           id="TextField_77"
           onBlur={[Function]}
@@ -4503,7 +4503,7 @@ exports[`<TextField/> renders correctly if prop message set test and disabled 1`
       >
         <input
           autoComplete="off"
-          className="sc-gPWkxV jRZAox"
+          className="sc-iELTvK bUGIoK"
           disabled={true}
           id="TextField_79"
           onBlur={[Function]}
@@ -4548,7 +4548,7 @@ exports[`<TextField/> renders correctly if prop message set test and symbolLimit
       >
         <input
           autoComplete="off"
-          className="sc-kUaPvJ ipdeWf"
+          className="sc-cmTdod deRmru"
           disabled={false}
           id="TextField_80"
           onBlur={[Function]}
@@ -4607,7 +4607,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-iGrrsa duraWR"
+          className="sc-jtRfpW dMnNaK"
           disabled={false}
           id="TextField_86"
           onBlur={[Function]}
@@ -4666,7 +4666,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-cqCuEk fJmLZg"
+          className="sc-lhVmIH fVFTXK"
           disabled={false}
           id="TextField_83"
           onBlur={[Function]}
@@ -4725,7 +4725,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-kLIISr jGBHxe"
+          className="sc-bYSBpT emYdtf"
           disabled={false}
           id="TextField_84"
           onBlur={[Function]}
@@ -4784,7 +4784,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-iqzUVk jJjAge"
+          className="sc-elJkPf fBuEaM"
           disabled={false}
           id="TextField_85"
           onBlur={[Function]}
@@ -4864,7 +4864,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-ipXKqB cXKELF"
+          className="sc-btzYZH flOrRu"
           disabled={false}
           id="TextField_82"
           onBlur={[Function]}
@@ -4923,7 +4923,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-fONwsr hsRzHh"
+          className="sc-jwKygS dlUZOc"
           disabled={false}
           id="TextField_81"
           onBlur={[Function]}
@@ -4982,7 +4982,7 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-fhYwyz kJpxJa"
+          className="sc-jnlKLf kFBbkQ"
           disabled={false}
           id="TextField_71"
           onBlur={[Function]}
@@ -5036,7 +5036,7 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
       >
         <input
           autoComplete="off"
-          className="sc-bnXvFD iXWCiJ"
+          className="sc-gGBfsJ hiPUAl"
           disabled={false}
           id="TextField_70"
           onBlur={[Function]}
@@ -5090,7 +5090,7 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
       >
         <input
           autoComplete="off"
-          className="sc-gJWqzi hjVfnQ"
+          className="sc-fYxtnH larqSt"
           disabled={false}
           id="TextField_72"
           onBlur={[Function]}
@@ -5144,7 +5144,7 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-fOKMvo fHOFco"
+          className="sc-dNLxif ffkEpy"
           disabled={false}
           id="TextField_66"
           onBlur={[Function]}
@@ -5975,7 +5975,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       focus={false}
                       fullWidth={false}
                       id="TextField_67"
-                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -5983,12 +5982,13 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      saveRef={[Function]}
                       type="password"
                       value="test"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-gHboQg brcLyu"
+                        className="sc-jqCOkK eRyWsU"
                         disabled={false}
                         id="TextField_67"
                         onBlur={[Function]}
@@ -6866,7 +6866,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       focus={false}
                       fullWidth={false}
                       id="TextField_67"
-                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -6874,12 +6873,13 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      saveRef={[Function]}
                       type="text"
                       value="test"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-gHboQg brcLyu"
+                        className="sc-jqCOkK eRyWsU"
                         disabled={false}
                         id="TextField_67"
                         onBlur={[Function]}
@@ -6988,7 +6988,7 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
       >
         <input
           autoComplete="off"
-          className="sc-cpmLhU euXvZf"
+          className="sc-bbmXgH cyfkfc"
           disabled={true}
           id="TextField_69"
           onBlur={[Function]}
@@ -7042,7 +7042,7 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
       >
         <input
           autoComplete="off"
-          className="sc-eerKOB kPMSlP"
+          className="sc-uJMKN heesYX"
           disabled={false}
           id="TextField_68"
           onBlur={[Function]}
@@ -7096,7 +7096,7 @@ exports[`<TextField/> renders correctly if prop placeholder set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cvbbAY jbRbvv"
+          className="sc-jzJRlG fiERXN"
           disabled={false}
           id="TextField_16"
           onBlur={[Function]}
@@ -7130,7 +7130,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set false 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kGXeez iMTQXK"
+          className="sc-iwsKbI WjDDx"
           disabled={false}
           id="TextField_10"
           onBlur={[Function]}
@@ -7164,7 +7164,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-chPdSV ihVtuF"
+          className="sc-dnqmqq cYVjJQ"
           disabled={false}
           id="TextField_9"
           onBlur={[Function]}
@@ -7198,7 +7198,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bRBYWo iHRlNf"
+          className="sc-kpOJdX cIWxoq"
           disabled={false}
           id="TextField_22"
           onBlur={[Function]}
@@ -7232,7 +7232,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and border
       >
         <input
           autoComplete="off"
-          className="sc-jhAzac hinMKs"
+          className="sc-dxgOiQ dUTOnh"
           disabled={false}
           id="TextField_23"
           onBlur={[Function]}
@@ -7266,7 +7266,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and colorS
       >
         <input
           autoComplete="off"
-          className="sc-gPEVay bRcagZ"
+          className="sc-chPdSV hIefOL"
           disabled={false}
           id="TextField_19"
           onBlur={[Function]}
@@ -7300,7 +7300,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and dense 
       >
         <input
           autoComplete="off"
-          className="sc-fMiknA hBXbiH"
+          className="sc-ckVGcZ jihMwD"
           disabled={false}
           id="TextField_24"
           onBlur={[Function]}
@@ -7334,7 +7334,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and disabl
       >
         <input
           autoComplete="off"
-          className="sc-jAaTju bOJmdu"
+          className="sc-kAzzGY jrnKHb"
           disabled={true}
           id="TextField_18"
           onBlur={[Function]}
@@ -7368,7 +7368,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and filled
       >
         <input
           autoComplete="off"
-          className="sc-kjoXOD hcjeVC"
+          className="sc-hMqMXs bAFKMQ"
           disabled={false}
           id="TextField_27"
           onBlur={[Function]}
@@ -7402,7 +7402,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and fullWi
       >
         <input
           autoComplete="off"
-          className="sc-eqIVtm jpBxKW"
+          className="sc-jKJlTe kiyAix"
           disabled={false}
           id="TextField_25"
           onBlur={[Function]}
@@ -7457,7 +7457,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
       >
         <input
           autoComplete="off"
-          className="sc-TOsTZ dYjFXo"
+          className="sc-kEYyzF blWjJA"
           disabled={false}
           id="TextField_28"
           onBlur={[Function]}
@@ -7491,7 +7491,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and labelP
       >
         <input
           autoComplete="off"
-          className="sc-jlyJG dqNinf"
+          className="sc-kgoBCf gVVdMM"
           disabled={false}
           id="TextField_20"
           onBlur={[Function]}
@@ -7525,7 +7525,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true fullWidth 
       >
         <input
           autoComplete="off"
-          className="sc-caSCKo khSEZt"
+          className="sc-eNQAEJ dFYJVk"
           disabled={false}
           id="TextField_26"
           onBlur={[Function]}
@@ -7559,7 +7559,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, and call 
       >
         <input
           autoComplete="off"
-          className="sc-csuQGl eOFfeZ"
+          className="sc-kGXeez iMTQXK"
           disabled={false}
           id="TextField_21"
           onBlur={[Function]}
@@ -7614,7 +7614,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
       >
         <input
           autoComplete="off"
-          className="sc-cJSrbW fRoFHu"
+          className="sc-kkGfuU AdxZO"
           disabled={false}
           id="TextField_29"
           onBlur={[Function]}
@@ -7669,7 +7669,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
       >
         <input
           autoComplete="off"
-          className="sc-hmzhuo blKMok"
+          className="sc-iAyFgw jjPyEI"
           disabled={false}
           id="TextField_30"
           onBlur={[Function]}
@@ -7724,7 +7724,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
       >
         <input
           autoComplete="off"
-          className="sc-jqCOkK eRyWsU"
+          className="sc-cvbbAY jbRbvv"
           disabled={false}
           id="TextField_33"
           onBlur={[Function]}
@@ -7779,7 +7779,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-kvZOFW efUEsh"
+          className="sc-hSdWYo jYQiQN"
           disabled={false}
           id="TextField_31"
           onBlur={[Function]}
@@ -7834,7 +7834,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-jbKcbu dbOZRt"
+          className="sc-eHgmQL kezCgH"
           disabled={false}
           id="TextField_32"
           onBlur={[Function]}
@@ -7879,7 +7879,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-kafWEX gjlQkY"
+          className="sc-jDwBTQ kVTViU"
           disabled={false}
           id="TextField_38"
           onBlur={[Function]}
@@ -7924,7 +7924,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-iELTvK hFKjVa"
+          className="sc-gPEVay bTufYi"
           disabled={false}
           id="TextField_39"
           onBlur={[Function]}
@@ -7969,7 +7969,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-ktHwxA gLxULK"
+          className="sc-jAaTju byZWzI"
           disabled={false}
           id="TextField_37"
           onBlur={[Function]}
@@ -8014,7 +8014,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jnlKLf cNrWwG"
+          className="sc-brqgnP cMqOdu"
           disabled={false}
           id="TextField_35"
           onBlur={[Function]}
@@ -8059,7 +8059,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jwKygS dcGjei"
+          className="sc-iRbamj kjDAwt"
           disabled={false}
           id="TextField_40"
           onBlur={[Function]}
@@ -8104,7 +8104,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-bbmXgH cyfkfc"
+          className="sc-jWBwVP hkgpn"
           disabled={true}
           id="TextField_34"
           onBlur={[Function]}
@@ -8149,7 +8149,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-kTUwUJ ixjzrk"
+          className="sc-csuQGl eOFfeZ"
           disabled={false}
           id="TextField_43"
           onBlur={[Function]}
@@ -8194,7 +8194,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-lhVmIH fVFTXK"
+          className="sc-jlyJG fCOztC"
           disabled={false}
           id="TextField_41"
           onBlur={[Function]}
@@ -8260,7 +8260,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-gxMtzJ jsyrQW"
+          className="sc-Rmtcm dUKGNQ"
           disabled={false}
           id="TextField_44"
           onBlur={[Function]}
@@ -8305,7 +8305,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-tilXH NoIym"
+          className="sc-cMljjf cXzOKM"
           disabled={false}
           id="TextField_36"
           onBlur={[Function]}
@@ -8371,7 +8371,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-gzOgki gAHqnf"
+          className="sc-bRBYWo iHRlNf"
           disabled={false}
           id="TextField_45"
           onBlur={[Function]}
@@ -8437,7 +8437,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-hwwEjo fXqiQu"
+          className="sc-hzDkRC gIEoMK"
           disabled={false}
           id="TextField_46"
           onBlur={[Function]}
@@ -8503,7 +8503,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-ibxdXY fdqoQj"
+          className="sc-fMiknA ldgoEn"
           disabled={false}
           id="TextField_49"
           onBlur={[Function]}
@@ -8548,7 +8548,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-elJkPf fBuEaM"
+          className="sc-gipzik ibomAO"
           disabled={false}
           id="TextField_42"
           onBlur={[Function]}
@@ -8614,7 +8614,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-kfGgVZ ihzUMB"
+          className="sc-jhAzac Lcqnq"
           disabled={false}
           id="TextField_47"
           onBlur={[Function]}
@@ -8680,7 +8680,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-kIPQKe grAByg"
+          className="sc-fBuWsC eFDqbQ"
           disabled={false}
           id="TextField_48"
           onBlur={[Function]}
@@ -8714,7 +8714,7 @@ exports[`<TextField/> renders correctly if prop styleMode set error 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-fjdhpX cpPvLq"
+          className="sc-gzVnrw epHdgv"
           disabled={false}
           id="TextField_7"
           onBlur={[Function]}
@@ -8748,7 +8748,7 @@ exports[`<TextField/> renders correctly if prop styleMode set neutral 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-VigVT hRDwcO"
+          className="sc-bZQynM leECRi"
           disabled={false}
           id="TextField_6"
           onBlur={[Function]}
@@ -8782,7 +8782,7 @@ exports[`<TextField/> renders correctly if prop styleMode set success 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cSHVUG ekluNB"
+          className="sc-htoDjs hsTphY"
           disabled={false}
           id="TextField_8"
           onBlur={[Function]}
@@ -8816,7 +8816,7 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dEoRIm jVTIYc"
+          className="sc-kTUwUJ ixjzrk"
           disabled={false}
           id="TextField_87"
           onBlur={[Function]}
@@ -8869,7 +8869,7 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and disabled 1
       >
         <input
           autoComplete="off"
-          className="sc-kaNhvL guhHJT"
+          className="sc-gxMtzJ iDptCc"
           disabled={true}
           id="TextField_89"
           onBlur={[Function]}
@@ -8922,7 +8922,7 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and focus 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-ebFjAB cCYsml"
+          className="sc-dqBHgY eehobQ"
           disabled={false}
           id="TextField_88"
           onBlur={[Function]}
@@ -8999,7 +8999,7 @@ exports[`<TextField/> renders correctly if prop tooltip set test and label set t
       >
         <input
           autoComplete="off"
-          className="sc-hSdWYo hkqJst"
+          className="sc-fjdhpX cpPvLq"
           disabled={false}
           id="TextField_15"
           onBlur={[Function]}
@@ -9033,7 +9033,7 @@ exports[`<TextField/> renders correctly if prop tooltip set test without label 1
       >
         <input
           autoComplete="off"
-          className="sc-kkGfuU AdxZO"
+          className="sc-jTzLTM eyCyxm"
           disabled={false}
           id="TextField_14"
           onBlur={[Function]}
@@ -9067,7 +9067,7 @@ exports[`<TextField/> renders correctly if prop value set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hMqMXs bAFKMQ"
+          className="sc-VigVT hRDwcO"
           disabled={false}
           id="TextField_13"
           onBlur={[Function]}
@@ -9133,7 +9133,7 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
       >
         <input
           autoComplete="off"
-          className="sc-krvtoX ksRhoX"
+          className="sc-jbKcbu jSpWZt"
           disabled={false}
           id="TextField_65"
           onBlur={[Function]}
@@ -9167,7 +9167,7 @@ exports[`<TextField/> renders correctly if state showLengthError set true 1`] = 
       >
         <input
           autoComplete="off"
-          className="sc-jKJlTe jhpWpQ"
+          className="sc-gqjmRU vsDTV"
           disabled={false}
           id="TextField_12"
           onBlur={[Function]}
@@ -9201,7 +9201,7 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bMvGRv Lghvb"
+          className="sc-tilXH NoIym"
           disabled={false}
           id="TextField_73"
           onBlur={[Function]}
@@ -9255,7 +9255,7 @@ exports[`<TextField/> renders correctly with default props 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bwzfXH dLMMYf"
+          className="sc-bdVaJa qGZIY"
           disabled={false}
           id="TextField_0"
           onBlur={[Function]}
@@ -9315,7 +9315,7 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-ugnQR cEFwwZ"
+          className="sc-esOvli irmSpN"
           disabled={false}
           id="TextField_113"
           onBlur={[Function]}
@@ -9375,7 +9375,7 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-gVLVqr LAjga"
+          className="sc-gqPbQI fSHeSc"
           disabled={true}
           id="TextField_117"
           onBlur={[Function]}
@@ -9435,7 +9435,7 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-BngTV fSHzCt"
+          className="sc-bMVAic jaLLyT"
           disabled={false}
           id="TextField_119"
           onBlur={[Function]}
@@ -9495,7 +9495,7 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
         </label>
         <input
           autoComplete="off"
-          className="sc-exkUMo jbPoYa"
+          className="sc-hORach dYMcjk"
           disabled={false}
           id="TextField_118"
           onBlur={[Function]}
@@ -9555,7 +9555,7 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-iomxrj wmqkw"
+          className="sc-hMFtBS lmDhtR"
           disabled={false}
           id="TextField_115"
           onBlur={[Function]}
@@ -9615,7 +9615,7 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
         </label>
         <input
           autoComplete="off"
-          className="sc-eTpRJs bWZVih"
+          className="sc-cmthru inpTSg"
           disabled={false}
           id="TextField_114"
           onBlur={[Function]}
@@ -9675,7 +9675,7 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-iFMziU fWTVDO"
+          className="sc-cLQEGU bMHTjC"
           disabled={false}
           id="TextField_116"
           onBlur={[Function]}
@@ -9730,7 +9730,7 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gpHHfC hQiCQS"
+          className="sc-hXRMBi itgJOL"
           disabled={false}
           id="TextField_106"
           onBlur={[Function]}
@@ -9785,7 +9785,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iybRtq bohRsC"
+          className="sc-hZSUBg fyupLM"
           disabled={true}
           id="TextField_110"
           onBlur={[Function]}
@@ -9840,7 +9840,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kXeGPI iRPVpx"
+          className="sc-iuJeZd cCqoCp"
           disabled={false}
           id="TextField_112"
           onBlur={[Function]}
@@ -9895,7 +9895,7 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
       >
         <input
           autoComplete="off"
-          className="sc-fHxwqH jseqoF"
+          className="sc-cMhqgX qkQqW"
           disabled={false}
           id="TextField_111"
           onBlur={[Function]}
@@ -9950,7 +9950,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kQsIoO cZGFZ"
+          className="sc-iQNlJl bLthTj"
           disabled={false}
           id="TextField_108"
           onBlur={[Function]}
@@ -10005,7 +10005,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-eXNvrr bNCUsr"
+          className="sc-epnACN cjwQFi"
           disabled={false}
           id="TextField_107"
           onBlur={[Function]}
@@ -10060,7 +10060,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-jrIrqw aqLSz"
+          className="sc-bsbRJL eLRtmc"
           disabled={false}
           id="TextField_109"
           onBlur={[Function]}
@@ -10094,7 +10094,7 @@ exports[`<TextField/> renders correctly with prop postfix 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cqpYsc hzDYST"
+          className="sc-bAeIUo iCzIvM"
           disabled={false}
           id="TextField_120"
           onBlur={[Function]}
@@ -10142,7 +10142,7 @@ exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cugefK eYcbCc"
+          className="sc-gojNiO kPxfdr"
           disabled={false}
           id="TextField_125"
           onBlur={[Function]}
@@ -10190,7 +10190,7 @@ exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cHSUfg cgfHTE"
+          className="sc-cQFLBn cwkXRt"
           disabled={false}
           id="TextField_124"
           onBlur={[Function]}
@@ -10238,7 +10238,7 @@ exports[`<TextField/> renders correctly with prop postfix and colorScheme set su
       >
         <input
           autoComplete="off"
-          className="sc-bfYoXt iRgotw"
+          className="sc-bXGyLb gYmsmH"
           disabled={false}
           id="TextField_127"
           onBlur={[Function]}
@@ -10286,7 +10286,7 @@ exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dyGzUR dstYio"
+          className="sc-iujRgT wpsds"
           disabled={false}
           id="TextField_121"
           onBlur={[Function]}
@@ -10334,7 +10334,7 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iNhVCk focqsX"
+          className="sc-daURTG hpmJwY"
           disabled={true}
           id="TextField_126"
           onBlur={[Function]}
@@ -10382,7 +10382,7 @@ exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gRnDUn jHsYbO"
+          className="sc-GMQeP ixBACz"
           disabled={false}
           id="TextField_122"
           onBlur={[Function]}
@@ -10430,7 +10430,7 @@ exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] =
       >
         <input
           autoComplete="off"
-          className="sc-dRFtgE gZvxZU"
+          className="sc-lkqHmb eTybpV"
           disabled={false}
           id="TextField_128"
           onBlur={[Function]}
@@ -10478,7 +10478,7 @@ exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1
       >
         <input
           autoComplete="off"
-          className="sc-sdtwF gKrbqZ"
+          className="sc-exAgwC eKQElD"
           disabled={false}
           id="TextField_123"
           onBlur={[Function]}
@@ -10540,7 +10540,7 @@ exports[`<TextField/> renders correctly with prop prefix 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-fOICqy bKmukG"
+          className="sc-RefOD junGYG"
           disabled={false}
           id="TextField_100"
           onBlur={[Function]}
@@ -10588,7 +10588,7 @@ exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-jeCdPy gRQdDk"
+          className="sc-iQKALj bDBcFz"
           disabled={false}
           id="TextField_101"
           onBlur={[Function]}
@@ -10656,7 +10656,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-bGbJRg bsgZgn"
+          className="sc-bwCtUz gBMNuI"
           disabled={false}
           id="TextField_102"
           onBlur={[Function]}
@@ -10724,7 +10724,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
         </label>
         <input
           autoComplete="off"
-          className="sc-eKZiaR mQJjK"
+          className="sc-eTuwsz bpmKeU"
           disabled={false}
           id="TextField_104"
           onBlur={[Function]}
@@ -10792,7 +10792,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
         </label>
         <input
           autoComplete="off"
-          className="sc-ePZHVD gkiaFc"
+          className="sc-hrWEMg cRKGbJ"
           disabled={false}
           id="TextField_103"
           onBlur={[Function]}
@@ -10860,7 +10860,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
         </label>
         <input
           autoComplete="off"
-          className="sc-fgfRvd iUbRdy"
+          className="sc-gwVKww ieUtEN"
           disabled={false}
           id="TextField_105"
           onBlur={[Function]}

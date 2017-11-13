@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import {
@@ -28,6 +27,7 @@ const propTypes = {
    * for more information
    */
   theme: PropTypes.object,
+  saveRef: PropTypes.func.isRequired,
 };
 
 const defaultProps = {
@@ -148,29 +148,18 @@ export const getTextFieldElementStyled = (
   { resize, rows } = { resize: 'auto' },
 ) => {
   const customComponent = typeof Component !== 'string';
-  const additionalProps = resize !== 'auto' ? { rows } : {};
-  
-  /* eslint-disable react/prop-types */
-  // eslint-disable-next-line react/prefer-stateless-function
-  class ComponentWithOmitedProps extends React.Component {
-    render() {
-      const {
-        bordered,
-        fullWidth,
-        dense,
-        disabled,
-        colorScheme,
-        focus,
-        theme,
-        ...props
-      } = this.props;
-      return <Component {...props} />;
-    }
+
+  const additionalProps = {};
+  if (resize !== 'auto') {
+    additionalProps.rows = rows;
+  }
+  if (!customComponent) {
+    additionalProps.ref = props => props.saveRef;
   }
 
   const TextFieldElementStyled = (!customComponent
     ? styled[Component]
-    : styled(ComponentWithOmitedProps)).attrs(additionalProps)`
+    : styled(Component)).attrs(additionalProps)`
     border-width: 0;
     text-overflow: ellipsis;
     flex-grow: 1;

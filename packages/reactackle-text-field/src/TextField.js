@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import TextareaAutosize from 'react-textarea-autosize';
+import AutosizeTextarea from 'react-textarea-autosize';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
@@ -32,6 +32,23 @@ import { TextFieldRowStyled } from './styles/TextFieldRowStyled';
 import componentTheme from './styles/theme';
 
 registerDefaultComponentTheme('textfield', componentTheme);
+
+const TextareaAutosize = ({
+  bordered,
+  fullWidth,
+  dense,
+  disabled,
+  colorScheme,
+  focus,
+  theme,
+  saveRef,
+  ...props
+}) => <AutosizeTextarea {...props} inputRef={saveRef} />;
+
+TextareaAutosize.propTypes = {
+  ...AutosizeTextarea.propTypes,
+  saveRef: PropTypes.func.isRequired,
+};
 
 const propTypes = {
   /**
@@ -285,17 +302,14 @@ class _TextField extends Component {
   }
 
   _getTextFieldElementStyled() {
+    if (!this.props.multiline) return getTextFieldElementStyled('input');
 
-    const TextAreaComponent = this.props.resize === 'auto'
+    return this.props.resize === 'auto'
       ? getTextFieldElementStyled(TextareaAutosize, 'TextArea')
       : getTextFieldElementStyled('textarea', 'TextArea', {
         rows: this.props.multilineRows.min,
         resize: this.props.resize,
       });
-
-    return this.props.multiline
-      ? TextAreaComponent
-      : getTextFieldElementStyled('input');
   }
 
   _parseValue(value) {
@@ -622,7 +636,7 @@ class _TextField extends Component {
     const iconOuter = this._renderIconOuter(),
       prefix = this._renderPrefix(),
       textField = this._renderTextField({
-        innerRef: this._saveRef,
+        saveRef: this._saveRef,
         id: this.id,
         dense: this.props.dense,
         fullWidth: this.props.fullWidth,
