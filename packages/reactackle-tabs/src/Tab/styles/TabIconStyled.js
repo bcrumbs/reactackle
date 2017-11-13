@@ -1,59 +1,55 @@
-'use strict';
-
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import { extractThemeOrDefault, getValueString } from 'reactackle-core';
-
-const propTypes = {
-  /**
-   * Define theme
-   * See https://github.com/styled-components/styled-components/blob/master/docs/theming.md
-   * for more information
-   */
-  theme: PropTypes.object,
-};
+import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icons';
+import {
+  extractThemeOrDefault,
+  getValueString,
+  iconSizeMixin,
+} from 'reactackle-core';
 
 const size = ({ theme: themeFromProvider }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const { width, height, imgSize } = theme.reactackle.components.tabs.icon;
 
-  return `
-    width: ${getValueString(width)};
-    height: ${getValueString(height)};
-    line-height: ${height}px;
-    font-size: ${getValueString(imgSize)};
+  return css`    
+    ${iconSizeMixin(
+      getValueString(height || width),
+      getValueString(imgSize || height),
+      getValueString(width || height),
+    )}
   `;
 };
 
-const style = ({ theme: themeFromProvider, colorScheme, selected }) => {
+const style = ({ theme: themeFromProvider, selected, colorScheme }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const source = theme.reactackle.components.tabs.icon.style[colorScheme];
 
   return !selected
-    ? `
-      color: ${source.fontColor};
+    ? css`
+      ${iconStyleMixin(source.color)};
       
       &:hover {
-        color: ${source.hover.fontColor};
+        color: ${source.hover.color};
       }
       
       &:focus {
-        color: ${source.focus.fontColor};
-      }`
-    : `      
+        color: ${source.focus.color};
+      }
+    `
+    : css`      
       &,
       &:hover,
       &:focus {
-        color: ${source.selected.fontColor};
-      }`;
+        ${iconStyleMixin(source.selected.color)};        
+      }
+    `;
 };
 
 export const TabIconStyled = styled.div`
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  ${size} ${style};
+  ${size}
+  ${style};
 `;
 
-TabIconStyled.propTypes = propTypes;
 TabIconStyled.displayName = 'TabIconStyled';

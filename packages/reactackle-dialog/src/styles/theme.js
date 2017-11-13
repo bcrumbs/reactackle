@@ -1,10 +1,7 @@
-'use strict';
+import React  from 'react';
 
 import {
-  oneAndHalfBaseModule,
-  doubleBaseModule,
-  baseModule,
-  halfBaseModule,
+  bmodule,
   radiusDefault,
   colorWhite,
   colorPaletteGrey200,
@@ -18,10 +15,12 @@ import {
   fontColorMedium,
 } from 'reactackle-core';
 
+import { IconCross } from 'reactackle-icons';
+
 export const dialogConstants = {
-  paddingX: doubleBaseModule,
-  paddingY: doubleBaseModule,
-  paddingYSmall: oneAndHalfBaseModule,
+  paddingX: bmodule(2),
+  paddingY: bmodule(2),
+  paddingYSmall: bmodule(1.5),
 };
 
 export default {
@@ -31,7 +30,7 @@ export default {
     backgroundColor: colorWhite,
     borderRadius: radiusDefault,
     zIndex: zIndexModal,
-    margin: baseModule,
+    margin: bmodule(1),
   },
 
   sideRegion: {
@@ -41,14 +40,9 @@ export default {
 
   closeButton: {
     width: 40,
-    height: 40,
-    imgSize: 16,
-
-    source: {
-      name: 'times',
-      src: '',
-      type: 'font-awesome',
-    },
+    height: null,
+    imgSize: 24,
+    iconElement: <IconCross size="custom" color="inherit" />,
 
     style: {
       color: bodyFontColor,
@@ -91,7 +85,7 @@ export default {
   },
 
   subtitle: {
-    subtitleTitleSpacing: baseModule,
+    subtitleTitleSpacing: bmodule(1),
     fontSize: fontSizeBody,
     lineHeight: 1.3,
     color: fontColorMedium,
@@ -105,20 +99,10 @@ export default {
     lineHeight: 1.5,
     color: bodyFontColor,
     fontWeight: fontWeightNormal,
-    similarTextBlockSpacing: baseModule,
+    similarTextBlockSpacing: bmodule(1),
 
     borderWidth: 1,
     borderColor: colorBorder,
-  },
-
-  icon: {
-    close: {
-      source: {
-        name: 'times',
-        src: '',
-        type: 'font-awesome',
-      },
-    },
   },
 
   actions: {
@@ -128,7 +112,7 @@ export default {
 
   actionItem: {
     marginX: '0.5em',
-    marginY: halfBaseModule,
+    marginY: bmodule(0.5),
   },
 
   backdrop: {

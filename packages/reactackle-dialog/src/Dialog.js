@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Portal from 'react-portal';
+import { Portal } from 'react-portal';
 import {
   withTheme,
   noop,
@@ -219,13 +219,9 @@ class _Dialog extends Component {
   _renderCloseButton() {
     if (!this.props.haveCloseButton) return null;
 
-    const closeIcon = this.props.theme.reactackle.components.dialog.icon.close
-      .source;
-
     return (
       <DialogCloseButton
         onClick={this._handleDialogClose}
-        closeIcon={closeIcon}
         transparentBg={this.props.transparentBg}
       />
     );
@@ -307,8 +303,8 @@ class _Dialog extends Component {
     const followsHeading = !!this.props.title || !!this.props.subtitle,
       hasRegionAside = this.props.regionAside !== null;
 
-    return (
-      <Portal isOpened={this.props.open}>
+    return !this.props.open ? null :(
+      <Portal>
         <ModalStyled visible={this.props.visible}>
           {backdrop}
           <OverflowWrapperStyled

@@ -8,7 +8,7 @@ exports[`<TooltipIcon/> renders correctly with default props 1`] = `
   onFocus={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
-  tabIndex={1}
+  tabIndex={0}
 >
   <span>
     ?

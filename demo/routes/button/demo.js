@@ -1,7 +1,5 @@
-'use strict';
-
 import React from 'react';
-import { Button } from 'reactackle';
+import { Button, IconSvg } from 'reactackle';
 import {
   RouteDemo,
 } from '../../components/Route/RouteStructure';
@@ -21,13 +19,36 @@ import Snippet5 from './snippets/5.snippet';
 import Snippet6 from './snippets/6.snippet';
 import Snippet7 from './snippets/7.snippet';
 
+const DemoIcon = props => (
+  <IconSvg size="custom" {...props}>
+    <svg viewBox="0 0 24 24">
+      <polygon points="9,19.4 3.3,13.7 4.7,12.3 9,16.6 19.8,5.8 21.2,7.2" />
+    </svg>
+  </IconSvg>
+);
+
+const ArrowBack = props => (
+  <IconSvg size="custom" {...props}>
+    <svg viewBox="0 0 24 24">
+      <polygon points="20,11 8.4,11 13.7,5.7 12.3,4.3 4.6,12 12.3,19.7 13.7,18.3 8.4,13 20,13 " />
+    </svg>
+  </IconSvg>
+);
+
+const ArrowForward = props => (
+  <IconSvg size="custom" {...props}>
+    <svg viewBox="0 0 24 24">
+      <polygon points="12.7,4.3 11.3,5.7 16.6,11 5,11 5,13 16.6,13 11.3,18.3 12.7,19.7 20.4,12 " />
+    </svg>
+  </IconSvg>
+);
+
 export const ButtonDemoRoute = () => (
   <RouteDemo>
     <DemoSnippet title="Sizes">
       <DemoPreview>
         <TestBox contentSpaced flex>
           <Button
-            icon={{ name: 'apple' }}
             text="Inline Button"
             colorScheme="primary"
             size="inline"
@@ -35,21 +56,18 @@ export const ButtonDemoRoute = () => (
           />
 
           <Button
-            icon={{ name: 'apple' }}
             text="Small Button"
             colorScheme="secondary"
             size="small"
           />
 
           <Button
-            icon={{ name: 'qq' }}
             text="Normal Button"
             colorScheme="info"
             size="normal"
           />
 
           <Button
-            icon={{ name: 'android' }}
             text="Large Button"
             colorScheme="success"
             size="large"
@@ -91,9 +109,12 @@ export const ButtonDemoRoute = () => (
     <DemoSnippet title="Icon only Button">
       <DemoPreview>
         <TestBox flex contentSpaced>
-          <Button icon={{ name: 'apple' }} colorScheme="success" />
           <Button
-            icon={{ name: 'apple' }}
+            icon={<ArrowForward />}
+            colorScheme="success"
+          />
+          <Button
+            icon={<ArrowForward />}
             radius="rounded"
             colorScheme="success"
           />
@@ -107,7 +128,6 @@ export const ButtonDemoRoute = () => (
     <DemoSnippet title="Raised Button">
       <DemoPreview>
         <Button
-          icon={{ name: 'android' }}
           text="Raised Button"
           raised
           colorScheme="warning"
@@ -122,13 +142,12 @@ export const ButtonDemoRoute = () => (
       <DemoPreview>
         <TestBox padding flex contentSpaced>
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="Flat Button"
             colorScheme="flat"
           />
-
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="Flat Outlined Button"
             outlined
             colorScheme="flat"
@@ -136,13 +155,12 @@ export const ButtonDemoRoute = () => (
         </TestBox>
         <TestBox padding bgColor="#6f7c92" flex contentSpaced>
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="Flat light Button"
             colorScheme="flatLight"
           />
-
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="Flat light Outlined Button"
             outlined
             colorScheme="flatLight"
@@ -150,12 +168,12 @@ export const ButtonDemoRoute = () => (
         </TestBox>
         <TestBox padding flex contentSpaced>
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="primary Button"
             colorScheme="primary"
           />
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="primary Outlined Button"
             outlined
             colorScheme="primary"
@@ -163,12 +181,12 @@ export const ButtonDemoRoute = () => (
         </TestBox>
         <TestBox padding bgColor="#6f7c92" flex contentSpaced>
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="white Button"
             colorScheme="white"
           />
           <Button
-            icon={{ name: 'apple' }}
+            icon={<DemoIcon />}
             text="white Outlined Button"
             outlined
             colorScheme="white"
@@ -187,7 +205,7 @@ export const ButtonDemoRoute = () => (
             text="Registration"
             subtitle="Next"
             colorScheme="primary"
-            icon={{ name: 'arrow-right' }}
+            icon={<ArrowForward />}
             iconPositionRight
           />
 
@@ -195,7 +213,7 @@ export const ButtonDemoRoute = () => (
             text="Your Order"
             subtitle="Back"
             colorScheme="secondary"
-            icon={{ name: 'arrow-left' }}
+            icon={<ArrowBack />}
           />
         </TestBox>
       </DemoPreview>
@@ -233,13 +251,11 @@ export const ButtonDemoRoute = () => (
             text="Link Button (inspect me)"
             colorScheme="primary"
             href="#/button/demo"
-            icon={{ name: 'link' }}
           />
 
           <Button
             text="Normal Button (inspect me)"
-            colorScheme="secondary"
-            icon={{ name: 'hand-pointer-o' }}
+            colorScheme="primary"
           />
         </TestBox>
       </DemoPreview>

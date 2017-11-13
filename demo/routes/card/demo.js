@@ -14,6 +14,7 @@ import {
   CardActions,
   CardActionsMain,
   CardActionsSupplemental,
+  IconSvg,
 } from 'reactackle';
 import {
   RouteDemo,
@@ -35,6 +36,14 @@ const IMAGE_STYLE = {
   maxWidth: '100%',
   width: '100%',
 };
+
+const DemoIcon = props => (
+  <IconSvg {...props}>
+    <svg viewBox="0 0 24 24">
+      <path d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z" />
+    </svg>
+  </IconSvg>
+);
 
 export const CardDemoRoute = () => (
   <RouteDemo>
@@ -130,9 +139,8 @@ export const CardDemoRoute = () => (
               </CardMedia>
               <CardActions>
                 <CardActionsMain>
-                  <Button icon={{ name: 'heart' }} />
-                  <Button icon={{ name: 'bookmark' }} />
-                  <Button icon={{ name: 'share-alt' }} />
+                  <Button text="Bookmark" />
+                  <Button text="Share" />
                 </CardActionsMain>
               </CardActions>
             </CardAreaMain>
@@ -210,11 +218,13 @@ export const CardDemoRoute = () => (
               
               <CardActions>
                 <CardActionsSupplemental>
-                  <Button icon={{ name: 'heart' }} />
-                  <Button icon={{ name: 'share-alt' }} />
+                  <Button text="Like" />
                 </CardActionsSupplemental>
                 <CardActionsMain>
-                  <Button icon={{ name: 'comment' }} text="12" />
+                  <Button
+                    icon={<DemoIcon />}
+                    text="12"
+                  />
                 </CardActionsMain>
               </CardActions>
             </CardAreaMain>
@@ -260,12 +270,8 @@ export const CardDemoRoute = () => (
             <CardAreaSide>
               <CardActions>
                 <CardActionsMain>
-                  <Button icon={{ name: 'heart' }} />
-                  <Button icon={{ name: 'share-alt' }} />
+                  <Button icon={<DemoIcon />} />
                 </CardActionsMain>
-                <CardActionsSupplemental>
-                  <Button icon={{ name: 'comment' }} />
-                </CardActionsSupplemental>
               </CardActions>
             </CardAreaSide>
           </Card>

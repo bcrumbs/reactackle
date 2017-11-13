@@ -1,9 +1,6 @@
-'use strict';
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withTheme, noop } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
 import { DialogCloseButtonStyled } from './styles/DialogCloseButtonStyled';
 
 const propTypes = {
@@ -18,25 +15,14 @@ const defaultProps = {
   onClick: noop,
 };
 
-const _DialogCloseButton = props => {
-  const iconSettingsPath =
-    props.theme.reactackle.components.dialog.closeButton.source;
-
-  return (
-    <DialogCloseButtonStyled
-      transparentBg={props.transparentBg}
-      onClick={props.onClick}
-    >
-      <Icon
-        size="inherit"
-        color="inherit"
-        name={iconSettingsPath.name}
-        src={iconSettingsPath.src}
-        type={iconSettingsPath.type}
-      />
-    </DialogCloseButtonStyled>
-  );
-};
+const _DialogCloseButton = props => (
+  <DialogCloseButtonStyled
+    transparentBg={props.transparentBg}
+    onClick={props.onClick}
+  >
+    {props.theme.reactackle.components.dialog.closeButton.iconElement}
+  </DialogCloseButtonStyled>
+);
 
 _DialogCloseButton.propTypes = propTypes;
 _DialogCloseButton.defaultProps = defaultProps;
