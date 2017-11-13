@@ -149,21 +149,28 @@ export const getTextFieldElementStyled = (
 ) => {
   const customComponent = typeof Component !== 'string';
   const additionalProps = resize !== 'auto' ? { rows } : {};
-  // eslint-disable-next-line no-unexpected-multiline
+  
+  /* eslint-disable react/prop-types */
+  // eslint-disable-next-line react/prefer-stateless-function
+  class ComponentWithOmitedProps extends React.Component {
+    render() {
+      const {
+        bordered,
+        fullWidth,
+        dense,
+        disabled,
+        colorScheme,
+        focus,
+        theme,
+        ...props
+      } = this.props;
+      return <Component {...props} />;
+    }
+  }
+
   const TextFieldElementStyled = (!customComponent
     ? styled[Component]
-    : styled(
-        ({
-          bordered,
-          fullWidth,
-          dense,
-          disabled,
-          colorScheme,
-          focus,
-          theme,
-          ...props
-        }) => <Component {...props} />,
-      )).attrs(additionalProps)`
+    : styled(ComponentWithOmitedProps)).attrs(additionalProps)`
     border-width: 0;
     text-overflow: ellipsis;
     flex-grow: 1;

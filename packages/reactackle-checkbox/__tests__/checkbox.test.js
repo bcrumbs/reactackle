@@ -3,11 +3,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { findBySelector, withTestWrapper } from 'reactackle-test-utils';
+import { mount } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import {
   Checkbox,
 } from '../src';
-
-jest.mock('react-dom');
+import {
+  CheckboxLabelStyled,
+} from '../src/styles/CheckboxLabelStyled';
 
 describe('<Checkbox/>', () => {
   it('renders correctly with default props', () => {
@@ -75,5 +78,38 @@ describe('<Checkbox/>', () => {
     expect(() => {
       instance.setProps({});
     }).not.toThrow();
+  });
+
+  it('handle keyboard checking', () => {
+    // mocking document event listeners
+    const map = {};
+    document.addEventListener = jest.fn((event, cb) => {
+      map[event] = cb;
+    });
+
+    const component = mount(
+      <Checkbox />,
+    );
+
+    const label = component.find(CheckboxLabelStyled);
+
+    expect(toJson(component)).toMatchSnapshot();
+
+    expect(component.state().focused).toBe(false);
+    label.simulate('focus');
+    expect(component.state().focused).toBe(true);
+
+    expect(toJson(component)).toMatchSnapshot();
+
+    expect(component.state().checked).toBe(false);
+    map.keypress({ keyCode: 32 });
+    expect(component.state().checked).toBe(true);
+
+    expect(toJson(component)).toMatchSnapshot();
+
+    map.keypress({ keyCode: 32 });
+    expect(component.state().checked).toBe(false);
+
+    expect(toJson(component)).toMatchSnapshot();
   });
 });

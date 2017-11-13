@@ -1,8 +1,7 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TextareaAutosize from 'react-textarea-autosize';
+import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
   withTheme,
@@ -11,8 +10,7 @@ import {
   isUndef,
   registerDefaultComponentTheme,
 } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
-import { TooltipIcon } from 'reactackle-tooltip-icon';
+
 import { InfoBoxStyled } from './styles/InfoBoxStyled';
 import { IconOuterStyled } from './styles/IconOuterStyled';
 import { IconInnerStyled } from './styles/IconInnerStyled';
@@ -92,13 +90,13 @@ const propTypes = {
    */
   clearingIcon: PropTypes.bool,
   /**
-   * Add icon behind TextField
+   * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: PropTypes.shape(Icon.propTypes),
+  iconOuter: PropTypes.element,
   /**
-   * Show icon inside TextField's boundaries
+   * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: PropTypes.shape(Icon.propTypes),
+  iconInner: PropTypes.element,
   /**
    * Define label position
    */
@@ -422,10 +420,7 @@ class _TextField extends Component {
         labelPosition={this.props.labelPosition}
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
-        iconOuter={
-          this.props.iconOuter &&
-          (this.props.iconOuter.name || this.props.iconOuter.src)
-        }
+        iconOuter={this.props.iconOuter}
       >
         {message}
         {counter}
@@ -434,12 +429,13 @@ class _TextField extends Component {
   }
 
   _renderInnerButton() {
-    const clearingIconPath = this.props.theme.reactackle.components.textfield
-      .clearingIcon;
+    const componentPath = this.props.theme.reactackle.components.textfield;
 
-    const passwordIconPath = this.state.hidden
-      ? this.props.theme.reactackle.components.textfield.passwordIconHidden
-      : this.props.theme.reactackle.components.textfield.passwordIconUnhidden;
+    const clearingIconElement = componentPath.clearingIconElement;
+
+    const passwordIconElement = this.state.hidden
+      ? componentPath.passwordIconShowElement
+      : componentPath.passwordIconHideElement;
 
     if (typeof this.state.hidden === 'boolean') {
       return (
@@ -449,15 +445,9 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
+          onClick={this._handleHideValue}
         >
-          <Icon
-            name={passwordIconPath.name}
-            src={passwordIconPath.src}
-            type={passwordIconPath.type}
-            size="inherit"
-            color="inherit"
-            onClick={this._handleHideValue}
-          />
+          {passwordIconElement}
         </InnerButton>
       );
     } else if (this.props.clearingIcon) {
@@ -468,15 +458,9 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
+          onClick={this._handleClearValue}
         >
-          <Icon
-            name={clearingIconPath.name}
-            src={clearingIconPath.src}
-            type={clearingIconPath.type}
-            size="inherit"
-            color="inherit"
-            onClick={this._handleClearValue}
-          />
+          {clearingIconElement}
         </InnerButton>
       );
     }
@@ -485,8 +469,10 @@ class _TextField extends Component {
   }
 
   _renderIconOuter() {
+    const { iconOuter } = this.props;
+    if (!iconOuter) return null;
+
     return (
-      this.props.iconOuter &&
       <IconOuterStyled
         disabled={this.props.disabled}
         focus={this.state.focus}
@@ -495,12 +481,15 @@ class _TextField extends Component {
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
       >
-        <Icon {...this.props.iconOuter} size="inherit" color="inherit" />
+        {iconOuter}
       </IconOuterStyled>
     );
   }
 
   _renderIconInner() {
+    const { iconInner } = this.props;
+    if (!iconInner) return null;
+
     return (
       this.props.iconInner &&
       <IconInnerStyled
@@ -510,7 +499,7 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
       >
-        <Icon {...this.props.iconInner} size="inherit" color="inherit" />
+        {iconInner}
       </IconInnerStyled>
     );
   }
@@ -551,10 +540,7 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        iconOuter={
-          this.props.iconOuter &&
-          (this.props.iconOuter.name || this.props.iconOuter.src)
-        }
+        iconOuter={this.props.iconOuter}
         bordered={this.props.bordered}
       >
         <LabelTextStyled>

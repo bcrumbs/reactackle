@@ -17,7 +17,7 @@ exports[`<Card/> renders correctly if prop size changing 1`] = `
   elevation={1}
 >
   <div
-    className="CardContentStyled-eXdRtH iXiyEN"
+    className="CardContentStyled-eXdRtH bOeEQo"
     size="large"
   />
 </div>
@@ -29,7 +29,7 @@ exports[`<Card/> renders correctly if prop size changing 2`] = `
   elevation={1}
 >
   <div
-    className="CardContentStyled-eXdRtH khTrPU"
+    className="CardContentStyled-eXdRtH bOeEQo"
     size="xlarge"
   />
 </div>
@@ -59,7 +59,7 @@ exports[`<CardActions/> renders correctly with default props 1`] = `
 
 exports[`<CardActionsMain/> renders correctly with default props 1`] = `
 <div
-  className="CardActionsMainStyled-ktQsKf ezajzq"
+  className="CardActionsMainStyled-ktQsKf bEsixs"
   size="default"
 >
   <div>
@@ -70,7 +70,7 @@ exports[`<CardActionsMain/> renders correctly with default props 1`] = `
 
 exports[`<CardActionsSupplemental/> renders correctly with default props 1`] = `
 <div
-  className="CardActionsSupplementalStyled-fhmiiR QCJvK"
+  className="CardActionsSupplementalStyled-fhmiiR bqsVkQ"
   size="default"
 >
   <div>
@@ -193,7 +193,7 @@ exports[`<CardHeaderPrimary/> renders correctly with default props 1`] = `
     </h2>
   </div>
   <div
-    className="CardHeaderMediaStyled-klkMSH lnFpEM"
+    className="CardHeaderMediaStyled-klkMSH lnxuuS"
     size="default"
   >
     <div>
@@ -209,7 +209,7 @@ exports[`<CardHeaderSecondary/> renders correctly if prop image set image.png 1`
   size="default"
 >
   <div
-    className="CardHeaderSecondaryImageStyled-gbNILd hAlMcg"
+    className="CardHeaderSecondaryImageStyled-gbNILd ESGYh"
     size="default"
     style={
       Object {

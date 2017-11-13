@@ -1,0 +1,11 @@
+import styled from 'styled-components';
+import { iconCustomSizeMixin, IconCustom } from 'reactackle-icons';
+
+const TestWrapper = styled.div`
+  ${iconCustomSizeMixin('70px', '42px', '50px')}
+`;
+
+<TestWrapper>
+  <IconCustom size="custom" border borderWidth={2} />
+</TestWrapper>
+

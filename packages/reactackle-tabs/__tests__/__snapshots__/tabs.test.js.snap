@@ -1,157 +1,395 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Tabs/> renders correctly if change tab 1`] = `
-<div
-  className="TabsWrapperStyled-gHoWnV dZhZpG"
+<Tabs
+  colorScheme="dark"
+  linkComponent={[Function]}
+  onChange={[Function]}
+  selected={0}
+  tabs={
+    Array [
+      Object {
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
+        "text": "Test 1",
+      },
+      Object {
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
+        "text": "Test 2",
+      },
+    ]
+  }
 >
-  <div
-    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
+  <TabsWrapperStyled
+    colorScheme="dark"
   >
     <div
-      className="TabsListStyled-dpAKRd fQTQyC"
+      className="TabsWrapperStyled-gHoWnV dZhZpG"
     >
-      <div
-        className="TabStyled-csMJzZ gsAzPq"
-        onClick={[Function]}
-        selected={true}
-      >
+      <TabsContentWrapperStyled>
         <div
-          className="TabContentWrapperStyled-enEVMS jZgudN"
+          className="TabsContentWrapperStyled-dkXjGq gvyVcA"
         >
-          <div
-            className="TabContentStyled-cGqNqA khIZPl"
-          >
+          <TabsListStyled>
             <div
-              className="TabIconStyled-bYWiJR eQkcDH"
-              selected={true}
+              className="TabsListStyled-dpAKRd fQTQyC"
             >
-              <span
-                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                color=""
-                onClick={[Function]}
-                rotate={0}
-                size="normal"
-              />
+              <Tab
+                colorScheme="dark"
+                disabled={false}
+                icon={
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
+                }
+                index={0}
+                isSelected={true}
+                key="0"
+                linkComponent={[Function]}
+                linkHref=""
+                onSelect={[Function]}
+                text="Test 1"
+              >
+                <TabStyled
+                  colorScheme="dark"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  <div
+                    className="TabStyled-csMJzZ gsAzPq"
+                    onClick={[Function]}
+                    selected={true}
+                  >
+                    <TabContentWrapperStyled>
+                      <div
+                        className="TabContentWrapperStyled-enEVMS jZgudN"
+                      >
+                        <TabContentStyled>
+                          <div
+                            className="TabContentStyled-cGqNqA khIZPl"
+                          >
+                            <TabIconStyled
+                              colorScheme="dark"
+                              selected={true}
+                            >
+                              <div
+                                className="TabIconStyled-bYWiJR ctwdqB"
+                                selected={true}
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
+                              </div>
+                            </TabIconStyled>
+                            <TabTextStyled
+                              hasIcon={true}
+                            >
+                              <div
+                                className="TabTextStyled-kyChmy HdHAs"
+                              >
+                                Test 1
+                              </div>
+                            </TabTextStyled>
+                          </div>
+                        </TabContentStyled>
+                      </div>
+                    </TabContentWrapperStyled>
+                  </div>
+                </TabStyled>
+              </Tab>
+              <Tab
+                colorScheme="dark"
+                disabled={false}
+                icon={
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
+                }
+                index={1}
+                isSelected={false}
+                key="1"
+                linkComponent={[Function]}
+                linkHref=""
+                onSelect={[Function]}
+                text="Test 2"
+              >
+                <TabStyled
+                  colorScheme="dark"
+                  onClick={[Function]}
+                  selected={false}
+                >
+                  <div
+                    className="TabStyled-csMJzZ fFefNP"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <TabContentWrapperStyled>
+                      <div
+                        className="TabContentWrapperStyled-enEVMS jZgudN"
+                      >
+                        <TabContentStyled>
+                          <div
+                            className="TabContentStyled-cGqNqA khIZPl"
+                          >
+                            <TabIconStyled
+                              colorScheme="dark"
+                              selected={false}
+                            >
+                              <div
+                                className="TabIconStyled-bYWiJR jRWoJT"
+                                selected={false}
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
+                              </div>
+                            </TabIconStyled>
+                            <TabTextStyled
+                              hasIcon={true}
+                            >
+                              <div
+                                className="TabTextStyled-kyChmy HdHAs"
+                              >
+                                Test 2
+                              </div>
+                            </TabTextStyled>
+                          </div>
+                        </TabContentStyled>
+                      </div>
+                    </TabContentWrapperStyled>
+                  </div>
+                </TabStyled>
+              </Tab>
             </div>
-            <div
-              className="TabTextStyled-kyChmy HdHAs"
-            >
-              Test 1
-            </div>
-          </div>
+          </TabsListStyled>
         </div>
-      </div>
-      <div
-        className="TabStyled-csMJzZ fFefNP"
-        onClick={[Function]}
-        selected={false}
-      >
-        <div
-          className="TabContentWrapperStyled-enEVMS jZgudN"
-        >
-          <div
-            className="TabContentStyled-cGqNqA khIZPl"
-          >
-            <div
-              className="TabIconStyled-bYWiJR eMTSwD"
-              selected={false}
-            >
-              <span
-                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                color=""
-                onClick={[Function]}
-                rotate={0}
-                size="normal"
-              />
-            </div>
-            <div
-              className="TabTextStyled-kyChmy HdHAs"
-            >
-              Test 2
-            </div>
-          </div>
-        </div>
-      </div>
+      </TabsContentWrapperStyled>
     </div>
-  </div>
-</div>
+  </TabsWrapperStyled>
+</Tabs>
 `;
 
 exports[`<Tabs/> renders correctly if change tab 2`] = `
-<div
-  className="TabsWrapperStyled-gHoWnV dZhZpG"
+<Tabs
+  colorScheme="dark"
+  linkComponent={[Function]}
+  onChange={[Function]}
+  selected={0}
+  tabs={
+    Array [
+      Object {
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
+        "text": "Test 1",
+      },
+      Object {
+        "icon": <svg
+          viewBox="0 0 24 24"
+    >
+          <path
+                d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+          />
+    </svg>,
+        "text": "Test 2",
+      },
+    ]
+  }
 >
-  <div
-    className="TabsContentWrapperStyled-dkXjGq gvyVcA"
+  <TabsWrapperStyled
+    colorScheme="dark"
   >
     <div
-      className="TabsListStyled-dpAKRd fQTQyC"
+      className="TabsWrapperStyled-gHoWnV dZhZpG"
     >
-      <div
-        className="TabStyled-csMJzZ fFefNP"
-        onClick={[Function]}
-        selected={false}
-      >
+      <TabsContentWrapperStyled>
         <div
-          className="TabContentWrapperStyled-enEVMS jZgudN"
+          className="TabsContentWrapperStyled-dkXjGq gvyVcA"
         >
-          <div
-            className="TabContentStyled-cGqNqA khIZPl"
-          >
+          <TabsListStyled>
             <div
-              className="TabIconStyled-bYWiJR eMTSwD"
-              selected={false}
+              className="TabsListStyled-dpAKRd fQTQyC"
             >
-              <span
-                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                color=""
-                onClick={[Function]}
-                rotate={0}
-                size="normal"
-              />
+              <Tab
+                colorScheme="dark"
+                disabled={false}
+                icon={
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
+                }
+                index={0}
+                isSelected={false}
+                key="0"
+                linkComponent={[Function]}
+                linkHref=""
+                onSelect={[Function]}
+                text="Test 1"
+              >
+                <TabStyled
+                  colorScheme="dark"
+                  onClick={[Function]}
+                  selected={false}
+                >
+                  <div
+                    className="TabStyled-csMJzZ fFefNP"
+                    onClick={[Function]}
+                    selected={false}
+                  >
+                    <TabContentWrapperStyled>
+                      <div
+                        className="TabContentWrapperStyled-enEVMS jZgudN"
+                      >
+                        <TabContentStyled>
+                          <div
+                            className="TabContentStyled-cGqNqA khIZPl"
+                          >
+                            <TabIconStyled
+                              colorScheme="dark"
+                              selected={false}
+                            >
+                              <div
+                                className="TabIconStyled-bYWiJR jRWoJT"
+                                selected={false}
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
+                              </div>
+                            </TabIconStyled>
+                            <TabTextStyled
+                              hasIcon={true}
+                            >
+                              <div
+                                className="TabTextStyled-kyChmy HdHAs"
+                              >
+                                Test 1
+                              </div>
+                            </TabTextStyled>
+                          </div>
+                        </TabContentStyled>
+                      </div>
+                    </TabContentWrapperStyled>
+                  </div>
+                </TabStyled>
+              </Tab>
+              <Tab
+                colorScheme="dark"
+                disabled={false}
+                icon={
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                    />
+                  </svg>
+                }
+                index={1}
+                isSelected={true}
+                key="1"
+                linkComponent={[Function]}
+                linkHref=""
+                onSelect={[Function]}
+                text="Test 2"
+              >
+                <TabStyled
+                  colorScheme="dark"
+                  onClick={[Function]}
+                  selected={true}
+                >
+                  <div
+                    className="TabStyled-csMJzZ gsAzPq"
+                    onClick={[Function]}
+                    selected={true}
+                  >
+                    <TabContentWrapperStyled>
+                      <div
+                        className="TabContentWrapperStyled-enEVMS jZgudN"
+                      >
+                        <TabContentStyled>
+                          <div
+                            className="TabContentStyled-cGqNqA khIZPl"
+                          >
+                            <TabIconStyled
+                              colorScheme="dark"
+                              selected={true}
+                            >
+                              <div
+                                className="TabIconStyled-bYWiJR ctwdqB"
+                                selected={true}
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                                  />
+                                </svg>
+                              </div>
+                            </TabIconStyled>
+                            <TabTextStyled
+                              hasIcon={true}
+                            >
+                              <div
+                                className="TabTextStyled-kyChmy HdHAs"
+                              >
+                                Test 2
+                              </div>
+                            </TabTextStyled>
+                          </div>
+                        </TabContentStyled>
+                      </div>
+                    </TabContentWrapperStyled>
+                  </div>
+                </TabStyled>
+              </Tab>
             </div>
-            <div
-              className="TabTextStyled-kyChmy HdHAs"
-            >
-              Test 1
-            </div>
-          </div>
+          </TabsListStyled>
         </div>
-      </div>
-      <div
-        className="TabStyled-csMJzZ gsAzPq"
-        onClick={[Function]}
-        selected={true}
-      >
-        <div
-          className="TabContentWrapperStyled-enEVMS jZgudN"
-        >
-          <div
-            className="TabContentStyled-cGqNqA khIZPl"
-          >
-            <div
-              className="TabIconStyled-bYWiJR eQkcDH"
-              selected={true}
-            >
-              <span
-                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                color=""
-                onClick={[Function]}
-                rotate={0}
-                size="normal"
-              />
-            </div>
-            <div
-              className="TabTextStyled-kyChmy HdHAs"
-            >
-              Test 2
-            </div>
-          </div>
-        </div>
-      </div>
+      </TabsContentWrapperStyled>
     </div>
-  </div>
-</div>
+  </TabsWrapperStyled>
+</Tabs>
 `;
 
 exports[`<Tabs/> renders correctly if prop  1`] = `
@@ -239,16 +477,16 @@ exports[`<Tabs/> renders correctly if prop icon 1`] = `
             className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled-bYWiJR eQkcDH"
+              className="TabIconStyled-bYWiJR ctwdqB"
               selected={true}
             >
-              <span
-                className="fa fa-anchor IconFontAwesomeStyled-dGckvS ccJleE"
-                color=""
-                onClick={[Function]}
-                rotate={0}
-                size="normal"
-              />
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z"
+                />
+              </svg>
             </div>
             <div
               className="TabTextStyled-kyChmy HdHAs"

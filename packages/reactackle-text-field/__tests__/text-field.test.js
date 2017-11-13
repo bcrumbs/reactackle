@@ -2,7 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { Icon } from 'reactackle-icon';
+import { IconDefault } from 'reactackle-icons';
 import {
   defaultTheme,
 } from 'reactackle-core';
@@ -10,13 +10,6 @@ import { findByType, findBySelector } from 'reactackle-test-utils';
 import { mount, render, shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { TextField } from '../src';
-
-jest.mock('react-dom');
-
-const customIcon = {
-  name: 'customIcon',
-  src: 'http://files.gamebanana.com/img/ico/sprays/51cb98f9d3747.png',
-};
 
 describe('<TextField/>', () => {
   it('renders correctly with default props', () => {
@@ -274,7 +267,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true' +
     ' and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel iconOuter={customIcon} />,
+      <TextField slidingLabel iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -284,7 +277,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true, ' +
     'bordered and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel iconOuter={customIcon} />,
+      <TextField slidingLabel iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -294,7 +287,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true,' +
     ' dense and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel dense iconOuter={customIcon} />,
+      <TextField slidingLabel dense iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -304,7 +297,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true,' +
     ' fullWidth and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel fullWidth iconOuter={customIcon} />,
+      <TextField slidingLabel fullWidth iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -318,7 +311,7 @@ describe('<TextField/>', () => {
         slidingLabel
         fullWidth
         dense
-        iconOuter={customIcon}
+        iconOuter={<IconDefault />}
       />,
     );
 
@@ -329,7 +322,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true, ' +
     'filled and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel filled iconOuter={customIcon} />,
+      <TextField slidingLabel filled iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -439,7 +432,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true,' +
     ' label set test and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel label="test" iconOuter={customIcon} />,
+      <TextField slidingLabel label="test" iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -449,7 +442,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true, ' +
     'label set test, bordered and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel label="test" iconOuter={customIcon} />,
+      <TextField slidingLabel label="test" iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -459,7 +452,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true,' +
     ' label set test, dense and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel label="test" dense iconOuter={customIcon} />,
+      <TextField slidingLabel label="test" dense iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -469,7 +462,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop slidingLabel set true,' +
     ' label set test, fullWidth and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel label="test" fullWidth iconOuter={customIcon} />,
+      <TextField slidingLabel label="test" fullWidth iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -484,18 +477,18 @@ describe('<TextField/>', () => {
         label="test"
         fullWidth
         dense
-        iconOuter={customIcon}
+        iconOuter={<IconDefault />}
       />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
   });
-
+  
   it(
     'renders correctly if prop slidingLabel set true, ' +
     'label set test, filled and iconOuter', () => {
     const component = renderer.create(
-      <TextField slidingLabel label="test" filled iconOuter={customIcon} />,
+      <TextField slidingLabel label="test" filled iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -582,10 +575,10 @@ describe('<TextField/>', () => {
 
     expect(component.toJSON()).toMatchSnapshot();
   });
-
+ 
   it('renders correctly if prop label set test and iconOuter', () => {
     const component = renderer.create(
-      <TextField label="test" iconOuter={customIcon} />,
+      <TextField label="test" iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -593,7 +586,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly if prop label set test, bordered and iconOuter', () => {
     const component = renderer.create(
-      <TextField label="test" iconOuter={customIcon} />,
+      <TextField label="test" iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -601,7 +594,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly if prop label set test, dense and iconOuter', () => {
     const component = renderer.create(
-      <TextField label="test" dense iconOuter={customIcon} />,
+      <TextField label="test" dense iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -611,7 +604,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop label set test,' +
     'fullWidth and iconOuter', () => {
     const component = renderer.create(
-      <TextField label="test" fullWidth iconOuter={customIcon} />,
+      <TextField label="test" fullWidth iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -625,7 +618,7 @@ describe('<TextField/>', () => {
         label="test"
         fullWidth
         dense
-        iconOuter={customIcon}
+        iconOuter={<IconDefault />}
       />,
     );
 
@@ -636,7 +629,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop' +
     'label set test, filled and iconOuter', () => {
     const component = renderer.create(
-      <TextField label="test" filled iconOuter={customIcon} />,
+      <TextField label="test" filled iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -653,14 +646,14 @@ describe('<TextField/>', () => {
   it(
     'renders correctly if prop password set true' +
     ' and call show password', () => {
-    const component = renderer.create(
+    const component = mount(
       <TextField defaultValue="test" type="password" />,
     );
+    
+    expect(toJson(component)).toMatchSnapshot();
+    component.find('svg').simulate('click');
 
-    expect(component.toJSON()).toMatchSnapshot();
-    findByType(component, Icon).props.onClick();
-
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders correctly if prop password set true,' +
@@ -720,17 +713,9 @@ describe('<TextField/>', () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 
-  it('renders correctly if prop inputIcon set star', () => {
-    const component = renderer.create(
-      <TextField inputIcon={{ name: 'star' }} />,
-    );
-
-    expect(component.toJSON()).toMatchSnapshot();
-  });
-
   it('renders correctly if prop iconInner set star', () => {
     const component = renderer.create(
-      <TextField inputIcon={{ name: 'star' }} />,
+      <TextField iconInner={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -793,7 +778,7 @@ describe('<TextField/>', () => {
     'renders correctly if prop message set test, symbolLimit set 1' +
     'and iconOuter', () => {
     const component = renderer.create(
-      <TextField message="test" symbolLimit={1} iconOuter={customIcon} />,
+      <TextField message="test" symbolLimit={1} iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -873,15 +858,15 @@ describe('<TextField/>', () => {
   });
 
   it('renders correctly if prop clearingIcon set true and call clear', () => {
-    const component = renderer.create(
+    const component = mount(
       <TextField defaultValue="test" clearingIcon />,
     );
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
 
-    findByType(component, Icon).props.onClick();
+    component.find('svg').simulate('click');
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders correctly if prop id set test', () => {
@@ -1031,7 +1016,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop prefix, iconInner', () => {
     const component = renderer.create(
-      <TextField prefix="Foo" iconInner={customIcon} />,
+      <TextField prefix="Foo" iconInner={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1039,7 +1024,7 @@ describe('<TextField/>', () => {
   
   it('renders correctly with prop prefix, iconInner and fullWidth', () => {
     const component = renderer.create(
-      <TextField prefix="Foo" iconInner={customIcon} fullWidth />,
+      <TextField prefix="Foo" iconInner={<IconDefault />} fullWidth />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1047,7 +1032,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop prefix, iconInner and dense', () => {
     const component = renderer.create(
-      <TextField prefix="Foo" iconInner={customIcon} dense />,
+      <TextField prefix="Foo" iconInner={<IconDefault />} dense />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1057,7 +1042,7 @@ describe('<TextField/>', () => {
     'renders correctly with prop prefix, iconInner,' +
     ' fullWidth and dense', () => {
     const component = renderer.create(
-      <TextField prefix="Foo" iconInner={customIcon} dense fullWidth />,
+      <TextField prefix="Foo" iconInner={<IconDefault />} dense fullWidth />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1065,7 +1050,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconOuter', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} />,
+      <TextField iconOuter={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1073,7 +1058,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconOuter, dense and fullWidth', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} dense fullWidth />,
+      <TextField iconOuter={<IconDefault />} dense fullWidth />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1081,7 +1066,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconOuter, dense', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} dense />,
+      <TextField iconOuter={<IconDefault />} dense />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1089,7 +1074,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconOuter, fullWidth', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} fullWidth />,
+      <TextField iconOuter={<IconDefault />} fullWidth />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1097,7 +1082,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconOuter and disabled', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} disabled />,
+      <TextField iconOuter={<IconDefault />} disabled />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1107,7 +1092,7 @@ describe('<TextField/>', () => {
     'renders correctly with prop iconOuter and' +
     'colorScheme set success', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} colorScheme="success" />,
+      <TextField iconOuter={<IconDefault />} colorScheme="success" />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1115,7 +1100,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconOuter and if focus', () => {
     const component = renderer.create(
-      <TextField iconOuter={customIcon} />,
+      <TextField iconOuter={<IconDefault />} />,
     );
 
     findByType(component.toJSON(), 'input').props.onFocus();
@@ -1124,7 +1109,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconInner', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} />,
+      <TextField iconInner={<IconDefault />} />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1132,7 +1117,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconInner, dense and fullWidth', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} dense fullWidth />,
+      <TextField iconInner={<IconDefault />} dense fullWidth />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1140,7 +1125,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconInner, dense', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} dense />,
+      <TextField iconInner={<IconDefault />} dense />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1148,7 +1133,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconInner, fullWidth', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} fullWidth />,
+      <TextField iconInner={<IconDefault />} fullWidth />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1156,7 +1141,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconInner and disabled', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} disabled />,
+      <TextField iconInner={<IconDefault />} disabled />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1166,7 +1151,7 @@ describe('<TextField/>', () => {
     'renders correctly with prop iconInner and' +
     'colorScheme set success', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} colorScheme="success" />,
+      <TextField iconInner={<IconDefault />} colorScheme="success" />,
     );
 
     expect(component.toJSON()).toMatchSnapshot();
@@ -1174,7 +1159,7 @@ describe('<TextField/>', () => {
 
   it('renders correctly with prop iconInner and if focus', () => {
     const component = renderer.create(
-      <TextField iconInner={customIcon} />,
+      <TextField iconInner={<IconDefault />} />,
     );
 
     findByType(component.toJSON(), 'input').props.onFocus();
@@ -1366,13 +1351,12 @@ describe('<TextField /> multiline', () => {
           multiline multilineRows={{ min: 5 }}
         />,
       );
-
-    wrapper.find('textarea').props().onChange({
+    
+    wrapper.find('textarea').simulate('change', {
       target: { value: 'newValue' },
     });
-    wrapper.find('textarea').props().onFocus();
-    wrapper.find('textarea').props().onBlur();
-
+    wrapper.find('textarea').simulate('focus');
+    wrapper.find('textarea').simulate('blur');
     expect(mockFn).toHaveBeenCalledTimes(3);
   });
 });

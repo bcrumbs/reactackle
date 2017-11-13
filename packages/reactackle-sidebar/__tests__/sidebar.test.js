@@ -2,6 +2,7 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { mount } from 'enzyme';
 import {
     Sidebar,
     SidebarToggle,
@@ -103,12 +104,12 @@ describe('<SidebarToggle/>', () => {
   });
 
   it('one call "onToggle" event after "click"', () => {
-    const mockFn = jest.fn(),
-      tree = renderer.create(
+    const mockFn = jest.fn();
+    const component = mount(
         <SidebarToggle onClick={mockFn} />,
-      ).toJSON();
+    );
 
-    tree.props.onClick();
+    component.simulate('click');
 
     expect(mockFn).toHaveBeenCalledTimes(1);
   });

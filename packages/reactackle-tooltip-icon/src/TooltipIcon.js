@@ -50,7 +50,7 @@ export const TooltipIconComponent = props => {
     onBlur: props.hideTooltip,
     onMouseEnter: props.showTooltip,
     onMouseLeave: props.hideTooltip,
-    tabIndex: 1,
+    tabIndex: 0,
   };
   return (
     <TooltipIconStyled {...wrapperProps}>
