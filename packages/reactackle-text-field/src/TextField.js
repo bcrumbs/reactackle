@@ -26,7 +26,10 @@ import { PostfixStyled } from './styles/PostfixStyled';
 import { PostfixTextStyled } from './styles/PostfixTextStyled';
 import { TextFieldStyled } from './styles/TextFieldStyled';
 import { TextFieldGroupStyled } from './styles/TextFieldGroupStyled';
-import { getTextFieldElementStyled } from './styles/TextFieldElementStyled';
+import {
+  getTextFieldElementStyled,
+  getTextFieldElementStyledCustom,
+} from './styles/TextFieldElementStyled';
 import { TextFieldContentBoxStyled } from './styles/TextFieldContentBoxStyled';
 import { TextFieldRowStyled } from './styles/TextFieldRowStyled';
 import componentTheme from './styles/theme';
@@ -305,11 +308,8 @@ class _TextField extends Component {
     if (!this.props.multiline) return getTextFieldElementStyled('input');
 
     return this.props.resize === 'auto'
-      ? getTextFieldElementStyled(TextareaAutosize, 'TextArea')
-      : getTextFieldElementStyled('textarea', 'TextArea', {
-        rows: this.props.multilineRows.min,
-        resize: this.props.resize,
-      });
+      ? getTextFieldElementStyledCustom(TextareaAutosize, 'TextArea')
+      : getTextFieldElementStyled('textarea', 'TextArea');
   }
 
   _parseValue(value) {
@@ -628,8 +628,14 @@ class _TextField extends Component {
     const TextFieldElement = this.state.textFieldElement;
     const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
     const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
+    
+    const props = textFieldProps;
+    props.type = inputType;
+    if (this.props.multiline && this.props.resize !== 'auto') {
+      props.rows = this.props.multilineRows.min;
+    }
 
-    return <TextFieldElement {...textFieldProps} type={inputType} />;
+    return <TextFieldElement {...props} />;
   }
 
   render() {

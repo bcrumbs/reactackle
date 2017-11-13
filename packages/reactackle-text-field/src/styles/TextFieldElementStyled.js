@@ -142,54 +142,64 @@ const placeholderStyles = ({ theme: themeFromProvider }) => {
 };
 
 /** STYLES */
-export const getTextFieldElementStyled = (
+
+const styles = props => `
+  border-width: 0;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  width: 100%;
+  resize: ${props.resize === 'none' ? 'none' : 'both'};
+  max-width: 100%;
+  font-size: inherit;
+  line-height: inherit;
+  z-index: 1;
+  ${textfieldSize(props)}
+  ${basicStyles(props)}
+  ${textfieldStyle(props)}
+
+  &::placeholder {
+    ${placeholderStyles(props)}
+  }
+
+  ${transition('color, background-color, box-shadow')}
+`;
+
+export const getTextFieldElementStyledCustom = (
   Component,
-  name,
-  { resize, rows } = { resize: 'auto' },
+  displayName,
 ) => {
-  const customComponent = typeof Component !== 'string';
-
-  const additionalProps = {};
-  if (resize !== 'auto') {
-    additionalProps.rows = rows;
-  }
-  if (!customComponent) {
-    additionalProps.ref = props => props.saveRef;
-  }
-
-  const TextFieldElementStyled = (!customComponent
-    ? styled[Component]
-    : styled(Component)).attrs(additionalProps)`
-    border-width: 0;
-    text-overflow: ellipsis;
-    flex-grow: 1;
-    width: 100%;
-    resize: ${resize === 'none' ? 'none' : 'both'};
-    max-width: 100%;
-    font-size: inherit;
-    line-height: inherit;
-    z-index: 1;
-    ${textfieldSize}
-    ${basicStyles}
-    ${textfieldStyle}
-
-    &::placeholder {
-      ${placeholderStyles}
-    }
-
-    ${transition('color, background-color, box-shadow')}
+  const ret = styled(Component)`
+    ${styles}
   `;
 
-  TextFieldElementStyled.propTypes = {
-    ...(customComponent ? Component.propTypes : {}),
+  ret.propTypes = {
+    ...Component.propTypes,
     ...propTypes,
   };
-  TextFieldElementStyled.defaultProps = {
-    ...(customComponent ? Component.defaultProps : {}),
+  ret.defaultProps = {
+    ...Component.defaultProps,
     ...defaultProps,
   };
-  TextFieldElementStyled.displayName = `TextFieldElementStyled(${customComponent
-    ? Component.displayName || name
-    : Component})`;
-  return TextFieldElementStyled;
+  ret.displayName = `TextFieldElementStyled(${Component.displayName || displayName})`;
+
+  return ret;
+};
+
+export const getTextFieldElementStyled = (
+  elementName,
+  displayName,
+) => {
+  const additionalProps = {
+    ref: props => props.saveRef,
+  };
+
+  const ret = styled[elementName].attrs(additionalProps)`
+    ${styles}
+  `;
+
+  ret.propTypes = propTypes;
+  ret.defaultProps = defaultProps;
+  ret.displayName = `TextFieldElementStyled(${displayName || elementName})`;
+
+  return ret;
 };
