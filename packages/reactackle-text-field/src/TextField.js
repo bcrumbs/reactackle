@@ -272,7 +272,7 @@ class _TextField extends Component {
   }
 
   focus() {
-    if (this._domNodeInput && typeof this._domNodeInput.focus === 'function')
+    if (this._domNodeInput)
       this._domNodeInput.focus();
 
     this.setState({ focus: true });
@@ -601,9 +601,6 @@ class _TextField extends Component {
     );
   }
 
-  /**
-   * @virtual
-   */
   _renderTextField(textFieldProps) {
     const TextFieldComponent = this.textFieldComponent;
     const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;

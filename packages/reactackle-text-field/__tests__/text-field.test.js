@@ -1279,6 +1279,41 @@ describe('<TextField/>', () => {
     expect(toJson(component)).toMatchSnapshot();
   });
 
+  it('handless focus multiline autosize', () => {
+    const mockFocus = jest.fn(),
+      component = mount(
+        <TextField
+          scrollOnFocus
+          value="value"
+          multiline
+          onFocus={mockFocus}
+        />,
+      );
+
+    const instance = component.instance();
+    instance.focus();
+    expect(mockFocus).toBeCalled();
+    expect(toJson(component)).toMatchSnapshot();
+  });
+
+  it('handless focus multiline manual', () => {
+    const mockFocus = jest.fn(),
+      component = mount(
+        <TextField
+          scrollOnFocus
+          value="value"
+          multiline
+          resize="manual"
+          onFocus={mockFocus}
+        />,
+      );
+
+    const instance = component.instance();
+    instance.focus();
+    expect(mockFocus).toBeCalled();
+    expect(toJson(component)).toMatchSnapshot();
+  });
+
   it('public method: getValue', () => {
     const mockValue = 'value',
       component = renderer.create(
