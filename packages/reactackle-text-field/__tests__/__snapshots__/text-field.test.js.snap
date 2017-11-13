@@ -461,7 +461,7 @@ exports[`<TextField/> handle focus event 1`] = `
 </div>
 `;
 
-exports[`<TextField/> handless focus 1`] = `
+exports[`<TextField/> handles focus input 1`] = `
 <WithTheme(TextField)
   autoComplete="off"
   bordered={false}
@@ -495,7 +495,7 @@ exports[`<TextField/> handless focus 1`] = `
   postfix=""
   prefix=""
   resize="auto"
-  scrollOnFocus={true}
+  scrollOnFocus={false}
   slidingLabel={false}
   symbolLimit={0}
   theme={Object {}}
@@ -536,7 +536,7 @@ exports[`<TextField/> handless focus 1`] = `
     postfix=""
     prefix=""
     resize="auto"
-    scrollOnFocus={true}
+    scrollOnFocus={false}
     slidingLabel={false}
     symbolLimit={0}
     theme={
@@ -1257,6 +1257,7 @@ exports[`<TextField/> handless focus 1`] = `
                       focus={false}
                       fullWidth={false}
                       id="TextField_131"
+                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -1265,7 +1266,6 @@ exports[`<TextField/> handless focus 1`] = `
                       onFocus={[Function]}
                       placeholder=""
                       resize="auto"
-                      saveRef={[Function]}
                       type="text"
                       value="value"
                     >
@@ -1295,7 +1295,7 @@ exports[`<TextField/> handless focus 1`] = `
 </WithTheme(TextField)>
 `;
 
-exports[`<TextField/> handless focus multiline autosize 1`] = `
+exports[`<TextField/> handles focus textarea autosize 1`] = `
 <WithTheme(TextField)
   autoComplete="off"
   bordered={false}
@@ -2180,7 +2180,7 @@ exports[`<TextField/> handless focus multiline autosize 1`] = `
 </WithTheme(TextField)>
 `;
 
-exports[`<TextField/> handless focus multiline manual 1`] = `
+exports[`<TextField/> handles focus textarea manual 1`] = `
 <WithTheme(TextField)
   autoComplete="off"
   bordered={false}
@@ -2976,6 +2976,7 @@ exports[`<TextField/> handless focus multiline manual 1`] = `
                       focus={false}
                       fullWidth={false}
                       id="TextField_133"
+                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -2985,7 +2986,6 @@ exports[`<TextField/> handless focus multiline manual 1`] = `
                       placeholder=""
                       resize="manual"
                       rows={2}
-                      saveRef={[Function]}
                       type="text"
                       value="value"
                     >
@@ -4315,6 +4315,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       focus={false}
                       fullWidth={false}
                       id="TextField_91"
+                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -4323,7 +4324,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onFocus={[Function]}
                       placeholder=""
                       resize="auto"
-                      saveRef={[Function]}
                       type="text"
                       value="test"
                     >
@@ -5207,6 +5207,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       focus={false}
                       fullWidth={false}
                       id="TextField_91"
+                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -5215,7 +5216,6 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onFocus={[Function]}
                       placeholder=""
                       resize="auto"
-                      saveRef={[Function]}
                       type="text"
                       value=""
                     >
@@ -7703,6 +7703,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       focus={false}
                       fullWidth={false}
                       id="TextField_67"
+                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -7711,7 +7712,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onFocus={[Function]}
                       placeholder=""
                       resize="auto"
-                      saveRef={[Function]}
                       type="password"
                       value="test"
                     >
@@ -8595,6 +8595,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       focus={false}
                       fullWidth={false}
                       id="TextField_67"
+                      innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -8603,7 +8604,6 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onFocus={[Function]}
                       placeholder=""
                       resize="auto"
-                      saveRef={[Function]}
                       type="text"
                       value="test"
                     >

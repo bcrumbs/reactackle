@@ -29,7 +29,6 @@ const propTypes = {
    * for more information
    */
   theme: PropTypes.object,
-  saveRef: PropTypes.func.isRequired,
 };
 
 const defaultProps = {
@@ -184,6 +183,7 @@ export const TextareaAutosizeStyled = styled(({
 TextareaAutosizeStyled.propTypes = {
   ...propTypes,
   ...TextareaAutosize.propTypes,
+  saveRef: PropTypes.func.isRequired,
 };
 TextareaAutosizeStyled.defaultProps = {
   ...defaultProps,
@@ -191,18 +191,14 @@ TextareaAutosizeStyled.defaultProps = {
 };
 TextareaAutosizeStyled.displayName = displayName(TextareaAutosize.displayName || 'TextareaAutosize');
 
-export const TextareaStyled = styled.textarea.attrs({
-  ref: props => props.saveRef,
-})`
+export const TextareaStyled = styled.textarea`
   ${styles}
 `;
 TextareaStyled.propTypes = propTypes;
 TextareaStyled.defaultProps = defaultProps;
 TextareaStyled.displayName = displayName('Textarea');
 
-export const InputStyled = styled.input.attrs({
-  ref: props => props.saveRef,
-})`
+export const InputStyled = styled.input`
   ${styles}
 `;
 InputStyled.propTypes = propTypes;

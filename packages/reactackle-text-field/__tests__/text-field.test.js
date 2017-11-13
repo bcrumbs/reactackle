@@ -1263,11 +1263,10 @@ describe('<TextField/>', () => {
     expect(toJson(wrapper.render())).toMatchSnapshot();
   });
 
-  it('handless focus', () => {
+  it('handles focus input', () => {
     const mockFocus = jest.fn(),
       component = mount(
         <TextField
-          scrollOnFocus
           value="value"
           onFocus={mockFocus}
         />,
@@ -1276,10 +1275,14 @@ describe('<TextField/>', () => {
     const instance = component.instance();
     instance.focus();
     expect(mockFocus).toBeCalled();
+
+    const textFieldNode = component.children().instance()._domNodeInput;
+    expect(textFieldNode.nodeName).toEqual('INPUT');
+
     expect(toJson(component)).toMatchSnapshot();
   });
 
-  it('handless focus multiline autosize', () => {
+  it('handles focus textarea autosize', () => {
     const mockFocus = jest.fn(),
       component = mount(
         <TextField
@@ -1293,10 +1296,14 @@ describe('<TextField/>', () => {
     const instance = component.instance();
     instance.focus();
     expect(mockFocus).toBeCalled();
+
+    const textFieldNode = component.children().instance()._domNodeInput;
+    expect(textFieldNode.nodeName).toEqual('TEXTAREA');
+
     expect(toJson(component)).toMatchSnapshot();
   });
 
-  it('handless focus multiline manual', () => {
+  it('handles focus textarea manual', () => {
     const mockFocus = jest.fn(),
       component = mount(
         <TextField
@@ -1311,6 +1318,10 @@ describe('<TextField/>', () => {
     const instance = component.instance();
     instance.focus();
     expect(mockFocus).toBeCalled();
+
+    const textFieldNode = component.children().instance()._domNodeInput;
+    expect(textFieldNode.nodeName).toEqual('TEXTAREA');
+
     expect(toJson(component)).toMatchSnapshot();
   });
 

@@ -611,16 +611,17 @@ class _TextField extends Component {
     if (this.props.multiline && this.props.resize !== 'auto') {
       props.rows = this.props.multilineRows.min;
     }
-
+    
     return <TextFieldComponent {...props} />;
   }
 
   render() {
+    const isTextareaAutosize = this.props.multiline && this.props.resize === 'auto';
     const iconOuter = this._renderIconOuter(),
       prefix = this._renderPrefix(),
       textField = this._renderTextField({
         resize: this.props.resize,
-        saveRef: this._saveRef,
+        [isTextareaAutosize ? 'saveRef' : 'innerRef']: this._saveRef,
         id: this.id,
         dense: this.props.dense,
         fullWidth: this.props.fullWidth,
