@@ -20,6 +20,7 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
           class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY lkwUKC"
           id="TextField_135"
           placeholder=""
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -49,6 +50,7 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
           class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
           id="TextField_134"
           placeholder=""
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -78,6 +80,7 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
           class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
           id="TextField_133"
           placeholder=""
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -107,6 +110,7 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
           class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
           id="TextField_138"
           placeholder="test"
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -162,7 +166,7 @@ exports[`<TextField /> multiline renders correctly if prop resize set none 1`] =
       >
         <textarea
           autocomplete="off"
-          class="TextFieldElementStyled__TextareaStyled-dsBhlq iBOyLO"
+          class="TextFieldElementStyled__TextareaStyled-dsBhlq jEnNdQ"
           id="TextField_137"
           placeholder=""
           rows="5"
@@ -1260,6 +1264,7 @@ exports[`<TextField/> handless focus 1`] = `
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       saveRef={[Function]}
                       type="text"
                       value="value"
@@ -2596,6 +2601,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       saveRef={[Function]}
                       type="text"
                       value="test"
@@ -3487,6 +3493,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       saveRef={[Function]}
                       type="text"
                       value=""
@@ -5982,6 +5989,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       saveRef={[Function]}
                       type="password"
                       value="test"
@@ -6873,6 +6881,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       saveRef={[Function]}
                       type="text"
                       value="test"

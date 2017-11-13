@@ -622,6 +622,7 @@ class _TextField extends Component {
     const iconOuter = this._renderIconOuter(),
       prefix = this._renderPrefix(),
       textField = this._renderTextField({
+        resize: this.props.resize,
         saveRef: this._saveRef,
         id: this.id,
         dense: this.props.dense,
