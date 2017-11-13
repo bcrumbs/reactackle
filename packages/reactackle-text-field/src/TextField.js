@@ -234,8 +234,8 @@ class _TextField extends Component {
       focus: false,
       lengthError: false,
       patternError: false,
-      textFieldComponent: this._getTextFieldComponentStyled(),
     };
+    this.textFieldComponent = this._getTextFieldComponentStyled();
     this._saveRef = this._saveRef.bind(this);
     this._saveRefWrap = this._saveRefWrap.bind(this);
     this._handleHideValue = this._handleHideValue.bind(this);
@@ -247,8 +247,6 @@ class _TextField extends Component {
     this._handleChange = this._handleChange.bind(this);
     this.focus = this.focus.bind(this);
     this.getValue = this.getValue.bind(this);
-    this._getTextFieldComponentStyled =
-      this._getTextFieldComponentStyled.bind(this);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -266,9 +264,7 @@ class _TextField extends Component {
     if (isTypeChanged)
       this.setState({ hidden: nextProps.type === 'password' ? true : null });
     if (isTextFieldChanged)
-      this.setState({
-        textFieldComponent: this._getTextFieldComponentStyled(),
-      });
+      this.textFieldComponent = this._getTextFieldComponentStyled();
   }
 
   getValue() {
@@ -609,7 +605,7 @@ class _TextField extends Component {
    * @virtual
    */
   _renderTextField(textFieldProps) {
-    const TextFieldComponent = this.state.textFieldComponent;
+    const TextFieldComponent = this.textFieldComponent;
     const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
     const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
     
@@ -618,7 +614,7 @@ class _TextField extends Component {
     if (this.props.multiline && this.props.resize !== 'auto') {
       props.rows = this.props.multilineRows.min;
     }
-    
+
     return <TextFieldComponent {...props} />;
   }
 
