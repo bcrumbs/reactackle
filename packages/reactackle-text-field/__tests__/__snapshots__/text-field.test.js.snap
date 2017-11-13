@@ -1244,7 +1244,7 @@ exports[`<TextField/> handless focus 1`] = `
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled__InputStyled
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -1277,7 +1277,7 @@ exports[`<TextField/> handless focus 1`] = `
                         type="text"
                         value="value"
                       />
-                    </TextFieldElementStyled__InputStyled>
+                    </TextFieldStyled(Input)>
                   </div>
                 </TextFieldGroupStyled>
               </div>
@@ -2580,7 +2580,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled__InputStyled
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -2613,7 +2613,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                         type="text"
                         value="test"
                       />
-                    </TextFieldElementStyled__InputStyled>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -3471,7 +3471,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled__InputStyled
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -3504,7 +3504,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                         type="text"
                         value=""
                       />
-                    </TextFieldElementStyled__InputStyled>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -5966,7 +5966,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled__InputStyled
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -5999,7 +5999,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                         type="password"
                         value="test"
                       />
-                    </TextFieldElementStyled__InputStyled>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -6857,7 +6857,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled__InputStyled
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -6890,7 +6890,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                         type="text"
                         value="test"
                       />
-                    </TextFieldElementStyled__InputStyled>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}

@@ -205,6 +205,6 @@ export const InputStyled = styled.input.attrs({
 })`
   ${styles}
 `;
-TextareaStyled.propTypes = propTypes;
-TextareaStyled.defaultProps = defaultProps;
-TextareaStyled.displayName = displayName('Input');
+InputStyled.propTypes = propTypes;
+InputStyled.defaultProps = defaultProps;
+InputStyled.displayName = displayName('Input');
