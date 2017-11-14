@@ -39,6 +39,7 @@
     "color": "^2.0.0",
     "doctrine": "^2.0.0",
     "eslint": "^3.19.0",
+    "exenv": "^1.2.2",
     "lodash.kebabcase": "^4.1.1",
     "lodash.map": "^4.6.0",
     "lodash.sortby": "^4.7.0",
