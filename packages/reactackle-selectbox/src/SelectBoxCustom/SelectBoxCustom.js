@@ -61,6 +61,11 @@ const propTypes = {
    */
   label: PropTypes.string,
   /**
+   * Specify maximum amount of options, visible at the same time without
+   * scrolling
+   */
+  maxOptionsVisible: PropTypes.number,
+  /**
    * Determines label position
    */
   labelPosition: PropTypes.oneOf(['top', 'side']),
@@ -102,6 +107,7 @@ const defaultProps = {
   colorScheme: 'neutral',
   options: [],
   onChange: noop,
+  maxOptionsVisible: 5,
 };
 
 let openSelectBox = null;
@@ -350,6 +356,7 @@ class _SelectBoxCustom extends Component {
                   options={data}
                   selectedItem={selectedItem}
                   placeholder={this.props.placeholder}
+                  maxLines={this.props.maxOptionsVisible}
                   onChange={this._handleChange}
                 />
               </AutoPosition>

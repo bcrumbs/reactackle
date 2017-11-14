@@ -391,6 +391,18 @@ describe('<OptionsListCustom />', () => {
     component.unmount();
   });
 
+  it('renders correctly if prop maxOptionsVisible', () => {
+    const component = renderer.create(
+      <OptionsListCustom
+        maxOptionsVisible={2}
+        options={[{ value: 'value', text: 'text', example: 'example' }]}
+      />,
+      options,
+    );
+
+    expect(component.toJSON()).toMatchSnapshot();
+  });
+
   it('renders correctly if prop dense', () => {
     const component = renderer.create(
       <OptionsListCustom
