@@ -17,9 +17,10 @@ exports[`<TextField /> multiline renders correctly if prop disabled set 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-gHboQg eNGyZb"
-          id="TextField_135"
+          class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY lkwUKC"
+          id="TextField_137"
           placeholder=""
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -46,9 +47,10 @@ exports[`<TextField /> multiline renders correctly if prop maxRows set 5 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-dUjcNx iaxjPc"
-          id="TextField_134"
+          class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
+          id="TextField_136"
           placeholder=""
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -75,9 +77,10 @@ exports[`<TextField /> multiline renders correctly if prop minRows set 5 1`] = `
       >
         <textarea
           autocomplete="off"
-          class="sc-fOKMvo drHpXI"
-          id="TextField_133"
+          class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
+          id="TextField_135"
           placeholder=""
+          resize="auto"
           style="height:0"
           type="text"
         >
@@ -104,10 +107,69 @@ exports[`<TextField /> multiline renders correctly if prop placeholder set 1`] =
       >
         <textarea
           autocomplete="off"
-          class="sc-eilVRo lfYaJK"
-          id="TextField_136"
+          class="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
+          id="TextField_140"
           placeholder="test"
+          resize="auto"
           style="height:0"
+          type="text"
+        >
+          
+        </textarea>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField /> multiline renders correctly if prop resize set manual 1`] = `
+<div
+  class="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      class="TextFieldRowStyled-VkWtx iKvbzP"
+    >
+      <div
+        class="TextFieldGroupStyled-cLQues dwexzW"
+      >
+        <textarea
+          autocomplete="off"
+          class="TextFieldElementStyled__TextareaStyled-dsBhlq iBOyLO"
+          id="TextField_138"
+          placeholder=""
+          rows="5"
+          type="text"
+        >
+          
+        </textarea>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField /> multiline renders correctly if prop resize set none 1`] = `
+<div
+  class="TextFieldStyled-bdmlkn QIbv"
+>
+  <div
+    class="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+  >
+    <div
+      class="TextFieldRowStyled-VkWtx iKvbzP"
+    >
+      <div
+        class="TextFieldGroupStyled-cLQues dwexzW"
+      >
+        <textarea
+          autocomplete="off"
+          class="TextFieldElementStyled__TextareaStyled-dsBhlq jEnNdQ"
+          id="TextField_139"
+          placeholder=""
+          rows="5"
           type="text"
         >
           
@@ -135,7 +197,7 @@ exports[`<TextField/> calls onChange event and calls onPatternError after had ca
       >
         <input
           autoComplete="off"
-          className="sc-esjQYD hYQFPe"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_96"
           onBlur={[Function]}
@@ -169,7 +231,7 @@ exports[`<TextField/> calls onChange event with value test after had called chan
       >
         <input
           autoComplete="off"
-          className="sc-ibxdXY cmXDlH"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_99"
           onBlur={[Function]}
@@ -222,7 +284,7 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-kPVwWT hxwQws"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_94"
           onBlur={[Function]}
@@ -256,7 +318,7 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-eXEjpC bynEpp"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_98"
           onBlur={[Function]}
@@ -290,7 +352,7 @@ exports[`<TextField/> calls onChange with value test after had called change eve
       >
         <input
           autoComplete="off"
-          className="sc-kIPQKe kYAMMu"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_97"
           onBlur={[Function]}
@@ -324,7 +386,7 @@ exports[`<TextField/> doesn't call onChange and calls onPatternError after had c
       >
         <input
           autoComplete="off"
-          className="sc-kfGgVZ iJdlyQ"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_95"
           onBlur={[Function]}
@@ -356,7 +418,7 @@ exports[`<TextField/> handle click event 1`] = `
       >
         <input
           autocomplete="off"
-          class="sc-eLExRp ggYUMH"
+          class="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           id="TextField_129"
           placeholder=""
           type="text"
@@ -385,7 +447,7 @@ exports[`<TextField/> handle focus event 1`] = `
       >
         <input
           autocomplete="off"
-          class="sc-cbkKFq eHEmvk"
+          class="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           id="TextField_130"
           placeholder=""
           type="text"
@@ -399,7 +461,7 @@ exports[`<TextField/> handle focus event 1`] = `
 </div>
 `;
 
-exports[`<TextField/> handless focus 1`] = `
+exports[`<TextField/> handles focus input 1`] = `
 <WithTheme(TextField)
   autoComplete="off"
   bordered={false}
@@ -432,7 +494,8 @@ exports[`<TextField/> handless focus 1`] = `
   placeholder=""
   postfix=""
   prefix=""
-  scrollOnFocus={true}
+  resize="auto"
+  scrollOnFocus={false}
   slidingLabel={false}
   symbolLimit={0}
   theme={Object {}}
@@ -472,6 +535,841 @@ exports[`<TextField/> handless focus 1`] = `
     placeholder=""
     postfix=""
     prefix=""
+    resize="auto"
+    scrollOnFocus={false}
+    slidingLabel={false}
+    symbolLimit={0}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "textfield": Object {
+              "buttonInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 24,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 24,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 24,
+                  },
+                  "imgSize": 24,
+                },
+                "state": Object {
+                  "color": "#212121",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#212121",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "#212121",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
+              "iconInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": null,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "imgSize": null,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "inherit",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "inherit",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "iconOuter": Object {
+                "iconSpacing": 8,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": null,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "imgSize": null,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.25,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#673AB7",
+                    "opacity": 0.54,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "label": Object {
+                "labelTooltipSpacing": 8,
+                "positionSide": Object {
+                  "breakpoints": Array [
+                    Object {
+                      "breakpoint": "60em",
+                      "width": 150,
+                    },
+                  ],
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#212121",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                  "width": "30%",
+                },
+                "positionTop": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                },
+              },
+              "message": Object {
+                "fontSize": 12,
+                "lineHeight": 1,
+                "messageSpacing": 8,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                  "success": Object {
+                    "fontColor": "#43AC6A",
+                  },
+                },
+              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
+              "placeholder": Object {
+                "fontColor": "#bdbdbd",
+              },
+              "postfix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "postfixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "postfixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "prefix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "prefixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "prefixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "symbolCounter": Object {
+                "counterMessageSpacing": 32,
+                "counterSpacing": 8,
+                "fontSize": 12,
+                "lineHeight": 1,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                },
+              },
+              "textfield": Object {
+                "bordered": Object {
+                  "borderRadius": 2,
+                  "borderWidth": 1,
+                },
+                "fontFamily": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 4,
+                      "underlined": 0,
+                    },
+                    "paddingY": 4,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "fontSize": 13,
+                  "fullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "lineHeight": 1.5,
+                  "paddingX": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "paddingY": 8,
+                },
+                "state": Object {
+                  "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                  "borderColor": "#e0e0e0",
+                  "borderStyle": "solid",
+                  "disabled": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#e0e0e0",
+                    "borderStyle": "dotted",
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#f04124",
+                    "borderStyle": "solid",
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "fontColor": "#212121",
+                  "hover": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "success": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#43AC6A",
+                    "borderStyle": "solid",
+                    "fontColor": "#43AC6A",
+                  },
+                },
+                "themeColor": "#673AB7",
+                "underlined": Object {
+                  "borderRadius": 0,
+                  "borderWidth": 2,
+                },
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    tooltip={null}
+    type="text"
+    value="value"
+  >
+    <TextFieldStyled
+      dense={false}
+      fullWidth={false}
+      innerRef={[Function]}
+    >
+      <div
+        className="TextFieldStyled-bdmlkn QIbv"
+      >
+        <TextFieldContentBoxStyled
+          labelPosition="top"
+        >
+          <div
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+          >
+            <TextFieldRowStyled
+              bordered={false}
+              colorScheme="neutral"
+              dense={false}
+              disabled={false}
+              focus={false}
+              fullWidth={false}
+              slidingLabel={false}
+            >
+              <div
+                className="TextFieldRowStyled-VkWtx iKvbzP"
+                disabled={false}
+              >
+                <TextFieldGroupStyled
+                  bordered={false}
+                  colorScheme="neutral"
+                  dense={false}
+                  disabled={false}
+                  focus={false}
+                  fullWidth={false}
+                >
+                  <div
+                    className="TextFieldGroupStyled-cLQues dwexzW"
+                    disabled={false}
+                  >
+                    <TextFieldStyled(Input)
+                      autoComplete="off"
+                      bordered={false}
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                      id="TextField_131"
+                      innerRef={[Function]}
+                      maxRows={4}
+                      minRows={2}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      resize="auto"
+                      type="text"
+                      value="value"
+                    >
+                      <input
+                        autoComplete="off"
+                        className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
+                        disabled={false}
+                        id="TextField_131"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        type="text"
+                        value="value"
+                      />
+                    </TextFieldStyled(Input)>
+                  </div>
+                </TextFieldGroupStyled>
+              </div>
+            </TextFieldRowStyled>
+          </div>
+        </TextFieldContentBoxStyled>
+      </div>
+    </TextFieldStyled>
+  </TextField>
+</WithTheme(TextField)>
+`;
+
+exports[`<TextField/> handles focus textarea autosize 1`] = `
+<WithTheme(TextField)
+  autoComplete="off"
+  bordered={false}
+  clearingIcon={false}
+  colorScheme="neutral"
+  defaultValue=""
+  dense={false}
+  disabled={false}
+  fullWidth={false}
+  iconInner={null}
+  iconOuter={null}
+  label=""
+  labelPosition="top"
+  message=""
+  multiline={true}
+  multilineRows={
+    Object {
+      "max": 4,
+      "min": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onLengthError={[Function]}
+  onPatternError={[Function]}
+  pattern={/\\.\\*/}
+  patternFn={[Function]}
+  placeholder=""
+  postfix=""
+  prefix=""
+  resize="auto"
+  scrollOnFocus={true}
+  slidingLabel={false}
+  symbolLimit={0}
+  theme={Object {}}
+  tooltip={null}
+  type="text"
+  value="value"
+>
+  <TextField
+    autoComplete="off"
+    bordered={false}
+    clearingIcon={false}
+    colorScheme="neutral"
+    defaultValue=""
+    dense={false}
+    disabled={false}
+    fullWidth={false}
+    iconInner={null}
+    iconOuter={null}
+    label=""
+    labelPosition="top"
+    message=""
+    multiline={true}
+    multilineRows={
+      Object {
+        "max": 4,
+        "min": 2,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onLengthError={[Function]}
+    onPatternError={[Function]}
+    pattern={/\\.\\*/}
+    patternFn={[Function]}
+    placeholder=""
+    postfix=""
+    prefix=""
+    resize="auto"
     scrollOnFocus={true}
     slidingLabel={false}
     symbolLimit={0}
@@ -1184,7 +2082,7 @@ exports[`<TextField/> handless focus 1`] = `
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled(input)
+                    <TextFieldStyled(TextareaAutosize)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -1192,7 +2090,892 @@ exports[`<TextField/> handless focus 1`] = `
                       disabled={false}
                       focus={false}
                       fullWidth={false}
-                      id="TextField_131"
+                      id="TextField_132"
+                      maxRows={4}
+                      minRows={2}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onHeightChange={[Function]}
+                      placeholder=""
+                      resize="auto"
+                      saveRef={[Function]}
+                      type="text"
+                      useCacheForDOMMeasurements={false}
+                      value="value"
+                    >
+                      <Component
+                        autoComplete="off"
+                        bordered={false}
+                        className="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
+                        colorScheme="neutral"
+                        dense={false}
+                        disabled={false}
+                        focus={false}
+                        fullWidth={false}
+                        id="TextField_132"
+                        maxRows={4}
+                        minRows={2}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onHeightChange={[Function]}
+                        placeholder=""
+                        resize="auto"
+                        saveRef={[Function]}
+                        type="text"
+                        useCacheForDOMMeasurements={false}
+                        value="value"
+                      >
+                        <TextareaAutosize
+                          autoComplete="off"
+                          className="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
+                          id="TextField_132"
+                          inputRef={[Function]}
+                          maxRows={4}
+                          minRows={2}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onHeightChange={[Function]}
+                          placeholder=""
+                          resize="auto"
+                          type="text"
+                          useCacheForDOMMeasurements={false}
+                          value="value"
+                        >
+                          <textarea
+                            autoComplete="off"
+                            className="TextFieldElementStyled__TextareaAutosizeStyled-gExVnY iSegAQ"
+                            id="TextField_132"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            resize="auto"
+                            style={
+                              Object {
+                                "height": -16,
+                              }
+                            }
+                            type="text"
+                            value="value"
+                          />
+                        </TextareaAutosize>
+                      </Component>
+                    </TextFieldStyled(TextareaAutosize)>
+                  </div>
+                </TextFieldGroupStyled>
+              </div>
+            </TextFieldRowStyled>
+          </div>
+        </TextFieldContentBoxStyled>
+      </div>
+    </TextFieldStyled>
+  </TextField>
+</WithTheme(TextField)>
+`;
+
+exports[`<TextField/> handles focus textarea manual 1`] = `
+<WithTheme(TextField)
+  autoComplete="off"
+  bordered={false}
+  clearingIcon={false}
+  colorScheme="neutral"
+  defaultValue=""
+  dense={false}
+  disabled={false}
+  fullWidth={false}
+  iconInner={null}
+  iconOuter={null}
+  label=""
+  labelPosition="top"
+  message=""
+  multiline={true}
+  multilineRows={
+    Object {
+      "max": 4,
+      "min": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onLengthError={[Function]}
+  onPatternError={[Function]}
+  pattern={/\\.\\*/}
+  patternFn={[Function]}
+  placeholder=""
+  postfix=""
+  prefix=""
+  resize="manual"
+  scrollOnFocus={true}
+  slidingLabel={false}
+  symbolLimit={0}
+  theme={Object {}}
+  tooltip={null}
+  type="text"
+  value="value"
+>
+  <TextField
+    autoComplete="off"
+    bordered={false}
+    clearingIcon={false}
+    colorScheme="neutral"
+    defaultValue=""
+    dense={false}
+    disabled={false}
+    fullWidth={false}
+    iconInner={null}
+    iconOuter={null}
+    label=""
+    labelPosition="top"
+    message=""
+    multiline={true}
+    multilineRows={
+      Object {
+        "max": 4,
+        "min": 2,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onLengthError={[Function]}
+    onPatternError={[Function]}
+    pattern={/\\.\\*/}
+    patternFn={[Function]}
+    placeholder=""
+    postfix=""
+    prefix=""
+    resize="manual"
+    scrollOnFocus={true}
+    slidingLabel={false}
+    symbolLimit={0}
+    theme={
+      Object {
+        "reactackle": Object {
+          "baseModule": 8,
+          "body": Object {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#212121",
+            "fontColorAlt": "#ffffff",
+            "fontFamily": "sansSerif",
+            "fontWeight": "400",
+            "lineHeight": 1.5,
+          },
+          "breakpoints": Object {
+            "large": "80em",
+            "medium": "60em",
+            "small": "30em",
+            "xlarge": "90em",
+            "xsmall": "0",
+            "xxlarge": "120em",
+          },
+          "breakpointsEmBase": 16,
+          "color": Object {
+            "alert": "#f04124",
+            "alertFgTextColor": "#ffffff",
+            "black": "#000000",
+            "error": "#f04124",
+            "errorFgTextColor": "#ffffff",
+            "info": "#d9edf7",
+            "infoFgTextColor": "#212121",
+            "main": "#2196F3",
+            "mainFgTextColor": "#ffffff",
+            "secondary": "#673AB7",
+            "secondaryFgTextColor": "#ffffff",
+            "success": "#43AC6A",
+            "successFgTextColor": "#ffffff",
+            "transparent": "hsla(0, 0%, 100%, 0)",
+            "warning": "#f0b900",
+            "warningFgTextColor": "#212121",
+            "white": "#ffffff",
+          },
+          "colorAnchor": "#208dcc",
+          "colorBorder": "#e0e0e0",
+          "colorBrand": Object {
+            "facebook": "#3b5998",
+            "googlePlus": "#dd4b39",
+            "vkontakte": "#45668e",
+          },
+          "colorPaletteGrey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "75": "#f7f7f7",
+            "800": "#424242",
+            "900": "#212121",
+          },
+          "components": Object {
+            "textfield": Object {
+              "buttonInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": 24,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 24,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": 24,
+                  },
+                  "imgSize": 24,
+                },
+                "state": Object {
+                  "color": "#212121",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#212121",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "#212121",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "#212121",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "clearingIconElement": <IconCross
+                color="inherit"
+                size="custom"
+      />,
+              "iconInner": Object {
+                "iconSpacing": 4,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": null,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "imgSize": null,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.35,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "inherit",
+                    "opacity": 1,
+                  },
+                  "hover": Object {
+                    "color": "inherit",
+                    "opacity": 0.8,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "iconOuter": Object {
+                "iconSpacing": 8,
+                "size": Object {
+                  "boxSize": 35.5,
+                  "dense": Object {
+                    "boxSize": 27.5,
+                    "imgSize": null,
+                  },
+                  "denseFullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "fullWidth": Object {
+                    "boxSize": 43.5,
+                    "imgSize": null,
+                  },
+                  "imgSize": null,
+                },
+                "state": Object {
+                  "color": "inherit",
+                  "disabled": Object {
+                    "color": "inherit",
+                    "opacity": 0.25,
+                  },
+                  "error": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                  "focus": Object {
+                    "color": "#673AB7",
+                    "opacity": 0.54,
+                  },
+                  "opacity": 0.54,
+                  "success": Object {
+                    "color": "inherit",
+                    "opacity": 0.54,
+                  },
+                },
+              },
+              "label": Object {
+                "labelTooltipSpacing": 8,
+                "positionSide": Object {
+                  "breakpoints": Array [
+                    Object {
+                      "breakpoint": "60em",
+                      "width": 150,
+                    },
+                  ],
+                  "fontSize": 13,
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 8,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#212121",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                  "width": "30%",
+                },
+                "positionTop": Object {
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 1,
+                  "size": Object {
+                    "bordered": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 8,
+                      "paddingTop": 0,
+                    },
+                    "underlined": Object {
+                      "dense": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 0,
+                      },
+                      "denseFullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "fullWidth": Object {
+                        "labelSpacing": 4,
+                        "paddingTop": 4,
+                      },
+                      "labelSpacing": 0,
+                      "paddingTop": 0,
+                    },
+                  },
+                  "style": Object {
+                    "disabled": Object {
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "fontColor": "#673AB7",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "textTransform": "none",
+                },
+              },
+              "message": Object {
+                "fontSize": 12,
+                "lineHeight": 1,
+                "messageSpacing": 8,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                  "success": Object {
+                    "fontColor": "#43AC6A",
+                  },
+                },
+              },
+              "passwordIconHideElement": <IconEyeClosed
+                color="inherit"
+                size="custom"
+      />,
+              "passwordIconShowElement": <IconEye
+                color="inherit"
+                size="custom"
+      />,
+              "placeholder": Object {
+                "fontColor": "#bdbdbd",
+              },
+              "postfix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "postfixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "postfixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "postfixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "postfixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "prefix": Object {
+                "lineHeight": "inherit",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "fontSize": "inherit",
+                  "fullWidth": Object {
+                    "fontSize": "inherit",
+                    "paddingY": 4,
+                    "prefixEdgeSpacing": Object {
+                      "bordered": 8,
+                      "underlined": 0,
+                    },
+                    "prefixSpacing": 16,
+                  },
+                  "paddingY": 4,
+                  "prefixEdgeSpacing": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "prefixSpacing": 16,
+                },
+                "state": Object {
+                  "bordered": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                  "underlined": Object {
+                    "backgroundColor": "inherit",
+                    "disabled": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#9e9e9e",
+                    },
+                    "error": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#f04124",
+                    },
+                    "focus": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#212121",
+                    },
+                    "fontColor": "#9e9e9e",
+                    "success": Object {
+                      "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                      "fontColor": "#43AC6A",
+                    },
+                  },
+                },
+              },
+              "symbolCounter": Object {
+                "counterMessageSpacing": 32,
+                "counterSpacing": 8,
+                "fontSize": 12,
+                "lineHeight": 1,
+                "style": Object {
+                  "disabled": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "fontColor": "#9e9e9e",
+                  },
+                  "fontColor": "#9e9e9e",
+                },
+              },
+              "textfield": Object {
+                "bordered": Object {
+                  "borderRadius": 2,
+                  "borderWidth": 1,
+                },
+                "fontFamily": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                "size": Object {
+                  "dense": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 4,
+                      "underlined": 0,
+                    },
+                    "paddingY": 4,
+                  },
+                  "denseFullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "fontSize": 13,
+                  "fullWidth": Object {
+                    "fontSize": 13,
+                    "lineHeight": 1.5,
+                    "paddingX": Object {
+                      "bordered": 12,
+                      "underlined": 12,
+                    },
+                    "paddingY": 12,
+                  },
+                  "lineHeight": 1.5,
+                  "paddingX": Object {
+                    "bordered": 8,
+                    "underlined": 0,
+                  },
+                  "paddingY": 8,
+                },
+                "state": Object {
+                  "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                  "borderColor": "#e0e0e0",
+                  "borderStyle": "solid",
+                  "disabled": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#e0e0e0",
+                    "borderStyle": "dotted",
+                    "fontColor": "#9e9e9e",
+                  },
+                  "error": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#f04124",
+                    "borderStyle": "solid",
+                    "fontColor": "#f04124",
+                  },
+                  "focus": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "fontColor": "#212121",
+                  "hover": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#673AB7",
+                    "borderStyle": "solid",
+                    "fontColor": "#212121",
+                  },
+                  "success": Object {
+                    "backgroundColor": "hsla(0, 0%, 100%, 0)",
+                    "borderColor": "#43AC6A",
+                    "borderStyle": "solid",
+                    "fontColor": "#43AC6A",
+                  },
+                },
+                "themeColor": "#673AB7",
+                "underlined": Object {
+                  "borderRadius": 0,
+                  "borderWidth": 2,
+                },
+              },
+            },
+          },
+          "contentWidth": 1360,
+          "direction": Object {
+            "float": "left",
+            "text": "ltr",
+          },
+          "fontColor": Object {
+            "light": "#e0e0e0",
+            "medium": "#9e9e9e",
+          },
+          "fontFamily": Object {
+            "monospace": "Consolas, Liberation Mono, Courier, monospace",
+            "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+            "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+          },
+          "fontSize": Object {
+            "-1": 12,
+            "-2": 10,
+            "0": 13,
+            "1": 15,
+            "2": 18,
+            "3": 24,
+            "4": 34,
+            "5": 45,
+            "6": 56,
+            "7": 112,
+          },
+          "fontWeight": Object {
+            "bold": "700",
+            "light": "400",
+            "normal": "400",
+            "semibold": "600",
+          },
+          "radiusDefault": 2,
+          "radiusRounded": 1000,
+          "totalColumns": 12,
+          "zIndex": Object {
+            "alertDesktop": 9000,
+            "alertMobile": 5000,
+            "base": 1,
+            "dropdown": 7000,
+            "modal": 8500,
+            "moon": 9999,
+            "nav": 500,
+            "overlay": 8000,
+            "popup": 8700,
+            "tooltip": 9990,
+          },
+        },
+      }
+    }
+    tooltip={null}
+    type="text"
+    value="value"
+  >
+    <TextFieldStyled
+      dense={false}
+      fullWidth={false}
+      innerRef={[Function]}
+    >
+      <div
+        className="TextFieldStyled-bdmlkn QIbv"
+      >
+        <TextFieldContentBoxStyled
+          labelPosition="top"
+        >
+          <div
+            className="TextFieldContentBoxStyled-jDMXvi eLvpQL"
+          >
+            <TextFieldRowStyled
+              bordered={false}
+              colorScheme="neutral"
+              dense={false}
+              disabled={false}
+              focus={false}
+              fullWidth={false}
+              slidingLabel={false}
+            >
+              <div
+                className="TextFieldRowStyled-VkWtx iKvbzP"
+                disabled={false}
+              >
+                <TextFieldGroupStyled
+                  bordered={false}
+                  colorScheme="neutral"
+                  dense={false}
+                  disabled={false}
+                  focus={false}
+                  fullWidth={false}
+                >
+                  <div
+                    className="TextFieldGroupStyled-cLQues dwexzW"
+                    disabled={false}
+                  >
+                    <TextFieldStyled(Textarea)
+                      autoComplete="off"
+                      bordered={false}
+                      colorScheme="neutral"
+                      dense={false}
+                      disabled={false}
+                      focus={false}
+                      fullWidth={false}
+                      id="TextField_133"
                       innerRef={[Function]}
                       maxRows={4}
                       minRows={2}
@@ -1201,23 +2984,26 @@ exports[`<TextField/> handless focus 1`] = `
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="manual"
+                      rows={2}
                       type="text"
                       value="value"
                     >
-                      <input
+                      <textarea
                         autoComplete="off"
-                        className="sc-krvtoX kmPdvG"
+                        className="TextFieldElementStyled__TextareaStyled-dsBhlq iBOyLO"
                         disabled={false}
-                        id="TextField_131"
+                        id="TextField_133"
                         onBlur={[Function]}
                         onChange={[Function]}
                         onClick={[Function]}
                         onFocus={[Function]}
                         placeholder=""
+                        rows={2}
                         type="text"
                         value="value"
                       />
-                    </TextFieldElementStyled(input)>
+                    </TextFieldStyled(Textarea)>
                   </div>
                 </TextFieldGroupStyled>
               </div>
@@ -1247,7 +3033,7 @@ exports[`<TextField/> renders correctly after fire event blur 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hwwEjo cFyMSu"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_93"
           onBlur={[Function]}
@@ -1281,7 +3067,7 @@ exports[`<TextField/> renders correctly after fire event blur 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hwwEjo cFyMSu"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_93"
           onBlur={[Function]}
@@ -1315,7 +3101,7 @@ exports[`<TextField/> renders correctly after fire event focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gZMcBi cHJHUB"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_11"
           onBlur={[Function]}
@@ -1360,7 +3146,7 @@ exports[`<TextField/> renders correctly if label set password 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hEsumM drRzZi"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_74"
           onBlur={[Function]}
@@ -1405,7 +3191,7 @@ exports[`<TextField/> renders correctly if label set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gisBJw dARAxc"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_54"
           onBlur={[Function]}
@@ -1450,7 +3236,7 @@ exports[`<TextField/> renders correctly if label set test and call focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-caSCKo QIaPr"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_53"
           onBlur={[Function]}
@@ -1495,7 +3281,7 @@ exports[`<TextField/> renders correctly if label set test and colorScheme set su
       >
         <input
           autoComplete="off"
-          className="sc-eqIVtm jTfINZ"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_51"
           onBlur={[Function]}
@@ -1540,7 +3326,7 @@ exports[`<TextField/> renders correctly if label set test and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cHGsZl idnosA"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_56"
           onBlur={[Function]}
@@ -1585,7 +3371,7 @@ exports[`<TextField/> renders correctly if label set test and fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-TOsTZ dVPWzJ"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_57"
           onBlur={[Function]}
@@ -1630,7 +3416,7 @@ exports[`<TextField/> renders correctly if label set test and labelPosition set 
       >
         <input
           autoComplete="off"
-          className="sc-fAjcbJ gRQzcd"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_52"
           onBlur={[Function]}
@@ -1664,7 +3450,7 @@ exports[`<TextField/> renders correctly if prop autoComplete set on 1`] = `
       >
         <input
           autoComplete="on"
-          className="sc-cSHVUG jvcikM"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_17"
           onBlur={[Function]}
@@ -1698,7 +3484,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dfVpRl fEAqso"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_90"
           onBlur={[Function]}
@@ -1768,6 +3554,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
   placeholder=""
   postfix=""
   prefix=""
+  resize="auto"
   scrollOnFocus={false}
   slidingLabel={false}
   symbolLimit={0}
@@ -1807,6 +3594,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
     placeholder=""
     postfix=""
     prefix=""
+    resize="auto"
     scrollOnFocus={false}
     slidingLabel={false}
     symbolLimit={0}
@@ -2518,7 +4306,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled(input)
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -2535,12 +4323,13 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       type="text"
                       value="test"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-gzOgki gnkCzW"
+                        className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
                         disabled={false}
                         id="TextField_91"
                         onBlur={[Function]}
@@ -2551,7 +4340,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                         type="text"
                         value="test"
                       />
-                    </TextFieldElementStyled(input)>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -2657,6 +4446,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
   placeholder=""
   postfix=""
   prefix=""
+  resize="auto"
   scrollOnFocus={false}
   slidingLabel={false}
   symbolLimit={0}
@@ -2696,6 +4486,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
     placeholder=""
     postfix=""
     prefix=""
+    resize="auto"
     scrollOnFocus={false}
     slidingLabel={false}
     symbolLimit={0}
@@ -3407,7 +5198,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled(input)
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -3424,12 +5215,13 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       type="text"
                       value=""
                     >
                       <input
                         autoComplete="off"
-                        className="sc-gzOgki gnkCzW"
+                        className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
                         disabled={false}
                         id="TextField_91"
                         onBlur={[Function]}
@@ -3440,7 +5232,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                         type="text"
                         value=""
                       />
-                    </TextFieldElementStyled(input)>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -3530,7 +5322,7 @@ exports[`<TextField/> renders correctly if prop dense set 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-htpNat eiQvFC"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_2"
           onBlur={[Function]}
@@ -3564,7 +5356,7 @@ exports[`<TextField/> renders correctly if prop disabled set 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bwzfXH JcMbS"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_1"
           onBlur={[Function]}
@@ -3609,7 +5401,7 @@ exports[`<TextField/> renders correctly if prop fullWidth and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kgAjT hTHeWT"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_58"
           onBlur={[Function]}
@@ -3643,7 +5435,7 @@ exports[`<TextField/> renders correctly if prop fullWidth set 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bxivhb lnqbiJ"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_3"
           onBlur={[Function]}
@@ -3703,7 +5495,7 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-ktHwxA egEpEn"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_75"
           onBlur={[Function]}
@@ -3737,7 +5529,7 @@ exports[`<TextField/> renders correctly if prop id set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iyvyFf EQJEE"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_92"
           onBlur={[Function]}
@@ -3782,7 +5574,7 @@ exports[`<TextField/> renders correctly if prop label set test and bordered 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-kjoXOD ebcLRS"
+          className="TextFieldElementStyled__InputStyled-OaTyB dpNehF"
           disabled={false}
           id="TextField_55"
           onBlur={[Function]}
@@ -3827,7 +5619,7 @@ exports[`<TextField/> renders correctly if prop label set test and disabled 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-dVhcbM jvKjzq"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_50"
           onBlur={[Function]}
@@ -3872,7 +5664,7 @@ exports[`<TextField/> renders correctly if prop label set test and filled 1`] = 
       >
         <input
           autoComplete="off"
-          className="sc-cJSrbW bzcmYD"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_59"
           onBlur={[Function]}
@@ -3938,7 +5730,7 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
       >
         <input
           autoComplete="off"
-          className="sc-ksYbfQ kWganT"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_60"
           onBlur={[Function]}
@@ -4004,7 +5796,7 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
       >
         <input
           autoComplete="off"
-          className="sc-hmzhuo cyduBG"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_61"
           onBlur={[Function]}
@@ -4070,7 +5862,7 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
       >
         <input
           autoComplete="off"
-          className="sc-frDJqD gQEpxA"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_62"
           onBlur={[Function]}
@@ -4136,7 +5928,7 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
       >
         <input
           autoComplete="off"
-          className="sc-hqyNC frvAKV"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_64"
           onBlur={[Function]}
@@ -4202,7 +5994,7 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
       >
         <input
           autoComplete="off"
-          className="sc-kvZOFW beJfBy"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_63"
           onBlur={[Function]}
@@ -4236,7 +6028,7 @@ exports[`<TextField/> renders correctly if prop labelPosition set side 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-EHOje doiYmN"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_5"
           onBlur={[Function]}
@@ -4270,7 +6062,7 @@ exports[`<TextField/> renders correctly if prop labelPosition set top 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-ifAKCX iibpDV"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_4"
           onBlur={[Function]}
@@ -4304,7 +6096,7 @@ exports[`<TextField/> renders correctly if prop message set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cIShpX iFUizu"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_76"
           onBlur={[Function]}
@@ -4349,7 +6141,7 @@ exports[`<TextField/> renders correctly if prop message set test 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-feJyhm eyvPHR"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_78"
           onBlur={[Function]}
@@ -4394,7 +6186,7 @@ exports[`<TextField/> renders correctly if prop message set test and colorScheme
       >
         <input
           autoComplete="off"
-          className="sc-kafWEX jQfBwS"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_77"
           onBlur={[Function]}
@@ -4439,7 +6231,7 @@ exports[`<TextField/> renders correctly if prop message set test and disabled 1`
       >
         <input
           autoComplete="off"
-          className="sc-iELTvK hXdwYt"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_79"
           onBlur={[Function]}
@@ -4484,7 +6276,7 @@ exports[`<TextField/> renders correctly if prop message set test and symbolLimit
       >
         <input
           autoComplete="off"
-          className="sc-cmTdod hmekyA"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_80"
           onBlur={[Function]}
@@ -4543,7 +6335,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-jtRfpW keElXY"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_86"
           onBlur={[Function]}
@@ -4602,7 +6394,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-lhVmIH ilgkpt"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_83"
           onBlur={[Function]}
@@ -4661,7 +6453,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-bYSBpT jdgSEy"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_84"
           onBlur={[Function]}
@@ -4720,7 +6512,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-elJkPf bUcxXE"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_85"
           onBlur={[Function]}
@@ -4800,7 +6592,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-btzYZH cTGwXl"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_82"
           onBlur={[Function]}
@@ -4859,7 +6651,7 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       >
         <input
           autoComplete="off"
-          className="sc-jwKygS cUcdqj"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_81"
           onBlur={[Function]}
@@ -4918,7 +6710,7 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-jnlKLf dPHmJk"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_71"
           onBlur={[Function]}
@@ -4972,7 +6764,7 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
       >
         <input
           autoComplete="off"
-          className="sc-gGBfsJ cFVErn"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_70"
           onBlur={[Function]}
@@ -5026,7 +6818,7 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
       >
         <input
           autoComplete="off"
-          className="sc-fYxtnH eBCWmv"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_72"
           onBlur={[Function]}
@@ -5080,7 +6872,7 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dNLxif fQBvIa"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_66"
           onBlur={[Function]}
@@ -5150,6 +6942,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
   placeholder=""
   postfix=""
   prefix=""
+  resize="auto"
   scrollOnFocus={false}
   slidingLabel={false}
   symbolLimit={0}
@@ -5189,6 +6982,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
     placeholder=""
     postfix=""
     prefix=""
+    resize="auto"
     scrollOnFocus={false}
     slidingLabel={false}
     symbolLimit={0}
@@ -5900,7 +7694,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled(input)
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -5917,12 +7711,13 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       type="password"
                       value="test"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-jqCOkK bWQrgz"
+                        className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
                         disabled={false}
                         id="TextField_67"
                         onBlur={[Function]}
@@ -5933,7 +7728,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                         type="password"
                         value="test"
                       />
-                    </TextFieldElementStyled(input)>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -6039,6 +7834,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
   placeholder=""
   postfix=""
   prefix=""
+  resize="auto"
   scrollOnFocus={false}
   slidingLabel={false}
   symbolLimit={0}
@@ -6078,6 +7874,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
     placeholder=""
     postfix=""
     prefix=""
+    resize="auto"
     scrollOnFocus={false}
     slidingLabel={false}
     symbolLimit={0}
@@ -6789,7 +8586,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                     className="TextFieldGroupStyled-cLQues dwexzW"
                     disabled={false}
                   >
-                    <TextFieldElementStyled(input)
+                    <TextFieldStyled(Input)
                       autoComplete="off"
                       bordered={false}
                       colorScheme="neutral"
@@ -6806,12 +8603,13 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                       onFocus={[Function]}
                       placeholder=""
+                      resize="auto"
                       type="text"
                       value="test"
                     >
                       <input
                         autoComplete="off"
-                        className="sc-jqCOkK bWQrgz"
+                        className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
                         disabled={false}
                         id="TextField_67"
                         onBlur={[Function]}
@@ -6822,7 +8620,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                         type="text"
                         value="test"
                       />
-                    </TextFieldElementStyled(input)>
+                    </TextFieldStyled(Input)>
                     <InnerButton
                       colorScheme="neutral"
                       dense={false}
@@ -6920,7 +8718,7 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
       >
         <input
           autoComplete="off"
-          className="sc-bbmXgH ikJDPg"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_69"
           onBlur={[Function]}
@@ -6974,7 +8772,7 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
       >
         <input
           autoComplete="off"
-          className="sc-uJMKN mYpyc"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_68"
           onBlur={[Function]}
@@ -7028,7 +8826,7 @@ exports[`<TextField/> renders correctly if prop placeholder set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-jzJRlG cQZWSq"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_16"
           onBlur={[Function]}
@@ -7062,7 +8860,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set false 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iwsKbI fFqTQ"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_10"
           onBlur={[Function]}
@@ -7096,7 +8894,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-dnqmqq bVzQze"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_9"
           onBlur={[Function]}
@@ -7130,7 +8928,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true 2`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kpOJdX hlAaGU"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_22"
           onBlur={[Function]}
@@ -7164,7 +8962,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and border
       >
         <input
           autoComplete="off"
-          className="sc-dxgOiQ bMxnZR"
+          className="TextFieldElementStyled__InputStyled-OaTyB dpNehF"
           disabled={false}
           id="TextField_23"
           onBlur={[Function]}
@@ -7198,7 +8996,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and colorS
       >
         <input
           autoComplete="off"
-          className="sc-chPdSV lfLAPg"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_19"
           onBlur={[Function]}
@@ -7232,7 +9030,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and dense 
       >
         <input
           autoComplete="off"
-          className="sc-ckVGcZ kFFzrk"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_24"
           onBlur={[Function]}
@@ -7266,7 +9064,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and disabl
       >
         <input
           autoComplete="off"
-          className="sc-kAzzGY dtUkUc"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_18"
           onBlur={[Function]}
@@ -7300,7 +9098,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and filled
       >
         <input
           autoComplete="off"
-          className="sc-hMqMXs diTHGC"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_27"
           onBlur={[Function]}
@@ -7334,7 +9132,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and fullWi
       >
         <input
           autoComplete="off"
-          className="sc-jKJlTe cEBKXq"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_25"
           onBlur={[Function]}
@@ -7389,7 +9187,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
       >
         <input
           autoComplete="off"
-          className="sc-kEYyzF coXIBa"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_28"
           onBlur={[Function]}
@@ -7423,7 +9221,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and labelP
       >
         <input
           autoComplete="off"
-          className="sc-kgoBCf fbiMPM"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_20"
           onBlur={[Function]}
@@ -7457,7 +9255,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true fullWidth 
       >
         <input
           autoComplete="off"
-          className="sc-eNQAEJ IyjVY"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_26"
           onBlur={[Function]}
@@ -7491,7 +9289,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, and call 
       >
         <input
           autoComplete="off"
-          className="sc-kGXeez knWCxK"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_21"
           onBlur={[Function]}
@@ -7546,7 +9344,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
       >
         <input
           autoComplete="off"
-          className="sc-kkGfuU gamvTI"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_29"
           onBlur={[Function]}
@@ -7601,7 +9399,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
       >
         <input
           autoComplete="off"
-          className="sc-iAyFgw cjqxHP"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_30"
           onBlur={[Function]}
@@ -7656,7 +9454,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
       >
         <input
           autoComplete="off"
-          className="sc-cvbbAY bhAtJq"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_33"
           onBlur={[Function]}
@@ -7711,7 +9509,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-hSdWYo goFWWP"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_31"
           onBlur={[Function]}
@@ -7766,7 +9564,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-eHgmQL gULjVM"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_32"
           onBlur={[Function]}
@@ -7811,7 +9609,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jDwBTQ bdsTvp"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_38"
           onBlur={[Function]}
@@ -7856,7 +9654,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-gPEVay jpRoLS"
+          className="TextFieldElementStyled__InputStyled-OaTyB dpNehF"
           disabled={false}
           id="TextField_39"
           onBlur={[Function]}
@@ -7901,7 +9699,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jAaTju TBGKZ"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_37"
           onBlur={[Function]}
@@ -7946,7 +9744,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-brqgnP kfzAlD"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_35"
           onBlur={[Function]}
@@ -7991,7 +9789,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-iRbamj hHJYzq"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_40"
           onBlur={[Function]}
@@ -8036,7 +9834,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jWBwVP khPNoD"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_34"
           onBlur={[Function]}
@@ -8081,7 +9879,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-csuQGl gJtxmK"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_43"
           onBlur={[Function]}
@@ -8126,7 +9924,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jlyJG gWOGAw"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_41"
           onBlur={[Function]}
@@ -8192,7 +9990,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-Rmtcm fYrKsc"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_44"
           onBlur={[Function]}
@@ -8237,7 +10035,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-cMljjf iiAWxr"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_36"
           onBlur={[Function]}
@@ -8303,7 +10101,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-bRBYWo epaQho"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_45"
           onBlur={[Function]}
@@ -8369,7 +10167,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-hzDkRC hGfQfE"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_46"
           onBlur={[Function]}
@@ -8435,7 +10233,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-fMiknA dUJlEB"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_49"
           onBlur={[Function]}
@@ -8480,7 +10278,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-gipzik dETfuf"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_42"
           onBlur={[Function]}
@@ -8546,7 +10344,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-jhAzac gqzHtY"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_47"
           onBlur={[Function]}
@@ -8612,7 +10410,7 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       >
         <input
           autoComplete="off"
-          className="sc-fBuWsC iNVUoR"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_48"
           onBlur={[Function]}
@@ -8646,7 +10444,7 @@ exports[`<TextField/> renders correctly if prop styleMode set error 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gzVnrw jBqOYH"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_7"
           onBlur={[Function]}
@@ -8680,7 +10478,7 @@ exports[`<TextField/> renders correctly if prop styleMode set neutral 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bZQynM dUGAxg"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_6"
           onBlur={[Function]}
@@ -8714,7 +10512,7 @@ exports[`<TextField/> renders correctly if prop styleMode set success 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-htoDjs hpmYhk"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_8"
           onBlur={[Function]}
@@ -8748,7 +10546,7 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-kTUwUJ kvDBBF"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_87"
           onBlur={[Function]}
@@ -8801,7 +10599,7 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and disabled 1
       >
         <input
           autoComplete="off"
-          className="sc-gxMtzJ fqcePc"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_89"
           onBlur={[Function]}
@@ -8854,7 +10652,7 @@ exports[`<TextField/> renders correctly if prop symbolLimit set 1 and focus 1`] 
       >
         <input
           autoComplete="off"
-          className="sc-dqBHgY eRZoJb"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_88"
           onBlur={[Function]}
@@ -8931,7 +10729,7 @@ exports[`<TextField/> renders correctly if prop tooltip set test and label set t
       >
         <input
           autoComplete="off"
-          className="sc-fjdhpX blMTIU"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_15"
           onBlur={[Function]}
@@ -8965,7 +10763,7 @@ exports[`<TextField/> renders correctly if prop tooltip set test without label 1
       >
         <input
           autoComplete="off"
-          className="sc-jTzLTM kMzSCt"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_14"
           onBlur={[Function]}
@@ -8999,7 +10797,7 @@ exports[`<TextField/> renders correctly if prop value set test 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-VigVT hLGTxb"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_13"
           onBlur={[Function]}
@@ -9065,7 +10863,7 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
       >
         <input
           autoComplete="off"
-          className="sc-jbKcbu febktZ"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_65"
           onBlur={[Function]}
@@ -9099,7 +10897,7 @@ exports[`<TextField/> renders correctly if state showLengthError set true 1`] = 
       >
         <input
           autoComplete="off"
-          className="sc-gqjmRU kLPqqK"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_12"
           onBlur={[Function]}
@@ -9133,7 +10931,7 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-tilXH bxmtIo"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_73"
           onBlur={[Function]}
@@ -9187,7 +10985,7 @@ exports[`<TextField/> renders correctly with default props 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bdVaJa bteGOT"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_0"
           onBlur={[Function]}
@@ -9247,7 +11045,7 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-esOvli igeYaM"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_113"
           onBlur={[Function]}
@@ -9307,7 +11105,7 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-gqPbQI hoLmfu"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_117"
           onBlur={[Function]}
@@ -9367,7 +11165,7 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-bMVAic jJblIf"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_119"
           onBlur={[Function]}
@@ -9427,7 +11225,7 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
         </label>
         <input
           autoComplete="off"
-          className="sc-hORach ddoOJS"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_118"
           onBlur={[Function]}
@@ -9487,7 +11285,7 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-hMFtBS blCNxK"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_115"
           onBlur={[Function]}
@@ -9547,7 +11345,7 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
         </label>
         <input
           autoComplete="off"
-          className="sc-cmthru fgGyle"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_114"
           onBlur={[Function]}
@@ -9607,7 +11405,7 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-cLQEGU ouebH"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_116"
           onBlur={[Function]}
@@ -9662,7 +11460,7 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hXRMBi dbclBh"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_106"
           onBlur={[Function]}
@@ -9717,7 +11515,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-hZSUBg dZVjHP"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_110"
           onBlur={[Function]}
@@ -9772,7 +11570,7 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iuJeZd jmAoLD"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_112"
           onBlur={[Function]}
@@ -9827,7 +11625,7 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
       >
         <input
           autoComplete="off"
-          className="sc-cMhqgX eHLGbP"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_111"
           onBlur={[Function]}
@@ -9882,7 +11680,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iQNlJl gMSrgU"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_108"
           onBlur={[Function]}
@@ -9937,7 +11735,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
       >
         <input
           autoComplete="off"
-          className="sc-epnACN fwwoPx"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_107"
           onBlur={[Function]}
@@ -9992,7 +11790,7 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bsbRJL zgIPG"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_109"
           onBlur={[Function]}
@@ -10026,7 +11824,7 @@ exports[`<TextField/> renders correctly with prop postfix 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-bAeIUo lgLszz"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_120"
           onBlur={[Function]}
@@ -10074,7 +11872,7 @@ exports[`<TextField/> renders correctly with prop postfix and bordered 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-gojNiO hklsji"
+          className="TextFieldElementStyled__InputStyled-OaTyB dpNehF"
           disabled={false}
           id="TextField_125"
           onBlur={[Function]}
@@ -10122,7 +11920,7 @@ exports[`<TextField/> renders correctly with prop postfix and call focus 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-cQFLBn jVzpko"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_124"
           onBlur={[Function]}
@@ -10170,7 +11968,7 @@ exports[`<TextField/> renders correctly with prop postfix and colorScheme set su
       >
         <input
           autoComplete="off"
-          className="sc-bXGyLb gLBMCV"
+          className="TextFieldElementStyled__InputStyled-OaTyB bFyCCA"
           disabled={false}
           id="TextField_127"
           onBlur={[Function]}
@@ -10218,7 +12016,7 @@ exports[`<TextField/> renders correctly with prop postfix and dense 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-iujRgT bJCxWo"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_121"
           onBlur={[Function]}
@@ -10266,7 +12064,7 @@ exports[`<TextField/> renders correctly with prop postfix and disabled 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-daURTG eddZfD"
+          className="TextFieldElementStyled__InputStyled-OaTyB jjuawf"
           disabled={true}
           id="TextField_126"
           onBlur={[Function]}
@@ -10314,7 +12112,7 @@ exports[`<TextField/> renders correctly with prop postfix and fullWidth 1`] = `
       >
         <input
           autoComplete="off"
-          className="sc-GMQeP jRySTn"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_122"
           onBlur={[Function]}
@@ -10362,7 +12160,7 @@ exports[`<TextField/> renders correctly with prop postfix and postfixImage 1`] =
       >
         <input
           autoComplete="off"
-          className="sc-lkqHmb olJKw"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_128"
           onBlur={[Function]}
@@ -10410,7 +12208,7 @@ exports[`<TextField/> renders correctly with prop postfix, dense and fullWidth 1
       >
         <input
           autoComplete="off"
-          className="sc-exAgwC bUMhQI"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_123"
           onBlur={[Function]}
@@ -10472,7 +12270,7 @@ exports[`<TextField/> renders correctly with prop prefix 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-RefOD gPnliQ"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_100"
           onBlur={[Function]}
@@ -10520,7 +12318,7 @@ exports[`<TextField/> renders correctly with prop prefix and prefixImage 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-iQKALj clTIlY"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_101"
           onBlur={[Function]}
@@ -10588,7 +12386,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
         </label>
         <input
           autoComplete="off"
-          className="sc-bwCtUz dUOPh"
+          className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
           disabled={false}
           id="TextField_102"
           onBlur={[Function]}
@@ -10656,7 +12454,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
         </label>
         <input
           autoComplete="off"
-          className="sc-eTuwsz gGBaml"
+          className="TextFieldElementStyled__InputStyled-OaTyB hjPUit"
           disabled={false}
           id="TextField_104"
           onBlur={[Function]}
@@ -10724,7 +12522,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
         </label>
         <input
           autoComplete="off"
-          className="sc-hrWEMg PdBxp"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_103"
           onBlur={[Function]}
@@ -10792,7 +12590,7 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
         </label>
         <input
           autoComplete="off"
-          className="sc-gwVKww gaWmOS"
+          className="TextFieldElementStyled__InputStyled-OaTyB diognC"
           disabled={false}
           id="TextField_105"
           onBlur={[Function]}

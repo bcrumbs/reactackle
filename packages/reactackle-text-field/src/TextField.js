@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import TextareaAutosize from 'react-textarea-autosize';
 import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
@@ -26,7 +25,11 @@ import { PostfixStyled } from './styles/PostfixStyled';
 import { PostfixTextStyled } from './styles/PostfixTextStyled';
 import { TextFieldStyled } from './styles/TextFieldStyled';
 import { TextFieldGroupStyled } from './styles/TextFieldGroupStyled';
-import { getTextFieldElementStyled } from './styles/TextFieldElementStyled';
+import {
+  InputStyled,
+  TextareaAutosizeStyled,
+  TextareaStyled,
+} from './styles/TextFieldElementStyled';
 import { TextFieldContentBoxStyled } from './styles/TextFieldContentBoxStyled';
 import { TextFieldRowStyled } from './styles/TextFieldRowStyled';
 import componentTheme from './styles/theme';
@@ -142,6 +145,10 @@ const propTypes = {
     max: PropTypes.number,
   }),
   /**
+   * Specify type of resizing, only applied in multiline TextField
+   */
+  resize: PropTypes.oneOf(['none', 'manual', 'auto']),
+  /**
    * @ignore
    */
   theme: PropTypes.object,
@@ -188,6 +195,7 @@ const defaultProps = {
   fullWidth: false,
   multiline: false,
   multilineRows: { min: 2, max: 4 },
+  resize: 'auto',
   dense: false,
   symbolLimit: 0,
   disabled: false,
@@ -226,8 +234,8 @@ class _TextField extends Component {
       focus: false,
       lengthError: false,
       patternError: false,
-      textFieldElement: this._getTextFieldElementStyled(),
     };
+    this.textFieldComponent = this._getTextFieldComponentStyled();
     this._saveRef = this._saveRef.bind(this);
     this._saveRefWrap = this._saveRefWrap.bind(this);
     this._handleHideValue = this._handleHideValue.bind(this);
@@ -236,9 +244,6 @@ class _TextField extends Component {
     this._handleChange = this._handleChange.bind(this);
     this._handleFocus = this._handleFocus.bind(this);
     this._handleClick = this._handleClick.bind(this);
-    this._getTextFieldElementStyled = this._getTextFieldElementStyled.bind(
-      this,
-    );
     this._handleChange = this._handleChange.bind(this);
     this.focus = this.focus.bind(this);
     this.getValue = this.getValue.bind(this);
@@ -259,7 +264,7 @@ class _TextField extends Component {
     if (isTypeChanged)
       this.setState({ hidden: nextProps.type === 'password' ? true : null });
     if (isTextFieldChanged)
-      this.setState({ textFieldElement: this._getTextFieldElementStyled() });
+      this.textFieldComponent = this._getTextFieldComponentStyled();
   }
 
   getValue() {
@@ -267,7 +272,7 @@ class _TextField extends Component {
   }
 
   focus() {
-    if (this._domNodeInput && typeof this._domNodeInput.focus === 'function')
+    if (this._domNodeInput)
       this._domNodeInput.focus();
 
     this.setState({ focus: true });
@@ -279,10 +284,12 @@ class _TextField extends Component {
     return !isUndef(source.value);
   }
 
-  _getTextFieldElementStyled() {
-    return this.props.multiline
-      ? getTextFieldElementStyled(TextareaAutosize, 'TextArea')
-      : getTextFieldElementStyled('input');
+  _getTextFieldComponentStyled() {
+    if (!this.props.multiline) return InputStyled;
+
+    return this.props.resize === 'auto'
+      ? TextareaAutosizeStyled
+      : TextareaStyled;
   }
 
   _parseValue(value) {
@@ -594,22 +601,27 @@ class _TextField extends Component {
     );
   }
 
-  /**
-   * @virtual
-   */
   _renderTextField(textFieldProps) {
-    const TextFieldElement = this.state.textFieldElement;
+    const TextFieldComponent = this.textFieldComponent;
     const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
     const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
-
-    return <TextFieldElement {...textFieldProps} type={inputType} />;
+    
+    const props = textFieldProps;
+    props.type = inputType;
+    if (this.props.multiline && this.props.resize !== 'auto') {
+      props.rows = this.props.multilineRows.min;
+    }
+    
+    return <TextFieldComponent {...props} />;
   }
 
   render() {
+    const isTextareaAutosize = this.props.multiline && this.props.resize === 'auto';
     const iconOuter = this._renderIconOuter(),
       prefix = this._renderPrefix(),
       textField = this._renderTextField({
-        innerRef: this._saveRef,
+        resize: this.props.resize,
+        [isTextareaAutosize ? 'saveRef' : 'innerRef']: this._saveRef,
         id: this.id,
         dense: this.props.dense,
         fullWidth: this.props.fullWidth,
