@@ -5,6 +5,7 @@
 'use strict';
 
 import React, { Component } from 'react';
+import ExecutionEnvironment from 'exenv';
 import PropTypes from 'prop-types';
 import { Portal } from 'react-portal';
 import throttle from 'lodash.throttle';
@@ -525,6 +526,7 @@ export default class AutoPosition extends Component {
   }
 
   render() {
+    if (!ExecutionEnvironment.canUseDOM) return null;
     const style = {
       position: 'fixed',
       zIndex: 9000,
