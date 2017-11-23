@@ -1,6 +1,6 @@
 {
   "name": "reactackle-input-autocomplete",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Autocomponent component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -18,22 +18,22 @@
   ],
   "peerDependencies": {
     "react": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.1",
+    "reactackle-core": "^1.0.0-beta.2",
     "styled-components": "^2.1.1"
   },
   "dependencies": {
     "lodash.pick": "^4.4.0",
     "prop-types": "^15.5.10",
-    "reactackle-autoposition": "^1.0.0-beta.1",
-    "reactackle-text-field": "^1.0.0-beta.1"
+    "reactackle-autoposition": "^1.0.0-beta.2",
+    "reactackle-text-field": "^1.0.0-beta.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "enzyme": "^3.1.0",
     "enzyme-to-json": "^3.1.4",
     "react-test-renderer": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.1",
-    "reactackle-test-utils": "^1.0.0-beta.1",
+    "reactackle-core": "^1.0.0-beta.2",
+    "reactackle-test-utils": "^1.0.0-beta.2",
     "rimraf": "^2.6.1"
   },
   "repository": {
