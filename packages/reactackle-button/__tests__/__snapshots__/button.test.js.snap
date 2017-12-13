@@ -109,12 +109,12 @@ exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
   title=""
 >
   <div
-    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ hWlQoz"
+    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ eUibdZ"
     disabled={false}
     size="normal"
   >
     <div
-      className="IconCustomStyled-ehOkKD dcJGTh"
+      className="IconCustomStyled-ehOkKD ezrkba"
       color=""
       rotate={0}
       size="normal"
@@ -134,12 +134,12 @@ exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
   title=""
 >
   <div
-    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ hWlQoz"
+    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ eUibdZ"
     disabled={false}
     size="normal"
   >
     <div
-      className="IconSvgStyled-kZHpyB dYiAvB"
+      className="IconSvgStyled-kZHpyB dzClQe"
       color=""
       rotate={0}
       size="normal"
@@ -191,7 +191,7 @@ exports[`<Button/> renders correctly if prop radius="default" set 1`] = `
 
 exports[`<Button/> renders correctly if prop radius="none" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW fntQyS"
+  className="ButtonStyled__Button-FHerW fbRYez"
   disabled={false}
   onClick={[Function]}
   radius="none"

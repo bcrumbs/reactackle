@@ -283,11 +283,11 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX cOyrCN"
+            className="ArrowIconStyled-jkFScX jUjdMF"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -346,11 +346,11 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX iMVnXK"
+            className="ArrowIconStyled-jkFScX eyqEYX"
             disabled={true}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -409,11 +409,11 @@ exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX giKDTi"
+            className="ArrowIconStyled-jkFScX jzYKfu"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -472,11 +472,11 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -535,11 +535,11 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -598,11 +598,11 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -661,11 +661,11 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -735,11 +735,11 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1197,11 +1197,11 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1260,11 +1260,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX cOyrCN"
+            className="ArrowIconStyled-jkFScX jUjdMF"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1334,11 +1334,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX iMVnXK"
+            className="ArrowIconStyled-jkFScX eyqEYX"
             disabled={true}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1408,11 +1408,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX giKDTi"
+            className="ArrowIconStyled-jkFScX jzYKfu"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1482,11 +1482,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX eBwARW"
+            className="ArrowIconStyled-jkFScX bMXKGG"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1556,11 +1556,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX eBwARW"
+            className="ArrowIconStyled-jkFScX bMXKGG"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1630,11 +1630,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"
@@ -1717,11 +1717,11 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
             text
           </span>
           <span
-            className="ArrowIconStyled-jkFScX fHTcFA"
+            className="ArrowIconStyled-jkFScX gTNtZY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB kakXQl"
+              className="IconSvgStyled-kZHpyB doQTPi"
               color=""
               rotate={0}
               size="normal"

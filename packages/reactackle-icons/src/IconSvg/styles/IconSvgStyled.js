@@ -46,8 +46,6 @@ const IconSvgStyled = styled.div`
   ${transition('background-color, color, opacity')};  
   
   svg {
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;

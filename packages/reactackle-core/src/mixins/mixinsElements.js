@@ -1,3 +1,4 @@
+import { css } from 'styled-components';
 import { oppositeDirection } from '../styleFunctions';
 
 /**
@@ -9,20 +10,22 @@ export function iconSizeMixin(
   width = height,
   imgWidth = imgHeight,
 ) {
-  return `
-    width: ${width};
-    height: ${height};
-    line-height: ${height} !important;
-    background-size: ${imgHeight};
-    align-items: center;
-    justify-content: center;
+  return css`    
+    &,
+    & > * {
+      width: ${width};
+      height: ${height};
+      line-height: ${height} !important;
+      align-items: center;
+      justify-content: center;
+      
+      ${( imgHeight && imgHeight !== 'inherit' ) && `background-size: ${imgHeight};`}
+    }
     
-    ${imgHeight && `
-      svg {
-        width: ${imgWidth};
-        height: ${imgHeight};
-      }
-    `}
+    svg {
+      width: ${imgWidth};
+      height: ${imgHeight};
+    }
   `;
 }
 
