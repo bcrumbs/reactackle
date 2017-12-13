@@ -1,6 +1,6 @@
 {
   "name": "reactackle-radio-group",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "RadioGroup component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -18,7 +18,7 @@
   ],
   "peerDependencies": {
     "react": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.2",
+    "reactackle-core": "^1.0.0-beta.3",
     "styled-components": "^2.1.1"
   },
   "dependencies": {
@@ -29,8 +29,8 @@
     "enzyme": "^3.1.0",
     "enzyme-to-json": "^3.1.4",
     "react-test-renderer": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.2",
-    "reactackle-test-utils": "^1.0.0-beta.2",
+    "reactackle-core": "^1.0.0-beta.3",
+    "reactackle-test-utils": "^1.0.0-beta.3",
     "rimraf": "^2.6.1"
   },
   "repository": {
