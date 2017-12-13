@@ -26,11 +26,11 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw fibVKD"
+        className="CheckboxIconStyled-btfpTw hGfFcr"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB NsISC"
+          className="IconSvgStyled-kZHpyB geupWo"
           color=""
           rotate={0}
           size="normal"
@@ -545,7 +545,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw fibVKD"
+                        className="CheckboxIconStyled-btfpTw hGfFcr"
                         disabled={false}
                       >
                         <IconCheck
@@ -577,7 +577,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB NsISC"
+                                className="IconSvgStyled-kZHpyB geupWo"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -1103,7 +1103,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw fibVKD"
+                        className="CheckboxIconStyled-btfpTw hGfFcr"
                         disabled={false}
                       >
                         <IconCheck
@@ -1135,7 +1135,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB NsISC"
+                                className="IconSvgStyled-kZHpyB geupWo"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -1661,7 +1661,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw fibVKD"
+                        className="CheckboxIconStyled-btfpTw hGfFcr"
                         disabled={false}
                       >
                         <IconCheck
@@ -1693,7 +1693,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB NsISC"
+                                className="IconSvgStyled-kZHpyB geupWo"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -2219,7 +2219,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw fibVKD"
+                        className="CheckboxIconStyled-btfpTw hGfFcr"
                         disabled={false}
                       >
                         <IconCheck
@@ -2251,7 +2251,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB NsISC"
+                                className="IconSvgStyled-kZHpyB geupWo"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -2307,11 +2307,11 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
     >
       <div
         checked={true}
-        className="CheckboxIconStyled-btfpTw cFNkEv"
+        className="CheckboxIconStyled-btfpTw izomrk"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB NsISC"
+          className="IconSvgStyled-kZHpyB geupWo"
           color=""
           rotate={0}
           size="normal"
@@ -2356,11 +2356,11 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
     >
       <div
         checked={true}
-        className="CheckboxIconStyled-btfpTw cFNkEv"
+        className="CheckboxIconStyled-btfpTw izomrk"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB NsISC"
+          className="IconSvgStyled-kZHpyB geupWo"
           color=""
           rotate={0}
           size="normal"
@@ -2405,11 +2405,11 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw dxBAkE"
+        className="CheckboxIconStyled-btfpTw imXLRS"
         disabled={true}
       >
         <div
-          className="IconSvgStyled-kZHpyB NsISC"
+          className="IconSvgStyled-kZHpyB geupWo"
           color=""
           rotate={0}
           size="normal"
@@ -2454,11 +2454,11 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw fibVKD"
+        className="CheckboxIconStyled-btfpTw hGfFcr"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB NsISC"
+          className="IconSvgStyled-kZHpyB geupWo"
           color=""
           rotate={0}
           size="normal"
@@ -2510,11 +2510,11 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw fibVKD"
+        className="CheckboxIconStyled-btfpTw hGfFcr"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB NsISC"
+          className="IconSvgStyled-kZHpyB geupWo"
           color=""
           rotate={0}
           size="normal"

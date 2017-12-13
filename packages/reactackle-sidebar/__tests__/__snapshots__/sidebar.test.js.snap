@@ -42,10 +42,10 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled-fcajSq feKcwU"
+        className="ToggleIconStyled-fcajSq isDzhq"
       >
         <div
-          className="IconSvgStyled-kZHpyB kakXQl"
+          className="IconSvgStyled-kZHpyB doQTPi"
           color=""
           rotate={0}
           size="normal"
@@ -85,10 +85,10 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and togg
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled-fcajSq feKcwU"
+        className="ToggleIconStyled-fcajSq isDzhq"
       >
         <div
-          className="IconSvgStyled-kZHpyB kakXQl"
+          className="IconSvgStyled-kZHpyB doQTPi"
           color=""
           rotate={0}
           size="normal"
@@ -192,10 +192,10 @@ exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled-fcajSq iuooUO"
+    className="ToggleIconStyled-fcajSq iqhEIb"
   >
     <div
-      className="IconSvgStyled-kZHpyB kakXQl"
+      className="IconSvgStyled-kZHpyB doQTPi"
       color=""
       rotate={0}
       size="normal"
@@ -227,10 +227,10 @@ exports[`<SidebarToggle/> renders correctly with default props 1`] = `
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled-fcajSq iuooUO"
+    className="ToggleIconStyled-fcajSq iqhEIb"
   >
     <div
-      className="IconSvgStyled-kZHpyB kakXQl"
+      className="IconSvgStyled-kZHpyB doQTPi"
       color=""
       rotate={0}
       size="normal"

@@ -102,7 +102,7 @@ const radiusProps = ({ radius, size, theme: themeFromProvider }) => {
     rad = `border-radius: ${getValueString(minHeight)};`;
   else if (radius === 'default')
     rad = `border-radius: ${getValueString(borderRadiusDefault)};`;
-  else rad = null;
+  else rad = 'border-radius: 0;';
 
   return rad;
 };

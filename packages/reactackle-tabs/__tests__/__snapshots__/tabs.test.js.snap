@@ -88,7 +88,7 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
                               selected={true}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR ctwdqB"
+                                className="TabIconStyled-bYWiJR eTgjfn"
                                 selected={true}
                               >
                                 <svg
@@ -159,7 +159,7 @@ exports[`<Tabs/> renders correctly if change tab 1`] = `
                               selected={false}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR jRWoJT"
+                                className="TabIconStyled-bYWiJR hUDuHt"
                                 selected={false}
                               >
                                 <svg
@@ -284,7 +284,7 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
                               selected={false}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR jRWoJT"
+                                className="TabIconStyled-bYWiJR hUDuHt"
                                 selected={false}
                               >
                                 <svg
@@ -355,7 +355,7 @@ exports[`<Tabs/> renders correctly if change tab 2`] = `
                               selected={true}
                             >
                               <div
-                                className="TabIconStyled-bYWiJR ctwdqB"
+                                className="TabIconStyled-bYWiJR eTgjfn"
                                 selected={true}
                               >
                                 <svg
@@ -477,7 +477,7 @@ exports[`<Tabs/> renders correctly if prop icon 1`] = `
             className="TabContentStyled-cGqNqA khIZPl"
           >
             <div
-              className="TabIconStyled-bYWiJR ctwdqB"
+              className="TabIconStyled-bYWiJR eTgjfn"
               selected={true}
             >
               <svg

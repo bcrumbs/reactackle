@@ -3496,12 +3496,12 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dHGDjc"
+          className="InnerButton-imycSA bvOHcP"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -4350,7 +4350,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dHGDjc"
+                        className="InnerButton-imycSA bvOHcP"
                         disabled={false}
                         onClick={[Function]}
                       >
@@ -4383,7 +4383,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB kakXQl"
+                                className="IconSvgStyled-kZHpyB doQTPi"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -5242,7 +5242,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                       onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dHGDjc"
+                        className="InnerButton-imycSA bvOHcP"
                         disabled={false}
                         onClick={[Function]}
                       >
@@ -5275,7 +5275,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB kakXQl"
+                                className="IconSvgStyled-kZHpyB doQTPi"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -5473,11 +5473,11 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
           htmlFor="TextField_75"
         >
           <div
-            className="IconInnerStyled-iRsRrl jLryTk"
+            className="IconInnerStyled-iRsRrl gHeoCn"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -5704,12 +5704,12 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_60"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -5770,12 +5770,12 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_61"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -5836,12 +5836,12 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK ddumgi"
+        className="IconOuterStyled-JjRcK hxxva"
         disabled={false}
         htmlFor="TextField_62"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -5902,12 +5902,12 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_64"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -5968,12 +5968,12 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_63"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -6566,12 +6566,12 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_82"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -6722,12 +6722,12 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA eVboAu"
+          className="InnerButton-imycSA euolxx"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -6776,12 +6776,12 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           value=""
         />
         <div
-          className="InnerButton-imycSA elZoyX"
+          className="InnerButton-imycSA fwbWQk"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -6830,12 +6830,12 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           value=""
         />
         <div
-          className="InnerButton-imycSA elZoyX"
+          className="InnerButton-imycSA fwbWQk"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -6884,12 +6884,12 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dHGDjc"
+          className="InnerButton-imycSA bvOHcP"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -7738,7 +7738,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dHGDjc"
+                        className="InnerButton-imycSA bvOHcP"
                         disabled={false}
                         onClick={[Function]}
                       >
@@ -7771,7 +7771,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB kakXQl"
+                                className="IconSvgStyled-kZHpyB doQTPi"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -8630,7 +8630,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                       onClick={[Function]}
                     >
                       <div
-                        className="InnerButton-imycSA dHGDjc"
+                        className="InnerButton-imycSA bvOHcP"
                         disabled={false}
                         onClick={[Function]}
                       >
@@ -8663,7 +8663,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB kakXQl"
+                                className="IconSvgStyled-kZHpyB doQTPi"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -8730,12 +8730,12 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           value=""
         />
         <div
-          className="InnerButton-imycSA eEtMlV"
+          className="InnerButton-imycSA jxxvnw"
           disabled={true}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -8784,12 +8784,12 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           value=""
         />
         <div
-          className="InnerButton-imycSA dHGDjc"
+          className="InnerButton-imycSA bvOHcP"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -9161,12 +9161,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_28"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -9318,12 +9318,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_29"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -9373,12 +9373,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK ddumgi"
+        className="IconOuterStyled-JjRcK hxxva"
         disabled={false}
         htmlFor="TextField_30"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -9428,12 +9428,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_33"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -9483,12 +9483,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_31"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -9538,12 +9538,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_32"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -9964,12 +9964,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_44"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10075,12 +10075,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_45"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10141,12 +10141,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK ddumgi"
+        className="IconOuterStyled-JjRcK hxxva"
         disabled={false}
         htmlFor="TextField_46"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10207,12 +10207,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_49"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10318,12 +10318,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_47"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10384,12 +10384,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_48"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10837,12 +10837,12 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_65"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -10943,12 +10943,12 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           value=""
         />
         <div
-          className="InnerButton-imycSA dHGDjc"
+          className="InnerButton-imycSA bvOHcP"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-kZHpyB kakXQl"
+            className="IconSvgStyled-kZHpyB doQTPi"
             color=""
             rotate={0}
             size="normal"
@@ -11023,11 +11023,11 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
           htmlFor="TextField_113"
         >
           <div
-            className="IconInnerStyled-iRsRrl jLryTk"
+            className="IconInnerStyled-iRsRrl gHeoCn"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11083,11 +11083,11 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
           htmlFor="TextField_117"
         >
           <div
-            className="IconInnerStyled-iRsRrl efwVKF"
+            className="IconInnerStyled-iRsRrl eXMHKR"
             disabled={true}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11143,11 +11143,11 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
           htmlFor="TextField_119"
         >
           <div
-            className="IconInnerStyled-iRsRrl jtaNj"
+            className="IconInnerStyled-iRsRrl blIAsY"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11203,11 +11203,11 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
           htmlFor="TextField_118"
         >
           <div
-            className="IconInnerStyled-iRsRrl jLryTk"
+            className="IconInnerStyled-iRsRrl gHeoCn"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11263,11 +11263,11 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
           htmlFor="TextField_115"
         >
           <div
-            className="IconInnerStyled-iRsRrl emEHvi"
+            className="IconInnerStyled-iRsRrl cVmHzn"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11323,11 +11323,11 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
           htmlFor="TextField_114"
         >
           <div
-            className="IconInnerStyled-iRsRrl ehzhwV"
+            className="IconInnerStyled-iRsRrl dixPLc"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11383,11 +11383,11 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
           htmlFor="TextField_116"
         >
           <div
-            className="IconInnerStyled-iRsRrl ehzhwV"
+            className="IconInnerStyled-iRsRrl dixPLc"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -11434,12 +11434,12 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_106"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -11489,12 +11489,12 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
       disabled={true}
     >
       <label
-        className="IconOuterStyled-JjRcK jlFyHm"
+        className="IconOuterStyled-JjRcK jKFdvT"
         disabled={true}
         htmlFor="TextField_110"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -11544,12 +11544,12 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK jqCljH"
+        className="IconOuterStyled-JjRcK bSGvAp"
         disabled={false}
         htmlFor="TextField_112"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -11599,12 +11599,12 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK cBDYtC"
+        className="IconOuterStyled-JjRcK jOUXUk"
         disabled={false}
         htmlFor="TextField_111"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -11654,12 +11654,12 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK ddumgi"
+        className="IconOuterStyled-JjRcK hxxva"
         disabled={false}
         htmlFor="TextField_108"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -11709,12 +11709,12 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_107"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -11764,12 +11764,12 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
       disabled={false}
     >
       <label
-        className="IconOuterStyled-JjRcK gkNvxN"
+        className="IconOuterStyled-JjRcK jJPShL"
         disabled={false}
         htmlFor="TextField_109"
       >
         <div
-          className="IconSvgStyled-kZHpyB dYiAvB"
+          className="IconSvgStyled-kZHpyB dzClQe"
           color=""
           rotate={0}
           size="normal"
@@ -12356,11 +12356,11 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
           htmlFor="TextField_102"
         >
           <div
-            className="IconInnerStyled-iRsRrl jLryTk"
+            className="IconInnerStyled-iRsRrl gHeoCn"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -12424,11 +12424,11 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
           htmlFor="TextField_104"
         >
           <div
-            className="IconInnerStyled-iRsRrl emEHvi"
+            className="IconInnerStyled-iRsRrl cVmHzn"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -12492,11 +12492,11 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
           htmlFor="TextField_103"
         >
           <div
-            className="IconInnerStyled-iRsRrl ehzhwV"
+            className="IconInnerStyled-iRsRrl dixPLc"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
@@ -12560,11 +12560,11 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
           htmlFor="TextField_105"
         >
           <div
-            className="IconInnerStyled-iRsRrl ehzhwV"
+            className="IconInnerStyled-iRsRrl dixPLc"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB dYiAvB"
+              className="IconSvgStyled-kZHpyB dzClQe"
               color=""
               rotate={0}
               size="normal"
