@@ -21,7 +21,7 @@ exports[`<InputAutocomplete/> renders correctly if set options 1`] = `
           >
             <input
               autoComplete="off"
-              className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
+              className="TextFieldElementStyled__InputStyled-OaTyB cdaISL"
               disabled={false}
               id="TextField_1"
               onBlur={[Function]}
@@ -421,7 +421,7 @@ exports[`<InputAutocomplete/> renders correctly if set options and init value 1`
           >
             <input
               autoComplete="off"
-              className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
+              className="TextFieldElementStyled__InputStyled-OaTyB cdaISL"
               disabled={false}
               id="TextField_2"
               onBlur={[Function]}
@@ -461,7 +461,7 @@ exports[`<InputAutocomplete/> renders correctly if set options, init value and s
           >
             <input
               autoComplete="off"
-              className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
+              className="TextFieldElementStyled__InputStyled-OaTyB cdaISL"
               disabled={false}
               id="TextField_3"
               onBlur={[Function]}
@@ -501,7 +501,7 @@ exports[`<InputAutocomplete/> renders correctly with default props 1`] = `
           >
             <input
               autoComplete="off"
-              className="TextFieldElementStyled__InputStyled-OaTyB eqNTQI"
+              className="TextFieldElementStyled__InputStyled-OaTyB cdaISL"
               disabled={false}
               id="TextField_0"
               onBlur={[Function]}
