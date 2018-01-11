@@ -145,8 +145,7 @@ const placeholderStyles = ({ theme: themeFromProvider }) => {
 };
 
 /** STYLES */
-
-const styles = props => `
+const styles = props => css`
   border-width: 0;
   text-overflow: ellipsis;
   flex-grow: 1;
