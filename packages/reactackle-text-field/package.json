@@ -1,6 +1,6 @@
 {
   "name": "reactackle-text-field",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.5",
   "description": "TextField component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -25,16 +25,16 @@
     "color": "^2.0.0",
     "prop-types": "^15.5.10",
     "react-textarea-autosize": "^5.0.7",
-    "reactackle-icons": "^1.0.0-beta.4",
-    "reactackle-tooltip-icon": "^1.0.0-beta.4"
+    "reactackle-icons": "^1.0.0-beta.5",
+    "reactackle-tooltip-icon": "^1.0.0-beta.5"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "enzyme": "^3.1.0",
     "enzyme-to-json": "^3.1.4",
     "react-test-renderer": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.4",
-    "reactackle-test-utils": "^1.0.0-beta.4",
+    "reactackle-core": "^1.0.0-beta.5",
+    "reactackle-test-utils": "^1.0.0-beta.5",
     "rimraf": "^2.6.1"
   },
   "repository": {
