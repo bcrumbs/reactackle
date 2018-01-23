@@ -534,9 +534,7 @@ export default class AutoPosition extends Component {
     };
     
     return !this.props.visible ? null : (
-      <Portal
-        node={this.props.parent}
-      >
+      <Portal>
         <div style={style} ref={this._saveRef}>
           {this.props.children}
         </div>
