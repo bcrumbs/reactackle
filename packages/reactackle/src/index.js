@@ -14,6 +14,7 @@ export * from 'reactackle-radio-group';
 export * from 'reactackle-selectbox';
 export * from 'reactackle-sidebar';
 export * from 'reactackle-tabs';
+export * from 'reactackle-text';
 export * from 'reactackle-text-field';
 export * from 'reactackle-toggle-button';
 export * from 'reactackle-tooltip';
