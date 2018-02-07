@@ -44,6 +44,7 @@ npm install reactackle-button --save
 * [Select Box](http://reactackle-docs.braincrumbs.io/#/select-box/demo)
 * [Sidebar](http://reactackle-docs.braincrumbs.io/#/sidebar/demo)
 * [Tabs](http://reactackle-docs.braincrumbs.io/#/tabs/demo)
+* [Text](http://reactackle-docs.braincrumbs.io/#/text/demo)
 * [Text Field](http://reactackle-docs.braincrumbs.io/#/text-field/demo)
 * [Toggle Button](http://reactackle-docs.braincrumbs.io/#/toggle-button/demo)
 * [Tooltip](http://reactackle-docs.braincrumbs.io/#/tooltip/demo)
