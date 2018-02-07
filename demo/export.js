@@ -118,6 +118,12 @@ export { TabsRoute }
  from './routes/tabs/tabs';
 export { TabsDemoRoute }
  from './routes/tabs/demo';
+export { TextIndexRoute }
+  from './routes/text';
+export { TextRoute }
+  from './routes/text/text';
+export { TextDemoRoute }
+  from './routes/text/demo';
 export { TextFieldIndexRoute }
  from './routes/text-field';
 export { TextFieldRoute }
