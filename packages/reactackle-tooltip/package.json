@@ -1,6 +1,6 @@
 {
   "name": "reactackle-tooltip",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0-beta.6",
   "description": "Tooltip component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -30,8 +30,8 @@
     "enzyme": "^3.1.0",
     "enzyme-to-json": "^3.1.4",
     "react-test-renderer": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.5",
-    "reactackle-test-utils": "^1.0.0-beta.5",
+    "reactackle-core": "^1.0.0-beta.6",
+    "reactackle-test-utils": "^1.0.0-beta.6",
     "rimraf": "^2.6.1"
   },
   "repository": {
