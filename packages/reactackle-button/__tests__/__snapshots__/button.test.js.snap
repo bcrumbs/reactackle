@@ -2,7 +2,7 @@
 
 exports[`<Button/> renders correctly if prop colorScheme="alert" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW CFHic"
+  className="ButtonStyled__Button-lkXKpB cxlNTL"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -13,7 +13,7 @@ exports[`<Button/> renders correctly if prop colorScheme="alert" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="flatLight" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW bghyxF"
+  className="ButtonStyled__Button-lkXKpB guLPmD"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -24,7 +24,7 @@ exports[`<Button/> renders correctly if prop colorScheme="flatLight" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="info" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW jpGbGT"
+  className="ButtonStyled__Button-lkXKpB jTdigw"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -35,7 +35,7 @@ exports[`<Button/> renders correctly if prop colorScheme="info" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="link" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW hoEWAl"
+  className="ButtonStyled__Button-lkXKpB hdNBpM"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -46,7 +46,7 @@ exports[`<Button/> renders correctly if prop colorScheme="link" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="secondary" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW icJddH"
+  className="ButtonStyled__Button-lkXKpB jQHuyo"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -57,7 +57,7 @@ exports[`<Button/> renders correctly if prop colorScheme="secondary" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="success" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW jzRfzU"
+  className="ButtonStyled__Button-lkXKpB bJNNvY"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -68,7 +68,7 @@ exports[`<Button/> renders correctly if prop colorScheme="success" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="warning" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW ceDxgU"
+  className="ButtonStyled__Button-lkXKpB bjjeOG"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -79,7 +79,7 @@ exports[`<Button/> renders correctly if prop colorScheme="warning" set 1`] = `
 
 exports[`<Button/> renders correctly if prop colorScheme="white" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW eoDtHD"
+  className="ButtonStyled__Button-lkXKpB iOFhSs"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -90,7 +90,7 @@ exports[`<Button/> renders correctly if prop colorScheme="white" set 1`] = `
 
 exports[`<Button/> renders correctly if prop disabled set true 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW jttVrz"
+  className="ButtonStyled__Button-lkXKpB hiTMqD"
   disabled={true}
   onClick={[Function]}
   radius="default"
@@ -101,7 +101,7 @@ exports[`<Button/> renders correctly if prop disabled set true 1`] = `
 
 exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW huLvvv"
+  className="ButtonStyled__Button-lkXKpB chGWYO"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -109,12 +109,12 @@ exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
   title=""
 >
   <div
-    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ eUibdZ"
+    className="ButtonIconStyled__ButtonIconBoxStyled-inNuYn cULxQF"
     disabled={false}
     size="normal"
   >
     <div
-      className="IconCustomStyled-ehOkKD ezrkba"
+      className="IconCustomStyled-bimcD VYEQH"
       color=""
       rotate={0}
       size="normal"
@@ -126,7 +126,7 @@ exports[`<Button/> renders correctly if prop icon="custom" set 1`] = `
 
 exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW huLvvv"
+  className="ButtonStyled__Button-lkXKpB chGWYO"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -134,12 +134,12 @@ exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
   title=""
 >
   <div
-    className="ButtonIconStyled__ButtonIconBoxStyled-hlFixJ eUibdZ"
+    className="ButtonIconStyled__ButtonIconBoxStyled-inNuYn cULxQF"
     disabled={false}
     size="normal"
   >
     <div
-      className="IconSvgStyled-kZHpyB dzClQe"
+      className="IconSvgStyled-cegYAl iSGIaX"
       color=""
       rotate={0}
       size="normal"
@@ -158,7 +158,7 @@ exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
 
 exports[`<Button/> renders correctly if prop kind="primary" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW kimsbx"
+  className="ButtonStyled__Button-lkXKpB eUcZiW"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -169,7 +169,7 @@ exports[`<Button/> renders correctly if prop kind="primary" set 1`] = `
 
 exports[`<Button/> renders correctly if prop narrow set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW gJGngs"
+  className="ButtonStyled__Button-lkXKpB ILIwE"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -180,7 +180,7 @@ exports[`<Button/> renders correctly if prop narrow set 1`] = `
 
 exports[`<Button/> renders correctly if prop radius="default" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW huLvvv"
+  className="ButtonStyled__Button-lkXKpB chGWYO"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -191,7 +191,7 @@ exports[`<Button/> renders correctly if prop radius="default" set 1`] = `
 
 exports[`<Button/> renders correctly if prop radius="none" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW fbRYez"
+  className="ButtonStyled__Button-lkXKpB hbYETj"
   disabled={false}
   onClick={[Function]}
   radius="none"
@@ -202,7 +202,7 @@ exports[`<Button/> renders correctly if prop radius="none" set 1`] = `
 
 exports[`<Button/> renders correctly if prop radius="rounded" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW hdLfOm"
+  className="ButtonStyled__Button-lkXKpB bqUbUk"
   disabled={false}
   onClick={[Function]}
   radius="rounded"
@@ -213,7 +213,7 @@ exports[`<Button/> renders correctly if prop radius="rounded" set 1`] = `
 
 exports[`<Button/> renders correctly if prop raised set to true 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW dkEoeG"
+  className="ButtonStyled__Button-lkXKpB gyInea"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -224,7 +224,7 @@ exports[`<Button/> renders correctly if prop raised set to true 1`] = `
 
 exports[`<Button/> renders correctly if prop size set inline 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW bgTVhT"
+  className="ButtonStyled__Button-lkXKpB dbqpux"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -235,7 +235,7 @@ exports[`<Button/> renders correctly if prop size set inline 1`] = `
 
 exports[`<Button/> renders correctly if prop size set large 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW kvAqiP"
+  className="ButtonStyled__Button-lkXKpB hazgmM"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -246,7 +246,7 @@ exports[`<Button/> renders correctly if prop size set large 1`] = `
 
 exports[`<Button/> renders correctly if prop size set small 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW hZFdTv"
+  className="ButtonStyled__Button-lkXKpB ldCceE"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -257,7 +257,7 @@ exports[`<Button/> renders correctly if prop size set small 1`] = `
 
 exports[`<Button/> renders correctly if prop text set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW ckmWbJ"
+  className="ButtonStyled__Button-lkXKpB hoWKQD"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -265,11 +265,11 @@ exports[`<Button/> renders correctly if prop text set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled-kqmWUR foLdiD"
+    className="ButtonTextStyled-abyTl aDQbB"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled-EwESb hkRlbG"
+      className="ButtonTitleStyled-idIFzn gXbrKW"
       size="normal"
     >
       test
@@ -280,7 +280,7 @@ exports[`<Button/> renders correctly if prop text set 1`] = `
 
 exports[`<Button/> renders correctly if prop text="foo" set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW ckmWbJ"
+  className="ButtonStyled__Button-lkXKpB hoWKQD"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -288,11 +288,11 @@ exports[`<Button/> renders correctly if prop text="foo" set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled-kqmWUR foLdiD"
+    className="ButtonTextStyled-abyTl aDQbB"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled-EwESb hkRlbG"
+      className="ButtonTitleStyled-idIFzn gXbrKW"
       size="normal"
     >
       foo
@@ -303,7 +303,7 @@ exports[`<Button/> renders correctly if prop text="foo" set 1`] = `
 
 exports[`<Button/> renders correctly if props narrow false and radius rounded 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW lnxOMm"
+  className="ButtonStyled__Button-lkXKpB drQbmo"
   disabled={false}
   onClick={[Function]}
   radius="rounded"
@@ -311,11 +311,11 @@ exports[`<Button/> renders correctly if props narrow false and radius rounded 1`
   title=""
 >
   <div
-    className="ButtonTextStyled-kqmWUR foLdiD"
+    className="ButtonTextStyled-abyTl aDQbB"
     size="normal"
   >
     <div
-      className="ButtonTitleStyled-EwESb hkRlbG"
+      className="ButtonTitleStyled-idIFzn gXbrKW"
       size="normal"
     >
       test
@@ -326,7 +326,7 @@ exports[`<Button/> renders correctly if props narrow false and radius rounded 1`
 
 exports[`<Button/> renders correctly if props text and subtitle are set 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW WtErV"
+  className="ButtonStyled__Button-lkXKpB doFdau"
   disabled={false}
   onClick={[Function]}
   radius="default"
@@ -334,17 +334,17 @@ exports[`<Button/> renders correctly if props text and subtitle are set 1`] = `
   title=""
 >
   <div
-    className="ButtonTextStyled-kqmWUR foLdiD"
+    className="ButtonTextStyled-abyTl aDQbB"
     size="normal"
   >
     <div
-      className="ButtonSubtitleStyled-bFHACI laqQqJ"
+      className="ButtonSubtitleStyled-Fglga hKPVkb"
       size="normal"
     >
       sup
     </div>
     <div
-      className="ButtonTitleStyled-EwESb hkRlbG"
+      className="ButtonTitleStyled-idIFzn gXbrKW"
       size="normal"
     >
       test
@@ -355,7 +355,7 @@ exports[`<Button/> renders correctly if props text and subtitle are set 1`] = `
 
 exports[`<Button/> renders correctly with default props 1`] = `
 <button
-  className="ButtonStyled__Button-FHerW huLvvv"
+  className="ButtonStyled__Button-lkXKpB chGWYO"
   disabled={false}
   onClick={[Function]}
   radius="default"

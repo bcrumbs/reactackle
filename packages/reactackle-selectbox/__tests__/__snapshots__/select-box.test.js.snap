@@ -2,7 +2,7 @@
 
 exports[`<OptionCustom /> handles click and keyDown 1`] = `
 <li
-  className="OptionCustomStyled-dGYyuP geFRTu"
+  className="OptionCustomStyled-kanfKX cuOPdY"
   disabled={false}
   onClick={[Function]}
   onKeyDown={[Function]}
@@ -15,7 +15,7 @@ exports[`<OptionCustom /> handles click and keyDown 1`] = `
 
 exports[`<OptionCustom /> render correctly if dense 1`] = `
 <li
-  className="OptionCustomStyled-dGYyuP geFRTu"
+  className="OptionCustomStyled-kanfKX cuOPdY"
   disabled={false}
   onClick={[Function]}
   onKeyDown={[Function]}
@@ -28,7 +28,7 @@ exports[`<OptionCustom /> render correctly if dense 1`] = `
 
 exports[`<OptionCustom /> render correctly if disabled 1`] = `
 <li
-  className="OptionCustomStyled-dGYyuP doQNPb"
+  className="OptionCustomStyled-kanfKX dEoLSp"
   disabled={true}
   selected={false}
 >
@@ -38,7 +38,7 @@ exports[`<OptionCustom /> render correctly if disabled 1`] = `
 
 exports[`<OptionCustom /> render correctly if fullWidth 1`] = `
 <li
-  className="OptionCustomStyled-dGYyuP geFRTu"
+  className="OptionCustomStyled-kanfKX cuOPdY"
   disabled={false}
   onClick={[Function]}
   onKeyDown={[Function]}
@@ -51,7 +51,7 @@ exports[`<OptionCustom /> render correctly if fullWidth 1`] = `
 
 exports[`<OptionCustom /> render correctly if fullWidth and dense 1`] = `
 <li
-  className="OptionCustomStyled-dGYyuP geFRTu"
+  className="OptionCustomStyled-kanfKX cuOPdY"
   disabled={false}
   onClick={[Function]}
   onKeyDown={[Function]}
@@ -64,7 +64,7 @@ exports[`<OptionCustom /> render correctly if fullWidth and dense 1`] = `
 
 exports[`<OptionCustom /> render correctly if selected 1`] = `
 <li
-  className="OptionCustomStyled-dGYyuP ehUsqt"
+  className="OptionCustomStyled-kanfKX lhHOKw"
   disabled={false}
   onClick={[Function]}
   onKeyDown={[Function]}
@@ -77,10 +77,10 @@ exports[`<OptionCustom /> render correctly if selected 1`] = `
 
 exports[`<OptionsListCustom /> handles option click 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -94,10 +94,10 @@ exports[`<OptionsListCustom /> handles option click 1`] = `
 
 exports[`<OptionsListCustom /> handles option click 2`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -111,10 +111,10 @@ exports[`<OptionsListCustom /> handles option click 2`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -128,10 +128,10 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 1`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 2`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -145,10 +145,10 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 2`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 3`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -162,10 +162,10 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 3`] = `
 
 exports[`<OptionsListCustom /> handles scroll, updates and unmounts 4`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -179,10 +179,10 @@ exports[`<OptionsListCustom /> handles scroll, updates and unmounts 4`] = `
 
 exports[`<OptionsListCustom /> renders correctly if prop dense 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -196,10 +196,10 @@ exports[`<OptionsListCustom /> renders correctly if prop dense 1`] = `
 
 exports[`<OptionsListCustom /> renders correctly if prop fullWidth 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -213,10 +213,10 @@ exports[`<OptionsListCustom /> renders correctly if prop fullWidth 1`] = `
 
 exports[`<OptionsListCustom /> renders correctly if prop fullWidth and dense 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -230,10 +230,10 @@ exports[`<OptionsListCustom /> renders correctly if prop fullWidth and dense 1`]
 
 exports[`<OptionsListCustom /> renders correctly if prop maxOptionsVisible 1`] = `
 <ul
-  className="OptionsListStyled-cqpdKX eTXfqy"
+  className="OptionsListStyled-jMSBZg fHAHsG"
 >
   <li
-    className="OptionCustomStyled-dGYyuP geFRTu"
+    className="OptionCustomStyled-kanfKX cuOPdY"
     disabled={false}
     onClick={[Function]}
     onKeyDown={[Function]}
@@ -247,47 +247,47 @@ exports[`<OptionsListCustom /> renders correctly if prop maxOptionsVisible 1`] =
 
 exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-11"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR bKWUls"
+            className="ButtonTextStyled-abyTl iFjLQD"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX jUjdMF"
+            className="ArrowIconStyled-jNctqP bCjLvm"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -310,47 +310,47 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={true}
         htmlFor="select-box-10"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY cnLRbk"
+          className="ButtonStyled-fMwQmp dJFgwn"
           disabled={true}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX eyqEYX"
+            className="ArrowIconStyled-jNctqP hYkqpZ"
             disabled={true}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -373,47 +373,47 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-12"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY jaTCPo"
+          className="ButtonStyled-fMwQmp gqRhyJ"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR gCWwOM"
+            className="ButtonTextStyled-abyTl jxdstS"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX jzYKfu"
+            className="ArrowIconStyled-jNctqP gDFIMz"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -436,47 +436,47 @@ exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-13"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -499,47 +499,47 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk ozuiK"
+      className="ContentBoxStyled-gwAfYu jAOIMC"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV bmtdCc"
+        className="SelectBoxLabelStyled-XzebW jXTnLl"
         disabled={false}
         htmlFor="select-box-14"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -562,47 +562,47 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
 
 exports[`<SelectBox/> renders correctly if prop light set 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-15"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -625,47 +625,47 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-8"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -683,11 +683,11 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={false}
       >
         text
@@ -699,47 +699,47 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-9"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -762,31 +762,31 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop type=native 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-0"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD GlrDg"
+            className="SelectElementStyled-dOIIcP iWumtz"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -800,31 +800,31 @@ exports[`<SelectBox/> renders correctly if prop type=native 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop type=native and bordered 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV dPyjOG"
+        className="SelectBoxLabelStyled-XzebW iNREMM"
         disabled={false}
         htmlFor="select-box-4"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD gGBGZF"
+            className="SelectElementStyled-dOIIcP kIEKcd"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -838,31 +838,31 @@ exports[`<SelectBox/> renders correctly if prop type=native and bordered 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop type=native and colorScheme error 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV jdrNMp"
+        className="SelectBoxLabelStyled-XzebW ecMFvx"
         disabled={false}
         htmlFor="select-box-3"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD htAWXz"
+            className="SelectElementStyled-dOIIcP dozpNQ"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -876,31 +876,31 @@ exports[`<SelectBox/> renders correctly if prop type=native and colorScheme erro
 
 exports[`<SelectBox/> renders correctly if prop type=native and colorScheme success 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV kbPljo"
+        className="SelectBoxLabelStyled-XzebW dUOMof"
         disabled={false}
         htmlFor="select-box-2"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD zbbno"
+            className="SelectElementStyled-dOIIcP bTPtFs"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -914,31 +914,31 @@ exports[`<SelectBox/> renders correctly if prop type=native and colorScheme succ
 
 exports[`<SelectBox/> renders correctly if prop type=native and dense 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-7"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD KjOSR"
+            className="SelectElementStyled-dOIIcP ljOYNE"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -952,31 +952,31 @@ exports[`<SelectBox/> renders correctly if prop type=native and dense 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop type=native and disabled 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={true}
         htmlFor="select-box-1"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD gZFKXP"
+            className="SelectElementStyled-dOIIcP kmlCmz"
             disabled={true}
             onChange={[Function]}
             value={-1}
@@ -990,31 +990,31 @@ exports[`<SelectBox/> renders correctly if prop type=native and disabled 1`] = `
 
 exports[`<SelectBox/> renders correctly if prop type=native and fullWidth 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-5"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD lkwyfU"
+            className="SelectElementStyled-dOIIcP fmWmeL"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -1028,31 +1028,31 @@ exports[`<SelectBox/> renders correctly if prop type=native and fullWidth 1`] = 
 
 exports[`<SelectBox/> renders correctly if prop type=native, bordered and fullWidth 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-8"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD gsPNsp"
+            className="SelectElementStyled-dOIIcP fgARUi"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -1066,31 +1066,31 @@ exports[`<SelectBox/> renders correctly if prop type=native, bordered and fullWi
 
 exports[`<SelectBox/> renders correctly if prop type=native, fullWidth and dense 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-6"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD iHGQnl"
+            className="SelectElementStyled-dOIIcP jGycpl"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -1104,31 +1104,31 @@ exports[`<SelectBox/> renders correctly if prop type=native, fullWidth and dense
 
 exports[`<SelectBox/> renders correctly option list in native mode 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-9"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD GlrDg"
+            className="SelectElementStyled-dOIIcP iWumtz"
             disabled={false}
             onChange={[Function]}
             value={-1}
@@ -1161,47 +1161,47 @@ exports[`<SelectBox/> renders correctly option list in native mode 1`] = `
 
 exports[`<SelectBox/> renders correctly with default props 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-7"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1224,47 +1224,47 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
 
 exports[`<SelectBoxCustom /> renders correctly if prop message set text and dense 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-3"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR bKWUls"
+            className="ButtonTextStyled-abyTl iFjLQD"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX jUjdMF"
+            className="ArrowIconStyled-jNctqP bCjLvm"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1282,11 +1282,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={false}
       >
         text
@@ -1298,47 +1298,47 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
 
 exports[`<SelectBoxCustom /> renders correctly if prop message set text and disabled 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={true}
         htmlFor="select-box-5"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY cnLRbk"
+          className="ButtonStyled-fMwQmp dJFgwn"
           disabled={true}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX eyqEYX"
+            className="ArrowIconStyled-jNctqP hYkqpZ"
             disabled={true}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1356,11 +1356,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={true}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={true}
       >
         text
@@ -1372,47 +1372,47 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
 
 exports[`<SelectBoxCustom /> renders correctly if prop message set text and fullWidth 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-4"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY jaTCPo"
+          className="ButtonStyled-fMwQmp gqRhyJ"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR gCWwOM"
+            className="ButtonTextStyled-abyTl jxdstS"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX jzYKfu"
+            className="ArrowIconStyled-jNctqP gDFIMz"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1430,11 +1430,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={false}
       >
         text
@@ -1446,47 +1446,47 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
 
 exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolorScheme set error 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV jdrNMp"
+        className="SelectBoxLabelStyled-XzebW ecMFvx"
         disabled={false}
         htmlFor="select-box-1"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY hLDDEY"
+          className="ButtonStyled-fMwQmp fUHWMX"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX bMXKGG"
+            className="ArrowIconStyled-jNctqP kOYTkp"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1504,11 +1504,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs hplMGe"
+        className="MessageStyled-jdtdZU eIbqx"
         disabled={false}
       >
         text
@@ -1520,47 +1520,47 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
 
 exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolorScheme set success 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV kbPljo"
+        className="SelectBoxLabelStyled-XzebW dUOMof"
         disabled={false}
         htmlFor="select-box-0"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY grOYGa"
+          className="ButtonStyled-fMwQmp ccJNvW"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX bMXKGG"
+            className="ArrowIconStyled-jNctqP kOYTkp"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1578,11 +1578,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs kOwsrk"
+        className="MessageStyled-jdtdZU gVNCHl"
         disabled={false}
       >
         text
@@ -1594,47 +1594,47 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
 
 exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense and fullWidth 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-2"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY jaTCPo"
+          className="ButtonStyled-fMwQmp gqRhyJ"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1652,11 +1652,11 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={false}
       >
         text
@@ -1668,27 +1668,27 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
 
 exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxCustomStyled-glIvSg hEwxlg"
+    className="SelectBoxCustomStyled-avmYQ gMzsAw"
     onClick={[Function]}
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-6"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           Foo
         </span>
         <div
-          className="TooltipIconStyled-egvEre kUiAus"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
@@ -1702,26 +1702,26 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
         </div>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <button
-          className="ButtonStyled-fxLcQY iImjnM"
+          className="ButtonStyled-fMwQmp gOOcuo"
           disabled={false}
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={0}
         >
           <span
-            className="ButtonTextStyled-kqmWUR ddDOaK"
+            className="ButtonTextStyled-abyTl iyrlOY"
           >
             text
           </span>
           <span
-            className="ArrowIconStyled-jkFScX gTNtZY"
+            className="ArrowIconStyled-jNctqP btvJvZ"
             disabled={false}
           >
             <div
-              className="IconSvgStyled-kZHpyB doQTPi"
+              className="IconSvgStyled-cegYAl fAPHID"
               color=""
               rotate={0}
               size="normal"
@@ -1739,11 +1739,11 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={false}
       >
         FooBar
@@ -1755,31 +1755,31 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
 
 exports[`<SelectBoxNative /> handles change 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-13"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD GlrDg"
+            className="SelectElementStyled-dOIIcP iWumtz"
             disabled={false}
             onChange={[Function]}
             value={0}
@@ -1806,31 +1806,31 @@ exports[`<SelectBoxNative /> handles change 1`] = `
 
 exports[`<SelectBoxNative /> renders correctly if set options and defaultValue 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-10"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD GlrDg"
+            className="SelectElementStyled-dOIIcP iWumtz"
             disabled={false}
             onChange={[Function]}
             value={0}
@@ -1857,31 +1857,31 @@ exports[`<SelectBoxNative /> renders correctly if set options and defaultValue 1
 
 exports[`<SelectBoxNative /> renders correctly if set options and value 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-11"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           
         </span>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD GlrDg"
+            className="SelectElementStyled-dOIIcP iWumtz"
             disabled={false}
             onChange={[Function]}
             value={0}
@@ -1908,26 +1908,26 @@ exports[`<SelectBoxNative /> renders correctly if set options and value 1`] = `
 
 exports[`<SelectBoxNative /> renders correctly with label, tooltip and message 1`] = `
 <div
-  className="SelectBoxStyled-ldPAdN fPuUed"
+  className="SelectBoxStyled-koGuws jjuaOV"
 >
   <div
-    className="SelectBoxNativeStyled-cRmUeu iONPUm"
+    className="SelectBoxNativeStyled-iiICvc bAgLEt"
   >
     <div
-      className="ContentBoxStyled-kOsMwk cmDiNF"
+      className="ContentBoxStyled-gwAfYu gJxIDp"
     >
       <label
-        className="SelectBoxLabelStyled-hpnTMV iBDluV"
+        className="SelectBoxLabelStyled-XzebW hpTYyF"
         disabled={false}
         htmlFor="select-box-12"
       >
         <span
-          className="SelectBoxLabelTextStyled-crvvnG ivXRob"
+          className="SelectBoxLabelTextStyled-TMeHE kUGjhd"
         >
           Foo
         </span>
         <div
-          className="TooltipIconStyled-egvEre kUiAus"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
@@ -1941,11 +1941,11 @@ exports[`<SelectBoxNative /> renders correctly with label, tooltip and message 1
         </div>
       </label>
       <div
-        className="WrapperStyled-hVySJD iDsAQn"
+        className="WrapperStyled-jvfqor VSdEY"
       >
         <div>
           <select
-            className="SelectElementStyled-jfxqxD GlrDg"
+            className="SelectElementStyled-dOIIcP iWumtz"
             disabled={false}
             onChange={[Function]}
             value={0}
@@ -1967,11 +1967,11 @@ exports[`<SelectBoxNative /> renders correctly with label, tooltip and message 1
       </div>
     </div>
     <div
-      className="SelectBoxInfoBoxStyled-hSLGDg fqpzjk"
+      className="SelectBoxInfoBoxStyled-dHqPrF ksDdOk"
       disabled={false}
     >
       <div
-        className="MessageStyled-jQXKEs lfTAoq"
+        className="MessageStyled-jdtdZU jZokIS"
         disabled={false}
       >
         FooBar

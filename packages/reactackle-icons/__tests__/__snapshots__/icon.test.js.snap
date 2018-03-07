@@ -2,7 +2,7 @@
 
 exports[`<IconCustom/> renders correctly with border prop 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD llIfmv"
+  className="IconCustomStyled-bimcD dVvTPo"
   color=""
   rotate={0}
   size="normal"
@@ -12,7 +12,7 @@ exports[`<IconCustom/> renders correctly with border prop 1`] = `
 
 exports[`<IconCustom/> renders correctly with default props 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD kXgjiT"
+  className="IconCustomStyled-bimcD bDtohI"
   color=""
   rotate={0}
   size="normal"
@@ -22,7 +22,7 @@ exports[`<IconCustom/> renders correctly with default props 1`] = `
 
 exports[`<IconCustom/> renders correctly with iconSrc prop 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD ezrkba"
+  className="IconCustomStyled-bimcD VYEQH"
   color=""
   rotate={0}
   size="normal"
@@ -32,7 +32,7 @@ exports[`<IconCustom/> renders correctly with iconSrc prop 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop backgroundColor 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD kXgjiT"
+  className="IconCustomStyled-bimcD bDtohI"
   color=""
   rotate={0}
   size="normal"
@@ -42,7 +42,7 @@ exports[`<IconCustom/> renders correctly with prop backgroundColor 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop color 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD kXgjiT"
+  className="IconCustomStyled-bimcD bDtohI"
   color=""
   rotate={0}
   size="normal"
@@ -52,7 +52,7 @@ exports[`<IconCustom/> renders correctly with prop color 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop colorScheme=light 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD gzYJAB"
+  className="IconCustomStyled-bimcD dcBCLC"
   color=""
   rotate={0}
   size="normal"
@@ -62,7 +62,7 @@ exports[`<IconCustom/> renders correctly with prop colorScheme=light 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop flip=horizontal 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD kMPkPm"
+  className="IconCustomStyled-bimcD cwULxB"
   color=""
   rotate={0}
   size="normal"
@@ -72,7 +72,7 @@ exports[`<IconCustom/> renders correctly with prop flip=horizontal 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop flip=vertical 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD jLEgaI"
+  className="IconCustomStyled-bimcD fovbuo"
   color=""
   rotate={0}
   size="normal"
@@ -82,7 +82,7 @@ exports[`<IconCustom/> renders correctly with prop flip=vertical 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop rotate 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD dtXqMS"
+  className="IconCustomStyled-bimcD joNunr"
   color=""
   rotate={45}
   size="normal"
@@ -92,10 +92,10 @@ exports[`<IconCustom/> renders correctly with prop rotate 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop size=custom 1`] = `
 <div
-  className="icontest__TestWrapper-bhtImD fWYTWP"
+  className="icontest__TestWrapper-cuAJtl inIUTF"
 >
   <div
-    className="IconCustomStyled-ehOkKD eOzOyC"
+    className="IconCustomStyled-bimcD cdvCpR"
     color=""
     rotate={0}
     size="normal"
@@ -107,7 +107,7 @@ exports[`<IconCustom/> renders correctly with prop size=custom 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop size=large 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD gEMDQn"
+  className="IconCustomStyled-bimcD dixaop"
   color=""
   rotate={0}
   size="normal"
@@ -117,7 +117,7 @@ exports[`<IconCustom/> renders correctly with prop size=large 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop size=small 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD endHkB"
+  className="IconCustomStyled-bimcD bttCGf"
   color=""
   rotate={0}
   size="normal"
@@ -127,7 +127,7 @@ exports[`<IconCustom/> renders correctly with prop size=small 1`] = `
 
 exports[`<IconCustom/> renders correctly with prop size=xlarge 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD grfpBw"
+  className="IconCustomStyled-bimcD dWidam"
   color=""
   rotate={0}
   size="normal"
@@ -137,7 +137,7 @@ exports[`<IconCustom/> renders correctly with prop size=xlarge 1`] = `
 
 exports[`<IconCustom/> renders correctly with props backgroundColor and color 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD kXgjiT"
+  className="IconCustomStyled-bimcD bDtohI"
   color=""
   rotate={0}
   size="normal"
@@ -147,7 +147,7 @@ exports[`<IconCustom/> renders correctly with props backgroundColor and color 1`
 
 exports[`<IconCustom/> renders correctly with props border and borderWidth 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD ckQzOt"
+  className="IconCustomStyled-bimcD ebcmQr"
   color=""
   rotate={0}
   size="normal"
@@ -157,7 +157,7 @@ exports[`<IconCustom/> renders correctly with props border and borderWidth 1`] =
 
 exports[`<IconCustom/> renders correctly with props border and rounded 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD iPTTgQ"
+  className="IconCustomStyled-bimcD eDDdTC"
   color=""
   rotate={0}
   size="normal"
@@ -167,7 +167,7 @@ exports[`<IconCustom/> renders correctly with props border and rounded 1`] = `
 
 exports[`<IconCustom/> renders correctly with props border, borderWidth, rounded 1`] = `
 <div
-  className="IconCustomStyled-ehOkKD fTKMIK"
+  className="IconCustomStyled-bimcD iQdPkC"
   color=""
   rotate={0}
   size="normal"
@@ -177,7 +177,7 @@ exports[`<IconCustom/> renders correctly with props border, borderWidth, rounded
 
 exports[`<IconSvg/> renders correctly with border prop 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB dpZhgC"
+  className="IconSvgStyled-cegYAl jPnrjO"
   color=""
   rotate={0}
   size="normal"
@@ -195,7 +195,7 @@ exports[`<IconSvg/> renders correctly with border prop 1`] = `
 
 exports[`<IconSvg/> renders correctly with children prop 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB dzClQe"
+  className="IconSvgStyled-cegYAl iSGIaX"
   color=""
   rotate={0}
   size="normal"
@@ -213,7 +213,7 @@ exports[`<IconSvg/> renders correctly with children prop 1`] = `
 
 exports[`<IconSvg/> renders correctly with default props 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB dzClQe"
+  className="IconSvgStyled-cegYAl iSGIaX"
   color=""
   rotate={0}
   size="normal"
@@ -231,7 +231,7 @@ exports[`<IconSvg/> renders correctly with default props 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop backgroundColor 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB dhpWUV"
+  className="IconSvgStyled-cegYAl gjNiJT"
   color=""
   rotate={0}
   size="normal"
@@ -249,7 +249,7 @@ exports[`<IconSvg/> renders correctly with prop backgroundColor 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop color 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB cQpUPM"
+  className="IconSvgStyled-cegYAl iuWpKH"
   color=""
   rotate={0}
   size="normal"
@@ -267,7 +267,7 @@ exports[`<IconSvg/> renders correctly with prop color 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop colorScheme=light 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB iCuhkC"
+  className="IconSvgStyled-cegYAl iijosW"
   color=""
   rotate={0}
   size="normal"
@@ -285,7 +285,7 @@ exports[`<IconSvg/> renders correctly with prop colorScheme=light 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop flip=horizontal 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB gWBrUq"
+  className="IconSvgStyled-cegYAl irVQHA"
   color=""
   rotate={0}
   size="normal"
@@ -303,7 +303,7 @@ exports[`<IconSvg/> renders correctly with prop flip=horizontal 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop flip=vertical 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB iYWWcU"
+  className="IconSvgStyled-cegYAl xHBzj"
   color=""
   rotate={0}
   size="normal"
@@ -321,7 +321,7 @@ exports[`<IconSvg/> renders correctly with prop flip=vertical 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop rotate 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB kjnUM"
+  className="IconSvgStyled-cegYAl gMLYph"
   color=""
   rotate={45}
   size="normal"
@@ -339,7 +339,7 @@ exports[`<IconSvg/> renders correctly with prop rotate 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop size=large 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB jUuzgj"
+  className="IconSvgStyled-cegYAl jwAcJo"
   color=""
   rotate={0}
   size="normal"
@@ -357,7 +357,7 @@ exports[`<IconSvg/> renders correctly with prop size=large 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop size=small 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB jJIkap"
+  className="IconSvgStyled-cegYAl cDbdSl"
   color=""
   rotate={0}
   size="normal"
@@ -375,7 +375,7 @@ exports[`<IconSvg/> renders correctly with prop size=small 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop size=xlarge 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB idwIcn"
+  className="IconSvgStyled-cegYAl bCmVff"
   color=""
   rotate={0}
   size="normal"
@@ -393,7 +393,7 @@ exports[`<IconSvg/> renders correctly with prop size=xlarge 1`] = `
 
 exports[`<IconSvg/> renders correctly with props backgroundColor and color 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB hgmaQx"
+  className="IconSvgStyled-cegYAl cPoKTo"
   color=""
   rotate={0}
   size="normal"
@@ -411,7 +411,7 @@ exports[`<IconSvg/> renders correctly with props backgroundColor and color 1`] =
 
 exports[`<IconSvg/> renders correctly with props border and borderWidth 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB erDrYD"
+  className="IconSvgStyled-cegYAl jWYcWK"
   color=""
   rotate={0}
   size="normal"
@@ -429,7 +429,7 @@ exports[`<IconSvg/> renders correctly with props border and borderWidth 1`] = `
 
 exports[`<IconSvg/> renders correctly with props border and rounded 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB cmdEoT"
+  className="IconSvgStyled-cegYAl fWKnaw"
   color=""
   rotate={0}
   size="normal"
@@ -447,7 +447,7 @@ exports[`<IconSvg/> renders correctly with props border and rounded 1`] = `
 
 exports[`<IconSvg/> renders correctly with props border, borderWidth, rounded 1`] = `
 <div
-  className="IconSvgStyled-kZHpyB sIRlQ"
+  className="IconSvgStyled-cegYAl khjaea"
   color=""
   rotate={0}
   size="normal"
@@ -465,10 +465,10 @@ exports[`<IconSvg/> renders correctly with props border, borderWidth, rounded 1`
 
 exports[`<IconSvg/> renders correctly with props size=custom 1`] = `
 <div
-  className="icontest__TestWrapper-bhtImD fWYTWP"
+  className="icontest__TestWrapper-cuAJtl inIUTF"
 >
   <div
-    className="IconSvgStyled-kZHpyB geupWo"
+    className="IconSvgStyled-cegYAl fddBCv"
     color=""
     rotate={0}
     size="normal"

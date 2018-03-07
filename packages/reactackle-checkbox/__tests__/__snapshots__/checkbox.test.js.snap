@@ -2,14 +2,14 @@
 
 exports[`<Checkbox/> could one call onChange event before call change event on <input/> 1`] = `
 <div
-  className="CheckboxStyled-kzsMOt jKytSS"
+  className="CheckboxStyled-kLuypH hDgBCT"
 >
   <div
-    className="CheckboxElementStyled-dzeUmS kkKjA"
+    className="CheckboxElementStyled-gafuHF hKNjgu"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled-hCmkYE gPWRFM"
+      className="CheckboxInputStyled-GVuvI lbldmI"
       disabled={false}
       id="checkbox-5"
       onChange={[Function]}
@@ -17,7 +17,7 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS dpJShd"
+      className="CheckboxLabelStyled-kWQwXM cAQMFX"
       disabled={false}
       htmlFor="checkbox-5"
       onBlur={[Function]}
@@ -26,11 +26,11 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw hGfFcr"
+        className="CheckboxIconStyled-dQHMBx eLJsdl"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB geupWo"
+          className="IconSvgStyled-cegYAl fddBCv"
           color=""
           rotate={0}
           size="normal"
@@ -63,13 +63,13 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
     textFree={false}
   >
     <div
-      className="CheckboxStyled-kzsMOt jKytSS"
+      className="CheckboxStyled-kLuypH hDgBCT"
     >
       <CheckboxElementStyled
         textFree={true}
       >
         <div
-          className="CheckboxElementStyled-dzeUmS kkKjA"
+          className="CheckboxElementStyled-gafuHF hKNjgu"
         >
           <CheckboxInputStyled
             checked={false}
@@ -80,7 +80,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
           >
             <input
               checked={false}
-              className="CheckboxInputStyled-hCmkYE gPWRFM"
+              className="CheckboxInputStyled-GVuvI lbldmI"
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
@@ -98,7 +98,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
           >
             <label
               checked={false}
-              className="CheckboxLabelStyled-jYtRsS dpJShd"
+              className="CheckboxLabelStyled-kWQwXM cAQMFX"
               disabled={false}
               htmlFor="checkbox-7"
               onBlur={[Function]}
@@ -545,7 +545,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw hGfFcr"
+                        className="CheckboxIconStyled-dQHMBx eLJsdl"
                         disabled={false}
                       >
                         <IconCheck
@@ -577,7 +577,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB geupWo"
+                                className="IconSvgStyled-cegYAl fddBCv"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -621,13 +621,13 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
     textFree={false}
   >
     <div
-      className="CheckboxStyled-kzsMOt jKytSS"
+      className="CheckboxStyled-kLuypH hDgBCT"
     >
       <CheckboxElementStyled
         textFree={true}
       >
         <div
-          className="CheckboxElementStyled-dzeUmS kkKjA"
+          className="CheckboxElementStyled-gafuHF hKNjgu"
         >
           <CheckboxInputStyled
             checked={false}
@@ -638,7 +638,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
           >
             <input
               checked={false}
-              className="CheckboxInputStyled-hCmkYE gPWRFM"
+              className="CheckboxInputStyled-GVuvI lbldmI"
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
@@ -656,7 +656,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
           >
             <label
               checked={false}
-              className="CheckboxLabelStyled-jYtRsS dpJShd"
+              className="CheckboxLabelStyled-kWQwXM cAQMFX"
               disabled={false}
               htmlFor="checkbox-7"
               onBlur={[Function]}
@@ -1103,7 +1103,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw hGfFcr"
+                        className="CheckboxIconStyled-dQHMBx eLJsdl"
                         disabled={false}
                       >
                         <IconCheck
@@ -1135,7 +1135,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB geupWo"
+                                className="IconSvgStyled-cegYAl fddBCv"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -1179,13 +1179,13 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
     textFree={false}
   >
     <div
-      className="CheckboxStyled-kzsMOt jKytSS"
+      className="CheckboxStyled-kLuypH hDgBCT"
     >
       <CheckboxElementStyled
         textFree={true}
       >
         <div
-          className="CheckboxElementStyled-dzeUmS kkKjA"
+          className="CheckboxElementStyled-gafuHF hKNjgu"
         >
           <CheckboxInputStyled
             checked={false}
@@ -1196,7 +1196,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
           >
             <input
               checked={false}
-              className="CheckboxInputStyled-hCmkYE gPWRFM"
+              className="CheckboxInputStyled-GVuvI lbldmI"
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
@@ -1214,7 +1214,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
           >
             <label
               checked={false}
-              className="CheckboxLabelStyled-jYtRsS dpJShd"
+              className="CheckboxLabelStyled-kWQwXM cAQMFX"
               disabled={false}
               htmlFor="checkbox-7"
               onBlur={[Function]}
@@ -1661,7 +1661,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw hGfFcr"
+                        className="CheckboxIconStyled-dQHMBx eLJsdl"
                         disabled={false}
                       >
                         <IconCheck
@@ -1693,7 +1693,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB geupWo"
+                                className="IconSvgStyled-cegYAl fddBCv"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -1737,13 +1737,13 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
     textFree={false}
   >
     <div
-      className="CheckboxStyled-kzsMOt jKytSS"
+      className="CheckboxStyled-kLuypH hDgBCT"
     >
       <CheckboxElementStyled
         textFree={true}
       >
         <div
-          className="CheckboxElementStyled-dzeUmS kkKjA"
+          className="CheckboxElementStyled-gafuHF hKNjgu"
         >
           <CheckboxInputStyled
             checked={false}
@@ -1754,7 +1754,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
           >
             <input
               checked={false}
-              className="CheckboxInputStyled-hCmkYE gPWRFM"
+              className="CheckboxInputStyled-GVuvI lbldmI"
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
@@ -1772,7 +1772,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
           >
             <label
               checked={false}
-              className="CheckboxLabelStyled-jYtRsS dpJShd"
+              className="CheckboxLabelStyled-kWQwXM cAQMFX"
               disabled={false}
               htmlFor="checkbox-7"
               onBlur={[Function]}
@@ -2219,7 +2219,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
                     >
                       <div
                         checked={false}
-                        className="CheckboxIconStyled-btfpTw hGfFcr"
+                        className="CheckboxIconStyled-dQHMBx eLJsdl"
                         disabled={false}
                       >
                         <IconCheck
@@ -2251,7 +2251,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-kZHpyB geupWo"
+                                className="IconSvgStyled-cegYAl fddBCv"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -2283,14 +2283,14 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
 
 exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
 <div
-  className="CheckboxStyled-kzsMOt jKytSS"
+  className="CheckboxStyled-kLuypH hDgBCT"
 >
   <div
-    className="CheckboxElementStyled-dzeUmS kkKjA"
+    className="CheckboxElementStyled-gafuHF hKNjgu"
   >
     <input
       checked={true}
-      className="CheckboxInputStyled-hCmkYE gPWRFM"
+      className="CheckboxInputStyled-GVuvI lbldmI"
       disabled={false}
       id="checkbox-1"
       onChange={[Function]}
@@ -2298,7 +2298,7 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
     />
     <label
       checked={true}
-      className="CheckboxLabelStyled-jYtRsS bJsHFo"
+      className="CheckboxLabelStyled-kWQwXM dhjAvR"
       disabled={false}
       htmlFor="checkbox-1"
       onBlur={[Function]}
@@ -2307,11 +2307,11 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
     >
       <div
         checked={true}
-        className="CheckboxIconStyled-btfpTw izomrk"
+        className="CheckboxIconStyled-dQHMBx gZBTpN"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB geupWo"
+          className="IconSvgStyled-cegYAl fddBCv"
           color=""
           rotate={0}
           size="normal"
@@ -2332,14 +2332,14 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
 
 exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
 <div
-  className="CheckboxStyled-kzsMOt jKytSS"
+  className="CheckboxStyled-kLuypH hDgBCT"
 >
   <div
-    className="CheckboxElementStyled-dzeUmS kkKjA"
+    className="CheckboxElementStyled-gafuHF hKNjgu"
   >
     <input
       checked={true}
-      className="CheckboxInputStyled-hCmkYE gPWRFM"
+      className="CheckboxInputStyled-GVuvI lbldmI"
       disabled={false}
       id="checkbox-2"
       onChange={[Function]}
@@ -2347,7 +2347,7 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
     />
     <label
       checked={true}
-      className="CheckboxLabelStyled-jYtRsS bJsHFo"
+      className="CheckboxLabelStyled-kWQwXM dhjAvR"
       disabled={false}
       htmlFor="checkbox-2"
       onBlur={[Function]}
@@ -2356,11 +2356,11 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
     >
       <div
         checked={true}
-        className="CheckboxIconStyled-btfpTw izomrk"
+        className="CheckboxIconStyled-dQHMBx gZBTpN"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB geupWo"
+          className="IconSvgStyled-cegYAl fddBCv"
           color=""
           rotate={0}
           size="normal"
@@ -2381,14 +2381,14 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
 
 exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
 <div
-  className="CheckboxStyled-kzsMOt jKytSS"
+  className="CheckboxStyled-kLuypH hDgBCT"
 >
   <div
-    className="CheckboxElementStyled-dzeUmS kkKjA"
+    className="CheckboxElementStyled-gafuHF hKNjgu"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled-hCmkYE gPWRFM"
+      className="CheckboxInputStyled-GVuvI lbldmI"
       disabled={true}
       id="checkbox-3"
       onChange={[Function]}
@@ -2396,7 +2396,7 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS dBpade"
+      className="CheckboxLabelStyled-kWQwXM kYNAWZ"
       disabled={true}
       htmlFor="checkbox-3"
       onBlur={[Function]}
@@ -2405,11 +2405,11 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw imXLRS"
+        className="CheckboxIconStyled-dQHMBx erZNGV"
         disabled={true}
       >
         <div
-          className="IconSvgStyled-kZHpyB geupWo"
+          className="IconSvgStyled-cegYAl fddBCv"
           color=""
           rotate={0}
           size="normal"
@@ -2430,14 +2430,14 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
 
 exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
 <div
-  className="CheckboxStyled-kzsMOt jKytSS"
+  className="CheckboxStyled-kLuypH hDgBCT"
 >
   <div
-    className="CheckboxElementStyled-dzeUmS jzQtWm"
+    className="CheckboxElementStyled-gafuHF hDLTwS"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled-hCmkYE gPWRFM"
+      className="CheckboxInputStyled-GVuvI lbldmI"
       disabled={false}
       id="checkbox-4"
       onChange={[Function]}
@@ -2445,7 +2445,7 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS jTHZha"
+      className="CheckboxLabelStyled-kWQwXM libOif"
       disabled={false}
       htmlFor="checkbox-4"
       onBlur={[Function]}
@@ -2454,11 +2454,11 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw hGfFcr"
+        className="CheckboxIconStyled-dQHMBx eLJsdl"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB geupWo"
+          className="IconSvgStyled-cegYAl fddBCv"
           color=""
           rotate={0}
           size="normal"
@@ -2474,7 +2474,7 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
       </div>
       <span>
         <span
-          className="LabelTextStyled-bIbjxo gblZEn"
+          className="LabelTextStyled-bgbTuN jbmuVq"
         >
           test
         </span>
@@ -2486,14 +2486,14 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
 
 exports[`<Checkbox/> renders correctly with default props 1`] = `
 <div
-  className="CheckboxStyled-kzsMOt jKytSS"
+  className="CheckboxStyled-kLuypH hDgBCT"
 >
   <div
-    className="CheckboxElementStyled-dzeUmS kkKjA"
+    className="CheckboxElementStyled-gafuHF hKNjgu"
   >
     <input
       checked={false}
-      className="CheckboxInputStyled-hCmkYE gPWRFM"
+      className="CheckboxInputStyled-GVuvI lbldmI"
       disabled={false}
       id="checkbox-0"
       onChange={[Function]}
@@ -2501,7 +2501,7 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
     />
     <label
       checked={false}
-      className="CheckboxLabelStyled-jYtRsS dpJShd"
+      className="CheckboxLabelStyled-kWQwXM cAQMFX"
       disabled={false}
       htmlFor="checkbox-0"
       onBlur={[Function]}
@@ -2510,11 +2510,11 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
     >
       <div
         checked={false}
-        className="CheckboxIconStyled-btfpTw hGfFcr"
+        className="CheckboxIconStyled-dQHMBx eLJsdl"
         disabled={false}
       >
         <div
-          className="IconSvgStyled-kZHpyB geupWo"
+          className="IconSvgStyled-cegYAl fddBCv"
           color=""
           rotate={0}
           size="normal"
