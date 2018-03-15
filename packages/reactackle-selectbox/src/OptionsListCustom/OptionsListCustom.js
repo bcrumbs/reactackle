@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { noop, getKey } from 'reactackle-core';
@@ -14,6 +12,7 @@ const propTypes = {
   selectedItem: OptionPropTypeCustom,
   onChange: PropTypes.func,
   createListRef: PropTypes.func,
+  maxLines: PropTypes.number,
 };
 
 const defaultProps = {
@@ -23,6 +22,7 @@ const defaultProps = {
   selectedItem: {},
   onChange: noop,
   createListRef: noop,
+  maxLines: 5.5,
 };
 
 export class OptionsListCustom extends Component {
@@ -66,6 +66,7 @@ export class OptionsListCustom extends Component {
         innerRef={this.props.createListRef}
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
+        maxLines={this.props.maxLines}
       >
         {options}
       </OptionsListStyled>

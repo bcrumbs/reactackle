@@ -2,33 +2,34 @@
 
 exports[`<ToggleButton/> renders correctly if checked 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+  className="ToggleStyled-fYeScs edDjoV"
   disabled={false}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled-cXcwbM Qfgae"
     disabled={false}
     htmlFor="toggle-2"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled-kgMfqz fskHkg"
       disabled={false}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cmOgPy"
+        className="ToggleBarStyled-drkJkQ cZgVrj"
         disabled={false}
         htmlFor="toggle-2"
       />
       <input
         checked={true}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={false}
         id="toggle-2"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
@@ -39,33 +40,34 @@ exports[`<ToggleButton/> renders correctly if checked 1`] = `
 
 exports[`<ToggleButton/> renders correctly if checked and disabled 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW eQGytV"
+  className="ToggleStyled-fYeScs diuBlX"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled-cXcwbM hjzNQu"
     disabled={true}
     htmlFor="toggle-3"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled-kgMfqz gUEzqz"
       disabled={true}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kpZVtN"
+        className="ToggleBarStyled-drkJkQ kIbVCT"
         disabled={true}
         htmlFor="toggle-3"
       />
       <input
         checked={true}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={true}
         id="toggle-3"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
@@ -76,218 +78,728 @@ exports[`<ToggleButton/> renders correctly if checked and disabled 1`] = `
 
 exports[`<ToggleButton/> renders correctly if disabled 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW eQGytV"
+  className="ToggleStyled-fYeScs diuBlX"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled-cXcwbM hjzNQu"
     disabled={true}
     htmlFor="toggle-1"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled-kgMfqz gUEzqz"
       disabled={true}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx jcyDKI"
+        className="ToggleBarStyled-drkJkQ btPyZx"
         disabled={true}
         htmlFor="toggle-1"
       />
       <input
         checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={true}
         id="toggle-1"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
   </label>
 </div>
+`;
+
+exports[`<ToggleButton/> renders correctly if focused 1`] = `
+<ToggleButton
+  defaultChecked={false}
+  disabled={false}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
+>
+  <ToggleStyled
+    disabled={false}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="ToggleStyled-fYeScs edDjoV"
+      disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ToggleLabelStyled
+        disabled={false}
+        htmlFor="toggle-11"
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-11"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={false}
+                hover={false}
+                htmlFor="toggle-11"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ dYbwIz"
+                  disabled={false}
+                  htmlFor="toggle-11"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-11"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-11"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
+    </div>
+  </ToggleStyled>
+</ToggleButton>
+`;
+
+exports[`<ToggleButton/> renders correctly if focused 2`] = `
+<ToggleButton
+  defaultChecked={false}
+  disabled={false}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
+>
+  <ToggleStyled
+    disabled={false}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="ToggleStyled-fYeScs edDjoV"
+      disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ToggleLabelStyled
+        disabled={false}
+        htmlFor="toggle-11"
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-11"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={true}
+                hover={false}
+                htmlFor="toggle-11"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ kwNtUP"
+                  disabled={false}
+                  htmlFor="toggle-11"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-11"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-11"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
+    </div>
+  </ToggleStyled>
+</ToggleButton>
+`;
+
+exports[`<ToggleButton/> renders correctly if focused 3`] = `
+<ToggleButton
+  defaultChecked={false}
+  disabled={false}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
+>
+  <ToggleStyled
+    disabled={false}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="ToggleStyled-fYeScs edDjoV"
+      disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ToggleLabelStyled
+        disabled={false}
+        htmlFor="toggle-11"
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-11"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={false}
+                hover={false}
+                htmlFor="toggle-11"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ dYbwIz"
+                  disabled={false}
+                  htmlFor="toggle-11"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-11"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-11"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
+    </div>
+  </ToggleStyled>
+</ToggleButton>
 `;
 
 exports[`<ToggleButton/> renders correctly if handles input change and call onChange 1`] = `
-<div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+<ToggleButton
+  defaultChecked={false}
   disabled={false}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
 >
-  <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+  <ToggleStyled
     disabled={false}
-    htmlFor="toggle-11"
-    tabIndex="0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleStyled-fYeScs edDjoV"
       disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
     >
-      <label
-        checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cmOgPy"
+      <ToggleLabelStyled
         disabled={false}
-        htmlFor="toggle-11"
-      />
-      <input
-        checked={true}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
-        disabled={false}
-        id="toggle-11"
-        onChange={[Function]}
-        tabIndex={0}
-        type="checkbox"
-      />
+        htmlFor="toggle-12"
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-12"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={false}
+                hover={false}
+                htmlFor="toggle-12"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ dYbwIz"
+                  disabled={false}
+                  htmlFor="toggle-12"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-12"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-12"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
     </div>
-  </label>
-</div>
+  </ToggleStyled>
+</ToggleButton>
+`;
+
+exports[`<ToggleButton/> renders correctly if handles input change and call onChange 2`] = `
+<ToggleButton
+  defaultChecked={false}
+  disabled={false}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
+>
+  <ToggleStyled
+    disabled={false}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="ToggleStyled-fYeScs edDjoV"
+      disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ToggleLabelStyled
+        disabled={false}
+        htmlFor="toggle-12"
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-12"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={true}
+                disabled={false}
+                focus={false}
+                hover={false}
+                htmlFor="toggle-12"
+              >
+                <label
+                  checked={true}
+                  className="ToggleBarStyled-drkJkQ cZgVrj"
+                  disabled={false}
+                  htmlFor="toggle-12"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={true}
+                disabled={false}
+                id="toggle-12"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={true}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-12"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
+    </div>
+  </ToggleStyled>
+</ToggleButton>
 `;
 
 exports[`<ToggleButton/> renders correctly if hovered 1`] = `
-<div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+<ToggleButton
+  defaultChecked={false}
   disabled={false}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
 >
-  <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+  <ToggleStyled
     disabled={false}
-    htmlFor="toggle-10"
-    tabIndex="0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleStyled-fYeScs edDjoV"
       disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
     >
-      <label
-        checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+      <ToggleLabelStyled
         disabled={false}
         htmlFor="toggle-10"
-      />
-      <input
-        checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
-        disabled={false}
-        id="toggle-10"
-        onChange={[Function]}
-        tabIndex={0}
-        type="checkbox"
-      />
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-10"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={false}
+                hover={false}
+                htmlFor="toggle-10"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ dYbwIz"
+                  disabled={false}
+                  htmlFor="toggle-10"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-10"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-10"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
     </div>
-  </label>
-</div>
+  </ToggleStyled>
+</ToggleButton>
 `;
 
 exports[`<ToggleButton/> renders correctly if hovered 2`] = `
-<div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+<ToggleButton
+  defaultChecked={false}
   disabled={false}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
 >
-  <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+  <ToggleStyled
     disabled={false}
-    htmlFor="toggle-10"
-    tabIndex="0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleStyled-fYeScs edDjoV"
       disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
     >
-      <label
-        checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx fdoqbn"
+      <ToggleLabelStyled
         disabled={false}
         htmlFor="toggle-10"
-      />
-      <input
-        checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
-        disabled={false}
-        id="toggle-10"
-        onChange={[Function]}
-        tabIndex={0}
-        type="checkbox"
-      />
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-10"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={false}
+                hover={true}
+                htmlFor="toggle-10"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ kwNtUP"
+                  disabled={false}
+                  htmlFor="toggle-10"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-10"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-10"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
     </div>
-  </label>
-</div>
+  </ToggleStyled>
+</ToggleButton>
 `;
 
 exports[`<ToggleButton/> renders correctly if hovered 3`] = `
-<div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+<ToggleButton
+  defaultChecked={false}
   disabled={false}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+  label=""
+  labelPosition="left"
+  onChange={[Function]}
+  tooltip=""
 >
-  <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+  <ToggleStyled
     disabled={false}
-    htmlFor="toggle-10"
-    tabIndex="0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleStyled-fYeScs edDjoV"
       disabled={false}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
     >
-      <label
-        checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+      <ToggleLabelStyled
         disabled={false}
         htmlFor="toggle-10"
-      />
-      <input
-        checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
-        disabled={false}
-        id="toggle-10"
-        onChange={[Function]}
-        tabIndex={0}
-        type="checkbox"
-      />
+      >
+        <label
+          className="ToggleLabelStyled-cXcwbM Qfgae"
+          disabled={false}
+          htmlFor="toggle-10"
+        >
+          <ToggleBarBoxStyled
+            disabled={false}
+            labelPosition="left"
+          >
+            <div
+              className="ToggleBarBoxStyled-kgMfqz fskHkg"
+              disabled={false}
+            >
+              <ToggleBarStyled
+                checked={false}
+                disabled={false}
+                focus={false}
+                hover={false}
+                htmlFor="toggle-10"
+              >
+                <label
+                  checked={false}
+                  className="ToggleBarStyled-drkJkQ dYbwIz"
+                  disabled={false}
+                  htmlFor="toggle-10"
+                />
+              </ToggleBarStyled>
+              <ToggleInputStyled
+                checked={false}
+                disabled={false}
+                id="toggle-10"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                tabIndex={0}
+                type="checkbox"
+              >
+                <input
+                  checked={false}
+                  className="ToggleInputStyled-jyiBlM jiHFkI"
+                  disabled={false}
+                  id="toggle-10"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                  type="checkbox"
+                />
+              </ToggleInputStyled>
+            </div>
+          </ToggleBarBoxStyled>
+        </label>
+      </ToggleLabelStyled>
     </div>
-  </label>
-</div>
+  </ToggleStyled>
+</ToggleButton>
 `;
 
 exports[`<ToggleButton/> renders correctly with default props 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+  className="ToggleStyled-fYeScs edDjoV"
   disabled={false}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled-cXcwbM Qfgae"
     disabled={false}
     htmlFor="toggle-0"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled-kgMfqz fskHkg"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled-drkJkQ dYbwIz"
         disabled={false}
         htmlFor="toggle-0"
       />
       <input
         checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={false}
         id="toggle-0"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
@@ -298,44 +810,45 @@ exports[`<ToggleButton/> renders correctly with default props 1`] = `
 
 exports[`<ToggleButton/> renders correctly with label 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+  className="ToggleStyled-fYeScs edDjoV"
   disabled={false}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled-cXcwbM Qfgae"
     disabled={false}
     htmlFor="toggle-5"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled-kgMfqz fskHkg"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled-drkJkQ dYbwIz"
         disabled={false}
         htmlFor="toggle-5"
       />
       <input
         checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={false}
         id="toggle-5"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kpnkdU"
+      className="ToggleLabelTextBoxStyled-bnhQAB yxDcd"
       disabled={false}
     >
       <span
-        className="ToggleLabelTextStyled__ToggleLabelTextStyled-gqrLUB bBWVsQ"
+        className="ToggleLabelTextStyled-bIYkHe hAIOil"
       >
         Foo
       </span>
@@ -346,58 +859,59 @@ exports[`<ToggleButton/> renders correctly with label 1`] = `
 
 exports[`<ToggleButton/> renders correctly with tooltip and label 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+  className="ToggleStyled-fYeScs edDjoV"
   disabled={false}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled-cXcwbM Qfgae"
     disabled={false}
     htmlFor="toggle-4"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled-kgMfqz fskHkg"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled-drkJkQ dYbwIz"
         disabled={false}
         htmlFor="toggle-4"
       />
       <input
         checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={false}
         id="toggle-4"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kpnkdU"
+      className="ToggleLabelTextBoxStyled-bnhQAB yxDcd"
       disabled={false}
     >
       <span
-        className="ToggleLabelTextStyled__ToggleLabelTextStyled-gqrLUB cqqZaO"
+        className="ToggleLabelTextStyled-bIYkHe jZzxXq"
       >
         Foo
       </span>
       <span
-        className="ToggleTooltipBoxStyled__ToggleTooltipBoxStyled-dskqHX icxwYB"
+        className="ToggleTooltipBoxStyled-isAver iQQhwG"
       >
         <div
-          className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -411,58 +925,59 @@ exports[`<ToggleButton/> renders correctly with tooltip and label 1`] = `
 
 exports[`<ToggleButton/> renders correctly with tooltip, label and checked 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+  className="ToggleStyled-fYeScs edDjoV"
   disabled={false}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled-cXcwbM Qfgae"
     disabled={false}
     htmlFor="toggle-7"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF xKkhG"
+      className="ToggleBarBoxStyled-kgMfqz fskHkg"
       disabled={false}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx cmOgPy"
+        className="ToggleBarStyled-drkJkQ cZgVrj"
         disabled={false}
         htmlFor="toggle-7"
       />
       <input
         checked={true}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={false}
         id="toggle-7"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
     <span
       checked={true}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF kpnkdU"
+      className="ToggleLabelTextBoxStyled-bnhQAB yxDcd"
       disabled={false}
     >
       <span
-        className="ToggleLabelTextStyled__ToggleLabelTextStyled-gqrLUB cqqZaO"
+        className="ToggleLabelTextStyled-bIYkHe jZzxXq"
       >
         Foo
       </span>
       <span
-        className="ToggleTooltipBoxStyled__ToggleTooltipBoxStyled-dskqHX icxwYB"
+        className="ToggleTooltipBoxStyled-isAver iQQhwG"
       >
         <div
-          className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -476,58 +991,59 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and checked 1`] =
 
 exports[`<ToggleButton/> renders correctly with tooltip, label and disabled 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW eQGytV"
+  className="ToggleStyled-fYeScs diuBlX"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled-cXcwbM hjzNQu"
     disabled={true}
     htmlFor="toggle-8"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled-kgMfqz gUEzqz"
       disabled={true}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx jcyDKI"
+        className="ToggleBarStyled-drkJkQ btPyZx"
         disabled={true}
         htmlFor="toggle-8"
       />
       <input
         checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={true}
         id="toggle-8"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF fKBRaD"
+      className="ToggleLabelTextBoxStyled-bnhQAB jmPBFb"
       disabled={true}
     >
       <span
-        className="ToggleLabelTextStyled__ToggleLabelTextStyled-gqrLUB cqqZaO"
+        className="ToggleLabelTextStyled-bIYkHe jZzxXq"
       >
         Foo
       </span>
       <span
-        className="ToggleTooltipBoxStyled__ToggleTooltipBoxStyled-dskqHX icxwYB"
+        className="ToggleTooltipBoxStyled-isAver iQQhwG"
       >
         <div
-          className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -541,58 +1057,59 @@ exports[`<ToggleButton/> renders correctly with tooltip, label and disabled 1`] 
 
 exports[`<ToggleButton/> renders correctly with tooltip, label, disabled and checked 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW eQGytV"
+  className="ToggleStyled-fYeScs diuBlX"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL fvqxWR"
+    className="ToggleLabelStyled-cXcwbM hjzNQu"
     disabled={true}
     htmlFor="toggle-9"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF ebaOHO"
+      className="ToggleBarBoxStyled-kgMfqz gUEzqz"
       disabled={true}
     >
       <label
         checked={true}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx kpZVtN"
+        className="ToggleBarStyled-drkJkQ kIbVCT"
         disabled={true}
         htmlFor="toggle-9"
       />
       <input
         checked={true}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={true}
         id="toggle-9"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
     <span
       checked={true}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF fKBRaD"
+      className="ToggleLabelTextBoxStyled-bnhQAB jmPBFb"
       disabled={true}
     >
       <span
-        className="ToggleLabelTextStyled__ToggleLabelTextStyled-gqrLUB cqqZaO"
+        className="ToggleLabelTextStyled-bIYkHe jZzxXq"
       >
         Foo
       </span>
       <span
-        className="ToggleTooltipBoxStyled__ToggleTooltipBoxStyled-dskqHX icxwYB"
+        className="ToggleTooltipBoxStyled-isAver iQQhwG"
       >
         <div
-          className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?
@@ -606,58 +1123,59 @@ exports[`<ToggleButton/> renders correctly with tooltip, label, disabled and che
 
 exports[`<ToggleButton/> renders correctly with tooltip, label, labelPosition=right 1`] = `
 <div
-  className="ToggleStyled__ToggleStyled-logmNW iIKjWC"
+  className="ToggleStyled-fYeScs edDjoV"
   disabled={false}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   <label
-    className="ToggleLabelStyled__ToggleLabelStyled-cilPLL gRFIIr"
+    className="ToggleLabelStyled-cXcwbM Qfgae"
     disabled={false}
     htmlFor="toggle-6"
-    tabIndex="0"
   >
     <div
-      className="ToggleBarBoxStyled__ToggleBarBoxStyled-gkTfoF cypGrw"
+      className="ToggleBarBoxStyled-kgMfqz muNTe"
       disabled={false}
     >
       <label
         checked={false}
-        className="ToggleBarStyled__ToggleBarStyled-hZjxLx gdCfKc"
+        className="ToggleBarStyled-drkJkQ dYbwIz"
         disabled={false}
         htmlFor="toggle-6"
       />
       <input
         checked={false}
-        className="ToggleInputStyled__ToggleInputStyled-fPQFCP ksLaEk"
+        className="ToggleInputStyled-jyiBlM jiHFkI"
         disabled={false}
         id="toggle-6"
+        onBlur={[Function]}
         onChange={[Function]}
+        onFocus={[Function]}
         tabIndex={0}
         type="checkbox"
       />
     </div>
     <span
       checked={false}
-      className="ToggleLabelTextBoxStyled__ToggleLabelTextBoxStyled-kCxqjF cdvCDZ"
+      className="ToggleLabelTextBoxStyled-bnhQAB cSeMzQ"
       disabled={false}
     >
       <span
-        className="ToggleLabelTextStyled__ToggleLabelTextStyled-gqrLUB cqqZaO"
+        className="ToggleLabelTextStyled-bIYkHe jZzxXq"
       >
         Foo
       </span>
       <span
-        className="ToggleTooltipBoxStyled__ToggleTooltipBoxStyled-dskqHX icxwYB"
+        className="ToggleTooltipBoxStyled-isAver iQQhwG"
       >
         <div
-          className="TooltipIconStyled__TooltipIconStyled-joXsIw bdyOFp"
+          className="TooltipIconStyled-gADMPy UneHs"
           onBlur={[Function]}
           onClick={[Function]}
           onFocus={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          tabIndex={1}
+          tabIndex={0}
         >
           <span>
             ?

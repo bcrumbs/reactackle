@@ -62,6 +62,16 @@ describe('<SelectBoxCustom />', () => {
   });
 
   it(
+    'renders correctly if prop message set text and' +
+    'colorScheme set error', () => {
+    const component = renderer.create(
+      <SelectBoxCustom message="text" colorScheme="error" />, options,
+    );
+
+    expect(component.toJSON()).toMatchSnapshot();
+  });
+
+  it(
     'renders correctly if prop message set text,' +
     'dense and fullWidth', () => {
     const component = renderer.create(
@@ -154,6 +164,14 @@ describe('<SelectBox/>', () => {
   it('renders correctly if prop type=native and colorScheme success', () => {
     const tree = renderer.create(
       <SelectBox type="native" colorScheme="success" />, options,
+    ).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('renders correctly if prop type=native and colorScheme error', () => {
+    const tree = renderer.create(
+      <SelectBox type="native" colorScheme="error" />, options,
     ).toJSON();
 
     expect(tree).toMatchSnapshot();
@@ -371,6 +389,18 @@ describe('<OptionsListCustom />', () => {
     document.dispatchEvent(new Event('scroll'));
     expect(component.toJSON()).toMatchSnapshot();
     component.unmount();
+  });
+
+  it('renders correctly if prop maxOptionsVisible', () => {
+    const component = renderer.create(
+      <OptionsListCustom
+        maxOptionsVisible={2}
+        options={[{ value: 'value', text: 'text', example: 'example' }]}
+      />,
+      options,
+    );
+
+    expect(component.toJSON()).toMatchSnapshot();
   });
 
   it('renders correctly if prop dense', () => {

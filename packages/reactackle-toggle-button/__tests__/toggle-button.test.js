@@ -2,9 +2,11 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { findByType } from 'reactackle-test-utils';
+import { mount } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import { ToggleButton } from '../src';
 import { ToggleStyled } from '../src/styles/ToggleStyled';
+import { ToggleInputStyled } from '../src/styles/ToggleInputStyled';
 
 jest.mock('react-dom');
 
@@ -90,31 +92,47 @@ describe('<ToggleButton/>', () => {
   });
 
   it('renders correctly if hovered', () => {
-    const component = renderer.create(
+    const component = mount(
       <ToggleButton />,
     );
 
-    const toggle = findByType(component, ToggleStyled);
+    const toggle = component.find(ToggleStyled);
+    expect(toJson(component)).toMatchSnapshot();
+    toggle.simulate('mouseEnter');
+    expect(toJson(component)).toMatchSnapshot();
+    toggle.simulate('mouseLeave');
+    expect(toJson(component)).toMatchSnapshot();
+  });
 
-    expect(component.toJSON()).toMatchSnapshot();
-    toggle.props.onMouseEnter();
-    expect(component.toJSON()).toMatchSnapshot();
-    toggle.props.onMouseLeave();
-    expect(component.toJSON()).toMatchSnapshot();
+  it('renders correctly if focused', () => {
+    const component = mount(
+      <ToggleButton />,
+    );
+    const toggle = component.find(ToggleInputStyled);
+
+    expect(toJson(component)).toMatchSnapshot();
+    
+    toggle.simulate('focus');
+    expect(toJson(component)).toMatchSnapshot();
+    
+    toggle.simulate('blur');
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders correctly if handles input change and call onChange', () => {
     const mockFn = jest.fn(),
-      component = renderer.create(
+      component = mount(
         <ToggleButton onChange={mockFn} />,
       );
-    findByType(component, 'input').props.onChange({
+    const input = component.findWhere(n => n.type() === 'input');
+    
+    expect(toJson(component)).toMatchSnapshot();
+    input.simulate('change', {
       target: {
         checked: true,
       },
     });
-
     expect(mockFn).toHaveBeenCalledWith({ value: true });
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });

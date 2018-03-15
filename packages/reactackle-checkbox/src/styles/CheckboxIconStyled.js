@@ -1,18 +1,19 @@
-'use strict';
-
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
+import { iconStyleMixin } from 'reactackle-icons';
+
 import {
   extractThemeOrDefault,
   getValueString,
   transition,
+  iconSizeMixin,
 } from 'reactackle-core';
+
 import { CheckboxLabelStyled } from './CheckboxLabelStyled';
 
 const propTypes = {
   disabled: PropTypes.bool,
   checked: PropTypes.bool,
-  theme: PropTypes.object,
 };
 
 const defaultProps = {
@@ -23,17 +24,21 @@ const defaultProps = {
 /* Prop Receivers */
 const iconSize = ({ theme: themeFromProvider }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
-  const { size, borderWidth } = theme.reactackle.components.checkbox.input;
-
-  const { size: iconSize } = theme.reactackle.components.checkbox.icon;
+  const path = theme.reactackle.components.checkbox;
+  const { size, borderWidth } = path.input;
+  const {
+    imgSize,
+    size: iconSize,
+  } = path.icon;
 
   const outerSize = `calc(${getValueString(size)} - ${borderWidth * 2}px)`;
 
-  return `
-    width: ${outerSize};
-    height: ${outerSize};
-    font-size: ${getValueString(iconSize)};
-    line-height: ${outerSize};
+  return css`    
+    ${iconSizeMixin(
+      outerSize,
+      getValueString(imgSize || iconSize),
+      outerSize,
+    )}
   `;
 };
 
@@ -54,13 +59,15 @@ const iconStyle = ({ checked, disabled, theme: themeFromProvider }) => {
 
   return !disabled
     ? css`
-      color: ${source.color};
       opacity: ${source.opacity};
+      ${iconStyleMixin(source.color)};
+      
       &:hover,
       ${CheckboxLabelStyled}:hover & {
         color: ${source.hover.color};
         opacity: ${source.hover.opacity};
       }
+      
       &:focus,
       ${CheckboxLabelStyled}:focus & {
         color: ${source.focus.color};
@@ -73,8 +80,8 @@ const iconStyle = ({ checked, disabled, theme: themeFromProvider }) => {
       ${CheckboxLabelStyled}:hover &,
       &:focus,
       ${CheckboxLabelStyled}:focus & {
-        color: ${source.disabled.color};
         opacity: ${source.disabled.opacity};
+        ${iconStyleMixin(source.color)};
       }
     `;
 };
@@ -87,6 +94,11 @@ export const CheckboxIconStyled = styled.div`
   ${iconPosition};
   ${iconStyle};
   ${transition('color, opacity')};
+  
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
 `;
 
 CheckboxIconStyled.propTypes = propTypes;

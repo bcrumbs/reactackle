@@ -1,13 +1,11 @@
+import React from 'react';
+
 import {
   colorSecondary,
   bodyFontColor,
   bodyLineHeight,
   colorTransparent,
-  baseModule,
-  halfBaseModule,
-  oneAndHalfBaseModule,
-  doubleBaseModule,
-  fourBaseModule,
+  bmodule,
   fontSizeBody,
   fontSizeSmall,
   fontWeightNormal,
@@ -22,6 +20,12 @@ import {
   bodyFontFamily,
 } from 'reactackle-core';
 
+import {
+  IconEye,
+  IconEyeClosed,
+  IconCross,
+} from 'reactackle-icons';
+
 const constants = {
   themeColor: colorSecondary,
   fontColor: bodyFontColor,
@@ -29,47 +33,47 @@ const constants = {
   borderStyle: 'solid',
 
   size: {
-    paddingY: baseModule,
+    paddingY: bmodule(1),
     fontSize: fontSizeBody,
     lineHeight: 1.5,
     paddingX: {
-      bordered: baseModule,
+      bordered: bmodule(1),
       underlined: 0,
     },
 
     dense: {
-      paddingY: halfBaseModule,
+      paddingY: bmodule(0.5),
       fontSize: fontSizeBody,
       lineHeight: 1.5,
       paddingX: {
-        bordered: halfBaseModule,
+        bordered: bmodule(0.5),
         underlined: 0,
       },
     },
 
     fullWidth: {
-      paddingY: oneAndHalfBaseModule,
+      paddingY: bmodule(1.5),
       fontSize: fontSizeBody,
       lineHeight: 1.5,
       paddingX: {
-        bordered: oneAndHalfBaseModule,
-        underlined: oneAndHalfBaseModule,
+        bordered: bmodule(1.5),
+        underlined: bmodule(1.5),
       },
     },
 
     denseFullWidth: {
-      paddingY: oneAndHalfBaseModule,
+      paddingY: bmodule(1.5),
       fontSize: fontSizeBody,
       lineHeight: 1.5,
       paddingX: {
-        bordered: oneAndHalfBaseModule,
-        underlined: oneAndHalfBaseModule,
+        bordered: bmodule(1.5),
+        underlined: bmodule(1.5),
       },
     },
   },
 
   underlined: {
-    paddingY: baseModule,
+    paddingY: bmodule(1),
   },
 
   iconOuter: {
@@ -201,21 +205,21 @@ export default {
       size: {
         bordered: {
           paddingTop: 0,
-          labelSpacing: baseModule,
+          labelSpacing: bmodule(1),
 
           dense: {
             paddingTop: 0,
-            labelSpacing: halfBaseModule,
+            labelSpacing: bmodule(0.5),
           },
 
           fullWidth: {
-            paddingTop: halfBaseModule,
-            labelSpacing: halfBaseModule,
+            paddingTop: bmodule(0.5),
+            labelSpacing: bmodule(0.5),
           },
 
           denseFullWidth: {
-            paddingTop: halfBaseModule,
-            labelSpacing: halfBaseModule,
+            paddingTop: bmodule(0.5),
+            labelSpacing: bmodule(0.5),
           },
         },
 
@@ -225,17 +229,17 @@ export default {
 
           dense: {
             paddingTop: 0,
-            labelSpacing: halfBaseModule,
+            labelSpacing: bmodule(0.5),
           },
 
           fullWidth: {
-            paddingTop: halfBaseModule,
-            labelSpacing: halfBaseModule,
+            paddingTop: bmodule(0.5),
+            labelSpacing: bmodule(0.5),
           },
 
           denseFullWidth: {
-            paddingTop: halfBaseModule,
-            labelSpacing: halfBaseModule,
+            paddingTop: bmodule(0.5),
+            labelSpacing: bmodule(0.5),
           },
         },
       },
@@ -272,48 +276,48 @@ export default {
         bordered: {
           paddingTop: 0,
           paddingBottom: 0,
-          labelSpacing: baseModule,
+          labelSpacing: bmodule(1),
 
           dense: {
             paddingTop: 0,
             paddingBottom: 0,
-            labelSpacing: baseModule,
+            labelSpacing: bmodule(1),
           },
 
           fullWidth: {
-            paddingTop: halfBaseModule,
-            paddingBottom: halfBaseModule,
-            labelSpacing: baseModule,
+            paddingTop: bmodule(0.5),
+            paddingBottom: bmodule(0.5),
+            labelSpacing: bmodule(1),
           },
 
           denseFullWidth: {
-            paddingTop: halfBaseModule,
-            paddingBottom: halfBaseModule,
-            labelSpacing: baseModule,
+            paddingTop: bmodule(0.5),
+            paddingBottom: bmodule(0.5),
+            labelSpacing: bmodule(1),
           },
         },
 
         underlined: {
           paddingTop: 0,
           paddingBottom: 0,
-          labelSpacing: baseModule,
+          labelSpacing: bmodule(1),
 
           dense: {
             paddingTop: 0,
             paddingBottom: 0,
-            labelSpacing: baseModule,
+            labelSpacing: bmodule(1),
           },
 
           fullWidth: {
-            paddingTop: halfBaseModule,
-            paddingBottom: halfBaseModule,
-            labelSpacing: baseModule,
+            paddingTop: bmodule(0.5),
+            paddingBottom: bmodule(0.5),
+            labelSpacing: bmodule(1),
           },
 
           denseFullWidth: {
-            paddingTop: halfBaseModule,
-            paddingBottom: halfBaseModule,
-            labelSpacing: baseModule,
+            paddingTop: bmodule(0.5),
+            paddingBottom: bmodule(0.5),
+            labelSpacing: bmodule(1),
           },
         },
       },
@@ -326,11 +330,11 @@ export default {
       ],
     },
 
-    labelTooltipSpacing: baseModule,
+    labelTooltipSpacing: bmodule(1),
   },
 
   iconOuter: {
-    iconSpacing: baseModule,
+    iconSpacing: bmodule(1),
 
     state: {
       color: 'inherit',
@@ -361,14 +365,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 20,
+      imgSize: null,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 20,
+        imgSize: null,
       },
 
       fullWidth: {
@@ -376,7 +380,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 20,
+        imgSize: null,
       },
 
       denseFullWidth: {
@@ -384,13 +388,13 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 20,
+        imgSize: null,
       },
     },
   },
 
   iconInner: {
-    iconSpacing: halfBaseModule,
+    iconSpacing: bmodule(0.5),
 
     state: {
       color: 'inherit',
@@ -426,14 +430,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 16,
+      imgSize: null,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: null,
       },
 
       fullWidth: {
@@ -441,7 +445,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: null,
       },
 
       denseFullWidth: {
@@ -449,13 +453,13 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: null,
       },
     },
   },
 
   buttonInner: {
-    iconSpacing: halfBaseModule,
+    iconSpacing: bmodule(0.5),
 
     state: {
       color: constants.fontColor,
@@ -491,14 +495,14 @@ export default {
       boxSize: base =>
         constants.size.fontSize(base) * constants.size.lineHeight +
         constants.size.paddingY(base) * 2,
-      imgSize: 16,
+      imgSize: 24,
 
       dense: {
         boxSize: base =>
           constants.size.dense.fontSize(base) *
             constants.size.dense.lineHeight +
           constants.size.dense.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 24,
       },
 
       fullWidth: {
@@ -506,7 +510,7 @@ export default {
           constants.size.fullWidth.fontSize(base) *
             constants.size.fullWidth.lineHeight +
           constants.size.fullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 24,
       },
 
       denseFullWidth: {
@@ -514,25 +518,16 @@ export default {
           constants.size.denseFullWidth.fontSize(base) *
             constants.size.denseFullWidth.lineHeight +
           constants.size.denseFullWidth.paddingY(base) * 2,
-        imgSize: 16,
+        imgSize: 24,
       },
     },
   },
-
-  clearingIcon: {
-    name: 'times',
-    src: '',
-    type: 'font-awesome',
-  },
-
-  passwordIcon: {
-    name: 'eye',
-    src: '',
-    type: 'font-awesome',
-  },
-
+  clearingIconElement: <IconCross size="custom" color="inherit" />,
+  passwordIconShowElement: <IconEye size="custom" color="inherit" />,
+  passwordIconHideElement: <IconEyeClosed size="custom" color="inherit" />,
+  
   message: {
-    messageSpacing: baseModule,
+    messageSpacing: bmodule(1),
     fontSize: fontSizeSmall,
     lineHeight: 1,
 
@@ -558,8 +553,8 @@ export default {
   },
 
   symbolCounter: {
-    counterSpacing: baseModule,
-    counterMessageSpacing: fourBaseModule,
+    counterSpacing: bmodule(1),
+    counterMessageSpacing: bmodule(4),
     fontSize: fontSizeSmall,
     lineHeight: 1,
 
@@ -585,39 +580,39 @@ export default {
 
     size: {
       fontSize: 'inherit',
-      paddingY: halfBaseModule,
-      prefixSpacing: doubleBaseModule,
+      paddingY: bmodule(0.5),
+      prefixSpacing: bmodule(2),
       prefixEdgeSpacing: {
-        bordered: baseModule,
+        bordered: bmodule(1),
         underlined: 0,
       },
 
       dense: {
         fontSize: 'inherit',
-        paddingY: halfBaseModule,
-        prefixSpacing: doubleBaseModule,
+        paddingY: bmodule(0.5),
+        prefixSpacing: bmodule(2),
         prefixEdgeSpacing: {
-          bordered: baseModule,
+          bordered: bmodule(1),
           underlined: 0,
         },
       },
 
       fullWidth: {
         fontSize: 'inherit',
-        paddingY: halfBaseModule,
-        prefixSpacing: doubleBaseModule,
+        paddingY: bmodule(0.5),
+        prefixSpacing: bmodule(2),
         prefixEdgeSpacing: {
-          bordered: baseModule,
+          bordered: bmodule(1),
           underlined: 0,
         },
       },
 
       denseFullWidth: {
         fontSize: 'inherit',
-        paddingY: halfBaseModule,
-        prefixSpacing: doubleBaseModule,
+        paddingY: bmodule(0.5),
+        prefixSpacing: bmodule(2),
         prefixEdgeSpacing: {
-          bordered: baseModule,
+          bordered: bmodule(1),
           underlined: 0,
         },
       },
@@ -681,39 +676,39 @@ export default {
 
     size: {
       fontSize: 'inherit',
-      paddingY: halfBaseModule,
-      postfixSpacing: doubleBaseModule,
+      paddingY: bmodule(0.5),
+      postfixSpacing: bmodule(2),
       postfixEdgeSpacing: {
-        bordered: baseModule,
+        bordered: bmodule(1),
         underlined: 0,
       },
 
       dense: {
         fontSize: 'inherit',
-        paddingY: halfBaseModule,
-        postfixSpacing: doubleBaseModule,
+        paddingY: bmodule(0.5),
+        postfixSpacing: bmodule(2),
         postfixEdgeSpacing: {
-          bordered: baseModule,
+          bordered: bmodule(1),
           underlined: 0,
         },
       },
 
       fullWidth: {
         fontSize: 'inherit',
-        paddingY: halfBaseModule,
-        postfixSpacing: doubleBaseModule,
+        paddingY: bmodule(0.5),
+        postfixSpacing: bmodule(2),
         postfixEdgeSpacing: {
-          bordered: baseModule,
+          bordered: bmodule(1),
           underlined: 0,
         },
       },
 
       denseFullWidth: {
         fontSize: 'inherit',
-        paddingY: halfBaseModule,
-        postfixSpacing: doubleBaseModule,
+        paddingY: bmodule(0.5),
+        postfixSpacing: bmodule(2),
         postfixEdgeSpacing: {
-          bordered: baseModule,
+          bordered: bmodule(1),
           underlined: 0,
         },
       },

@@ -1,8 +1,6 @@
-'use strict';
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import TextareaAutosize from 'react-textarea-autosize';
+import { TooltipIcon } from 'reactackle-tooltip-icon';
 
 import {
   withTheme,
@@ -11,8 +9,7 @@ import {
   isUndef,
   registerDefaultComponentTheme,
 } from 'reactackle-core';
-import { Icon } from 'reactackle-icon';
-import { TooltipIcon } from 'reactackle-tooltip-icon';
+
 import { InfoBoxStyled } from './styles/InfoBoxStyled';
 import { IconOuterStyled } from './styles/IconOuterStyled';
 import { IconInnerStyled } from './styles/IconInnerStyled';
@@ -28,7 +25,11 @@ import { PostfixStyled } from './styles/PostfixStyled';
 import { PostfixTextStyled } from './styles/PostfixTextStyled';
 import { TextFieldStyled } from './styles/TextFieldStyled';
 import { TextFieldGroupStyled } from './styles/TextFieldGroupStyled';
-import { getTextFieldElementStyled } from './styles/TextFieldElementStyled';
+import {
+  InputStyled,
+  TextareaAutosizeStyled,
+  TextareaStyled,
+} from './styles/TextFieldElementStyled';
 import { TextFieldContentBoxStyled } from './styles/TextFieldContentBoxStyled';
 import { TextFieldRowStyled } from './styles/TextFieldRowStyled';
 import componentTheme from './styles/theme';
@@ -92,13 +93,13 @@ const propTypes = {
    */
   clearingIcon: PropTypes.bool,
   /**
-   * Add icon behind TextField
+   * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: PropTypes.shape(Icon.propTypes),
+  iconOuter: PropTypes.element,
   /**
-   * Show icon inside TextField's boundaries
+   * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: PropTypes.shape(Icon.propTypes),
+  iconInner: PropTypes.element,
   /**
    * Define label position
    */
@@ -143,6 +144,10 @@ const propTypes = {
     min: PropTypes.number,
     max: PropTypes.number,
   }),
+  /**
+   * Specify type of resizing, only applied in multiline TextField
+   */
+  resize: PropTypes.oneOf(['none', 'manual', 'auto']),
   /**
    * @ignore
    */
@@ -190,6 +195,7 @@ const defaultProps = {
   fullWidth: false,
   multiline: false,
   multilineRows: { min: 2, max: 4 },
+  resize: 'auto',
   dense: false,
   symbolLimit: 0,
   disabled: false,
@@ -228,8 +234,8 @@ class _TextField extends Component {
       focus: false,
       lengthError: false,
       patternError: false,
-      textFieldElement: this._getTextFieldElementStyled(),
     };
+    this.textFieldComponent = this._getTextFieldComponentStyled();
     this._saveRef = this._saveRef.bind(this);
     this._saveRefWrap = this._saveRefWrap.bind(this);
     this._handleHideValue = this._handleHideValue.bind(this);
@@ -238,9 +244,6 @@ class _TextField extends Component {
     this._handleChange = this._handleChange.bind(this);
     this._handleFocus = this._handleFocus.bind(this);
     this._handleClick = this._handleClick.bind(this);
-    this._getTextFieldElementStyled = this._getTextFieldElementStyled.bind(
-      this,
-    );
     this._handleChange = this._handleChange.bind(this);
     this.focus = this.focus.bind(this);
     this.getValue = this.getValue.bind(this);
@@ -261,7 +264,7 @@ class _TextField extends Component {
     if (isTypeChanged)
       this.setState({ hidden: nextProps.type === 'password' ? true : null });
     if (isTextFieldChanged)
-      this.setState({ textFieldElement: this._getTextFieldElementStyled() });
+      this.textFieldComponent = this._getTextFieldComponentStyled();
   }
 
   getValue() {
@@ -269,7 +272,7 @@ class _TextField extends Component {
   }
 
   focus() {
-    if (this._domNodeInput && typeof this._domNodeInput.focus === 'function')
+    if (this._domNodeInput)
       this._domNodeInput.focus();
 
     this.setState({ focus: true });
@@ -281,10 +284,12 @@ class _TextField extends Component {
     return !isUndef(source.value);
   }
 
-  _getTextFieldElementStyled() {
-    return this.props.multiline
-      ? getTextFieldElementStyled(TextareaAutosize, 'TextArea')
-      : getTextFieldElementStyled('input');
+  _getTextFieldComponentStyled() {
+    if (!this.props.multiline) return InputStyled;
+
+    return this.props.resize === 'auto'
+      ? TextareaAutosizeStyled
+      : TextareaStyled;
   }
 
   _parseValue(value) {
@@ -409,10 +414,7 @@ class _TextField extends Component {
         labelPosition={this.props.labelPosition}
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
-        iconOuter={
-          this.props.iconOuter &&
-          (this.props.iconOuter.name || this.props.iconOuter.src)
-        }
+        iconOuter={this.props.iconOuter}
       >
         {message}
         {counter}
@@ -421,10 +423,13 @@ class _TextField extends Component {
   }
 
   _renderInnerButton() {
-    const clearingIconPath = this.props.theme.reactackle.components.textfield
-      .clearingIcon;
-    const passwordIconPath = this.props.theme.reactackle.components.textfield
-      .passwordIcon;
+    const componentPath = this.props.theme.reactackle.components.textfield;
+
+    const clearingIconElement = componentPath.clearingIconElement;
+
+    const passwordIconElement = this.state.hidden
+      ? componentPath.passwordIconShowElement
+      : componentPath.passwordIconHideElement;
 
     if (typeof this.state.hidden === 'boolean') {
       return (
@@ -434,15 +439,9 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
+          onClick={this._handleHideValue}
         >
-          <Icon
-            name={passwordIconPath.name}
-            src={passwordIconPath.src}
-            type={passwordIconPath.type}
-            size="inherit"
-            color="inherit"
-            onClick={this._handleHideValue}
-          />
+          {passwordIconElement}
         </InnerButton>
       );
     } else if (this.props.clearingIcon) {
@@ -453,15 +452,9 @@ class _TextField extends Component {
           dense={this.props.dense}
           fullWidth={this.props.fullWidth}
           colorScheme={this.props.colorScheme}
+          onClick={this._handleClearValue}
         >
-          <Icon
-            name={clearingIconPath.name}
-            src={clearingIconPath.src}
-            type={clearingIconPath.type}
-            size="inherit"
-            color="inherit"
-            onClick={this._handleClearValue}
-          />
+          {clearingIconElement}
         </InnerButton>
       );
     }
@@ -470,8 +463,10 @@ class _TextField extends Component {
   }
 
   _renderIconOuter() {
+    const { iconOuter } = this.props;
+    if (!iconOuter) return null;
+
     return (
-      this.props.iconOuter &&
       <IconOuterStyled
         disabled={this.props.disabled}
         focus={this.state.focus}
@@ -480,12 +475,15 @@ class _TextField extends Component {
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
       >
-        <Icon {...this.props.iconOuter} size="inherit" color="inherit" />
+        {iconOuter}
       </IconOuterStyled>
     );
   }
 
   _renderIconInner() {
+    const { iconInner } = this.props;
+    if (!iconInner) return null;
+
     return (
       this.props.iconInner &&
       <IconInnerStyled
@@ -495,7 +493,7 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
       >
-        <Icon {...this.props.iconInner} size="inherit" color="inherit" />
+        {iconInner}
       </IconInnerStyled>
     );
   }
@@ -536,10 +534,7 @@ class _TextField extends Component {
         dense={this.props.dense}
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
-        iconOuter={
-          this.props.iconOuter &&
-          (this.props.iconOuter.name || this.props.iconOuter.src)
-        }
+        iconOuter={this.props.iconOuter}
         bordered={this.props.bordered}
       >
         <LabelTextStyled>
@@ -606,22 +601,27 @@ class _TextField extends Component {
     );
   }
 
-  /**
-   * @virtual
-   */
   _renderTextField(textFieldProps) {
-    const TextFieldElement = this.state.textFieldElement;
-    const isPassword = textFieldProps.type === 'password' && this.state.hidden;
-    const inputType = isPassword ? 'password' : textFieldProps.type;
-
-    return <TextFieldElement {...textFieldProps} type={inputType} />;
+    const TextFieldComponent = this.textFieldComponent;
+    const isPasswordUnhidden = textFieldProps.type === 'password' && !this.state.hidden;
+    const inputType = isPasswordUnhidden ? 'text' : textFieldProps.type;
+    
+    const props = textFieldProps;
+    props.type = inputType;
+    if (this.props.multiline && this.props.resize !== 'auto') {
+      props.rows = this.props.multilineRows.min;
+    }
+    
+    return <TextFieldComponent {...props} />;
   }
 
   render() {
+    const isTextareaAutosize = this.props.multiline && this.props.resize === 'auto';
     const iconOuter = this._renderIconOuter(),
       prefix = this._renderPrefix(),
       textField = this._renderTextField({
-        innerRef: this._saveRef,
+        resize: this.props.resize,
+        [isTextareaAutosize ? 'saveRef' : 'innerRef']: this._saveRef,
         id: this.id,
         dense: this.props.dense,
         fullWidth: this.props.fullWidth,

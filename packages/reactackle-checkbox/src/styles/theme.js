@@ -1,14 +1,11 @@
-'use strict';
+import React  from 'react';
 
 import {
-  baseModule,
-  halfBaseModule,
+  bmodule,
   colorTransparent,
   colorWhite,
   colorError,
   colorSecondary,
-  oneAndHalfBaseModule,
-  twoAndQuarterBaseModule,
   colorPaletteGrey100,
   colorPaletteGrey200,
   colorPaletteGrey300,
@@ -19,13 +16,15 @@ import {
   fontSizeSmall,
 } from 'reactackle-core';
 
+import { IconCheck } from 'reactackle-icons';
+
 export default {
-  checkboxesSpacing: baseModule,
+  checkboxesSpacing: bmodule(1),
 
   input: {
-    size: twoAndQuarterBaseModule,
+    size: bmodule(2.25),
     cursor: 'pointer',
-    borderWidth: 1, // Only number's accepted
+    borderWidth: 1, // Only numbers accepted
     borderRadius: radiusDefault,
     backgroundColor: colorTransparent,
     borderColor: colorPaletteGrey300,
@@ -67,13 +66,9 @@ export default {
   },
 
   icon: {
-    size: oneAndHalfBaseModule,
-
-    source: {
-      name: 'check',
-      src: '',
-      type: 'font-awesome',
-    },
+    size: bmodule(2),
+    imgSize: null,
+    element: <IconCheck size="custom" color="currentColor" />,
 
     style: {
       color: colorTransparent,
@@ -110,15 +105,15 @@ export default {
 
         disabled: {
           color: colorWhite,
-          opacity: 0.5,
+          opacity: 0.75,
         },
       },
     },
   },
 
   label: {
-    checkboxTextSpacing: baseModule,
-    labelTooltipSpacing: baseModule,
+    checkboxTextSpacing: bmodule(1),
+    labelTooltipSpacing: bmodule(1),
     fontSize: fontSizeBody,
     fontColor: colorPaletteGrey900,
     lineHeight: 1.5,
@@ -129,7 +124,7 @@ export default {
   },
 
   errorMessage: {
-    messageCheckboxSpacing: halfBaseModule,
+    messageCheckboxSpacing: bmodule(0.5),
     fontSize: fontSizeSmall,
     fontColor: colorError,
     lineHeight: 1.25,

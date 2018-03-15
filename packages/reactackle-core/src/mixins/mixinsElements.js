@@ -1,22 +1,31 @@
+import { css } from 'styled-components';
 import { oppositeDirection } from '../styleFunctions';
 
 /**
  * Icon size mixin
  */
-export function iconSizeMixin(outerSize, imgSize, outerWidth = outerSize) {
-  return `
+export function iconSizeMixin(
+  height,
+  imgHeight = height,
+  width = height,
+  imgWidth = imgHeight,
+) {
+  return css`    
     &,
-    .icon {
-      width: ${outerWidth}px;
-      height: ${outerSize}px;
-      line-height: ${outerSize}px;
-    }
-  
-    .icon::before {
-      font-size: ${imgSize}px;
+    & > * {
+      width: ${width};
+      height: ${height};
+      line-height: ${height} !important;
+      align-items: center;
+      justify-content: center;
+      
+      ${( imgHeight && imgHeight !== 'inherit' ) && `background-size: ${imgHeight};`}
     }
     
-    .icon-holder { background-size: ${imgSize}px; }
+    svg {
+      width: ${imgWidth};
+      height: ${imgHeight};
+    }
   `;
 }
 

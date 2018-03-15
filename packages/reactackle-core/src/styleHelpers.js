@@ -1,21 +1,21 @@
 /** Base Module Calculations */
 export const baseModule = ({ baseModule }) => baseModule;
-export const oneTwelfthOfBaseModule = ({ baseModule }) => baseModule / 12;
-export const quarterBaseModule = ({ baseModule }) => baseModule * 0.25;
 export const halfBaseModule = ({ baseModule }) => baseModule * 0.5;
 export const oneAndHalfBaseModule = ({ baseModule }) => baseModule * 1.5;
 export const doubleBaseModule = ({ baseModule }) => baseModule * 2;
-export const twoAndQuarterBaseModule = ({ baseModule }) => baseModule * 2.25;
 export const twoAndHalfBaseModule = ({ baseModule }) => baseModule * 2.5;
 export const tripleBaseModule = ({ baseModule }) => baseModule * 3;
-export const fourBaseModule = ({ baseModule }) => baseModule * 4;
-export const fourAndHalfBaseModule = ({ baseModule }) => baseModule * 4.5;
-export const fiveBaseModule = ({ baseModule }) => baseModule * 5;
-export const fiveAndHalfBaseModule = ({ baseModule }) => baseModule * 5.5;
-export const sixBaseModule = ({ baseModule }) => baseModule * 6;
-export const sevenAndHalfBaseModule = ({ baseModule }) => baseModule * 7.5;
-export const eightBaseModule = ({ baseModule }) => baseModule * 8;
-export const tenBaseModule = ({ baseModule }) => baseModule * 10;
+
+const multiplierFunctions = Object.create(null);
+
+export const bmodule = multiplier => {
+  if (!multiplierFunctions[multiplier]) {
+    multiplierFunctions[multiplier] =
+      ({ baseModule }) => baseModule * multiplier;
+  }
+
+  return multiplierFunctions[multiplier];
+};
 
 /** Size parameters */
 export const contentWidth = ({ contentWidth }) => contentWidth;

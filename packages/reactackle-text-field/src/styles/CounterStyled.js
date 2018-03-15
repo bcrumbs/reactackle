@@ -70,9 +70,7 @@ const animationPulse = keyframes`
   }
 `;
 
-const animation = ({ error }) =>
-  error &&
-  `
+const animation = ({ error }) => error && `
   animation: ${animationPulse} 200ms;
   animation-iteration-count: 3;
 `;

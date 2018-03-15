@@ -1,9 +1,5 @@
-'use strict';
-
 import {
-  baseModule,
-  oneAndHalfBaseModule,
-  sixBaseModule,
+  bmodule,
   colorTransparent,
   colorMain,
   bodyFontColor,
@@ -30,9 +26,9 @@ export default {
     fontSize: fontSizeBody,
     lineHeight: 1.25,
     textTransform: 'uppercase',
-    paddingX: oneAndHalfBaseModule,
-    paddingY: baseModule,
-    minHeight: sixBaseModule,
+    paddingX: bmodule(1.5),
+    paddingY: bmodule(1),
+    minHeight: bmodule(6),
     minWidth: 120,
     maxWidth: 320,
 
@@ -96,10 +92,10 @@ export default {
   },
 
   icon: {
-    width: 24,
-    height: 24,
-    imgSize: 24,
-    iconTextSpacing: baseModule,
+    height: 40,
+    width: null,
+    imgSize: null,
+    iconTextSpacing: bmodule(1),
 
     style: {
       light: {

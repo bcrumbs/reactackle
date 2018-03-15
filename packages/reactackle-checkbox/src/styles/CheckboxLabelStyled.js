@@ -127,6 +127,11 @@ export const CheckboxLabelStyled = styled.label`
   width: 100%;
   ${labelSize};
   ${labelText};
+  
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
 
   &::before {
     content: '';

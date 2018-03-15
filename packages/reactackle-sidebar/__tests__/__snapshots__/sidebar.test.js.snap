@@ -2,61 +2,68 @@
 
 exports[`<Sidebar/> renders correctly if prop expanded set false 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql hpZSwh"
+  className="SidebarStyled-huzlez iQDTlJ"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf jhmGKh"
+    className="SidebarBoxStyled-hShvpg kFprkQ"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop expanded set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-huzlez gRfSoA"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-hShvpg dDGNFi"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop haveToggleButton set false 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-huzlez gRfSoA"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-hShvpg dDGNFi"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql depIyH"
+  className="SidebarStyled-huzlez gHnbZT"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf loJghn"
+    className="SidebarBoxStyled-hShvpg ctSjog"
   >
     <button
-      className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+      className="SidebarToggleStyled-hXoQiO iPHaTI"
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled__ToggleIconStyled-fKRibG bVlGZF"
-      >
-        <span
-          className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
-          color=""
-          onClick={[Function]}
-          rotate={0}
-          size="normal"
-        />
-      </div>
-      <div
-        className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+        className="ToggleIconStyled-kIzVex cmrxLj"
       >
         <div
-          className="ToggleTextStyled__ToggleTextStyled-gUfxuQ hxVmIj"
+          className="IconSvgStyled-cegYAl fAPHID"
+          color=""
+          rotate={0}
+          size="normal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="ToggleContentStyled-dJNHMj fMwRZj"
+      >
+        <div
+          className="ToggleTextStyled-YrHhI jQgJxk"
         >
           Collapse
         </div>
@@ -68,31 +75,38 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
 
 exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and toggleButtonText set 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql depIyH"
+  className="SidebarStyled-huzlez gHnbZT"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf loJghn"
+    className="SidebarBoxStyled-hShvpg ctSjog"
   >
     <button
-      className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+      className="SidebarToggleStyled-hXoQiO iPHaTI"
       onClick={[Function]}
     >
       <div
-        className="ToggleIconStyled__ToggleIconStyled-fKRibG bVlGZF"
-      >
-        <span
-          className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
-          color=""
-          onClick={[Function]}
-          rotate={0}
-          size="normal"
-        />
-      </div>
-      <div
-        className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+        className="ToggleIconStyled-kIzVex cmrxLj"
       >
         <div
-          className="ToggleTextStyled__ToggleTextStyled-gUfxuQ hxVmIj"
+          className="IconSvgStyled-cegYAl fAPHID"
+          color=""
+          rotate={0}
+          size="normal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="ToggleContentStyled-dJNHMj fMwRZj"
+      >
+        <div
+          className="ToggleTextStyled-YrHhI jQgJxk"
         >
           test
         </div>
@@ -104,95 +118,102 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and togg
 
 exports[`<Sidebar/> renders correctly if prop right set false 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-huzlez gRfSoA"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-hShvpg dDGNFi"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop right set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-huzlez gRfSoA"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-hShvpg dDGNFi"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly if prop spread set true 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-huzlez gRfSoA"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-hShvpg dDGNFi"
   />
 </aside>
 `;
 
 exports[`<Sidebar/> renders correctly with default props 1`] = `
 <aside
-  className="SidebarStyled__SidebarStyled-fRvCql cilTGP"
+  className="SidebarStyled-huzlez gRfSoA"
 >
   <div
-    className="SidebarBoxStyled__SidebarBoxStyled-hutMIf bhBdLp"
+    className="SidebarBoxStyled-hShvpg dDGNFi"
   />
 </aside>
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop bordered 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi eZEPaB"
+  className="SidebarRegionStyled-bJSMUP HmlYe"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop scrollable 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi eFCXri"
+  className="SidebarRegionStyled-bJSMUP gJQUWD"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop scrollableMinHeight set 0 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi cWiuQb"
+  className="SidebarRegionStyled-bJSMUP ebxVeA"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly if prop spread 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi hDDyJh"
+  className="SidebarRegionStyled-bJSMUP QCwEI"
 />
 `;
 
 exports[`<SidebarRegion/> renders correctly with default props 1`] = `
 <div
-  className="SidebarRegionStyled__SidebarRegionStyled-cYXjEi cWiuQb"
+  className="SidebarRegionStyled-bJSMUP ebxVeA"
 />
 `;
 
 exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
 <button
-  className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+  className="SidebarToggleStyled-hXoQiO iPHaTI"
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled__ToggleIconStyled-fKRibG fClZwD"
-  >
-    <span
-      className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
-      color=""
-      onClick={[Function]}
-      rotate={0}
-      size="normal"
-    />
-  </div>
-  <div
-    className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+    className="ToggleIconStyled-kIzVex eBMkBa"
   >
     <div
-      className="ToggleTextStyled__ToggleTextStyled-gUfxuQ CRanA"
+      className="IconSvgStyled-cegYAl fAPHID"
+      color=""
+      rotate={0}
+      size="normal"
+    >
+      <svg
+        viewBox="0 0 24 24"
+      >
+        <polygon
+          points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="ToggleContentStyled-dJNHMj fMwRZj"
+  >
+    <div
+      className="ToggleTextStyled-YrHhI eEqBAR"
     >
       test
     </div>
@@ -202,25 +223,32 @@ exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
 
 exports[`<SidebarToggle/> renders correctly with default props 1`] = `
 <button
-  className="SidebarToggleStyled__SidebarToggleStyled-KYhye jTJvlU"
+  className="SidebarToggleStyled-hXoQiO iPHaTI"
   onClick={[Function]}
 >
   <div
-    className="ToggleIconStyled__ToggleIconStyled-fKRibG fClZwD"
-  >
-    <span
-      className="fa fa-angle-left IconFontAwesomeStyled__IconFontAwesomeStyled-cpbEq eVGVUG"
-      color=""
-      onClick={[Function]}
-      rotate={0}
-      size="normal"
-    />
-  </div>
-  <div
-    className="ToggleContentStyled__ToggleContentStyled-kQGYBy iflKfw"
+    className="ToggleIconStyled-kIzVex eBMkBa"
   >
     <div
-      className="ToggleTextStyled__ToggleTextStyled-gUfxuQ CRanA"
+      className="IconSvgStyled-cegYAl fAPHID"
+      color=""
+      rotate={0}
+      size="normal"
+    >
+      <svg
+        viewBox="0 0 24 24"
+      >
+        <polygon
+          points="13.8,18.2 7.6,12 13.8,5.8 15.2,7.2 10.4,12 15.2,16.8"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="ToggleContentStyled-dJNHMj fMwRZj"
+  >
+    <div
+      className="ToggleTextStyled-YrHhI eEqBAR"
     >
       Collapse
     </div>

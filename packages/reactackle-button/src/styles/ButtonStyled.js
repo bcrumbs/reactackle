@@ -1,5 +1,3 @@
-'use strict';
-
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import React from 'react';
@@ -104,7 +102,7 @@ const radiusProps = ({ radius, size, theme: themeFromProvider }) => {
     rad = `border-radius: ${getValueString(minHeight)};`;
   else if (radius === 'default')
     rad = `border-radius: ${getValueString(borderRadiusDefault)};`;
-  else rad = null;
+  else rad = 'border-radius: 0;';
 
   return rad;
 };
@@ -142,11 +140,11 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
   return css`
     ${outlined
       ? `
+        border-width: ${getValueString(borderWidth)};
+        border-style: ${borderStyle};
         border-color: ${bgTransparency ? backgroundColor : fontColor};
         background-color: ${Color(backgroundColor).fade(1)};
         color: ${bgTransparency ? backgroundColor : fontColor};
-        border-width: ${getValueString(borderWidth)};
-        border-style: ${borderStyle};
         
         &:hover,
         &:focus,
@@ -164,7 +162,6 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
         background-color: ${backgroundColor};
         color: ${fontColor};
         border-width: 0;
-        border-color: transparent;
   
         &:hover {
           background-color: ${hoverBackgroundColor};
@@ -173,7 +170,7 @@ const kindProps = ({ colorScheme, outlined, theme: themeFromProvider }) => {
         
         &:focus,
         &:active {      
-          background-color: ${focusBackgroundColor};   
+          background-color: ${focusBackgroundColor};
           color: ${focusFontColor};
         }
       `}
@@ -199,26 +196,28 @@ const elevation = ({ raised }) => `
     `}
 `;
 
-const disabled = ({ outlined, disabled, theme: themeFromProvider }) => {
+const disabled = ({ disabled, theme: themeFromProvider }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
   const backgroundColor =
     theme.reactackle.components.button.disabled.backgroundColor;
 
   const fontColor = theme.reactackle.components.button.disabled.fontColor;
 
+  // remove pointerEvents when https://github.com/facebook/react/issues/4251 is resolved
   return css`
     ${disabled
       ? `
           box-shadow: none;
+          pointer-events: none;
           &,
           &:hover,
           &:focus,
           &:active {
             cursor: default;
             background-color: ${backgroundColor};
+            border-color: ${backgroundColor};
             color: ${fontColor};
             box-shadow: none;
-            ${outlined && `border-color: ${backgroundColor};`}
           };
         `
       : null}

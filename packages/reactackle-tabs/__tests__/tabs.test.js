@@ -1,11 +1,19 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { findAllByType, setProps } from 'reactackle-test-utils';
+import { mount } from 'enzyme';
+import toJson from 'enzyme-to-json';
+import { setProps } from 'reactackle-test-utils';
 import { Tabs } from '../src';
 import { TabStyled } from '../src/Tab/styles/TabStyled';
 
 jest.mock('react-dom');
+
+const tabIcon = (
+  <svg viewBox="0 0 24 24">
+    <path d="M20,5.6C20,4.7,19.3,4,18.4,4H5.6C4.7,4,4,4.7,4,5.6v9.6c0,0.9,0.7,1.6,1.6,1.6h11.2L20,20L20,5.6z" />
+  </svg>
+);
 
 describe('<Tabs/>', () => {
   it('renders correctly with default props', () => {
@@ -55,7 +63,7 @@ describe('<Tabs/>', () => {
     const tree = renderer.create(
       <Tabs
         tabs={[
-          { text: 'Test', icon: { name: 'anchor' } },
+          { text: 'Test', icon: tabIcon },
         ]}
       />,
     ).toJSON();
@@ -90,23 +98,23 @@ describe('<Tabs/>', () => {
 
   it('renders correctly if change tab', () => {
     const mockFn = jest.fn(),
-      component = renderer.create(
+      component = mount(
         <Tabs
           onChange={mockFn}
           tabs={[
-            { text: 'Test 1', icon: { name: 'anchor' } },
-            { text: 'Test 2', icon: { name: 'anchor' } },
+            { text: 'Test 1', icon: tabIcon },
+            { text: 'Test 2', icon: tabIcon },
           ]}
         />,
       );
 
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
 
-    const tabs = findAllByType(component, TabStyled);
-    tabs[1].props.onClick();
-
+    const tabs = component.find(TabStyled);
+    tabs.at(1).simulate('click');
     expect(mockFn).toHaveBeenCalledWith({ value: 1 });
-    expect(component.toJSON()).toMatchSnapshot();
+    
+    expect(toJson(component)).toMatchSnapshot();
   });
 
 
