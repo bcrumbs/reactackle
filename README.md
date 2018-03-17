@@ -68,5 +68,5 @@ Also we're opened to any proposals. Feel free to submit an issue or just [write 
 * [Slack](https://reactackle.slack.com)
 
 ## License
-[MIT License](/LICENSE.md)
+[MIT License](/LICENSE)
 
