@@ -1,6 +1,6 @@
 {
   "name": "reactackle-core",
-  "version": "1.0.0-beta.6",
+  "version": "1.0.0-beta.7",
   "description": "Core utils of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
