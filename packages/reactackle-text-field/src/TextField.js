@@ -95,11 +95,11 @@ const propTypes = {
   /**
    * Add icon behind TextField (see IconSvg or IconCustom props)
    */
-  iconOuter: PropTypes.element,
+  iconOuter: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
   /**
    * Show icon inside TextField's boundaries (see IconSvg or IconCustom props)
    */
-  iconInner: PropTypes.element,
+  iconInner: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
   /**
    * Define label position
    */
@@ -466,6 +466,15 @@ class _TextField extends Component {
     const { iconOuter } = this.props;
     if (!iconOuter) return null;
 
+    let iconElement;
+
+    if (typeof this.props.iconOuter === "function") {
+      const IconOuter = this.props.iconOuter;
+      iconElement = <IconOuter />;
+    } else {
+      iconElement = this.props.iconOuter;
+    }
+
     return (
       <IconOuterStyled
         disabled={this.props.disabled}
@@ -475,7 +484,7 @@ class _TextField extends Component {
         colorScheme={this.props.colorScheme}
         htmlFor={this.id}
       >
-        {iconOuter}
+        {iconElement}
       </IconOuterStyled>
     );
   }
@@ -483,6 +492,15 @@ class _TextField extends Component {
   _renderIconInner() {
     const { iconInner } = this.props;
     if (!iconInner) return null;
+
+    let iconElement;
+
+    if (typeof this.props.iconOuter === "function") {
+      const IconInner = this.props.iconInner;
+      iconElement = <IconInner />;
+    } else {
+      iconElement = this.props.iconInner;
+    }
 
     return (
       this.props.iconInner &&
@@ -493,7 +511,7 @@ class _TextField extends Component {
         fullWidth={this.props.fullWidth}
         colorScheme={this.props.colorScheme}
       >
-        {iconInner}
+        {iconElement}
       </IconInnerStyled>
     );
   }
