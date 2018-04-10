@@ -19,18 +19,18 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-portal": "^4.0.0-rc.0",
-    "reactackle-button": "^1.0.0-beta.8",
-    "reactackle-icons": "^1.0.0-beta.8"
+    "reactackle-button": "^1.0.0-beta.7",
+    "reactackle-icons": "^1.0.0-beta.7"
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.8",
+    "reactackle-core": "^1.0.0-beta.7",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "reactackle-core": "^1.0.0-beta.8",
-    "reactackle-test-utils": "^1.0.0-beta.8",
+    "reactackle-core": "^1.0.0-beta.7",
+    "reactackle-test-utils": "^1.0.0-beta.7",
     "rimraf": "^2.6.1"
   },
   "repository": {

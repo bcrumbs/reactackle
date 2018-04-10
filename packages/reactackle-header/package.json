@@ -22,7 +22,7 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.8",
+    "reactackle-core": "^1.0.0-beta.7",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "enzyme": "^3.1.0",
     "enzyme-to-json": "^3.1.4",
     "react-test-renderer": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.8",
+    "reactackle-core": "^1.0.0-beta.7",
     "rimraf": "^2.6.1"
   },
   "repository": {
