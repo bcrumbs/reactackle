@@ -41,7 +41,7 @@ const propTypes = {
   /**
    * Icon that will be rendered on Tab (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.element,
+  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
   /**
    * Specify function that will be called on Tab selection
    */
@@ -78,13 +78,22 @@ export default class Tab extends Component {
   _renderTabIcon() {
     const { icon } = this.props;
     if (!icon) return null;
+
+    let iconElement;
+
+    if (typeof this.props.icon === "function") {
+      const Icon = this.props.icon;
+      iconElement = <Icon />;
+    } else {
+      iconElement = this.props.icon;
+    }
     
     return (
       <TabIconStyled
         colorScheme={this.props.colorScheme}
         selected={this.props.isSelected}
       >
-        {icon}
+        {iconElement}
       </TabIconStyled>
     );
   }
