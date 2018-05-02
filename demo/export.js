@@ -154,3 +154,25 @@ export { TooltipIconRoute }
  from './routes/tooltip-icon/tooltip-icon';
 export { TooltipIconDemoRoute }
  from './routes/tooltip-icon/demo';
+ export { ProgressIndexRoute }
+ from './routes/progress';
+export { ProgressRoute }
+ from './routes/progress/progress';
+export { CircleProgressIndexRoute }
+ from './routes/progress/circle-progress';
+export { CircleProgressRoute }
+ from './routes/progress/circle-progress/circle-progress';
+export { CircleProgressDemoRoute }
+ from './routes/progress/circle-progress/demo';
+export { LinearProgressIndexRoute }
+ from './routes/progress/linear-progress';
+export { LinearProgressRoute }
+ from './routes/progress/linear-progress/linear-progress';
+export { LinearProgressDemoRoute }
+ from './routes/progress/linear-progress/demo';
+export { PreloaderIndexRoute }
+  from './routes/progress/preloader';
+export { PreloaderRoute }
+  from './routes/progress/preloader/preloader';
+export { PreloaderDemoRoute }
+  from './routes/progress/preloader/demo';
