@@ -1,8 +1,6 @@
-'use strict';
-
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ArticleModule, ArticleHeader } from '../../Article/Article';
+import { ArticleModule, ArticleHeader } from '../../Article';
 import { PropsTable } from '../../PropsTable/PropsTable';
 import generatePropsTables from '../../PropsTable/generatePropsTables';
 
