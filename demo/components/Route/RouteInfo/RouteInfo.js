@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -7,7 +5,7 @@ import {
   ArticleLead,
   ArticleHeader,
   ArticleModule,
-} from '../../Article/Article';
+} from '../../Article';
 
 const propTypes = {
   routeTitle: PropTypes.string,
