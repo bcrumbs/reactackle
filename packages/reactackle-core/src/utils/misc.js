@@ -1,9 +1,3 @@
-/**
- * @author Dmitriy Bizyaev
- */
-
-'use strict';
-
 export const noop = () => {};
 
 export const returnNull = () => null;
@@ -22,3 +16,9 @@ export const isObject = value =>
 
 export const isValidPositiveNumberOrZero = num =>
   Number.isFinite(num) && num >= 0;
+
+export const minMax = (value, min, max) => {
+  if (value < min) return min;
+  if (value > max) return max;
+  return value;
+};

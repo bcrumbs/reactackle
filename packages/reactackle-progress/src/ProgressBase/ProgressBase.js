@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import { minMax } from 'reactackle-core';
 import PropTypes from 'prop-types';
 import Color from 'color';
 import { LabelWrapperStyled } from './styles/LabelWrapperStyled';
 import { SupplementTextStyled } from './styles/SupplementTextStyled';
 import { ValueLabelStyled } from './styles/ValueLabelStyled';
-import { minMax } from '../../../utils/misc';
 
 const propTypes = {
   /*
