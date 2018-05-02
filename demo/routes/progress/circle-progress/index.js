@@ -2,8 +2,9 @@ import React from 'react';
 import { RouteInfo, RouteProps } from '../../../components/Route/RouteStructure';
 
 // eslint-disable-next-line
-import { CircleProgress as CircleProgressCode } from '!raw-loader!../../../../packages/reactackle-progress/src/';
-
+import CircleProgressCode from '!raw-loader!../../../../packages/reactackle-progress/src/CircleProgress/CircleProgress';
+// TODO: remove next line
+console.log('CircleProgressCode', CircleProgressCode)
 const propTypes = RouteInfo.propTypes;
 
 const defaultProps = {
