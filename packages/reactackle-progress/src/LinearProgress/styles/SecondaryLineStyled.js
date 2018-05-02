@@ -1,5 +1,3 @@
-'use strict';
-
 import styled, { css } from 'styled-components';
 import { extractThemeOrDefault, getValueString } from 'reactackle-core';
 

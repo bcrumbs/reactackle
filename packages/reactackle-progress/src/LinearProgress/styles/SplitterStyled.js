@@ -1,5 +1,3 @@
-'use strict';
-
 import styled, { css, keyframes } from 'styled-components';
 import Color from 'color';
 
