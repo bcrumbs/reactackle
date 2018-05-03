@@ -1,0 +1,666 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Preloader /> renders correctly with alignX prop set to one of enum values 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw cUkVRi"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with alignY prop set to one of enum values 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw cDzipC"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with ariaValueText props set to String 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    aria-valuetext="Some aria value"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with dynamicColor props set to true 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 195, 15)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with exactProgressLabel props set to true 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="LabelWrapperStyled-eKVrkZ eBInEP"
+      >
+        <label
+          className="ValueLabelStyled-Lgqql NdteF"
+        >
+          0
+        </label>
+      </div>
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with height prop set to String 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw gWvmZs"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with indeterminate props set to true 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ fuWMLn"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+            }
+          }
+        >
+          <div
+            className="SplitterStyled-jQZnrY pPBcv"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with kind prop set to one of enum values 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with labelPositionX props set to one of enum value 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with labelPositionY props set to one of enum value 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with labelPostfix props set to String 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with max props set to Number 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="50"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with min props set to Number 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="20"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with progressLabel props set to true 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="LabelWrapperStyled-eKVrkZ eBInEP"
+      >
+        <label
+          className="ValueLabelStyled-Lgqql NdteF"
+        >
+          0%
+        </label>
+      </div>
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with secondaryProgressValue props set to Number 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with subtitle props set to String 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    aria-valuetext="Some string"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="LabelWrapperStyled-eKVrkZ eBInEP"
+      >
+        <div
+          className="SupplementTextStyled-gDaCZq NDsTy"
+        >
+          Some string
+        </div>
+      </div>
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with value props set to Number 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="2"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0.02)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with width prop set to Sring 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw dZhryn"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Preloader /> renders correctly with withSecondaryProgress props set to true 1`] = `
+<div
+  className="ProgressHolderStyled-yJPzw hPaiJb"
+  kind="linear"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    className="ProgressBoxStyled-ciJUOb enQWBS"
+    role="progressbar"
+  >
+    <div
+      className="LinearProgressStyled-bYugBt eXJaSf"
+    >
+      <div
+        className="ContentWrapperStyled-dHfVBA llocGx"
+      >
+        <div
+          className="SecondaryLineStyled-kfyfry eOWLqx"
+          style={
+            Object {
+              "backgroundColor": "rgba(33, 150, 243, 0.15000000000000002)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+        <div
+          className="PrimaryLineStyled-brPmnZ ehYOcW"
+          style={
+            Object {
+              "backgroundColor": "rgb(33, 150, 243)",
+              "transform": "scaleX(0)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
