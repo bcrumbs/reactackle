@@ -1,5 +1,9 @@
 import React from 'react';
-import { RouteInfo } from '../../../components/Route/RouteStructure';
+
+// eslint-disable-next-line
+import ProgressBaseCode from '!raw-loader!../../../../packages/reactackle-progress/src/ProgressBase/ProgressBase';
+
+import { RouteInfo, RouteProps } from '../../../components/Route/RouteStructure';
 
 const propTypes = RouteInfo.propTypes;
 const defaultProps = {
@@ -9,12 +13,17 @@ const defaultProps = {
 };
 
 export const LinearProgressIndexRoute = props => {
-  const itemProps = null;
+  const itemProps = (
+    <RouteProps
+      componentCode={ProgressBaseCode}
+    />
+  );
+
 
   return (
     <div className="route-info">
       <RouteInfo {...props}>
-        
+        {itemProps}
       </RouteInfo>
     </div>
   );

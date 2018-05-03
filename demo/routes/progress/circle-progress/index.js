@@ -3,6 +3,9 @@ import { RouteInfo, RouteProps } from '../../../components/Route/RouteStructure'
 
 // eslint-disable-next-line
 import CircleProgressCode from '!raw-loader!../../../../packages/reactackle-progress/src/CircleProgress/CircleProgress';
+// eslint-disable-next-line
+import ProgressBaseCode from '!raw-loader!../../../../packages/reactackle-progress/src/ProgressBase/ProgressBase';
+
 const propTypes = RouteInfo.propTypes;
 
 const defaultProps = {
@@ -13,9 +16,16 @@ const defaultProps = {
 
 export const CircleProgressIndexRoute = props => {
   const itemProps = (
-    <RouteProps
+    [
+      <RouteProps
+        key='progress-base'
+        componentCode={ProgressBaseCode}
+      />,
+      <RouteProps
+      key='circle-progress'
       componentCode={CircleProgressCode}
-    />
+    />,
+    ]
   );
 
   return (

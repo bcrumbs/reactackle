@@ -1,5 +1,10 @@
 import React from 'react';
-import { Preloader } from 'reactackle';
+
+// eslint-disable-next-line
+import PreloaderCode from '!raw-loader!../../../../packages/reactackle-progress/src/Preloader/Preloader';
+
+// eslint-disable-next-line
+import ProgressBaseCode from '!raw-loader!../../../../packages/reactackle-progress/src/ProgressBase/ProgressBase';
 
 import {
   RouteInfo,
@@ -14,8 +19,18 @@ const defaultProps = {
 };
 
 export const PreloaderIndexRoute = props => {
-  const itemProps = null;
-
+  const itemProps = (
+    [
+      <RouteProps
+        key='progress-base'
+        componentCode={ProgressBaseCode}
+      />,
+      <RouteProps
+        key='preloader'
+        componentCode={PreloaderCode}
+      />,
+    ]
+  );
 
   return (
     <div className="route-info">

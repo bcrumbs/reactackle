@@ -90,7 +90,7 @@ const defaultProps = {
 const normalizeValue = (value, min, max) =>
   (minMax(value, min, max) - min) / (max - min);
 
-export class ProgressBase extends Component {
+ export class ProgressBase extends Component {
   _getNormalizedProgress() {
     const { value, min, max } = this.props;
     
@@ -220,6 +220,9 @@ export class ProgressBase extends Component {
         {this._renderSubtitle(progressType)}
       </LabelWrapperStyled>
     );
+  }
+  render() {
+    return null;
   }
 }
 
