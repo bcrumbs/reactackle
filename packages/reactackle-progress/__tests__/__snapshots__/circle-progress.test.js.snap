@@ -1,0 +1,808 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleProgress /> renders correctly with ariaValueText props set to String 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  aria-valuetext="Some aria value"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with default props 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with dynamicColor props set to true 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(255, 195, 15)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with exactProgressLabel props set to true 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled-eKVrkZ eBInEP"
+  >
+    <label
+      className="ValueLabelStyled-Lgqql NdteF"
+    >
+      0
+    </label>
+  </div>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with indeterminate props set to true 1`] = `
+<div
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf kMGYzo"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ iqOOuI"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeLinecap": "round",
+              "strokeLinejoin": "round",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with labelPositionX props set to one of enum value 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with labelPositionY props set to one of enum value 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with labelPostfix props set to String 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with max props set to Number 1`] = `
+<div
+  aria-valuemax="50"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with min props set to Number 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="20"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with progressLabel props set to true 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled-eKVrkZ eBInEP"
+  >
+    <label
+      className="ValueLabelStyled-Lgqql NdteF"
+    >
+      0%
+    </label>
+  </div>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with secondaryProgressValue props set to Number 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with strokeSize props set to Number 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn defhCW"
+          cx={50}
+          cy={50}
+          r={49.5}
+          style={
+            Object {
+              "strokeDasharray": "311.01767270538954 311.01767270538954",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ krDoOP"
+          cx={50}
+          cy={50}
+          r={49.5}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 311.01767270538954",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with subtitle props set to String 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  aria-valuetext="Some string"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="LabelWrapperStyled-eKVrkZ eBInEP"
+  >
+    <div
+      className="SupplementTextStyled-gDaCZq NDsTy"
+    >
+      Some string
+    </div>
+  </div>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with value props set to Number 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="2"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "5.654866776461628 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CircleProgress /> renders correctly with withSecondaryProgress props set to true 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  className="ProgressBoxStyled-ciJUOb enQWBS"
+  role="progressbar"
+>
+  <div
+    className="ContentWrapperStyled-dHfVBA geiteA"
+  >
+    <div
+      className="CircleWrapperStyled-eyIbTS eiRkXJ"
+    >
+      <svg
+        className="CircleBoxStyled-iLqbdf lkmHgu"
+        shapeRendering="geometricPrecision"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          className="BgLineStyled-jmryzn gHNFRr"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "strokeDasharray": "282.7433388230814 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="SecondaryLineStyled-kfyfry gTFkmJ"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgba(33, 150, 243, 0.15000000000000002)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+        <circle
+          className="PrimaryLineStyled-brPmnZ ldaCXR"
+          cx={50}
+          cy={50}
+          r={45}
+          style={
+            Object {
+              "stroke": "rgb(33, 150, 243)",
+              "strokeDasharray": "0 282.7433388230814",
+            }
+          }
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
