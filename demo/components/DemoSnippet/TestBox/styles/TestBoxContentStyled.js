@@ -42,7 +42,7 @@ const padding = ({ padding }) =>
   padding ? css`padding: ${baseModule(2)}px;` : 'padding: 0;';
 
 const contentSpaced = ({ contentSpaced }) =>
-  contentSpaced ? css`& > * { margin: ${baseModule(0.25)}px;}` : '';
+  contentSpaced ? css`& > * { margin: ${baseModule(1)}px;}` : '';
 
 /** STYLES */
 export const TestBoxContentStyled = styled.div`
