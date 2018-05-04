@@ -7,56 +7,56 @@ import { SupplementTextStyled } from './styles/SupplementTextStyled';
 import { ValueLabelStyled } from './styles/ValueLabelStyled';
 
 const propTypes = {
-  /*
+  /**
    * Progress line will change its colour accordingly to progress
    */
   dynamicColor: PropTypes.bool,
-  /*
+  /**
    * Specifies progress mode. Indeterminate one doesn't have value.
    */
   indeterminate: PropTypes.bool,
-  /*
+  /**
    * Specifies max value to calculate progress from
    */
   max: PropTypes.number,
-  /*
+  /**
    * Specifies min value to calculate progress from
    */
   min: PropTypes.number,
-  /*
+  /**
    * Specifies current value to calculate progress from
    */
   value: PropTypes.number,
-  /*
+  /**
    * Shows a progress label with the exact value (=shows this.props.value)
    * Has priority over progressLabel
    */
   exactProgressLabel: PropTypes.bool,
-  /*
+  /**
    * Show postfix after exact progress label
    */
   labelPostfix: PropTypes.string,
-  /*
+  /**
    * Shows a progress label with the percentage value
    */
   progressLabel: PropTypes.bool,
-  /*
+  /**
    * Set text align for progress label
    */
   labelPositionX: PropTypes.oneOf(['left', 'center', 'right']),
-  /*
+  /**
    * Set label position. "Center" is valid for circle progress only.
    */
   labelPositionY: PropTypes.oneOf(['top', 'center', 'bottom']),
-  /*
+  /**
    * Set subtitle for progress label
    */
   subtitle: PropTypes.string,
-  /*
+  /**
    * Add secondary progress line
    */
   withSecondaryProgress: PropTypes.bool, // eslint-disable-line react/no-unused-prop-types
-  /*
+  /**
    * Value for secondary progress
    */
   secondaryProgressValue: PropTypes.number,

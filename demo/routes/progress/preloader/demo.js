@@ -22,6 +22,7 @@ export const PreloaderDemoRoute = () => (
           kind="linear"
           labelAlign="center"
           subtitle="Loading..."
+          indeterminate
         />
       </DemoPreview>
       <DemoCode
@@ -31,7 +32,7 @@ export const PreloaderDemoRoute = () => (
 
     <DemoSnippet title="Circle preloader">
       <DemoPreview>
-        <Preloader kind="circle" />
+        <Preloader kind="circle" indeterminate height={150} />
       </DemoPreview>
       <DemoCode
         code={Snippet2}

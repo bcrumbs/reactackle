@@ -13,10 +13,6 @@ import { PrimaryLineStyled } from './styles/PrimaryLineStyled';
 const propTypes = {
   ...ProgressBase.propTypes,
   /**
-   * Label Position X
-   */
-  labelPositionX: PropTypes.string,
-  /**
    * Set circle diameter
    */
   circleSize: PropTypes.number,
@@ -28,7 +24,6 @@ const propTypes = {
 
 const defaultProps = {
   ...ProgressBase.defaultProps,
-  labelPositionX: 'center',
   circleSize: 0,
   strokeSize: 0,
 };

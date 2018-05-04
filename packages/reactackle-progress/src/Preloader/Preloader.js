@@ -8,23 +8,23 @@ import { ProgressHolderStyled } from './styles/ProgressHolderStyled';
 const propTypes = {
   ...LinearProgress.propTypes,
   ...CircleProgress.propTypes,
-  /*
+  /**
   * Kind of loader, used for styling
   */
   kind: PropTypes.oneOf(['linear', 'circle']).isRequired,
-  /*
+  /**
    * Width of the Preloader
    */
   width: PropTypes.string,
-  /*
+  /**
    * height of the Preloader
    */
   height: PropTypes.string,
-  /*
+  /**
    * Content horizontal align
    */
   alignX: PropTypes.oneOf(['left', 'center', 'right']),
-  /*
+  /**
    * Content vertical align
    */
   alignY: PropTypes.oneOf(['top', 'bottom', 'center']),

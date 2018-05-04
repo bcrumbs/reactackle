@@ -22,13 +22,15 @@ export const PreloaderIndexRoute = props => {
   const itemProps = (
     [
       <RouteProps
-        key='progress-base'
-        componentCode={ProgressBaseCode}
-      />,
-      <RouteProps
         key='preloader'
         componentCode={PreloaderCode}
       />,
+      <RouteProps
+        title="Common Progress Component props"
+        key='progress-base'
+        componentCode={ProgressBaseCode}
+      />,
+
     ]
   );
 

@@ -18,13 +18,15 @@ export const CircleProgressIndexRoute = props => {
   const itemProps = (
     [
       <RouteProps
+        title="Common Progress Component props"
         key='progress-base'
         componentCode={ProgressBaseCode}
       />,
       <RouteProps
-      key='circle-progress'
-      componentCode={CircleProgressCode}
-    />,
+        title="CircleProgress props"
+        key='circle-progress'
+        componentCode={CircleProgressCode}
+      />,
     ]
   );
 
