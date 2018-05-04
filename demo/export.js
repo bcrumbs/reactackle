@@ -154,10 +154,6 @@ export { TooltipIconRoute }
  from './routes/tooltip-icon/tooltip-icon';
 export { TooltipIconDemoRoute }
  from './routes/tooltip-icon/demo';
- export { ProgressIndexRoute }
- from './routes/progress';
-export { ProgressRoute }
- from './routes/progress/progress';
 export { CircleProgressIndexRoute }
  from './routes/progress/circle-progress';
 export { CircleProgressRoute }
