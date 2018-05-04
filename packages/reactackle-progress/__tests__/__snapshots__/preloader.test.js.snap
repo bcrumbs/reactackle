@@ -149,7 +149,7 @@ exports[`<Preloader /> renders correctly with exactProgressLabel props set to tr
       className="LinearProgressStyled-bYugBt eXJaSf"
     >
       <div
-        className="LabelWrapperStyled-eKVrkZ eBInEP"
+        className="LabelWrapperStyled-eKVrkZ cMhIgn"
       >
         <label
           className="ValueLabelStyled-Lgqql NdteF"
@@ -455,7 +455,7 @@ exports[`<Preloader /> renders correctly with progressLabel props set to true 1`
       className="LinearProgressStyled-bYugBt eXJaSf"
     >
       <div
-        className="LabelWrapperStyled-eKVrkZ eBInEP"
+        className="LabelWrapperStyled-eKVrkZ cMhIgn"
       >
         <label
           className="ValueLabelStyled-Lgqql NdteF"
@@ -531,7 +531,7 @@ exports[`<Preloader /> renders correctly with subtitle props set to String 1`] =
       className="LinearProgressStyled-bYugBt eXJaSf"
     >
       <div
-        className="LabelWrapperStyled-eKVrkZ eBInEP"
+        className="LabelWrapperStyled-eKVrkZ cMhIgn"
       >
         <div
           className="SupplementTextStyled-gDaCZq NDsTy"

@@ -154,7 +154,7 @@ exports[`<CircleProgress /> renders correctly with exactProgressLabel props set 
   role="progressbar"
 >
   <div
-    className="LabelWrapperStyled-eKVrkZ eBInEP"
+    className="LabelWrapperStyled-eKVrkZ cMhIgn"
   >
     <label
       className="ValueLabelStyled-Lgqql NdteF"
@@ -497,7 +497,7 @@ exports[`<CircleProgress /> renders correctly with progressLabel props set to tr
   role="progressbar"
 >
   <div
-    className="LabelWrapperStyled-eKVrkZ eBInEP"
+    className="LabelWrapperStyled-eKVrkZ cMhIgn"
   >
     <label
       className="ValueLabelStyled-Lgqql NdteF"
@@ -651,7 +651,7 @@ exports[`<CircleProgress /> renders correctly with subtitle props set to String 
   role="progressbar"
 >
   <div
-    className="LabelWrapperStyled-eKVrkZ eBInEP"
+    className="LabelWrapperStyled-eKVrkZ cMhIgn"
   >
     <div
       className="SupplementTextStyled-gDaCZq NDsTy"
