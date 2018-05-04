@@ -2091,7 +2091,6 @@ exports[`<TextField/> handles focus textarea autosize 1`] = `
                       focus={false}
                       fullWidth={false}
                       id="TextField_132"
-                      inputRef={[Function]}
                       maxRows={4}
                       minRows={2}
                       onBlur={[Function]}
@@ -2116,7 +2115,6 @@ exports[`<TextField/> handles focus textarea autosize 1`] = `
                         focus={false}
                         fullWidth={false}
                         id="TextField_132"
-                        inputRef={[Function]}
                         maxRows={4}
                         minRows={2}
                         onBlur={[Function]}
@@ -2161,7 +2159,7 @@ exports[`<TextField/> handles focus textarea autosize 1`] = `
                             resize="auto"
                             style={
                               Object {
-                                "height": 0,
+                                "height": -16,
                               }
                             }
                             type="text"
