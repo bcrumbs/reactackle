@@ -27,7 +27,7 @@ const propTypes = {
   /*
    * Define icon component
    */
-  icon: PropTypes.element,
+  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
   /*
    * Tag text
    */
@@ -117,11 +117,16 @@ const TagComponent = ({
     </RemoveIconStyled>
   );
 
-  const iconElement = icon && (
-    <IconStyled iconColor={iconColor}>
-      {icon}
-    </IconStyled>
-  );
+  let iconElement = null;
+
+  if (icon) {
+    if (typeof icon === "function") {
+      const Icon = icon;
+      iconElement = <IconStyled iconColor={iconColor}><Icon /></IconStyled>;
+    } else {
+      iconElement = <IconStyled iconColor={iconColor}>{icon}</IconStyled>;
+    }
+  }
   
   const wrapperProps = {
     onClick: props.toggleTooltip,
