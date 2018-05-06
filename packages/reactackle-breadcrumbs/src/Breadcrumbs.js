@@ -17,38 +17,38 @@ import {
 registerDefaultComponentTheme('breadcrumbs', componentTheme);
 
 const propTypes = {
-  /*
+  /**
    * Array of breadcrumbs items
    */
   items: PropTypes.arrayOf(BreadcrumbsItem).isRequired,
-  /*
+  /**
    * If true, breadcrumbs will become scrollable to fit wrapper width
    */
   overflow: PropTypes.bool,
-  /*
+  /**
    * Component to be used as a link in BreadcrumbItem
    */
   linkComponent: PropTypes.func,
-  /*
+  /**
    * Define component's color scheme
    */
   colorScheme: PropTypes.oneOf(['light', 'dark']),
-  /*
+  /**
    * Vertical align of items
    */
   alignItems: PropTypes.oneOf(['top', 'center', 'bottom']),
-  /*
+  /**
    * Type of separator between items
    */
   separatorType: PropTypes.oneOf(['text', 'icon']),
-  /*
+  /**
    * Define separator
    */
   separatorIcon: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.element,
   ]),
-  /*
+  /**
    * Function to be used on item's click
    */
   onItemClick: PropTypes.func,

@@ -27,46 +27,46 @@ const MenuItemType =
   });
 
 const propTypes = {
-  /*
+  /**
    * Define component's color scheme
    */
   colorScheme: PropTypes.oneOf(['light', 'dark']),
-  /*
+  /**
    * Item index
    */
   index: PropTypes.number,
-  /*
+  /**
    * Adds home icon
    */
   home: PropTypes.bool,
-  /*
+  /**
    * Item's title
    */
   title: PropTypes.string,
-  /*
+  /**
    * Item's subtitle
    */
   subtitle: PropTypes.string,
-  /*
+  /**
    * Define separator
    */
   separatorIcon: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.element,
   ]),
-  /*
+  /**
    * Item's href
    */
   itemHref: PropTypes.string,
-  /*
+  /**
    * Active item isn't clickable and have special appearance
    */
   isActive: PropTypes.bool,
-  /*
+  /**
    * Component to be used as a link
    */
   linkComponent: PropTypes.func,
-  /*
+  /**
    * Content's vertical align
    */
   alignItems: PropTypes.oneOf(['top', 'center', 'bottom']),
@@ -76,7 +76,7 @@ const propTypes = {
     type: PropTypes.func,
     data: PropTypes.arrayOf(MenuItemType),
   })),
-  /*
+  /**
    * ariaCurrentValue value
    */
   ariaCurrentValue: PropTypes.string,
