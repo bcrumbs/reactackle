@@ -103,8 +103,8 @@ const TagComponent = ({
   children,
   ...props
 }) => {
-  const tooltip = tooltipText && <props.Tooltip text={props.tooltipText} />;
-
+  const tooltip = tooltipText && <props.Tooltip text={tooltipText} />;
+  
   const textElement = text && (
     <TextStyled isBounded={bounded} title={text}>
       {text}
