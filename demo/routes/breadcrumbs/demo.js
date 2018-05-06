@@ -37,7 +37,6 @@ export const BreadcrumbsDemoRoute = () => (
         <Breadcrumbs
           colorScheme="dark"
           items={SAMPLE_LIST}
-          separatorIcon={<IconSvg />}
           separatorType="icon"
         />
       </DemoPreview>

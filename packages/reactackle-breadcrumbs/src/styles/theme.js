@@ -180,10 +180,10 @@ export default {
 
       colorScheme: {
         dark: {
-          color: bodyFontColor,
+          color: 'currentColor',
         },
         light: {
-          color: bodyFontColorAlt,
+          color: 'currentColor',
         },
       },
     },

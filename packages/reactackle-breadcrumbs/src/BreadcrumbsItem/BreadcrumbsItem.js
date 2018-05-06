@@ -92,7 +92,7 @@ const defaultProps = {
   home: false,
   title: '',
   subtitle: '',
-  separatorIcon: <IconArrowChevronRight size="custom" color="inherit" />,
+  separatorIcon: <IconArrowChevronRight size="custom" color="currentColor" />,
   itemHref: '#',
   isActive: false,
   linkComponent: null,
@@ -179,6 +179,7 @@ class BreadcrumbsItem extends Component {
     return (
       <BreadcrumbsItemStyled
         innerRef={this._createElementRef}
+        colorScheme={colorScheme}
       >
         <AnchorElement
           href={itemHref}

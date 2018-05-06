@@ -13,6 +13,17 @@ const size = ({ theme: themeFromProvider }) => {
   `;
 };
 
+const colorScheme = ({ colorScheme, theme: themeFromProvider }) => {
+  const theme = extractThemeOrDefault(themeFromProvider);
+
+  const { color } = theme.reactackle.components.breadcrumbs.item
+    .colorScheme[colorScheme].default;
+
+  return `
+    color: ${color};
+  `;
+};
+
 export const BreadcrumbsItemStyled = styled.li`
   display: flex;
   align-items: center;
@@ -21,4 +32,5 @@ export const BreadcrumbsItemStyled = styled.li`
   position: relative;
   user-select: none;
   ${size}
+  ${colorScheme}
 `;
