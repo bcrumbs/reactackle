@@ -13,7 +13,7 @@ import SnippetDefault from './snippets/1.snippet';
 import SnippetOverflow from './snippets/2.snippet';
 import SnippetColor from './snippets/3.snippet';
 import SnippetSeparator from './snippets/4.snippet';
-import { IconSvg } from '../../../packages/reactackle-icons/dist/IconSvg';
+
 
 const SAMPLE_LIST = [
   {
