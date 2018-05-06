@@ -20,7 +20,8 @@ const propTypes = {
   /**
    * Array of breadcrumbs items
    */
-  items: PropTypes.arrayOf(BreadcrumbsItem).isRequired,
+  items: PropTypes.arrayOf(PropTypes.shape(BreadcrumbsItem.propTypes))
+    .isRequired,
   /**
    * If true, breadcrumbs will become scrollable to fit wrapper width
    */
