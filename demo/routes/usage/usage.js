@@ -31,7 +31,7 @@ export const UsageRoute = () => (
     <RouteInfo
       routeTitle="Getting Started"
     >
-      <ArticleModule>
+      {/* <ArticleModule>
         <ArticleHeader>Using npm or yarn</ArticleHeader>
         <CodeBox language="bash" code={InstallNPM} />
         <CodeBox language="bash" code={InstallYarn} />
@@ -45,7 +45,7 @@ export const UsageRoute = () => (
         <CodeBox code={ImportGlobal} />
         <ArticleHeader>Basic app structure</ArticleHeader>
         <CodeBox code={BasicApp} />
-      </ArticleModule>
+      </ArticleModule> */}
     </RouteInfo>
   </RouteStructure>
 );
