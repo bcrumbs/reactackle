@@ -39,6 +39,7 @@ const colorScheme = ({ colorScheme, theme: themeFromProvider }) => {
   return `
     opacity: ${path.opacity};
     color: ${path.colorScheme[colorScheme].color};
+    fill: ${path.colorScheme[colorScheme].color};
   `;
 };
 

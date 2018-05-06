@@ -34,11 +34,11 @@ const state = ({ active, theme: themeFromProvider }) => {
   return css`
     text-decoration: ${textDecoration};
     
-    li:hover & {
+    li > *:hover & {
       text-decoration: ${hoverTD};
     }
     
-    li:focus & {
+    li > *:focus & {
       text-decoration: ${path.focus.textDecoration || hoverTD};    
     }
   `;

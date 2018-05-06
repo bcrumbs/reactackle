@@ -36,7 +36,10 @@ const colorProps = ({ theme: themeFromProvider, customColor, colorScheme }) => {
   const colorSource = customColor || iconTheme.color[colorScheme];
 
   return `
-    svg { fill: ${colorSource}; }
+    svg,
+    svg * {
+      fill: ${colorSource};
+    }
   `;
 };
 
@@ -50,6 +53,7 @@ const IconSvgStyled = styled.div`
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
+    fill: currentColor;
   }
   
   ${sizeProps};
