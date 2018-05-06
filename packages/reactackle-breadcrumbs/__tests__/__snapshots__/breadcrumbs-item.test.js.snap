@@ -2,7 +2,7 @@
 
 exports[`<BreadcrumbsItem /> renders correctly with alignItems set to one from enum 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy czntvi"
@@ -13,7 +13,7 @@ exports[`<BreadcrumbsItem /> renders correctly with alignItems set to one from e
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -21,10 +21,10 @@ exports[`<BreadcrumbsItem /> renders correctly with alignItems set to one from e
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -43,7 +43,7 @@ exports[`<BreadcrumbsItem /> renders correctly with alignItems set to one from e
 
 exports[`<BreadcrumbsItem /> renders correctly with ariaCurrentValue set to string 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -54,7 +54,7 @@ exports[`<BreadcrumbsItem /> renders correctly with ariaCurrentValue set to stri
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -62,10 +62,10 @@ exports[`<BreadcrumbsItem /> renders correctly with ariaCurrentValue set to stri
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -84,7 +84,7 @@ exports[`<BreadcrumbsItem /> renders correctly with ariaCurrentValue set to stri
 
 exports[`<BreadcrumbsItem /> renders correctly with colorScheme prop set to one from emum 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX cODncM"
 >
   <a
     className="AnchorStyled-cEwrfy eRIuAc"
@@ -95,7 +95,7 @@ exports[`<BreadcrumbsItem /> renders correctly with colorScheme prop set to one 
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -103,10 +103,10 @@ exports[`<BreadcrumbsItem /> renders correctly with colorScheme prop set to one 
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD ixMEwc"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -125,7 +125,7 @@ exports[`<BreadcrumbsItem /> renders correctly with colorScheme prop set to one 
 
 exports[`<BreadcrumbsItem /> renders correctly with default props 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -136,7 +136,7 @@ exports[`<BreadcrumbsItem /> renders correctly with default props 1`] = `
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -144,10 +144,10 @@ exports[`<BreadcrumbsItem /> renders correctly with default props 1`] = `
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -166,7 +166,7 @@ exports[`<BreadcrumbsItem /> renders correctly with default props 1`] = `
 
 exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -188,10 +188,6 @@ exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
           <path
             d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
           />
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
         </svg>
       </div>
     </div>
@@ -199,7 +195,7 @@ exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -207,10 +203,10 @@ exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -229,7 +225,7 @@ exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
 
 exports[`<BreadcrumbsItem /> renders correctly with index set to number 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -240,7 +236,7 @@ exports[`<BreadcrumbsItem /> renders correctly with index set to number 1`] = `
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -248,10 +244,10 @@ exports[`<BreadcrumbsItem /> renders correctly with index set to number 1`] = `
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -270,7 +266,7 @@ exports[`<BreadcrumbsItem /> renders correctly with index set to number 1`] = `
 
 exports[`<BreadcrumbsItem /> renders correctly with isActive set to true 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     aria-current="item"
@@ -282,7 +278,7 @@ exports[`<BreadcrumbsItem /> renders correctly with isActive set to true 1`] = `
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD bemCBk"
+        className="TitleStyled-kOmUSD kkUgKJ"
       >
         
       </div>
@@ -290,10 +286,10 @@ exports[`<BreadcrumbsItem /> renders correctly with isActive set to true 1`] = `
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -312,7 +308,7 @@ exports[`<BreadcrumbsItem /> renders correctly with isActive set to true 1`] = `
 
 exports[`<BreadcrumbsItem /> renders correctly with itemHref set to string 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -323,7 +319,7 @@ exports[`<BreadcrumbsItem /> renders correctly with itemHref set to string 1`] =
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -331,10 +327,10 @@ exports[`<BreadcrumbsItem /> renders correctly with itemHref set to string 1`] =
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -353,7 +349,7 @@ exports[`<BreadcrumbsItem /> renders correctly with itemHref set to string 1`] =
 
 exports[`<BreadcrumbsItem /> renders correctly with separatorIcon set to <IconSVG /> 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -364,7 +360,7 @@ exports[`<BreadcrumbsItem /> renders correctly with separatorIcon set to <IconSV
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -372,7 +368,7 @@ exports[`<BreadcrumbsItem /> renders correctly with separatorIcon set to <IconSV
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
       className="IconSvgStyled-cegYAl iSGIaX"
@@ -395,7 +391,7 @@ exports[`<BreadcrumbsItem /> renders correctly with separatorIcon set to <IconSV
 
 exports[`<BreadcrumbsItem /> renders correctly with subtitle set to string 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -406,7 +402,7 @@ exports[`<BreadcrumbsItem /> renders correctly with subtitle set to string 1`] =
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         
       </div>
@@ -418,10 +414,10 @@ exports[`<BreadcrumbsItem /> renders correctly with subtitle set to string 1`] =
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"
@@ -440,7 +436,7 @@ exports[`<BreadcrumbsItem /> renders correctly with subtitle set to string 1`] =
 
 exports[`<BreadcrumbsItem /> renders correctly with title set to string 1`] = `
 <li
-  className="BreadcrumbsItemStyled-gqfHBX ebSbzA"
+  className="BreadcrumbsItemStyled-gqfHBX exhQAI"
 >
   <a
     className="AnchorStyled-cEwrfy dRcSOF"
@@ -451,7 +447,7 @@ exports[`<BreadcrumbsItem /> renders correctly with title set to string 1`] = `
       className="TextBoxStyled-imlyyE izNZWH"
     >
       <div
-        className="TitleStyled-kOmUSD jLkTTZ"
+        className="TitleStyled-kOmUSD fhkJcA"
       >
         Hello
       </div>
@@ -459,10 +455,10 @@ exports[`<BreadcrumbsItem /> renders correctly with title set to string 1`] = `
     </div>
   </a>
   <div
-    className="SeparatorStyled-ksvBLD dCpRHn"
+    className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl fddBCv"
       color=""
       rotate={0}
       size="normal"

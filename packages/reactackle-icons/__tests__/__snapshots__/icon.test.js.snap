@@ -177,13 +177,12 @@ exports[`<IconCustom/> renders correctly with props border, borderWidth, rounded
 
 exports[`<IconSvg/> renders correctly with border prop 1`] = `
 <div
-  className="IconSvgStyled-cegYAl jPnrjO"
+  className="IconSvgStyled-cegYAl kLyymC"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -195,7 +194,7 @@ exports[`<IconSvg/> renders correctly with border prop 1`] = `
 
 exports[`<IconSvg/> renders correctly with children prop 1`] = `
 <div
-  className="IconSvgStyled-cegYAl iSGIaX"
+  className="IconSvgStyled-cegYAl tgtsk"
   color=""
   rotate={0}
   size="normal"
@@ -213,13 +212,12 @@ exports[`<IconSvg/> renders correctly with children prop 1`] = `
 
 exports[`<IconSvg/> renders correctly with default props 1`] = `
 <div
-  className="IconSvgStyled-cegYAl iSGIaX"
+  className="IconSvgStyled-cegYAl tgtsk"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -231,13 +229,12 @@ exports[`<IconSvg/> renders correctly with default props 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop backgroundColor 1`] = `
 <div
-  className="IconSvgStyled-cegYAl gjNiJT"
+  className="IconSvgStyled-cegYAl hEpogW"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -249,13 +246,12 @@ exports[`<IconSvg/> renders correctly with prop backgroundColor 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop color 1`] = `
 <div
-  className="IconSvgStyled-cegYAl iuWpKH"
+  className="IconSvgStyled-cegYAl cwycqw"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -267,13 +263,12 @@ exports[`<IconSvg/> renders correctly with prop color 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop colorScheme=light 1`] = `
 <div
-  className="IconSvgStyled-cegYAl iijosW"
+  className="IconSvgStyled-cegYAl fcsXIR"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -285,13 +280,12 @@ exports[`<IconSvg/> renders correctly with prop colorScheme=light 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop flip=horizontal 1`] = `
 <div
-  className="IconSvgStyled-cegYAl irVQHA"
+  className="IconSvgStyled-cegYAl eFjFkQ"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -303,13 +297,12 @@ exports[`<IconSvg/> renders correctly with prop flip=horizontal 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop flip=vertical 1`] = `
 <div
-  className="IconSvgStyled-cegYAl xHBzj"
+  className="IconSvgStyled-cegYAl ieOJUs"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -321,13 +314,12 @@ exports[`<IconSvg/> renders correctly with prop flip=vertical 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop rotate 1`] = `
 <div
-  className="IconSvgStyled-cegYAl gMLYph"
+  className="IconSvgStyled-cegYAl exKPzp"
   color=""
   rotate={45}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -339,13 +331,12 @@ exports[`<IconSvg/> renders correctly with prop rotate 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop size=large 1`] = `
 <div
-  className="IconSvgStyled-cegYAl jwAcJo"
+  className="IconSvgStyled-cegYAl hyyWYY"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -357,13 +348,12 @@ exports[`<IconSvg/> renders correctly with prop size=large 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop size=small 1`] = `
 <div
-  className="IconSvgStyled-cegYAl cDbdSl"
+  className="IconSvgStyled-cegYAl exbcZc"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -375,13 +365,12 @@ exports[`<IconSvg/> renders correctly with prop size=small 1`] = `
 
 exports[`<IconSvg/> renders correctly with prop size=xlarge 1`] = `
 <div
-  className="IconSvgStyled-cegYAl bCmVff"
+  className="IconSvgStyled-cegYAl kjsCuM"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -393,13 +382,12 @@ exports[`<IconSvg/> renders correctly with prop size=xlarge 1`] = `
 
 exports[`<IconSvg/> renders correctly with props backgroundColor and color 1`] = `
 <div
-  className="IconSvgStyled-cegYAl cPoKTo"
+  className="IconSvgStyled-cegYAl jXuEqx"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -411,13 +399,12 @@ exports[`<IconSvg/> renders correctly with props backgroundColor and color 1`] =
 
 exports[`<IconSvg/> renders correctly with props border and borderWidth 1`] = `
 <div
-  className="IconSvgStyled-cegYAl jWYcWK"
+  className="IconSvgStyled-cegYAl jsgYDS"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -429,13 +416,12 @@ exports[`<IconSvg/> renders correctly with props border and borderWidth 1`] = `
 
 exports[`<IconSvg/> renders correctly with props border and rounded 1`] = `
 <div
-  className="IconSvgStyled-cegYAl fWKnaw"
+  className="IconSvgStyled-cegYAl cdtrWv"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -447,13 +433,12 @@ exports[`<IconSvg/> renders correctly with props border and rounded 1`] = `
 
 exports[`<IconSvg/> renders correctly with props border, borderWidth, rounded 1`] = `
 <div
-  className="IconSvgStyled-cegYAl khjaea"
+  className="IconSvgStyled-cegYAl kSKgMD"
   color=""
   rotate={0}
   size="normal"
 >
   <svg
-    preserveAspectRatio="xMidYMid meet"
     viewBox="0 0 24 24"
   >
     <path
@@ -468,13 +453,12 @@ exports[`<IconSvg/> renders correctly with props size=custom 1`] = `
   className="icontest__TestWrapper-cuAJtl inIUTF"
 >
   <div
-    className="IconSvgStyled-cegYAl fddBCv"
+    className="IconSvgStyled-cegYAl gxFYyV"
     color=""
     rotate={0}
     size="normal"
   >
     <svg
-      preserveAspectRatio="xMidYMid meet"
       viewBox="0 0 24 24"
     >
       <path
