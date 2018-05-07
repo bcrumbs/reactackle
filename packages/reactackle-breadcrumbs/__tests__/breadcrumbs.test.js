@@ -1,15 +1,20 @@
 import React from 'react';
+import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
+import toJson from 'enzyme-to-json';
 import { IconSvg } from 'reactackle-icons';
 import { Breadcrumbs } from '../src';
 
 jest.mock('react-dom');
 
 const rendererOptions = {
-  createNodeMock() {
-    return {
-      addEventListener() {},
-    };
+  createNodeMock(element) {
+    if (element.type === 'li' || element.type === 'ol') {
+      return {
+        addEventListener() {},
+      };
+    }
+    return null;
   },
 };
 
@@ -50,11 +55,114 @@ describe('<Breadcrumbs />', () => {
   });
 
   it('must render with overflow prop set to true', () => {
-    const component = renderer.create(
-      <Breadcrumbs overflow items={items} />,
+    const component = mount(
+      <Breadcrumbs
+        overflow
+        items={[
+          {
+            title: 'Index',
+            home: true,
+            itemHref: 'index',
+          },
+          {
+            title: 'Catalog',
+            subtitle: 'Catalog subtitle',
+            itemHref: 'catalog',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+          },
+          {
+            title: 'Item',
+            itemHref: 'item',
+            isActive: true,
+          },
+        ]}
+      />,
       rendererOptions,
     );
-    expect(component.toJSON()).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('must render with separatorType prop set to text', () => {
