@@ -15,48 +15,48 @@ import {
 
 registerDefaultComponentTheme('tag', componentTheme);
 
-/*
+/**
  * Combined with tooltip
  */
 
 const propTypes = {
-  /*
+  /**
    * Bounded tag has max width, long text may be cut
    */
   bounded: PropTypes.bool,
-  /*
+  /**
    * Define icon component
    */
   icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
-  /*
+  /**
    * Tag text
    */
   text: PropTypes.string,
-  /*
+  /**
    * Tooltip text
    */
   tooltipText: PropTypes.string,
-  /*
+  /**
    * Redefines background color
    */
   bgColor: PropTypes.string,
-  /*
+  /**
    * Redefines text color
    */
   textColor: PropTypes.string,
-  /*
+  /**
    * Redefines icon color
    */
   iconColor: PropTypes.string,
-  /*
+  /**
    * Adds remove button
    */
   removable: PropTypes.bool,
-  /*
+  /**
    * Remove Icon
    */
   iconRemove: PropTypes.element,
-  /*
+  /**
    * Function to be called in remove button click
    */
   onRemove: PropTypes.func,
@@ -90,7 +90,7 @@ const defaultProps = {
   hideTooltip: noop,
 };
 
-const TagComponent = ({
+export const TagComponent = ({
   bounded,
   removable,
   icon,

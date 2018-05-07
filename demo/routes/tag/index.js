@@ -10,14 +10,12 @@ const defaultProps = {
   routeTitle: 'Tag',
 };
 
-const itemProps = null
-
-// const itemProps = (
-//   <RouteProps
-//     componentCode={TagCode}
-//     title="Tabs Props"
-//   />
-// );
+const itemProps = (
+  <RouteProps
+    componentCode={TagCode}
+    title="Tag Props"
+  />
+);
 
 export const TagIndexRoute = props => (
   <div className="route-info">
