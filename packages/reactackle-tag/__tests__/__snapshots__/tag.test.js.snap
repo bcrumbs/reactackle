@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag /> renders correctly with bgColor prop set to red 1`] = `
+<div
+  className="TagStyled-dxhDsf gbJpRz"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI bPGsom"
+  >
+    
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with bounded prop set to true 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI giaxec"
+  >
+    
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with default props 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI bPGsom"
+  >
+    
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with icon prop set to <IconSvg /> 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="IconStyled-bPbExM kwdUPZ"
+  >
+    <div
+      className="IconSvgStyled-cegYAl iSGIaX"
+      color=""
+      rotate={0}
+      size="normal"
+    >
+      <svg
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+        />
+      </svg>
+    </div>
+  </span>
+  <span
+    className="ContentStyled-dbeIsI ckvEZg"
+  >
+    
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with icon prop set to IconSvg component 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="IconStyled-bPbExM kwdUPZ"
+  >
+    <div
+      className="IconSvgStyled-cegYAl iSGIaX"
+      color=""
+      rotate={0}
+      size="normal"
+    >
+      <svg
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+        />
+      </svg>
+    </div>
+  </span>
+  <span
+    className="ContentStyled-dbeIsI ckvEZg"
+  >
+    
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with iconColor prop set to red 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="IconStyled-bPbExM loIaJY"
+  >
+    <div
+      className="IconSvgStyled-cegYAl iSGIaX"
+      color=""
+      rotate={0}
+      size="normal"
+    >
+      <svg
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+        />
+      </svg>
+    </div>
+  </span>
+  <span
+    className="ContentStyled-dbeIsI ckvEZg"
+  >
+    
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with iconRemove prop set to <IconSvg /> 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI eMazQd"
+  >
+    
+  </span>
+  <button
+    className="RemoveIconStyled-guscKJ cROeMa"
+    onClick={[Function]}
+  >
+    <div
+      className="IconSvgStyled-cegYAl iSGIaX"
+      color=""
+      rotate={0}
+      size="normal"
+    >
+      <svg
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+        />
+      </svg>
+    </div>
+  </button>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with text prop set to some text 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI bPGsom"
+  >
+    <span
+      className="TextStyled-ezUzxo byCMDZ"
+      title="some text"
+    >
+      some text
+    </span>
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with textColor prop set to red 1`] = `
+<div
+  className="TagStyled-dxhDsf gvVpVk"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI bPGsom"
+  >
+    <span
+      className="TextStyled-ezUzxo byCMDZ"
+      title="some text"
+    >
+      some text
+    </span>
+  </span>
+  
+</div>
+`;
+
+exports[`<Tag /> renders correctly with tooltipText prop set to String 1`] = `
+<div
+  className="TagStyled-dxhDsf cCxqOx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="ContentStyled-dbeIsI bPGsom"
+  >
+    
+  </span>
+</div>
+`;
