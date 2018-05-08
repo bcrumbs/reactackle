@@ -67,13 +67,12 @@ exports[`<Tag /> renders correctly with icon prop set to <IconSvg /> 1`] = `
     className="IconStyled-bPbExM kwdUPZ"
   >
     <div
-      className="IconSvgStyled-cegYAl iSGIaX"
+      className="IconSvgStyled-cegYAl tgtsk"
       color=""
       rotate={0}
       size="normal"
     >
       <svg
-        preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
       >
         <path
@@ -104,13 +103,12 @@ exports[`<Tag /> renders correctly with icon prop set to IconSvg component 1`] =
     className="IconStyled-bPbExM kwdUPZ"
   >
     <div
-      className="IconSvgStyled-cegYAl iSGIaX"
+      className="IconSvgStyled-cegYAl tgtsk"
       color=""
       rotate={0}
       size="normal"
     >
       <svg
-        preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
       >
         <path
@@ -141,13 +139,12 @@ exports[`<Tag /> renders correctly with iconColor prop set to red 1`] = `
     className="IconStyled-bPbExM loIaJY"
   >
     <div
-      className="IconSvgStyled-cegYAl iSGIaX"
+      className="IconSvgStyled-cegYAl tgtsk"
       color=""
       rotate={0}
       size="normal"
     >
       <svg
-        preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
       >
         <path
@@ -184,13 +181,12 @@ exports[`<Tag /> renders correctly with iconRemove prop set to <IconSvg /> 1`] =
     onClick={[Function]}
   >
     <div
-      className="IconSvgStyled-cegYAl iSGIaX"
+      className="IconSvgStyled-cegYAl tgtsk"
       color=""
       rotate={0}
       size="normal"
     >
       <svg
-        preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
       >
         <path

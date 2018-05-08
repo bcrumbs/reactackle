@@ -30,7 +30,7 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
         disabled={false}
       >
         <div
-          className="IconSvgStyled-cegYAl fddBCv"
+          className="IconSvgStyled-cegYAl gxFYyV"
           color=""
           rotate={0}
           size="normal"
@@ -577,7 +577,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fddBCv"
+                                className="IconSvgStyled-cegYAl gxFYyV"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -1135,7 +1135,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fddBCv"
+                                className="IconSvgStyled-cegYAl gxFYyV"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -1693,7 +1693,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fddBCv"
+                                className="IconSvgStyled-cegYAl gxFYyV"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -2251,7 +2251,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fddBCv"
+                                className="IconSvgStyled-cegYAl gxFYyV"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -2311,7 +2311,7 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
         disabled={false}
       >
         <div
-          className="IconSvgStyled-cegYAl fddBCv"
+          className="IconSvgStyled-cegYAl gxFYyV"
           color=""
           rotate={0}
           size="normal"
@@ -2360,7 +2360,7 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
         disabled={false}
       >
         <div
-          className="IconSvgStyled-cegYAl fddBCv"
+          className="IconSvgStyled-cegYAl gxFYyV"
           color=""
           rotate={0}
           size="normal"
@@ -2409,7 +2409,7 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
         disabled={true}
       >
         <div
-          className="IconSvgStyled-cegYAl fddBCv"
+          className="IconSvgStyled-cegYAl gxFYyV"
           color=""
           rotate={0}
           size="normal"
@@ -2458,7 +2458,7 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
         disabled={false}
       >
         <div
-          className="IconSvgStyled-cegYAl fddBCv"
+          className="IconSvgStyled-cegYAl gxFYyV"
           color=""
           rotate={0}
           size="normal"
@@ -2514,7 +2514,7 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
         disabled={false}
       >
         <div
-          className="IconSvgStyled-cegYAl fddBCv"
+          className="IconSvgStyled-cegYAl gxFYyV"
           color=""
           rotate={0}
           size="normal"

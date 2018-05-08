@@ -28,7 +28,7 @@ exports[`<Breadcrumbs /> must render with alignItems prop set to one from enum 1
             className="IconHomeStyled-bfqTlj bEwNNP"
           >
             <div
-              className="IconSvgStyled-cegYAl fddBCv"
+              className="IconSvgStyled-cegYAl gxFYyV"
               color=""
               rotate={0}
               size="normal"
@@ -57,7 +57,7 @@ exports[`<Breadcrumbs /> must render with alignItems prop set to one from enum 1
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -96,7 +96,7 @@ exports[`<Breadcrumbs /> must render with alignItems prop set to one from enum 1
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -144,7 +144,7 @@ exports[`<Breadcrumbs /> must render with colorScheme prop set to one from enum 
             className="IconHomeStyled-bfqTlj bEwNNP"
           >
             <div
-              className="IconSvgStyled-cegYAl fddBCv"
+              className="IconSvgStyled-cegYAl gxFYyV"
               color=""
               rotate={0}
               size="normal"
@@ -173,7 +173,7 @@ exports[`<Breadcrumbs /> must render with colorScheme prop set to one from enum 
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -212,7 +212,7 @@ exports[`<Breadcrumbs /> must render with colorScheme prop set to one from enum 
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -260,7 +260,7 @@ exports[`<Breadcrumbs /> must render with default props 1`] = `
             className="IconHomeStyled-bfqTlj bEwNNP"
           >
             <div
-              className="IconSvgStyled-cegYAl fddBCv"
+              className="IconSvgStyled-cegYAl gxFYyV"
               color=""
               rotate={0}
               size="normal"
@@ -289,7 +289,7 @@ exports[`<Breadcrumbs /> must render with default props 1`] = `
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -328,7 +328,7 @@ exports[`<Breadcrumbs /> must render with default props 1`] = `
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -379,7 +379,7 @@ exports[`<Breadcrumbs /> must render with linkComponent prop set to CustomLink 1
             className="IconHomeStyled-bfqTlj bEwNNP"
           >
             <div
-              className="IconSvgStyled-cegYAl fddBCv"
+              className="IconSvgStyled-cegYAl gxFYyV"
               color=""
               rotate={0}
               size="normal"
@@ -408,7 +408,7 @@ exports[`<Breadcrumbs /> must render with linkComponent prop set to CustomLink 1
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -450,7 +450,7 @@ exports[`<Breadcrumbs /> must render with linkComponent prop set to CustomLink 1
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -1010,7 +1010,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                     sizeKey="custom"
                                   >
                                     <div
-                                      className="IconSvgStyled-cegYAl fddBCv"
+                                      className="IconSvgStyled-cegYAl gxFYyV"
                                       color=""
                                       rotate={0}
                                       size="normal"
@@ -1081,7 +1081,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -1522,7 +1522,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -1954,7 +1954,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -2386,7 +2386,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -2818,7 +2818,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -3250,7 +3250,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -3682,7 +3682,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -4114,7 +4114,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -4546,7 +4546,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -4978,7 +4978,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -5410,7 +5410,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -5842,7 +5842,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -6274,7 +6274,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -6706,7 +6706,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -7138,7 +7138,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -7570,7 +7570,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -8002,7 +8002,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -8434,7 +8434,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -8866,7 +8866,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -9298,7 +9298,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -9730,7 +9730,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -10162,7 +10162,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -10594,7 +10594,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -11028,7 +11028,7 @@ exports[`<Breadcrumbs /> must render with overflow prop set to true 1`] = `
                                 sizeKey="custom"
                               >
                                 <div
-                                  className="IconSvgStyled-cegYAl fAPHID"
+                                  className="IconSvgStyled-cegYAl NBqjj"
                                   color=""
                                   rotate={0}
                                   size="normal"
@@ -11087,7 +11087,7 @@ exports[`<Breadcrumbs /> must render with separatorIcon prop set to <IconSvg /> 
             className="IconHomeStyled-bfqTlj bEwNNP"
           >
             <div
-              className="IconSvgStyled-cegYAl fddBCv"
+              className="IconSvgStyled-cegYAl gxFYyV"
               color=""
               rotate={0}
               size="normal"
@@ -11116,13 +11116,12 @@ exports[`<Breadcrumbs /> must render with separatorIcon prop set to <IconSvg /> 
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl iSGIaX"
+            className="IconSvgStyled-cegYAl tgtsk"
             color=""
             rotate={0}
             size="normal"
           >
             <svg
-              preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 24 24"
             >
               <path
@@ -11156,13 +11155,12 @@ exports[`<Breadcrumbs /> must render with separatorIcon prop set to <IconSvg /> 
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl iSGIaX"
+            className="IconSvgStyled-cegYAl tgtsk"
             color=""
             rotate={0}
             size="normal"
           >
             <svg
-              preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 24 24"
             >
               <path
@@ -11205,7 +11203,7 @@ exports[`<Breadcrumbs /> must render with separatorType prop set to text 1`] = `
             className="IconHomeStyled-bfqTlj bEwNNP"
           >
             <div
-              className="IconSvgStyled-cegYAl fddBCv"
+              className="IconSvgStyled-cegYAl gxFYyV"
               color=""
               rotate={0}
               size="normal"
@@ -11234,7 +11232,7 @@ exports[`<Breadcrumbs /> must render with separatorType prop set to text 1`] = `
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -11273,7 +11271,7 @@ exports[`<Breadcrumbs /> must render with separatorType prop set to text 1`] = `
           className="SeparatorStyled-ksvBLD bTxELE"
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"

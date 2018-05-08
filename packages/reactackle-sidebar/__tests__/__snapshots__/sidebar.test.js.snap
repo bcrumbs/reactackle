@@ -45,7 +45,7 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true 1`] = `
         className="ToggleIconStyled-kIzVex cmrxLj"
       >
         <div
-          className="IconSvgStyled-cegYAl fAPHID"
+          className="IconSvgStyled-cegYAl NBqjj"
           color=""
           rotate={0}
           size="normal"
@@ -88,7 +88,7 @@ exports[`<Sidebar/> renders correctly if prop haveToggleButton set true and togg
         className="ToggleIconStyled-kIzVex cmrxLj"
       >
         <div
-          className="IconSvgStyled-cegYAl fAPHID"
+          className="IconSvgStyled-cegYAl NBqjj"
           color=""
           rotate={0}
           size="normal"
@@ -195,7 +195,7 @@ exports[`<SidebarToggle/> renders correctly if prop toggleButtonText set 1`] = `
     className="ToggleIconStyled-kIzVex eBMkBa"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl NBqjj"
       color=""
       rotate={0}
       size="normal"
@@ -230,7 +230,7 @@ exports[`<SidebarToggle/> renders correctly with default props 1`] = `
     className="ToggleIconStyled-kIzVex eBMkBa"
   >
     <div
-      className="IconSvgStyled-cegYAl fAPHID"
+      className="IconSvgStyled-cegYAl NBqjj"
       color=""
       rotate={0}
       size="normal"

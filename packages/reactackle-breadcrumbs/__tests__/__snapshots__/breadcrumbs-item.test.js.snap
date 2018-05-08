@@ -24,7 +24,7 @@ exports[`<BreadcrumbsItem /> renders correctly with alignItems set to one from e
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -65,7 +65,7 @@ exports[`<BreadcrumbsItem /> renders correctly with ariaCurrentValue set to stri
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -106,7 +106,7 @@ exports[`<BreadcrumbsItem /> renders correctly with colorScheme prop set to one 
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -147,7 +147,7 @@ exports[`<BreadcrumbsItem /> renders correctly with default props 1`] = `
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -177,7 +177,7 @@ exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
       className="IconHomeStyled-bfqTlj bEwNNP"
     >
       <div
-        className="IconSvgStyled-cegYAl fddBCv"
+        className="IconSvgStyled-cegYAl gxFYyV"
         color=""
         rotate={0}
         size="normal"
@@ -206,7 +206,7 @@ exports[`<BreadcrumbsItem /> renders correctly with home set to true 1`] = `
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -247,7 +247,7 @@ exports[`<BreadcrumbsItem /> renders correctly with index set to number 1`] = `
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -289,7 +289,7 @@ exports[`<BreadcrumbsItem /> renders correctly with isActive set to true 1`] = `
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -330,7 +330,7 @@ exports[`<BreadcrumbsItem /> renders correctly with itemHref set to string 1`] =
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -371,13 +371,12 @@ exports[`<BreadcrumbsItem /> renders correctly with separatorIcon set to <IconSV
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl iSGIaX"
+      className="IconSvgStyled-cegYAl tgtsk"
       color=""
       rotate={0}
       size="normal"
     >
       <svg
-        preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 24 24"
       >
         <path
@@ -417,7 +416,7 @@ exports[`<BreadcrumbsItem /> renders correctly with subtitle set to string 1`] =
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
@@ -458,7 +457,7 @@ exports[`<BreadcrumbsItem /> renders correctly with title set to string 1`] = `
     className="SeparatorStyled-ksvBLD bTxELE"
   >
     <div
-      className="IconSvgStyled-cegYAl fddBCv"
+      className="IconSvgStyled-cegYAl gxFYyV"
       color=""
       rotate={0}
       size="normal"
