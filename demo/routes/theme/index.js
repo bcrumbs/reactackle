@@ -8,7 +8,7 @@ import {
 import {
   ArticleModule,
   ArticleHeader,
-} from '../../components/Article/Article';
+} from '../../components/Article';
 
 import { CodeBox } from '../../components/CodeBox/CodeBox';
 import ThemeStructure from './snippets/theme-structure.snippet';

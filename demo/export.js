@@ -172,6 +172,12 @@ export { PreloaderRoute }
   from './routes/progress/preloader/preloader';
 export { PreloaderDemoRoute }
   from './routes/progress/preloader/demo';
+export { BreadcrumbsIndexRoute }
+ from './routes/breadcrumbs';
+export { BreadcrumbsRoute }
+ from './routes/breadcrumbs/breadcrumbs';
+export { BreadcrumbsDemoRoute }
+ from './routes/breadcrumbs/demo';
 export { TagIndexRoute }
  from './routes/tag';
 export { TagRoute }

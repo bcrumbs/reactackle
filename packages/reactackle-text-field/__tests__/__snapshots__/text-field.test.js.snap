@@ -3501,7 +3501,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true 1`] = `
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -4383,7 +4383,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fAPHID"
+                                className="IconSvgStyled-cegYAl NBqjj"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -5275,7 +5275,7 @@ exports[`<TextField/> renders correctly if prop clearingIcon set true and call c
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fAPHID"
+                                className="IconSvgStyled-cegYAl NBqjj"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -5477,13 +5477,12 @@ exports[`<TextField/> renders correctly if prop iconInner set star 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -5709,13 +5708,12 @@ exports[`<TextField/> renders correctly if prop label set test and iconOuter 1`]
         htmlFor="TextField_60"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -5775,13 +5773,12 @@ exports[`<TextField/> renders correctly if prop label set test, bordered and ico
         htmlFor="TextField_61"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -5841,13 +5838,12 @@ exports[`<TextField/> renders correctly if prop label set test, dense and iconOu
         htmlFor="TextField_62"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -5907,13 +5903,12 @@ exports[`<TextField/> renders correctly if prop label set test, fullWidth, dense
         htmlFor="TextField_64"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -5973,13 +5968,12 @@ exports[`<TextField/> renders correctly if prop label set test,fullWidth and ico
         htmlFor="TextField_63"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -6571,13 +6565,12 @@ exports[`<TextField/> renders correctly if prop message set test, symbolLimit se
         htmlFor="TextField_82"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -6727,7 +6720,7 @@ exports[`<TextField/> renders correctly if prop password set and dense 1`] = `
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -6781,7 +6774,7 @@ exports[`<TextField/> renders correctly if prop password set and dense, fullWidt
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -6835,7 +6828,7 @@ exports[`<TextField/> renders correctly if prop password set and fullWidth  1`] 
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -6889,7 +6882,7 @@ exports[`<TextField/> renders correctly if prop password set true 1`] = `
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -7771,7 +7764,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fAPHID"
+                                className="IconSvgStyled-cegYAl NBqjj"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -8663,7 +8656,7 @@ exports[`<TextField/> renders correctly if prop password set true and call show 
                               sizeKey="custom"
                             >
                               <div
-                                className="IconSvgStyled-cegYAl fAPHID"
+                                className="IconSvgStyled-cegYAl NBqjj"
                                 color=""
                                 rotate={0}
                                 size="normal"
@@ -8735,7 +8728,7 @@ exports[`<TextField/> renders correctly if prop password set true and disabled 1
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -8789,7 +8782,7 @@ exports[`<TextField/> renders correctly if prop password set true,colorScheme se
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -9166,13 +9159,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true and iconOu
         htmlFor="TextField_28"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -9323,13 +9315,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, bordered 
         htmlFor="TextField_29"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -9378,13 +9369,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, dense and
         htmlFor="TextField_30"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -9433,13 +9423,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, filled an
         htmlFor="TextField_33"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -9488,13 +9477,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         htmlFor="TextField_31"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -9543,13 +9531,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, fullWidth
         htmlFor="TextField_32"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -9969,13 +9956,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         htmlFor="TextField_44"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10080,13 +10066,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         htmlFor="TextField_45"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10146,13 +10131,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         htmlFor="TextField_46"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10212,13 +10196,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         htmlFor="TextField_49"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10323,13 +10306,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         htmlFor="TextField_47"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10389,13 +10371,12 @@ exports[`<TextField/> renders correctly if prop slidingLabel set true, label set
         htmlFor="TextField_48"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10842,13 +10823,12 @@ exports[`<TextField/> renders correctly if proplabel set test, filled and iconOu
         htmlFor="TextField_65"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -10948,7 +10928,7 @@ exports[`<TextField/> renders correctly if type set password 1`] = `
           onClick={[Function]}
         >
           <div
-            className="IconSvgStyled-cegYAl fAPHID"
+            className="IconSvgStyled-cegYAl NBqjj"
             color=""
             rotate={0}
             size="normal"
@@ -11027,13 +11007,12 @@ exports[`<TextField/> renders correctly with prop iconInner 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11087,13 +11066,12 @@ exports[`<TextField/> renders correctly with prop iconInner and disabled 1`] = `
             disabled={true}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11147,13 +11125,12 @@ exports[`<TextField/> renders correctly with prop iconInner and if focus 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11207,13 +11184,12 @@ exports[`<TextField/> renders correctly with prop iconInner andcolorScheme set s
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11267,13 +11243,12 @@ exports[`<TextField/> renders correctly with prop iconInner, dense 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11327,13 +11302,12 @@ exports[`<TextField/> renders correctly with prop iconInner, dense and fullWidth
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11387,13 +11361,12 @@ exports[`<TextField/> renders correctly with prop iconInner, fullWidth 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -11439,13 +11412,12 @@ exports[`<TextField/> renders correctly with prop iconOuter 1`] = `
         htmlFor="TextField_106"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -11494,13 +11466,12 @@ exports[`<TextField/> renders correctly with prop iconOuter and disabled 1`] = `
         htmlFor="TextField_110"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -11549,13 +11520,12 @@ exports[`<TextField/> renders correctly with prop iconOuter and if focus 1`] = `
         htmlFor="TextField_112"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -11604,13 +11574,12 @@ exports[`<TextField/> renders correctly with prop iconOuter andcolorScheme set s
         htmlFor="TextField_111"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -11659,13 +11628,12 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense 1`] = `
         htmlFor="TextField_108"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -11714,13 +11682,12 @@ exports[`<TextField/> renders correctly with prop iconOuter, dense and fullWidth
         htmlFor="TextField_107"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -11769,13 +11736,12 @@ exports[`<TextField/> renders correctly with prop iconOuter, fullWidth 1`] = `
         htmlFor="TextField_109"
       >
         <div
-          className="IconSvgStyled-cegYAl iSGIaX"
+          className="IconSvgStyled-cegYAl tgtsk"
           color=""
           rotate={0}
           size="normal"
         >
           <svg
-            preserveAspectRatio="xMidYMid meet"
             viewBox="0 0 24 24"
           >
             <path
@@ -12360,13 +12326,12 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -12428,13 +12393,12 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and dense 1`
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -12496,13 +12460,12 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner and fullWidt
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -12564,13 +12527,12 @@ exports[`<TextField/> renders correctly with prop prefix, iconInner, fullWidth a
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl iSGIaX"
+              className="IconSvgStyled-cegYAl tgtsk"
               color=""
               rotate={0}
               size="normal"
             >
               <svg
-                preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path

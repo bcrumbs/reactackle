@@ -139,7 +139,7 @@ exports[`<Button/> renders correctly if prop icon="svg" set 1`] = `
     size="normal"
   >
     <div
-      className="IconSvgStyled-cegYAl iSGIaX"
+      className="IconSvgStyled-cegYAl tgtsk"
       color=""
       rotate={0}
       size="normal"

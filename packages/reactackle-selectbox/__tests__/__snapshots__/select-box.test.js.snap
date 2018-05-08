@@ -287,7 +287,7 @@ exports[`<SelectBox/> renders correctly if prop dense set 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -350,7 +350,7 @@ exports[`<SelectBox/> renders correctly if prop disabled set 1`] = `
             disabled={true}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -413,7 +413,7 @@ exports[`<SelectBox/> renders correctly if prop fullWidth set 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -476,7 +476,7 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -539,7 +539,7 @@ exports[`<SelectBox/> renders correctly if prop labelPosition set 2`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -602,7 +602,7 @@ exports[`<SelectBox/> renders correctly if prop light set 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -665,7 +665,7 @@ exports[`<SelectBox/> renders correctly if prop message set text 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -739,7 +739,7 @@ exports[`<SelectBox/> renders correctly if prop type=custom 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1201,7 +1201,7 @@ exports[`<SelectBox/> renders correctly with default props 1`] = `
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1264,7 +1264,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and dens
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1338,7 +1338,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and disa
             disabled={true}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1412,7 +1412,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text and full
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1486,7 +1486,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1560,7 +1560,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text andcolor
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1634,7 +1634,7 @@ exports[`<SelectBoxCustom /> renders correctly if prop message set text,dense an
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"
@@ -1721,7 +1721,7 @@ exports[`<SelectBoxCustom /> renders correctly with label, tooltip and message 1
             disabled={false}
           >
             <div
-              className="IconSvgStyled-cegYAl fAPHID"
+              className="IconSvgStyled-cegYAl NBqjj"
               color=""
               rotate={0}
               size="normal"

@@ -39,6 +39,7 @@
     "reactackle-tooltip": "^1.0.0-beta.8",
     "reactackle-tooltip-icon": "^1.0.0-beta.8",
     "reactackle-progress": "^1.0.0-beta.8",
+    "reactackle-breadcrumbs": "^1.0.0-beta.8",
     "reactackle-tag": "^1.0.0-beta.8"
   },
   "devDependencies": {
