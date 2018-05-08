@@ -29,6 +29,108 @@ const items = [
   },
 ];
 
+const longItems = [
+  {
+    title: 'Index',
+    home: true,
+    itemHref: 'index',
+  },
+  {
+    title: 'Catalog',
+    subtitle: 'Catalog subtitle',
+    itemHref: 'catalog',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+  },
+  {
+    title: 'Item',
+    itemHref: 'item',
+    isActive: true,
+  },
+];
+
 //eslint-disable-next-line
 const CustomLink = props => <a {...props} />;
 
@@ -61,107 +163,7 @@ describe('<Breadcrumbs />', () => {
     const component = mount(
       <Breadcrumbs
         overflow
-        items={[
-          {
-            title: 'Index',
-            home: true,
-            itemHref: 'index',
-          },
-          {
-            title: 'Catalog',
-            subtitle: 'Catalog subtitle',
-            itemHref: 'catalog',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-          },
-          {
-            title: 'Item',
-            itemHref: 'item',
-            isActive: true,
-          },
-        ]}
+        items={longItems}
       />,
       rendererOptions,
     );
@@ -191,5 +193,19 @@ describe('<Breadcrumbs />', () => {
     );
     expect(component.toJSON()).toMatchSnapshot();
   });
+
+  it('has to render items list and handle prop items change', () => {
+    const component = mount(
+      <Breadcrumbs
+        overflow
+        items={longItems}
+      />,
+      rendererOptions,
+    );
+    expect(toJson(component)).toMatchSnapshot();
+    component.setProps({ items });
+    expect(toJson(component)).toMatchSnapshot();
+  });
+
 
 });
