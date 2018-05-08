@@ -20,8 +20,11 @@ const rendererOptions = {
 
 const items = [
   {
-    title: 'Index',
+    title: 'Home',
     home: true,
+  },
+  {
+    title: 'Index',
     itemHref: 'index',
   },
 ];

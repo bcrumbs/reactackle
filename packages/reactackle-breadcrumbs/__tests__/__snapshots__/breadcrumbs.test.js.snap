@@ -20,9 +20,8 @@ exports[`<Breadcrumbs /> must render with alignItems prop set to one from enum 1
         className="BreadcrumbsItemStyled-gqfHBX exhQAI"
       >
         <a
-          aria-current="item"
-          className="AnchorStyled-cEwrfy cliYLp"
-          href={null}
+          className="AnchorStyled-cEwrfy dRcSOF"
+          href="#"
           onClick={[Function]}
         >
           <div
@@ -43,6 +42,45 @@ exports[`<Breadcrumbs /> must render with alignItems prop set to one from enum 1
               </svg>
             </div>
           </div>
+          <div
+            className="TextBoxStyled-imlyyE izNZWH"
+          >
+            <div
+              className="TitleStyled-kOmUSD fhkJcA"
+            >
+              Home
+            </div>
+            
+          </div>
+        </a>
+        <div
+          className="SeparatorStyled-ksvBLD bTxELE"
+        >
+          <div
+            className="IconSvgStyled-cegYAl fAPHID"
+            color=""
+            rotate={0}
+            size="normal"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className="BreadcrumbsItemStyled-gqfHBX exhQAI"
+      >
+        <a
+          aria-current="item"
+          className="AnchorStyled-cEwrfy cliYLp"
+          href={null}
+          onClick={[Function]}
+        >
           <div
             className="TextBoxStyled-imlyyE izNZWH"
           >
@@ -98,9 +136,8 @@ exports[`<Breadcrumbs /> must render with colorScheme prop set to one from enum 
         className="BreadcrumbsItemStyled-gqfHBX cODncM"
       >
         <a
-          aria-current="item"
-          className="AnchorStyled-cEwrfy fWhbNv"
-          href={null}
+          className="AnchorStyled-cEwrfy eRIuAc"
+          href="#"
           onClick={[Function]}
         >
           <div
@@ -121,6 +158,45 @@ exports[`<Breadcrumbs /> must render with colorScheme prop set to one from enum 
               </svg>
             </div>
           </div>
+          <div
+            className="TextBoxStyled-imlyyE izNZWH"
+          >
+            <div
+              className="TitleStyled-kOmUSD fhkJcA"
+            >
+              Home
+            </div>
+            
+          </div>
+        </a>
+        <div
+          className="SeparatorStyled-ksvBLD bTxELE"
+        >
+          <div
+            className="IconSvgStyled-cegYAl fAPHID"
+            color=""
+            rotate={0}
+            size="normal"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className="BreadcrumbsItemStyled-gqfHBX cODncM"
+      >
+        <a
+          aria-current="item"
+          className="AnchorStyled-cEwrfy fWhbNv"
+          href={null}
+          onClick={[Function]}
+        >
           <div
             className="TextBoxStyled-imlyyE izNZWH"
           >
@@ -176,9 +252,8 @@ exports[`<Breadcrumbs /> must render with default props 1`] = `
         className="BreadcrumbsItemStyled-gqfHBX exhQAI"
       >
         <a
-          aria-current="item"
-          className="AnchorStyled-cEwrfy cliYLp"
-          href={null}
+          className="AnchorStyled-cEwrfy dRcSOF"
+          href="#"
           onClick={[Function]}
         >
           <div
@@ -199,6 +274,45 @@ exports[`<Breadcrumbs /> must render with default props 1`] = `
               </svg>
             </div>
           </div>
+          <div
+            className="TextBoxStyled-imlyyE izNZWH"
+          >
+            <div
+              className="TitleStyled-kOmUSD fhkJcA"
+            >
+              Home
+            </div>
+            
+          </div>
+        </a>
+        <div
+          className="SeparatorStyled-ksvBLD bTxELE"
+        >
+          <div
+            className="IconSvgStyled-cegYAl fAPHID"
+            color=""
+            rotate={0}
+            size="normal"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className="BreadcrumbsItemStyled-gqfHBX exhQAI"
+      >
+        <a
+          aria-current="item"
+          className="AnchorStyled-cEwrfy cliYLp"
+          href={null}
+          onClick={[Function]}
+        >
           <div
             className="TextBoxStyled-imlyyE izNZWH"
           >
@@ -254,12 +368,11 @@ exports[`<Breadcrumbs /> must render with linkComponent prop set to CustomLink 1
         className="BreadcrumbsItemStyled-gqfHBX exhQAI"
       >
         <a
-          active={true}
+          active={false}
           alignItems="center"
-          aria-current="item"
-          className="AnchorStyled-cEwrfy cliYLp"
+          className="AnchorStyled-cEwrfy dRcSOF"
           colorScheme="dark"
-          href={null}
+          href="#"
           onClick={[Function]}
         >
           <div
@@ -280,6 +393,48 @@ exports[`<Breadcrumbs /> must render with linkComponent prop set to CustomLink 1
               </svg>
             </div>
           </div>
+          <div
+            className="TextBoxStyled-imlyyE izNZWH"
+          >
+            <div
+              className="TitleStyled-kOmUSD fhkJcA"
+            >
+              Home
+            </div>
+            
+          </div>
+        </a>
+        <div
+          className="SeparatorStyled-ksvBLD bTxELE"
+        >
+          <div
+            className="IconSvgStyled-cegYAl fAPHID"
+            color=""
+            rotate={0}
+            size="normal"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className="BreadcrumbsItemStyled-gqfHBX exhQAI"
+      >
+        <a
+          active={true}
+          alignItems="center"
+          aria-current="item"
+          className="AnchorStyled-cEwrfy cliYLp"
+          colorScheme="dark"
+          href={null}
+          onClick={[Function]}
+        >
           <div
             className="TextBoxStyled-imlyyE izNZWH"
           >
@@ -10924,9 +11079,8 @@ exports[`<Breadcrumbs /> must render with separatorIcon prop set to <IconSvg /> 
         className="BreadcrumbsItemStyled-gqfHBX exhQAI"
       >
         <a
-          aria-current="item"
-          className="AnchorStyled-cEwrfy cliYLp"
-          href={null}
+          className="AnchorStyled-cEwrfy dRcSOF"
+          href="#"
           onClick={[Function]}
         >
           <div
@@ -10947,6 +11101,46 @@ exports[`<Breadcrumbs /> must render with separatorIcon prop set to <IconSvg /> 
               </svg>
             </div>
           </div>
+          <div
+            className="TextBoxStyled-imlyyE izNZWH"
+          >
+            <div
+              className="TitleStyled-kOmUSD fhkJcA"
+            >
+              Home
+            </div>
+            
+          </div>
+        </a>
+        <div
+          className="SeparatorStyled-ksvBLD bTxELE"
+        >
+          <div
+            className="IconSvgStyled-cegYAl iSGIaX"
+            color=""
+            rotate={0}
+            size="normal"
+          >
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19,5.5c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.1-0.2-0.3-0.3c-0.1,0-0.1,0-0.2,0h-10C8.4,5,8.4,5,8.3,5c-0.1,0-0.1,0.1-0.2,0.1l-3,3 c0,0-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2v10C5,18.8,5.2,19,5.5,19h10c0.1,0,0.1,0,0.2,0c0.1,0,0.1-0.1,0.2-0.1l3-3 c0,0,0.1-0.1,0.1-0.2c0-0.1,0-0.1,0-0.2V5.5z M16,16h1.3L16,17.3V16z M18,15h-2V8.7l2-2V15z M9,9h6v6H9V9z M8,8H6.7L8,6.7V8z M9,6 h8.3l-2,2H9V6z M6,9h2v6.5C8,15.8,8.2,16,8.5,16H15v2H6V9z"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className="BreadcrumbsItemStyled-gqfHBX exhQAI"
+      >
+        <a
+          aria-current="item"
+          className="AnchorStyled-cEwrfy cliYLp"
+          href={null}
+          onClick={[Function]}
+        >
           <div
             className="TextBoxStyled-imlyyE izNZWH"
           >
@@ -11003,9 +11197,8 @@ exports[`<Breadcrumbs /> must render with separatorType prop set to text 1`] = `
         className="BreadcrumbsItemStyled-gqfHBX exhQAI"
       >
         <a
-          aria-current="item"
-          className="AnchorStyled-cEwrfy cliYLp"
-          href={null}
+          className="AnchorStyled-cEwrfy dRcSOF"
+          href="#"
           onClick={[Function]}
         >
           <div
@@ -11026,6 +11219,45 @@ exports[`<Breadcrumbs /> must render with separatorType prop set to text 1`] = `
               </svg>
             </div>
           </div>
+          <div
+            className="TextBoxStyled-imlyyE izNZWH"
+          >
+            <div
+              className="TitleStyled-kOmUSD fhkJcA"
+            >
+              Home
+            </div>
+            
+          </div>
+        </a>
+        <div
+          className="SeparatorStyled-ksvBLD bTxELE"
+        >
+          <div
+            className="IconSvgStyled-cegYAl fAPHID"
+            color=""
+            rotate={0}
+            size="normal"
+          >
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+              />
+            </svg>
+          </div>
+        </div>
+      </li>
+      <li
+        className="BreadcrumbsItemStyled-gqfHBX exhQAI"
+      >
+        <a
+          aria-current="item"
+          className="AnchorStyled-cEwrfy cliYLp"
+          href={null}
+          onClick={[Function]}
+        >
           <div
             className="TextBoxStyled-imlyyE izNZWH"
           >
