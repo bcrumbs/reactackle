@@ -178,3 +178,9 @@ export { BreadcrumbsRoute }
  from './routes/breadcrumbs/breadcrumbs';
 export { BreadcrumbsDemoRoute }
  from './routes/breadcrumbs/demo';
+export { TagIndexRoute }
+ from './routes/tag';
+export { TagRoute }
+ from './routes/tag/tag';
+export { TagDemoRoute }
+ from './routes/tag/demo';

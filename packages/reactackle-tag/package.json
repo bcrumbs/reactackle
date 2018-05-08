@@ -1,7 +1,7 @@
 {
-  "name": "reactackle-tabs",
+  "name": "reactackle-tag",
   "version": "1.0.0-beta.8",
-  "description": "Tabs component of the Reactackle ui library",
+  "description": "Tag component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
   },
@@ -20,11 +20,13 @@
     "lodash.omit": "^4.5.0",
     "prop-types": "^15.5.10",
     "reactackle-core": "^1.0.0-beta.8",
-    "reactackle-icons": "^1.0.0-beta.8"
+    "reactackle-icons": "^1.0.0-beta.8",
+    "reactackle-tooltip": "^1.0.0-beta.8"
   },
   "peerDependencies": {
     "react": "^16.0.0",
     "reactackle-core": "^1.0.0-beta.8",
+    "reactackle-tooltip": "^1.0.0-beta.8",
     "reactackle-icons": "^1.0.0-beta.8",
     "styled-components": "^2.1.1"
   },
