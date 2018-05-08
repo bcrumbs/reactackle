@@ -3,6 +3,7 @@ import renderer from 'react-test-renderer';
 import toJson from 'enzyme-to-json';
 import { mount } from 'enzyme';
 import { Accordion, AccordionItem } from '../src';
+import { TitleBoxStyled } from '../src/AccordionItem/styles';
 
 const items = [
   {
@@ -66,5 +67,16 @@ describe('<Accordion/>', () => {
       wrapper.find(AccordionItem).forEach(node => {
         expect(node.prop('expanded')).toEqual(true);
       });
+  });
+
+  it('renders correctly with onItem click on stateless mode', () => {
+    const wrapper = mount(
+      <Accordion items={items} />,
+    );
+
+    const item = wrapper.find(AccordionItem).first();
+    wrapper.setState({ expandedItemIds: [item.prop('id')]  });
+    const expandedItem = wrapper.find(AccordionItem).first();
+    expect(expandedItem.prop('expanded')).toEqual(true);
   });
 });
