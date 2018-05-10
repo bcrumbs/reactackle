@@ -13,30 +13,33 @@ import {
 } from './styles';
 
 const propTypes = {
-  /*
+  /**
    * Item id
    */
   id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  /*
+  /**
    * Item title
    */
   title: PropTypes.string,
-  /*
+  /**
    * Show/hide item's content
    */
   expanded: PropTypes.bool,
-  /*
+  /**
    * Removes content paddings
    */
   contentBlank: PropTypes.bool,
-  /*
+  /**
    * Adds additional content slot to the item's header
    */
   headerSlot: PropTypes.node,
-  /*
+  /**
    * Function to be called on title click
    */
   onToggleExpanded: PropTypes.func,
+  /**
+   * @ignore
+   */
   // eslint-disable-next-line react/require-default-props
   theme: PropTypes.object,
 };
