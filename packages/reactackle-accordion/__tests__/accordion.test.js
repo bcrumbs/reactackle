@@ -17,6 +17,14 @@ const items = [
   },
 ];
 
+const oneItem = [
+  {
+    id: '1',
+    title: 'Accordion Item 1',
+    content: [<div key={1}>Place here some data</div>],
+  },
+];
+
 describe('<Accordion/>', () => {
   it('renders correctly with default props', () => {
     const tree = renderer.create(
@@ -77,5 +85,15 @@ describe('<Accordion/>', () => {
     wrapper.setState({ expandedItemIds: [item.prop('id')]  });
     const expandedItem = wrapper.find(AccordionItem).first();
     expect(expandedItem.prop('expanded')).toEqual(true);
+  });
+
+  it('renders correctly with new props', () => {
+    const wrapper = mount(
+      <Accordion items={items} />,
+    );
+    expect(toJson(wrapper)).toMatchSnapshot();
+    wrapper.setProps({ items: oneItem });
+
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

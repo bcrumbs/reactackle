@@ -1218,3 +1218,1125 @@ exports[`<Accordion/> renders correctly with items 1`] = `
   </dd>
 </dl>
 `;
+
+exports[`<Accordion/> renders correctly with new props 1`] = `
+<Accordion
+  expandAll={false}
+  expandedItemIds={Array []}
+  items={
+    Array [
+      Object {
+        "content": Array [
+          <div>
+            Place here some data
+    </div>,
+        ],
+        "id": "1",
+        "title": "Accordion Item 1",
+      },
+      Object {
+        "content": Array [
+          <div>
+            Place here some data
+    </div>,
+        ],
+        "id": "2",
+        "title": "Accordion Item 2",
+      },
+    ]
+  }
+  onChange={[Function]}
+  single={false}
+  stateless={false}
+>
+  <AccordionStyled
+    role="presentation"
+  >
+    <dl
+      className="AccordionStyled-cyCOkU bjeNA"
+      role="presentation"
+    >
+      <WithTheme(AccordionItem)
+        content={
+          Array [
+            <div>
+              Place here some data
+          </div>,
+          ]
+        }
+        contentBlank={false}
+        expanded={false}
+        headerSlot={null}
+        id="1"
+        key="1"
+        onToggleExpanded={[Function]}
+        title="Accordion Item 1"
+      >
+        <AccordionItem
+          content={
+            Array [
+              <div>
+                Place here some data
+            </div>,
+            ]
+          }
+          contentBlank={false}
+          expanded={false}
+          headerSlot={null}
+          id="1"
+          onToggleExpanded={[Function]}
+          theme={
+            Object {
+              "reactackle": Object {
+                "baseModule": 8,
+                "body": Object {
+                  "backgroundColor": "#ffffff",
+                  "fontColor": "#212121",
+                  "fontColorAlt": "#ffffff",
+                  "fontFamily": "sansSerif",
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                },
+                "breakpoints": Object {
+                  "large": "80em",
+                  "medium": "60em",
+                  "small": "30em",
+                  "xlarge": "90em",
+                  "xsmall": "0",
+                  "xxlarge": "120em",
+                },
+                "breakpointsEmBase": 16,
+                "color": Object {
+                  "alert": "#f04124",
+                  "alertFgTextColor": "#ffffff",
+                  "black": "#000000",
+                  "error": "#f04124",
+                  "errorFgTextColor": "#ffffff",
+                  "info": "#d9edf7",
+                  "infoFgTextColor": "#212121",
+                  "main": "#2196F3",
+                  "mainFgTextColor": "#ffffff",
+                  "secondary": "#673AB7",
+                  "secondaryFgTextColor": "#ffffff",
+                  "success": "#43AC6A",
+                  "successFgTextColor": "#ffffff",
+                  "transparent": "hsla(0, 0%, 100%, 0)",
+                  "warning": "#f0b900",
+                  "warningFgTextColor": "#212121",
+                  "white": "#ffffff",
+                },
+                "colorAnchor": "#208dcc",
+                "colorBorder": "#e0e0e0",
+                "colorBrand": Object {
+                  "facebook": "#3b5998",
+                  "googlePlus": "#dd4b39",
+                  "vkontakte": "#45668e",
+                },
+                "colorPaletteGrey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "75": "#f7f7f7",
+                  "800": "#424242",
+                  "900": "#212121",
+                },
+                "components": Object {
+                  "accordion": Object {
+                    "item": Object {
+                      "content": Object {
+                        "animatedOffset": -20,
+                        "paddingX": 16,
+                        "paddingY": 12,
+                      },
+                      "expandIcon": Object {
+                        "collapsed": Object {
+                          "iconElement": <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+            />,
+                          "opacity": 0.7,
+                          "rotateDegree": 0,
+                        },
+                        "expanded": Object {
+                          "iconElement": <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+            />,
+                          "opacity": 1,
+                          "rotateDegree": "90deg",
+                        },
+                        "height": 24,
+                        "imgHeight": 20,
+                        "imgWidth": null,
+                        "width": null,
+                      },
+                      "title": Object {
+                        "align": "top",
+                        "collapsed": Object {
+                          "backgroundColor": "#ffffff",
+                          "color": "#212121",
+                          "focus": Object {
+                            "backgroundColor": "#f7f7f7",
+                            "opacity": 1,
+                          },
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "hover": Object {
+                            "backgroundColor": "#fafafa",
+                            "opacity": 1,
+                          },
+                          "lineHeight": 1.5,
+                          "opacity": 0.7,
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                          "paddingTop": 8,
+                          "textTransform": "uppercase",
+                        },
+                        "expanded": Object {
+                          "backgroundColor": "#ffffff",
+                          "color": "#212121",
+                          "focus": Object {
+                            "backgroundColor": "#f7f7f7",
+                            "opacity": 1,
+                          },
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "hover": Object {
+                            "backgroundColor": "#fafafa",
+                            "opacity": 1,
+                          },
+                          "lineHeight": 1.5,
+                          "opacity": 1,
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 8,
+                          "textTransform": "uppercase",
+                        },
+                        "minHeight": 34,
+                      },
+                    },
+                    "separator": Object {
+                      "color": "#e0e0e0",
+                      "style": "solid",
+                      "thickness": 1,
+                    },
+                  },
+                },
+                "contentWidth": 1360,
+                "direction": Object {
+                  "float": "left",
+                  "text": "ltr",
+                },
+                "fontColor": Object {
+                  "light": "#e0e0e0",
+                  "medium": "#9e9e9e",
+                },
+                "fontFamily": Object {
+                  "monospace": "Consolas, Liberation Mono, Courier, monospace",
+                  "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                  "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+                },
+                "fontSize": Object {
+                  "-1": 12,
+                  "-2": 10,
+                  "0": 13,
+                  "1": 15,
+                  "2": 18,
+                  "3": 24,
+                  "4": 34,
+                  "5": 45,
+                  "6": 56,
+                  "7": 112,
+                },
+                "fontWeight": Object {
+                  "bold": "700",
+                  "light": "400",
+                  "normal": "400",
+                  "semibold": "600",
+                },
+                "radiusDefault": 2,
+                "radiusRounded": 1000,
+                "totalColumns": 12,
+                "zIndex": Object {
+                  "alertDesktop": 9000,
+                  "alertMobile": 5000,
+                  "base": 1,
+                  "dropdown": 7000,
+                  "modal": 8500,
+                  "moon": 9999,
+                  "nav": 500,
+                  "overlay": 8000,
+                  "popup": 8700,
+                  "tooltip": 9990,
+                },
+              },
+            }
+          }
+          title="Accordion Item 1"
+        >
+          <HeadingStyled
+            key="heading"
+            role="heading"
+          >
+            <dt
+              className="HeadingStyled-jcCngC diMfOQ"
+              role="heading"
+            >
+              <TitleBoxStyled
+                aria-controls="1"
+                aria-expanded={false}
+                expanded={false}
+                id="labelfor1"
+                onClick={[Function]}
+                role="button"
+              >
+                <button
+                  aria-controls="1"
+                  aria-expanded={false}
+                  className="TitleBoxStyled-QGbRI bwRMmk"
+                  id="labelfor1"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <TitleContentStyled>
+                    <div
+                      className="TitleContentStyled-eVpLoT bzPKhr"
+                    >
+                      <TitleStyled
+                        expanded={false}
+                      >
+                        <div
+                          className="TitleStyled-kOmUSD bmgLyZ"
+                        >
+                          Accordion Item 1
+                        </div>
+                      </TitleStyled>
+                    </div>
+                  </TitleContentStyled>
+                  <IconExpandWrapperStyled>
+                    <div
+                      className="IconExpandWrapperStyled-jsDvvw cHZrOx"
+                    >
+                      <IconWrapperStyled
+                        expanded={false}
+                      >
+                        <div
+                          className="IconWrapperStyled-hDFZgP iRWScr"
+                        >
+                          <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+                          >
+                            <IconSvg
+                              backgroundColor=""
+                              border={false}
+                              borderWidth={0}
+                              color="currentColor"
+                              colorScheme="default"
+                              flip="none"
+                              rotate={0}
+                              rounded={false}
+                              size="custom"
+                            >
+                              <IconStyled
+                                backgroundColor=""
+                                border={false}
+                                borderWidth={0}
+                                color=""
+                                colorScheme="default"
+                                customColor="currentColor"
+                                flip="none"
+                                rotate={0}
+                                rounded={false}
+                                size="normal"
+                                sizeKey="custom"
+                              >
+                                <div
+                                  className="IconSvgStyled-cegYAl gxFYyV"
+                                  color=""
+                                  rotate={0}
+                                  size="normal"
+                                >
+                                  <svg
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <polygon
+                                      points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+                                    />
+                                  </svg>
+                                </div>
+                              </IconStyled>
+                            </IconSvg>
+                          </IconArrowChevronRight>
+                        </div>
+                      </IconWrapperStyled>
+                    </div>
+                  </IconExpandWrapperStyled>
+                </button>
+              </TitleBoxStyled>
+            </dt>
+          </HeadingStyled>
+          <ContentStyled
+            aria-labelledby="labelfor1"
+            contentBlank={false}
+            expanded={false}
+            id="1"
+            key="content"
+            role="region"
+          >
+            <dd
+              aria-labelledby="labelfor1"
+              className="ContentStyled-dbeIsI dSVNGC"
+              id="1"
+              role="region"
+            >
+              <div
+                key="1"
+              >
+                Place here some data
+              </div>
+            </dd>
+          </ContentStyled>
+        </AccordionItem>
+      </WithTheme(AccordionItem)>
+      <WithTheme(AccordionItem)
+        content={
+          Array [
+            <div>
+              Place here some data
+          </div>,
+          ]
+        }
+        contentBlank={false}
+        expanded={false}
+        headerSlot={null}
+        id="2"
+        key="2"
+        onToggleExpanded={[Function]}
+        title="Accordion Item 2"
+      >
+        <AccordionItem
+          content={
+            Array [
+              <div>
+                Place here some data
+            </div>,
+            ]
+          }
+          contentBlank={false}
+          expanded={false}
+          headerSlot={null}
+          id="2"
+          onToggleExpanded={[Function]}
+          theme={
+            Object {
+              "reactackle": Object {
+                "baseModule": 8,
+                "body": Object {
+                  "backgroundColor": "#ffffff",
+                  "fontColor": "#212121",
+                  "fontColorAlt": "#ffffff",
+                  "fontFamily": "sansSerif",
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                },
+                "breakpoints": Object {
+                  "large": "80em",
+                  "medium": "60em",
+                  "small": "30em",
+                  "xlarge": "90em",
+                  "xsmall": "0",
+                  "xxlarge": "120em",
+                },
+                "breakpointsEmBase": 16,
+                "color": Object {
+                  "alert": "#f04124",
+                  "alertFgTextColor": "#ffffff",
+                  "black": "#000000",
+                  "error": "#f04124",
+                  "errorFgTextColor": "#ffffff",
+                  "info": "#d9edf7",
+                  "infoFgTextColor": "#212121",
+                  "main": "#2196F3",
+                  "mainFgTextColor": "#ffffff",
+                  "secondary": "#673AB7",
+                  "secondaryFgTextColor": "#ffffff",
+                  "success": "#43AC6A",
+                  "successFgTextColor": "#ffffff",
+                  "transparent": "hsla(0, 0%, 100%, 0)",
+                  "warning": "#f0b900",
+                  "warningFgTextColor": "#212121",
+                  "white": "#ffffff",
+                },
+                "colorAnchor": "#208dcc",
+                "colorBorder": "#e0e0e0",
+                "colorBrand": Object {
+                  "facebook": "#3b5998",
+                  "googlePlus": "#dd4b39",
+                  "vkontakte": "#45668e",
+                },
+                "colorPaletteGrey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "75": "#f7f7f7",
+                  "800": "#424242",
+                  "900": "#212121",
+                },
+                "components": Object {
+                  "accordion": Object {
+                    "item": Object {
+                      "content": Object {
+                        "animatedOffset": -20,
+                        "paddingX": 16,
+                        "paddingY": 12,
+                      },
+                      "expandIcon": Object {
+                        "collapsed": Object {
+                          "iconElement": <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+            />,
+                          "opacity": 0.7,
+                          "rotateDegree": 0,
+                        },
+                        "expanded": Object {
+                          "iconElement": <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+            />,
+                          "opacity": 1,
+                          "rotateDegree": "90deg",
+                        },
+                        "height": 24,
+                        "imgHeight": 20,
+                        "imgWidth": null,
+                        "width": null,
+                      },
+                      "title": Object {
+                        "align": "top",
+                        "collapsed": Object {
+                          "backgroundColor": "#ffffff",
+                          "color": "#212121",
+                          "focus": Object {
+                            "backgroundColor": "#f7f7f7",
+                            "opacity": 1,
+                          },
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "hover": Object {
+                            "backgroundColor": "#fafafa",
+                            "opacity": 1,
+                          },
+                          "lineHeight": 1.5,
+                          "opacity": 0.7,
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                          "paddingTop": 8,
+                          "textTransform": "uppercase",
+                        },
+                        "expanded": Object {
+                          "backgroundColor": "#ffffff",
+                          "color": "#212121",
+                          "focus": Object {
+                            "backgroundColor": "#f7f7f7",
+                            "opacity": 1,
+                          },
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "hover": Object {
+                            "backgroundColor": "#fafafa",
+                            "opacity": 1,
+                          },
+                          "lineHeight": 1.5,
+                          "opacity": 1,
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 8,
+                          "textTransform": "uppercase",
+                        },
+                        "minHeight": 34,
+                      },
+                    },
+                    "separator": Object {
+                      "color": "#e0e0e0",
+                      "style": "solid",
+                      "thickness": 1,
+                    },
+                  },
+                },
+                "contentWidth": 1360,
+                "direction": Object {
+                  "float": "left",
+                  "text": "ltr",
+                },
+                "fontColor": Object {
+                  "light": "#e0e0e0",
+                  "medium": "#9e9e9e",
+                },
+                "fontFamily": Object {
+                  "monospace": "Consolas, Liberation Mono, Courier, monospace",
+                  "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                  "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+                },
+                "fontSize": Object {
+                  "-1": 12,
+                  "-2": 10,
+                  "0": 13,
+                  "1": 15,
+                  "2": 18,
+                  "3": 24,
+                  "4": 34,
+                  "5": 45,
+                  "6": 56,
+                  "7": 112,
+                },
+                "fontWeight": Object {
+                  "bold": "700",
+                  "light": "400",
+                  "normal": "400",
+                  "semibold": "600",
+                },
+                "radiusDefault": 2,
+                "radiusRounded": 1000,
+                "totalColumns": 12,
+                "zIndex": Object {
+                  "alertDesktop": 9000,
+                  "alertMobile": 5000,
+                  "base": 1,
+                  "dropdown": 7000,
+                  "modal": 8500,
+                  "moon": 9999,
+                  "nav": 500,
+                  "overlay": 8000,
+                  "popup": 8700,
+                  "tooltip": 9990,
+                },
+              },
+            }
+          }
+          title="Accordion Item 2"
+        >
+          <HeadingStyled
+            key="heading"
+            role="heading"
+          >
+            <dt
+              className="HeadingStyled-jcCngC diMfOQ"
+              role="heading"
+            >
+              <TitleBoxStyled
+                aria-controls="2"
+                aria-expanded={false}
+                expanded={false}
+                id="labelfor2"
+                onClick={[Function]}
+                role="button"
+              >
+                <button
+                  aria-controls="2"
+                  aria-expanded={false}
+                  className="TitleBoxStyled-QGbRI bwRMmk"
+                  id="labelfor2"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <TitleContentStyled>
+                    <div
+                      className="TitleContentStyled-eVpLoT bzPKhr"
+                    >
+                      <TitleStyled
+                        expanded={false}
+                      >
+                        <div
+                          className="TitleStyled-kOmUSD bmgLyZ"
+                        >
+                          Accordion Item 2
+                        </div>
+                      </TitleStyled>
+                    </div>
+                  </TitleContentStyled>
+                  <IconExpandWrapperStyled>
+                    <div
+                      className="IconExpandWrapperStyled-jsDvvw cHZrOx"
+                    >
+                      <IconWrapperStyled
+                        expanded={false}
+                      >
+                        <div
+                          className="IconWrapperStyled-hDFZgP iRWScr"
+                        >
+                          <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+                          >
+                            <IconSvg
+                              backgroundColor=""
+                              border={false}
+                              borderWidth={0}
+                              color="currentColor"
+                              colorScheme="default"
+                              flip="none"
+                              rotate={0}
+                              rounded={false}
+                              size="custom"
+                            >
+                              <IconStyled
+                                backgroundColor=""
+                                border={false}
+                                borderWidth={0}
+                                color=""
+                                colorScheme="default"
+                                customColor="currentColor"
+                                flip="none"
+                                rotate={0}
+                                rounded={false}
+                                size="normal"
+                                sizeKey="custom"
+                              >
+                                <div
+                                  className="IconSvgStyled-cegYAl gxFYyV"
+                                  color=""
+                                  rotate={0}
+                                  size="normal"
+                                >
+                                  <svg
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <polygon
+                                      points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+                                    />
+                                  </svg>
+                                </div>
+                              </IconStyled>
+                            </IconSvg>
+                          </IconArrowChevronRight>
+                        </div>
+                      </IconWrapperStyled>
+                    </div>
+                  </IconExpandWrapperStyled>
+                </button>
+              </TitleBoxStyled>
+            </dt>
+          </HeadingStyled>
+          <ContentStyled
+            aria-labelledby="labelfor2"
+            contentBlank={false}
+            expanded={false}
+            id="2"
+            key="content"
+            role="region"
+          >
+            <dd
+              aria-labelledby="labelfor2"
+              className="ContentStyled-dbeIsI dSVNGC"
+              id="2"
+              role="region"
+            >
+              <div
+                key="1"
+              >
+                Place here some data
+              </div>
+            </dd>
+          </ContentStyled>
+        </AccordionItem>
+      </WithTheme(AccordionItem)>
+    </dl>
+  </AccordionStyled>
+</Accordion>
+`;
+
+exports[`<Accordion/> renders correctly with new props 2`] = `
+<Accordion
+  expandAll={false}
+  expandedItemIds={Array []}
+  items={
+    Array [
+      Object {
+        "content": Array [
+          <div>
+            Place here some data
+    </div>,
+        ],
+        "id": "1",
+        "title": "Accordion Item 1",
+      },
+    ]
+  }
+  onChange={[Function]}
+  single={false}
+  stateless={false}
+>
+  <AccordionStyled
+    role="presentation"
+  >
+    <dl
+      className="AccordionStyled-cyCOkU bjeNA"
+      role="presentation"
+    >
+      <WithTheme(AccordionItem)
+        content={
+          Array [
+            <div>
+              Place here some data
+          </div>,
+          ]
+        }
+        contentBlank={false}
+        expanded={false}
+        headerSlot={null}
+        id="1"
+        key="1"
+        onToggleExpanded={[Function]}
+        title="Accordion Item 1"
+      >
+        <AccordionItem
+          content={
+            Array [
+              <div>
+                Place here some data
+            </div>,
+            ]
+          }
+          contentBlank={false}
+          expanded={false}
+          headerSlot={null}
+          id="1"
+          onToggleExpanded={[Function]}
+          theme={
+            Object {
+              "reactackle": Object {
+                "baseModule": 8,
+                "body": Object {
+                  "backgroundColor": "#ffffff",
+                  "fontColor": "#212121",
+                  "fontColorAlt": "#ffffff",
+                  "fontFamily": "sansSerif",
+                  "fontWeight": "400",
+                  "lineHeight": 1.5,
+                },
+                "breakpoints": Object {
+                  "large": "80em",
+                  "medium": "60em",
+                  "small": "30em",
+                  "xlarge": "90em",
+                  "xsmall": "0",
+                  "xxlarge": "120em",
+                },
+                "breakpointsEmBase": 16,
+                "color": Object {
+                  "alert": "#f04124",
+                  "alertFgTextColor": "#ffffff",
+                  "black": "#000000",
+                  "error": "#f04124",
+                  "errorFgTextColor": "#ffffff",
+                  "info": "#d9edf7",
+                  "infoFgTextColor": "#212121",
+                  "main": "#2196F3",
+                  "mainFgTextColor": "#ffffff",
+                  "secondary": "#673AB7",
+                  "secondaryFgTextColor": "#ffffff",
+                  "success": "#43AC6A",
+                  "successFgTextColor": "#ffffff",
+                  "transparent": "hsla(0, 0%, 100%, 0)",
+                  "warning": "#f0b900",
+                  "warningFgTextColor": "#212121",
+                  "white": "#ffffff",
+                },
+                "colorAnchor": "#208dcc",
+                "colorBorder": "#e0e0e0",
+                "colorBrand": Object {
+                  "facebook": "#3b5998",
+                  "googlePlus": "#dd4b39",
+                  "vkontakte": "#45668e",
+                },
+                "colorPaletteGrey": Object {
+                  "100": "#f5f5f5",
+                  "200": "#eeeeee",
+                  "300": "#e0e0e0",
+                  "400": "#bdbdbd",
+                  "50": "#fafafa",
+                  "500": "#9e9e9e",
+                  "600": "#757575",
+                  "700": "#616161",
+                  "75": "#f7f7f7",
+                  "800": "#424242",
+                  "900": "#212121",
+                },
+                "components": Object {
+                  "accordion": Object {
+                    "item": Object {
+                      "content": Object {
+                        "animatedOffset": -20,
+                        "paddingX": 16,
+                        "paddingY": 12,
+                      },
+                      "expandIcon": Object {
+                        "collapsed": Object {
+                          "iconElement": <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+            />,
+                          "opacity": 0.7,
+                          "rotateDegree": 0,
+                        },
+                        "expanded": Object {
+                          "iconElement": <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+            />,
+                          "opacity": 1,
+                          "rotateDegree": "90deg",
+                        },
+                        "height": 24,
+                        "imgHeight": 20,
+                        "imgWidth": null,
+                        "width": null,
+                      },
+                      "title": Object {
+                        "align": "top",
+                        "collapsed": Object {
+                          "backgroundColor": "#ffffff",
+                          "color": "#212121",
+                          "focus": Object {
+                            "backgroundColor": "#f7f7f7",
+                            "opacity": 1,
+                          },
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "hover": Object {
+                            "backgroundColor": "#fafafa",
+                            "opacity": 1,
+                          },
+                          "lineHeight": 1.5,
+                          "opacity": 0.7,
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                          "paddingTop": 8,
+                          "textTransform": "uppercase",
+                        },
+                        "expanded": Object {
+                          "backgroundColor": "#ffffff",
+                          "color": "#212121",
+                          "focus": Object {
+                            "backgroundColor": "#f7f7f7",
+                            "opacity": 1,
+                          },
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "hover": Object {
+                            "backgroundColor": "#fafafa",
+                            "opacity": 1,
+                          },
+                          "lineHeight": 1.5,
+                          "opacity": 1,
+                          "paddingBottom": 8,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 8,
+                          "textTransform": "uppercase",
+                        },
+                        "minHeight": 34,
+                      },
+                    },
+                    "separator": Object {
+                      "color": "#e0e0e0",
+                      "style": "solid",
+                      "thickness": 1,
+                    },
+                  },
+                },
+                "contentWidth": 1360,
+                "direction": Object {
+                  "float": "left",
+                  "text": "ltr",
+                },
+                "fontColor": Object {
+                  "light": "#e0e0e0",
+                  "medium": "#9e9e9e",
+                },
+                "fontFamily": Object {
+                  "monospace": "Consolas, Liberation Mono, Courier, monospace",
+                  "sansSerif": "Open Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif",
+                  "serif": "Georgia, Cambria, Times New Roman, Times, serif",
+                },
+                "fontSize": Object {
+                  "-1": 12,
+                  "-2": 10,
+                  "0": 13,
+                  "1": 15,
+                  "2": 18,
+                  "3": 24,
+                  "4": 34,
+                  "5": 45,
+                  "6": 56,
+                  "7": 112,
+                },
+                "fontWeight": Object {
+                  "bold": "700",
+                  "light": "400",
+                  "normal": "400",
+                  "semibold": "600",
+                },
+                "radiusDefault": 2,
+                "radiusRounded": 1000,
+                "totalColumns": 12,
+                "zIndex": Object {
+                  "alertDesktop": 9000,
+                  "alertMobile": 5000,
+                  "base": 1,
+                  "dropdown": 7000,
+                  "modal": 8500,
+                  "moon": 9999,
+                  "nav": 500,
+                  "overlay": 8000,
+                  "popup": 8700,
+                  "tooltip": 9990,
+                },
+              },
+            }
+          }
+          title="Accordion Item 1"
+        >
+          <HeadingStyled
+            key="heading"
+            role="heading"
+          >
+            <dt
+              className="HeadingStyled-jcCngC diMfOQ"
+              role="heading"
+            >
+              <TitleBoxStyled
+                aria-controls="1"
+                aria-expanded={false}
+                expanded={false}
+                id="labelfor1"
+                onClick={[Function]}
+                role="button"
+              >
+                <button
+                  aria-controls="1"
+                  aria-expanded={false}
+                  className="TitleBoxStyled-QGbRI bwRMmk"
+                  id="labelfor1"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <TitleContentStyled>
+                    <div
+                      className="TitleContentStyled-eVpLoT bzPKhr"
+                    >
+                      <TitleStyled
+                        expanded={false}
+                      >
+                        <div
+                          className="TitleStyled-kOmUSD bmgLyZ"
+                        >
+                          Accordion Item 1
+                        </div>
+                      </TitleStyled>
+                    </div>
+                  </TitleContentStyled>
+                  <IconExpandWrapperStyled>
+                    <div
+                      className="IconExpandWrapperStyled-jsDvvw cHZrOx"
+                    >
+                      <IconWrapperStyled
+                        expanded={false}
+                      >
+                        <div
+                          className="IconWrapperStyled-hDFZgP iRWScr"
+                        >
+                          <IconArrowChevronRight
+                            color="currentColor"
+                            size="custom"
+                          >
+                            <IconSvg
+                              backgroundColor=""
+                              border={false}
+                              borderWidth={0}
+                              color="currentColor"
+                              colorScheme="default"
+                              flip="none"
+                              rotate={0}
+                              rounded={false}
+                              size="custom"
+                            >
+                              <IconStyled
+                                backgroundColor=""
+                                border={false}
+                                borderWidth={0}
+                                color=""
+                                colorScheme="default"
+                                customColor="currentColor"
+                                flip="none"
+                                rotate={0}
+                                rounded={false}
+                                size="normal"
+                                sizeKey="custom"
+                              >
+                                <div
+                                  className="IconSvgStyled-cegYAl gxFYyV"
+                                  color=""
+                                  rotate={0}
+                                  size="normal"
+                                >
+                                  <svg
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <polygon
+                                      points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+                                    />
+                                  </svg>
+                                </div>
+                              </IconStyled>
+                            </IconSvg>
+                          </IconArrowChevronRight>
+                        </div>
+                      </IconWrapperStyled>
+                    </div>
+                  </IconExpandWrapperStyled>
+                </button>
+              </TitleBoxStyled>
+            </dt>
+          </HeadingStyled>
+          <ContentStyled
+            aria-labelledby="labelfor1"
+            contentBlank={false}
+            expanded={false}
+            id="1"
+            key="content"
+            role="region"
+          >
+            <dd
+              aria-labelledby="labelfor1"
+              className="ContentStyled-dbeIsI dSVNGC"
+              id="1"
+              role="region"
+            >
+              <div
+                key="1"
+              >
+                Place here some data
+              </div>
+            </dd>
+          </ContentStyled>
+        </AccordionItem>
+      </WithTheme(AccordionItem)>
+    </dl>
+  </AccordionStyled>
+</Accordion>
+`;
