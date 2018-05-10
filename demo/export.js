@@ -184,3 +184,9 @@ export { TagRoute }
  from './routes/tag/tag';
 export { TagDemoRoute }
  from './routes/tag/demo';
+ export { AccordionIndexRoute }
+ from './routes/accordion';
+export { AccordionRoute }
+ from './routes/accordion/accordion';
+export { AccordionDemoRoute }
+ from './routes/accordion/demo';

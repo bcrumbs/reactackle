@@ -22,3 +22,4 @@ export * from 'reactackle-tooltip-icon';
 export * from 'reactackle-progress';
 export * from 'reactackle-breadcrumbs';
 export * from 'reactackle-tag';
+export * from 'reactackle-accordion';
