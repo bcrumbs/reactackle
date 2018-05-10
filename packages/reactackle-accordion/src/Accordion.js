@@ -9,7 +9,7 @@ import componentTheme from './styles/theme';
 registerDefaultComponentTheme('accordion', componentTheme);
 
 const propTypes = {
-  /*
+  /**
    * Speed of exit animation
    */
   items:
@@ -19,23 +19,23 @@ const propTypes = {
           content: PropTypes.node,
         }),
     ),
-  /*
+  /**
    * Define if Item has state itself
    */
   stateless: PropTypes.bool,
-  /*
+  /**
    * Array of expanded Item's ids
    */
   expandedItemIds: PropTypes.arrayOf(PropTypes.string),
-  /*
+  /**
    * Expand all items at once
    */
   expandAll: PropTypes.bool,
-  /*
+  /**
    * If true, only one item may be expanded at one time
    */
   single: PropTypes.bool,
-  /*
+  /**
    * Function to be called on Item title click
    */
   onChange: PropTypes.func,
