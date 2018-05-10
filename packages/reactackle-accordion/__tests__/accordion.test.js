@@ -3,7 +3,6 @@ import renderer from 'react-test-renderer';
 import toJson from 'enzyme-to-json';
 import { mount } from 'enzyme';
 import { Accordion, AccordionItem } from '../src';
-import { TitleBoxStyled } from '../src/AccordionItem/styles';
 
 const items = [
   {
