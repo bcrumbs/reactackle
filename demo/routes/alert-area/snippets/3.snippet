@@ -1,0 +1,20 @@
+const alerts = [
+  {
+    buttons: [
+      {
+        text: 'close',
+        action: () => {},
+        closeAlertArea: true,
+      },
+      {
+        text: 'custom button',
+        action: () => {},
+        colorScheme: 'warning',
+      },
+    ],
+    content: 'AlertArea content',
+    vertical: true
+  }
+];
+
+<AlertArea alerts={alerts} />

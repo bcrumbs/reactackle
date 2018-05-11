@@ -1,0 +1,54 @@
+const alerts = [
+  {
+   buttons: [
+     {
+       text: 'close',
+       action: () => {},
+       closeAlertArea: true,
+     },
+   ],
+   content: 'AlertArea #1 (default timeout)',
+  },
+  {
+   buttons: [
+     {
+       text: 'close',
+       action: () => {},
+       closeAlertArea: true,
+     },
+   ],
+   content: 'AlertArea #2 (2 seconds)',
+   vertical: true,
+   timeout: 2000,
+  },
+  {
+   buttons: [
+     {
+       text: 'close',
+       action: () => {},
+       closeAlertArea: true,
+     },
+   ],
+   content: 'AlertArea #3 (1 second)',
+   timeout: 1000,
+  },
+];
+let areaRef;
+
+<AlertArea alerts={alerts} ref={ref => areaRef = ref}/>
+
+areaRef.addToQueue({
+  buttons: [
+    {
+      text: 'close',
+      action: () => {},
+      closeAlertArea: true,
+    },
+    {
+      text: 'custom button',
+      action: () => {},
+    },
+  ],
+  content: `Next alert (2 seconds)`,
+  timeout: 2000,
+});
