@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { AlertArea, Button } from 'reactackle';
 import { RouteDemo } from '../../components/Route/RouteStructure';
-import { NotificationBanner } from '../../../components/NotificationBanner';
 
 import {
   DemoSnippet,
@@ -29,12 +28,15 @@ export class AlertAreaDemoRoute extends Component {
     this._handleCloseNotification = this._handleCloseNotification.bind(this);
     this._handleDefault = this._handleDefault.bind(this);
     this._handleCloseAndCallAction = this._handleCloseAndCallAction.bind(this);
-    this._handleCloseButtonAlertArea =
-      this._handleCloseButtonAlertArea.bind(this);
-    this._handleTimeoutForAutoclose =
-      this._handleTimeoutForAutoclose.bind(this);
-    this._handleTwoButtonsAndVerticalLayout =
-      this._handleTwoButtonsAndVerticalLayout.bind(this);
+    this._handleCloseButtonAlertArea = this._handleCloseButtonAlertArea.bind(
+      this,
+    );
+    this._handleTimeoutForAutoclose = this._handleTimeoutForAutoclose.bind(
+      this,
+    );
+    this._handleTwoButtonsAndVerticalLayout = this._handleTwoButtonsAndVerticalLayout.bind(
+      this,
+    );
     this._handleQueue = this._handleQueue.bind(this);
     this._handleQueueAdd = this._handleQueueAdd.bind(this);
     this._createAlertAreaRef = this._createAlertAreaRef.bind(this);
@@ -42,44 +44,52 @@ export class AlertAreaDemoRoute extends Component {
 
   _handleDefault() {
     this.setState({
-      alerts: [{
-        content: 'AlertArea content',
-      }],
+      alerts: [
+        {
+          content: 'AlertArea content',
+        },
+      ],
     });
   }
 
   _handleCloseButtonAlertArea() {
     this.setState({
-      alerts: [{
-        buttons: [{
-          text: 'close',
-          action: () => {},
-          closeAlertArea: true,
-        }],
-        content: 'AlertArea content',
-      }],
+      alerts: [
+        {
+          buttons: [
+            {
+              text: 'close',
+              action: () => {},
+              closeAlertArea: true,
+            },
+          ],
+          content: 'AlertArea content',
+        },
+      ],
       timeout: 0,
     });
   }
 
   _handleTwoButtonsAndVerticalLayout() {
     this.setState({
-      alerts: [{
-        buttons: [
-          {
-            text: 'close',
-            action: () => {},
-            closeAlertArea: true,
-          },
-          {
-            text: 'custom button',
-            action: () => {},
-            colorScheme: 'warning',
-          },
-        ],
-        content: 'AlertArea content',
-        vertical: true,
-      }],
+      alerts: [
+        {
+          buttons: [
+            {
+              text: 'close',
+              action: () => {},
+              closeAlertArea: true,
+            },
+            {
+              text: 'custom button',
+              action: () => {},
+              colorScheme: 'warning',
+            },
+          ],
+          content: 'AlertArea content',
+          vertical: true,
+        },
+      ],
     });
   }
 
@@ -110,13 +120,15 @@ export class AlertAreaDemoRoute extends Component {
       alerts: [
         {
           content: 'AlertArea content',
-          buttons: [{
-            text: 'close',
-            action: () => {
-              afterClose();
+          buttons: [
+            {
+              text: 'close',
+              action: () => {
+                afterClose();
+              },
+              closeAlertArea: true,
             },
-            closeAlertArea: true,
-          }],
+          ],
         },
       ],
     });
@@ -193,10 +205,7 @@ export class AlertAreaDemoRoute extends Component {
       <RouteDemo {...this.props}>
         <DemoSnippet title="Default alert (autoclose, without buttons)">
           <DemoPreview>
-            <Button
-              text="show alert"
-              onPress={this._handleDefault}
-            />
+            <Button text="show alert" onPress={this._handleDefault} />
           </DemoPreview>
           <DemoCode code={SnippetDefault} />
         </DemoSnippet>
@@ -223,9 +232,7 @@ export class AlertAreaDemoRoute extends Component {
           <DemoCode code={SnippetWithTwoButtonsWithVerticalLayout} />
         </DemoSnippet>
 
-        <DemoSnippet
-          title="AlertArea with timeout for autoclose"
-        >
+        <DemoSnippet title="AlertArea with timeout for autoclose">
           <DemoPreview>
             <Button
               text="show alert"
@@ -235,9 +242,7 @@ export class AlertAreaDemoRoute extends Component {
           <DemoCode code={SnippetWithTimeoutForAutoclose} />
         </DemoSnippet>
 
-        <DemoSnippet
-          title="AlertArea with close handler"
-        >
+        <DemoSnippet title="AlertArea with close handler">
           <DemoPreview>
             <Button
               text="show alert"
@@ -247,18 +252,10 @@ export class AlertAreaDemoRoute extends Component {
           <DemoCode code={SnippetWithCloseCallback} />
         </DemoSnippet>
 
-        <DemoSnippet
-          title="AlertArea queue"
-        >
+        <DemoSnippet title="AlertArea queue">
           <DemoPreview>
-            <Button
-              text="show queue"
-              onPress={this._handleQueue}
-            />
-            <Button
-              text="add item to queue"
-              onPress={this._handleQueueAdd}
-            />
+            <Button text="show queue" onPress={this._handleQueue} />
+            <Button text="add item to queue" onPress={this._handleQueueAdd} />
           </DemoPreview>
           <DemoCode code={SnippetWithQueue} />
         </DemoSnippet>
@@ -268,18 +265,7 @@ export class AlertAreaDemoRoute extends Component {
           alerts={this.state.alerts}
           ref={this._createAlertAreaRef}
         />
-
-        <NotificationBanner
-          visible={this.state.visibleNotification}
-          contentBoxed
-          hasConfirmButton
-          confirmButtonText="Hide this message"
-          overlay
-          overlayPosition="bottom"
-          onClose={this._handleCloseNotification}
-        >
-          <div>{this.state.textNotification}</div>
-        </NotificationBanner>
+        <div>{this.state.textNotification}</div>
       </RouteDemo>
     );
   }
