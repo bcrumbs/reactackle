@@ -15,6 +15,7 @@ const buttonAdditionalProps = {
    * Close alert on button click
    */
   closeAlert: PropTypes.bool,
+  buttonComponent: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
 };
 
 const propTypes = {
@@ -82,6 +83,19 @@ export default class Alert extends Component {
           if (button.action) button.action();
           if (button.closeAlert) this._handleClose();
         };
+
+        if (button.buttonComponent) {
+          let buttonElement;
+          if (typeof button.buttonComponent === "function") {
+            const Button = button.buttonComponent;
+            buttonElement = <Button key={getKey(button, index)} />;
+          } else {
+            buttonElement = React.cloneElement(button.buttonComponent, {
+              key: getKey(button, index),
+            });
+          }
+          return buttonElement;
+        }
 
         return (
           <Button

@@ -61,8 +61,7 @@ export class AlertAreaDemoRoute extends Component {
         {
           buttons: [
             {
-              text: 'close',
-              action: () => {},
+              buttonComponent: <button>hello</button>,
               closeAlert: true,
             },
           ],
