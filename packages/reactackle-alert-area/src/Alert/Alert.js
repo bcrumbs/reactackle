@@ -11,6 +11,9 @@ import {
 } from './styles';
 
 const buttonAdditionalProps = {
+  /**
+   * Close alert on button click
+   */
   closeAlert: PropTypes.bool,
 };
 
@@ -41,10 +44,7 @@ const propTypes = {
    * Array of Alert's buttons
    */
   buttons: PropTypes.arrayOf(
-    PropTypes.oneOf([
-      PropTypes.element,
-      [...Button.propTypes, buttonAdditionalProps],
-    ]),
+    PropTypes.shape(Button.propTypes, ...buttonAdditionalProps),
   ),
   /*
    * Function to be called on Close button click
@@ -64,7 +64,7 @@ const defaultProps = {
   closeAnimation: false,
 };
 
-export class Alert extends Component {
+export default class Alert extends Component {
   constructor(props) {
     super(props);
     
@@ -82,7 +82,7 @@ export class Alert extends Component {
           if (button.action) button.action();
           if (button.closeAlert) this._handleClose();
         };
-      
+
         return (
           <Button
             {...button}

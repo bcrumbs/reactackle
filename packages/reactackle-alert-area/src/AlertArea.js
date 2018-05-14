@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { noop, registerDefaultComponentTheme } from 'reactackle-core';
-import { Alert } from './Alert/Alert';
+import Alert from './Alert/Alert';
 import componentTheme from './styles/theme';
 import { AlertsWrapperStyled } from './styles/AlertsWrapperStyled';
 
@@ -15,7 +15,10 @@ const propTypes = {
   /*
    * Array of Alerts
    */
-  alerts: PropTypes.arrayOf(Alert),
+  alerts: PropTypes.arrayOf(PropTypes.shape({
+    ...Alert.propTypes,
+    content: PropTypes.node,
+  })),
   /*
    * Specify function to be called on Close button click
    */
@@ -33,11 +36,11 @@ const propTypes = {
    */
   positionY: PropTypes.oneOf(['top', 'bottom']),
 };
+
 const defaultProps = {
   defaultTimeout: 3000,
   alerts: [],
   onClose: noop,
-  icon: null,
   animationDuration: 300,
   positionX: 'right',
   positionY: 'bottom',

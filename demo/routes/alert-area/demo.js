@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { AlertArea, Button } from 'reactackle';
+// import { AlertArea, Button } from 'reactackle';
+import { Button } from 'reactackle';
+import { AlertArea } from "../../../packages/reactackle-alert-area/src";
+//
 import { RouteDemo } from '../../components/Route/RouteStructure';
 
 import {
@@ -60,7 +63,7 @@ export class AlertAreaDemoRoute extends Component {
             {
               text: 'close',
               action: () => {},
-              closeAlertArea: true,
+              closeAlert: true,
             },
           ],
           content: 'AlertArea content',
@@ -78,7 +81,7 @@ export class AlertAreaDemoRoute extends Component {
             {
               text: 'close',
               action: () => {},
-              closeAlertArea: true,
+              closeAlert: true,
             },
             {
               text: 'custom button',
@@ -126,7 +129,7 @@ export class AlertAreaDemoRoute extends Component {
               action: () => {
                 afterClose();
               },
-              closeAlertArea: true,
+              closeAlert: true,
             },
           ],
         },
@@ -148,7 +151,7 @@ export class AlertAreaDemoRoute extends Component {
             {
               text: 'close',
               action: () => {},
-              closeAlertArea: true,
+              closeAlert: true,
             },
           ],
           content: 'AlertArea #1 (default timeout)',
@@ -158,7 +161,7 @@ export class AlertAreaDemoRoute extends Component {
             {
               text: 'close',
               action: () => {},
-              closeAlertArea: true,
+              closeAlert: true,
             },
           ],
           content: 'AlertArea #2 (2 seconds)',
@@ -170,7 +173,7 @@ export class AlertAreaDemoRoute extends Component {
             {
               text: 'close',
               action: () => {},
-              closeAlertArea: true,
+              closeAlert: true,
             },
           ],
           content: 'AlertArea #3 (1 second)',
@@ -188,7 +191,7 @@ export class AlertAreaDemoRoute extends Component {
         {
           text: 'close',
           action: () => {},
-          closeAlertArea: true,
+          closeAlert: true,
         },
         {
           text: 'custom button',
