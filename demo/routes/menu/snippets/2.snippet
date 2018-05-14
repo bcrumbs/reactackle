@@ -1,0 +1,74 @@
+<Menu inline mode="light">
+  <MenuGroup data={inlineMenuData} />
+</Menu>
+
+const inlineMenu = [
+  {
+    data: [
+      {
+        text: 'This is active link',
+        isActive: true
+      },
+      {
+        text: 'This is active link',
+        iconLeft: 'amazon',
+        iconRight: 'asterisk',
+      },
+      {
+        text: 'This is active link',
+        image: 'https://cache-mskstoredata08.cdn.yandex.net/kp.cdn.yandex.net/251733/3_18381.jpg'
+      },
+      {
+        text: 'Hover me',
+        openSubmenuOnMouseEnter: true,
+        subcomponentRight: <ToggleButton />,
+        submenuGroup: {
+          mode: 'dark',
+          data: [
+            {
+              data: [
+                {
+                  text: 'Submenu 1-1',
+                  iconLeft: 'amazon',
+                  iconRight: 'asterisk',
+                  subcomponentRight: <ToggleButton />,
+                  textRight: 'Ctrl + Alt'
+                },
+                {
+                  text: 'Submenu 1-2 without left icon'
+                },
+                {
+                  text: 'Submenu 1-3',
+                  textSecondary: "Hover me too",
+                  iconLeft: 'android',
+                  iconRight: 'asterisk',
+                  textRight: 'Ctrl + Alt',
+                  openSubmenuOnMouseEnter: true,
+                  submenuGroup: {
+                    prefix: 'dropdown-menu',
+                    data: [
+                      {
+                        data: [
+                          {
+                            text: 'Submenu 1-3-1',
+                            image: 'http://www.clipartkid.com/images/31/apology-20clipart-clipart-panda-free-clipart-images-hVr83j-clipart.gif'
+                          }
+                        ],
+                      }
+                    ],
+                  },
+                },
+              ],
+            },
+            {
+              data: [
+                { text: 'Submenu 2-1' },
+                { text: 'Submenu 2-2' },
+              ],
+            },
+          ],
+        },
+      },
+    ],
+  }
+];

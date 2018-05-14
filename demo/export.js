@@ -196,3 +196,9 @@ export { AlertAreaRoute }
  from './routes/alert-area/alert-area';
 export { AlertAreaDemoRoute }
  from './routes/alert-area/demo';
+export { MenuIndexRoute }
+ from './routes/menu';
+export { MenuRoute }
+ from './routes/menu/menu';
+export { MenuDemoRoute }
+ from './routes/menu/demo';
