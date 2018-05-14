@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import { AlertArea, Button } from 'reactackle';
-import { Button } from 'reactackle';
-import { AlertArea } from "../../../packages/reactackle-alert-area/src";
-//
+import { AlertArea, Button } from 'reactackle';
+
 import { RouteDemo } from '../../components/Route/RouteStructure';
 
 import {
@@ -61,7 +59,8 @@ export class AlertAreaDemoRoute extends Component {
         {
           buttons: [
             {
-              buttonComponent: <button>hello</button>,
+              text: 'close',
+              action: () => {},
               closeAlert: true,
             },
           ],
