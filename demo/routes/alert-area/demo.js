@@ -35,9 +35,10 @@ export class AlertAreaDemoRoute extends Component {
     this._handleTimeoutForAutoclose = this._handleTimeoutForAutoclose.bind(
       this,
     );
-    this._handleTwoButtonsAndVerticalLayout = this._handleTwoButtonsAndVerticalLayout.bind(
-      this,
-    );
+    this._handleTwoButtonsAndVerticalLayout =
+      this._handleTwoButtonsAndVerticalLayout.bind(
+        this,
+      );
     this._handleQueue = this._handleQueue.bind(this);
     this._handleQueueAdd = this._handleQueueAdd.bind(this);
     this._createAlertAreaRef = this._createAlertAreaRef.bind(this);
