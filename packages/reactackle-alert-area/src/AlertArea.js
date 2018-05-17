@@ -8,30 +8,30 @@ import { AlertsWrapperStyled } from './styles/AlertsWrapperStyled';
 registerDefaultComponentTheme('alertsArea', componentTheme);
 
 const propTypes = {
-  /*
+  /**
    * Defines timeout for Alert close event
    */
   defaultTimeout: PropTypes.number,
-  /*
+  /**
    * Array of Alerts
    */
   alerts: PropTypes.arrayOf(PropTypes.shape({
     ...Alert.propTypes,
     content: PropTypes.node,
   })),
-  /*
+  /**
    * Specify function to be called on Close button click
    */
   onClose: PropTypes.func,
-  /*
+  /**
    * Speed of exit animation
    */
   animationDuration: PropTypes.number,
-  /*
+  /**
    * Horizontal position of Alert area relatively ro the window
    */
   positionX: PropTypes.oneOf(['left', 'right']),
-  /*
+  /**
    * Vertical position of Alert area relatively ro the window
    */
   positionY: PropTypes.oneOf(['top', 'bottom']),

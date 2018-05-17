@@ -61,6 +61,7 @@ export class AlertAreaDemoRoute extends Component {
           buttons: [
             {
               text: 'close',
+              colorScheme: 'flatLight',
               action: () => {},
               closeAlert: true,
             },
@@ -79,16 +80,18 @@ export class AlertAreaDemoRoute extends Component {
           buttons: [
             {
               text: 'close',
+              colorScheme: 'flatLight',
               action: () => {},
               closeAlert: true,
             },
             {
-              text: 'custom button',
+              text: 'subscribe',
+              colorScheme: 'primary',
               action: () => {},
-              colorScheme: 'warning',
+              closeAlert: true,
             },
           ],
-          content: 'AlertArea content',
+          content: 'Alert with vertical layout',
           vertical: true,
         },
       ],
@@ -125,6 +128,7 @@ export class AlertAreaDemoRoute extends Component {
           buttons: [
             {
               text: 'close',
+              colorScheme: 'flatLight',
               action: () => {
                 afterClose();
               },
@@ -149,33 +153,35 @@ export class AlertAreaDemoRoute extends Component {
           buttons: [
             {
               text: 'close',
+              colorScheme: 'flatLight',
               action: () => {},
               closeAlert: true,
             },
           ],
-          content: 'AlertArea #1 (default timeout)',
+          content: 'Alert #1 (default timeout)',
         },
         {
           buttons: [
             {
               text: 'close',
+              colorScheme: 'flatLight',
               action: () => {},
               closeAlert: true,
             },
           ],
-          content: 'AlertArea #2 (2 seconds)',
-          vertical: true,
+          content: 'Alert #2 (2 seconds timeout)',
           timeout: 2000,
         },
         {
           buttons: [
             {
               text: 'close',
+              colorScheme: 'flatLight',
               action: () => {},
               closeAlert: true,
             },
           ],
-          content: 'AlertArea #3 (1 second)',
+          content: 'Alert #3 (1 second timeout)',
           timeout: 1000,
         },
       ],
@@ -189,16 +195,12 @@ export class AlertAreaDemoRoute extends Component {
       buttons: [
         {
           text: 'close',
+          colorScheme: 'flatLight',
           action: () => {},
           closeAlert: true,
         },
-        {
-          text: 'custom button',
-          action: () => {},
-        },
       ],
-      vertical: true,
-      content: 'Next alert (2 seconds)',
+      content: 'Next alert (2 seconds timeout)',
       timeout: 2000,
     });
   }
@@ -211,6 +213,7 @@ export class AlertAreaDemoRoute extends Component {
           </DemoPreview>
           <DemoCode code={SnippetDefault} />
         </DemoSnippet>
+
         <DemoSnippet title="AlertArea without autoclose, with close button">
           <DemoPreview>
             <Button
@@ -220,11 +223,8 @@ export class AlertAreaDemoRoute extends Component {
           </DemoPreview>
           <DemoCode code={SnippetWithCloseButton} />
         </DemoSnippet>
-        <DemoSnippet
-          title={
-            'AlertArea with vertical layout (vertical: true) and two buttons'
-          }
-        >
+
+        <DemoSnippet title='AlertArea with vertical layout'>
           <DemoPreview>
             <Button
               text="show alert"

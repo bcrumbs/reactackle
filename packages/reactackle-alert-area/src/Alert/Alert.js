@@ -15,23 +15,26 @@ const buttonAdditionalProps = {
    * Close alert on button click
    */
   closeAlert: PropTypes.bool,
+  /**
+   * Specify Button component. We use Reactackle Button as a default.
+   */
   buttonComponent: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
 };
 
 const propTypes = {
-  /*
+  /**
    * Alert item id
    */
   id: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
   ]),
-  /*
+  /**
    * Changes Alert layout direction to vertical (buttons will be placed under
    * Alert content)
    */
   vertical: PropTypes.bool,
-  /*
+  /**
    * Alert color scheme
    */
   colorScheme: PropTypes.oneOf([
@@ -41,21 +44,22 @@ const propTypes = {
     'success',
     'info',
   ]),
-  /*
+  /**
    * Array of Alert's buttons
    */
   buttons: PropTypes.arrayOf(
     PropTypes.shape(Button.propTypes, ...buttonAdditionalProps),
   ),
-  /*
+  /**
    * Function to be called on Close button click
    */
   onClose: PropTypes.func,
-  /*
+  /**
    * Speed of exit animation
    */
   closeAnimation: PropTypes.bool,
 };
+
 const defaultProps = {
   id: '',
   colorScheme: 'default',
@@ -100,7 +104,6 @@ export default class Alert extends Component {
         return (
           <Button
             {...button}
-            colorScheme={button.colorScheme || 'flatLight'}
             onPress={pressHandler}
             key={getKey(button, index)}
           />
