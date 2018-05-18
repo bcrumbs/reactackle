@@ -1,6 +1,6 @@
 import React from 'react';
-import { ToggleButton } from 'reactackle-toggle-button';
-import { IconCross, IconSvg } from 'reactackle-icons';
+// import { ToggleButton } from 'reactackle-toggle-button';
+import { IconCross, IconSvg } from 'reactackle';
 import { RouteDemo } from '../../components/Route/RouteStructure';
 
 import {
@@ -15,7 +15,7 @@ import {
   MenuGroup,
   MenuList,
   MenuItem,
-} from '../../../index';
+} from '../../../packages/reactackle-menu/src';
 
 import SnippetDefault from './snippets/1.snippet';
 import Snippet2 from './snippets/2.snippet';
@@ -30,7 +30,7 @@ const data = [
       {
         text: 'Hover me',
         openSubmenuOnMouseEnter: true,
-        addonRight: <ToggleButton />,
+        // addonRight: <ToggleButton />,
         submenuGroup: {
           prefix: 'dropdown-menu',
           data: [
@@ -41,7 +41,7 @@ const data = [
                   text: 'Submenu 1-1',
                   iconLeft: <IconSvg />,
                   iconRight: <IconSvg />,
-                  addonRight: <ToggleButton />,
+                  // addonRight: <ToggleButton />,
                   textRight: 'Ctrl + Alt',
                 },
                 {
@@ -109,7 +109,7 @@ const inlineMenu = [
       {
         text: 'Hover me',
         openSubmenuOnMouseEnter: true,
-        addonRight: <ToggleButton />,
+        // addonRight: <ToggleButton />,
         submenuGroup: {
           prefix: 'dropdown-menu',
           mode: 'dark',
@@ -120,7 +120,7 @@ const inlineMenu = [
                   text: 'Submenu 1-1',
                   iconLeft: <IconSvg />,
                   iconRight: <IconSvg />,
-                  addonRight: <ToggleButton />,
+                  // addonRight: <ToggleButton />,
                   textRight: 'Ctrl + Alt',
                 },
                 {
@@ -183,7 +183,7 @@ const menuContent = (
         iconLeft={<IconCross />}
         iconRight={<IconSvg />}
         textRight="CTRL+F"
-        addonRight={<ToggleButton />}
+        // addonRight={<ToggleButton />}
         active
       />
       <MenuItem text="Item 4" addIconOffset />
@@ -238,7 +238,7 @@ const menuContent = (
         iconLeft={<IconCross />}
         iconRight={<IconSvg />}
         textRight="CTRL+F"
-        addonRight={<ToggleButton />}
+        // addonRight={<ToggleButton />}
         colorScheme="light"
         active
       />
@@ -261,7 +261,7 @@ const menuContentInline = (
         iconLeft={<IconCross />}
         iconRight={<IconSvg />}
         textRight="CTRL+F"
-        addonRight={<ToggleButton />}
+        // addonRight={<ToggleButton />}
         active
       />
       <MenuItem text="Item 4" addIconOffset />
@@ -316,7 +316,7 @@ const menuContentInline = (
         iconLeft={<IconCross />}
         iconRight={<IconSvg />}
         textRight="CTRL+F"
-        addonRight={<ToggleButton />}
+        // addonRight={<ToggleButton />}
         colorScheme="light"
         active
       />

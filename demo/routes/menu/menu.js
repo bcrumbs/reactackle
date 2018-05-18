@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { RouteStructure } from '../../components/Route/RouteStructure';
 
