@@ -20,152 +20,152 @@ import {
 import SnippetDefault from './snippets/1.snippet';
 import Snippet2 from './snippets/2.snippet';
 
-const data = [
-  {
-    data: [
-      {
-        text: 'This is active link',
-        isActive: true,
-      },
-      {
-        text: 'Hover me',
-        openSubmenuOnMouseEnter: true,
-        // addonRight: <ToggleButton />,
-        submenuGroup: {
-          prefix: 'dropdown-menu',
-          data: [
-            {
-              iconOffset: true,
-              data: [
-                {
-                  text: 'Submenu 1-1',
-                  iconLeft: <IconSvg />,
-                  iconRight: <IconSvg />,
-                  // addonRight: <ToggleButton />,
-                  textRight: 'Ctrl + Alt',
-                },
-                {
-                  text: 'Submenu 1-2 without left icon',
-                },
-                {
-                  text: 'Submenu 1-3',
-                  textSecondary: 'Hover me too',
-                  iconLeft: <IconSvg />,
-                  iconRight: <IconSvg />,
-                  textRight: 'Ctrl + Alt',
-                  openSubmenuOnMouseEnter: true,
-                  submenuGroup: {
-                    prefix: 'dropdown-menu',
-                    data: [
-                      {
-                        imageOffset: true,
-                        data: [
-                          {
-                            text: 'Submenu 1-3-1',
-                            image: 'http://www.clipartkid.com/images/31/apology'
-                              + '-20clipart-clipart-panda-free-clipart-images'
-                              + '-hVr83j-clipart.gif',
-                          },
-                          {
-                            text: 'Submenu 1-3-2',
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              data: [
-                { text: 'Submenu 2-1' },
-                { text: 'Submenu 2-2' },
-              ],
-            },
-          ],
-        },
-      },
-    ],
-  },
-];
+// const data = [
+//   {
+//     data: [
+//       {
+//         text: 'This is active link',
+//         isActive: true,
+//       },
+//       {
+//         text: 'Hover me',
+//         openSubmenuOnMouseEnter: true,
+//         // addonRight: <ToggleButton />,
+//         submenuGroup: {
+//           prefix: 'dropdown-menu',
+//           data: [
+//             {
+//               iconOffset: true,
+//               data: [
+//                 {
+//                   text: 'Submenu 1-1',
+//                   iconLeft: <IconSvg />,
+//                   iconRight: <IconSvg />,
+//                   // addonRight: <ToggleButton />,
+//                   textRight: 'Ctrl + Alt',
+//                 },
+//                 {
+//                   text: 'Submenu 1-2 without left icon',
+//                 },
+//                 {
+//                   text: 'Submenu 1-3',
+//                   textSecondary: 'Hover me too',
+//                   iconLeft: <IconSvg />,
+//                   iconRight: <IconSvg />,
+//                   textRight: 'Ctrl + Alt',
+//                   openSubmenuOnMouseEnter: true,
+//                   submenuGroup: {
+//                     prefix: 'dropdown-menu',
+//                     data: [
+//                       {
+//                         imageOffset: true,
+//                         data: [
+//                           {
+//                             text: 'Submenu 1-3-1',
+//                             image: 'http://www.clipartkid.com/images/31/apology'
+//                               + '-20clipart-clipart-panda-free-clipart-images'
+//                               + '-hVr83j-clipart.gif',
+//                           },
+//                           {
+//                             text: 'Submenu 1-3-2',
+//                           },
+//                         ],
+//                       },
+//                     ],
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               data: [
+//                 { text: 'Submenu 2-1' },
+//                 { text: 'Submenu 2-2' },
+//               ],
+//             },
+//           ],
+//         },
+//       },
+//     ],
+//   },
+// ];
 
-const inlineMenu = [
-  {
-    data: [
-      {
-        text: 'This is active link',
-        isActive: true,
-      },
-      {
-        text: 'This is active link',
-        iconLeft: <IconCross />,
-        iconRight: <IconCross />,
-      },
-      {
-        text: 'This is active link',
-        image: 'https://cache-mskstoredata08.cdn.yandex.net/'
-          + 'kp.cdn.yandex.net/251733/3_18381.jpg',
-      },
-      {
-        text: 'Hover me',
-        openSubmenuOnMouseEnter: true,
-        // addonRight: <ToggleButton />,
-        submenuGroup: {
-          prefix: 'dropdown-menu',
-          mode: 'dark',
-          data: [
-            {
-              data: [
-                {
-                  text: 'Submenu 1-1',
-                  iconLeft: <IconSvg />,
-                  iconRight: <IconSvg />,
-                  // addonRight: <ToggleButton />,
-                  textRight: 'Ctrl + Alt',
-                },
-                {
-                  text: 'Submenu 1-2 without left icon',
-                },
-                {
-                  text: 'Submenu 1-3',
-                  textSecondary: 'Hover me too',
-                  iconLeft: <IconCross />,
-                  iconRight: <IconCross />,
-                  textRight: 'Ctrl + Alt',
-                  openSubmenuOnMouseEnter: true,
-                  submenuGroup: {
-                    prefix: 'dropdown-menu',
-                    data: [
-                      {
-                        data: [
-                          {
-                            text: 'Submenu 1-3-1',
-                            image: 'http://www.clipartkid.com/images/31/apology'
-                              + '-20clipart-clipart-panda-free-clipart-images'
-                              + '-hVr83j-clipart.gif',
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                },
-              ],
-            },
-            {
-              data: [
-                { text: 'Submenu 2-1' },
-                { text: 'Submenu 2-2' },
-              ],
-            },
-          ],
-        },
-      },
-      {
-        text: 'Some other item',
-      },
-    ],
-  },
-];
+// const inlineMenu = [
+//   {
+//     data: [
+//       {
+//         text: 'This is active link',
+//         isActive: true,
+//       },
+//       {
+//         text: 'This is active link',
+//         iconLeft: <IconCross />,
+//         iconRight: <IconCross />,
+//       },
+//       {
+//         text: 'This is active link',
+//         image: 'https://cache-mskstoredata08.cdn.yandex.net/'
+//           + 'kp.cdn.yandex.net/251733/3_18381.jpg',
+//       },
+//       {
+//         text: 'Hover me',
+//         openSubmenuOnMouseEnter: true,
+//         // addonRight: <ToggleButton />,
+//         submenuGroup: {
+//           prefix: 'dropdown-menu',
+//           mode: 'dark',
+//           data: [
+//             {
+//               data: [
+//                 {
+//                   text: 'Submenu 1-1',
+//                   iconLeft: <IconSvg />,
+//                   iconRight: <IconSvg />,
+//                   // addonRight: <ToggleButton />,
+//                   textRight: 'Ctrl + Alt',
+//                 },
+//                 {
+//                   text: 'Submenu 1-2 without left icon',
+//                 },
+//                 {
+//                   text: 'Submenu 1-3',
+//                   textSecondary: 'Hover me too',
+//                   iconLeft: <IconCross />,
+//                   iconRight: <IconCross />,
+//                   textRight: 'Ctrl + Alt',
+//                   openSubmenuOnMouseEnter: true,
+//                   submenuGroup: {
+//                     prefix: 'dropdown-menu',
+//                     data: [
+//                       {
+//                         data: [
+//                           {
+//                             text: 'Submenu 1-3-1',
+//                             image: 'http://www.clipartkid.com/images/31/apology'
+//                               + '-20clipart-clipart-panda-free-clipart-images'
+//                               + '-hVr83j-clipart.gif',
+//                           },
+//                         ],
+//                       },
+//                     ],
+//                   },
+//                 },
+//               ],
+//             },
+//             {
+//               data: [
+//                 { text: 'Submenu 2-1' },
+//                 { text: 'Submenu 2-2' },
+//               ],
+//             },
+//           ],
+//         },
+//       },
+//       {
+//         text: 'Some other item',
+//       },
+//     ],
+//   },
+// ];
 
 const menuContent = (
   <MenuGroup>
@@ -351,7 +351,7 @@ export const MenuDemoRoute = () => (
       <DemoPreview>
         <TestBox padding bgColor="#333">
           <Menu inline mode="light">
-            {/*<MenuGroup data={inlineMenu} />*/}
+            {/* <MenuGroup data={inlineMenu} />*/}
             { menuContentInline }
           </Menu>
         </TestBox>
