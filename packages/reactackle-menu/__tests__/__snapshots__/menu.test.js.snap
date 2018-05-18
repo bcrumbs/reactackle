@@ -1,0 +1,1016 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu/> renders correctly if contains children 1`] = `
+<nav
+  className="MenuStyled__Menu-jtPmtm kTOSNr"
+>
+  <div
+    className="MenuGroupStyled-koaikM ctyGEo"
+  >
+    <ul
+      className="MenuListStyled-gFJHmJ gBqnhd"
+    >
+      
+      <li
+        className="MenuItemStyled-zHXTb cwLYjk"
+        id=""
+        tabIndex={-1}
+      >
+        <a
+          active={false}
+          className="AnchorStyled-cEwrfy iDSCJH"
+          colorScheme="dark"
+          href="#"
+          nestingLevel={0}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          
+          <div
+            className="ContentStyled-dbeIsI ffAfsx"
+          >
+            <div
+              className="TextPrimaryStyled-hGxnND gdcblT"
+            >
+              test
+            </div>
+            
+          </div>
+          
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
+
+exports[`<Menu/> renders correctly if prop colorScheme set dark 1`] = `
+<nav
+  className="MenuStyled__Menu-jtPmtm kTOSNr"
+/>
+`;
+
+exports[`<Menu/> renders correctly if prop inline set true 1`] = `
+<nav
+  className="MenuStyled__Menu-jtPmtm kTOSNr"
+/>
+`;
+
+exports[`<Menu/> renders correctly with default props 1`] = `
+<nav
+  className="MenuStyled__Menu-jtPmtm kTOSNr"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop data set 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+>
+  <ul
+    className="MenuListStyled-gFJHmJ gBqnhd"
+  >
+    
+    <li
+      className="MenuItemStyled-zHXTb cwLYjk"
+      id=""
+      tabIndex={-1}
+    >
+      <a
+        active={false}
+        className="AnchorStyled-cEwrfy iDSCJH"
+        colorScheme="dark"
+        href="#"
+        nestingLevel={0}
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        
+        <div
+          className="ContentStyled-dbeIsI ffAfsx"
+        >
+          <div
+            className="TextPrimaryStyled-hGxnND gdcblT"
+          >
+            Structure
+          </div>
+          
+        </div>
+        
+      </a>
+    </li>
+    <li
+      className="MenuItemStyled-zHXTb cwLYjk"
+      id=""
+      tabIndex={-1}
+    >
+      <a
+        active={false}
+        className="AnchorStyled-cEwrfy iDSCJH"
+        colorScheme="dark"
+        href="#"
+        nestingLevel={0}
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        
+        <div
+          className="ContentStyled-dbeIsI ffAfsx"
+        >
+          <div
+            className="TextPrimaryStyled-hGxnND gdcblT"
+          >
+            Design
+          </div>
+          
+        </div>
+        
+        <div
+          className="ExpandButtonStyled-euYyvr fjfSNm"
+          onClick={[Function]}
+        >
+          <div
+            className="ExpandIconStyled-fpoRLF dMNKzJ"
+          >
+            <div
+              className="IconSvgStyled-cegYAl gxFYyV"
+              color=""
+              rotate={0}
+              size="normal"
+            >
+              <svg
+                viewBox="0 0 24 24"
+              >
+                <polygon
+                  points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop inline set false 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop inline set true 1`] = `
+<div
+  className="MenuGroupStyled-koaikM hwNzQd"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop leftOffset set false 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop leftOffset set true 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop mode set dark 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop mode set light 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly if prop prefix set 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuGroup/> renders correctly with default props 1`] = `
+<div
+  className="MenuGroupStyled-koaikM ctyGEo"
+/>
+`;
+
+exports[`<MenuItem/> renders correctly if call toggleMenu with not boolean param 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+    <div
+      className="ExpandButtonStyled-euYyvr fjfSNm"
+      onClick={[Function]}
+    >
+      <div
+        className="ExpandIconStyled-fpoRLF gcFwTX"
+      >
+        <div
+          className="IconSvgStyled-cegYAl gxFYyV"
+          color=""
+          rotate={0}
+          size="normal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div
+    className="MenuGroupStyled-koaikM ctyGEo"
+  >
+    <ul
+      className="MenuListStyled-gFJHmJ gBqnhd"
+    >
+      
+      <li
+        className="MenuItemStyled-zHXTb cwLYjk"
+        id=""
+        tabIndex={-1}
+      >
+        <a
+          active={false}
+          className="AnchorStyled-cEwrfy iDSCJH"
+          colorScheme="dark"
+          href="#"
+          nestingLevel={0}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          
+          <div
+            className="ContentStyled-dbeIsI ffAfsx"
+          >
+            <div
+              className="TextPrimaryStyled-hGxnND gdcblT"
+            >
+              test2
+            </div>
+            
+          </div>
+          
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if call toggleMenu with param false 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+    <div
+      className="ExpandButtonStyled-euYyvr fjfSNm"
+      onClick={[Function]}
+    >
+      <div
+        className="ExpandIconStyled-fpoRLF dMNKzJ"
+      >
+        <div
+          className="IconSvgStyled-cegYAl gxFYyV"
+          color=""
+          rotate={0}
+          size="normal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if call toggleMenu with param true 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+    <div
+      className="ExpandButtonStyled-euYyvr fjfSNm"
+      onClick={[Function]}
+    >
+      <div
+        className="ExpandIconStyled-fpoRLF gcFwTX"
+      >
+        <div
+          className="IconSvgStyled-cegYAl gxFYyV"
+          color=""
+          rotate={0}
+          size="normal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div
+    className="MenuGroupStyled-koaikM ctyGEo"
+  >
+    <ul
+      className="MenuListStyled-gFJHmJ gBqnhd"
+    >
+      
+      <li
+        className="MenuItemStyled-zHXTb cwLYjk"
+        id=""
+        tabIndex={-1}
+      >
+        <a
+          active={false}
+          className="AnchorStyled-cEwrfy iDSCJH"
+          colorScheme="dark"
+          href="#"
+          nestingLevel={0}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          
+          <div
+            className="ContentStyled-dbeIsI ffAfsx"
+          >
+            <div
+              className="TextPrimaryStyled-hGxnND gdcblT"
+            >
+              test2
+            </div>
+            
+          </div>
+          
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop className set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop iconLeft set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <div
+      className="IconLeftStyled-jyAXgi faPUUg"
+    >
+      <div
+        className="IconSvgStyled-cegYAl tgtsk"
+        color=""
+        rotate={0}
+        size="normal"
+      >
+        <svg
+          viewBox="0 0 24 24"
+        >
+          <polygon
+            points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+          />
+        </svg>
+      </div>
+    </div>
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop iconRight set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+    <div
+      className="IconRightStyled-fuaQJY krUonR"
+    >
+      <div
+        className="IconSvgStyled-cegYAl tgtsk"
+        color=""
+        rotate={0}
+        size="normal"
+      >
+        <svg
+          viewBox="0 0 24 24"
+        >
+          <polygon
+            points="19.2,6.2 17.8,4.8 12,10.6 6.2,4.8 4.8,6.2 10.6,12 4.8,17.8 6.2,19.2 12,13.4 17.8,19.2 19.2,17.8 13.4,12"
+          />
+        </svg>
+      </div>
+    </div>
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop image set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <div
+      className="ImageStyled-kCiWXN hDCVzD"
+      style={
+        Object {
+          "backgroundImage": "url(star)",
+        }
+      }
+    />
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop isActive set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop linkHref set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop openSubmenuOnMouseEnter set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop prefix set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop subcomponentRight set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop text set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test
+      </div>
+      
+    </div>
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop textRight set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    <div
+      className="TextRightStyled-dhKRVv epWZfT"
+    >
+      test
+    </div>
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly if prop textSecondary set 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly with children if one call "handleClick" 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+    <div
+      className="ExpandButtonStyled-euYyvr fjfSNm"
+      onClick={[Function]}
+    >
+      <div
+        className="ExpandIconStyled-fpoRLF gcFwTX"
+      >
+        <div
+          className="IconSvgStyled-cegYAl gxFYyV"
+          color=""
+          rotate={0}
+          size="normal"
+        >
+          <svg
+            viewBox="0 0 24 24"
+          >
+            <polygon
+              points="9.7,5.8 8.3,7.2 13.1,12 8.3,16.8 9.7,18.2 15.9,12"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div
+    className="MenuGroupStyled-koaikM ctyGEo"
+  >
+    <ul
+      className="MenuListStyled-gFJHmJ gBqnhd"
+    >
+      
+      <li
+        className="MenuItemStyled-zHXTb cwLYjk"
+        id=""
+        tabIndex={-1}
+      >
+        <a
+          active={false}
+          className="AnchorStyled-cEwrfy iDSCJH"
+          colorScheme="dark"
+          href="#"
+          nestingLevel={0}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          
+          <div
+            className="ContentStyled-dbeIsI ffAfsx"
+          >
+            <div
+              className="TextPrimaryStyled-hGxnND gdcblT"
+            >
+              test2
+            </div>
+            
+          </div>
+          
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly with default props 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly without children if "handleMouseEnter" was called while openSubmenuOnMouseEnter was set to true 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly without children if one call "handleClick" 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuItem/> renders correctly without children if submenuOpen in state was set to true 1`] = `
+<li
+  className="MenuItemStyled-zHXTb cwLYjk"
+  id=""
+  tabIndex={-1}
+>
+  <a
+    active={false}
+    className="AnchorStyled-cEwrfy iDSCJH"
+    colorScheme="dark"
+    href="#"
+    nestingLevel={0}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    
+    <div
+      className="ContentStyled-dbeIsI ffAfsx"
+    >
+      <div
+        className="TextPrimaryStyled-hGxnND gdcblT"
+      >
+        test1
+      </div>
+      
+    </div>
+    
+  </a>
+</li>
+`;
+
+exports[`<MenuList/> renders correctly if prop bordered set false 1`] = `
+<ul
+  className="MenuListStyled-gFJHmJ gBqnhd"
+>
+  
+</ul>
+`;
+
+exports[`<MenuList/> renders correctly if prop bordered set true 1`] = `
+<ul
+  className="MenuListStyled-gFJHmJ jWQriM"
+>
+  
+</ul>
+`;
+
+exports[`<MenuList/> renders correctly if prop className set 1`] = `
+<ul
+  className="MenuListStyled-gFJHmJ gBqnhd"
+>
+  
+</ul>
+`;
+
+exports[`<MenuList/> renders correctly if prop prefix set 1`] = `
+<ul
+  className="MenuListStyled-gFJHmJ gBqnhd"
+>
+  
+</ul>
+`;
+
+exports[`<MenuList/> renders correctly if prop title set 1`] = `
+<ul
+  className="MenuListStyled-gFJHmJ gBqnhd"
+>
+  <div
+    className="TitleStyled-kOmUSD gcEkGT"
+  >
+    test
+  </div>
+</ul>
+`;
+
+exports[`<MenuList/> renders correctly with default props 1`] = `
+<ul
+  className="MenuListStyled-gFJHmJ gBqnhd"
+>
+  
+</ul>
+`;
