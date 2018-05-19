@@ -46,7 +46,7 @@ exports[`<AlertArea/> renders correctly if prop alerts has buttons and checks th
         className="ActionsWrapperStyled-eCnBHy buEQNK"
       >
         <button
-          className="ButtonStyled__Button-lkXKpB iDqeCe"
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
           disabled={false}
           onClick={[Function]}
           radius="default"
@@ -91,7 +91,7 @@ exports[`<AlertArea/> renders correctly if prop alerts has buttons and checks th
         className="ActionsWrapperStyled-eCnBHy buEQNK"
       >
         <button
-          className="ButtonStyled__Button-lkXKpB iDqeCe"
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
           disabled={false}
           onClick={[Function]}
           radius="default"
@@ -185,7 +185,7 @@ exports[`<AlertArea/> renders correctly if prop alerts set several vertical item
         className="ActionsWrapperStyled-eCnBHy buEQNK"
       >
         <button
-          className="ButtonStyled__Button-lkXKpB iDqeCe"
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
           disabled={false}
           onClick={[Function]}
           radius="default"
@@ -230,7 +230,7 @@ exports[`<AlertArea/> renders correctly if prop alerts set several vertical/hori
         className="ActionsWrapperStyled-eCnBHy buEQNK"
       >
         <button
-          className="ButtonStyled__Button-lkXKpB iDqeCe"
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
           disabled={false}
           onClick={[Function]}
           radius="default"
