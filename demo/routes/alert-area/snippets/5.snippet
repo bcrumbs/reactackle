@@ -1,13 +1,47 @@
-const alerts = [
-  {
-    content: 'AlertArea content',
-    buttons: [{
-      text: 'close',
-      colorScheme: 'flatLight',
-      action: () => {},
-      closeAlert: true,
-    }]
-  }
-];
+_handleCloseAndCallAction() {
+  const afterClose = () => {
+    this.setState({
+      visibleNotification: true,
+      textNotification: 'Alert closed',
+    });
+  };
 
-<AlertArea alerts={alerts} />
+  this.setState({
+    alerts: [
+      {
+        content: 'AlertArea content',
+        buttons: [
+          {
+            text: 'close',
+            colorScheme: 'flatLight',
+            action: () => {
+              afterClose();
+            },
+            closeAlert: true,
+          },
+        ],
+      },
+    ],
+  });
+};
+
+/* ... */
+
+<Button
+  text="show alert"
+  onPress={this._handleCloseAndCallAction}
+/>
+
+<AlertArea alerts={[
+   {
+     content: 'Alert content',
+     buttons: [{
+       text: 'close',
+       colorScheme: 'flatLight',
+       action: () => {
+         afterClose();
+       },
+       closeAlert: true,
+     }]
+   }
+ ]} />

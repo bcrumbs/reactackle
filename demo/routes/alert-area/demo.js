@@ -7,6 +7,7 @@ import {
   DemoSnippet,
   DemoPreview,
   DemoCode,
+  TestBox,
 } from '../../components/DemoSnippet/DemoSnippet';
 
 import SnippetDefault from './snippets/1.snippet';
@@ -117,14 +118,14 @@ export class AlertAreaDemoRoute extends Component {
     const afterClose = () => {
       this.setState({
         visibleNotification: true,
-        textNotification: 'AlertArea closed',
+        textNotification: 'Alert closed',
       });
     };
 
     this.setState({
       alerts: [
         {
-          content: 'AlertArea content',
+          content: 'Alert content',
           buttons: [
             {
               text: 'close',
@@ -250,6 +251,22 @@ export class AlertAreaDemoRoute extends Component {
               text="show alert"
               onPress={this._handleCloseAndCallAction}
             />
+
+            <TestBox padding>
+              <p>Click on Alert's close button to see callback result</p>
+
+              {this.state.textNotification && (
+                <div
+                  style={{
+                    backgroundColor: '#cbe0a2',
+                    padding: '8px 12px',
+                    borderRadius: '2px',
+                  }}
+                >
+                  {this.state.textNotification}
+                </div>
+              )}
+            </TestBox>
           </DemoPreview>
           <DemoCode code={SnippetWithCloseCallback} />
         </DemoSnippet>
@@ -267,7 +284,6 @@ export class AlertAreaDemoRoute extends Component {
           alerts={this.state.alerts}
           ref={this._createAlertAreaRef}
         />
-        <div>{this.state.textNotification}</div>
       </RouteDemo>
     );
   }
