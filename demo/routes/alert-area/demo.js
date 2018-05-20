@@ -253,7 +253,7 @@ export class AlertAreaDemoRoute extends Component {
             />
 
             <TestBox padding>
-              <p>Click on Alert's close button to see callback result</p>
+              <p>Click on Alert‘s close button to see callback result</p>
 
               {this.state.textNotification && (
                 <div
