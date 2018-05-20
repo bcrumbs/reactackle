@@ -23,3 +23,4 @@ export * from 'reactackle-progress';
 export * from 'reactackle-breadcrumbs';
 export * from 'reactackle-tag';
 export * from 'reactackle-accordion';
+export * from 'reactackle-alert-area';

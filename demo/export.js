@@ -190,3 +190,9 @@ export { AccordionRoute }
  from './routes/accordion/accordion';
 export { AccordionDemoRoute }
  from './routes/accordion/demo';
+export { AlertAreaIndexRoute }
+ from './routes/alert-area';
+export { AlertAreaRoute }
+ from './routes/alert-area/alert-area';
+export { AlertAreaDemoRoute }
+ from './routes/alert-area/demo';
