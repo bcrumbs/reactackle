@@ -1,0 +1,65 @@
+<Menu>
+  <MenuGroup>
+    <MenuList>
+      <MenuItem
+        text="Item 1"
+        textSecondary="Item 1 - text secondary"
+      />
+
+      <MenuItem
+        text="Item 2"
+        textSecondary="Item with iconLeft"
+        iconLeft={<IconSvg />}
+      />
+
+      <MenuItem
+        text="Item 3"
+        textSecondary="Item with iconLeft & iconRight"
+        iconLeft={<IconSvg />}
+        iconRight={<IconSvg />}
+      />
+
+      <MenuItem
+        text="Item 4"
+        textSecondary="Item with icon offset"
+        addIconOffset
+      />
+
+      <MenuItem
+        text="Item 5"
+        textSecondary="Active item  with iconLeft & iconRight, addonRight & textRight"
+        iconLeft={<IconSvg />}
+        iconRight={<IconSvg />}
+        textRight="CTRL+F"
+        addonRight={<ToggleButton />}
+        active
+      />
+
+      <MenuItem
+        text="Item 6"
+        textSecondary="Item with iconLeft & image"
+        iconLeft={<IconSvg />}
+        image="/* ...image url */"
+      />
+
+      <MenuItem
+        text="Item 7"
+        textSecondary="Item with icon & image offset"
+        addIconOffset
+        addImageOffset
+      />
+
+      <MenuItem
+        text="Item 8 with iconRight & subtree"
+        iconRight={<IconSvg />}
+      >
+        <MenuGroup nestingLevel={1}>
+          <MenuList>
+            <MenuItem text="Item 8-1" />
+            <MenuItem text="Item 8-2" />
+          </MenuList>
+        </MenuGroup>
+      </MenuItem>
+    </MenuList>
+  </MenuGroup>
+</Menu>

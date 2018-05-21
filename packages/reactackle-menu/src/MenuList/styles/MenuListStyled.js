@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { extractThemeOrDefault, getValueString } from 'reactackle-core';
 
-const size = ({ theme: themeFromProvider }) => {
+const size = ({ theme: themeFromProvider, inline }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
 
   const {
@@ -9,9 +9,13 @@ const size = ({ theme: themeFromProvider }) => {
     paddingX,
   } = theme.reactackle.components.menu.list;
 
-  return css`
-    padding: ${getValueString(paddingY)} ${getValueString(paddingX)};
-  `;
+  return inline
+   ? css`
+      padding: ${getValueString(paddingX)} ${getValueString(paddingY)} ;
+    `
+    : css`
+      padding: ${getValueString(paddingY)} ${getValueString(paddingX)};
+    `;
 };
 
 const inline = ({ inline }) => inline && `
@@ -21,10 +25,12 @@ const inline = ({ inline }) => inline && `
 `;
 
 const bordered = ({
+  inline,
   bordered,
   theme: themeFromProvider,
 }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
+  const borderDir = inline ? 'left' : 'top';
 
   const {
     thickness,
@@ -33,7 +39,7 @@ const bordered = ({
   } = theme.reactackle.components.menu.separator;
 
   return bordered && css`
-    border-top: ${getValueString(thickness)} ${style} ${color};
+    border-${borderDir}: ${getValueString(thickness)} ${style} ${color};
   `;
 };
 

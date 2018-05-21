@@ -40,9 +40,9 @@ export default {
     colorScheme: {
       dark: {
         backgroundColor: 'transparent',
-        backgroundColorHover: 'rgba(0,0,0,0.07)', // If null will take 'backgroundColor' as a default
-        backgroundColorFocus: 'rgba(0,0,0,0.1)', // If null will take 'backgroundColor' as a default
-        backgroundColorActive: 'rgba(0,0,0,0.1)', // If null will take 'backgroundColor' as a default
+        backgroundColorHover: 'rgba(0,0,0,0.05)', // If null will take 'backgroundColor' as a default
+        backgroundColorFocus: 'rgba(0,0,0,0.07)', // If null will take 'backgroundColor' as a default
+        backgroundColorActive: 'rgba(0,0,0,0.07)', // If null will take 'backgroundColor' as a default
 
         color: bodyFontColor,
         colorHover: null, // If null will take 'color' as a default
@@ -52,9 +52,9 @@ export default {
 
       light: {
         backgroundColor: 'transparent',
-        backgroundColorHover: 'rgba(255,255,255,0.07)', // If null will take 'backgroundColor' as a default
-        backgroundColorFocus: 'rgba(255,255,255,0.1)', // If null will take 'backgroundColor' as a default
-        backgroundColorActive: 'rgba(255,255,255,0.1)', // If null will take 'backgroundColor' as a default
+        backgroundColorHover: 'rgba(255,255,255,0.05)', // If null will take 'backgroundColor' as a default
+        backgroundColorFocus: 'rgba(255,255,255,0.07)', // If null will take 'backgroundColor' as a default
+        backgroundColorActive: 'rgba(255,255,255,0.07)', // If null will take 'backgroundColor' as a default
 
         color: bodyFontColorAlt,
         colorHover: null, // If null will take 'color' as a default
@@ -168,7 +168,7 @@ export default {
     image: {
       width: 40,
       height: null,  // If null will take 'width' as a default
-      marginLeft: baseModule,
+      marginLeft: 0,
       marginRight: doubleBaseModule,
       borderRadius: '50%',
     },

@@ -6,8 +6,13 @@ import { MENU_BROADCAST } from './broadcastsConstants';
 import { MenuStyled } from './styles/MenuStyled';
 
 const propTypes = {
+  /**
+   * Changes layout direction from vertical to horizontal
+   */
   inline: PropTypes.bool,
-  /* Set to 'light' for using menu on dark background */
+  /**
+   * Set to 'light' for using menu on dark background
+   */
   colorScheme: PropTypes.oneOf(['light', 'dark']),
 };
 
@@ -36,11 +41,13 @@ export default class Menu extends Component {
   componentWillReceiveProps(nextProps) {
     if (
       this.props.colorScheme !== nextProps.colorScheme ||
-      this.props.inline !== nextProps.inline
+      this.props.inline !== nextProps.inline ||
+      this.props.openSubmenuOnMouseEnter !== nextProps.openSubmenuOnMouseEnter
     ) {
       this._broadcast.publish({
         colorScheme: nextProps.colorScheme,
         inline: nextProps.inline,
+        openSubmenuOnMouseEnter: nextProps.openSubmenuOnMouseEnter,
       });
     }
   }

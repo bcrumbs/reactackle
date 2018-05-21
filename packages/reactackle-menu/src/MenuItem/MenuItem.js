@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { IconArrowChevronRight } from 'reactackle-icons';
-import { withExternalProps, noop } from 'reactackle-core';
+import { withExternalProps, noop, createBroadcast } from 'reactackle-core';
 import { MENU_BROADCAST, MENU_GROUP_BROADCAST } from '../broadcastsConstants';
 import { MenuItemStyled } from './styles/MenuItemStyled';
 import { AnchorStyled } from './styles/AnchorStyled';
@@ -15,30 +15,83 @@ import { ExpandButtonStyled } from './styles/ExpandButtonStyled';
 import { ExpandIconStyled } from './styles/ExpandIconStyled';
 import { AddonRightStyled } from './styles/AddonRightStyled';
 import { TextRightStyled } from './styles/TextRightStyled';
-
-const MenuLink = props => <a {...props}>{props.children}</a>;
+import { MenuLink } from './MenuLink';
 
 const propTypes = {
+  /**
+   * Item id
+   */
   id: PropTypes.string,
+  /**
+   * Defines left icon element
+   */
   iconLeft: PropTypes.element,
+  /**
+   * Defines right icon element
+   */
   iconRight: PropTypes.element,
+  /**
+   * Defines right text element
+   */
   textRight: PropTypes.string,
+  /**
+   * Defines left image element
+   */
   image: PropTypes.string,
+  /**
+   * Defines item's link
+   */
   linkHref: PropTypes.string,
+  /**
+   * Primary item text
+   */
   text: PropTypes.string,
+  /**
+   * Secondary item text
+   */
   textSecondary: PropTypes.string,
+  /**
+   * Allow item to behave like a link
+   */
   renderLink: PropTypes.bool,
+  /**
+   * Define link component
+   */
   linkComponent: PropTypes.func,
+  /**
+   * Primary right add-on element
+   */
   addonRight: PropTypes.element,
+  /**
+   * Define item colorScheme
+   */
   colorScheme: PropTypes.oneOf(['light', 'dark']),
+  /**
+   * Display item as active
+   */
   active: PropTypes.bool,
+  /**
+   * Simulate image offset for item without image
+   */
   addImageOffset: PropTypes.bool,
+  /**
+   * Simulate image offset for item without left icon
+   */
   addIconOffset: PropTypes.bool,
+  /**
+   * Simulate item offset for nested trees
+   */
   nestingLevel: PropTypes.number,
+  /**
+   * Set item inClick function
+   */
   onClick: PropTypes.func,
-  openSubmenuOnMouseEnter: PropTypes.bool,
+  /**
+   * Define expand icon element
+   */
   iconExpand: PropTypes.element,
 };
+
 const defaultProps = {
   id: '',
   iconLeft: null,
@@ -48,7 +101,7 @@ const defaultProps = {
   linkHref: '#',
   text: '',
   textSecondary: '',
-  renderLink: true,
+  renderLink: false,
   linkComponent: MenuLink,
   addonRight: null,
   colorScheme: 'dark',
@@ -57,21 +110,33 @@ const defaultProps = {
   addIconOffset: false,
   nestingLevel: 0,
   onClick: noop,
-  openSubmenuOnMouseEnter: false,
   iconExpand: <IconArrowChevronRight color="currentColor" size="custom" />,
 };
 
 export class MenuItem extends React.Component {
   constructor(props) {
     super(props);
+
+    this._broadcast = createBroadcast({
+      nestingLevel: this.props.nestingLevel,
+      colorScheme: this.props.colorScheme,
+    });
+
     this.state = {
       submenuOpen: false,
     };
     this._toggleMenu = this._toggleMenu.bind(this);
-    this._handleMouseEnter = this._handleMouseEnter.bind(this);
     this._handleClick = this._handleClick.bind(this);
     this._createElementRef = this._createElementRef.bind(this);
     this._handleExpandIconClick = this._handleExpandIconClick.bind(this);
+  }
+
+  getChildContext() {
+    return {
+      ...this.context,
+      [MENU_BROADCAST]: this._broadcast.subscribe,
+      [MENU_GROUP_BROADCAST]: this._broadcast.subscribe,
+    };
   }
   
   _toggleMenu(open) {
@@ -85,11 +150,6 @@ export class MenuItem extends React.Component {
   _handleExpandIconClick(event) {
     event.preventDefault();
     this._toggleMenu();
-  }
-  
-  _handleMouseEnter() {
-    if (this.props.openSubmenuOnMouseEnter)
-      this._toggleMenu(true);
   }
 
   _handleClick() {
@@ -156,13 +216,14 @@ export class MenuItem extends React.Component {
         {this.props.textSecondary}
       </TextSecondaryStyled>
     );
-    
+
     const text = this.props.text && (
-      <ContentStyled>
-        <TextPrimaryStyled
-          addImageOffset={this.props.addImageOffset}
-          addIconOffset={this.props.addIconOffset}
-        >
+      <ContentStyled
+        nestingLevel={this.props.nestingLevel}
+        addImageOffset={this.props.addImageOffset}
+        addIconOffset={this.props.addIconOffset}
+      >
+        <TextPrimaryStyled>
           {this.props.text}
         </TextPrimaryStyled>
         {textSecondary}
@@ -187,11 +248,9 @@ export class MenuItem extends React.Component {
       : AnchorStyled.withComponent('div');
     
     const itemWrapperProps = {
-      nestingLevel: this.props.nestingLevel,
       colorScheme: this.props.colorScheme,
       active: this.props.active,
       onClick: this._handleClick,
-      onMouseEnter: this._handleMouseEnter,
     };
     
     if (this.props.renderLink)
@@ -207,7 +266,7 @@ export class MenuItem extends React.Component {
 
     return (
       <MenuItemStyled
-        ref={this._createElementRef}
+        innerRef={this._createElementRef}
         tabIndex={-1}
         id={this.props.id}
       >
@@ -231,12 +290,17 @@ export class MenuItem extends React.Component {
 MenuItem.propTypes = propTypes;
 MenuItem.defaultProps = defaultProps;
 MenuItem.displayName = 'MenuItem';
+MenuItem.childContextTypes = {
+  [MENU_BROADCAST]: PropTypes.func.isRequired,
+  [MENU_GROUP_BROADCAST]: PropTypes.func.isRequired,
+};
 
 const MenuItemWithMenuProps = withExternalProps(MENU_BROADCAST)(
   ({ externalProps, ...props }) =>
-    <MenuItem {...props} menuProps={externalProps} />,
+    <MenuItem {...props} {...externalProps} />,
+    
 );
 export default withExternalProps(MENU_GROUP_BROADCAST)(
   ({ externalProps, ...props }) =>
-    <MenuItemWithMenuProps {...props} menuGroupProps={externalProps} />,
+    <MenuItemWithMenuProps {...props} {...externalProps} />,
 );

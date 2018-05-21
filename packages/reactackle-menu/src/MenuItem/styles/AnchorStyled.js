@@ -5,19 +5,6 @@ import {
   transition,
 } from 'reactackle-core';
 
-const level = ({ theme: themeFromProvider, nestingLevel }) => {
-  const theme = extractThemeOrDefault(themeFromProvider);
-
-  const levelOffset = theme.reactackle.components.menu.item.levelOffset;
-
-  const offset = typeof levelOffset === 'string'
-    ? `calc(${levelOffset} * ${nestingLevel})`
-    : `${levelOffset * nestingLevel}px`;
-
-  return css`
-    padding-left: ${offset};
-  `;
-};
 
 const size = ({ theme: themeFromProvider }) => {
   const theme = extractThemeOrDefault(themeFromProvider);
@@ -83,7 +70,6 @@ export const AnchorStyled = styled.a`
   position: relative;
   cursor: pointer;
   user-select: none;
-  ${level}
   ${size}
   ${colorScheme}
   ${transition('background-color')}
