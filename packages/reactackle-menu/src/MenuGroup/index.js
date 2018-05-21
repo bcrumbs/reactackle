@@ -1,3 +1,2 @@
-import MenuGroup from './MenuGroup';
+export * from './MenuGroup';
 
-export { MenuGroup };

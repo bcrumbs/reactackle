@@ -41,13 +41,11 @@ export default class Menu extends Component {
   componentWillReceiveProps(nextProps) {
     if (
       this.props.colorScheme !== nextProps.colorScheme ||
-      this.props.inline !== nextProps.inline ||
-      this.props.openSubmenuOnMouseEnter !== nextProps.openSubmenuOnMouseEnter
+      this.props.inline !== nextProps.inline
     ) {
       this._broadcast.publish({
         colorScheme: nextProps.colorScheme,
         inline: nextProps.inline,
-        openSubmenuOnMouseEnter: nextProps.openSubmenuOnMouseEnter,
       });
     }
   }
