@@ -9,7 +9,17 @@ const contextTypes = {
   [CHANNEL]: PropTypes.func,
 };
 
+function isClassComponent(Component) {
+  return Boolean(
+      Component &&
+      Component.prototype &&
+      Component.prototype.isReactComponent,
+  );
+}
+
 export const withTheme = WrappedComponent => {
+  const isStatefull = isClassComponent(WrappedComponent);
+
   class WithTheme extends Component {
     constructor(props) {
       super(props);
@@ -38,11 +48,16 @@ export const withTheme = WrappedComponent => {
     render() {
       const theme = extractThemeOrDefault(this.state.theme);
 
+      const props = {
+        ...this.props,
+        theme,
+      };
+
+      if (isStatefull) props.ref = ref => { this.wrappedComponent = ref; };
+
       return (
         <WrappedComponent
-          ref={ref => { this.wrappedComponent = ref; }}
-          {...this.props}
-          theme={theme}
+          {...props}
         />
       );
     }
@@ -60,9 +75,11 @@ export const withTheme = WrappedComponent => {
     ...WrappedComponent.defaultProps,
   };
 
-  return hoistNonReactMethods(
-    WithTheme,
-    WrappedComponent,
-    c => c.wrappedComponent,
-  );
+  return isStatefull
+    ? hoistNonReactMethods(
+      WithTheme,
+      WrappedComponent,
+      c => c.wrappedComponent,
+    )
+    : WithTheme;
 };

@@ -1,6 +1,6 @@
 {
   "name": "reactackle-autoposition",
-  "version": "0.0.3-beta.2",
+  "version": "1.0.0-beta.8",
   "description": "Autoposition component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -17,19 +17,21 @@
     "dist"
   ],
   "dependencies": {
-    "lodash.pick": "^4.4.0",
+    "exenv": "^1.2.2",
     "lodash.throttle": "^4.1.1",
     "prop-types": "^15.5.10",
-    "react-portal": "^3.1.0"
+    "react-portal": "^4.0.0-rc.0"
   },
   "peerDependencies": {
-    "react": "^15.6.1",
-    "reactackle-core": "^0.0.3-beta.2"
+    "react": "^16.0.0",
+    "reactackle-core": "^1.0.0-beta.8"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "react-test-renderer": "^15.6.1",
-    "reactackle-core": "^0.0.3-beta.2",
+    "enzyme": "^3.1.0",
+    "enzyme-to-json": "^3.1.4",
+    "react-test-renderer": "^16.0.0",
+    "reactackle-core": "^1.0.0-beta.8",
     "rimraf": "^2.6.1"
   },
   "repository": {

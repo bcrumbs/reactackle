@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { ArticleStyled } from './styles/ArticleStyled';
 
@@ -15,7 +13,3 @@ export const Article = props => (
 Article.propTypes = propTypes;
 Article.defaultProps = defaultProps;
 Article.displayName = 'Article';
-
-export * from './ArticleHeader/ArticleHeader';
-export * from './ArticleLead/ArticleLead';
-export * from './ArticleModule/ArticleModule';

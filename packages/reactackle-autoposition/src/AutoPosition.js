@@ -5,15 +5,14 @@
 'use strict';
 
 import React, { Component } from 'react';
+import ExecutionEnvironment from 'exenv';
 import PropTypes from 'prop-types';
-import Portal from 'react-portal';
-import pick from 'lodash.pick';
+import { Portal } from 'react-portal';
 import throttle from 'lodash.throttle';
 
 import { noop } from 'reactackle-core';
 
 const SCROLL_THROTTLE_DELAY = 20;
-const keysPortalPropTypes = Object.keys(Portal.propTypes);
 
 const propTypes = {
   /**
@@ -59,6 +58,7 @@ const propTypes = {
   /**
    * When AutoPosition component dont fit in window, display it in center
    */
+  /* eslint-disable react/no-unused-prop-types */
   allowedShowByCenter: PropTypes.bool,
   /**
    * Allow the component to change its position along the current edge
@@ -87,6 +87,7 @@ const propTypes = {
       'changeType',
     ]),
   ),
+  /* eslint-enable react/no-unused-prop-types */
   /**
    * Specify function to call on overflow
    */
@@ -96,6 +97,7 @@ const propTypes = {
     PropTypes.func,
     PropTypes.element,
   ]).isRequired,
+  onOpen: PropTypes.func,
 };
 
 const defaultProps = {
@@ -120,7 +122,7 @@ const defaultProps = {
   allowedSlideOnAdjacentEdge: false,
   allowedChangeType: false,
   onOverflow: noop,
-  ...Portal.defaultProps,
+  onOpen: noop,
 };
 
 let autoPositionInstances = [];
@@ -149,7 +151,6 @@ export default class AutoPosition extends Component {
     );
 
     this._saveRef = this._saveRef.bind(this);
-    this._handleOpen = this._handleOpen.bind(this);
     this._handleResize = this._handleResize.bind(this);
   }
 
@@ -193,11 +194,6 @@ export default class AutoPosition extends Component {
     this._recalculatePosition(this.props);
   }
 
-  _handleOpen() {
-    this._recalculatePosition(this.props);
-    this.props.onOpen();
-  }
-
   _handleResize() {
     if (!this.props.visible) return;
     this._recalculatePosition(this.props);
@@ -224,7 +220,7 @@ export default class AutoPosition extends Component {
       allowedSlideOnAdjacentEdge,
       allowedChangeType,
     } = props;
-
+    
     const {
       currentDirection,
       currentPositionY,
@@ -383,8 +379,14 @@ export default class AutoPosition extends Component {
     });
   }
 
+  _handleContentMounted() {
+    this.recalculatePosition();
+    this.props.onOpen();
+  }
+
   _saveRef(ref) {
     this._domNode = ref;
+    if (ref) this._handleContentMounted();
   }
 
   _overflowCheck({ top, left }) {
@@ -530,19 +532,15 @@ export default class AutoPosition extends Component {
 
   render() {
     const { children } = this.props;
+    if (!ExecutionEnvironment.canUseDOM) return null;
     const style = {
       position: 'fixed',
       zIndex: 9000,
       ...this.state.currentPosition,
     };
-
-    const pickProps = pick(this.props, keysPortalPropTypes);
-    return (
-      <Portal
-        {...pickProps}
-        isOpened={this.props.visible}
-        onOpen={this._handleOpen}
-      >
+    
+    return !this.props.visible ? null : (
+      <Portal>
         <div style={style} ref={this._saveRef}>
           {typeof children !== 'function'
             ? children

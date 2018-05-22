@@ -118,6 +118,12 @@ export { TabsRoute }
  from './routes/tabs/tabs';
 export { TabsDemoRoute }
  from './routes/tabs/demo';
+export { TextIndexRoute }
+  from './routes/text';
+export { TextRoute }
+  from './routes/text/text';
+export { TextDemoRoute }
+  from './routes/text/demo';
 export { TextFieldIndexRoute }
  from './routes/text-field';
 export { TextFieldRoute }
@@ -148,3 +154,45 @@ export { TooltipIconRoute }
  from './routes/tooltip-icon/tooltip-icon';
 export { TooltipIconDemoRoute }
  from './routes/tooltip-icon/demo';
+export { CircleProgressIndexRoute }
+ from './routes/progress/circle-progress';
+export { CircleProgressRoute }
+ from './routes/progress/circle-progress/circle-progress';
+export { CircleProgressDemoRoute }
+ from './routes/progress/circle-progress/demo';
+export { LinearProgressIndexRoute }
+ from './routes/progress/linear-progress';
+export { LinearProgressRoute }
+ from './routes/progress/linear-progress/linear-progress';
+export { LinearProgressDemoRoute }
+ from './routes/progress/linear-progress/demo';
+export { PreloaderIndexRoute }
+  from './routes/progress/preloader';
+export { PreloaderRoute }
+  from './routes/progress/preloader/preloader';
+export { PreloaderDemoRoute }
+  from './routes/progress/preloader/demo';
+export { BreadcrumbsIndexRoute }
+ from './routes/breadcrumbs';
+export { BreadcrumbsRoute }
+ from './routes/breadcrumbs/breadcrumbs';
+export { BreadcrumbsDemoRoute }
+ from './routes/breadcrumbs/demo';
+export { TagIndexRoute }
+ from './routes/tag';
+export { TagRoute }
+ from './routes/tag/tag';
+export { TagDemoRoute }
+ from './routes/tag/demo';
+ export { AccordionIndexRoute }
+ from './routes/accordion';
+export { AccordionRoute }
+ from './routes/accordion/accordion';
+export { AccordionDemoRoute }
+ from './routes/accordion/demo';
+export { AlertAreaIndexRoute }
+ from './routes/alert-area';
+export { AlertAreaRoute }
+ from './routes/alert-area/alert-area';
+export { AlertAreaDemoRoute }
+ from './routes/alert-area/demo';

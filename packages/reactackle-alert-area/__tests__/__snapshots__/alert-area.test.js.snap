@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertArea/> ensures that component methods are working 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+/>
+`;
+
+exports[`<AlertArea/> handles prop change 1`] = `
+<AlertArea
+  alerts={Array []}
+  animationDuration={300}
+  defaultTimeout={3000}
+  onClose={[Function]}
+  positionX="right"
+  positionY="bottom"
+>
+  <AlertsWrapperStyled
+    positionX="right"
+    positionY="bottom"
+  >
+    <div
+      className="AlertsWrapperStyled-iQzJHQ eedxzK"
+    />
+  </AlertsWrapperStyled>
+</AlertArea>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts has buttons and checks them 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM cadAdM"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    >
+      test
+    </div>
+    <div
+      className="ActionsStyled-hhpOda dAXLwA"
+    >
+      <div
+        className="ActionsWrapperStyled-eCnBHy buEQNK"
+      >
+        <button
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
+          disabled={false}
+          onClick={[Function]}
+          radius="default"
+          size="normal"
+          title=""
+        >
+          <div
+            className="ButtonTextStyled-abyTl aDQbB"
+            size="normal"
+          >
+            <div
+              className="ButtonTitleStyled-idIFzn gXbrKW"
+              size="normal"
+            >
+              test
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts has buttons and checks them 2`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM iZMNkH"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    >
+      test
+    </div>
+    <div
+      className="ActionsStyled-hhpOda dAXLwA"
+    >
+      <div
+        className="ActionsWrapperStyled-eCnBHy buEQNK"
+      >
+        <button
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
+          disabled={false}
+          onClick={[Function]}
+          radius="default"
+          size="normal"
+          title=""
+        >
+          <div
+            className="ButtonTextStyled-abyTl aDQbB"
+            size="normal"
+          >
+            <div
+              className="ButtonTitleStyled-idIFzn gXbrKW"
+              size="normal"
+            >
+              test
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts set [{vertical:false,buttons:[],content:"test"}] 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM iqNaVU"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts set [{vertical:true,buttons:[],content:""}] 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM cadAdM"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts set array 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM iqNaVU"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts set several vertical items 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM cadAdM"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    >
+      TEST 1
+    </div>
+    <div
+      className="ActionsStyled-hhpOda dAXLwA"
+    >
+      <div
+        className="ActionsWrapperStyled-eCnBHy buEQNK"
+      >
+        <button
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
+          disabled={false}
+          onClick={[Function]}
+          radius="default"
+          size="normal"
+          title=""
+        >
+          <div
+            className="ButtonTextStyled-abyTl aDQbB"
+            size="normal"
+          >
+            <div
+              className="ButtonTitleStyled-idIFzn gXbrKW"
+              size="normal"
+            >
+              close
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly if prop alerts set several vertical/horizontal items 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+>
+  <div
+    className="AlertStyled-tHNAM iqNaVU"
+    role="alert"
+  >
+    <div
+      className="ContentStyled-dbeIsI clUWdm"
+    >
+      TEST 1
+    </div>
+    <div
+      className="ActionsStyled-hhpOda dAXLwA"
+    >
+      <div
+        className="ActionsWrapperStyled-eCnBHy buEQNK"
+      >
+        <button
+          className="ButtonStyled__Button-lkXKpB hoWKQD"
+          disabled={false}
+          onClick={[Function]}
+          radius="default"
+          size="normal"
+          title=""
+        >
+          <div
+            className="ButtonTextStyled-abyTl aDQbB"
+            size="normal"
+          >
+            <div
+              className="ButtonTitleStyled-idIFzn gXbrKW"
+              size="normal"
+            >
+              close
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AlertArea/> renders correctly with default props 1`] = `
+<div
+  className="AlertsWrapperStyled-iQzJHQ eedxzK"
+/>
+`;

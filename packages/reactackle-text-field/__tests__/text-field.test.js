@@ -10,7 +10,6 @@ import { findByType, findBySelector } from 'reactackle-test-utils';
 import { mount, render, shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { TextField } from '../src';
-import { InnerButton } from '../src/styles/InnerButton';
 
 describe('<TextField/>', () => {
   it('renders correctly with default props', () => {
@@ -647,15 +646,14 @@ describe('<TextField/>', () => {
   it(
     'renders correctly if prop password set true' +
     ' and call show password', () => {
-      const component = mount(
-        <TextField defaultValue="test" type="password" />,
-      );
-  
-      expect(toJson(component)).toMatchSnapshot();
-  
-      component.find(InnerButton).simulate('click');
+    const component = mount(
+      <TextField defaultValue="test" type="password" />,
+    );
+    
+    expect(toJson(component)).toMatchSnapshot();
+    component.find('svg').simulate('click');
 
-      expect(toJson(component)).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders correctly if prop password set true,' +
@@ -867,7 +865,7 @@ describe('<TextField/>', () => {
     expect(toJson(component)).toMatchSnapshot();
 
     component.find('svg').simulate('click');
-    
+
     expect(toJson(component)).toMatchSnapshot();
   });
 
@@ -1265,11 +1263,10 @@ describe('<TextField/>', () => {
     expect(toJson(wrapper.render())).toMatchSnapshot();
   });
 
-  it('handless focus', () => {
+  it('handles focus input', () => {
     const mockFocus = jest.fn(),
       component = mount(
         <TextField
-          scrollOnFocus
           value="value"
           onFocus={mockFocus}
         />,
@@ -1278,6 +1275,53 @@ describe('<TextField/>', () => {
     const instance = component.instance();
     instance.focus();
     expect(mockFocus).toBeCalled();
+
+    const textFieldNode = component.children().instance()._domNodeInput;
+    expect(textFieldNode instanceof window.HTMLElement).toEqual(true);
+
+    expect(toJson(component)).toMatchSnapshot();
+  });
+
+  it('handles focus textarea autosize', () => {
+    const mockFocus = jest.fn(),
+      component = mount(
+        <TextField
+          scrollOnFocus
+          value="value"
+          multiline
+          onFocus={mockFocus}
+        />,
+      );
+
+    const instance = component.instance();
+    instance.focus();
+    expect(mockFocus).toBeCalled();
+
+    const textFieldNode = component.children().instance()._domNodeInput;
+    expect(textFieldNode instanceof window.HTMLElement).toEqual(true);
+
+    expect(toJson(component)).toMatchSnapshot();
+  });
+
+  it('handles focus textarea manual', () => {
+    const mockFocus = jest.fn(),
+      component = mount(
+        <TextField
+          scrollOnFocus
+          value="value"
+          multiline
+          resize="manual"
+          onFocus={mockFocus}
+        />,
+      );
+
+    const instance = component.instance();
+    instance.focus();
+    expect(mockFocus).toBeCalled();
+
+    const textFieldNode = component.children().instance()._domNodeInput;
+    expect(textFieldNode instanceof window.HTMLElement).toEqual(true);
+
     expect(toJson(component)).toMatchSnapshot();
   });
 
@@ -1316,6 +1360,23 @@ describe('<TextField /> multiline', () => {
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
+  it('renders correctly if prop resize set manual', () => {
+    const wrapper = render(
+      <TextField multiline multilineRows={{ min: 5 }} resize="manual" />,
+    );
+
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
+  it('renders correctly if prop resize set none', () => {
+    const wrapper = render(
+      <TextField multiline multilineRows={{ min: 5 }} resize="none" />,
+    );
+
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
+
   it('renders correctly if prop placeholder set', () => {
     const wrapper = render(
       <TextField multiline multilineRows={{ min: 5 }} placeholder="test" />,
@@ -1336,13 +1397,12 @@ describe('<TextField /> multiline', () => {
           multiline multilineRows={{ min: 5 }}
         />,
       );
-
-    wrapper.find('textarea').props().onChange({
+    
+    wrapper.find('textarea').simulate('change', {
       target: { value: 'newValue' },
     });
-    wrapper.find('textarea').props().onFocus();
-    wrapper.find('textarea').props().onBlur();
-
+    wrapper.find('textarea').simulate('focus');
+    wrapper.find('textarea').simulate('blur');
     expect(mockFn).toHaveBeenCalledTimes(3);
   });
 });

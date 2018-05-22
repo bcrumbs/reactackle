@@ -102,7 +102,7 @@ const radiusProps = ({ radius, size, theme: themeFromProvider }) => {
     rad = `border-radius: ${getValueString(minHeight)};`;
   else if (radius === 'default')
     rad = `border-radius: ${getValueString(borderRadiusDefault)};`;
-  else rad = null;
+  else rad = 'border-radius: 0;';
 
   return rad;
 };
@@ -203,10 +203,12 @@ const disabled = ({ disabled, theme: themeFromProvider }) => {
 
   const fontColor = theme.reactackle.components.button.disabled.fontColor;
 
+  // remove pointerEvents when https://github.com/facebook/react/issues/4251 is resolved
   return css`
     ${disabled
       ? `
           box-shadow: none;
+          pointer-events: none;
           &,
           &:hover,
           &:focus,

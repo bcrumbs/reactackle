@@ -4,7 +4,7 @@ import React from 'react';
 import {
   ArticleModule,
   ArticleHeader,
-} from '../../components/Article/Article';
+} from '../../components/Article';
 import {
   RouteInfo,
   RouteProps,

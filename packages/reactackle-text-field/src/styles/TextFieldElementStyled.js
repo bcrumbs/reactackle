@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import TextareaAutosize from 'react-textarea-autosize';
 import styled, { css } from 'styled-components';
 import {
   extractThemeOrDefault,
@@ -37,6 +38,8 @@ const defaultProps = {
   disabled: false,
   colorScheme: 'neutral',
 };
+
+const displayName = name => `TextFieldStyled(${name})`;
 
 /** PROP RECEIVERS */
 const textfieldSize = ({
@@ -142,53 +145,61 @@ const placeholderStyles = ({ theme: themeFromProvider }) => {
 };
 
 /** STYLES */
-export const getTextFieldElementStyled = (Component, name) => {
-  const customComponent = typeof Component !== 'string';
+const styles = props => css`
+  border-width: 0;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  width: 100%;
+  resize: ${props.resize === 'none' ? 'none' : 'both'};
+  max-width: 100%;
+  font-size: inherit;
+  line-height: inherit;
+  z-index: 1;
+  ${textfieldSize(props)}
+  ${basicStyles(props)}
+  ${textfieldStyle(props)}
 
-  // eslint-disable-next-line no-unexpected-multiline
-  const TextFieldElementStyled = (!customComponent
-    ? styled[Component]
-    : styled(
-        ({
-          bordered,
-          fullWidth,
-          dense,
-          disabled,
-          colorScheme,
-          focus,
-          theme,
-          ...props
-        }) => <Component {...props} />,
-      ))`
-    border-width: 0;
-    text-overflow: ellipsis;
-    flex-grow: 1;
-    width: 100%;
-    max-width: 100%;
-    font-size: inherit;
-    line-height: inherit;
-    z-index: 1;
-    ${textfieldSize}
-    ${basicStyles}
-    ${textfieldStyle}
+  &::placeholder {
+    ${placeholderStyles(props)}
+  }
 
-    &::placeholder {
-      ${placeholderStyles}
-    }
+  ${transition('color, background-color, box-shadow')}
+`;
 
-    ${transition('color, background-color, box-shadow')}
-  `;
-
-  TextFieldElementStyled.propTypes = {
-    ...(customComponent ? Component.propTypes : {}),
-    ...propTypes,
-  };
-  TextFieldElementStyled.defaultProps = {
-    ...(customComponent ? Component.defaultProps : {}),
-    ...defaultProps,
-  };
-  TextFieldElementStyled.displayName = `TextFieldElementStyled(${customComponent
-    ? Component.displayName || name
-    : Component})`;
-  return TextFieldElementStyled;
+export const TextareaAutosizeStyled = styled(({
+  bordered,
+  fullWidth,
+  dense,
+  disabled,
+  colorScheme,
+  focus,
+  theme,
+  saveRef,
+  ...props
+}) => <TextareaAutosize {...props} inputRef={saveRef} />)`
+  ${styles}
+`;
+TextareaAutosizeStyled.propTypes = {
+  ...propTypes,
+  ...TextareaAutosize.propTypes,
+  saveRef: PropTypes.func.isRequired,
 };
+TextareaAutosizeStyled.defaultProps = {
+  ...defaultProps,
+  ...TextareaAutosize.defaultProps,
+};
+TextareaAutosizeStyled.displayName = displayName(TextareaAutosize.displayName || 'TextareaAutosize');
+
+export const TextareaStyled = styled.textarea`
+  ${styles}
+`;
+TextareaStyled.propTypes = propTypes;
+TextareaStyled.defaultProps = defaultProps;
+TextareaStyled.displayName = displayName('Textarea');
+
+export const InputStyled = styled.input`
+  ${styles}
+`;
+InputStyled.propTypes = propTypes;
+InputStyled.defaultProps = defaultProps;
+InputStyled.displayName = displayName('Input');

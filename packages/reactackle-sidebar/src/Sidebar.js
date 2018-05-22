@@ -41,7 +41,6 @@ const propTypes = {
 const defaultProps = {
   haveToggleButton: false,
   toggleButtonText: 'Collapse',
-  toggleButtonIcon: null,
   expanded: void 0,
   attachToRight: false,
   autoCollapsing: false,

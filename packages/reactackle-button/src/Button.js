@@ -52,7 +52,7 @@ const propTypes = {
   /**
    * Define icon (see IconSvg or IconCustom props)
    */
-  icon: PropTypes.element,
+  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
   /**
    * Stop onClick event's propagation and only call onPress
    */
@@ -121,13 +121,22 @@ export default class Button extends Component {
         </ButtonTextStyled>
       : null;
 
+    let iconElement;
+
+    if (typeof this.props.icon === "function") {
+      const Icon = this.props.icon;
+      iconElement = <Icon />;
+    } else {
+      iconElement = this.props.icon;
+    }
+    
     const buttonIcon = this.props.icon
         ? <ButtonIconBoxStyled
             iconPositionRight={this.props.iconPositionRight}
             size={this.props.size}
             disabled={this.props.disabled}
           >
-            {this.props.icon}
+            {iconElement}
           </ButtonIconBoxStyled>
         : null;
 

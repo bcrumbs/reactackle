@@ -2,22 +2,22 @@
 
 exports[`<Card/> renders correctly if contains CardAreaSide 1`] = `
 <div
-  className="CardStyled-eliUpK jMAAOR"
+  className="CardStyled-egOvwJ eMIsCX"
   elevation={1}
 >
   <div
-    className="CardAreaSideStyled-NtxZL bLOuvY"
+    className="CardAreaSideStyled-idUIJJ iEcodt"
   />
 </div>
 `;
 
 exports[`<Card/> renders correctly if prop size changing 1`] = `
 <div
-  className="CardStyled-eliUpK jMAAOR"
+  className="CardStyled-egOvwJ eMIsCX"
   elevation={1}
 >
   <div
-    className="CardContentStyled-eXdRtH bOeEQo"
+    className="CardContentStyled-eXpgEI bCCZWM"
     size="large"
   />
 </div>
@@ -25,11 +25,11 @@ exports[`<Card/> renders correctly if prop size changing 1`] = `
 
 exports[`<Card/> renders correctly if prop size changing 2`] = `
 <div
-  className="CardStyled-eliUpK jMAAOR"
+  className="CardStyled-egOvwJ eMIsCX"
   elevation={1}
 >
   <div
-    className="CardContentStyled-eXdRtH bOeEQo"
+    className="CardContentStyled-eXpgEI bCCZWM"
     size="xlarge"
   />
 </div>
@@ -37,7 +37,7 @@ exports[`<Card/> renders correctly if prop size changing 2`] = `
 
 exports[`<Card/> renders correctly with default props 1`] = `
 <div
-  className="CardStyled-eliUpK jMAAOR"
+  className="CardStyled-egOvwJ eMIsCX"
   elevation={1}
 >
   <div>
@@ -48,7 +48,7 @@ exports[`<Card/> renders correctly with default props 1`] = `
 
 exports[`<CardActions/> renders correctly with default props 1`] = `
 <div
-  className="CardActionsStyled-kvcgrO jTKgwa"
+  className="CardActionsStyled-iojRbO kinqsb"
   size="default"
 >
   <div>
@@ -59,7 +59,7 @@ exports[`<CardActions/> renders correctly with default props 1`] = `
 
 exports[`<CardActionsMain/> renders correctly with default props 1`] = `
 <div
-  className="CardActionsMainStyled-ktQsKf bEsixs"
+  className="CardActionsMainStyled-eJCwgY XsMdB"
   size="default"
 >
   <div>
@@ -70,7 +70,7 @@ exports[`<CardActionsMain/> renders correctly with default props 1`] = `
 
 exports[`<CardActionsSupplemental/> renders correctly with default props 1`] = `
 <div
-  className="CardActionsSupplementalStyled-fhmiiR bqsVkQ"
+  className="CardActionsSupplementalStyled-bZhMlP fBwYYd"
   size="default"
 >
   <div>
@@ -81,7 +81,7 @@ exports[`<CardActionsSupplemental/> renders correctly with default props 1`] = `
 
 exports[`<CardAreaMain/> renders correctly with default props 1`] = `
 <div
-  className="CardAreaMainStyled-iFCMnc cfsANX"
+  className="CardAreaMainStyled-bhXci cgbqBs"
 >
   <div>
      test 
@@ -91,7 +91,7 @@ exports[`<CardAreaMain/> renders correctly with default props 1`] = `
 
 exports[`<CardAreaSide/> renders correctly with default props 1`] = `
 <div
-  className="CardAreaSideStyled-NtxZL bLOuvY"
+  className="CardAreaSideStyled-idUIJJ iEcodt"
 >
   <div>
      test 
@@ -101,21 +101,21 @@ exports[`<CardAreaSide/> renders correctly with default props 1`] = `
 
 exports[`<CardContent/> renders correctly if prop last set false 1`] = `
 <div
-  className="CardContentStyled-eXdRtH gAThCg"
+  className="CardContentStyled-eXpgEI iegvJK"
   size="default"
 />
 `;
 
 exports[`<CardContent/> renders correctly if prop last set true 1`] = `
 <div
-  className="CardContentStyled-eXdRtH fKkFIz"
+  className="CardContentStyled-eXpgEI dlppKT"
   size="default"
 />
 `;
 
 exports[`<CardContent/> renders correctly with default props 1`] = `
 <div
-  className="CardContentStyled-eXdRtH gAThCg"
+  className="CardContentStyled-eXpgEI iegvJK"
   size="default"
 >
   <div>
@@ -126,7 +126,7 @@ exports[`<CardContent/> renders correctly with default props 1`] = `
 
 exports[`<CardContentText/> renders correctly with default props 1`] = `
 <p
-  className="CardContentTextStyled-ffrDAG gKKBrF"
+  className="CardContentTextStyled-ihOUSW gaxXsB"
   size="default"
 >
   <div>
@@ -137,20 +137,20 @@ exports[`<CardContentText/> renders correctly with default props 1`] = `
 
 exports[`<CardHeaderPrimary/> renders correctly if prop subtitle set test 1`] = `
 <div
-  className="CardHeaderPrimaryStyled-cxPwcz ftRgno"
+  className="CardHeaderPrimaryStyled-hSQWwz laFTcJ"
   size="default"
 >
   <div
-    className="CardHeaderBoxStyled-gCSNbv hSTMEJ"
+    className="CardHeaderBoxStyled-eqowYz hOKnNi"
   >
     <h2
-      className="CardHeaderTextStyled-jvDUSI ddxvKH"
+      className="CardHeaderTextStyled-OYREa iixgon"
       size="default"
     >
       
     </h2>
     <div
-      className="CardSubheaderStyled-eKFNHq Vrcqx"
+      className="CardSubheaderStyled-hGLFKT eHmZDq"
       size="default"
     >
       test
@@ -161,14 +161,14 @@ exports[`<CardHeaderPrimary/> renders correctly if prop subtitle set test 1`] = 
 
 exports[`<CardHeaderPrimary/> renders correctly if prop title set test 1`] = `
 <div
-  className="CardHeaderPrimaryStyled-cxPwcz ftRgno"
+  className="CardHeaderPrimaryStyled-hSQWwz laFTcJ"
   size="default"
 >
   <div
-    className="CardHeaderBoxStyled-gCSNbv hSTMEJ"
+    className="CardHeaderBoxStyled-eqowYz hOKnNi"
   >
     <h2
-      className="CardHeaderTextStyled-jvDUSI ddxvKH"
+      className="CardHeaderTextStyled-OYREa iixgon"
       size="default"
     >
       test
@@ -179,21 +179,21 @@ exports[`<CardHeaderPrimary/> renders correctly if prop title set test 1`] = `
 
 exports[`<CardHeaderPrimary/> renders correctly with default props 1`] = `
 <div
-  className="CardHeaderPrimaryStyled-cxPwcz ftRgno"
+  className="CardHeaderPrimaryStyled-hSQWwz laFTcJ"
   size="default"
 >
   <div
-    className="CardHeaderBoxStyled-gCSNbv hSTMEJ"
+    className="CardHeaderBoxStyled-eqowYz hOKnNi"
   >
     <h2
-      className="CardHeaderTextStyled-jvDUSI ddxvKH"
+      className="CardHeaderTextStyled-OYREa iixgon"
       size="default"
     >
       
     </h2>
   </div>
   <div
-    className="CardHeaderMediaStyled-klkMSH lnxuuS"
+    className="CardHeaderMediaStyled-jZvFHX pGezn"
     size="default"
   >
     <div>
@@ -205,11 +205,11 @@ exports[`<CardHeaderPrimary/> renders correctly with default props 1`] = `
 
 exports[`<CardHeaderSecondary/> renders correctly if prop image set image.png 1`] = `
 <div
-  className="CardHeaderSecondaryStyled-hsdLyU hKpXeK"
+  className="CardHeaderSecondaryStyled-bqsWeH KrrET"
   size="default"
 >
   <div
-    className="CardHeaderSecondaryImageStyled-gbNILd ESGYh"
+    className="CardHeaderSecondaryImageStyled-gJSkO dWyfnh"
     size="default"
     style={
       Object {
@@ -218,10 +218,10 @@ exports[`<CardHeaderSecondary/> renders correctly if prop image set image.png 1`
     }
   />
   <div
-    className="CardHeaderSecondaryTextBoxStyled-humbWf iXHTws"
+    className="CardHeaderSecondaryTextBoxStyled-ejWykG iklcYU"
   >
     <div
-      className="CardHeaderSecondaryTextStyled-bgnDxl cTtVig"
+      className="CardHeaderSecondaryTextStyled-kDiNLK kLBBdu"
       size="default"
     >
       
@@ -232,20 +232,20 @@ exports[`<CardHeaderSecondary/> renders correctly if prop image set image.png 1`
 
 exports[`<CardHeaderSecondary/> renders correctly if prop subtitle set test 1`] = `
 <div
-  className="CardHeaderSecondaryStyled-hsdLyU hKpXeK"
+  className="CardHeaderSecondaryStyled-bqsWeH KrrET"
   size="default"
 >
   <div
-    className="CardHeaderSecondaryTextBoxStyled-humbWf iXHTws"
+    className="CardHeaderSecondaryTextBoxStyled-ejWykG iklcYU"
   >
     <div
-      className="CardHeaderSecondaryTextStyled-bgnDxl cTtVig"
+      className="CardHeaderSecondaryTextStyled-kDiNLK kLBBdu"
       size="default"
     >
       
     </div>
     <div
-      className="CardSubheaderSecondaryStyled-bBKUc dKuBEb"
+      className="CardSubheaderSecondaryStyled-lfDxSo kKdifI"
       size="default"
     >
       test
@@ -256,14 +256,14 @@ exports[`<CardHeaderSecondary/> renders correctly if prop subtitle set test 1`] 
 
 exports[`<CardHeaderSecondary/> renders correctly if prop title set test 1`] = `
 <div
-  className="CardHeaderSecondaryStyled-hsdLyU hKpXeK"
+  className="CardHeaderSecondaryStyled-bqsWeH KrrET"
   size="default"
 >
   <div
-    className="CardHeaderSecondaryTextBoxStyled-humbWf iXHTws"
+    className="CardHeaderSecondaryTextBoxStyled-ejWykG iklcYU"
   >
     <div
-      className="CardHeaderSecondaryTextStyled-bgnDxl cTtVig"
+      className="CardHeaderSecondaryTextStyled-kDiNLK kLBBdu"
       size="default"
     >
       test
@@ -274,14 +274,14 @@ exports[`<CardHeaderSecondary/> renders correctly if prop title set test 1`] = `
 
 exports[`<CardHeaderSecondary/> renders correctly with default props 1`] = `
 <div
-  className="CardHeaderSecondaryStyled-hsdLyU hKpXeK"
+  className="CardHeaderSecondaryStyled-bqsWeH KrrET"
   size="default"
 >
   <div
-    className="CardHeaderSecondaryTextBoxStyled-humbWf iXHTws"
+    className="CardHeaderSecondaryTextBoxStyled-ejWykG iklcYU"
   >
     <div
-      className="CardHeaderSecondaryTextStyled-bgnDxl cTtVig"
+      className="CardHeaderSecondaryTextStyled-kDiNLK kLBBdu"
       size="default"
     >
       
@@ -292,10 +292,10 @@ exports[`<CardHeaderSecondary/> renders correctly with default props 1`] = `
 
 exports[`<CardMedia/> renders correctly with default props 1`] = `
 <div
-  className="CardMediaStyled-jLpMql jZhSKd"
+  className="CardMediaStyled-cUEpZl bSWiJZ"
 >
   <div
-    className="CardMediaContentStyled-cSPPsn blPfCk"
+    className="CardMediaContentStyled-cENUeV jLwMXl"
   >
     <div>
        test 
