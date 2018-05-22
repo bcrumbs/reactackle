@@ -24,4 +24,4 @@ export * from 'reactackle-breadcrumbs';
 export * from 'reactackle-tag';
 export * from 'reactackle-accordion';
 export * from 'reactackle-alert-area';
-// export * from 'reactackle-menu';
+export * from 'reactackle-menu';
