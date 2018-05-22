@@ -92,7 +92,7 @@ const propTypes = {
    * Specify function to call on overflow
    */
   onOverflow: PropTypes.func,
-  ...Portal.propTypes,
+  // ...Portal.propTypes,
   children: PropTypes.oneOfType([
     PropTypes.func,
     PropTypes.element,
