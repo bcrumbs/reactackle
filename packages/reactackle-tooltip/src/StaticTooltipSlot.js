@@ -11,7 +11,7 @@ const propTypes = {
   ...AutoPosition.propTypes,
   closeOnOutsideClick: PropTypes.bool,
   hideTooltip: PropTypes.func.isRequired,
-  handleVisibleCallback: PropTypes.func.isRequired,
+  onVisibleCallback: PropTypes.func.isRequired,
   cleanEventListeners: PropTypes.func.isRequired,
   toggleEventListener: PropTypes.func.isRequired,
 };
@@ -39,7 +39,7 @@ class StaticTooltipSlot extends Component {
     this._handleOutsideClick = this._handleOutsideClick.bind(this);
     this._applyOutsideListener = this._applyOutsideListener.bind(this);
 
-    this.props.handleVisibleCallback(this._applyOutsideListener);
+    this.props.onVisibleCallback(this._applyOutsideListener);
   }
 
   componentWillUnmount() {

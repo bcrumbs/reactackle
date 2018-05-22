@@ -1,19 +1,15 @@
-'use strict';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import PropTypes from "prop-types";
+import { isUndef } from "reactackle-core";
 
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
-import { isUndef } from 'reactackle-core';
-import { AutoPosition } from 'reactackle-autoposition';
-
-import Tooltip from './Tooltip';
-import TooltipWrapper from './TooltipWrapper';
-import DynamicTooltipSlot from './DynamicTooltipSlot';
-import StaticTooltipSlot from './StaticTooltipSlot';
+import Tooltip from "./Tooltip";
+import TooltipWrapper from "./TooltipWrapper";
+import DynamicTooltipSlot from "./DynamicTooltipSlot";
+import StaticTooltipSlot from "./StaticTooltipSlot";
 
 const wrapWithClass = Component => {
-  const isFunctionalComponent = Component =>
-    !Component.prototype.render;
+  const isFunctionalComponent = Component => !Component.prototype.render;
   if (!isFunctionalComponent(Component)) return Component;
   // eslint-disable-next-line react/prefer-stateless-function
   return class ClassComponent extends React.Component {
@@ -33,6 +29,7 @@ const defaultProps = {
 };
 
 export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
+  // eslint-disable-next-line
   class WithTooltip extends Component {
     // tooltip container in another component
     constructor(props) {
@@ -47,31 +44,32 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
       this.TooltipSlot = props => {
         const { mode } = this.props;
 
-        if (mode !== 'dynamic' && mode !== 'static') return null;
+        if (mode !== "dynamic" && mode !== "static") return null;
 
-        return mode === 'dynamic'
-          ? <DynamicTooltipSlot
-              visible={this.state.visible}
-              children={props.children}
-            />
-          : <StaticTooltipSlot
-              visible={this.state.visible}
-              closeOnOutsideClick={this.props.closeOnOutsideClick}
-              handleVisibleCallback={this._handleVisibleCallback}
-              parent={this.state.ref}
-              hideTooltip={this._hideTooltip}
-              children={props.children}
-            />;
+        return mode === "dynamic" ? (
+          <DynamicTooltipSlot visible={this.state.visible}>
+            {props.children}
+          </DynamicTooltipSlot>
+        ) : (
+          <StaticTooltipSlot
+            visible={this.state.visible}
+            closeOnOutsideClick={this.props.closeOnOutsideClick}
+            onVisibleCallback={this._handleVisibleCallback}
+            parent={this.state.ref}
+            hideTooltip={this._hideTooltip}
+          >
+            {props.children}
+          </StaticTooltipSlot>
+        );
       };
 
-      this.Tooltip = ({ children }) =>
+      this.Tooltip = ({ children }) => (
         <this.TooltipSlot>
-          {slotProps =>
-            <TooltipWrapper {...slotProps}>
-              {children}
-            </TooltipWrapper>
-          }
-        </this.TooltipSlot>;
+          {slotProps => (
+            <TooltipWrapper {...slotProps}>{children}</TooltipWrapper>
+          )}
+        </this.TooltipSlot>
+      );
 
       this.WrappedComponent = wrapWithClass(WrappedComponent);
     }
@@ -85,6 +83,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
     }
 
     _handleRef(ref) {
+      // eslint-disable-next-line
       const targetRef = ReactDOM.findDOMNode(ref);
       this.setState({ ref: targetRef });
     }
@@ -94,8 +93,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
     }
 
     toggleTooltip(show) {
-      const visible =
-        typeof show === 'boolean' ? show : !this.state.visible;
+      const visible = typeof show === "boolean" ? show : !this.state.visible;
 
       const { hideTooltipAfter } = this.props;
       const { visibleCallback } = this.state;
@@ -153,11 +151,11 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
   WithTooltip.displayName = `WithTooltip(${WrappedComponent.displayName})`;
 
   [
-    'toggleTooltip',
-    'visible',
-    'hideTooltip',
-    'isTooltipActive',
-    'Tooltip',
+    "toggleTooltip",
+    "visible",
+    "hideTooltip",
+    "isTooltipActive",
+    "Tooltip",
   ].forEach(propName => {
     delete WithTooltip.propTypes[propName];
     delete WithTooltip.defaultProps[propName];

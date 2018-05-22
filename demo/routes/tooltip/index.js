@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { RouteInfo, RouteProps } from '../../components/Route/RouteStructure';
 // eslint-disable-next-line

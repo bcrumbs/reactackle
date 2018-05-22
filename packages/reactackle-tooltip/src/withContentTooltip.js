@@ -50,10 +50,12 @@ export const withContentTooltip = (Component, TooltipContent) => {
     }
 
     _handleTargetRef(ref) {
+      // eslint-disable-next-line
       this.setState({ targetRef: ReactDOM.findDOMNode(ref) });
     }
 
     _handleContentRef(ref) {
+      // eslint-disable-next-line
       this.setState({ contentRef: ReactDOM.findDOMNode(ref) });
     }
 

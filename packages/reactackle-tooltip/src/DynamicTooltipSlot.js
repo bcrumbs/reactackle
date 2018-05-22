@@ -1,9 +1,27 @@
 import React, { Component } from 'react';
+import { noop } from 'reactackle-core';
+import PropTypes from 'prop-types';
 import Portal from 'react-portal';
 
 import { TooltipWrapperStyled } from './styles/TooltipWrapperStyled';
 
 import { withEventListeners } from './common';
+
+const propTypes = {
+  visible: PropTypes.bool,
+  positionX: PropTypes.oneOf(["right", "left"]),
+  positionY: PropTypes.oneOf(["top", "bottom"]),
+  toggleEventListener: PropTypes.func,
+  cleanEventListeners: PropTypes.func,
+};
+
+const defaultProps = {
+  visible: true,
+  positionX: 'left',
+  positionY: 'bottom',
+  toggleEventListener: noop,
+  cleanEventListeners: noop,
+};
 
 class DynamicTooltipSlot extends Component {
   constructor(props) {
@@ -89,5 +107,8 @@ class DynamicTooltipSlot extends Component {
     );
   }
 }
+
+DynamicTooltipSlot.propTypes = propTypes;
+DynamicTooltipSlot.defaultProps = defaultProps;
 
 export default withEventListeners(DynamicTooltipSlot);

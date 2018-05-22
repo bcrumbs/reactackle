@@ -1,19 +1,21 @@
-'use strict';
-
 import React from 'react';
+
 import {
   withTooltip,
   Button,
 } from 'reactackle';
+
 import {
   RouteDemo,
 } from '../../components/Route/RouteStructure';
+
 import {
   TestBox,
   DemoSnippet,
   DemoPreview,
   DemoCode,
 } from '../../components/DemoSnippet/DemoSnippet';
+
 import SnippetDefaultDynamic from './snippets/1.snippet';
 import SnippetCustomDynamic from './snippets/2.snippet';
 import SnippetDefaultStatic from './snippets/3.snippet';
@@ -87,7 +89,7 @@ const ComponentWithCustomStaticTooltip = props => {
       <props.TooltipSlot>
         {({ tooltipRef }) =>
           <div ref={tooltipRef}>
-            <props.tooltipRenderer hideTooltip={props.hideTooltip}/>
+            <props.tooltipRenderer hideTooltip={props.hideTooltip}  />
           </div>
         }
       </props.TooltipSlot>
