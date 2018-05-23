@@ -11,6 +11,10 @@ const propTypes = {
    * List title
    */
   title: PropTypes.string,
+   /**
+   * Simulate item offset for nested trees
+   */
+  nestingLevel: PropTypes.number,
   /**
    * Adds border to visually separate two lists
    */
@@ -27,6 +31,7 @@ const propTypes = {
 
 const defaultProps = {
   title: '',
+  nestingLevel: 0,
   colorScheme: 'dark',
   bordered: false,
   inline: false,
@@ -39,6 +44,7 @@ export class MenuList extends Component {
     this._broadcast = createBroadcast({
       inline: this.props.inline,
       colorScheme: this.props.colorScheme,
+      nestingLevel: this.props.nestingLevel
     });
   }
 
