@@ -109,7 +109,10 @@ export const TooltipDemoRoute = () => (
     <DemoSnippet title="Dynamic tooltip with default wrapper">
       <DemoPreview>
         <TestBox>
-          <WithDefaultDynamicTooltip text="Just usual text" mode="dynamic" />
+          <WithDefaultDynamicTooltip
+            text="Dynamic tooltip follows mouse"
+            mode="dynamic"
+          />
         </TestBox>
       </DemoPreview>
 
@@ -118,27 +121,12 @@ export const TooltipDemoRoute = () => (
       />
     </DemoSnippet>
 
-    <DemoSnippet title="Dynamic tooltip with custom wrapper">
-      <DemoPreview>
-        <TestBox>
-          <WithCustomDynamicTooltip
-            content={<div style={{ background: 'red' }}>custom content</div>}
-            mode="dynamic"
-          />
-        </TestBox>
-      </DemoPreview>
-
-      <DemoCode
-        code={SnippetCustomDynamic}
-      />
-    </DemoSnippet>
-
     <DemoSnippet title="Static tooltip with default wrapper">
       <DemoPreview>
         <TestBox>
           <WithDefaultStaticTooltip
             closeOnOutsideClick
-            content={<div style={{ background: 'grey' }}>content in static tooltip</div>}
+            text="Static tooltip renders in a predefined place"
             mode="static"
           />
         </TestBox>
@@ -149,15 +137,51 @@ export const TooltipDemoRoute = () => (
       />
     </DemoSnippet>
 
+    <DemoSnippet title="Dynamic tooltip with custom content">
+      <DemoPreview>
+        <TestBox>
+          <WithCustomDynamicTooltip
+            content={
+              <div
+                style={{
+                  background: 'palevioletred',
+                  color: 'white',
+                  padding: '4px 12px',
+                  fontSize: '12px',
+                }}
+              >
+                <i>custom content</i>
+              </div>
+            }
+            mode="dynamic"
+          />
+        </TestBox>
+      </DemoPreview>
+
+      <DemoCode
+        code={SnippetCustomDynamic}
+      />
+    </DemoSnippet>
+
     <DemoSnippet title="Static tooltip with custom wrapper">
       <DemoPreview>
         <TestBox>
           <WithCustomStaticTooltip
             tooltipRenderer={({ hideTooltip }) =>
-              <div style={{ background: 'grey', width: '100px', height: '100px' }}>
+              <div
+                style={{
+                  background: '#333',
+                  color: 'white',
+                  padding: '12px',
+                  fontSize: '12px',
+                  minWidth: '240px',
+                }}
+              >
+                <p>custom content</p>
                 <Button
                   colorScheme="primary"
                   text="Close me"
+                  size="small"
                   onPress={hideTooltip}
                 />
               </div>

@@ -25,10 +25,20 @@ const WithCustomStaticTooltip = withTooltip(ComponentWithCustomStaticTooltip);
 
 <WithCustomStaticTooltip
   tooltipRenderer={({ hideTooltip }) =>
-    <div style={{ background: 'grey', width: '100px', height: '100px' }}>
+    <div
+      style={{
+        background: '#333',
+        color: 'white',
+        padding: '12px',
+        fontSize: '12px',
+        minWidth: '240px',
+      }}
+    >
+      <p>custom content</p>
       <Button
         colorScheme="primary"
         text="Close me"
+        size="small"
         onPress={hideTooltip}
       />
     </div>

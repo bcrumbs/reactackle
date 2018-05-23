@@ -28,6 +28,17 @@ const WithCustomDynamicTooltip = withTooltip(ComponentWithCustomDynamicTooltip);
 /../
 
 <WithCustomDynamicTooltip
-  content={<div style={{ background: 'red' }}>custom content</div>}
+  content={
+    <div
+      style={{
+        background: 'palevioletred',
+        color: 'white',
+        padding: '4px 12px',
+        fontSize: '12px',
+      }}
+    >
+      <i>custom content</i>
+    </div>
+  }
   mode="dynamic"
 />
