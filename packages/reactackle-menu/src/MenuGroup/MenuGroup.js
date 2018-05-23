@@ -39,30 +39,22 @@ export class MenuGroup extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (
-      this.props.nestingLevel !== nextProps.nestingLevel
-    ) {
+    if (this.props.nestingLevel !== nextProps.nestingLevel) {
       this._broadcast.publish({
         nestingLevel: nextProps.nestingLevel,
       });
     }
   }
-  
+
   _createElementRef(ref) {
     this.element = ref;
   }
-  
+
   render() {
-    const {
-      children,
-      inline,
-    } = this.props;
+    const { children, inline } = this.props;
 
     return (
-      <MenuGroupStyled
-        ref={this._createElementRef}
-        inline={inline}
-      >
+      <MenuGroupStyled ref={this._createElementRef} inline={inline}>
         {children}
       </MenuGroupStyled>
     );
@@ -79,4 +71,3 @@ MenuGroup.childContextTypes = {
 export default withExternalProps(MENU_BROADCAST)(
   ({ externalProps, ...props }) => <MenuGroup {...externalProps} {...props} />,
 );
-

@@ -138,7 +138,15 @@ export class MenuItem extends React.Component {
       [MENU_GROUP_BROADCAST]: this._broadcast.subscribe,
     };
   }
-  
+
+  componentWillReceiveProps(nextProps) {
+    if (this.props.colorScheme !== nextProps.colorScheme) {
+      this._broadcast.publish({
+        colorScheme: nextProps.colorScheme,
+      });
+    }
+  }
+
   _toggleMenu(open) {
     if (this.props.children) {
       this.setState({
@@ -146,28 +154,26 @@ export class MenuItem extends React.Component {
       });
     }
   }
-  
+
   _handleExpandIconClick(event) {
     event.preventDefault();
     this._toggleMenu();
   }
 
   _handleClick() {
-    if (!this.props.children)
-      this.closeRootMenu();
-    else
-      this._toggleMenu();
+    if (!this.props.children) this.closeRootMenu();
+    else this._toggleMenu();
     this.props.onClick();
   }
-  
+
   closeRootMenu() {
     document.dispatchEvent(new MouseEvent('click'));
   }
-  
+
   _createElementRef(ref) {
     this.element = ref;
   }
-  
+
   render() {
     const href = this.props.linkHref;
     const iconLeft = this.props.iconLeft && (
@@ -193,21 +199,19 @@ export class MenuItem extends React.Component {
         colorScheme={this.props.colorScheme}
         active={this.props.active}
       >
-        { this.props.textRight }
+        {this.props.textRight}
       </TextRightStyled>
     );
-    
+
     const image = this.props.image && (
       <ImageStyled
         imageOnly={
-          !this.props.text
-          && !this.props.iconLeft
-          && !this.props.iconRight
+          !this.props.text && !this.props.iconLeft && !this.props.iconRight
         }
         style={{ backgroundImage: `url(${this.props.image})` }}
       />
     );
-    
+
     const textSecondary = this.props.textSecondary && (
       <TextSecondaryStyled
         colorScheme={this.props.colorScheme}
@@ -223,9 +227,7 @@ export class MenuItem extends React.Component {
         addImageOffset={this.props.addImageOffset}
         addIconOffset={this.props.addIconOffset}
       >
-        <TextPrimaryStyled>
-          {this.props.text}
-        </TextPrimaryStyled>
+        <TextPrimaryStyled>{this.props.text}</TextPrimaryStyled>
         {textSecondary}
       </ContentStyled>
     );
@@ -235,33 +237,29 @@ export class MenuItem extends React.Component {
         colorScheme={this.props.colorScheme}
         active={this.props.active}
         onClick={this._handleExpandIconClick}
-
       >
         <ExpandIconStyled opened={this.state.submenuOpen}>
           {this.props.iconExpand}
         </ExpandIconStyled>
       </ExpandButtonStyled>
     );
-    
+
     const ItemWrapper = this.props.renderLink
       ? AnchorStyled.withComponent(this.props.linkComponent)
       : AnchorStyled.withComponent('div');
-    
+
     const itemWrapperProps = {
       colorScheme: this.props.colorScheme,
       active: this.props.active,
       onClick: this._handleClick,
     };
-    
-    if (this.props.renderLink)
-      itemWrapperProps.href = href;
-    
+
+    if (this.props.renderLink) itemWrapperProps.href = href;
+
     const addonRight = this.props.addonRight && (
-      <AddonRightStyled>
-        { this.props.addonRight }
-      </AddonRightStyled>
+      <AddonRightStyled>{this.props.addonRight}</AddonRightStyled>
     );
-    
+
     const children = this.props.children;
 
     return (
@@ -270,9 +268,7 @@ export class MenuItem extends React.Component {
         tabIndex={-1}
         id={this.props.id}
       >
-        <ItemWrapper
-          {...itemWrapperProps}
-        >
+        <ItemWrapper {...itemWrapperProps}>
           {iconLeft}
           {image}
           {text}
@@ -296,10 +292,11 @@ MenuItem.childContextTypes = {
 };
 
 const MenuItemWithMenuProps = withExternalProps(MENU_BROADCAST)(
-  ({ externalProps, ...props }) => <MenuItem {...externalProps} {...props}  />,
+  ({ externalProps, ...props }) => <MenuItem {...externalProps} {...props} />,
 );
+
 export default withExternalProps(MENU_GROUP_BROADCAST)(
   ({ externalProps, ...props }) => (
-    <MenuItemWithMenuProps {...externalProps} {...props}  />
+    <MenuItemWithMenuProps {...externalProps} {...props} />
   ),
 );

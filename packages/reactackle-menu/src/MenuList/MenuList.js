@@ -16,6 +16,10 @@ const propTypes = {
    */
   bordered: PropTypes.bool,
   /**
+   * Define item colorScheme
+   */
+  colorScheme: PropTypes.oneOf(['light', 'dark']),
+  /**
    * Set to 'light' for using menu on dark background
    */
   inline: PropTypes.bool,
@@ -23,6 +27,7 @@ const propTypes = {
 
 const defaultProps = {
   title: '',
+  colorScheme: 'dark',
   bordered: false,
   inline: false,
 };
@@ -33,6 +38,7 @@ export class MenuList extends Component {
 
     this._broadcast = createBroadcast({
       inline: this.props.inline,
+      colorScheme: this.props.colorScheme,
     });
   }
 
@@ -43,26 +49,14 @@ export class MenuList extends Component {
       [MENU_GROUP_BROADCAST]: this._broadcast.subscribe,
     };
   }
-  
-  render() {
-    const {
-      children,
-      title,
-      bordered,
-      inline,
-    } = this.props;
 
-    const titleBox = title && (
-      <TitleStyled>
-        {title}
-      </TitleStyled>
-    );
+  render() {
+    const { children, title, bordered, inline } = this.props;
+
+    const titleBox = title && <TitleStyled>{title}</TitleStyled>;
 
     return (
-      <MenuListStyled
-        bordered={bordered}
-        inline={inline}
-      >
+      <MenuListStyled bordered={bordered} inline={inline}>
         {titleBox}
         {children}
       </MenuListStyled>
@@ -79,13 +73,11 @@ MenuList.childContextTypes = {
 };
 
 const MenuListWithMenuProps = withExternalProps(MENU_BROADCAST)(
-  ({ externalProps, ...props }) => (
-    <MenuList inline={externalProps.inline} {...props} />
-  ),
+  ({ externalProps, ...props }) => <MenuList {...externalProps} {...props} />,
 );
 
 export default withExternalProps(MENU_GROUP_BROADCAST)(
   ({ externalProps, ...props }) => (
-    <MenuListWithMenuProps inline={externalProps.inline} {...props} />
+    <MenuListWithMenuProps {...externalProps} {...props} />
   ),
 );

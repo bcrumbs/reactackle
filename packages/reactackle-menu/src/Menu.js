@@ -24,7 +24,6 @@ const defaultProps = {
 export default class Menu extends Component {
   constructor(props) {
     super(props);
-
     this._broadcast = createBroadcast({
       colorScheme: this.props.colorScheme,
       inline: this.props.inline,
