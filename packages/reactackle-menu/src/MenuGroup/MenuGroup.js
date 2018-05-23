@@ -77,6 +77,6 @@ MenuGroup.childContextTypes = {
 };
 
 export default withExternalProps(MENU_BROADCAST)(
-  ({ externalProps, ...props }) =>
-    <MenuGroup {...props} {...externalProps} />,
+  ({ externalProps, ...props }) => <MenuGroup {...externalProps} {...props} />,
 );
+

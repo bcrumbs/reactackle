@@ -296,11 +296,10 @@ MenuItem.childContextTypes = {
 };
 
 const MenuItemWithMenuProps = withExternalProps(MENU_BROADCAST)(
-  ({ externalProps, ...props }) =>
-    <MenuItem {...props} {...externalProps} />,
-    
+  ({ externalProps, ...props }) => <MenuItem {...externalProps} {...props}  />,
 );
 export default withExternalProps(MENU_GROUP_BROADCAST)(
-  ({ externalProps, ...props }) =>
-    <MenuItemWithMenuProps {...props} {...externalProps} />,
+  ({ externalProps, ...props }) => (
+    <MenuItemWithMenuProps {...externalProps} {...props}  />
+  ),
 );
