@@ -122,8 +122,8 @@ const menuContentComplex = (
 );
 
 const menuContentInline = (
-  <MenuGroup inline>
-    <MenuList inline>
+  <MenuGroup>
+    <MenuList>
       <MenuItem text="Item 1-1" />
       <MenuItem
         text="Item 1-2"
@@ -132,7 +132,7 @@ const menuContentInline = (
       />
     </MenuList>
 
-    <MenuList bordered inline>
+    <MenuList bordered>
       <MenuItem text="Item 2-1" />
       <MenuItem text="Item 2-2" />
     </MenuList>
