@@ -57,6 +57,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
             onVisibleCallback={this._handleVisibleCallback}
             parent={this.state.ref}
             hideTooltip={this._hideTooltip}
+            {...this.props}
           >
             {props.children}
           </StaticTooltipSlot>
