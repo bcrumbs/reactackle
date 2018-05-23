@@ -73,7 +73,7 @@ const ComponentWithDefaultStaticTooltip = props => {
     <div {...wrapperProps}>
       <strong>Click me</strong>
       <props.Tooltip>
-        {props.content}
+        {props.text}
       </props.Tooltip>
     </div>
   );
