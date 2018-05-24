@@ -44,7 +44,7 @@ export class MenuList extends Component {
     this._broadcast = createBroadcast({
       inline: this.props.inline,
       colorScheme: this.props.colorScheme,
-      nestingLevel: this.props.nestingLevel
+      nestingLevel: this.props.nestingLevel,
     });
   }
 
