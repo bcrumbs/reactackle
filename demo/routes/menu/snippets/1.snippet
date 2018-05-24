@@ -1,0 +1,31 @@
+<Menu colorScheme="dark">
+  <MenuGroup>
+      <MenuList>
+        <MenuItem text="Item 1" />
+        <MenuItem text="Item 2" />
+        <MenuItem text="Item 3" />
+      </MenuList>
+
+      <MenuList bordered title="Second items group">
+        <MenuItem text="Item 1" />
+
+        <MenuItem text="Item 2">
+          <MenuGroup nestingLevel={1}>
+            <MenuList>
+              <MenuItem text="Item 2-1" />
+
+              <MenuItem text="Item 2-2">
+                <MenuGroup nestingLevel={2}>
+                  <MenuList>
+                    <MenuItem text="Item 2-2-1" />
+                    <MenuItem text="Item 2-2-2" />
+                  </MenuList>
+                </MenuGroup>
+              </MenuItem>
+
+            </MenuList>
+          </MenuGroup>
+        </MenuItem>
+      </MenuList>
+    </MenuGroup>
+</Menu>
