@@ -27,7 +27,7 @@ const defaultProps = {
   allowedSlideOnAdjacentEdge: false,
 };
 
-class StaticTooltipSlot extends Component {
+export class StaticTooltipSlot extends Component {
   constructor(props) {
     super(props);
 

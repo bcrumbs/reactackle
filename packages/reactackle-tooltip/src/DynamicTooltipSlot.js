@@ -23,7 +23,7 @@ const defaultProps = {
   cleanEventListeners: noop,
 };
 
-class DynamicTooltipSlot extends Component {
+export class DynamicTooltipSlot extends Component {
   constructor(props) {
     super(props);
 

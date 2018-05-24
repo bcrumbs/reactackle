@@ -5,7 +5,9 @@ import { isUndef } from "reactackle-core";
 
 import Tooltip from "./Tooltip";
 import TooltipWrapper from "./TooltipWrapper";
+// eslint-disable-next-line
 import DynamicTooltipSlot from "./DynamicTooltipSlot";
+// eslint-disable-next-line
 import StaticTooltipSlot from "./StaticTooltipSlot";
 
 const wrapWithClass = Component => {

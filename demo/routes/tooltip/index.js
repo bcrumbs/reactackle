@@ -11,7 +11,9 @@ const defaultProps = {
 };
 
 export const TooltipIndexRoute = props => {
-  const itemProps = <RouteProps componentCode={TooltipCode} />;
+  const itemProps = [
+    <RouteProps componentCode={TooltipCode} key='tooltip' />,
+  ];
 
   return (
     <div className="route-info">
