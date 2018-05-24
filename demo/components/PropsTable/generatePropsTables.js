@@ -1,4 +1,4 @@
-import { parse as parseCode } from 'react-docgen';
+import { parse as parseCode, resolver } from 'react-docgen';
 import { parse as parseJSDoc } from 'doctrine';
 import map from 'lodash.map';
 import React from 'react';
@@ -91,7 +91,12 @@ export default function generatePropsTables(
   componentCode,
   mainTableName = 'Component Props',
 ) {
-  const { props } = parseCode(componentCode);
+  const parsedCode = parseCode(
+    componentCode,
+    resolver.findAllComponentDefinitions,
+  );
+
+  const props = parsedCode[0].props;
   const tables = {
     [mainTableName]: [],
   };
