@@ -8,10 +8,25 @@ import { TooltipWrapperStyled } from './styles/TooltipWrapperStyled';
 import { withEventListeners } from './common';
 
 const propTypes = {
+  /**
+   * Determines whether Tooltip is visible
+   */
   visible: PropTypes.bool,
+  /**
+   * Determines x axis Tooltip position
+   */
   positionX: PropTypes.oneOf(["right", "left"]),
+  /**
+   * Determines y axis Tooltip position
+   */
   positionY: PropTypes.oneOf(["top", "bottom"]),
+  /**
+   * Function to toggle event listener
+   */
   toggleEventListener: PropTypes.func,
+  /**
+   * Function to toggle event clean event listener
+   */
   cleanEventListeners: PropTypes.func,
 };
 
