@@ -14,21 +14,19 @@ const propTypes = {
    */
   closeOnOutsideClick: PropTypes.bool,
   /**
-   * Determines x axis position
+   * @ignore
    */
   positionX: PropTypes.oneOf(['left', 'right']),
   /**
-   * Determines y axis position
+   * @ignore
    */
   positionY: PropTypes.oneOf(['top', 'bottom']),
   /**
-   * Set priority direction. The positioned component doesn't fit boundaries
-   * in default direction this defines which side this component will try to
-   * occupy first: opposite horizontal or opposite vertical.
+   * @ignore
    */
   direction: PropTypes.oneOf(['vertical', 'horizontal']),
   /**
-   * Set the bypass curcuit: along the outer or inner border of the component
+   * @ignore
    */
   type: PropTypes.oneOf(['outer', 'inner']),
   /**
@@ -48,15 +46,15 @@ const propTypes = {
    */
   toggleEventListener: PropTypes.func.isRequired,
   /**
-   * Allow the component to change its position along the current edge
+   * @ignore
    */
   allowedSlideOnCurrentEdge: PropTypes.bool,
   /**
-   * Allow the component to jump to the opposite edge if necessary
+   * @ignore
    */
   allowedSlideOnOppositeEdge: PropTypes.bool,
   /**
-   * Allow the component to jump to the adjacent edge if necessary
+   * @ignore
    */
   allowedSlideOnAdjacentEdge: PropTypes.bool,
 };

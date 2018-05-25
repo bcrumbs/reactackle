@@ -13,11 +13,11 @@ const propTypes = {
    */
   visible: PropTypes.bool,
   /**
-   * Determines x axis Tooltip position
+   * @ignore
    */
   positionX: PropTypes.oneOf(["right", "left"]),
   /**
-   * Determines y axis Tooltip position
+   * @ignore
    */
   positionY: PropTypes.oneOf(["top", "bottom"]),
   /**

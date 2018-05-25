@@ -1,5 +1,11 @@
 import React from 'react';
-import { RouteInfo, RouteProps } from '../../components/Route/RouteStructure';
+import {
+  RouteInfo,
+  RouteProps,
+  RouteMemo,
+  MemoItem,
+} from '../../components/Route/RouteStructure';
+
 // eslint-disable-next-line
 import DynamicTooltipSlotCode from '!raw-loader!../../../packages/reactackle-tooltip/src/DynamicTooltipSlot';
 
@@ -31,6 +37,12 @@ export const TooltipIndexRoute = props => {
     <div className="route-info">
       <RouteInfo {...props}>
         {itemProps}
+
+        <RouteMemo>
+          <MemoItem>
+            See AutoPosition props for precise Tooltip's position definition.
+          </MemoItem>
+        </RouteMemo>
       </RouteInfo>
     </div>
   );
