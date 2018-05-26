@@ -40,7 +40,9 @@ export const TooltipIndexRoute = props => {
 
         <RouteMemo>
           <MemoItem>
-            See AutoPosition props for precise Tooltip's position definition.
+            {
+              "See AutoPosition props for precise Tooltip's position definition."
+            }
           </MemoItem>
         </RouteMemo>
       </RouteInfo>
