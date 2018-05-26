@@ -1,0 +1,44 @@
+/../
+
+const ComponentWithCustomDynamicTooltip = props => {
+  const wrapperProps = {
+    onClick: props.toggleTooltip,
+    onFocus: props.showTooltip,
+    onBlur: props.hideTooltip,
+    onMouseEnter: props.showTooltip,
+    onMouseLeave: props.hideTooltip,
+    tabIndex: '1',
+  };
+  return (
+    <div {...wrapperProps}>
+      <strong>Hover me</strong>
+      <props.TooltipSlot>
+        {({ tooltipRef }) =>
+          <div ref={tooltipRef}>
+            {props.content}
+          </div>
+        }
+      </props.TooltipSlot>
+    </div>
+  );
+};
+
+const WithCustomDynamicTooltip = withTooltip(ComponentWithCustomDynamicTooltip);
+
+/../
+
+<WithCustomDynamicTooltip
+  content={
+    <div
+      style={{
+        background: 'palevioletred',
+        color: 'white',
+        padding: '4px 12px',
+        fontSize: '12px',
+      }}
+    >
+      <i>custom content</i>
+    </div>
+  }
+  mode="dynamic"
+/>

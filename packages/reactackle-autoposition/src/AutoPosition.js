@@ -92,6 +92,11 @@ const propTypes = {
    * Specify function to call on overflow
    */
   onOverflow: PropTypes.func,
+  // ...Portal.propTypes,
+  children: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.element,
+  ]).isRequired,
   onOpen: PropTypes.func,
 };
 
@@ -526,6 +531,7 @@ export default class AutoPosition extends Component {
   }
 
   render() {
+    const { children } = this.props;
     if (!ExecutionEnvironment.canUseDOM) return null;
     const style = {
       position: 'fixed',
@@ -536,7 +542,13 @@ export default class AutoPosition extends Component {
     return !this.props.visible ? null : (
       <Portal>
         <div style={style} ref={this._saveRef}>
-          {this.props.children}
+          {typeof children !== 'function'
+            ? children
+            : children({
+              positionX: this.state.currentPositionX,
+              positionY: this.state.currentPositionY,
+            })
+          }
         </div>
       </Portal>
     );

@@ -1,8 +1,6 @@
-'use strict';
-
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ArticleModule } from '../../Article/Article';
+import { ArticleModule } from '../../Article';
 import { MemoBoxStyled } from './styles/MemoBoxStyled';
 import { MemoHeadingStyled } from './styles/MemoHeadingStyled';
 
@@ -13,7 +11,7 @@ const propTypes = {
 
 const defaultProps = {
   kind: 'alert',
-  title: 'Improvements',
+  title: '',
 };
 
 export const RouteMemo = props => (
