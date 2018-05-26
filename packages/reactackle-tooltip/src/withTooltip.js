@@ -44,9 +44,8 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
       this._handleVisibleCallback = this._handleVisibleCallback.bind(this);
 
       this.TooltipSlot = props => {
-        const { mode } = this.props;
 
-        if (mode !== "dynamic" && mode !== "static") return null;
+        const mode = this.props.mode || 'dynamic';
 
         return mode === "dynamic" ? (
           <DynamicTooltipSlot visible={this.state.visible}>
