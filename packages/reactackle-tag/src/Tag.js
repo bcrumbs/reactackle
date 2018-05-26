@@ -103,7 +103,7 @@ export const TagComponent = ({
   children,
   ...props
 }) => {
-  const tooltip = tooltipText && <props.Tooltip text={tooltipText} />;
+  const tooltip = tooltipText && <props.Tooltip >{tooltipText}</props.Tooltip>;
   
   const textElement = text && (
     <TextStyled isBounded={bounded} title={text}>
