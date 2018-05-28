@@ -1,4 +1,3 @@
-'use strict';
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -55,7 +54,7 @@ export const TooltipIconComponent = props => {
   return (
     <TooltipIconStyled {...wrapperProps}>
       <span>?</span>
-      <Tooltip text={props.text} />
+      <Tooltip>{props.text}</Tooltip>
     </TooltipIconStyled>
   );
 };

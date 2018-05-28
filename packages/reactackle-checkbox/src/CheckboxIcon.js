@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withTooltip } from 'reactackle-tooltip';
-import { withTheme } from 'reactackle-core';
+import { withTheme, noop } from 'reactackle-core';
 import { CheckboxIconStyled } from './styles/CheckboxIconStyled';
 
 const propTypes = {
@@ -11,21 +11,23 @@ const propTypes = {
   theme: PropTypes.object.isRequired,
   Tooltip: PropTypes.func.isRequired,
   toggleTooltip: PropTypes.func.isRequired,
-  showTooltip: PropTypes.func.isRequired,
-  hideTooltip: PropTypes.func.isRequired,
+  showTooltip: PropTypes.func,
+  hideTooltip: PropTypes.func,
 };
 
 const defaultProps = {
   checked: void 0,
   disabled: false,
   tooltipText: '',
+  showTooltip: noop,
+  hideTooltip: noop,
 };
 
 const CheckboxIconComponent = props => {
   const Tooltip = props.Tooltip;
 
   const tooltip = props.tooltipText
-    ? <Tooltip text={props.tooltipText} />
+    ? <Tooltip>{props.tooltipText}</Tooltip>
     : null;
 
   const tooltipManagementProps = props.tooltipText

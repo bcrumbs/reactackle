@@ -1,12 +1,14 @@
-'use strict';
 
 import React from 'react';
+
 import {
   TooltipIcon,
 } from 'reactackle';
+
 import {
   RouteDemo,
 } from '../../components/Route/RouteStructure';
+
 import {
   TestBox,
   DemoSnippet,

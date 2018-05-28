@@ -67,8 +67,10 @@ const TextComponent = ({
   hideTooltip,
   ...props
 }) => {
-  const tooltipElement = <props.Tooltip text={tooltipText} />;
-  
+  const tooltipElement = tooltipText && (
+    <props.Tooltip>{tooltipText}</props.Tooltip>
+  );
+
   const wrapperProps = {
     onClick: toggleTooltip,
     onFocus: showTooltip,
@@ -76,7 +78,7 @@ const TextComponent = ({
     onMouseEnter: showTooltip,
     onMouseLeave: hideTooltip,
   };
-  
+
   return (
     <TextStyled {...wrapperProps} display={display}>
       {text || children}
