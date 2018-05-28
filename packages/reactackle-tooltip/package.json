@@ -1,6 +1,6 @@
 {
   "name": "reactackle-tooltip",
-  "version": "1.0.0-beta.8",
+  "version": "1.1.0",
   "description": "Tooltip component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -19,12 +19,12 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-portal": "^3.1.0",
-    "reactackle-autoposition": "^1.0.0-beta.8"
+    "reactackle-autoposition": "^1.1.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.8",
-    "reactackle-autoposition": "^1.0.0-beta.8",
+    "reactackle-autoposition": "^1.1.0",
+    "reactackle-core": "^1.1.0",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
@@ -32,9 +32,9 @@
     "enzyme": "^3.1.0",
     "enzyme-to-json": "^3.1.4",
     "react-test-renderer": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.8",
-    "reactackle-autoposition": "^1.0.0-beta.8",
-    "reactackle-test-utils": "^1.0.0-beta.8",
+    "reactackle-autoposition": "^1.1.0",
+    "reactackle-core": "^1.1.0",
+    "reactackle-test-utils": "^1.1.0",
     "rimraf": "^2.6.1"
   },
   "repository": {

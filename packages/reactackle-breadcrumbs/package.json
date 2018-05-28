@@ -1,6 +1,6 @@
 {
   "name": "reactackle-breadcrumbs",
-  "version": "1.0.0-beta.8",
+  "version": "1.1.0",
   "description": "Breadcrumbs component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -21,17 +21,17 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "reactackle-core": "^1.0.0-beta.8",
-    "reactackle-button": "^1.0.0-beta.8",
-    "reactackle-icons": "^1.0.0-beta.8",
+    "reactackle-button": "^1.1.0",
+    "reactackle-core": "^1.1.0",
+    "reactackle-icons": "^1.1.0",
     "styled-components": "^2.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "reactackle-core": "^1.0.0-beta.8",
-    "reactackle-test-utils": "^1.0.0-beta.8",
-    "reactackle-button": "^1.0.0-beta.8",
-    "reactackle-icons": "^1.0.0-beta.8",
+    "reactackle-button": "^1.1.0",
+    "reactackle-core": "^1.1.0",
+    "reactackle-icons": "^1.1.0",
+    "reactackle-test-utils": "^1.1.0",
     "rimraf": "^2.6.1"
   },
   "repository": {
