@@ -27,7 +27,7 @@ const CheckboxIconComponent = props => {
   const Tooltip = props.Tooltip;
 
   const tooltip = props.tooltipText
-    ? <Tooltip text={props.tooltipText} />
+    ? <Tooltip>{props.tooltipText}</Tooltip>
     : null;
 
   const tooltipManagementProps = props.tooltipText
