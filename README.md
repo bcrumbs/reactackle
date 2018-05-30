@@ -56,12 +56,6 @@ npm install reactackle-button --save
 * [Toggle Button](http://reactackle-docs.braincrumbs.io/#/toggle-button/demo)
 * [Tooltip](http://reactackle-docs.braincrumbs.io/#/tooltip/demo)
 
-#### Coming soon components
-* Progress, Preloader
-* Menu
-* Alert Area
-* Accordion
-
 ## Browser Support
 At present we aim to support the last two versions of the following browsers: Chrome, Edge, Firefox, Safari, Opera.
 
