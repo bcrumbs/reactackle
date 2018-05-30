@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         ).map(
                           ([key, { name }]) => (
                             <MenuGroupItem
-                              linkHref={`/${key}`}
+                              linkHref={`/${key}/demo`}
                               text={name}
                               key={key}
                             />
