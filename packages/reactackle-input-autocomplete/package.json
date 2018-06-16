@@ -1,6 +1,6 @@
 {
   "name": "reactackle-input-autocomplete",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Autocomponent component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -25,7 +25,7 @@
     "lodash.pick": "^4.4.0",
     "prop-types": "^15.5.10",
     "reactackle-autoposition": "^1.1.0",
-    "reactackle-text-field": "^1.1.0"
+    "reactackle-text-field": "^1.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

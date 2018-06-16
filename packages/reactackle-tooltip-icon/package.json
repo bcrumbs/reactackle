@@ -1,6 +1,6 @@
 {
   "name": "reactackle-tooltip-icon",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TooltipIcon component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10",
-    "reactackle-tooltip": "^1.1.0"
+    "reactackle-tooltip": "^1.1.1"
   },
   "peerDependencies": {
     "react": "^16.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "reactackle-selectbox",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Selectbox component of the Reactackle ui library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -25,7 +25,7 @@
     "prop-types": "^15.5.10",
     "reactackle-autoposition": "^1.1.0",
     "reactackle-icons": "^1.1.0",
-    "reactackle-tooltip-icon": "^1.1.0"
+    "reactackle-tooltip-icon": "^1.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
