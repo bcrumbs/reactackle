@@ -108,13 +108,11 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
               <WithTheme(WithTooltip(CheckboxIcon))
                 checked={false}
                 disabled={false}
-                showTooltip={[Function]}
                 tooltipText=""
               >
                 <WithTooltip(CheckboxIcon)
                   checked={false}
                   disabled={false}
-                  showTooltip={[Function]}
                   theme={
                     Object {
                       "reactackle": Object {
@@ -888,13 +886,11 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
               <WithTheme(WithTooltip(CheckboxIcon))
                 checked={false}
                 disabled={false}
-                showTooltip={[Function]}
                 tooltipText=""
               >
                 <WithTooltip(CheckboxIcon)
                   checked={false}
                   disabled={false}
-                  showTooltip={[Function]}
                   theme={
                     Object {
                       "reactackle": Object {
@@ -1668,13 +1664,11 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
               <WithTheme(WithTooltip(CheckboxIcon))
                 checked={false}
                 disabled={false}
-                showTooltip={[Function]}
                 tooltipText=""
               >
                 <WithTooltip(CheckboxIcon)
                   checked={false}
                   disabled={false}
-                  showTooltip={[Function]}
                   theme={
                     Object {
                       "reactackle": Object {
@@ -2448,13 +2442,11 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
               <WithTheme(WithTooltip(CheckboxIcon))
                 checked={false}
                 disabled={false}
-                showTooltip={[Function]}
                 tooltipText=""
               >
                 <WithTooltip(CheckboxIcon)
                   checked={false}
                   disabled={false}
-                  showTooltip={[Function]}
                   theme={
                     Object {
                       "reactackle": Object {
