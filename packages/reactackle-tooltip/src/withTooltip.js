@@ -156,6 +156,7 @@ export const withTooltip = (WrappedComponent, dontModifyProps = false) => {
     "toggleTooltip",
     "visible",
     "hideTooltip",
+    "showTooltip",
     "isTooltipActive",
     "Tooltip",
   ].forEach(propName => {
