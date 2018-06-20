@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.1.2](https://github.com/bcrumbs/reactackle/tree/v1.1.2) (2018-06-20)
+[Full Changelog](https://github.com/bcrumbs/reactackle/compare/v1.1.0...v1.1.2)
+
+**Closed issues:**
+
+- reactackle-checkbox tab behavior, focused twice, label with tabIndex=0 [\#101](https://github.com/bcrumbs/reactackle/issues/101)
+
 ## [v1.1.0](https://github.com/bcrumbs/reactackle/tree/v1.1.0) (2018-05-28)
 [Full Changelog](https://github.com/bcrumbs/reactackle/compare/v1.0.0-beta.8...v1.1.0)
 
