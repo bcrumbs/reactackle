@@ -13,6 +13,7 @@ exports[`<Checkbox/> could one call onChange event before call change event on <
       disabled={false}
       id="checkbox-5"
       onChange={[Function]}
+      tabIndex={-1}
       type="checkbox"
     />
     <label
@@ -76,6 +77,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
             disabled={false}
             id="checkbox-7"
             onChange={[Function]}
+            tabIndex={-1}
             type="checkbox"
           >
             <input
@@ -84,6 +86,7 @@ exports[`<Checkbox/> handle keyboard checking 1`] = `
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
+              tabIndex={-1}
               type="checkbox"
             />
           </CheckboxInputStyled>
@@ -854,6 +857,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
             disabled={false}
             id="checkbox-7"
             onChange={[Function]}
+            tabIndex={-1}
             type="checkbox"
           >
             <input
@@ -862,6 +866,7 @@ exports[`<Checkbox/> handle keyboard checking 2`] = `
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
+              tabIndex={-1}
               type="checkbox"
             />
           </CheckboxInputStyled>
@@ -1632,6 +1637,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
             disabled={false}
             id="checkbox-7"
             onChange={[Function]}
+            tabIndex={-1}
             type="checkbox"
           >
             <input
@@ -1640,6 +1646,7 @@ exports[`<Checkbox/> handle keyboard checking 3`] = `
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
+              tabIndex={-1}
               type="checkbox"
             />
           </CheckboxInputStyled>
@@ -2410,6 +2417,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
             disabled={false}
             id="checkbox-7"
             onChange={[Function]}
+            tabIndex={-1}
             type="checkbox"
           >
             <input
@@ -2418,6 +2426,7 @@ exports[`<Checkbox/> handle keyboard checking 4`] = `
               disabled={false}
               id="checkbox-7"
               onChange={[Function]}
+              tabIndex={-1}
               type="checkbox"
             />
           </CheckboxInputStyled>
@@ -3174,6 +3183,7 @@ exports[`<Checkbox/> renders correctly if prop checked set true 1`] = `
       disabled={false}
       id="checkbox-1"
       onChange={[Function]}
+      tabIndex={-1}
       type="checkbox"
     />
     <label
@@ -3223,6 +3233,7 @@ exports[`<Checkbox/> renders correctly if prop defaultChecked set true 1`] = `
       disabled={false}
       id="checkbox-2"
       onChange={[Function]}
+      tabIndex={-1}
       type="checkbox"
     />
     <label
@@ -3272,6 +3283,7 @@ exports[`<Checkbox/> renders correctly if prop disabled set true 1`] = `
       disabled={true}
       id="checkbox-3"
       onChange={[Function]}
+      tabIndex={-1}
       type="checkbox"
     />
     <label
@@ -3321,6 +3333,7 @@ exports[`<Checkbox/> renders correctly if prop label set test 1`] = `
       disabled={false}
       id="checkbox-4"
       onChange={[Function]}
+      tabIndex={-1}
       type="checkbox"
     />
     <label
@@ -3377,6 +3390,7 @@ exports[`<Checkbox/> renders correctly with default props 1`] = `
       disabled={false}
       id="checkbox-0"
       onChange={[Function]}
+      tabIndex={-1}
       type="checkbox"
     />
     <label

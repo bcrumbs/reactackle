@@ -193,6 +193,7 @@ export default class Checkbox extends Component {
             checked={checked}
             disabled={this.disabled}
             onChange={this._handleChange}
+            tabIndex={-1}
           />
           <CheckboxLabelStyled
             textFree={!this.props.label && !this.props.labelElement}
