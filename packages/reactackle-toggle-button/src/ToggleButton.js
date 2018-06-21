@@ -78,6 +78,15 @@ export default class ToggleButton extends Component {
     this._handleBlur = this._handleBlur.bind(this);
   }
 
+  componentWillReceiveProps(nextProps) {
+    const isDefaultValueChanged =
+      nextProps.defaultChecked !== this.props.defaultChecked;
+      
+    if (isDefaultValueChanged) {
+      this.setState({ checked: nextProps.defaultChecked });
+    }
+  }
+
   _handleChange(event) {
     const checked = event.target.checked;
     this.props.onChange({
