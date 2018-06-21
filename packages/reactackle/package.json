@@ -1,6 +1,6 @@
 {
   "name": "reactackle",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "React components library",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && npx babel ./src --out-dir ./dist"
@@ -24,7 +24,7 @@
     "reactackle-breadcrumbs": "^1.1.0",
     "reactackle-button": "^1.1.0",
     "reactackle-card": "^1.1.0",
-    "reactackle-checkbox": "^1.1.2",
+    "reactackle-checkbox": "^1.1.3",
     "reactackle-core": "^1.1.0",
     "reactackle-dialog": "^1.1.0",
     "reactackle-form": "^1.1.0",
@@ -41,7 +41,7 @@
     "reactackle-tag": "^1.1.1",
     "reactackle-text": "^1.1.1",
     "reactackle-text-field": "^1.1.1",
-    "reactackle-toggle-button": "^1.1.1",
+    "reactackle-toggle-button": "^1.1.3",
     "reactackle-tooltip": "^1.1.1",
     "reactackle-tooltip-icon": "^1.1.1"
   },
