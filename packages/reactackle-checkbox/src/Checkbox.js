@@ -89,6 +89,12 @@ export default class Checkbox extends Component {
         checked: this.props.checked,
       });
     }
+    const isDefaultValueChanged =
+      nextProps.defaultChecked !== this.props.defaultChecked;
+      
+    if (isDefaultValueChanged) {
+      this.setState({ checked: nextProps.defaultChecked });
+    }
   }
 
   get disabled() {
