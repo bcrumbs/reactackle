@@ -7,7 +7,7 @@
 
 **Open-source components library built with [React](https://facebook.github.io/react/) and [Styled Components](https://www.styled-components.com).**
 
-Reactackle is a family of components that make it easy to design beautiful websites and apps. It's still young but we are going to constantly add new components. Also we use it with our open-source web app constructor [Booben](https://booben.io).
+Reactackle is a family of components that make it easy to design beautiful websites and apps. It's still young but we are going to constantly add new components. Also we use it with our open-source **web app constructor [Booben](https://booben.io)**.
 
 ## Getting started
 
