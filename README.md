@@ -65,7 +65,7 @@ Contributions are welcome!
 Also we're opened to any proposals. Feel free to submit an issue or just [write us a few words](mailto:hello@braincrumbs.io).
 
 ## Stay in touch
-* [Twitter](https://twitter.com/@reactackle)
+* [Twitter](https://twitter.com/@bcrmbs)
 * [Slack](https://reactackle.slack.com)
 
 ## License
